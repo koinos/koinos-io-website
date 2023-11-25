@@ -21,7 +21,7 @@ export default function Ct08_1() {
                     <div className="row">
                         <div className="col">
                             <div className="img-block wow fadeInUp">
-                                <img className="img-fluid" src="/images/tokenomic.jpg" alt="video-preview" />
+                                <img className="img-fluid" src="/images/tokenomic.png" alt="video-preview" />
                             </div>
                         </div>
                     </div>

@@ -8,14 +8,14 @@ export default function Footer3() {
                     {/* FOOTER CONTENT */}
                     <div className="row">
                         {/* FOOTER LOGO */}
-                        <div className="col-xl-3">
+                        <div className="col-sm-3">
                             <div className="footer-info">
                                 <img className="footer-logo" src="/images/logo-purple.png" alt="footer-logo" />
                                 <img className="footer-logo-dark" src="/images/logo-purple-white.png" alt="footer-logo" />
                             </div>
                         </div>
                         {/* FOOTER LINKS */}
-                        <div className="col-sm-4 col-lg-3 col-xl-2">
+                        <div className="col-sm-3">
                             <div className="footer-links fl-1">
                                 {/* Title */}
                                 <h6 className="s-17 w-700">Help</h6>
@@ -31,12 +31,12 @@ export default function Footer3() {
                             </div>
                         </div> {/* END FOOTER LINKS */}
 
-                        {/* FOOTER LINKS */}
-                        <div className="col-sm-4 col-lg-3 col-xl-2">
+                        {/* 
+                        <div className="col-sm-3 col-lg-3 col-xl-2">
                             <div className="footer-links fl-3">
-                                {/* Title */}
+                                
                                 <h6 className="s-17 w-700">Legal</h6>
-                                {/* Links */}
+                                
                                 <ul className="foo-links clearfix">
                                     <li>
                                         <p><Link href="/terms">Terms of Use</Link></p>
@@ -52,10 +52,11 @@ export default function Footer3() {
                                     </li>
                                 </ul>
                             </div>
-                        </div> {/* END FOOTER LINKS */}
+                        </div>
+                        */}
 
                         {/* FOOTER LINKS */}
-                        <div className="col-sm-4 col-lg-2">
+                        <div className="col-sm-3">
                             <div className="footer-links fl-2">
                                 {/* Title */}
                                 <h6 className="s-17 w-700">Social</h6>
@@ -72,6 +73,23 @@ export default function Footer3() {
                                     </li>
                                     <li>
                                         <p><Link href="https://www.youtube.com/channel/UCamXqlj7q14TllcrCM0ikkw" target="_blank">Youtube</Link></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> {/* END FOOTER LINKS */}
+
+                        {/* FOOTER LINKS */}
+                        <div className="col-sm-3">
+                            <div className="footer-links fl-2">
+                                {/* Title */}
+                                <h6 className="s-17 w-700">Others</h6>
+                                {/* Links */}
+                                <ul className="foo-links clearfix">
+                                    <li>
+                                        <p><Link href="https://koinos.group/story" target="_blank">Our Story</Link></p>
+                                    </li>
+                                    <li>
+                                        <p><Link href="https://medium.com/koinosnetwork" target="_blank">Blog</Link></p>
                                     </li>
                                 </ul>
                             </div>

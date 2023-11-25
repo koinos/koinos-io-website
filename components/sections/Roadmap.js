@@ -40,14 +40,14 @@ export default function Roadmap() {
                 BurnKoin<br/>
                 Fogata<br/>
                 Multiple NFT collections<br/>
-                Koinos Pro development
+                KoinosPro development
                 `,
       status: "done",
     },
     {
       title: "Q2 2023",
       description: `
-                Koinos Pro MVP<br/>
+                KoinosPro MVP<br/>
                 NFTNYC Hackathon<br/>
                 Kollection NFT marketplace launch<br/>
                 Koinos Account Protocol launch<br/>
@@ -59,8 +59,8 @@ export default function Roadmap() {
     {
       title: "Q3 2023",
       description: `
-                Koinos Pro Paid Tiers<br/>
-                Koinos Pro Mana Fountain
+                KoinosPro Paid Tiers<br/>
+                KoinosPro Mana Fountain
                 `,
       status: "done",
     },
@@ -68,7 +68,7 @@ export default function Roadmap() {
       title: "Q4 2023",
       description: `
                 Kollection No-Code NFTs<br/>
-                Koinos Pro Fusion<br/>
+                KoinosPro Fusion<br/>
                 Developer Program<br/>
                 KoinDX V2<br/>
                 KAP Free Access
@@ -98,7 +98,7 @@ export default function Roadmap() {
             `,
     },
     {
-      title: "Modular Building Box",
+      title: "dApp Module Toolkit",
       description: `
                 State Manager<br/>
                 Smart Locker<br/>

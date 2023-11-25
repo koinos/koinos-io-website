@@ -14,7 +14,7 @@ export default function Menu() {
                     <ul className="sub-menu">
                         <li aria-haspopup="true"><Link href="/whitepaper">Whitepaper</Link></li>
                         <li aria-haspopup="true"><Link href="/#features">Features</Link></li>
-                        <li aria-haspopup="true"><Link href="/framework">Framework</Link></li>
+                        {/*<li aria-haspopup="true"><Link href="/framework">Framework</Link></li>*/}
                         <li aria-haspopup="true"><Link href="/faqs">FAQs</Link></li>
                     </ul>
                 </li>
@@ -28,16 +28,7 @@ export default function Menu() {
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
-                    <Link href="https://medium.com/koinosnetwork" target="_blank" className="h-link">Blog</Link>
-                </li>
-
-
-                <li className="nl-simple" aria-haspopup="true">
                     <Link href="/#community" className="h-link">Community</Link>
-                </li>
-
-                <li className="nl-simple" aria-haspopup="true">
-                    <Link href="/#features" className="h-link">About</Link>
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
@@ -46,10 +37,6 @@ export default function Menu() {
 
                 <li className="nl-simple" aria-haspopup="true">
                     <Link href="/#team" className="h-link">Team</Link>
-                </li>
-
-                <li className="nl-simple" aria-haspopup="true">
-                    <Link href="https://koinos.group/story" target="_blank" className="h-link">Our Story</Link>
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">

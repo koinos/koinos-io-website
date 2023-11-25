@@ -1128,9 +1128,11 @@ body.wsactive {
 }
 
 .wsactive .wsmobileheader {
+  /*
   margin-right: 240px;
   margin-right: 300px;
   margin-right: 350px;
+  */
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -1303,7 +1305,7 @@ body.wsactive {
   -webkit-overflow-scrolling: touch;
   visibility: visible;
   z-index: 1000;
-  top: 0;
+  top: 80px;
 }
 
 .wsactive .wsmenu > .wsmenu-list {

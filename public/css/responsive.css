@@ -3717,7 +3717,7 @@
   .smllogo img { width: auto; max-width: inherit; max-height: 34px; }
 
   .wsmenu > .wsmenu-list { width: 345px; margin-right: -345px; }
-  .wsactive .wsmobileheader { margin-right: 345px; }
+  .wsactive .wsmobileheader {  }
   .overlapblackbg { width: calc(100% - 345px); }
 
   .wsanimated-arrow { padding: 14px 30px 14px 0px; margin: 25px 18px 0 0; }

@@ -4,7 +4,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
-import "/public/css/demo.css"
+//import "/public/css/demo.css"
 import "/public/css/bootstrap.min.css"
 import "/public/css/flaticon.css"
 import "/public/css/menu.css"
@@ -17,6 +17,7 @@ import "/public/css/lunar.css"
 import "/public/css/animate.css"
 import "/public/css/purple-theme.css"
 import "/public/css/responsive.css"
+import "/public/css/modal-video.css"
 
 function MyApp({ Component, pageProps }) {
 

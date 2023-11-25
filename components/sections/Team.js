@@ -5,39 +5,29 @@ export default function Team() {
 
     const team = [
         {
-            name: 'Andrew Levine',
-            role: 'CEO',
-            photo: '/images/team/andrew.png',
-            linkedin: '1234',
-            twitter: 'sd'
-        },
-        {
-            name: 'Ron Hamenahem',
-            role: 'COO',
-            photo: '/images/team/ron.png',
-            linkedin: '1234',
-            twitter: 'sd'
+            name: 'Michael Vandeberg',
+            role: 'CIO of Koinos Group and Koinos Architect',
+            photo: '/images/team/michael.png',
         },
         {
             name: 'Steve Gerbino',
-            role: 'CTO',
+            role: 'CTO of Koinos Group and Koinos Architect',
             photo: '/images/team/steve.png',
-            linkedin: '1234',
-            twitter: 'sd'
         },
         {
-            name: 'Michael Vandeberg',
-            role: 'Blockchain Architect',
-            photo: '/images/team/michael.png',
-            linkedin: '1234',
-            twitter: 'sd'
+            name: 'Andrew Levine',
+            role: 'CEO of Koinos Group',
+            photo: '/images/team/andrew.png',
+        },
+        {
+            name: 'Ron Hamenahem',
+            role: 'COO of Koinos Group',
+            photo: '/images/team/ron.png',
         },
         {
             name: 'Nathaniel Caldwell',
-            role: 'Blockchain Architect',
+            role: 'Creator of Koinos CLI',
             photo: '/images/team/nathaniel.png',
-            linkedin: '1234',
-            twitter: 'sd'
         },
         {
             name: 'Justin W.',
@@ -130,7 +120,7 @@ export default function Team() {
                     </div>
                     {/* TEAM MEMBERS WRAPPER */}
                     <div className="team-members-wrapper" >
-                        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                        <div className="row row-cols-2 row-cols-md-4">
 
                             {
                                 team.map(member =>

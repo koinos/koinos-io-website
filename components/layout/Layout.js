@@ -17,7 +17,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
         !isMobileMenu ? document.body.classList.add("wsactive") : document.body.classList.remove("wsactive")
     }
 
-    useEffect(() => {
+    /*useEffect(() => {
         const WOW = require('wowjs')
         window.wow = new WOW.WOW({
             live: false
@@ -30,7 +30,8 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 setScroll(scrollCheck)
             }
         })
-    }, [])
+    }, [])*/
+
     return (
         <>
             <PageHead headTitle={headTitle} />

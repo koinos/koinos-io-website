@@ -3,7 +3,7 @@
 import BrandSlider1 from "../slider/BrandSlider1"
 export default function Exchanges() {
 
-    const title = "Where To Find ";
+    const title = "Exchange Partners";
 
     return (
         <>
@@ -13,7 +13,7 @@ export default function Exchanges() {
                     <div className="row justify-content-center">
                         <div className="col-md-10 col-lg-9">
                             <div className="brands-title mb-50">
-                                <h5 className="s-18">{title} <span className="color--theme">$KOIN</span></h5>
+                                <h5 className="s-18">{title}</h5>
                             </div>
                         </div>
                     </div>

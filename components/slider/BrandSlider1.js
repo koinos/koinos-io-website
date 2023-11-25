@@ -16,7 +16,7 @@ const swiperOptions = {
 
     breakpoints: {
         320: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             // spaceBetween: 30,
         },
         575: {
@@ -68,7 +68,7 @@ export default function BrandSlider1() {
             name: 'chainge',
             imageLight: '/images/exchanges/chainge.png',
             imageDark: '/images/exchanges/chainge-white.png',
-            url: 'https://www.chainge.finance/'
+            url: 'https://www.chainge.finance/info/currencies/KOIN'
         }
     ];
 
@@ -81,7 +81,7 @@ export default function BrandSlider1() {
                 </SwiperSlide>
             </Swiper> */}
 
-            <Swiper {...swiperOptions} className="brands-carousel-5 justify-content">
+            <Swiper {...swiperOptions} className="brands-carousel-5 justify-content d-none d-md-block">
                 {/* BRAND LOGO IMAGE */}
 
                 {
@@ -95,6 +95,16 @@ export default function BrandSlider1() {
 
             </Swiper>
 
+            <div className="d-block d-lg-none">
+                {
+                    brands.map(brand =>
+                        <div className="brand-logo" key={brand.name}>
+                            <Link href={brand.url} target="_blank"><img className="img-fluid light-theme-img" src={brand.imageLight} alt={`${brand.name}-logo`}/></Link>
+                            <Link href={brand.url} target="_blank"><img className="img-fluid dark-theme-img" src={brand.imageDark} alt={`${brand.name}-logo`}/></Link>
+                        </div>
+                    )
+                }
+            </div>
         </>
     )
 }
