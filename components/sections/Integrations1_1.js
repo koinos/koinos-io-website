@@ -43,7 +43,7 @@ export default function Integrations1_1() {
             url: 'https://fogata.io/'
         },
         {
-            name: 'Koin City',
+            name: 'Koincity',
             description: 'Launchpad',
             icon: '/images/dapps/koincity.png',
             url: 'https://koincity.com/'
@@ -110,7 +110,7 @@ export default function Integrations1_1() {
         },
         {
             name: 'Koinos Garden',
-            description: 'Utilities',
+            description: 'Investment DAO',
             icon: '/images/dapps/koinos-garden.png',
             url: 'https://dapp.koinosgarden.com/'
         },

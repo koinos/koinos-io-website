@@ -1312,7 +1312,7 @@ body.wsactive {
   -webkit-overflow-scrolling: touch;
   visibility: visible;
   z-index: 1000;
-  top: 80px;
+  top: 60px;
 }
 
 .wsactive .wsmenu > .wsmenu-list {

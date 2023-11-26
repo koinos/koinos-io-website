@@ -82,7 +82,7 @@ export default function Roadmap() {
       description: `
                 Unreal Engine Integration<br/>
                 Unity Integration<br/>
-                Splinterlands<br/>
+                Splinterlands Collaboration<br/>
                 Koinos Kong            
             `,
       status: "todo",
@@ -93,7 +93,7 @@ export default function Roadmap() {
                 Crowdfunding dApp<br/>
                 Treasury Management dApp<br/>
                 Staking Pools<br/>
-                KoinCity Markets<br/>
+                Koincity Markets<br/>
                 KoinDX V3
             `,
     },
@@ -134,7 +134,6 @@ export default function Roadmap() {
                 WASM VM Upgrade<br/>
                 Live Snapshotting<br/>
                 Koinos Token Stats & Graphs<br/>
-                Koin Forge (Cloud Mining)<br/>
                 New KOIN and VHP contracts standard<br/>     
             `,
       status: "todo",

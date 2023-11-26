@@ -95,12 +95,12 @@ export default function BrandSlider1() {
 
             </Swiper>
 
-            <div className="d-block d-lg-none">
+            <div className="d-block d-md-none">
                 {
                     brands.map(brand =>
                         <div className="brand-logo" key={brand.name}>
-                            <Link href={brand.url} target="_blank"><img className="img-fluid light-theme-img" src={brand.imageLight} alt={`${brand.name}-logo`}/></Link>
-                            <Link href={brand.url} target="_blank"><img className="img-fluid dark-theme-img" src={brand.imageDark} alt={`${brand.name}-logo`}/></Link>
+                            <Link href={brand.url} target="_blank"><img style={{height: '100px'}} className="light-theme-img" src={brand.imageLight} alt={`${brand.name}-logo`}/></Link>
+                            <Link href={brand.url} target="_blank"><img style={{height: '100px'}} className="dark-theme-img" src={brand.imageDark} alt={`${brand.name}-logo`}/></Link>
                         </div>
                     )
                 }

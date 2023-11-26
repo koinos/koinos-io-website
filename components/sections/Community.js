@@ -71,7 +71,7 @@ export default function Community() {
                                         <span className="section-id">{title1}</span>
                                         {/* Title */}
                                         <h2 className="s-46 w-700">{title2}</h2>
-                                        <p className="mb-0" dangerouslySetInnerHTML={{ __html: description }}></p>
+                                        <p className="mb-4 mb-lg-0" dangerouslySetInnerHTML={{ __html: description }}></p>
                                     </div>
                                 </div>	{/* END TEXT BLOCK */}
 

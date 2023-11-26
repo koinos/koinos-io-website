@@ -4661,7 +4661,7 @@
   .blog-header .smllogo img { max-height: 28px; }
 
   .wsmenu > .wsmenu-list { width: 325px; margin-right: -325px; }
-  .wsactive .wsmobileheader { margin-right: 325px; }
+  .wsactive .wsmobileheader { /*margin-right: 325px;*/ }
   .overlapblackbg { width: calc(100% - 325px); }
 
   .wsanimated-arrow { padding: 14px 30px 14px 0px; margin: 25px 16px 0 0; }
@@ -5830,7 +5830,7 @@
   .blog-header .smllogo img { max-height: 28px; }
 
   .wsmenu > .wsmenu-list { width: 325px; margin-right: -325px; }
-  .wsactive .wsmobileheader { margin-right: 325px; }
+  .wsactive .wsmobileheader { /*margin-right: 325px;*/ }
   .overlapblackbg { width: calc(100% - 325px); }
 
   .wsanimated-arrow { padding: 14px 30px 14px 0px; margin: 25px 16px 0 0; }
@@ -7019,7 +7019,7 @@
   .blog-header .smllogo img { max-height: 28px; }
 
   .wsmenu > .wsmenu-list { width: 290px; margin-right: -290px; }
-  .wsactive .wsmobileheader { margin-right: 290px; }
+  .wsactive .wsmobileheader { /*margin-right: 290px;*/ }
   .overlapblackbg { width: calc(100% - 290px); }
 
   .wsanimated-arrow { padding: 14px 30px 14px 0px; margin: 25px 16px 0 0; }
@@ -8242,7 +8242,7 @@
   .blog-header .smllogo img { max-height: 26px; }
 
   .wsmenu > .wsmenu-list { width: 250px; margin-right: -250px; }
-  .wsactive .wsmobileheader { margin-right: 250px; }
+  .wsactive .wsmobileheader { /*margin-right: 250px;*/ }
   .overlapblackbg { width: calc(100% - 250px); }
 
   .wsanimated-arrow { padding: 14px 30px 14px 0px; margin: 25px 15px 0 0; }
