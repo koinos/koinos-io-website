@@ -3267,7 +3267,7 @@ span.sm-info {
 /*------------------------------------------*/
 
 .hero-section h2 {
-  margin-bottom: 28px;
+  margin-bottom: 2px;
 }
 
 .hero-section h2.s-48,
@@ -4040,13 +4040,14 @@ span.sm-info {
   padding-top: 170px;
 }
 
-.hero-27-txt h2 { 
+/*.hero-27-txt h2 { 
   margin-bottom: 26px!important;
-}
+}*/
 
 .hero-27-txt p.s-20 { 
   padding: 0 6%;
   margin-bottom: 30px!important;
+  margin-top: 28px!important;
 }
 
 .hero-27-txt p.s-21 { 
@@ -7192,8 +7193,6 @@ ul.tm-social li {
 
 .tm-social.ico-20 [class*="flaticon-"]:before, 
 .tm-social.ico-20 [class*="flaticon-"]:after { font-size: 1.15rem; }
-
-
 
 
 /* ==========================================================================

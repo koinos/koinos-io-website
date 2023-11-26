@@ -321,11 +321,11 @@
   /*   HERO   
   /*------------------------------------------*/
 
-  .hero-section h2 { margin-bottom: 24px; }
+  .hero-section h2 { margin-bottom: 2px; }
   .hero-section h2.s-48, .hero-section h2.s-50 { margin-bottom: 35px; }
 
   .hero-section p.p-md { margin-bottom: 25px; }
-  .hero-section p.p-lg, .hero-section p.p-xl { margin-bottom: 28px; }
+  .hero-section p.p-lg, .hero-section p.p-xl { margin-bottom: 2px; }
   .hero-section p.s-20, .hero-section p.s-22, .hero-section p.s-24 { margin-bottom: 32px; }
   .hero-section p.s-21 { font-size: 1.25rem; margin-bottom: 22px; }
   .hero-section .btn.mt-15, .hero-section .btns-group.mt-15 { margin-top: 10px; }
@@ -485,7 +485,7 @@
 
   /* HERO-27 */
   #hero-27 .hero-overlay { padding-top: 160px; }
-  .hero-27-txt h2 { margin-bottom: 28px!important; }
+  .hero-27-txt h2 { margin-bottom: 5px; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 8px; }
 
   /*------------------------------------------*/
@@ -1658,7 +1658,7 @@
 
   .hero-section { margin-top: 80px; }
 
-  .hero-section h2 { margin-bottom: 18px; }
+  .hero-section h2 { margin-bottom: 2px; }
   .hero-section h2.s-48, .hero-section h2.s-50 { margin-bottom: 24px; }
 
   .hero-section p.p-md, .hero-section p.p-lg, .hero-section p.p-xl { margin-bottom: 24px; }
@@ -1858,7 +1858,7 @@
 
   /* HERO-27 */
   #hero-27 .hero-overlay { padding-top: 80px; }
-  .hero-27-txt h2 { margin-bottom: 24px!important; }
+  .hero-27-txt h2 { margin-bottom: 2px; }
   .hero-27-txt p.s-20, .hero-27-txt p.s-21 { padding: 0; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 0; }
 
@@ -3055,7 +3055,7 @@
 
   .hero-section { margin-top: 80px; }
 
-  .hero-section h2 { margin-bottom: 15px; }
+  .hero-section h2 { margin-bottom: 2px; }
   .hero-section h2.s-48, .hero-section h2.s-50 { margin-bottom: 25px; }
   .hero-section h2.s-62 { margin-bottom: 15px; }
 
@@ -3214,7 +3214,7 @@
 
   /* HERO-27 */
   #hero-27 .hero-overlay { padding-top: 80px; }
-  .hero-27-txt h2 { margin-bottom: 24px!important; }
+  .hero-27-txt h2 { margin-bottom: 2px; }
   .hero-27-txt p.s-20, .hero-27-txt p.s-21 { padding: 0; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 0; }
 
@@ -3762,7 +3762,7 @@
   /*   HERO   
   /*------------------------------------------*/
 
-  .hero-section h2 { margin-bottom: 15px; }
+  .hero-section h2 { margin-bottom: 2px; }
   .hero-section h2.s-48, .hero-section h2.s-50 { margin-bottom: 25px; }
   .hero-section p.p-md, .hero-section p.p-lg, .hero-section p.p-xl { margin-bottom: 25px; }
   .hero-section p.s-21 { font-size: 1.375rem; margin-bottom: 22px; }
@@ -4709,7 +4709,7 @@
 
   .hero-section.blur--purple:after { top: -25%; opacity: .18; }
 
-  .hero-section h2 { margin-bottom: 18px; }
+  .hero-section h2 { margin-bottom: 2px; }
   .hero-section h2.s-48, .hero-section h2.s-50 { margin-bottom: 20px; }
   .hero-section p.p-md, .hero-section p.p-lg, .hero-section p.p-xl { margin-bottom: 25px; }
   .hero-section p.s-21 { font-size: 1.3125rem; margin-bottom: 22px; }
@@ -4900,7 +4900,7 @@
   .hero-26-img { margin-top: 35px; }
 
   /* HERO-27 */
-  .hero-27-txt h2 { font-size: 2.05rem; margin-bottom: 15px!important; }
+  .hero-27-txt h2 { font-size: 2.05rem; margin-bottom: 2px; }
   .hero-27-txt p.s-20, .hero-27-txt p.s-21 { font-size: 1.1875rem; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 0!important; }
 
@@ -5878,7 +5878,7 @@
 
   .hero-section.blur--purple:after { top: -25%; opacity: .18; }
 
-  .hero-section h2 { margin-bottom: 15px; }
+  .hero-section h2 { margin-bottom: 2px; }
   .hero-section h2.s-48, .hero-section h2.s-50 { margin-bottom: 20px; }
   .hero-section p.p-md, .hero-section p.p-lg, .hero-section p.p-xl { margin-bottom: 25px; }
   .hero-section p.s-21 { font-size: 1.3125rem; margin-bottom: 22px; }
@@ -6070,7 +6070,7 @@
   .hero-26-img { margin-top: 35px; }
 
   /* HERO-27 */
-  .hero-27-txt h2 { font-size: 1.9rem; margin-bottom: 15px!important; }
+  .hero-27-txt h2 { font-size: 1.9rem; margin-bottom: 2px; }
   .hero-27-txt p.s-20, .hero-27-txt p.s-21 { font-size: 1.15rem; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 0!important; }
 
@@ -7067,7 +7067,7 @@
 
   .hero-section.blur--purple:after { top: -25%; opacity: .16; }
 
-  .hero-section h2 { margin-bottom: 15px; }
+  .hero-section h2 { margin-bottom: 2px; }
   .hero-section h2.s-48, .hero-section h2.s-50 { margin-bottom: 20px; }
   .hero-section p.p-md, .hero-section p.p-lg, .hero-section p.p-xl { margin-bottom: 25px; }
   .hero-section p.s-21 { font-size: 1.217948rem; margin-bottom: 22px; }
@@ -7266,9 +7266,9 @@
   .hero-26-img { margin-top: 35px; }
 
   /* HERO-27 */
-  .hero-27-txt h2 { font-size: 1.85rem; margin-bottom: 15px!important; }
+  .hero-27-txt h2 { font-size: 1.85rem; margin-bottom: 2px; }
   .hero-27-txt p.s-20, .hero-27-txt p.s-21 { font-size: 1.0625rem; }
-  .hero-27-txt p.s-20 { margin-bottom: 20px!important; }
+  .hero-27-txt p.s-20 { margin-bottom: 20px!important; margin-top: 18px !important; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 0!important; }
 
   /*------------------------------------------*/
@@ -8289,7 +8289,7 @@
 
   .hero-section.blur--purple:after { top: -25%; opacity: .16; }
 
-  .hero-section h2 { margin-bottom: 13px; }
+  .hero-section h2 { margin-bottom: 2px; }
   .hero-section h2.s-48, .hero-section h2.s-50 { margin-bottom: 20px; }
   .hero-section p.p-md, .hero-section p.p-lg, .hero-section p.p-xl,
   .hero-section p.s-20, .hero-section p.s-22, .hero-section p.s-24 { margin-bottom: 23px; }
@@ -8496,9 +8496,9 @@
 
   /* HERO-27 */
   #hero-27 .hero-overlay { padding-top: 70px; }
-  .hero-27-txt h2 { font-size: 1.85rem; margin-bottom: 15px!important; }
+  .hero-27-txt h2 { font-size: 1.85rem; margin-bottom: 2px; }
   .hero-27-txt p.s-20, .hero-27-txt p.s-21 { font-size: 1.0625rem; }
-  .hero-27-txt p.s-20 { margin-bottom: 20px!important; }
+  .hero-27-txt p.s-20 { margin-bottom: 20px!important; margin-top: 18px !important; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 0!important; }
 
   /*------------------------------------------*/

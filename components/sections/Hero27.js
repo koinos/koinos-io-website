@@ -5,7 +5,7 @@ export default function Hero27({ onOpenModal }) {
   const title1 = "The World's First";
   const title2 = "Free-To-Use Blockchain";
   const subtle =
-    "Opensource, Free to Use, Modular, Scalable, and Fair Launched";
+    "Opensource, Free to Use, Modular, Scalable and Fair Launched";
 
   return (
     <>
@@ -17,8 +17,10 @@ export default function Hero27({ onOpenModal }) {
               <div className="col-md-10 col-lg-9">
                 <div className="hero-27-txt wow fadeInUp">
                   {/* Title */}
-                  <h2 className="s-60 w-700">{title1}</h2>
-                  <h2 className="s-60 w-700">{title2}</h2>
+                  <div className="hero-titles">
+                    <h2 className="s-60 w-700">{title1}</h2>
+                    <h2 className="s-60 w-700">{title2}</h2>
+                  </div>
                   {/* Text */}
                   <p className="s-20">{subtle}</p>
                   {/* Buttons */}
@@ -32,7 +34,7 @@ export default function Hero27({ onOpenModal }) {
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      Build on Koinos
+                      &nbsp;&nbsp;&nbsp;&nbsp;Build on Koinos&nbsp;&nbsp;&nbsp;&nbsp;
                     </Link>
                   </div>
                   {/* 

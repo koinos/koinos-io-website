@@ -82,8 +82,7 @@ export default function Roadmap() {
       description: `
                 Unreal Engine Integration<br/>
                 Unity Integration<br/>
-                Splinterlands Collaboration<br/>
-                Koinos Kong            
+                Splinterlands Collaboration       
             `,
       status: "todo",
     },
@@ -129,12 +128,10 @@ export default function Roadmap() {
     {
       title: "Blockchain",
       description: `
-                Rust Smart Contracts<br/>
-                EVM Smart Contracts<br/>
                 WASM VM Upgrade<br/>
                 Live Snapshotting<br/>
                 Koinos Token Stats & Graphs<br/>
-                New KOIN and VHP contracts standard<br/>     
+                New KOIN and VHP contracts standard     
             `,
       status: "todo",
     },

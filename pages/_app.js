@@ -19,6 +19,11 @@ import "/public/css/purple-theme.css"
 import "/public/css/responsive.css"
 import "/public/css/modal-video.css"
 
+/* Uncomment to use pre-loader with the loading animation
+   WARNING: WITH THIS ENABLED, THE PAGE WILL NOT RENDER FOR BROWSERS THAT HAVE JAVASCRIPT DISABLED
+   THIS IS AN SEO ISSUE AND ALSO FOR THOSE USING SCREEN READERS ETC OR WHATEVER ANCIENT TECHNOLOGY
+   OR SECURITY IDEOLOGIES THEY MAY HAVE */
+/*
 function MyApp({ Component, pageProps }) {
 
     const [loading, setLoading] = useState(true)
@@ -29,13 +34,19 @@ function MyApp({ Component, pageProps }) {
 
     }, [])
     return (<>
-        {/* <SmoothScroll /> */}
         {!loading ? (
             <Component {...pageProps} />
         ) : (
             <Preloader />
         )}
     </>)
+}*/
+
+function MyApp({ Component, pageProps }) {
+
+    return (<>
+            <Component {...pageProps} />
+    </>);
 }
 
 export default MyApp
