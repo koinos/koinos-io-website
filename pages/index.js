@@ -51,10 +51,9 @@ export default function Home() {
         <Team />
 
         {/*
-                        <Blog1_6 />
-                    */}
-
-        <Newsletter1_1 />
+          <Blog1_6 />
+          <Newsletter1_1 />
+        */}
 
         <hr className="divider" />
       </Layout>

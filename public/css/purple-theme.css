@@ -7158,7 +7158,14 @@ p.rbox-2-txt span {
 /*  Team Member Social Links
 /*------------------------------------------*/
 
-ul.tm-social {
+.tm-social-container {
+  display: flex;
+  align-items: left;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+/*ul.tm-social {
   position: absolute;
   top: -1px;
   right: 8px;
@@ -7169,15 +7176,14 @@ ul.tm-social {
 
 #team-1 ul.tm-social {
   right: 5px;
-}
+}*/
 
 ul.tm-social li {
   width: auto !important;
   display: inline-block !important;
   vertical-align: top;
   clear: none !important;
-  padding: 0;
-  margin-left: 10px;
+  padding-right: 5px;
   opacity: .6;
   -webkit-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;

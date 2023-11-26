@@ -1,7 +1,29 @@
 import Link from "next/link"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import { useEffect } from 'react';
+
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, headerCls }) {
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const offset = window.scrollY;
+            const menu = document.querySelector('.wsmainwp'); 
+    
+            if (offset > 100) {
+                menu.classList.add('menuOnceScrolled');
+            } else {
+                menu.classList.remove('menuOnceScrolled');
+            }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <>
             <header id="header" className={`tra-menu white-scroll ${headerCls ? headerCls : ""}`}>
