@@ -56,13 +56,13 @@ export default function Integrations1_1() {
         },
         {
             name: 'Koinos Raffles',
-            description: 'Gamblers',
+            description: 'Gambling',
             icon: '/images/dapps/koinos-raffles.png',
             url: 'https://koinosraffles.io/'
         },
         {
             name: 'Koinos Blocks',
-            description: 'Koinos blockchain explorer',
+            description: 'Block Explorer',
             icon: '/images/dapps/koinosblocks.png',
             url: 'https://koinosblocks.com/'
         },
@@ -74,7 +74,7 @@ export default function Integrations1_1() {
         },
         {
             name: 'Atomic Swaps',
-            description: 'Trustless exchange',
+            description: 'P2P Swaps',
             icon: '/images/dapps/atomic-swap.png',
             url: 'https://swap.fbslo.net/'
         },
