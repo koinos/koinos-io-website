@@ -8,7 +8,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
     useEffect(() => {
         const handleScroll = () => {
             const offset = window.scrollY;
-            const menu = document.querySelector('.wsmainwp'); 
+            const menu = document.querySelector('.wsmainwp');
     
             if (offset > 100) {
                 menu.classList.add('menuOnceScrolled');
@@ -49,7 +49,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                             </div>
                             {/* MAIN MENU */}
                             <nav className="wsmenu clearfix" style={{ height: `${isMobileMenu ? "100vh" : ""}` }}>
-                                {isMobileMenu ? <MobileMenu /> : <Menu />}
+                                {isMobileMenu ? <MobileMenu handleMobileMenu={handleMobileMenu}/> : <Menu />}
                             </nav> {/* END MAIN MENU */}
                         </div>
                     </div> {/* END NAVIGATION MENU */}
