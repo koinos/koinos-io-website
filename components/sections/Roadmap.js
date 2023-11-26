@@ -53,14 +53,15 @@ export default function Roadmap() {
                 Koinos Account Protocol launch<br/>
                 Smart Wallets<br/>
                 KoinDX launch<br/>
+                Koinos Polls launch<br/>
                 `,
       status: "done",
     },
     {
       title: "Q3 2023",
       description: `
-                KoinosPro Paid Tiers<br/>
-                KoinosPro Mana Fountain
+                Nicknames<br/>
+                KoinDX V2
                 `,
       status: "done",
     },
@@ -68,9 +69,7 @@ export default function Roadmap() {
       title: "Q4 2023",
       description: `
                 Kollection No-Code NFTs<br/>
-                KoinosPro Fusion<br/>
                 Developer Program<br/>
-                KoinDX V2<br/>
                 KAP Free Access
                 `,
       status: "todo",
@@ -84,7 +83,6 @@ export default function Roadmap() {
                 Unreal Engine Integration<br/>
                 Unity Integration<br/>
                 Splinterlands<br/>
-                Crypto Bulls<br/>
                 Koinos Kong            
             `,
       status: "todo",
@@ -94,8 +92,19 @@ export default function Roadmap() {
       description: `
                 Crowdfunding dApp<br/>
                 Treasury Management dApp<br/>
-                Staking Pools
+                Staking Pools<br/>
+                KoinCity Markets<br/>
+                KoinDX V3
             `,
+    },
+    {
+      title: "KoinosPro",
+      description: `
+                KoinosPro V1<br/>
+                KoinosPro Mana Fountain<br/>
+                KoinosPro Fusion       
+            `,
+      status: "todo",
     },
     {
       title: "dApp Module Toolkit",
@@ -112,6 +121,7 @@ export default function Roadmap() {
       title: "Wallets",
       description: `
                 Hardware Wallet Support<br/>
+                Metamask Smart Wallet Integration<br/>
                 Fiat On/Off Ramp
             `,
       status: "todo",
@@ -124,7 +134,8 @@ export default function Roadmap() {
                 WASM VM Upgrade<br/>
                 Live Snapshotting<br/>
                 Koinos Token Stats & Graphs<br/>
-                Koin Forge (Cloud Mining)            
+                Koin Forge (Cloud Mining)<br/>
+                New KOIN and VHP contracts standard<br/>     
             `,
       status: "todo",
     },
@@ -184,14 +195,12 @@ export default function Roadmap() {
                     </div>
                     {/* Icon */}
                     <div className="ico-wrap">
-                      <div className="cbox-2-ico bg--theme color--white">
-                        {item.status === "done" && (
-                          <i className="fa-solid fa-check fa-lg"></i>
-                        )}
-                        {item.status === "progress" && (
-                          <i className="fa-solid fa-circle-notch fa-spin fa-lg"></i>
-                        )}
-                      </div>
+                    {item.status === "done" && (
+                        <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                      )}
+                      {item.status !== "done" && (
+                        <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                      )}
                       <span className="cbox-2-line" />
                     </div>
                     {/* Text */}
@@ -235,14 +244,12 @@ export default function Roadmap() {
                     </div>
                     {/* Icon */}
                     <div className="ico-wrap">
-                      <div className="cbox-2-ico bg--theme color--white">
-                        {item.status === "done" && (
-                          <i className="fa-solid fa-check fa-lg"></i>
-                        )}
-                        {item.status === "progress" && (
-                          <i className="fa-solid fa-circle-notch fa-spin fa-lg"></i>
-                        )}
-                      </div>
+                      {item.status === "done" && (
+                        <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                      )}
+                      {item.status !== "done" && (
+                        <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                      )}
                       <span className="cbox-2-line" />
                     </div>
                     {/* Text */}

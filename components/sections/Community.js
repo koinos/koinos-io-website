@@ -64,8 +64,19 @@ export default function Community() {
                         <div className="section-overlay">
                             <div className="row d-flex align-items-center">
 
+                                {/* TEXT BLOCK */}
+                                <div className="col-md-6 order-1 order-md-2">
+                                    <div className="txt-block right-column wow fadeInLeft">
+                                        {/* Section ID */}
+                                        <span className="section-id">{title1}</span>
+                                        {/* Title */}
+                                        <h2 className="s-46 w-700">{title2}</h2>
+                                        <p className="mb-0" dangerouslySetInnerHTML={{ __html: description }}></p>
+                                    </div>
+                                </div>	{/* END TEXT BLOCK */}
+
                                 {/* IMAGE BLOCK */}
-                                <div className="col-md-6 p-sm-5">
+                                <div className="col-md-6 p-sm-5 order-2 order-md-1">
                                     <div className="row">
 
                                         {
@@ -80,19 +91,6 @@ export default function Community() {
 
                                     </div>
                                 </div>
-
-                                {/* TEXT BLOCK */}
-                                <div className="col-md-6">
-                                    <div className="txt-block right-column wow fadeInLeft">
-                                        {/* Section ID */}
-                                        <span className="section-id">{title1}</span>
-                                        {/* Title */}
-                                        <h2 className="s-46 w-700">{title2}</h2>
-                                        <p className="mb-0" dangerouslySetInnerHTML={{ __html: description }}></p>
-                                    </div>
-                                </div>	{/* END TEXT BLOCK */}
-
-
 
                             </div>   {/* End row */}
                         </div>    {/* End section overlay */}

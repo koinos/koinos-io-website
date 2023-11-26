@@ -33,6 +33,7 @@ export default function Team() {
             name: 'Justin W.',
             role: 'Developer',
             photo: '/images/team/justin.jpg',
+            linkedin: 'https://www.linkedin.com/in/justin-welch-5520a9112/',
             twitter: 'https://twitter.com/ogjustinw',
             github: 'https:/github.com/jredbeard'
         },
@@ -97,6 +98,7 @@ export default function Team() {
             name: '@mixibo',
             role: 'Developer',
             photo: '/images/team/mixibo.jpg',
+            github: 'https://github.com/MiXiBo',
         },
         {
             name: '@red.raven',
@@ -139,7 +141,7 @@ export default function Team() {
                                                 <h6 className="s-20 color--black w-700">{member.name}</h6>
                                                 <p className="color--grey">{member.role}</p>
                                                 {/* Social Links */}
-                                                <ul className="tm-social ico-20 clearfix">
+                                                <ul className="tm-social ico-20 clearfix d-none d-md-block">
                                                     {
                                                         member.linkedin &&
                                                         <li>
