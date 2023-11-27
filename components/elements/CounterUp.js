@@ -1,30 +1,43 @@
-import { useEffect, useState } from 'react'
-import Counter from './Counter'
+import { useEffect, useState, useRef } from "react";
+import Counter from "./Counter";
 
 export default function CounterUp({ end }) {
-    const [inViewport, setInViewport] = useState(false)
+  const [inViewport, setInViewport] = useState(false);
+  const countElementRef = useRef(null);
 
-    const handleScroll = () => {
-        const elements = document.getElementsByClassName('count-element')
-        if (elements.length > 0) {
-            const element = elements[0]
-            const rect = element.getBoundingClientRect()
-            const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight
-            if (isInViewport && !inViewport) {
-                setInViewport(true)
-            }
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // when the element is in the viewport, set inViewport to true
+        if (entry.isIntersecting) {
+          setInViewport(true);
+          // don't continue observing after being visible (for performance)
+          observer.unobserve(entry.target);
         }
+      },
+      {
+        // execute at 50% visbility
+        threshold: 0.5,
+      }
+    );
+
+    if (countElementRef.current) {
+      observer.observe(countElementRef.current);
     }
 
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
-        return () => {
-            window.removeEventListener('scroll', handleScroll)
-        }
-    }, [])
-    return (
-        <>
-            <span className="count-element">{inViewport && <Counter end={end} duration={20} />}</span>
-        </>
-    )
+    // cleanup
+    return () => {
+      if (countElementRef.current) {
+        observer.unobserve(countElementRef.current);
+      }
+    };
+  }, []);
+
+  return (
+    <>
+      <span ref={countElementRef} className="count-element">
+        {inViewport && <Counter end={end} duration={20} />}
+      </span>
+    </>
+  );
 }
