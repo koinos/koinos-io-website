@@ -82,9 +82,12 @@ export default function Footer3() {
                         <div className="col-sm-3">
                             <div className="footer-links fl-2">
                                 {/* Title */}
-                                <h6 className="s-17 w-700">Others</h6>
+                                <h6 className="s-17 w-700">Other</h6>
                                 {/* Links */}
                                 <ul className="foo-links clearfix">
+                                    <li>
+                                        <p><Link href="https://claim.koinos.io" target="_blank">Claim Pre-Mainnet KOIN</Link></p>
+                                    </li>
                                     <li>
                                         <p><Link href="https://koinos.group/story" target="_blank">Our Story</Link></p>
                                     </li>
