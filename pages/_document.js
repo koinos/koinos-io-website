@@ -3,7 +3,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
       <title>Koinos Network</title>
       <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
       <link
@@ -42,6 +42,7 @@ export default function Document() {
         }
         key="ogdesc"
       />
+      </Head>
 
       <body>
         <Main />
