@@ -1,11 +1,12 @@
 import Link from "next/link";
 import VideoPopup from "../elements/VideoPopup";
+import { useTranslation } from 'react-i18next';
 
 export default function Hero27({ onOpenModal }) {
-  const title1 = "The World's First";
-  const title2 = "Free-To-Use Blockchain";
-  const subtle =
-    "Opensource, Free to Use, Modular, Scalable and Fair Launched";
+  const { t } = useTranslation();
+  const title1 = t("hero_title1");
+  const title2 = t("hero_title2");
+  const subtle = t("hero_subtitle");
 
   return (
     <>

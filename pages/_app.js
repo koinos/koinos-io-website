@@ -18,6 +18,7 @@ import "/public/css/animate.css"
 import "/public/css/purple-theme.css"
 import "/public/css/responsive.css"
 import "/public/css/modal-video.css"
+import i18n from "../components/i18n/i18next";
 
 /* Uncomment to use pre-loader with the loading animation
    WARNING: WITH THIS ENABLED, THE PAGE WILL NOT RENDER FOR BROWSERS THAT HAVE JAVASCRIPT DISABLED
