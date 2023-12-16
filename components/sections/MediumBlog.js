@@ -73,9 +73,6 @@ export default function MediumBlog() {
     }
   }, [items]); // re-run when items changes
 
-  console.log(items);
-  console.log(displayItems);
-
   return (
     <>
       <section id="blog-1" className="py-100 blog-section division">
