@@ -14,6 +14,7 @@ import Community from "@/components/sections/Community";
 import Ct08_1 from "@/components/sections/Ct08_1";
 import Wallets from "@/components/sections/Wallets";
 import ModalVideo from "react-modal-video";
+import MediumBlog from "@/components/sections/MediumBlog";
 
 export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -41,6 +42,8 @@ export default function Home() {
         <Integrations1_1 />
 
         <Wallets />
+
+        <MediumBlog />
 
         <Ct08_1 />
 
