@@ -31,12 +31,12 @@ export default function Footer3() {
                             </div>
                         </div> {/* END FOOTER LINKS */}
 
-                        {/* 
+                        {/*
                         <div className="col-sm-3 col-lg-3 col-xl-2">
                             <div className="footer-links fl-3">
-                                
+
                                 <h6 className="s-17 w-700">Legal</h6>
-                                
+
                                 <ul className="foo-links clearfix">
                                     <li>
                                         <p><Link href="/terms">Terms of Use</Link></p>
@@ -63,10 +63,10 @@ export default function Footer3() {
                                 {/* Links */}
                                 <ul className="foo-links clearfix">
                                     <li>
-                                        <p><Link href="https://t.me/joinchat/SXe6mLnb8Ssywlq9" target="_blank">Telegram</Link></p>
+                                        <p><Link href="https://telegram.koinos.io" target="_blank">Telegram</Link></p>
                                     </li>
                                     <li>
-                                        <p><Link href="https://discord.com/invite/GErGNsu" target="_blank">Discord</Link></p>
+                                        <p><Link href="https://discord.koinos.io" target="_blank">Discord</Link></p>
                                     </li>
                                     <li>
                                         <p><Link href="https://twitter.com/koinosnetwork" target="_blank">Twitter</Link></p>
@@ -98,7 +98,7 @@ export default function Footer3() {
                             </div>
                         </div> {/* END FOOTER LINKS */}
 
-                        {/* FOOTER NEWSLETTER FORM 
+                        {/* FOOTER NEWSLETTER FORM
                         <div className="col-sm-10 col-md-8 col-lg-4 col-xl-3">
                             <div className="footer-form">
 
@@ -117,7 +117,7 @@ export default function Footer3() {
                                     <label htmlFor="s-email" className="form-notification" />
                                 </form>
                             </div>
-                        </div> 
+                        </div>
                         */}
                     </div> {/* END FOOTER CONTENT */}
                     <hr /> {/* FOOTER DIVIDER LINE */}
@@ -130,7 +130,7 @@ export default function Footer3() {
                                     <p className="p-sm">© 2023 Koinos. <span>All Rights Reserved</span></p>
                                 </div>
                             </div>
-                            {/* FOOTER SOCIALS 
+                            {/* FOOTER SOCIALS
                             <div className="col">
                                 <ul className="bottom-footer-socials ico-20 text-end">
                                     <li><Link href="https://discord.com/invite/GErGNsu"><span className="flaticon-facebook" /></Link></li>
