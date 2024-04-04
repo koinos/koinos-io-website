@@ -12,12 +12,12 @@ export default function Community() {
         {
             name: 'Telegram',
             icon: '/images/community/telegram.png',
-            url: 'https://t.me/koinos_community'
+            url: 'https://telegram.koinos.io'
         },
         {
             name: 'Discord',
             icon: '/images/community/discord.png',
-            url: 'https://discord.com/invite/GErGNsu'
+            url: 'https://discord.koinos.io'
         },
         {
             name: 'X',
@@ -80,7 +80,7 @@ export default function Community() {
                                     <div className="row">
 
                                         {
-                                            communities.map((community, index) => 
+                                            communities.map((community, index) =>
                                                 <div key={index} className="col-4 col-md-4 mb-30 wow fadeInUp">
                                                     <Link href={community.url} target="_blank">
                                                         <img className="img-fluid" src={community.icon} alt={community.name} />
