@@ -7265,9 +7265,14 @@ h5.h5-title {
 }
 
 #statistic-5 .color--white .statistic-digit {
+  margin-left: 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 
+/* Added data wrapper to align statistic-blocks */
+.data-wrapper {
+  margin-left: 100px;
+}
 /*------------------------------------------*/
 /*  STATISTIC BLOCK TYPOGRAPHY
 /*------------------------------------------*/
@@ -7295,6 +7300,8 @@ h2.statistic-number {
 
 #statistic-5 .statistic-digit h2 {
   letter-spacing: -1.5px;
+  display: flex;
+  justify-content: center;
 }
 
 #statistic-5 .statistic-txt h5 {

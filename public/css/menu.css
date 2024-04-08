@@ -834,6 +834,11 @@ body {
     height: 0;
   }
 
+  /* Added to align statistics on mobile screen-size */
+  .data-wrapper {
+    margin-right: 100px;
+  }
+
   .wsmenu {
     width: 100%;
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
