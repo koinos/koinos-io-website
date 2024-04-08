@@ -3947,7 +3947,7 @@ span.sm-info {
 /*------------------------------------------*/
 
 .navbar-light .wsmenu-list > li > a.h-link:hover {
-  color: #eee !important;
+  color: #eee  !important;
 }
 
 .navbar-dark .wsmenu-list > li > a.h-link:hover {
@@ -12970,7 +12970,13 @@ body.theme--dark {
   background-color: #7827e6;
 }
 
-.wsmenu > .wsmenu-list.nav-theme > li > ul.sub-menu > li > a:hover,
+/* .menu-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+} */
+
+.wsmenu > .wsmenu-list.nav-theme > li > ul > ul.sub-menu > li > a:hover,
 .wsmenu
   > .wsmenu-list.nav-theme
   > li
