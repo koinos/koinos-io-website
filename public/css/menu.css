@@ -839,6 +839,14 @@ body {
     margin-right: 100px;
   }
 
+  .hr_rule {
+    display: flex;
+    border-bottom: solid rgb(108, 117, 125) 0.5px;
+    margin: auto;
+    width: 95%;
+    margin-top: 130px;
+  }
+
   .wsmenu {
     width: 100%;
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;

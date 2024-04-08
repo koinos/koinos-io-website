@@ -3947,7 +3947,7 @@ span.sm-info {
 /*------------------------------------------*/
 
 .navbar-light .wsmenu-list > li > a.h-link:hover {
-  color: #eee  !important;
+  color: #eee !important;
 }
 
 .navbar-dark .wsmenu-list > li > a.h-link:hover {
@@ -5914,6 +5914,13 @@ span.sm-info {
 
 .fbox-wrapper .row-cols-lg-3 .fbox-title {
   margin-bottom: 10px;
+}
+
+.hr_rule {
+  display: flex;
+  border-bottom: solid rgb(108, 117, 125) 0.5px;
+  margin: auto;
+  margin-top: 130px;
 }
 
 .fbox-title span {
