@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 const swiperOptions = {
     modules: [Autoplay],
-    slidesPerView: 5,
+    slidesPerView: 3,
     centerInsufficientSlides: true,
     // spaceBetween: 30,
     autoplay: {
@@ -24,19 +24,19 @@ const swiperOptions = {
             // spaceBetween: 30,
         },
         767: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             // spaceBetween: 30,
         },
         991: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             // spaceBetween: 30,
         },
         1199: {
-            slidesPerView: 4, //5
+            slidesPerView: 3, //5
             // spaceBetween: 30,
         },
         1350: {
-            slidesPerView: 4, //5
+            slidesPerView: 3, //5
             // spaceBetween: 30,
         },
     },
@@ -58,17 +58,23 @@ export default function BrandSlider1() {
             imageDark: '/images/exchanges/coinstore-white.png',
             url: 'https://www.coinstore.com/#/spot/KOINUSDT'
         },
-        /*{
-            name: 'uniswap',
-            imageLight: '/images/exchanges/uniswap.png',
-            imageDark: '/images/exchanges/uniswap-white.png',
-            url: 'https://app.uniswap.org/swap'
-        },*/
         {
             name: 'chainge',
             imageLight: '/images/exchanges/chainge.png',
             imageDark: '/images/exchanges/chainge-white.png',
             url: 'https://www.chainge.finance/info/currencies/KOIN'
+        },
+        {
+            name: 'lcx',
+            imageLight: '/images/exchanges/lcx.png',
+            imageDark: '/images/exchanges/lcx-white.png',
+            url: 'https://exchange.lcx.com/'
+        },
+        {
+            name: 'tangem',
+            imageLight: '/images/exchanges/tangem.png',
+            imageDark: '/images/exchanges/tangem-white.png',
+            url: 'https://tangem.com/en/'
         }
     ];
 
