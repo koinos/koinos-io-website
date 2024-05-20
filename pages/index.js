@@ -35,6 +35,8 @@ export default function Home() {
 
         <Statistic5_1 />
 
+        <MediumBlog />
+
         <Exchanges />
 
         <Features11_1 />
@@ -42,8 +44,6 @@ export default function Home() {
         <Integrations1_1 />
 
         <Wallets />
-
-        <MediumBlog />
 
         <Ct08_1 />
 
