@@ -1,6 +1,6 @@
 import BrandSlider1 from "../slider/BrandSlider1";
 export default function Exchanges() {
-  const title = "Exchange Partners";
+  const title = "Partnerships";
 
   return (
     <>
@@ -10,7 +10,7 @@ export default function Exchanges() {
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-9">
               <div className="brands-title mb-50">
-                <h5 className="s-30">{title}</h5>
+                <h5 className="s-20">{title}</h5>
               </div>
             </div>
           </div>
