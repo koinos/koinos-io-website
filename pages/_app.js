@@ -1,5 +1,7 @@
 import Preloader from "@/components/elements/Preloader"
 import { useEffect, useState } from "react"
+import { initGTM } from '../lib/gtm';
+
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -43,6 +45,9 @@ function MyApp({ Component, pageProps }) {
 }*/
 
 function MyApp({ Component, pageProps }) {
+    useEffect(() => {
+        initGTM();
+      }, []);
 
     return (<>
             <Component {...pageProps} />
