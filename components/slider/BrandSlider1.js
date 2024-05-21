@@ -82,19 +82,19 @@ export default function BrandSlider1() {
             name: 'bff',
             imageLight: '/images/exchanges/bff.png',
             imageDark: '/images/exchanges/bff-white.png',
-            url: 'https://tangem.com/en/'
+            url: 'https://blockchainff.com/'
         },
         {
             name: 'rhubarb',
             imageLight: '/images/exchanges/rhubarb.png',
             imageDark: '/images/exchanges/rhubarb-white.png',
-            url: 'https://tangem.com/en/'
+            url: 'https://rhubarbmedia.ca/'
         },
         {
             name: 'constellation',
             imageLight: '/images/exchanges/constellation.png',
             imageDark: '/images/exchanges/constellation-white.png',
-            url: 'https://tangem.com/en/'
+            url: 'https://constellationnetwork.io/'
         }
     ];
 
