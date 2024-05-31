@@ -131,7 +131,7 @@ export default function MobileMenu({ handleMobileMenu }) {
           >
             <a className="h-link" target="_blank" rel="noopener noreferrer">
               <img
-                src="/images/icons/github-mark.svg"
+                src="/images/icons/github-mark-white.svg"
                 alt="GitHub"
                 style={{ width: "30px", height: "30px" }}
               />

@@ -30,7 +30,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                 <div className="header-wrapper">
                     {/* MOBILE HEADER */}
                     <div className="wsmobileheader clearfix">
-                        <span className="smllogo"><Link href="/"><img src="/images/logo-purple.png" alt="mobile-logo" /></Link></span>
+                        <span className="smllogo"><Link href="/"><img src="/images/logo-purple-white.png" alt="mobile-logo" /></Link></span>
                         <a id="wsnavtoggle" className="wsanimated-arrow" onClick={handleMobileMenu}><span /></a>
                     </div>
                     {/* NAVIGATION MENU */}
@@ -39,7 +39,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                             {/* HEADER BLACK LOGO */}
                             <div className="desktoplogo">
                                 <Link href="/" className="logo-black">
-                                    <img className="light-theme-img" src="/images/logo-purple.png" alt="logo" />
+                                    <img className="light-theme-img" src="/images/logo-purple-white.png" alt="logo" />
                                     <img className="dark-theme-img" src="/images/logo-purple-white.png" alt="logo" />
                                 </Link>
                             </div>

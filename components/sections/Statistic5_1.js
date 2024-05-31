@@ -94,7 +94,7 @@ export default function Statistic5_1() {
                       target="_blank"
                       className="btn btn--tra-black hover--theme"
                     >
-                      Go to the explorer
+                      Go To The Explorer
                     </Link>
                   </div>
                 </div>

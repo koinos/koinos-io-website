@@ -42,7 +42,7 @@ export default function Menu() {
                 <li className="nl-simple" aria-haspopup="true">
                     <Link legacyBehavior href="https://github.com/koinos" target="_blank" passHref>
                         <a className="h-link" target="_blank" rel="noopener noreferrer">
-                            <img src="/images/icons/github-mark.svg" alt="GitHub" style={{ width: '30px', height: '30px' }} />
+                            <img src="/images/icons/github-mark-white.svg" alt="GitHub" style={{ width: '30px', height: '30px' }} />
                         </a>
                     </Link>
                 </li>
