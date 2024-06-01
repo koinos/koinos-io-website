@@ -13,19 +13,38 @@ export default function Footer3() {
                                 <img className="footer-logo" src="/images/logo-purple.png" alt="footer-logo" />
                                 <img className="footer-logo-dark" src="/images/logo-purple-white.png" alt="footer-logo" />
                             </div>
+                            <div className="footer-info">
+                            <ul className="foo-links clearfix">
+                                    <li>
+                                        <p><Link href="/faqs">Documentation</Link></p>
+                                    </li>
+                                    <li>
+                                        <p><Link href="https://twitter.com/koinosnetwork">Learn Koinos</Link></p>
+                                    </li>
+                                    <li>
+                                        <p><Link href="https://twitter.com/koinosnetwork">Block Explorer</Link></p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         {/* FOOTER LINKS */}
                         <div className="col-sm-3">
                             <div className="footer-links fl-1">
                                 {/* Title */}
-                                <h6 className="s-17 w-700">Help</h6>
+                                <h6 className="s-17 w-700">Communities</h6>
                                 {/* Links */}
                                 <ul className="foo-links clearfix">
                                     <li>
-                                        <p><Link href="/faqs">FAQs</Link></p>
+                                        <p><Link href="https://twitter.com/koinosarmy">Koinos Army</Link></p>
                                     </li>
                                     <li>
-                                        <p><Link href="https://twitter.com/koinosnetwork">Contact us</Link></p>
+                                        <p><Link href="https://planetkoinos.com/">Planet Koinos</Link></p>
+                                    </li>
+                                    <li>
+                                        <p><Link href="https://thekoinpress.com/">The Koin Press</Link></p>
+                                    </li>
+                                    <li>
+                                        <p><Link href="https://koincast.io/">Koincast</Link></p>
                                     </li>
                                 </ul>
                             </div>
@@ -59,7 +78,7 @@ export default function Footer3() {
                         <div className="col-sm-3">
                             <div className="footer-links fl-2">
                                 {/* Title */}
-                                <h6 className="s-17 w-700">Social</h6>
+                                <h6 className="s-17 w-700">Socials</h6>
                                 {/* Links */}
                                 <ul className="foo-links clearfix">
                                     <li>
@@ -82,17 +101,17 @@ export default function Footer3() {
                         <div className="col-sm-3">
                             <div className="footer-links fl-2">
                                 {/* Title */}
-                                <h6 className="s-17 w-700">Other</h6>
+                                <h6 className="s-17 w-700">Insides</h6>
                                 {/* Links */}
                                 <ul className="foo-links clearfix">
-                                    <li>
-                                        <p><Link href="https://claim.koinos.io" target="_blank">Claim Pre-Mainnet KOIN</Link></p>
-                                    </li>
                                     <li>
                                         <p><Link href="https://koinos.group/story" target="_blank">Our Story</Link></p>
                                     </li>
                                     <li>
                                         <p><Link href="https://medium.com/koinosnetwork" target="_blank">Blog</Link></p>
+                                    </li>
+                                    <li>
+                                        <p><Link href="https://claim.koinos.io" target="_blank">Claim Pre-Mainnet KOIN</Link></p>
                                     </li>
                                 </ul>
                             </div>
