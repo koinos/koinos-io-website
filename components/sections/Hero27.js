@@ -30,11 +30,11 @@ export default function Hero27({ onOpenModal }) {
                       onOpen={onOpenModal}
                     />
                     <Link
-                      href="https://docs.koinos.io/"
+                      href="https://koiner.app"
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      &nbsp;&nbsp;&nbsp;&nbsp;Build on Koinos&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;Go to the Explorer&nbsp;&nbsp;&nbsp;&nbsp;
                     </Link>
                   </div>
                   {/* 

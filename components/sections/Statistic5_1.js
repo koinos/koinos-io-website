@@ -90,11 +90,11 @@ export default function Statistic5_1() {
 
                   <div className="more-btn text-center mt-60 wow fadeInUp">
                     <Link
-                      href="https://koiner.app/"
+                      href="https://docs.koinos.io"
                       target="_blank"
                       className="btn btn--tra-black hover--theme"
                     >
-                      Go to the explorer
+                      Documentation
                     </Link>
                   </div>
                 </div>
