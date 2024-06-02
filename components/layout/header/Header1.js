@@ -5,8 +5,6 @@ import { useEffect, useState } from 'react';
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, headerCls }) {
 
-    const [menuScrolled, setMenuScrolled] = useState(false);
-
     useEffect(() => {
         const handleScroll = () => {
             const offset = window.scrollY;
@@ -14,10 +12,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
     
             if (offset > 100) {
                 menu.classList.add('menuOnceScrolled');
-                setMenuScrolled(true);
             } else {
                 menu.classList.remove('menuOnceScrolled');
-                setMenuScrolled(false);
             }
         };
     
@@ -37,7 +33,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                         <span className="smllogo">
                             <Link href="/">
                                 <>
-                                <img className="dark-theme-img" src="/images/logo-purple-white.png" alt="mobile-logo" />
+                                <img className="dark-theme-img" src="/images/logo-white-white.png" alt="mobile-logo" />
                                 <img className="light-theme-img" src="/images/logo-purple.png" alt="mobile-logo" />
                                 </>
                             </Link>
@@ -50,10 +46,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                             {/* HEADER BLACK LOGO */}
                             <div className="desktoplogo">
                                 <Link href="/" className="logo-black">
-                                    <img className="light-theme-img" src="/images/logo-purple.png" alt="logo" />
-                                    {menuScrolled 
-                                        ? <img className="dark-theme-img" src="/images/logo-white-white.png" alt="logo" />
-                                        : <img className="dark-theme-img" src="/images/logo-purple-white.png" alt="logo" />}
+                                    <>
+                                    <img className="light-theme-img" src="/images/logo-purple-white.png" alt="logo" />
+                                    <img className="dark-theme-img" src="/images/logo-white-white.png" alt="logo" />
+                                    </>
                                 </Link>
                             </div>
                             {/* HEADER WHITE LOGO */}

@@ -5286,7 +5286,7 @@ span.sm-info {
 .hero-26-img {
   position: relative;
   text-align: center;
-  margin: 0 -90% 0 -60px;
+  /*margin: 0 -90% 0 -60px;*/
 }
 
 /*------------------------------------------*/
@@ -5296,7 +5296,9 @@ span.sm-info {
 #hero-27 .hero-overlay {
   background-image: url(../images/hero-27.png);
   background-position: top center;
-  padding-top: 170px;
+  padding-top: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*.hero-27-txt h2 { 
@@ -12349,7 +12351,12 @@ body.theme--dark {
 }
 
 .theme--dark #hero-27 .hero-overlay {
-  background-image: url(../images/hero-27-dark.png);
+  /*background-image: url(../images/hero-27-dark.png);*/
+  background-image: url(../images/circuit-bg.png);
+  @media screen and (max-width: 500px) {
+    background-image: url(../images/circuit-bg-mobile.png);
+    background-size: contain;
+  }
 }
 
 /*------------------------------------------*/
