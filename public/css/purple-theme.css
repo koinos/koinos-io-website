@@ -5297,10 +5297,8 @@ span.sm-info {
   background-image: url(../images/hero-27.png);
   background-position: top center;
   padding-top: 100px;
-  @media screen and (max-width: 500px) {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*.hero-27-txt h2 { 
@@ -12354,7 +12352,11 @@ body.theme--dark {
 
 .theme--dark #hero-27 .hero-overlay {
   /*background-image: url(../images/hero-27-dark.png);*/
-  background-image: url(../images/hero-bg-1.jpg);
+  background-image: url(../images/circuit-bg.png);
+  @media screen and (max-width: 500px) {
+    background-image: url(../images/circuit-bg-mobile.png);
+    background-size: contain;
+  }
 }
 
 /*------------------------------------------*/
