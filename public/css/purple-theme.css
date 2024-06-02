@@ -12353,8 +12353,12 @@ body.theme--dark {
 .theme--dark #hero-27 .hero-overlay {
   /*background-image: url(../images/hero-27-dark.png);*/
   background-image: url(../images/circuit-bg.png);
+  max-width: none;
   @media screen and (max-width: 500px) {
     background-image: url(../images/circuit-bg-mobile.png);
+    background-size: contain;
+  }
+  @media screen and (min-width: 1400px) {
     background-size: contain;
   }
 }
