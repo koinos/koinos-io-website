@@ -3,13 +3,15 @@ import VideoPopup from "../elements/VideoPopup";
 
 export default function Hero27({ onOpenModal }) {
   const title1 = "The World's First";
-  const title2 = "Free-To-Use Blockchain";
+  const title2 = "Free-To-Use Smart Contract Platform";
   const subtle =
-    "Opensource, Free to Use, Modular, Scalable and Fair Launched";
+    "Open Source, Feeless, Modular, Fast and Fair Launched";
+  const subtle2 = "Freedom Technology";
 
   return (
     <>
-      <section id="hero-27" className="gr--whitesmoke hero-section">
+      {/*<section id="hero-27" className="gr--whitesmoke hero-section">*/}
+      <section id="hero-27">
         <div className="hero-overlay bg--fixed">
           <div className="container text-center">
             {/* HERO TEXT */}
@@ -18,11 +20,15 @@ export default function Hero27({ onOpenModal }) {
                 <div className="hero-27-txt wow fadeInUp">
                   {/* Title */}
                   <div className="hero-titles">
-                    <h2 className="s-60 w-700">{title1}</h2>
-                    <h2 className="s-60 w-700">{title2}</h2>
+                    {/*<h2 className="s-60 w-700">{title1}</h2>
+                    <h3 className="s-60 w-700">{title2}</h3>*/}
+                    <img src="/images/logo-purple-white.png" alt="Koinos Logo" style={{width: '75%', minWidth: '300px', maxWidth: '488px'}} />
+                    <h2 className="s-40 w-700">{title1}</h2>
+                    <h2 className="s-30 w-700">{title2}</h2>
                   </div>
                   {/* Text */}
                   <p className="s-20">{subtle}</p>
+                  <p className="s-20">{subtle2}</p>
                   {/* Buttons */}
                   <div className="btns-group">
                     <VideoPopup

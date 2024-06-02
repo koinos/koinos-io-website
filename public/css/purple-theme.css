@@ -12925,8 +12925,10 @@ body.theme--dark {
 
 .btn--theme {
   color: #fff !important;
-  border-color: #7827e6 !important;
-  background-color: #7827e6 !important;
+  /*border-color: #7827e6 !important;
+  background-color: #7827e6 !important;*/
+  background: linear-gradient(90deg, #7827e6, #8e44ad);
+  border: none;
 }
 
 .hover--theme:hover,
