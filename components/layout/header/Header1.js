@@ -47,7 +47,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                             <div className="desktoplogo">
                                 <Link href="/" className="logo-black">
                                     <>
-                                    <img className="light-theme-img" src="/images/logo-purple-white.png" alt="logo" />
+                                    <img className="light-theme-img" src="/images/logo-purple.png" alt="logo" />
                                     <img className="dark-theme-img" src="/images/logo-white-white.png" alt="logo" />
                                     </>
                                 </Link>
