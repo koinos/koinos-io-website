@@ -1,9 +1,11 @@
 import Link from "next/link"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, headerCls }) {
+
+    const [menuScrolled, setMenuScrolled] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -12,8 +14,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
     
             if (offset > 100) {
                 menu.classList.add('menuOnceScrolled');
+                setMenuScrolled(true);
             } else {
                 menu.classList.remove('menuOnceScrolled');
+                setMenuScrolled(false);
             }
         };
     
@@ -40,7 +44,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                             <div className="desktoplogo">
                                 <Link href="/" className="logo-black">
                                     <img className="light-theme-img" src="/images/logo-purple-white.png" alt="logo" />
-                                    <img className="dark-theme-img" src="/images/logo-purple-white.png" alt="logo" />
+                                    {menuScrolled 
+                                        ? <img className="dark-theme-img" src="/images/logo-white-white.png" alt="logo" />
+                                        : <img className="dark-theme-img" src="/images/logo-purple-white.png" alt="logo" />}
                                 </Link>
                             </div>
                             {/* HEADER WHITE LOGO */}
