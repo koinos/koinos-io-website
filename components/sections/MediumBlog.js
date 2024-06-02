@@ -31,7 +31,7 @@ export default function MediumBlog() {
       let returnItems = [];
       for (let i = 0; i < items.length; i++) {
         let returnItem = {};
-        returnItem.title = items[i].title;
+        returnItem.title = items[i].title.replace(/&amp;/g, "&");
         returnItem.link = items[i].link;
         // convert date like 2023-10-25 16:42:26 to Oct 25, 2023
         let date = new Date(items[i].pubDate);
@@ -57,7 +57,7 @@ export default function MediumBlog() {
         let pStart = content.indexOf("<p>");
         let pEnd = content.indexOf("</p>", pStart);
         let pTag = content.substring(pStart, pEnd + 4);
-        let description = pTag.replace(/(<([^>]+)>)/gi, "");
+        let description = pTag.replace(/(<([^>]+)>)/gi, "").replace(/&amp;/g, "&");
         // if description is too long, truncate it and add ellipsis
         if (description.length > 200) {
           description = description.substring(0, 200) + "...";
