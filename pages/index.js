@@ -15,11 +15,12 @@ import Ct08_1 from "@/components/sections/Ct08_1";
 import Wallets from "@/components/sections/Wallets";
 import ModalVideo from "react-modal-video";
 import MediumBlog from "@/components/sections/MediumBlog";
+import ParticleBackground from "./ParticleBackground";
 
 export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false);
   return (
-    <>
+    <><ParticleBackground></ParticleBackground>
       <Layout
         headerStyle={1}
         footerStyle={3}
