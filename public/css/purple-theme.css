@@ -12357,7 +12357,7 @@ body.theme--dark {
   background-position: bottom;
   @media screen and (max-width: 500px) {
     background-image: url(../images/circuit-bg-mobile.png);
-    background-size: contain;
+    background-position: top;
   }
 }
 
