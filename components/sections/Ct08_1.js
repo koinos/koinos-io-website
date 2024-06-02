@@ -21,7 +21,8 @@ export default function Ct08_1() {
                     <div className="row">
                         <div className="col">
                             <div className="img-block wow fadeInUp">
-                                <img className="img-fluid" src="/images/tokenomics-dk.png" alt="video-preview" style={{width: '50%', maxWidth: '700px'}} />
+                                <img className="dark-theme-img" src="/images/tokenomics-dk.png" alt="Tokenomics" style={{width: '50%', maxWidth: '700px'}} />
+                                <img className="light-theme-img" src="/images/tokenomic.png" alt="Tokenomics" style={{width: '50%', maxWidth: '700px'}} />
                             </div>
                         </div>
                     </div>

@@ -47,7 +47,6 @@ function MyApp({ Component, pageProps }) {
 function MyApp({ Component, pageProps }) {
     useEffect(() => {
         initGTM();
-        document.body.classList.add("theme--dark");
       }, []);
 
     return (<>
