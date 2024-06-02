@@ -22,7 +22,7 @@ export default function Hero27({ onOpenModal }) {
                   <div className="hero-titles">
                     {/*<h2 className="s-60 w-700">{title1}</h2>
                     <h3 className="s-60 w-700">{title2}</h3>*/}
-                    <img src="/images/logo-purple-white.png" alt="Koinos Logo" style={{width: '75%', minWidth: '300px', maxWidth: '488px'}} />
+                    <img src="/images/logo-white-white.png" alt="Koinos Logo" style={{width: '75%', minWidth: '300px', maxWidth: '488px'}} />
                     <h2 className="s-40 w-700">{title1}</h2>
                     <h2 className="s-30 w-700">{title2}</h2>
                   </div>

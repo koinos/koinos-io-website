@@ -12349,7 +12349,8 @@ body.theme--dark {
 }
 
 .theme--dark #hero-27 .hero-overlay {
-  background-image: url(../images/hero-27-dark.png);
+  /*background-image: url(../images/hero-27-dark.png);*/
+  background-image: url(../images/hero-bg-1.jpg);
 }
 
 /*------------------------------------------*/
