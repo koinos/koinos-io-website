@@ -38,20 +38,20 @@ export default function Home() {
         <MediumBlog />
 
         <Exchanges />
+        
+        { false && <Features11_1 /> }
 
-        <Features11_1 />
+        < Wallets />
 
         <Integrations1_1 />
 
-        <Wallets />
-
-        <Ct08_1 />
-
-        <Community />
-
-        <Roadmap />
-
         <Team />
+
+        { false &&  <Ct08_1 /> }
+
+        { false && <Community /> }
+
+        { false && <Roadmap /> }
 
         {/*
           <Blog1_6 />
