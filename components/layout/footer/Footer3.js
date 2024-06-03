@@ -114,6 +114,9 @@ export default function Footer3() {
                                         <p><Link href="mailto:contact@koinos.group?subject=Support Request" target="_blank">Contact Us</Link></p>
                                     </li>
                                     <li>
+                                        <p><Link href="https://koinos.io/faqs" target="_blank">FAQs</Link></p>
+                                    </li>
+                                    <li>
                                         <p><Link href="https://claim.koinos.io" target="_blank">Claim Pre-Mainnet KOIN</Link></p>
                                     </li>
                                 </ul>
