@@ -16,13 +16,13 @@ export default function Footer3() {
                             <div className="footer-info">
                             <ul className="foo-links clearfix">
                                     <li>
-                                        <p><Link href="/faqs">Documentation</Link></p>
+                                        <p><Link href="https://docs.koinos.io/">Documentation</Link></p>
                                     </li>
                                     <li>
-                                        <p><Link href="https://twitter.com/koinosnetwork">Learn Koinos</Link></p>
+                                        <p><Link href="https://learnkoinos.xyz/docs/concepts/">Learn Koinos</Link></p>
                                     </li>
                                     <li>
-                                        <p><Link href="https://twitter.com/koinosnetwork">Block Explorer</Link></p>
+                                        <p><Link href="https://koiner.app/">Block Explorer</Link></p>
                                     </li>
                                 </ul>
                             </div>
@@ -149,7 +149,7 @@ export default function Footer3() {
                             {/* FOOTER COPYRIGHT */}
                             <div className="col">
                                 <div className="footer-copyright">
-                                    <p className="p-sm">© 2023 Koinos. <span>All Rights Reserved</span></p>
+                                    <p className="p-sm">© 2024 Koinos. <span>All Rights Reserved</span></p>
                                 </div>
                             </div>
                             {/* FOOTER SOCIALS
