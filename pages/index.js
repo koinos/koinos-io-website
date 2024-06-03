@@ -43,6 +43,10 @@ export default function Home() {
 
         < Wallets />
 
+        { false && <Integrations1_1 /> }
+
+        { false && <Team /> }
+
         { false &&  <Ct08_1 /> }
 
         { false && <Community /> }
