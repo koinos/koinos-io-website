@@ -34,7 +34,7 @@ export default function Hero27({ onOpenModal }) {
                       onOpen={onOpenModal}
                     />
                     <Link
-                      href="https://docs.koinos.io/"
+                      href="https://docs.koinos.io/developers/"
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
