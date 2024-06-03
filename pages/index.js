@@ -15,6 +15,7 @@ import Ct08_1 from "@/components/sections/Ct08_1";
 import Wallets from "@/components/sections/Wallets";
 import ModalVideo from "react-modal-video";
 import MediumBlog from "@/components/sections/MediumBlog";
+import Buy from "@/components/sections/Buy";
 
 export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -34,6 +35,8 @@ export default function Home() {
         <Hero27 onOpenModal={() => setModalOpen(true)} />
 
         <Statistic5_1 />
+
+        <Buy />
 
         <MediumBlog />
 

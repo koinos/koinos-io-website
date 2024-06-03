@@ -95,6 +95,18 @@ export default function BrandSlider1() {
             imageLight: '/images/exchanges/constellation.png',
             imageDark: '/images/exchanges/constellation-white.png',
             url: 'https://constellationnetwork.io/'
+        },
+        {
+            name: 'coinmarketcap',
+            imageLight: '/images/exchanges/cmc.png',
+            imageDark: '/images/exchanges/cmc-white.png',
+            url: 'https://coinmarketcap.com/currencies/koinos/'
+        },
+        {
+            name: 'coingecko',
+            imageLight: '/images/exchanges/cg.png',
+            imageDark: '/images/exchanges/cg-white.png',
+            url: 'https://coingecko.com/currencies/koinos/'
         }
     ];
 
