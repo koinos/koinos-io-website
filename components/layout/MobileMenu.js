@@ -129,22 +129,20 @@ export default function MobileMenu({ handleMobileMenu }) {
             target="_blank"
             passHref
           >
-            <>
-            <a className="light-theme-img" target="_blank" rel="noopener noreferrer">
+            <a target="_blank" rel="noopener noreferrer">
               <img
                 src="/images/icons/github-mark.svg"
                 alt="GitHub"
                 style={{ width: "30px", height: "30px" }}
+                className="light-theme-img"
               />
-            </a>
-            <a className="dark-theme-img" target="_blank" rel="noopener noreferrer">
               <img
                 src="/images/icons/github-mark-white.svg"
                 alt="GitHub"
                 style={{ width: "30px", height: "30px" }}
+                className="dark-theme-img"
               />
             </a>
-            </>
           </Link>
         </li>
       </ul>
