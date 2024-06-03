@@ -41,7 +41,7 @@ export default function Home() {
         
         { false && <Features11_1 /> }
 
-        < Wallets />
+        { false &&< Wallets /> }
 
         { false && <Integrations1_1 /> }
 
