@@ -91,7 +91,7 @@ export default function Footer3() {
                                         <p><Link href="https://twitter.com/koinosnetwork" target="_blank">Twitter</Link></p>
                                     </li>
                                     <li>
-                                        <p><Link href="https://www.youtube.com/channel/UCamXqlj7q14TllcrCM0ikkw" target="_blank">Youtube</Link></p>
+                                        <p><Link href="https://www.youtube.com/channel/UCamXqlj7q14TllcrCM0ikkw" target="_blank">YouTube</Link></p>
                                     </li>
                                 </ul>
                             </div>
