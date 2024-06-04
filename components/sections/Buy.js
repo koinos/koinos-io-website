@@ -10,7 +10,7 @@ export default function Buy() {
         {
             name: "MEXC",
             icon: "/images/buy/mexc-logo.png",
-            url: "https://www.mexc.com/price/KOIN"
+            url: "https://www.mexc.com/exchange/KOIN_USDT"
         },
         {
             name: "Coinstore",
@@ -30,7 +30,7 @@ export default function Buy() {
         {
             name: "KoinDX",
             icon: "/images/buy/koindx-logo.png",
-            url: "https://www.koindx.com/"
+            url: "https://app.koindx.com/swap"
         },
     ]
 
