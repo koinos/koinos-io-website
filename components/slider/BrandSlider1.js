@@ -106,7 +106,7 @@ export default function BrandSlider1() {
             name: 'coingecko',
             imageLight: '/images/exchanges/cg.png',
             imageDark: '/images/exchanges/cg-white.png',
-            url: 'https://coingecko.com/currencies/koinos/'
+            url: 'https://www.coingecko.com/en/coins/koinos'
         }
     ];
 
