@@ -10,22 +10,22 @@ export default function Buy() {
         {
             name: "MEXC",
             icon: "/images/buy/mexc-logo.png",
-            url: "https://www.mexc.com/"
+            url: "https://www.mexc.com/price/KOIN"
         },
         {
             name: "Coinstore",
             icon: "/images/buy/coinstore-logo.png",
-            url: "https://www.coinstore.com/"
+            url: "https://www.coinstore.com/#/spot/KOINUSDT"
         },
         {
             name: "Biconomy",
             icon: "/images/buy/biconomy-logo.png",
-            url: "https://www.biconomy.com/"
+            url: "https://www.biconomy.com/exchange/KOIN_USDT"
         },
         {
             name: "LCX",
             icon: "/images/buy/lcx-logo.png",
-            url: "https://www.lcx.com/"
+            url: "https://exchange.lcx.com/trade/KOIN-EUR"
         },
         {
             name: "KoinDX",

@@ -70,7 +70,7 @@ export default function BrandSlider1() {
             name: 'lcx',
             imageLight: '/images/exchanges/lcx.png',
             imageDark: '/images/exchanges/lcx-white.png',
-            url: 'https://exchange.lcx.com/'
+            url: 'https://exchange.lcx.com/trade/KOIN-EUR'
         },
         {
             name: 'tangem',
