@@ -100,9 +100,16 @@ export default function MediumBlog() {
                       <div className="blog-post-img mb-35">
                         <Link href={item.link}>
                           <img
-                            className="img-fluid r-16"
+                            className="img-fluid light-theme-img r-16"
                             src={item.image}
                             alt="blog-post-image"
+                            style={{ border: "2px solid #000" }}
+                          />
+                          <img
+                            className="img-fluid dark-theme-img r-16"
+                            src={item.image}
+                            alt="blog-post-image"
+                            style={{ border: '1px solid #fff' }}
                           />
                         </Link>
                       </div>
