@@ -5,7 +5,7 @@ export default function Whitepaper() {
     return (
         <>
             <Layout headerStyle={1} footerStyle={3} headerCls="navbar-dark inner-page-header">
-                <section id="terms-page" className="gr--whitesmoke pb-80 inner-page-hero division">
+                <section id="terms-page" className="pb-80 inner-page-hero division">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-xl-10">
