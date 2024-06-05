@@ -119,7 +119,7 @@ export default function Team() {
     <>
       <section
         id="team"
-        className="gr--whitesmoke pb-40 inner-page-hero team-section"
+        className="pb-40 inner-page-hero team-section"
       >
         <div className="container">
           {/* SECTION TITLE */}
