@@ -9,14 +9,21 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
         const handleScroll = () => {
             const offset = window.scrollY;
             const menu = document.querySelector('.wsmainwp');
-    
+            const body = document.body;
+
             if (offset > 100) {
+                if (body.classList.contains('theme--dark')) {
+                    menu.classList.add('theme--dark');
+                }
                 menu.classList.add('menuOnceScrolled');
             } else {
+                if (body.classList.contains('theme--dark')) {
+                    menu.classList.remove('theme--dark');
+                }
                 menu.classList.remove('menuOnceScrolled');
             }
         };
-    
+
         window.addEventListener('scroll', handleScroll);
     
         return () => {
