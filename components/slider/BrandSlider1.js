@@ -70,7 +70,7 @@ export default function BrandSlider1() {
             name: 'lcx',
             imageLight: '/images/exchanges/lcx.png',
             imageDark: '/images/exchanges/lcx-white.png',
-            url: 'https://exchange.lcx.com/'
+            url: 'https://exchange.lcx.com/trade/KOIN-EUR'
         },
         {
             name: 'tangem',
@@ -95,6 +95,18 @@ export default function BrandSlider1() {
             imageLight: '/images/exchanges/constellation.png',
             imageDark: '/images/exchanges/constellation-white.png',
             url: 'https://constellationnetwork.io/'
+        },
+        {
+            name: 'coinmarketcap',
+            imageLight: '/images/exchanges/cmc.png',
+            imageDark: '/images/exchanges/cmc-white.png',
+            url: 'https://coinmarketcap.com/currencies/koinos/'
+        },
+        {
+            name: 'coingecko',
+            imageLight: '/images/exchanges/cg.png',
+            imageDark: '/images/exchanges/cg-white.png',
+            url: 'https://www.coingecko.com/en/coins/koinos'
         }
     ];
 
