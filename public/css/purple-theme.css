@@ -11581,7 +11581,7 @@ button.btn-close:focus {
 
 body.theme--dark,
 .theme--dark .bg--white-100 {
-  background-color: hsla(255, 19%, 5%, 1) !important;
+  background-color: #14151a !important;
 }
 
 body.theme--dark {
@@ -11622,14 +11622,14 @@ body.theme--dark {
 }
 
 .theme--dark .x-border {
-  border-top: 1px solid #14151a;
-  border-bottom: 1px solid #14151a;
+  border-top: 1px solid #1d212c;
+  border-bottom: 1px solid #1d212c;
 }
 .theme--dark .top-border {
-  border-top: 1px solid #14151a;
+  border-top: 1px solid #1d212c;
 }
 .theme--dark .bottom-border {
-  border-bottom: 1px solid #14151a;
+  border-bottom: 1px solid #1d212c;
 }
 
 .theme--dark .bg--white-300,
@@ -11640,7 +11640,7 @@ body.theme--dark {
 .theme--dark .shape--white-400:after,
 .theme--dark .shape--white-300:after,
 .theme--dark .shape--white-200:after {
-  background-color: #14151a;
+  background-color: #1d212c;
 }
 
 .theme--dark .bg--02,
@@ -12288,7 +12288,7 @@ body.theme--dark {
 }
 
 .theme--dark .hero-6-wrapper {
-  background-image: linear-gradient(90deg, #14151a, #14151a);
+  background-image: linear-gradient(90deg, #1d212c, #1d212c);
 }
 
 .theme--dark #hero-8-form {
@@ -12331,7 +12331,7 @@ body.theme--dark {
 }
 
 .theme--dark #hero-20:after {
-  background-image: linear-gradient(180deg, #14151a, #232734);
+  background-image: linear-gradient(180deg, #1d212c, #232734);
 }
 
 .theme--dark #hero-21 .hero-overlay {
@@ -12394,11 +12394,11 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark #reviews-2 .review-2.bg--white-100 {
-  background-color: #14151a !important;
+  background-color: #1d212c !important;
 }
 
 .theme--dark .owl-theme .owl-dots .owl-dot span {
-  background: #14151a;
+  background: #1d212c;
 }
 
 .theme--dark .owl-theme .owl-dots .owl-dot.active span {
@@ -12430,8 +12430,8 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .rbox-1 .star-rating {
-  background-color: #14151a !important;
-  border: 1px solid #14151a;
+  background-color: #1d212c !important;
+  border: 1px solid #1d212c;
   -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
@@ -12468,8 +12468,8 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .integrations-1-wrapper .in_tool {
-  background-color: #14151a;
-  border: 1px solid #14151a;
+  background-color: #1d212c;
+  border: 1px solid #1d212c;
 }
 
 /*------------------------------------------*/
@@ -12573,7 +12573,7 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .txt-code {
-  background-color: #14151a;
+  background-color: #1d212c;
 }
 
 .theme--dark .txt-code kbd {
@@ -12740,7 +12740,7 @@ body.theme--dark {
 
 .theme--dark #login .register-page-wrapper:after,
 .theme--dark #signup .register-page-wrapper:after {
-  background-color: #14151a;
+  background-color: #1d212c;
 }
 
 .theme--dark .form-data span a,
@@ -12761,8 +12761,8 @@ body.theme--dark {
 }
 
 .theme--dark .reset-page-wrapper form {
-  background: #14151a;
-  border: 1px solid #14151a;
+  background: #1d212c;
+  border: 1px solid #1d212c;
 }
 
 .theme--dark .register-page-form .form-control::-moz-placeholder {
