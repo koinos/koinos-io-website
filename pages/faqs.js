@@ -86,7 +86,7 @@ export default function Home() {
     return (
         <>
             <Layout headerStyle={1} footerStyle={3} headerCls="navbar-dark inner-page-header">
-                <section id="faqs-2" className="gr--whitesmoke pb-30 inner-page-hero faqs-section division">
+                <section id="faqs-2" className="pb-30 inner-page-hero faqs-section division">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-11 col-xl-10">
