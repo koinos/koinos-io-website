@@ -32,14 +32,14 @@ export default function Hero27({ onOpenModal }) {
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      &nbsp;&nbsp;Build on Koinos&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-code fa-lg"/>
+                      &nbsp;&nbsp;Build on Koinos&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa-solid fa-code fa-lg"/>
                     </Link>
                     <Link
                       href="https://telegram.koinos.io/"
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      &nbsp;&nbsp;&nbsp;&nbsp;Join Telegram&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-telegram fa-lg"/>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Join Telegram&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa-brands fa-telegram fa-lg"/>
                     </Link>
                   </div>
                   {/* 
