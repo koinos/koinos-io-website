@@ -9,7 +9,6 @@ export default function Statistic5_1() {
   const [blocks, setBlocks] = useState(0);
 
   const title = "";
-  const subtle = "Proven Success in Numbers: Charting Our Impact and Growth";
 
   const getData = () => {
     const url = "https://api.koiner.app/graphql";
@@ -75,7 +74,7 @@ export default function Statistic5_1() {
 
   return (
     <>
-      <div id="statistic-5" className="pt-100 statistic-section division">
+      <div id="statistic-5" className="pt-50 statistic-section division">
         <div className="container">
           {/* STATISTIC-1 WRAPPER */}
           <div className="statistic-5-wrapper">
@@ -86,17 +85,7 @@ export default function Statistic5_1() {
                   {/* Title */}
                   <h2 className="s-50 w-700">{title}</h2>
                   {/* Text */}
-                  <p className="s-21 color--grey">{subtle}</p>
 
-                  <div className="more-btn text-center mt-60 wow fadeInUp">
-                    <Link
-                      href="https://koiner.app/"
-                      target="_blank"
-                      className="btn btn--tra-black hover--theme"
-                    >
-                      Go To The Explorer
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>

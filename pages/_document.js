@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Koinos Network</title>
         <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
         <link
           href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
@@ -36,13 +35,13 @@ export default function Document() {
         />
         <meta
           property="og:title"
-          content={"Koinos Network - The Free-To-Use Blockchain"}
+          content={"Koinos Network"}
           key="ogtitle"
         />
         <meta
           property="og:description"
           content={
-            "Koinos Network - The Free-To-Use Blockchain. Opensource, Free to Use, Modular, Scalable, and Fair Launched"
+            "Koinos is a developer centric open source project that leverages blockchain technology to provide a robust smart contract platform where holders have ownership over the network."
           }
           key="ogdesc"
         />

@@ -1,6 +1,7 @@
 import Preloader from "@/components/elements/Preloader"
 import { useEffect, useState } from "react"
 import { initGTM } from '../lib/gtm';
+import Head from 'next/head'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -50,6 +51,9 @@ function MyApp({ Component, pageProps }) {
       }, []);
 
     return (<>
+            <Head>
+                <title>Koinos Network</title>
+            </Head>
             <Component {...pageProps} />
     </>);
 }

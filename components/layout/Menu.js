@@ -23,7 +23,7 @@ export default function Menu() {
                     <Link href="#" className="h-link">Build<span className="wsarrow" /></Link>
                     <ul className="sub-menu">
                         <li aria-haspopup="true" target="_blank"><Link href="https://docs.koinos.io">Documentation</Link></li>
-                        <li aria-haspopup="true" target="_blank"><Link href="https://learnkoinos.xyz/docs">Learn Koinos</Link></li>
+                        <li aria-haspopup="true" target="_blank"><Link href="https://learnkoinos.xyz">Learn Koinos</Link></li>
                     </ul>
                 </li>
 
