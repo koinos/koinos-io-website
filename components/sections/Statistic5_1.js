@@ -74,7 +74,7 @@ export default function Statistic5_1() {
 
   return (
     <>
-      <div id="statistic-5" className="pt-100 statistic-section division">
+      <div id="statistic-5" className="pt-50 statistic-section division">
         <div className="container">
           {/* STATISTIC-1 WRAPPER */}
           <div className="statistic-5-wrapper">
