@@ -3,10 +3,9 @@ import VideoPopup from "../elements/VideoPopup";
 
 export default function Hero27({ onOpenModal }) {
   const title1 = "The World's First";
-  const title2 = "Free-To-Use Smart Contract Platform";
+  const title2 = "Feeless Smart Contract Platform";
   const subtle =
-    "Open Source, Feeless, Modular, Fast and Fair Launched";
-  const subtle2 = "Freedom Technology";
+    "Fair Launched, No Locked Coins, 100% Public Allocation";
 
   return (
     <>
@@ -26,19 +25,21 @@ export default function Hero27({ onOpenModal }) {
                   </div>
                   {/* Text */}
                   <p className="s-20">{subtle}</p>
-                  <p className="s-20">{subtle2}</p>
                   {/* Buttons */}
                   <div className="btns-group">
-                    <VideoPopup
-                      style="4"
-                      onOpen={onOpenModal}
-                    />
-                    <Link
+                  <Link
                       href="https://docs.koinos.io/"
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      &nbsp;&nbsp;&nbsp;&nbsp;Build on Koinos&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;Build on Koinos&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-code fa-lg"/>
+                    </Link>
+                    <Link
+                      href="https://telegram.koinos.io/"
+                      target="_blank"
+                      className="btn r-04 btn--theme hover--tra-black"
+                    >
+                      &nbsp;&nbsp;&nbsp;&nbsp;Join Telegram&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-telegram fa-lg"/>
                     </Link>
                   </div>
                   {/* 

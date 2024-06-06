@@ -3,8 +3,7 @@ import Link from "next/link";
 
 export default function Buy() {
 
-    const title = "How to get KOIN";
-    const subtle = "You can receive it from your peers, or buy it from exchanges ";
+    const title = "Where to get KOIN";
 
     const buy = [
         {
@@ -45,7 +44,6 @@ export default function Buy() {
                                 {/* Title */}
                                 <h2 className="s-50 w-700">{title}</h2>
                                 {/* Text */}
-                                <p className="s-21 color--grey">{subtle}</p>
                             </div>
                         </div>
                     </div>

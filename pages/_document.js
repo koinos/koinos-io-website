@@ -36,13 +36,13 @@ export default function Document() {
         />
         <meta
           property="og:title"
-          content={"Koinos Network - The Free-To-Use Blockchain"}
+          content={"Koinos Network"}
           key="ogtitle"
         />
         <meta
           property="og:description"
           content={
-            "Koinos Network - The Free-To-Use Blockchain. Opensource, Free to Use, Modular, Scalable, and Fair Launched"
+            "Koinos is a developer centric open source project that leverages blockchain technology to provide a robust smart contract platform where holders have ownership over the network."
           }
           key="ogdesc"
         />
