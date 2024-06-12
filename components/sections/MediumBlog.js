@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 export default function MediumBlog() {
   const mediumRssFeedJsonLink =
-    "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/koinosnetwork";
+    "/api/blog-proxy";
   const maxItems = 3;
 
   const [items, setItems] = useState([]);
