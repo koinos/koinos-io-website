@@ -53,12 +53,6 @@ export default function Integrations1_1() {
       url: "https://burnkoin.com/",
     },
     {
-      name: "Koinos Raffles",
-      description: "Gambling",
-      icon: "/images/dapps/koinos-raffles.png",
-      url: "https://koinosraffles.io/",
-    },
-    {
       name: "Koinos Blocks",
       description: "Block Explorer",
       icon: "/images/dapps/koinosblocks.png",
