@@ -36,7 +36,7 @@ export default function Menu() {
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
-                    <Link href="/#team" className="h-link">Team</Link>
+                    <Link href="/team" className="h-link">Team</Link>
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
