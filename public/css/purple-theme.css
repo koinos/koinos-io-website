@@ -13079,3 +13079,7 @@ body.theme--dark {
 .hero-btns a.btn {
   min-width: 250px;
 }
+
+#features-13 a:link, #features-12 a:link {
+  text-decoration: underline;
+}
