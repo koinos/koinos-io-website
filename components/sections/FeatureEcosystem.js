@@ -101,7 +101,7 @@ export default function FeatureEcosystem() {
                         <div className="col-md-5 order-first order-md-2">
                             <div className="txt-block left-column wow fadeInLeft">
                                 {/* Section ID */}
-                                <span className="section-id">Ecosystem</span>
+                                <span className="section-id">Ecosystem Highlights</span>
                                 {/* Title */}
                                 <h2 className="s-44 w-700">An Ever-Evolving Ecosystem</h2>
                                 {/* Text */}
