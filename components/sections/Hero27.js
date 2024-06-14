@@ -26,20 +26,20 @@ export default function Hero27({ onOpenModal }) {
                   {/* Text */}
                   <p className="s-20">{subtle}</p>
                   {/* Buttons */}
-                  <div className="btns-group">
+                  <div className="btns-group hero-btns">
                   <Link
                       href="https://docs.koinos.io/"
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      &nbsp;&nbsp;Build on Koinos&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa-solid fa-code fa-lg"/>
+                      Build on Koinos <i className="fa-solid fa-code fa-lg"/>
                     </Link>
                     <Link
                       href="https://telegram.koinos.io/"
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      &nbsp;&nbsp;&nbsp;&nbsp;Join Telegram&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa-brands fa-telegram fa-lg"/>
+                      Join Telegram <i className="fa-brands fa-telegram fa-lg"/>
                     </Link>
                   </div>
                   {/* 

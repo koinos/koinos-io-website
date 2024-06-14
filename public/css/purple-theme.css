@@ -13075,3 +13075,7 @@ body.theme--dark {
   color: #fff;
   margin-bottom: 0;
 }
+
+.hero-btns a.btn {
+  min-width: 250px;
+}
