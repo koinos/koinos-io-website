@@ -19,7 +19,6 @@ import FeatureCommunity from "@/components/sections/FeatureCommunity"
 import FeatureEcosystem from "@/components/sections/FeatureEcosystem"
 
 export default function Home() {
-  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <>
       <Layout
@@ -27,13 +26,7 @@ export default function Home() {
         footerStyle={3}
         headerCls="navbar-dark light-hero-header"
       >
-        <ModalVideo
-          channel="youtube"
-          videoId="2L5ZnZXGCXk"
-          isOpen={isModalOpen}
-          onClose={() => setModalOpen(false)}
-        />
-        <Hero27 onOpenModal={() => setModalOpen(true)} />
+        <Hero27 />
 
         <Statistic5_1 />
 
