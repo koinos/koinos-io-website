@@ -15,6 +15,8 @@ import Wallets from "@/components/sections/Wallets";
 import ModalVideo from "react-modal-video";
 import MediumBlog from "@/components/sections/MediumBlog";
 import Buy from "@/components/sections/Buy";
+import FeatureCommunity from "@/components/sections/FeatureCommunity"
+import FeatureEcosystem from "@/components/sections/FeatureEcosystem"
 
 export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -39,7 +41,11 @@ export default function Home() {
 
         <MediumBlog />
 
+        <FeatureCommunity />
+
         <Exchanges />
+
+        <FeatureEcosystem />
 
         <Features11_1 />
 
