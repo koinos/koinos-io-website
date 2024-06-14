@@ -11,7 +11,6 @@ export default function Partners() {
           <div className="row">
             <div className="col text-center">
               <BrandSlider1 />
-              <section className="hr_rule" />
             </div>
           </div>{" "}
           {/* END BRANDS CAROUSEL */}
