@@ -130,15 +130,7 @@ export default function MediumBlog() {
                         <div className="blog-post-meta mt-20">
                           <ul className="post-meta-list ico-10">
                             <li>
-                              <p className="p-sm w-500">By {item.author}</p>
-                            </li>
-                            <li className="meta-list-divider">
-                              <p>
-                                <span className="flaticon-minus" />
-                              </p>
-                            </li>
-                            <li>
-                              <p className="p-sm">{item.pubDate}</p>
+                              <p className="p-sm">Published on {item.pubDate}</p>
                             </li>
                           </ul>
                         </div>

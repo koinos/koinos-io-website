@@ -36,9 +36,9 @@ export default function Home() {
 
         <FeatureCommunity />
 
-        <Partners />
-
         <FeatureEcosystem />
+
+        <Partners />
 
         <KoinosAdvantage />
 
