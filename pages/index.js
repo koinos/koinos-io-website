@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout";
 //import Blog1_6 from "@/components/sections/Blog1_6"
 import Partners from "@/components/sections/Partners";
 import Roadmap from "@/components/sections/Roadmap";
-import Features11_1 from "@/components/sections/Features11_1";
+import KoinosAdvantage from "@/components/sections/KoinosAdvantage";
 import Hero27 from "@/components/sections/Hero27";
 import Integrations1_1 from "@/components/sections/Integrations1_1";
 //import Lnk3_13 from "@/components/sections/Lnk3_13"
@@ -40,7 +40,7 @@ export default function Home() {
 
         <FeatureEcosystem />
 
-        <Features11_1 />
+        <KoinosAdvantage />
 
         <Integrations1_1 />
 
