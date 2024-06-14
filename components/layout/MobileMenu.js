@@ -100,11 +100,7 @@ export default function MobileMenu({ handleMobileMenu }) {
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link
-            href="/#community"
-            onClick={handleMobileMenu}
-            className="h-link"
-          >
+          <Link href="/community" onClick={handleMobileMenu} className="h-link">
             Community
           </Link>
         </li>
@@ -116,7 +112,7 @@ export default function MobileMenu({ handleMobileMenu }) {
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="/#team" onClick={handleMobileMenu} className="h-link">
+          <Link href="/team" onClick={handleMobileMenu} className="h-link">
             Team
           </Link>
         </li>
