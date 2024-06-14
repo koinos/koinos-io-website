@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Layout from "@/components/layout/Layout";
 //import Blog1_6 from "@/components/sections/Blog1_6"
-import Exchanges from "@/components/sections/Exchanges";
+import Partners from "@/components/sections/Partners";
 import Roadmap from "@/components/sections/Roadmap";
 import Features11_1 from "@/components/sections/Features11_1";
 import Hero27 from "@/components/sections/Hero27";
@@ -36,7 +36,7 @@ export default function Home() {
 
         <FeatureCommunity />
 
-        <Exchanges />
+        <Partners />
 
         <FeatureEcosystem />
 

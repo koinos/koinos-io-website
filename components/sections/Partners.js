@@ -1,5 +1,5 @@
 import BrandSlider1 from "../slider/BrandSlider1";
-export default function Exchanges() {
+export default function Partners() {
 
   return (
     <>
