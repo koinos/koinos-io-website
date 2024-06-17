@@ -4,7 +4,7 @@ import Roadmap from "@/components/sections/Roadmap";
 import KoinosAdvantage from "@/components/sections/KoinosAdvantage";
 import Hero27 from "@/components/sections/Hero27";
 import Integrations1_1 from "@/components/sections/Integrations1_1";
-import Statistic5_1 from "@/components/sections/Statistic5_1";
+import ChainStatistics from "@/components/sections/ChainStatistics";
 import Community from "@/components/sections/Community";
 import Wallets from "@/components/sections/Wallets";
 import MediumBlog from "@/components/sections/MediumBlog";
@@ -23,7 +23,7 @@ export default function Home() {
       >
         <Hero27 />
 
-        <Statistic5_1 />
+        <ChainStatistics />
 
         <WhereToGetKOIN />
 
