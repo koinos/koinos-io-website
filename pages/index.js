@@ -21,23 +21,23 @@ export default function Home() {
       >
         <KoinosHero />
 
-        <ChainStatistics />
+        <FeatureEcosystem />
+
+        <FeatureCommunity />
+
+        <TokenAllocation />
+
+        <Partners />
 
         <WhereToGetKOIN />
 
         <MediumBlog />
 
-        <FeatureCommunity />
-
-        <FeatureEcosystem />
-
-        <Partners />
-
-        <KoinosAdvantage />
-
         <Wallets />
 
-        <TokenAllocation />
+        <ChainStatistics />
+
+        <KoinosAdvantage />
 
         <Roadmap />
 
