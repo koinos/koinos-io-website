@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 const swiperOptions = {
     modules: [Autoplay],
-    slidesPerView: 4,
+    slidesPerView: 5,
     centerInsufficientSlides: true,
     spaceBetween: 30,
     autoplay: {
@@ -13,8 +13,6 @@ const swiperOptions = {
         disableOnInteraction: false,
     },
     loop: true,
-    
-    
 
     breakpoints: {
         320: {
@@ -34,11 +32,11 @@ const swiperOptions = {
             // spaceBetween: 30,
         },
         1199: {
-            slidesPerView: 4, //5
+            slidesPerView: 5,
             // spaceBetween: 30,
         },
         1350: {
-            slidesPerView: 4, //5
+            slidesPerView: 5,
             // spaceBetween: 30,
         },
     },
