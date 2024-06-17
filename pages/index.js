@@ -9,7 +9,6 @@ import Integrations1_1 from "@/components/sections/Integrations1_1";
 //import Lnk3_13 from "@/components/sections/Lnk3_13"
 import Newsletter1_1 from "@/components/sections/Newsletter1_1";
 import Statistic5_1 from "@/components/sections/Statistic5_1";
-import Community from "@/components/sections/Community";
 import Ct08_1 from "@/components/sections/Ct08_1";
 import Wallets from "@/components/sections/Wallets";
 import ModalVideo from "react-modal-video";
@@ -48,8 +47,6 @@ export default function Home() {
         <Wallets />
 
         <Ct08_1 />
-
-        <Community />
 
         <Roadmap />
 
