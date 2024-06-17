@@ -84,6 +84,7 @@ export default function MediumBlog() {
                 {/* Title */}
                 <h2 className="s-52 w-700">News &amp; Updates</h2>
                 {/* Text */}
+                <p className="s-21 color--grey">Stay Updated with the Latest News on our Medium Blog</p>
               </div>
             </div>
           </div>

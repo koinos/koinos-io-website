@@ -13,7 +13,7 @@ export default function WhereToGetKOIN() {
                                 {/* Title */}
                                 <h2 className="s-50 w-700">Where to get KOIN</h2>
                                 {/* Text */}
-                                <p className="s-21 color--grey">Koinos can be found on several exchanges</p>
+                                <p className="s-21 color--grey">Find Koinos on Exchanges Across the Globe</p>
                             </div>
                         </div>
                     </div>

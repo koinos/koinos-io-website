@@ -1,6 +1,6 @@
 export default function KoinosAdvantage() {
   const title = "The Koinos Advantage";
-  const subtle = "";
+  const subtle = "Koinos is Engineered to Provide a Web2 User Experience on Web3";
 
   const items = [
     {
