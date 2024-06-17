@@ -5299,6 +5299,9 @@ span.sm-info {
   padding-top: 150px;
   background-size: cover;
   background-repeat: no-repeat;
+  @media screen and (max-width: 500px) {
+    padding-top: 300px;
+  }
 }
 
 /*.hero-27-txt h2 { 
