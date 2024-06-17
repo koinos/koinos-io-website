@@ -33,11 +33,11 @@ export default function Home() {
 
         <MediumBlog />
 
-        <Wallets />
+        <KoinosAdvantage />
 
         <ChainStatistics />
 
-        <KoinosAdvantage />
+        <Wallets />
 
         <Roadmap />
 
