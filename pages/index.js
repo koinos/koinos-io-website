@@ -14,9 +14,9 @@ import Ct08_1 from "@/components/sections/Ct08_1";
 import Wallets from "@/components/sections/Wallets";
 import ModalVideo from "react-modal-video";
 import MediumBlog from "@/components/sections/MediumBlog";
-import Buy from "@/components/sections/Buy";
 import FeatureCommunity from "@/components/sections/FeatureCommunity"
 import FeatureEcosystem from "@/components/sections/FeatureEcosystem"
+import WhereToGetKOIN from "@/components/sections/WhereToGetKOIN"
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
 
         <Statistic5_1 />
 
-        <Buy />
+        <WhereToGetKOIN />
 
         <MediumBlog />
 
