@@ -101,6 +101,16 @@ export default function MobileMenu({ handleMobileMenu }) {
 
         <li className="nl-simple" aria-haspopup="true">
           <Link
+            href="/ecosystem"
+            onClick={handleMobileMenu}
+            className="h-link"
+          >
+            Ecosystem
+          </Link>
+        </li>
+
+        <li className="nl-simple" aria-haspopup="true">
+          <Link
             href="/community"
             onClick={handleMobileMenu}
             className="h-link"
