@@ -127,7 +127,7 @@ export default function Home() {
                                 {/* MORE QUESTIONS LINK */}
                                 <div className="more-questions">
                                     <div className="more-questions-txt bg--white-400 r-100">
-                                        <p className="p-lg">Have any questions? <Link href="/contacts" className="color--theme">Get in Touch</Link></p>
+                                        <p className="p-lg">Have any questions? <Link href="https://telegram.koinos.io" className="color--theme">Get in Touch</Link></p>
                                     </div>
                                 </div>
                             </div>
