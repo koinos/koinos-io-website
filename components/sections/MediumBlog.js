@@ -28,7 +28,6 @@ export default function MediumBlog() {
   }, []);
 
   useEffect(() => {
-    console.log("sectionRef: ", sectionRef.current);
     if (sectionRef.current) {
       animate(sectionRef.current);
     }

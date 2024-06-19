@@ -6,7 +6,6 @@ export default function WhereToGetKOIN() {
     const sectionRef = useRef(null);
 
     useEffect(() => {
-        console.log("sectionRef: ", sectionRef.current);
         if (sectionRef.current) {
           animate(sectionRef.current);
         }
