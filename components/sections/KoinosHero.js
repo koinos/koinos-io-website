@@ -1,15 +1,23 @@
+import { useEffect, useRef } from "react";
 import Link from "next/link";
+import { animate } from "../utils/animate";
 
 export default function KoinosHero() {
+  const sectionRef = useRef(null);
   const title1 = "The World's First";
   const title2 = "Feeless Smart Contract Platform";
-  const subtle =
-    "Fair Launched, No Locked Coins, 100% Public Allocation";
+  const subtle = "Fair Launched, No Locked Coins, 100% Public Allocation";
+
+  useEffect(() => {
+    if (sectionRef.current) {
+      animate(sectionRef.current);
+    }
+  }, [sectionRef]);
 
   return (
     <>
       {/*<section id="hero-27" className="gr--whitesmoke hero-section">*/}
-      <section id="hero-27">
+      <section id="hero-27" ref={sectionRef}>
         <div className="hero-overlay bg--fixed">
           <div className="container text-center">
             {/* HERO TEXT */}
@@ -26,19 +34,20 @@ export default function KoinosHero() {
                   <p className="s-20">{subtle}</p>
                   {/* Buttons */}
                   <div className="btns-group hero-btns">
-                  <Link
+                    <Link
                       href="https://docs.koinos.io/"
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      Build on Koinos <i className="fa-solid fa-code fa-lg"/>
+                      Build on Koinos <i className="fa-solid fa-code fa-lg" />
                     </Link>
                     <Link
                       href="https://telegram.koinos.io/"
                       target="_blank"
                       className="btn r-04 btn--theme hover--tra-black"
                     >
-                      Join Telegram <i className="fa-brands fa-telegram fa-lg"/>
+                      Join Telegram{" "}
+                      <i className="fa-brands fa-telegram fa-lg" />
                     </Link>
                   </div>
                   {/* 
