@@ -24,7 +24,7 @@ export default function Home() {
         {
             question: 'What is the mission of Koinos ?',
             answer:
-                'To accelerate the transition to a truly decentralized future by maximizing blockchain accessibility.',
+                'To accelerate the transition to a truly decentralized future by providing Web2 User Experiences on Web3.',
         },
         {
             question: 'When will mainnet be released?',
@@ -37,9 +37,9 @@ export default function Home() {
                 'The initial token balances on main net were determined entirely by the token balances of the KOIN ERC20 (i.e. the KOIN tokens on Ethereum that were distributed through proof of work mining). That ERC20 was implemented using OpenZeppelin’s tooling including their snapshot mechanism. This mechanism within the smart contract allows for the creation of a decentralized record of all token balances and total supply at the time of use (i.e. a “snapshot”). No date has been announced for the snapshot that will be used for mainnet.',
         },
         {
-            question: 'How is Koinos fee-less ?',
+            question: 'How is Koinos feeless ?',
             answer:
-                'Koinos features a new concept called “mana” that is the most innovative solution to the halting problem since the invention of Ethereum’s “gas.” It is a property of the KOIN token that gets “consumed” as a user performs fee-less transactions, but that also regenerates over time. This means that even if all of a user’s mana gets consumed, all they have to do is wait if they want to perform more fee-less transactions without having to purchase additional KOIN. Once any mana in a token is consumed, that token becomes locked (non-transferrable) for the duration of the regen period. The mana whitepaper is now LIVE. Read it here.',
+                'Koinos features a new concept called “mana” that is the most innovative solution to the halting problem since the invention of Ethereum’s “gas.” It is a property of the KOIN token that gets “consumed” as a user performs feeless transactions, but that also regenerates over time. This means that even if all of a user’s mana gets consumed, all they have to do is wait if they want to perform more feeless transactions without having to purchase additional KOIN. Once any mana in a token is consumed, that token becomes locked (non-transferrable) for the duration of the regen period. The mana whitepaper is now LIVE. Read it here.',
         },
         {
             question: 'How decentralized is Koinos ?',
@@ -59,7 +59,7 @@ export default function Home() {
         {
             question: 'What are the features of mainnet ?',
             answer:
-                '1. Free-to-use Mana system<br/>2. Proof-of-burn consensus algorithm<br>3. Universal Language Support<br/>4. Infinite Upgradeability',
+                '1. Feeless Mana system<br/>2. Proof-of-Burn consensus algorithm<br>3. Universal Language Support<br/>4. Infinite Upgradeability',
         },
         {
             question: 'Is Koinos “Ethereum-compatible” ?',
@@ -127,7 +127,7 @@ export default function Home() {
                                 {/* MORE QUESTIONS LINK */}
                                 <div className="more-questions">
                                     <div className="more-questions-txt bg--white-400 r-100">
-                                        <p className="p-lg">Have any questions? <Link href="/contacts" className="color--theme">Get in Touch</Link></p>
+                                        <p className="p-lg">Have any questions? <Link href="https://telegram.koinos.io" className="color--theme">Get in Touch</Link></p>
                                     </div>
                                 </div>
                             </div>

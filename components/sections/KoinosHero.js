@@ -1,7 +1,6 @@
 import Link from "next/link";
-import VideoPopup from "../elements/VideoPopup";
 
-export default function Hero27({ onOpenModal }) {
+export default function KoinosHero() {
   const title1 = "The World's First";
   const title2 = "Feeless Smart Contract Platform";
   const subtle =

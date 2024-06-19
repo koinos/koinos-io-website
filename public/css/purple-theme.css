@@ -5299,6 +5299,9 @@ span.sm-info {
   padding-top: 150px;
   background-size: cover;
   background-repeat: no-repeat;
+  @media screen and (max-width: 500px) {
+    padding-top: 150px !important;
+  }
 }
 
 /*.hero-27-txt h2 { 
@@ -7935,6 +7938,12 @@ p.rbox-2-txt span {
   -o-transition: all 400ms ease-in-out;
   -ms-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
+}
+
+#brands-1 {
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 }
 
 #brands-1 .brands-carousel-5 .brand-logo {
@@ -13074,4 +13083,12 @@ body.theme--dark {
 .t-title h6 {
   color: #fff;
   margin-bottom: 0;
+}
+
+.hero-btns a.btn {
+  min-width: 250px;
+}
+
+#features-13 a:link, #features-12 a:link {
+  text-decoration: underline;
 }

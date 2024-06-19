@@ -125,7 +125,7 @@ export default function Community() {
                   </div>
                   <div className="col-md-6">
                     <div className="blog-post-txt">
-                      <span className="post-tag color--blue-400">{title1}</span>
+                      <span className="post-tag">{title1}</span>
                       <h3 className="s-38 w-700">{title2}</h3>
                       <p>{description}</p>
                     </div>

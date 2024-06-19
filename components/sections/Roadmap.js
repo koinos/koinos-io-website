@@ -157,7 +157,7 @@ export default function Roadmap() {
 
   return (
     <>
-      <section id="roadmap" className="pt-100 ct-04 content-section division">
+      <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division">
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">

@@ -1,5 +1,5 @@
 import BrandSlider1 from "../slider/BrandSlider1";
-export default function Exchanges() {
+export default function Partners() {
 
   return (
     <>
@@ -11,7 +11,6 @@ export default function Exchanges() {
           <div className="row">
             <div className="col text-center">
               <BrandSlider1 />
-              <section className="hr_rule" />
             </div>
           </div>{" "}
           {/* END BRANDS CAROUSEL */}

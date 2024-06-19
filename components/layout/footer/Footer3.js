@@ -25,7 +25,7 @@ export default function Footer3() {
                                         <p><Link href="/faqs">FAQs</Link></p>
                                     </li>
                                     <li>
-                                        <p><Link href="https://twitter.com/koinosnetwork">Contact us</Link></p>
+                                        <p><Link href="https://telegram.koinos.io">Contact us</Link></p>
                                     </li>
                                 </ul>
                             </div>
