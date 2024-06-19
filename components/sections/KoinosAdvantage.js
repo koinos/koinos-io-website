@@ -1,4 +1,15 @@
+import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
+
 export default function KoinosAdvantage() {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+      if (sectionRef.current) {
+        animate(sectionRef.current);
+      }
+    }, [sectionRef]);
+
   const title = "The Koinos Advantage";
   const subtle = "Koinos is Engineered to Provide a Web2 User Experience on Web3";
 
@@ -43,7 +54,7 @@ export default function KoinosAdvantage() {
 
   return (
     <>
-      <section id="features" className="py-100 features-section division">
+      <section id="features" className="py-100 features-section division" ref={sectionRef}>
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">

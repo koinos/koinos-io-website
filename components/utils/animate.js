@@ -29,7 +29,7 @@ export function animate(container) {
     });
   }, {
     rootMargin: '0px 0px 0px 0px', // adjust as needed
-    threshold: 0.5 // adjust as needed (10% visible triggers animation)
+    threshold: 0.1 // adjust as needed (10% visible triggers animation)
   });
 
   elements.forEach(element => observer.observe(element));

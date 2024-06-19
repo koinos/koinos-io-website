@@ -1,9 +1,18 @@
-
+import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
 
 export default function FeatureEcosystem() {
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        if (sectionRef.current) {
+          animate(sectionRef.current);
+        }
+      }, [sectionRef]);
+
     return (
         <>
-            <section id="features-13" className="shape--bg shape--white-500 pt-100 features-section division">
+            <section id="features-13" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         {/* FEATURES-13 WRAPPER */}
