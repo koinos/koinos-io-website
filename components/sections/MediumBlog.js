@@ -91,6 +91,7 @@ export default function MediumBlog() {
           <div className="row">
             {displayItems &&
               displayItems.map((item, index) => (
+                <>
                   <div className="col-md-6 col-lg-4" key={index}>
                     <div className="blog-post wow fadeInUp">
                       {/* BLOG POST IMAGE */}
@@ -110,15 +111,6 @@ export default function MediumBlog() {
                           />
                         </Link>
                       </div>
-                    </div>
-                  </div>
-              ))}
-          </div>
-          <div className="row">
-            {displayItems &&
-              displayItems.map((item, index) => (
-                  <div className="col-md-6 col-lg-4" key={index}>
-                    <div className="blog-post wow fadeInUp">
                       {/* BLOG POST TEXT */}
                       <div className="blog-post-txt">
                         {/* Post Link */}
@@ -131,7 +123,7 @@ export default function MediumBlog() {
                         <div className="blog-post-meta mt-20">
                           <ul className="post-meta-list ico-10">
                             <li>
-                              <p className="p-sm">Published on {item.pubDate}</p>
+                            <p className="p-sm">Published on {item.pubDate}</p>
                             </li>
                           </ul>
                         </div>
@@ -139,6 +131,7 @@ export default function MediumBlog() {
                       {/* END BLOG POST TEXT */}
                     </div>
                   </div>
+                </>
               ))}
             {!displayItems && <div>Loading...</div>}
           </div>{" "}
