@@ -57,7 +57,7 @@ export default function FeatureEcosystem() {
                                             {/* Text */}
                                             <div className="fbox-txt">
                                                 <h5 className="s-19 w-700">KoinDX</h5>
-                                                <p><a href="https://koindx.com">KoinDX</a> is the world's first decentralization exchange built on the Koinos blockchain.</p>
+                                                <p><a href="https://koindx.com">KoinDX</a> is the world's first decentralized exchange built on the Koinos blockchain.</p>
                                             </div>
                                         </div>
                                     </div>
