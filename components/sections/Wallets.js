@@ -13,7 +13,7 @@ export default function Wallets() {
       }, [sectionRef]);
 
     const title = "Wallets";
-    const subtle = "Intuitive and Accessible: Koinos Wallets Bring Cutting-Edge Technology to Everyone";
+    const subtle = "Koinos Wallets Bring Cutting-Edge Technology to Everyone";
 
     const wallets = [
         {
