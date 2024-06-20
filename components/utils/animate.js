@@ -23,13 +23,12 @@ export function animate(container) {
           void target.offsetWidth; // trigger reflow
           target.classList.add('animated', 'fadeInRight');
         }
-        console.log(`animated class added to:`, target);
         observer.unobserve(target);
       }
     });
   }, {
     rootMargin: '0px 0px 0px 0px', // adjust as needed
-    threshold: 0.1 // adjust as needed (10% visible triggers animation)
+    threshold: 0 // adjust as needed (0% visible triggers animation)
   });
 
   elements.forEach(element => observer.observe(element));
