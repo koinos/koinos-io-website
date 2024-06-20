@@ -17,7 +17,7 @@ export default function KoinosAdvantage() {
     {
       title: "Smart Contracts without Fees",
       description:
-        "Just like the internet! The Koinos Mana system allows you to use the blockchain without spending, or even holding, ANY tokens. Mana recharges over time at a maximum of 5 days.<br/>Koinos lowers the barrier to entry with feeless smart contracts!",
+        "Just like the internet! The Koinos Mana system allows you to use the blockchain without spending, or even holding, ANY tokens. Mana recharges over time and can be shared with others. Koinos lowers the barrier with feeless smart contracts!",
       icon: "/images/features/feeless.png",
     },
     {
