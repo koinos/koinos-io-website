@@ -1,4 +1,15 @@
+import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
+
 export default function Roadmap() {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+      if (sectionRef.current) {
+        animate(sectionRef.current);
+      }
+    }, [sectionRef]);
+
   const title = "Roadmap";
   const subtle = "";
 
@@ -157,7 +168,7 @@ export default function Roadmap() {
 
   return (
     <>
-      <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division">
+      <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division" ref={sectionRef}>
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">

@@ -1,7 +1,9 @@
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
 
 export default function MediumBlog() {
+  const sectionRef = useRef(null);
   const mediumRssFeedJsonLink =
     "/api/blog-proxy";
   const maxItems = 3;
@@ -24,6 +26,12 @@ export default function MediumBlog() {
     }
     fetchData();
   }, []);
+
+  useEffect(() => {
+    if (sectionRef.current) {
+      animate(sectionRef.current);
+    }
+  }, [sectionRef, displayItems]); // triggers after displayItems exists
 
   // convert items to displayItems, strip out what we need etc
   useEffect(() => {
@@ -75,7 +83,7 @@ export default function MediumBlog() {
 
   return (
     <>
-      <section id="blog-1" className="py-100 blog-section division">
+      <section id="blog-1" className="py-100 blog-section division" ref={sectionRef}>
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">

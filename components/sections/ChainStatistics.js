@@ -1,13 +1,22 @@
 import CounterUp from "../elements/CounterUp";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import humanFormat from "human-format";
+import { animate } from "../utils/animate";
 
 export default function ChainStatistics() {
   const [transactions, setTransactions] = useState(0);
   const [accounts, setAccounts] = useState(0);
   const [blocks, setBlocks] = useState(0);
+  const sectionRef = useRef(null);
 
-  const title = "";
+    useEffect(() => {
+        if (sectionRef.current) {
+          animate(sectionRef.current);
+        }
+      }, [sectionRef]);
+
+  const title = "Blockchain Statistics";
+  const subtle = "A Powerful Decentralized Network for a Growing Ecosystem"
 
   const getData = () => {
     const url = "https://api.koiner.app/graphql";
@@ -73,7 +82,7 @@ export default function ChainStatistics() {
 
   return (
     <>
-      <div id="statistic-5" className="pt-50 statistic-section division">
+      <div id="statistic-5" className="pt-50 statistic-section division" ref={sectionRef}>
         <div className="container">
           {/* STATISTIC-1 WRAPPER */}
           <div className="statistic-5-wrapper">
@@ -84,7 +93,7 @@ export default function ChainStatistics() {
                   {/* Title */}
                   <h2 className="s-50 w-700">{title}</h2>
                   {/* Text */}
-
+                  <p className="s-21 color--grey">{subtle}</p>
                 </div>
               </div>
             </div>

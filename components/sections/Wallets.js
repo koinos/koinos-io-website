@@ -1,10 +1,19 @@
+import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
 import Link from "next/link";
 
 
 export default function Wallets() {
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        if (sectionRef.current) {
+          animate(sectionRef.current);
+        }
+      }, [sectionRef]);
 
     const title = "Wallets";
-    const subtle = "Intuitive and Accessible: Koinos Wallets Bring Cutting-Edge Technology to Everyone";
+    const subtle = "Koinos Wallets Bring Cutting-Edge Technology to Everyone";
 
     const wallets = [
         {
@@ -47,7 +56,7 @@ export default function Wallets() {
 
     return (
         <>
-            <section id="wallets" className="py-100 features-section division">
+            <section id="wallets" className="py-100 features-section division" ref={sectionRef}>
                 <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row justify-content-center">

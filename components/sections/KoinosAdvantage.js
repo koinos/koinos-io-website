@@ -1,4 +1,15 @@
+import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
+
 export default function KoinosAdvantage() {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+      if (sectionRef.current) {
+        animate(sectionRef.current);
+      }
+    }, [sectionRef]);
+
   const title = "The Koinos Advantage";
   const subtle = "Koinos is Engineered to Provide a Web2 User Experience on Web3";
 
@@ -6,7 +17,7 @@ export default function KoinosAdvantage() {
     {
       title: "Smart Contracts without Fees",
       description:
-        "Just like the internet! The Koinos Mana system allows you to use the blockchain without spending, or even holding, ANY tokens. Mana recharges over time at a maximum of 5 days.<br/>Koinos lowers the barrier to entry with feeless smart contracts!",
+        "Just like the internet! The Koinos Mana system allows you to use the blockchain without spending, or even holding, ANY tokens. Mana recharges over time and can be shared with others. Koinos lowers the barrier with feeless smart contracts!",
       icon: "/images/features/feeless.png",
     },
     {
@@ -43,7 +54,7 @@ export default function KoinosAdvantage() {
 
   return (
     <>
-      <section id="features" className="py-100 features-section division">
+      <section id="features" className="py-100 features-section division" ref={sectionRef}>
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">

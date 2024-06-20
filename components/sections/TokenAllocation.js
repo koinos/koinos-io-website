@@ -1,9 +1,17 @@
-
+import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
 
 export default function TokenAllocation() {
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        if (sectionRef.current) {
+          animate(sectionRef.current);
+        }
+      }, [sectionRef]);
     return (
         <>
-            <section className="pt-100 ct-01 content-section division">
+            <section className="pt-100 ct-01 content-section division" ref={sectionRef}>
                 <div className="container">
                     {/* SECTION CONTENT (ROW) */}
                     <div className="row d-flex align-items-center">

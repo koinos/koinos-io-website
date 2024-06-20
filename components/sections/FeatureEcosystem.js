@@ -1,9 +1,18 @@
-
+import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
 
 export default function FeatureEcosystem() {
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        if (sectionRef.current) {
+          animate(sectionRef.current);
+        }
+      }, [sectionRef]);
+
     return (
         <>
-            <section id="features-13" className="shape--bg shape--white-500 pt-100 features-section division">
+            <section id="features-13" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         {/* FEATURES-13 WRAPPER */}
@@ -48,7 +57,7 @@ export default function FeatureEcosystem() {
                                             {/* Text */}
                                             <div className="fbox-txt">
                                                 <h5 className="s-19 w-700">KoinDX</h5>
-                                                <p><a href="https://koindx.com">KoinDX</a> is the world's first decentralization exchange built on the Koinos blockchain.</p>
+                                                <p><a href="https://koindx.com">KoinDX</a> is the world's first decentralized exchange built on the Koinos blockchain.</p>
                                             </div>
                                         </div>
                                     </div>

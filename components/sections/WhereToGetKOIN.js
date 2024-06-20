@@ -1,10 +1,19 @@
+import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
+import Link from "next/link";
 
-
-import Link from "next/link"
 export default function WhereToGetKOIN() {
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        if (sectionRef.current) {
+          animate(sectionRef.current);
+        }
+      }, [sectionRef]);
+
     return (
         <>
-            <section id="integrations-1" className="pt-100 integrations-section">
+            <section id="integrations-1" className="pt-100 integrations-section" ref={sectionRef}>
                 <div className="container">
                     {/* SECTION TITLE */}
                     <div className="row justify-content-center">
