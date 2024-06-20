@@ -4,8 +4,8 @@ export default function Home() {
         
   const dapps = [
     {
-      "name": "Koindx",
-      "description": "Koindx is a decentralized exchange designed to facilitate seamless token swaps, providing users with a fast, and user-friendly trading experience.",
+      "name": "KoinDX",
+      "description": "KoinDX is a decentralized exchange designed to facilitate seamless token swaps, providing users with a fast, and user-friendly trading experience.",
       "icon": "/images/dapps/koindx.png",
       "url": "https://koindx.com/"
     },
