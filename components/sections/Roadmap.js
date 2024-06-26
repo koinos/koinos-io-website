@@ -15,273 +15,220 @@ export default function Roadmap() {
 
   const roadmapPrevious = [
     {
-      title: "2020",
-      description: `
-                Koinos announced<br/>
-                Bitcoin-style proof-of-work launch on Ethereum
-                `,
-      status: "done",
+        title: "2020",
+        description: [
+            { text: "Koinos Announced", icon: "fa-solid fa-bullhorn" },
+            { text: "Proof-of-Work Initial Supply Distribution", icon: "fa-solid fa-parachute-box" },
+        ],
+        status: "done",
     },
     {
-      title: "2021",
-      description: `
-                Test net V1<br/>
-                CLI<br/>
-                Protobuf integration<br/>
-                Proof-of-Burn<br/>
-                Kondor web wallet
-                `,
-      status: "done",
+        title: "2021",
+        description: [
+            { text: "Testnet", icon: "fa-solid fa-landmark" },
+            { text: "Koinos Command Line Interface (CLI)", icon: "fa-solid fa-code" },
+            { text: "Proof-of-Burn Development", icon: "fa-solid fa-fire" },
+            { text: "Protobuf Integration", icon: "fa-solid fa-code" },
+            { text: "Kondor Wallet", icon: "fa-solid fa-wallet" },
+        ],
+        status: "done",
     },
     {
-      title: "2022",
-      description: `
-                Decentralized Governance<br/>
-                Mana system<br/>
-                Main net live (November 5th)<br/>
-                Main net decentralized (December 5th)<br/>
-                MEXC listing
-                `,
-      status: "done",
+        title: "2022",
+        description: [
+            { text: "Decentralized Governance Development", icon: "fa-solid fa-scale-balanced" },
+            { text: "Mana System Development", icon: "fa-solid fa-wand-magic-sparkles" },
+            { text: "Mainnet Go-Live (November 5th)", icon: "fa-solid fa-landmark" },
+            { text: "MEXC Listing", icon: "fa-solid fa-arrow-right-arrow-left" },
+        ],
+        status: "done",
     },
     {
-      title: "Q1 2023",
-      description: `
-                First dApps go live<br/>
-                BurnKoin<br/>
-                Fogata<br/>
-                Multiple NFT collections<br/>
-                KoinosPro development
-                `,
-      status: "done",
+        title: "2023",
+        description: [
+            { text: "KoinDX", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "KoinosBlocks", icon: "fa-brands fa-wpexplorer" },
+            { text: "Kanvas", icon: "fa-solid fa-gamepad" },
+            { text: "BurnKoin", icon: "fa-solid fa-fire" },
+            { text: "Koiner", icon: "fa-brands fa-wpexplorer" },
+            { text: "Fogata", icon: "fa-solid fa-fire" },
+            { text: "Atomic Swaps", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Kollection NFT Marketplace", icon: "fa-solid fa-shop" },
+            { text: "Konio", icon: "fa-solid fa-wallet" },
+            { text: "NFTNYC Hackathon", icon: "fa-solid fa-code" },
+            { text: "Koinos Account Protocol", icon: "fa-solid fa-person" },
+            { text: "Koinosbox Polls", icon: "fa-solid fa-square-poll-vertical" },
+            { text: "Nicknames", icon: "fa-solid fa-person" },
+            { text: "ChaingeFinance Integration", icon: "fa-solid fa-bridge" },
+        ],
+        status: "done",
     },
-    {
-      title: "Q2 2023",
-      description: `
-                KoinosPro MVP<br/>
-                NFTNYC Hackathon<br/>
-                Kollection NFT marketplace launch<br/>
-                Koinos Account Protocol launch<br/>
-                Smart Wallets<br/>
-                KoinDX launch<br/>
-                Koinos Polls launch<br/>
-                `,
-      status: "done",
-    },
-    {
-      title: "Q3 2023",
-      description: `
-                Nicknames<br/>
-                KoinDX V2
-                `,
-      status: "done",
-    },
-    {
-      title: "Q4 2023",
-      description: `
-                Kollection No-Code NFTs<br/>
-                Developer Program<br/>
-                KAP Free Access
-                `,
-      status: "todo",
-    },
-  ];
+];
 
   const roadmap2024 = [
     {
-      title: "Game Development",
-      description: `
-                Unreal Engine Integration<br/>
-                Unity Integration<br/>
-                Splinterlands Collaboration       
-            `,
-      status: "todo",
+        title: "Q1",
+        description: [
+            { text: "Lords Forsaken Pre-sale", icon: "fa-solid fa-gamepad" },
+            { text: "Koinos Exchange Group", icon: "fa-solid fa-person" },
+            { text: "KoinosPro", icon: "fa-solid fa-server" },
+        ],
+        status: "done",
     },
     {
-      title: "Finance",
-      description: `
-                Crowdfunding dApp<br/>
-                Treasury Management dApp<br/>
-                Staking Pools<br/>
-                Koincity Markets<br/>
-                KoinDX V3
-            `,
+        title: "Q2",
+        description: [
+            { text: "LCX Listing", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Biconomy Listing", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Koincity Markets", icon: "fa-solid fa-arrow-right-arrow-left" },
+        ],
+        status: "done",
     },
     {
-      title: "KoinosPro",
-      description: `
-                KoinosPro V1<br/>
-                KoinosPro Mana Fountain<br/>
-                KoinosPro Fusion       
-            `,
-      status: "todo",
+        title: "Q3",
+        description: [
+            { text: "Tangem Wallet Integration", icon: "fa-solid fa-wallet" },
+            { text: "Tier II Exchange Listing (TBA)", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Vortex Bridge", icon: "fa-solid fa-bridge" },
+            { text: "KoinDX Token Launch", icon: "fa-solid fa-coins" },
+            { text: "Lords Forsaken Go-Live", icon: "fa-solid fa-gamepad" },
+            { text: "Veive Protocol", icon: "fa-solid fa-wallet" },
+            { text: "Koinos Marketing Campaign", icon: "fa-solid fa-business-time" },
+        ],
+        status: "todo",
     },
     {
-      title: "dApp Module Toolkit",
-      description: `
-                State Manager<br/>
-                Smart Locker<br/>
-                Vault<br/>
-                Authorization Engine<br/>
-                DAO Tooling     
-            `,
-      status: "todo",
+        title: "Q4",
+        description: [
+            { text: "Koinos Smart Wallets", icon: "fa-solid fa-wallet" },
+            { text: "Fiat On/Off Ramp", icon: "fa-solid fa-money-bill" },
+            { text: "Koins Ambassador Program", icon: "fa-solid fa-person" },
+            { text: "Tier II Exchange Listings (TBA)", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Kollection Creator Tools", icon: "fa-solid fa-shop" },
+        ],
+        status: "todo",
     },
-    {
-      title: "Wallets",
-      description: `
-                Hardware Wallet Support<br/>
-                Metamask Smart Wallet Integration<br/>
-                Fiat On/Off Ramp
-            `,
-      status: "todo",
-    },
-    {
-      title: "Blockchain",
-      description: `
-                WASM VM Upgrade<br/>
-                Live Snapshotting<br/>
-                Koinos Token Stats & Graphs<br/>
-                New KOIN and VHP contracts standard     
-            `,
-      status: "todo",
-    },
-    {
-      title: "Exchanges",
-      description: `
-                Tier 2 Listings<br/>
-                Tier 1 Listing
-            `,
-      status: "todo",
-    },
-    {
-      title: "Ecosystem",
-      description: `
-                Marketing<br/>
-                Ambassador Program<br/>
-                Partnerships<br/>
-                Foundation
-            `,
-      status: "todo",
-    },
-  ];
+];
 
   return (
     <>
-      <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division" ref={sectionRef}>
-        <div className="container">
-          {/* SECTION TITLE */}
-          <div className="row justify-content-center">
+  <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division" ref={sectionRef}>
+    <div className="container">
+        {/* SECTION TITLE */}
+        <div className="row justify-content-center">
             <div className="col-md-8">
-              <div className="section-title mb-70">
-                {/* Title */}
-                <h2 className="s-50 w-700">{title}</h2>
-                {/* Text */}
-                <p className="s-21 color--grey">{subtle}</p>
-              </div>
+                <div className="section-title mb-70">
+                    {/* Title */}
+                    <h2 className="s-50 w-700">{title}</h2>
+                    {/* Text */}
+                    <p className="s-21 color--grey">{subtle}</p>
+                </div>
             </div>
-          </div>
-          {/* SECTION CONTENT (ROW) */}
-          <div className="row d-flex align-items-center">
+        </div>
+        {/* SECTION CONTENT (ROW) */}
+        <div className="row d-flex align-items-center">
             {/* TEXT BLOCK */}
             <div className="col-md-12 order-last order-md-2">
-              <div className="txt-block left-column wow fadeInRight">
-                {roadmapPrevious.map((item, index) => (
-                  <div key={index} className="cbox-2 process-step">
-                    <div className="cbox-2-txt text-end me-4">
-                      {index % 2 > 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: item.description,
-                            }}
-                          ></p>
-                        </>
-                      )}
-                    </div>
-                    {/* Icon */}
-                    <div className="ico-wrap">
-                    {item.status === "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo2.png" />
-                      )}
-                      {item.status !== "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo1.png" />
-                      )}
-                      <span className="cbox-2-line" />
-                    </div>
-                    {/* Text */}
-                    <div className="cbox-2-txt">
-                      {index % 2 == 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: item.description,
-                            }}
-                          ></p>
-                        </>
-                      )}
-                    </div>
-                  </div>
-                ))}
+                <div className="txt-block left-column wow fadeInRight">
+                    {roadmapPrevious.map((item, index) => (
+                        <div key={index} className="cbox-2 process-step">
+                            <div className="cbox-2-txt text-end me-4">
+                                {index % 2 > 0 && (
+                                    <>
+                                        <h5 className="s-22 w-700">{item.title}</h5>
+                                        {item.description.map((desc, idx) => (
+                                            <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
+                                               <div>{desc.text}</div>
+                                               <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
+                            {/* Icon */}
+                            <div className="ico-wrap">
+                                {item.status === "done" && (
+                                    <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                                )}
+                                {item.status !== "done" && (
+                                    <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                                )}
+                                <span className="cbox-2-line" />
+                            </div>
+                            {/* Text */}
+                            <div className="cbox-2-txt">
+                                {index % 2 == 0 && (
+                                    <>
+                                        <h5 className="s-22 w-700">{item.title}</h5>
+                                        {item.description.map((desc, idx) => (
+                                            <div key={idx} className="d-flex align-items-center justify-content-start gap-3">
+                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                                <div>{desc.text}</div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
+                        </div>
+                    ))}
 
-                <div className="row justify-content-center">
-                  <div className="col-md-8">
-                    <div className="section-title mb-70">
-                      {/* Title */}
-                      <h2 className="s-50 w-700">2024 🚀</h2>
+                    <div className="row justify-content-center">
+                        <div className="col-md-8">
+                            <div className="section-title mb-70">
+                                {/* Title */}
+                                <h2 className="s-50 w-700">2024 🚀</h2>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+
+                    {roadmap2024.map((item, index) => (
+                        <div key={index} className="cbox-2 process-step">
+                            <div className="cbox-2-txt text-end me-4">
+                                {index % 2 > 0 && (
+                                    <>
+                                        <h5 className="s-22 w-700">{item.title}</h5>
+                                        {item.description.map((desc, idx) => (
+                                            <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
+                                                <div>{desc.text}</div>
+                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
+                            {/* Icon */}
+                            <div className="ico-wrap">
+                                {item.status === "done" && (
+                                    <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                                )}
+                                {item.status !== "done" && (
+                                    <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                                )}
+                                <span className="cbox-2-line" />
+                            </div>
+                            {/* Text */}
+                            <div className="cbox-2-txt">
+                                {index % 2 == 0 && (
+                                    <>
+                                        <h5 className="s-22 w-700">{item.title}</h5>
+                                        {item.description.map((desc, idx) => (
+                                            <div key={idx} className="d-flex align-items-center justify-content-start gap-3">
+                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div><div>{desc.text}</div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
+                        </div>
+                    ))}
                 </div>
-
-                {roadmap2024.map((item, index) => (
-                  <div key={index} className="cbox-2 process-step">
-                    <div className="cbox-2-txt text-end me-4">
-                      {index % 2 > 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: item.description,
-                            }}
-                          ></p>
-                        </>
-                      )}
-                    </div>
-                    {/* Icon */}
-                    <div className="ico-wrap">
-                      {item.status === "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo2.png" />
-                      )}
-                      {item.status !== "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo1.png" />
-                      )}
-                      <span className="cbox-2-line" />
-                    </div>
-                    {/* Text */}
-                    <div className="cbox-2-txt">
-                      {index % 2 == 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: item.description,
-                            }}
-                          ></p>
-                        </>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
             </div>{" "}
             {/* END TEXT BLOCK */}
-          </div>{" "}
-          {/* END SECTION CONTENT (ROW) */}
         </div>{" "}
-        {/* End container */}
-      </section>
+        {/* END SECTION CONTENT (ROW) */}
+    </div>{" "}
+    {/* End container */}
+</section>
     </>
   );
 }
