@@ -102,7 +102,7 @@ export default function Roadmap() {
       description: `
                 Koinos Smart Wallets <i class="fa-solid fa-wallet"></i><br/>
                 Fiat On/Off Ramp <i class="fa-solid fa-money-bill"></i><br/>
-                Koins Ambassador Program <i class="fa-solid fa-person"></i><br/>
+                Koinos Ambassador Program <i class="fa-solid fa-person"></i><br/>
                 Tier II Exchange Listings (TBA) <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
                 Kollection Creator Tools <i class="fa-solid fa-shop"></i><br/>
             `,
