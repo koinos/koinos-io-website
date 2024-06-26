@@ -53,7 +53,7 @@ export default function Roadmap() {
                 BurnKoin <i class="fa-solid fa-fire"></i><br/>
                 Fogata <i class="fa-solid fa-fire"></i><br/>
                 Atomic Swaps <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Kollection NFT Marketplace<br/>
+                Kollection NFT Marketplace <i class="fa-solid fa-shop"></i><br/>
                 Konio <i class="fa-solid fa-wallet"></i></br>
                 KoinosPro <i class="fa-solid fa-server"></i><br/>
                 NFTNYC Hackathon <i class="fa-solid fa-code"></i><br/>
@@ -103,7 +103,8 @@ export default function Roadmap() {
                 Koinos Smart Wallets <i class="fa-solid fa-wallet"></i><br/>
                 Fiat On/Off Ramp <i class="fa-solid fa-money-bill"></i><br/>
                 Koins Ambassador Program <i class="fa-solid fa-person"></i><br/>
-                Tier II Exchange Listings (TBA) <i class="fa-solid fa-arrow-right-arrow-left"></i>   
+                Tier II Exchange Listings (TBA) <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
+                Kollection Creator Tools <i class="fa-solid fa-shop"></i>
             `,
       status: "todo",
     },
