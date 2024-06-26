@@ -18,7 +18,7 @@ export default function Roadmap() {
       title: "2020",
       description: `
                 Koinos Announced <i class="fa-solid fa-landmark"></i><br/>
-                Proof-of-Work Initial Supply Distribution <i class="fa-solid fa-parachute-box"></i>
+                Proof-of-Work Initial Supply Distribution <i class="fa-solid fa-parachute-box"></i><br/>
                 `,
       status: "done",
     },
@@ -29,7 +29,7 @@ export default function Roadmap() {
                 Koinos Command Line Interface (CLI) <i class="fa-solid fa-code"></i><br/>
                 Protobuf Integration <i class="fa-solid fa-code"></i><br/>
                 Proof-of-Burn Development <i class="fa-solid fa-fire"></i><br/>
-                Kondor Wallet <i class="fa-solid fa-wallet"></i>
+                Kondor Wallet <i class="fa-solid fa-wallet"></i><br/>
                 `,
       status: "done",
     },
@@ -39,7 +39,7 @@ export default function Roadmap() {
                 Decentralized Governance Development <i class="fa-solid fa-scale-balanced"></i><br/>
                 Mana System Development <i class="fa-solid fa-wand-magic-sparkles"></i><br/>
                 Mainnet Go-Live (November 5th) <i class="fa-solid fa-landmark"></i><br/>
-                MEXC Listing <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                MEXC Listing <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
                 `,
       status: "done",
     },
@@ -55,7 +55,6 @@ export default function Roadmap() {
                 Atomic Swaps <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
                 Kollection NFT Marketplace <i class="fa-solid fa-shop"></i><br/>
                 Konio <i class="fa-solid fa-wallet"></i></br>
-                KoinosPro <i class="fa-solid fa-server"></i><br/>
                 NFTNYC Hackathon <i class="fa-solid fa-code"></i><br/>
                 Koinos Account Protocol <i class="fa-solid fa-person"></i><br/>
                 Koinosbox Polls <i class="fa-solid fa-square-poll-vertical"></i><br/>
@@ -72,6 +71,7 @@ export default function Roadmap() {
       description: `
                 Lords Forsaken Pre-sale <i class="fa-solid fa-gamepad"></i><br/>
                 Koinos Exchange Group <i class="fa-solid fa-person"></i><br/>
+                KoinosPro <i class="fa-solid fa-server"></i><br/>
             `,
       status: "done",
     },
@@ -80,7 +80,7 @@ export default function Roadmap() {
       description: `
                 LCX Listing <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
                 Biconomy Listing <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Koincity Markets <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                Koincity Markets <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
             `,
       status: "done",
     },
@@ -93,7 +93,7 @@ export default function Roadmap() {
                 KoinDX Token Launch <i class="fa-solid fa-coins"></i><br/>
                 Lords Forsaken Go-Live <i class="fa-solid fa-gamepad"></i><br/>
                 Veive Protocol <i class="fa-solid fa-wallet"></i><br/>
-                Koinos Marketing Campaign <i class="fa-solid fa-business-time"></i>
+                Koinos Marketing Campaign <i class="fa-solid fa-business-time"></i><br/>
             `,
       status: "todo",
     },
@@ -104,7 +104,7 @@ export default function Roadmap() {
                 Fiat On/Off Ramp <i class="fa-solid fa-money-bill"></i><br/>
                 Koins Ambassador Program <i class="fa-solid fa-person"></i><br/>
                 Tier II Exchange Listings (TBA) <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Kollection Creator Tools <i class="fa-solid fa-shop"></i>
+                Kollection Creator Tools <i class="fa-solid fa-shop"></i><br/>
             `,
       status: "todo",
     },
