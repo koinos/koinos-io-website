@@ -17,150 +17,93 @@ export default function Roadmap() {
     {
       title: "2020",
       description: `
-                Koinos announced<br/>
-                Bitcoin-style proof-of-work launch on Ethereum
+                Koinos Announced <i class="fa-solid fa-landmark"></i><br/>
+                Proof-of-Work Initial Supply Distribution <i class="fa-solid fa-parachute-box"></i>
                 `,
       status: "done",
     },
     {
       title: "2021",
       description: `
-                Test net V1<br/>
-                CLI<br/>
-                Protobuf integration<br/>
-                Proof-of-Burn<br/>
-                Kondor web wallet
+                Testnet <i class="fa-solid fa-landmark"></i><br/>
+                Koinos Command Line Interface (CLI) <i class="fa-solid fa-code"></i><br/>
+                Protobuf Integration <i class="fa-solid fa-code"></i><br/>
+                Proof-of-Burn Development <i class="fa-solid fa-fire"></i><br/>
+                Kondor Wallet <i class="fa-solid fa-wallet"></i>
                 `,
       status: "done",
     },
     {
       title: "2022",
       description: `
-                Decentralized Governance<br/>
-                Mana system<br/>
-                Main net live (November 5th)<br/>
-                Main net decentralized (December 5th)<br/>
-                MEXC listing
+                Decentralized Governance Development <i class="fa-solid fa-scale-balanced"></i><br/>
+                Mana System Development <i class="fa-solid fa-wand-magic-sparkles"></i><br/>
+                Mainnet Go-Live (November 5th) <i class="fa-solid fa-landmark"></i><br/>
+                MEXC Listing <i class="fa-solid fa-arrow-right-arrow-left"></i>
                 `,
       status: "done",
     },
     {
-      title: "Q1 2023",
+      title: "2023",
       description: `
-                First dApps go live<br/>
-                BurnKoin<br/>
-                Fogata<br/>
-                Multiple NFT collections<br/>
-                KoinosPro development
+                KoinDX <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
+                Koiner <i class="fa-brands fa-wpexplorer"></i><br/>
+                KoinosBlocks <i class="fa-brands fa-wpexplorer"></i><br/>
+                Kanvas <i class="fa-solid fa-gamepad"></i><br/>
+                BurnKoin <i class="fa-solid fa-fire"></i><br/>
+                Fogata <i class="fa-solid fa-fire"></i><br/>
+                Atomic Swaps <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
+                Kollection NFT Marketplace<br/>
+                Konio <i class="fa-solid fa-wallet"></i></br>
+                KoinosPro <i class="fa-solid fa-server"></i><br/>
+                NFTNYC Hackathon <i class="fa-solid fa-code"></i><br/>
+                Koinos Account Protocol <i class="fa-solid fa-person"></i><br/>
+                Koinosbox Polls <i class="fa-solid fa-square-poll-vertical"></i><br/>
+                Nicknames <i class="fa-solid fa-person"></i><br/>
+                ChaingeFinance Integration <i class="fa-solid fa-bridge"></i><br/>
                 `,
       status: "done",
-    },
-    {
-      title: "Q2 2023",
-      description: `
-                KoinosPro MVP<br/>
-                NFTNYC Hackathon<br/>
-                Kollection NFT marketplace launch<br/>
-                Koinos Account Protocol launch<br/>
-                Smart Wallets<br/>
-                KoinDX launch<br/>
-                Koinos Polls launch<br/>
-                `,
-      status: "done",
-    },
-    {
-      title: "Q3 2023",
-      description: `
-                Nicknames<br/>
-                KoinDX V2
-                `,
-      status: "done",
-    },
-    {
-      title: "Q4 2023",
-      description: `
-                Kollection No-Code NFTs<br/>
-                Developer Program<br/>
-                KAP Free Access
-                `,
-      status: "todo",
     },
   ];
 
   const roadmap2024 = [
     {
-      title: "Game Development",
+      title: "Q1",
       description: `
-                Unreal Engine Integration<br/>
-                Unity Integration<br/>
-                Splinterlands Collaboration       
+                Lords Forsaken Pre-sale <i class="fa-solid fa-gamepad"></i><br/>
+                Koinos Exchange Group <i class="fa-solid fa-person"></i><br/>
+            `,
+      status: "done",
+    },
+    {
+      title: "Q2",
+      description: `
+                LCX Listing <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
+                Biconomy Listing <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
+                Koincity Markets <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            `,
+      status: "done",
+    },
+    {
+      title: "Q3",
+      description: `
+                Tangem Wallet Integration <i class="fa-solid fa-wallet"></i><br/>
+                Tier II Exchange Listing (TBA) <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
+                Vortex Bridge <i class="fa-solid fa-bridge"></i></br>
+                KoinDX Token Launch <i class="fa-solid fa-coins"></i><br/>
+                Lords Forsaken Go-Live <i class="fa-solid fa-gamepad"></i><br/>
+                Veive Protocol <i class="fa-solid fa-wallet"></i><br/>
+                Koinos Marketing Campaign <i class="fa-solid fa-business-time"></i>
             `,
       status: "todo",
     },
     {
-      title: "Finance",
+      title: "Q4",
       description: `
-                Crowdfunding dApp<br/>
-                Treasury Management dApp<br/>
-                Staking Pools<br/>
-                Koincity Markets<br/>
-                KoinDX V3
-            `,
-    },
-    {
-      title: "KoinosPro",
-      description: `
-                KoinosPro V1<br/>
-                KoinosPro Mana Fountain<br/>
-                KoinosPro Fusion       
-            `,
-      status: "todo",
-    },
-    {
-      title: "dApp Module Toolkit",
-      description: `
-                State Manager<br/>
-                Smart Locker<br/>
-                Vault<br/>
-                Authorization Engine<br/>
-                DAO Tooling     
-            `,
-      status: "todo",
-    },
-    {
-      title: "Wallets",
-      description: `
-                Hardware Wallet Support<br/>
-                Metamask Smart Wallet Integration<br/>
-                Fiat On/Off Ramp
-            `,
-      status: "todo",
-    },
-    {
-      title: "Blockchain",
-      description: `
-                WASM VM Upgrade<br/>
-                Live Snapshotting<br/>
-                Koinos Token Stats & Graphs<br/>
-                New KOIN and VHP contracts standard     
-            `,
-      status: "todo",
-    },
-    {
-      title: "Exchanges",
-      description: `
-                Tier 2 Listings<br/>
-                Tier 1 Listing
-            `,
-      status: "todo",
-    },
-    {
-      title: "Ecosystem",
-      description: `
-                Marketing<br/>
-                Ambassador Program<br/>
-                Partnerships<br/>
-                Foundation
+                Koinos Smart Wallets <i class="fa-solid fa-wallet"></i><br/>
+                Fiat On/Off Ramp <i class="fa-solid fa-money-bill"></i><br/>
+                Koins Ambassador Program <i class="fa-solid fa-person"></i><br/>
+                Tier II Exchange Listings (TBA) <i class="fa-solid fa-arrow-right-arrow-left"></i>   
             `,
       status: "todo",
     },
