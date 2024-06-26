@@ -15,217 +15,220 @@ export default function Roadmap() {
 
   const roadmapPrevious = [
     {
-      title: "2020",
-      description: `
-                <i class="fa-solid fa-landmark"></i> Koinos Announced<br/>
-                <i class="fa-solid fa-parachute-box"></i> Proof-of-Work Initial Supply Distribution<br/>
-                `,
-      status: "done",
+        title: "2020",
+        description: [
+            { text: "Koinos Announced", icon: "fa-solid fa-bullhorn" },
+            { text: "Proof-of-Work Initial Supply Distribution", icon: "fa-solid fa-parachute-box" },
+        ],
+        status: "done",
     },
     {
-      title: "2021",
-      description: `
-                Testnet <i class="fa-solid fa-landmark"></i><br/>
-                Koinos Command Line Interface (CLI) <i class="fa-solid fa-code"></i><br/>
-                Proof-of-Burn Development <i class="fa-solid fa-fire"></i><br/>
-                Protobuf Integration <i class="fa-solid fa-code"></i><br/>
-                Kondor Wallet <i class="fa-solid fa-wallet"></i><br/>
-                `,
-      status: "done",
+        title: "2021",
+        description: [
+            { text: "Testnet", icon: "fa-solid fa-landmark" },
+            { text: "Koinos Command Line Interface (CLI)", icon: "fa-solid fa-code" },
+            { text: "Proof-of-Burn Development", icon: "fa-solid fa-fire" },
+            { text: "Protobuf Integration", icon: "fa-solid fa-code" },
+            { text: "Kondor Wallet", icon: "fa-solid fa-wallet" },
+        ],
+        status: "done",
     },
     {
-      title: "2022",
-      description: `
-                <i class="fa-solid fa-scale-balanced"></i> Decentralized Governance Development<br/>
-                <i class="fa-solid fa-wand-magic-sparkles"></i> Mana System Development<br/>
-                <i class="fa-solid fa-landmark"></i> Mainnet Go-Live (November 5th)<br/>
-                <i class="fa-solid fa-arrow-right-arrow-left"></i> MEXC Listing<br/>
-                `,
-      status: "done",
+        title: "2022",
+        description: [
+            { text: "Decentralized Governance Development", icon: "fa-solid fa-scale-balanced" },
+            { text: "Mana System Development", icon: "fa-solid fa-wand-magic-sparkles" },
+            { text: "Mainnet Go-Live (November 5th)", icon: "fa-solid fa-landmark" },
+            { text: "MEXC Listing", icon: "fa-solid fa-arrow-right-arrow-left" },
+        ],
+        status: "done",
     },
     {
-      title: "2023",
-      description: `
-                KoinDX <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                KoinosBlocks <i class="fa-brands fa-wpexplorer"></i><br/>
-                Kanvas <i class="fa-solid fa-gamepad"></i><br/>
-                BurnKoin <i class="fa-solid fa-fire"></i><br/>
-                Koiner <i class="fa-brands fa-wpexplorer"></i><br/>
-                Fogata <i class="fa-solid fa-fire"></i><br/>
-                Atomic Swaps <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Kollection NFT Marketplace <i class="fa-solid fa-shop"></i><br/>
-                Konio <i class="fa-solid fa-wallet"></i></br>
-                NFTNYC Hackathon <i class="fa-solid fa-code"></i><br/>
-                Koinos Account Protocol <i class="fa-solid fa-person"></i><br/>
-                Koinosbox Polls <i class="fa-solid fa-square-poll-vertical"></i><br/>
-                Nicknames <i class="fa-solid fa-person"></i><br/>
-                ChaingeFinance Integration <i class="fa-solid fa-bridge"></i><br/>
-                `,
-      status: "done",
+        title: "2023",
+        description: [
+            { text: "KoinDX", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "KoinosBlocks", icon: "fa-brands fa-wpexplorer" },
+            { text: "Kanvas", icon: "fa-solid fa-gamepad" },
+            { text: "BurnKoin", icon: "fa-solid fa-fire" },
+            { text: "Koiner", icon: "fa-brands fa-wpexplorer" },
+            { text: "Fogata", icon: "fa-solid fa-fire" },
+            { text: "Atomic Swaps", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Kollection NFT Marketplace", icon: "fa-solid fa-shop" },
+            { text: "Konio", icon: "fa-solid fa-wallet" },
+            { text: "NFTNYC Hackathon", icon: "fa-solid fa-code" },
+            { text: "Koinos Account Protocol", icon: "fa-solid fa-person" },
+            { text: "Koinosbox Polls", icon: "fa-solid fa-square-poll-vertical" },
+            { text: "Nicknames", icon: "fa-solid fa-person" },
+            { text: "ChaingeFinance Integration", icon: "fa-solid fa-bridge" },
+        ],
+        status: "done",
     },
-  ];
+];
 
   const roadmap2024 = [
     {
-      title: "Q1",
-      description: `
-                <i class="fa-solid fa-gamepad"></i> Lords Forsaken Pre-sale<br/>
-                <i class="fa-solid fa-person"></i> Koinos Exchange Group<br/>
-                <i class="fa-solid fa-server"></i> KoinosPro<br/>
-            `,
-      status: "done",
+        title: "Q1",
+        description: [
+            { text: "Lords Forsaken Pre-sale", icon: "fa-solid fa-gamepad" },
+            { text: "Koinos Exchange Group", icon: "fa-solid fa-person" },
+            { text: "KoinosPro", icon: "fa-solid fa-server" },
+        ],
+        status: "done",
     },
     {
-      title: "Q2",
-      description: `
-                LCX Listing <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Biconomy Listing <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Koincity Markets <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-            `,
-      status: "done",
+        title: "Q2",
+        description: [
+            { text: "LCX Listing", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Biconomy Listing", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Koincity Markets", icon: "fa-solid fa-arrow-right-arrow-left" },
+        ],
+        status: "done",
     },
     {
-      title: "Q3",
-      description: `
-                <i class="fa-solid fa-wallet"></i> Tangem Wallet Integration<br/>
-                <i class="fa-solid fa-arrow-right-arrow-left"></i> Tier II Exchange Listing (TBA)<br/>
-                <i class="fa-solid fa-bridge"></i> Vortex Bridge</br>
-                <i class="fa-solid fa-coins"></i> KoinDX Token Launch<br/>
-                <i class="fa-solid fa-gamepad"></i> Lords Forsaken Go-Live<br/>
-                <i class="fa-solid fa-wallet"></i> Veive Protocol<br/>
-                <i class="fa-solid fa-business-time"></i> Koinos Marketing Campaign<br/>
-            `,
-      status: "todo",
+        title: "Q3",
+        description: [
+            { text: "Tangem Wallet Integration", icon: "fa-solid fa-wallet" },
+            { text: "Tier II Exchange Listing (TBA)", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Vortex Bridge", icon: "fa-solid fa-bridge" },
+            { text: "KoinDX Token Launch", icon: "fa-solid fa-coins" },
+            { text: "Lords Forsaken Go-Live", icon: "fa-solid fa-gamepad" },
+            { text: "Veive Protocol", icon: "fa-solid fa-wallet" },
+            { text: "Koinos Marketing Campaign", icon: "fa-solid fa-business-time" },
+        ],
+        status: "todo",
     },
     {
-      title: "Q4",
-      description: `
-                Koinos Smart Wallets <i class="fa-solid fa-wallet"></i><br/>
-                Fiat On/Off Ramp <i class="fa-solid fa-money-bill"></i><br/>
-                Koinos Ambassador Program <i class="fa-solid fa-person"></i><br/>
-                Tier II Exchange Listings (TBA) <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Kollection Creator Tools <i class="fa-solid fa-shop"></i><br/>
-            `,
-      status: "todo",
+        title: "Q4",
+        description: [
+            { text: "Koinos Smart Wallets", icon: "fa-solid fa-wallet" },
+            { text: "Fiat On/Off Ramp", icon: "fa-solid fa-money-bill" },
+            { text: "Koins Ambassador Program", icon: "fa-solid fa-person" },
+            { text: "Tier II Exchange Listings (TBA)", icon: "fa-solid fa-arrow-right-arrow-left" },
+            { text: "Kollection Creator Tools", icon: "fa-solid fa-shop" },
+        ],
+        status: "todo",
     },
-  ];
+];
 
   return (
     <>
-      <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division" ref={sectionRef}>
-        <div className="container">
-          {/* SECTION TITLE */}
-          <div className="row justify-content-center">
+  <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division" ref={sectionRef}>
+    <div className="container">
+        {/* SECTION TITLE */}
+        <div className="row justify-content-center">
             <div className="col-md-8">
-              <div className="section-title mb-70">
-                {/* Title */}
-                <h2 className="s-50 w-700">{title}</h2>
-                {/* Text */}
-                <p className="s-21 color--grey">{subtle}</p>
-              </div>
+                <div className="section-title mb-70">
+                    {/* Title */}
+                    <h2 className="s-50 w-700">{title}</h2>
+                    {/* Text */}
+                    <p className="s-21 color--grey">{subtle}</p>
+                </div>
             </div>
-          </div>
-          {/* SECTION CONTENT (ROW) */}
-          <div className="row d-flex align-items-center">
+        </div>
+        {/* SECTION CONTENT (ROW) */}
+        <div className="row d-flex align-items-center">
             {/* TEXT BLOCK */}
             <div className="col-md-12 order-last order-md-2">
-              <div className="txt-block left-column wow fadeInRight">
-                {roadmapPrevious.map((item, index) => (
-                  <div key={index} className="cbox-2 process-step">
-                    <div className="cbox-2-txt text-end me-4">
-                      {index % 2 > 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: item.description,
-                            }}
-                          ></p>
-                        </>
-                      )}
-                    </div>
-                    {/* Icon */}
-                    <div className="ico-wrap">
-                    {item.status === "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo2.png" />
-                      )}
-                      {item.status !== "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo1.png" />
-                      )}
-                      <span className="cbox-2-line" />
-                    </div>
-                    {/* Text */}
-                    <div className="cbox-2-txt">
-                      {index % 2 == 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: item.description,
-                            }}
-                          ></p>
-                        </>
-                      )}
-                    </div>
-                  </div>
-                ))}
+                <div className="txt-block left-column wow fadeInRight">
+                    {roadmapPrevious.map((item, index) => (
+                        <div key={index} className="cbox-2 process-step">
+                            <div className="cbox-2-txt text-end me-4">
+                                {index % 2 > 0 && (
+                                    <>
+                                        <h5 className="s-22 w-700">{item.title}</h5>
+                                        {item.description.map((desc, idx) => (
+                                            <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
+                                               <div>{desc.text}</div>
+                                               <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
+                            {/* Icon */}
+                            <div className="ico-wrap">
+                                {item.status === "done" && (
+                                    <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                                )}
+                                {item.status !== "done" && (
+                                    <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                                )}
+                                <span className="cbox-2-line" />
+                            </div>
+                            {/* Text */}
+                            <div className="cbox-2-txt">
+                                {index % 2 == 0 && (
+                                    <>
+                                        <h5 className="s-22 w-700">{item.title}</h5>
+                                        {item.description.map((desc, idx) => (
+                                            <div key={idx} className="d-flex align-items-center justify-content-start gap-3">
+                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                                <div>{desc.text}</div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
+                        </div>
+                    ))}
 
-                <div className="row justify-content-center">
-                  <div className="col-md-8">
-                    <div className="section-title mb-70">
-                      {/* Title */}
-                      <h2 className="s-50 w-700">2024 🚀</h2>
+                    <div className="row justify-content-center">
+                        <div className="col-md-8">
+                            <div className="section-title mb-70">
+                                {/* Title */}
+                                <h2 className="s-50 w-700">2024 🚀</h2>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+
+                    {roadmap2024.map((item, index) => (
+                        <div key={index} className="cbox-2 process-step">
+                            <div className="cbox-2-txt text-end me-4">
+                                {index % 2 > 0 && (
+                                    <>
+                                        <h5 className="s-22 w-700">{item.title}</h5>
+                                        {item.description.map((desc, idx) => (
+                                            <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
+                                                <div>{desc.text}</div>
+                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
+                            {/* Icon */}
+                            <div className="ico-wrap">
+                                {item.status === "done" && (
+                                    <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                                )}
+                                {item.status !== "done" && (
+                                    <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                                )}
+                                <span className="cbox-2-line" />
+                            </div>
+                            {/* Text */}
+                            <div className="cbox-2-txt">
+                                {index % 2 == 0 && (
+                                    <>
+                                        <h5 className="s-22 w-700">{item.title}</h5>
+                                        {item.description.map((desc, idx) => (
+                                            <div key={idx} className="d-flex align-items-center justify-content-start gap-3">
+                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div><div>{desc.text}</div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
+                        </div>
+                    ))}
                 </div>
-
-                {roadmap2024.map((item, index) => (
-                  <div key={index} className="cbox-2 process-step">
-                    <div className="cbox-2-txt text-end me-4">
-                      {index % 2 > 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: item.description,
-                            }}
-                          ></p>
-                        </>
-                      )}
-                    </div>
-                    {/* Icon */}
-                    <div className="ico-wrap">
-                      {item.status === "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo2.png" />
-                      )}
-                      {item.status !== "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo1.png" />
-                      )}
-                      <span className="cbox-2-line" />
-                    </div>
-                    {/* Text */}
-                    <div className="cbox-2-txt">
-                      {index % 2 == 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: item.description,
-                            }}
-                          ></p>
-                        </>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
             </div>{" "}
             {/* END TEXT BLOCK */}
-          </div>{" "}
-          {/* END SECTION CONTENT (ROW) */}
         </div>{" "}
-        {/* End container */}
-      </section>
+        {/* END SECTION CONTENT (ROW) */}
+    </div>{" "}
+    {/* End container */}
+</section>
     </>
   );
 }
