@@ -17,8 +17,8 @@ export default function Roadmap() {
     {
       title: "2020",
       description: `
-                Koinos Announced <i class="fa-solid fa-landmark"></i><br/>
-                Proof-of-Work Initial Supply Distribution <i class="fa-solid fa-parachute-box"></i><br/>
+                <i class="fa-solid fa-landmark"></i> Koinos Announced<br/>
+                <i class="fa-solid fa-parachute-box"></i> Proof-of-Work Initial Supply Distribution<br/>
                 `,
       status: "done",
     },
@@ -36,10 +36,10 @@ export default function Roadmap() {
     {
       title: "2022",
       description: `
-                Decentralized Governance Development <i class="fa-solid fa-scale-balanced"></i><br/>
-                Mana System Development <i class="fa-solid fa-wand-magic-sparkles"></i><br/>
-                Mainnet Go-Live (November 5th) <i class="fa-solid fa-landmark"></i><br/>
-                MEXC Listing <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
+                <i class="fa-solid fa-scale-balanced"></i> Decentralized Governance Development<br/>
+                <i class="fa-solid fa-wand-magic-sparkles"></i> Mana System Development<br/>
+                <i class="fa-solid fa-landmark"></i> Mainnet Go-Live (November 5th)<br/>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i> MEXC Listing<br/>
                 `,
       status: "done",
     },
@@ -69,9 +69,9 @@ export default function Roadmap() {
     {
       title: "Q1",
       description: `
-                Lords Forsaken Pre-sale <i class="fa-solid fa-gamepad"></i><br/>
-                Koinos Exchange Group <i class="fa-solid fa-person"></i><br/>
-                KoinosPro <i class="fa-solid fa-server"></i><br/>
+                <i class="fa-solid fa-gamepad"></i> Lords Forsaken Pre-sale<br/>
+                <i class="fa-solid fa-person"></i> Koinos Exchange Group<br/>
+                <i class="fa-solid fa-server"></i> KoinosPro<br/>
             `,
       status: "done",
     },
@@ -87,13 +87,13 @@ export default function Roadmap() {
     {
       title: "Q3",
       description: `
-                Tangem Wallet Integration <i class="fa-solid fa-wallet"></i><br/>
-                Tier II Exchange Listing (TBA) <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Vortex Bridge <i class="fa-solid fa-bridge"></i></br>
-                KoinDX Token Launch <i class="fa-solid fa-coins"></i><br/>
-                Lords Forsaken Go-Live <i class="fa-solid fa-gamepad"></i><br/>
-                Veive Protocol <i class="fa-solid fa-wallet"></i><br/>
-                Koinos Marketing Campaign <i class="fa-solid fa-business-time"></i><br/>
+                <i class="fa-solid fa-wallet"></i> Tangem Wallet Integration<br/>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i> Tier II Exchange Listing (TBA)<br/>
+                <i class="fa-solid fa-bridge"></i> Vortex Bridge</br>
+                <i class="fa-solid fa-coins"></i> KoinDX Token Launch<br/>
+                <i class="fa-solid fa-gamepad"></i> Lords Forsaken Go-Live<br/>
+                <i class="fa-solid fa-wallet"></i> Veive Protocol<br/>
+                <i class="fa-solid fa-business-time"></i> Koinos Marketing Campaign<br/>
             `,
       status: "todo",
     },
