@@ -27,8 +27,8 @@ export default function Roadmap() {
       description: `
                 Testnet <i class="fa-solid fa-landmark"></i><br/>
                 Koinos Command Line Interface (CLI) <i class="fa-solid fa-code"></i><br/>
-                Protobuf Integration <i class="fa-solid fa-code"></i><br/>
                 Proof-of-Burn Development <i class="fa-solid fa-fire"></i><br/>
+                Protobuf Integration <i class="fa-solid fa-code"></i><br/>
                 Kondor Wallet <i class="fa-solid fa-wallet"></i><br/>
                 `,
       status: "done",
@@ -47,10 +47,10 @@ export default function Roadmap() {
       title: "2023",
       description: `
                 KoinDX <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
-                Koiner <i class="fa-brands fa-wpexplorer"></i><br/>
                 KoinosBlocks <i class="fa-brands fa-wpexplorer"></i><br/>
                 Kanvas <i class="fa-solid fa-gamepad"></i><br/>
                 BurnKoin <i class="fa-solid fa-fire"></i><br/>
+                Koiner <i class="fa-brands fa-wpexplorer"></i><br/>
                 Fogata <i class="fa-solid fa-fire"></i><br/>
                 Atomic Swaps <i class="fa-solid fa-arrow-right-arrow-left"></i><br/>
                 Kollection NFT Marketplace <i class="fa-solid fa-shop"></i><br/>
