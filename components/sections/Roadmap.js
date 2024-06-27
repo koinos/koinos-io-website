@@ -138,8 +138,8 @@ export default function Roadmap() {
                                         <h5 className="s-22 w-700">{item.title}</h5>
                                         {item.description.map((desc, idx) => (
                                             <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
-                                               <div>{desc.text}</div>
-                                               <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                               <div>{desc.text}</div> 
+                                               <div className="d-flex justify-content-center d-none d-md-flex"  style={{ width: '42px', minWidth: '42px'}}><i className={`m-2 ${desc.icon}`}></i> </div>
                                             </div>
                                         ))}
                                     </>
@@ -162,7 +162,7 @@ export default function Roadmap() {
                                         <h5 className="s-22 w-700">{item.title}</h5>
                                         {item.description.map((desc, idx) => (
                                             <div key={idx} className="d-flex align-items-center justify-content-start gap-3">
-                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                                <div className="d-flex justify-content-center d-none d-md-flex"  style={{ width: '42px', minWidth: '42px'}}><i className={`m-2 ${desc.icon}`}></i></div>
                                                 <div>{desc.text}</div>
                                             </div>
                                         ))}
@@ -190,7 +190,8 @@ export default function Roadmap() {
                                         {item.description.map((desc, idx) => (
                                             <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
                                                 <div>{desc.text}</div>
-                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                                <div className="d-flex justify-content-center d-none d-md-flex"  style={{ width: '42px', minWidth: '42px'}}><i className={`m-2 ${desc.icon}`}></i></div>
+                                                 
                                             </div>
                                         ))}
                                     </>
@@ -213,7 +214,7 @@ export default function Roadmap() {
                                         <h5 className="s-22 w-700">{item.title}</h5>
                                         {item.description.map((desc, idx) => (
                                             <div key={idx} className="d-flex align-items-center justify-content-start gap-3">
-                                                <div className="d-flex justify-content-center"  style={{ width: '32px', minWidth: '32px'}}><i className={`m-2 ${desc.icon}`}></i></div><div>{desc.text}</div>
+                                                <div className="d-flex justify-content-center d-none d-md-flex"  style={{ width: '42px', minWidth: '42px'}}><i className={`m-2 ${desc.icon}`}></i></div><div>{desc.text}</div>
                                             </div>
                                         ))}
                                     </>
