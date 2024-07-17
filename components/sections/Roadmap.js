@@ -94,6 +94,7 @@ export default function Roadmap() {
             { text: "Lords Forsaken Go-Live", icon: "fa-solid fa-gamepad" },
             { text: "Veive Protocol", icon: "fa-solid fa-wallet" },
             { text: "Koinos Marketing Campaign", icon: "fa-solid fa-business-time" },
+            { text: "Koincity: Staking Interface, Tax Token Creator, Low Value Token Converter", icon: "fa-solid fa-building" },
         ],
         status: "todo",
     },
@@ -138,7 +139,7 @@ export default function Roadmap() {
                                         <h5 className="s-22 w-700">{item.title}</h5>
                                         {item.description.map((desc, idx) => (
                                             <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
-                                               <div>{desc.text}</div> 
+                                               <div>{desc.text}</div>
                                                <div className="d-flex justify-content-center d-none d-md-flex"  style={{ width: '42px', minWidth: '42px'}}><i className={`m-2 ${desc.icon}`}></i> </div>
                                             </div>
                                         ))}
@@ -191,7 +192,7 @@ export default function Roadmap() {
                                             <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
                                                 <div>{desc.text}</div>
                                                 <div className="d-flex justify-content-center d-none d-md-flex"  style={{ width: '42px', minWidth: '42px'}}><i className={`m-2 ${desc.icon}`}></i></div>
-                                                 
+
                                             </div>
                                         ))}
                                     </>
