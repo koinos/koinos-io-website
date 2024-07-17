@@ -94,7 +94,6 @@ export default function Roadmap() {
             { text: "Lords Forsaken Go-Live", icon: "fa-solid fa-gamepad" },
             { text: "Veive Protocol", icon: "fa-solid fa-wallet" },
             { text: "Koinos Marketing Campaign", icon: "fa-solid fa-business-time" },
-            { text: "Koincity: Staking Interface, Tax Token Creator, Low Value Token Converter", icon: "fa-solid fa-building" },
         ],
         status: "todo",
     },
