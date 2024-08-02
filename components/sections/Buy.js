@@ -7,6 +7,16 @@ export default function Buy() {
 
     const buy = [
         {
+            name: "Chainge",
+            icon: "/images/exchanges/chainge-mark.svg",
+            url: "https://dapp.chainge.finance/?fromChain=ETH&toChain=ETH&fromToken=USDT&toToken=KOIN"
+        },
+        {
+            name: "Uniswap",
+            icon: "/images/exchanges/uniswap-mark.svg",
+            url: "https://www.mexc.com/exchange/KOIN_USDThttps://app.uniswap.org/explore/tokens/ethereum/0xed11c9bcf69fdd2eefd9fe751bfca32f171d53ae"
+        },
+        {
             name: "MEXC",
             icon: "/images/buy/mexc-logo.png",
             url: "https://www.mexc.com/exchange/KOIN_USDT"
