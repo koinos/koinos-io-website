@@ -25,6 +25,9 @@ export default function Footer3() {
                                         <p><Link href="/faqs">FAQs</Link></p>
                                     </li>
                                     <li>
+                                        <p><Link href="/media">Media Kit</Link></p>
+                                    </li>
+                                    <li>
                                         <p><Link href="https://telegram.koinos.io">Contact us</Link></p>
                                     </li>
                                 </ul>
