@@ -24,7 +24,37 @@ export default function WhereToGetKOIN() {
                         </div>
                     </div>
                     <div className="integrations-1-wrapper">
-                        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 rows-2">
+                        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 rows-2">
+                            <div className="col">
+                                <Link href="https://dapp.chainge.finance/?fromChain=ETH&toChain=KOIN&fromToken=USDT&toToken=KOIN" className="in_tool it-1 r-12 mb-30 wow fadeInUp">
+                                    {/* Icon */}
+                                    <div className="in_tool-logo-wrap">
+                                        <div className="in_tool-logo ico-60">
+                                            <img className="img-fluid" src="/images/buy/mexc-logo.png" alt="Chainge Logo" />
+                                        </div>
+                                    </div>
+                                    {/* Text */}
+                                    <div className="in_tool-txt">
+                                        <h6 className="s-20 w-700">Chainge</h6>
+                                        <p className="p-sm">Bridge</p>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="col">
+                                <Link href="https://app.uniswap.org/explore/tokens/ethereum/0xed11c9BCF69fdD2EEFd9Fe751BfcA32f171D53Ae?inputCurrency=NATIVE" className="in_tool it-1 r-12 mb-30 wow fadeInUp">
+                                    {/* Icon */}
+                                    <div className="in_tool-logo-wrap">
+                                        <div className="in_tool-logo ico-60">
+                                            <img className="img-fluid" src="/images/buy/uniswap-logo.png" alt="MEXC Logo" />
+                                        </div>
+                                    </div>
+                                    {/* Text */}
+                                    <div className="in_tool-txt">
+                                        <h6 className="s-20 w-700">Uniswap</h6>
+                                        <p className="p-sm">DEX</p>
+                                    </div>
+                                </Link>
+                            </div>
                             <div className="col">
                                 <Link href="https://www.mexc.com/exchange/KOIN_USDT" className="in_tool it-1 r-12 mb-30 wow fadeInUp">
                                     {/* Icon */}
@@ -99,7 +129,7 @@ export default function WhereToGetKOIN() {
                                         <p className="p-sm">CEX</p>
                                     </div>
                                 </Link>
-                            </div>	
+                            </div>
                             <div className="col">
                                 <Link href="https://app.koindx.com/swap" className="in_tool it-5 r-12 mb-30 wow fadeInUp">
                                     {/* Icon */}
@@ -114,10 +144,10 @@ export default function WhereToGetKOIN() {
                                         <p className="p-sm">DEX</p>
                                     </div>
                                 </Link>
-                            </div>	
+                            </div>
                         </div>
-                    </div>	
-                </div> 
+                    </div>
+                </div>
             </section>
         </>
     )
