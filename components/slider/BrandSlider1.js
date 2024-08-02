@@ -62,7 +62,7 @@ export default function BrandSlider1() {
             name: 'chainge',
             imageLight: '/images/exchanges/chainge.png',
             imageDark: '/images/exchanges/chainge-white.png',
-            url: 'https://www.chainge.finance/info/currencies/KOIN'
+            url: 'https://dapp.chainge.finance/?fromChain=ETH&toChain=KOIN&fromToken=USDT&toToken=KOIN'
         },
         {
             name: 'lcx',
