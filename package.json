@@ -5,7 +5,7 @@
     "author": "author",
     "scripts": {
         "dev": "next dev",
-        "build": "next build && cp _headers .next/_headers",
+        "build": "next build",
         "start": "next start",
         "lint": "next lint",
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
