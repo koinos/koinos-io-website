@@ -1,5 +1,7 @@
 import { useRef, useEffect } from "react";
 import { animate } from "../utils/animate";
+import { fadeIn, staggerContainer  } from "../utils/motion";
+import {motion} from 'framer-motion'
 
 export default function Roadmap() {
   const sectionRef = useRef(null);
@@ -130,9 +132,22 @@ export default function Roadmap() {
         <div className="row d-flex align-items-center">
             {/* TEXT BLOCK */}
             <div className="col-md-12 order-last order-md-2">
-                <div className="txt-block left-column wow fadeInRight">
+                <motion.div
+                    variants={staggerContainer}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: false, amount: 0.25 }}
+                    className={`txt-block left-column `}
+                >
                     {roadmapPrevious.map((item, index) => (
-                        <div key={index} className="cbox-2 process-step">
+                        <motion.div
+                            variants={fadeIn("up", "tween", index * 0.5, 1)}
+                            initial='hidden'
+                            whileInView='show'
+                            key={index}  
+                            className="cbox-2 process-step"
+                            viewport={{once:true}}
+                        >
                             <div className="cbox-2-txt text-end me-4">
                                 {index % 2 > 0 && (
                                     <>
@@ -170,20 +185,33 @@ export default function Roadmap() {
                                     </>
                                 )}
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
 
                     <div className="row justify-content-center">
                         <div className="col-md-8">
                             <div className="section-title mb-70">
                                 {/* Title */}
-                                <h2 className="s-50 w-700">2024 🚀</h2>
+                                <motion.h2 
+                                    variants={fadeIn("up", "tween", 0, .5)}
+                                    className="s-50 w-700"
+                                    viewport={{once:true}}
+                                    initial='hidden'
+                                    whileInView='show'>
+                                2024 🚀
+                                </motion.h2>
                             </div>
                         </div>
                     </div>
 
                     {roadmap2024.map((item, index) => (
-                        <div key={index} className="cbox-2 process-step">
+                        <motion.div
+                            variants={fadeIn("up", "tween", index * 0.6, 1)}
+                            key={index}  className="cbox-2 process-step"
+                            viewport={{once:true}}
+                            initial='hidden'
+                            whileInView='show'
+                        >
                             <div className="cbox-2-txt text-end me-4">
                                 {index % 2 > 0 && (
                                     <>
@@ -192,7 +220,7 @@ export default function Roadmap() {
                                             <div key={idx} className="d-flex align-items-center justify-content-end gap-3">
                                                 <div>{desc.text}</div>
                                                 <div className="d-flex justify-content-center d-none d-md-flex"  style={{ width: '42px', minWidth: '42px'}}><i className={`m-2 ${desc.icon}`}></i></div>
-                                                 
+                                                    
                                             </div>
                                         ))}
                                     </>
@@ -221,9 +249,10 @@ export default function Roadmap() {
                                     </>
                                 )}
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
-                </div>
+                    </motion.div>
+                {/* </div> */}
             </div>{" "}
             {/* END TEXT BLOCK */}
         </div>{" "}

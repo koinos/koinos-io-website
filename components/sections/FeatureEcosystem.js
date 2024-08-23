@@ -1,29 +1,36 @@
-import { useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
-
+// import { useRef, useEffect } from "react";
+// import { animate } from "../utils/animate";
+import { motion,useInView  } from "framer-motion";
 export default function FeatureEcosystem() {
-    const sectionRef = useRef(null);
+    // const sectionRef = useRef(null);
 
-    useEffect(() => {
-        if (sectionRef.current) {
-          animate(sectionRef.current);
-        }
-      }, [sectionRef]);
+    // useEffect(() => {
+    //     if (sectionRef.current) {
+    //       animate(sectionRef.current);
+    //     }
+    //   }, [sectionRef]);
 
     return (
         <>
-            <section id="features-13" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
+            {/* <section id="features-13" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}> */}
+            <section id="features-13" className="shape--bg shape--white-500 pt-100 features-section division" >
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         {/* FEATURES-13 WRAPPER */}
                         <div className="col-md-7 order-last order-md-2">
-                            <div className="fbox-13-wrapper wow fadeInRight">
+                            <div className="fbox-13-wrapper">
                                 <div className="row">
                                     <div className="col-md-6">
                                         {/* FEATURE BOX #1 */}
-                                        <div id="fb-12-1" className="fbox-12 bg--white-100 block-shadow r-12 mb-30">
-                                            {/* Icon */}
-                                            <div className="fbox-ico ico-50">
+                                        <motion.div
+                                            initial={{ scale: 0.5, opacity: 0 }}
+                                            animate={{ scale: 1, opacity: 1 } }
+                                            viewport={{once:true}}
+                                            transition={{ duration: 1.5, type:""   }}
+                                            className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                                        >
+                                        {/* Icon */}
+                                        <div className="fbox-ico ico-50">
                                                 <div className="shape-ico color--theme">
                                                     {/* Vector Icon */}
                                                     {/*<span className="flaticon-layers-1" />*/}
@@ -39,10 +46,16 @@ export default function FeatureEcosystem() {
                                                 <h5 className="s-19 w-700">Kollection</h5>
                                                 <p><a href="https://kollection.app">Kollection</a> is a full featured NFT marketplace that allows creators to launch and sell their products.</p>
                                             </div>
-                                        </div>
+                                        </motion.div>
                                         {/* FEATURE BOX #2 */}
-                                        <div id="fb-12-2" className="fbox-12 bg--white-100 block-shadow r-12">
-                                            {/* Icon */}
+                                        <motion.div
+                                            id="fb-12-2"
+                                            initial={{ scale: 0.5, opacity: 0 }}
+                                            animate={{ scale: 1, opacity: 1 } }
+                                            viewport={{once:true}}
+                                            transition={{ delay: 0.8, duration: 1.5, type: "spring" }}
+                                            className="fbox-12 bg--white-100 block-shadow r-12"
+                                        >
                                             <div className="fbox-ico ico-50">
                                                 <div className="shape-ico color--theme">
                                                     {/* Vector Icon */}
@@ -59,11 +72,18 @@ export default function FeatureEcosystem() {
                                                 <h5 className="s-19 w-700">KoinDX</h5>
                                                 <p><a href="https://koindx.com">KoinDX</a> is the world's first decentralized exchange built on the Koinos blockchain.</p>
                                             </div>
-                                        </div>
+                                        </motion.div>
                                     </div>
                                     <div className="col-md-6">
                                         {/* FEATURE BOX #3 */}
-                                        <div id="fb-12-3" className="fbox-12 bg--white-100 block-shadow r-12 mb-30">
+                                        <motion.div
+                                            id="fb-12-3"
+                                            initial={{ scale: 0.5, opacity: 0 }}
+                                            animate={{ scale: 1, opacity: 1 } }
+                                            viewport={{once:true}}
+                                            transition={{ delay: 0.4, duration: 1.5, type:"spring" }}
+                                            className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                                        >
                                             {/* Icon */}
                                             <div className="fbox-ico ico-50">
                                                 <div className="shape-ico color--theme">
@@ -81,9 +101,16 @@ export default function FeatureEcosystem() {
                                                 <h5 className="s-19 w-700">Koiner</h5>
                                                 <p><a href="https://koiner.app">Koiner</a> is the Koinos' community favorite block explorer giving users insights into chain statistics.</p>
                                             </div>
-                                        </div>
+                                        </motion.div>
                                         {/* FEATURE BOX #4 */}
-                                        <div id="fb-12-4" className="fbox-12 bg--white-100 block-shadow r-12">
+                                        <motion.div
+                                            id="fb-12-3"
+                                            initial={{ scale: 0.5, opacity: 0 }}
+                                            animate={{ scale: 1, opacity: 1 } }
+                                            viewport={{once:true}}
+                                            transition={{ delay: 1.2, duration: 1.5, type:"spring"}}
+                                            className="fbox-12 bg--white-100 block-shadow r-12"
+                                        >
                                             {/* Icon */}
                                             <div className="fbox-ico ico-50">
                                                 <div className="shape-ico color--theme">
@@ -101,14 +128,20 @@ export default function FeatureEcosystem() {
                                                 <h5 className="s-19 w-700">KoinCity</h5>
                                                 <p><a href="https://koincity.com">KoinCity</a> is a token launchpad with features including staking and social interaction.</p>
                                             </div>
-                                        </div>
+                                        </motion.div>
                                     </div>
                                 </div>
                             </div>	{/* End row */}
                         </div>	{/* END FEATURES-13 WRAPPER */}
                         {/* TEXT BLOCK */}
-                        <div className="col-md-5 order-first order-md-2">
-                            <div className="txt-block left-column wow fadeInLeft">
+                        <motion.div
+                            initial={{ x: -100, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 1}}
+                            viewport={{once:true}}
+                            className="col-md-5 order-first order-md-2"
+                        >
+                            <div className="txt-block left-column">
                                 {/* Section ID */}
                                 <span className="section-id">Ecosystem Highlights</span>
                                 {/* Title */}
@@ -128,7 +161,8 @@ export default function FeatureEcosystem() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>	{/* END TEXT BLOCK */}
+                        </motion.div>
+                       {/* END TEXT BLOCK */}
                     </div>    {/* End row */}
                 </div>     {/* End container */}
             </section>

@@ -13,6 +13,7 @@
     "dependencies": {
         "eslint": "8.41.0",
         "eslint-config-next": "^14.2.3",
+        "framer-motion": "^11.3.29",
         "human-format": "^1.2.0",
         "next": "^14.2.3",
         "react": "^18.3.1",
