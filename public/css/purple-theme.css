@@ -13089,6 +13089,8 @@ body.theme--dark {
   min-width: 250px;
 }
 
-#features-13 a:link, #features-12 a:link {
+#feature-ecosystem a:link,
+#featured-program a:link,
+#feature-community a:link {
   text-decoration: underline;
 }

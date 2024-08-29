@@ -12,7 +12,7 @@ export default function FeatureEcosystem() {
 
     return (
         <>
-            <section id="features-13" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
+            <section id="feature-ecosystem" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         {/* FEATURES-13 WRAPPER */}
