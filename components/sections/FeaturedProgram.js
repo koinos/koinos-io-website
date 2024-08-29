@@ -32,7 +32,7 @@ export default function FeaturedProgram() {
                                 {/* Title */}
                                 <h2 className="s-46 w-700">{title}</h2>
                                 {/* Text */}
-                                <p>{text} <a href="https://taskon.xyz/campaign/detail/238778750">Join the contest now!</a></p>
+                                <p>{text} <a target="_blank" href="https://taskon.xyz/campaign/detail/238778750">Join the contest now!</a></p>
                                 {/* Small Title */}
                                 <h5 className="s-24 w-700">{smallTitle}</h5>
                                 {/* CONTENT BOX #1 */}
