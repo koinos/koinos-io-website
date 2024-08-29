@@ -55,6 +55,7 @@ export default function FeaturedProgram() {
                                     </div>
                                 </div>
                                 {/* CONTENT BOX #3 */}
+                                {/*
                                 <div className="cbox-1 ico-15">
                                     <div className="ico-wrap color--theme">
                                         <div className="cbox-1-ico"><span className="flaticon-check" /></div>
@@ -63,12 +64,13 @@ export default function FeaturedProgram() {
                                         <p className="mb-0">{bullet3}</p>
                                     </div>
                                 </div>
+                                */}
                             </div>
                         </div>	{/* END TEXT BLOCK */}
                         {/* IMAGE BLOCK */}
                         <div className="col-md-6 order-first order-md-2">
                             <div className="img-block right-column wow fadeInLeft">
-                                <img className="img-fluid rounded" src="/images/taskon-chainge-koinos.jpg" alt="content-image" />
+                                <img className="img-fluid rounded" src="/images/koinos-chainge-bridge.gif" alt="content-image" />
                             </div>
                         </div>
                     </div>	{/* END SECTION CONTENT (ROW) */}
