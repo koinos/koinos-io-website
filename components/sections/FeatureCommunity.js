@@ -11,7 +11,7 @@ export default function FeatureCommunity() {
       }, [sectionRef]);
     return (
         <>
-            <section id="features-12" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
+            <section id="feature-community" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         {/* TEXT BLOCK */}

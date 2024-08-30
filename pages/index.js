@@ -10,6 +10,7 @@ import FeatureCommunity from "@/components/sections/FeatureCommunity"
 import FeatureEcosystem from "@/components/sections/FeatureEcosystem"
 import WhereToGetKOIN from "@/components/sections/WhereToGetKOIN"
 import TokenAllocation from "@/components/sections/TokenAllocation"
+import FeaturedProgram from "@/components/sections/FeaturedProgram"
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         headerCls="navbar-dark light-hero-header"
       >
         <KoinosHero />
+
+        <FeaturedProgram />
 
         <FeatureEcosystem />
 
