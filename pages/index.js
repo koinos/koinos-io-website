@@ -11,6 +11,7 @@ import FeatureEcosystem from "@/components/sections/FeatureEcosystem"
 import WhereToGetKOIN from "@/components/sections/WhereToGetKOIN"
 import TokenAllocation from "@/components/sections/TokenAllocation"
 import FeaturedProgram from "@/components/sections/FeaturedProgram"
+import BackgroundManager from "@/components/3d/BackgroundManager";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         footerStyle={3}
         headerCls="navbar-dark light-hero-header"
       >
+        <BackgroundManager />
+
         <KoinosHero />
 
         <FeaturedProgram />

@@ -26,7 +26,6 @@ export default function Menu() {
                         <li aria-haspopup="true" target="_blank"><Link href="https://learnkoinos.xyz">Learn Koinos</Link></li>
                     </ul>
                 </li>
-
                 <li className="nl-simple" aria-haspopup="true">
                     <Link href="/community" className="h-link">Community</Link>
                 </li>
@@ -41,7 +40,6 @@ export default function Menu() {
                 <li className="nl-simple" aria-haspopup="true">
                     <Link href="/team" className="h-link">Team</Link>
                 </li>
-
                 <li className="nl-simple" aria-haspopup="true">
                     <Link legacyBehavior href="https://github.com/koinos" target="_blank" passHref>
                         <a className="h-link" target="_blank" rel="noopener noreferrer">

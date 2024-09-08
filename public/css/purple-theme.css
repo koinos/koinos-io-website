@@ -1604,9 +1604,9 @@ p.btns-group-txt span.txt-data a:hover {
 
 .btn--tra-black,
 .hover--tra-black:hover {
-  color: #353f4f !important;
+  /* color: #353f4f !important;
   background-color: transparent !important;
-  border-color: #353f4f !important;
+  border-color: #353f4f !important; */
 }
 
 /*------------------------------------------*/
@@ -5294,7 +5294,7 @@ span.sm-info {
 /*------------------------------------------*/
 
 #hero-27 .hero-overlay {
-  background-image: url(../images/hero-27.png);
+  /* background-image: url(../images/hero-27.png); */
   background-position: top center;
   padding-top: 150px;
   background-size: cover;
@@ -12361,11 +12361,11 @@ body.theme--dark {
 
 .theme--dark #hero-27 .hero-overlay {
   /*background-image: url(../images/hero-27-dark.png);*/
-  background-image: url(../images/circuit-bg.png);
+  /* background-image: url(../images/bg-3.png); */
   max-width: none;
   background-position: bottom;
   @media screen and (max-width: 500px) {
-    background-image: url(../images/circuit-bg-mobile.png);
+    /* background-image: url(../images/bg-3.png); */
     background-position: top;
   }
 }
@@ -12949,6 +12949,18 @@ body.theme--dark {
   border: none;
 }
 
+.btn--primary {
+  color: #222 !important;
+  background: #FFCF21 !important; 
+}
+.btn--secondary {
+  color: #fff !important;
+  background: #222; 
+}
+ a:hover {
+  color: #aaa !important;
+}
+
 .hover--theme:hover,
 .white-scroll .scroll .hover--theme:hover,
 .black-scroll .scroll .hover--theme:hover {
@@ -12982,7 +12994,7 @@ body.theme--dark {
 .color--theme i,
 .color--theme span,
 .color--white .color--theme {
-  color: #7827e6 !important;
+  color: #FFCF21 !important;
 }
 
 .loading--theme .loader {

@@ -34,20 +34,20 @@ export default function KoinosHero() {
                   <p className="s-20">{subtle}</p>
                   {/* Buttons */}
                   <div className="btns-group hero-btns">
+                  <Link
+                      href="https://telegram.koinos.io/"
+                      target="_blank"
+                      className="btn r-04 btn--theme btn--primary hover--theme-hover"
+                    >
+                      Join Telegram{" "} &nbsp; &nbsp;
+                      <i className="fa-brands fa-telegram fa-lg" />
+                    </Link>
                     <Link
                       href="https://docs.koinos.io/"
                       target="_blank"
-                      className="btn r-04 btn--theme hover--tra-black"
+                      className="btn r-04 btn--theme btn--secondary hover--theme-hover"
                     >
-                      Build on Koinos <i className="fa-solid fa-code fa-lg" />
-                    </Link>
-                    <Link
-                      href="https://telegram.koinos.io/"
-                      target="_blank"
-                      className="btn r-04 btn--theme hover--tra-black"
-                    >
-                      Join Telegram{" "}
-                      <i className="fa-brands fa-telegram fa-lg" />
+                      Build on Koinos &nbsp; &nbsp;<i className="fa-solid fa-code fa-lg" />
                     </Link>
                   </div>
                   {/* 
