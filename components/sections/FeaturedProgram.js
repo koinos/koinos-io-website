@@ -1,6 +1,7 @@
 import { useProgramStore } from "@/store/programStore"; // Import the Zustand store
 import { useRef, useEffect } from "react";
 import { animate } from "../utils/animate";
+import Link from "next/link";
 
 export default function FeaturedProgram() {
     const sectionRef = useRef(null);
@@ -29,10 +30,10 @@ export default function FeaturedProgram() {
             <div className="row d-flex align-items-center">
               <div className="col-md-6 order-last order-md-2">
                 <div className="txt-block left-column wow fadeInRight">
-                  <span className="section-id">Featured Program</span>
+                  <span className="">Featured Program</span>
                   <h2 className="s-46 w-700">{featuredProgram.title}</h2>
                   {/* Render the short description here */}
-                  <p>{featuredProgram.shortDescription} <a target="_blank" href={featuredProgram.website}>Join the contest now!</a></p>
+                  <p>{featuredProgram.shortDescription} <a target="_self" href={`/programs/${featuredProgram.url}/`}>Learn more</a></p>
                   <h5 className="s-24 w-700">{featuredProgram.smallTitle}</h5>
                   {/* Key Points */}
                   <ul>
@@ -48,6 +49,12 @@ export default function FeaturedProgram() {
                         </div>
                       </li>
                     ))}
+                  <Link
+                    href={featuredProgram.website}
+                    className="btn r-04 btn--theme fw-normal text-decoration-none hover--tra-black mt-20"
+                    >
+                    Join the contest now!
+                  </Link>
                   </ul>
                 </div>
               </div>

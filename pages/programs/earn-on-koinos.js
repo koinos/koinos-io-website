@@ -4,7 +4,7 @@ import { useProgramStore } from "@/store/programStore"; // Import the Zustand st
 
 export default function EarnOnKoinos() {
   // Fetch the earnOnKoinos program data from the store
-  const earnOnKoinos = useProgramStore((state) => state.programs.earnOnKoinos);
+  const program = useProgramStore((state) => state.programs.earnOnKoinos);
 
   return (
     <>
@@ -22,57 +22,75 @@ export default function EarnOnKoinos() {
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-lg-11 col-xl-10">
-                  <div className="project-description">
-                    {/* Title and Promotion Overview */}
-                    <div className="project-title">
-                      <h2 className="s-52 w-700">{earnOnKoinos.title}</h2>
-                      <div className="project-data">
-                        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                          <div className="col">
-                            <p className="p-lg">
-                              <span>Category:</span> {earnOnKoinos.category}
-                            </p>
-                          </div>
-                          <div className="col">
-                            <p className="p-lg">
-                              <span>Start Date:</span> {earnOnKoinos.startDate}
-                            </p>
-                          </div>
-                          <div className="col">
-                            <p className="p-lg">
-                              <span>By:</span> {earnOnKoinos.owner}
-                            </p>
-                          </div>
-                          <div className="col">
-                            <p className="p-lg">
+                <div className="project-description">
+                  {/* Title and Program Overview */}
+                  <div className="project-title">
+                    <div className="s-52 w-700">{program.title}</div>
+                  </div>
+                  {/* Preview Image */}
+                  <div className="project-priview-img mb-50">
+                    <section className="mb-100 ct-01 content-section features-section division">
+                      <div className="container">
+                        <div className="row d-flex align-items-center">
+                          <div className="col-md-6 order-last order-md-2">
+                            <div className="txt-block left-column wow fadeInRight">
+                              {/* Render the short description here */}
+                              <p>
+                                {program.shortDescription}{" "}
+                                <a target="_blank" href={program.website}>
+                                  Join the contest now!
+                                </a>
+                              </p>
+                              <h5 className="s-24 w-700">
+                                {program.smallTitle}
+                              </h5>
+                              {/* Key Points */}
+                              <ul>
+                                {program.keyPoints.map((point, index) => (
+                                  <li key={index}>
+                                    <div className="cbox-1 ico-15">
+                                      <div className="ico-wrap color--theme">
+                                        <div className="cbox-1-ico">
+                                          <span className="flaticon-check" />
+                                        </div>
+                                      </div>
+                                      <div className="cbox-1-txt">
+                                        <p>{point}</p>
+                                      </div>
+                                    </div>
+                                  </li>
+                                ))}
+                              </ul>
                               <Link
-                                href={earnOnKoinos.website}
-                                className="text-warning"
-                              >
-                                Website
-                              </Link>
-                            </p>
+                              href={program.website}
+                              className="btn r-04 btn--theme hover--tra-black mt-20"
+                            >
+                              Join the contest now!
+                            </Link>
+                            </div>
+                          </div>
+                          <div className="col-md-6 order-first order-md-2">
+                            <div className="img-block right-column wow fadeInLeft">
+                              <img
+                                className="img-fluid rounded"
+                                src={program.images.banner}
+                                alt="content-image"
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </section>
+                  </div>
 
-                    {/* Preview Image */}
-                    <div className="project-priview-img mb-50">
-                      <img
-                        className="img-fluid r-16"
-                        src={earnOnKoinos.images.banner}
-                        alt="project-preview"
-                      />
-                    </div>
+                  {/* Program Description */}
+                  <div className="project-txt">
+                    <p>{program.description}</p>
 
-                    {/* Promotion Description */}
-                    <div className="project-txt">
-                      <p>{earnOnKoinos.description}</p>
-
-                      {/* List of APYs */}
+                    {/* List of features */}
+                    {program.details && (
                       <ul className="simple-list">
-                        {earnOnKoinos.details.map((item, index) => (
+                        {program.details.map((item, index) => (
                           <li key={index} className="list-item">
                             <p>
                               <strong>{item.asset}</strong>: {item.apy} APY,
@@ -82,34 +100,43 @@ export default function EarnOnKoinos() {
                           </li>
                         ))}
                       </ul>
+                    )}
 
-                      {/* Guide Section */}
-                      <h5 className="s-24 w-700 mt-35 mb-35">
-                        How to Participate
-                      </h5>
-                      <ol>
-                        {earnOnKoinos.guide.map((step, index) => (
-                          <li key={index}>{step}</li>
-                        ))}
-                      </ol>
+                    {/* Guide Section (Optional) */}
+                    {program.guide && (
+                      <>
+                        <h5 className="s-24 w-700 mt-35 mb-35">
+                          How to Participate
+                        </h5>
+                        <ol>
+                          {program.guide.map((step, index) => (
+                            <li key={index}>{step}</li>
+                          ))}
+                        </ol>
+                      </>
+                    )}
 
-                      {/* Additional Images (Optional) */}
-                      {earnOnKoinos.images.otherImages && earnOnKoinos.images.otherImages.length > 0 && (
-                        <div className="row d-flex align-items-center project-inner-img mt-50">
-                          {earnOnKoinos.images.otherImages.map((img, index) => (
-                            <div key={index} className="col-md-6">
-                              <div className="project-image project-preview r-10">
-                                <div className="hover-overlay">
-                                  <img className="img-fluid" src={img} alt="project-preview" />
-                                  <div className="item-overlay" />
-                                </div>
+                    {/* Additional Images (Optional) */}
+                    {program.images?.otherImages?.length > 0 && (
+                      <div className="row d-flex align-items-center project-inner-img mt-50">
+                        {program.images.otherImages.map((img, index) => (
+                          <div key={index} className="col-md-6">
+                            <div className="project-image project-preview r-10">
+                              <div className="hover-overlay">
+                                <img
+                                  className="img-fluid"
+                                  src={img}
+                                  alt="project-preview"
+                                />
+                                <div className="item-overlay" />
                               </div>
                             </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
+                </div>
                   <div className="mt-5">
                     {/* Tutorial Section */}
                     <div className="mt-5">

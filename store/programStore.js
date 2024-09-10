@@ -3,6 +3,7 @@ import { create } from "zustand"
 export const useProgramStore = create((set) => ({
   programs: {
     earnOnKoinos: {
+      url: "earn-on-koinos",
       title: "Earn on Koinos",
       subtitle: "Earn up to 16% APY on Koinos!",
       shortDescription:
@@ -16,6 +17,7 @@ export const useProgramStore = create((set) => ({
       startDate: "August 21st 2024",
       owner: "Koinos Group & Chainge",
       website: "http://dapp.chainge.finance/earn?chain=KOIN",
+      featuredProgram: "http://dapp.chainge.finance/earn?chain=KOIN",
       details: [
         {
           asset: "USDT",
@@ -46,14 +48,12 @@ export const useProgramStore = create((set) => ({
       ],
       images: {
         banner: "/images/eok-image.png",
-        otherImages: [
-          "/images/projects/chainge.png",
-          "/images/projects/chart.png",
-        ],
+        otherImages: [],
       },
       featured: true,
     },
-    koinosXChaingeContest: {
+    taskOn: {
+      url: "task-on",
       title: "Koinos X Chainge",
       shortDescription:
         "Earn big with the KOINOS X Chainge contest and win a share of 7,000 $KOIN & 30,000 $XCHNG!",
@@ -68,7 +68,7 @@ export const useProgramStore = create((set) => ({
         ,
         ,
         "Bridge: Transfer $10+ USDT to the Koinos blockchain",
-        "Follow: Follow @FinanceChainge & @KoinosNe,twor",
+        "Follow: Follow @FinanceChainge & @KoinosNetwork",
         "Share: Spread the word with #KOINOSXChaing",
         "Engage: Join our communities and stay in the loop!",
       ],
@@ -77,6 +77,7 @@ export const useProgramStore = create((set) => ({
       owner: "Koinos Group & Chainge",
       details: [],
       website: "https://taskon.xyz/campaign/detail/238778750",
+      featuredProgram: "http://dapp.chainge.finance/earn?chain=KOIN",
       images: {
         banner: "/images/contest-image.png",
         otherImages: [],
@@ -85,6 +86,7 @@ export const useProgramStore = create((set) => ({
     },
     // Generic program template
     genericProgramTemplate: {
+      url: "generic-program",
       title: "Generic Program Title",
       subtitle: "Optional Subtitle",
       shortDescription: "A brief description of the program.",
