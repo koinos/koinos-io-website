@@ -51,7 +51,7 @@ export const useProgramStore = create((set) => ({
           "/images/projects/chart.png",
         ],
       },
-      featured: false,
+      featured: true,
     },
     koinosXChaingeContest: {
       title: "Koinos X Chainge",
@@ -124,7 +124,7 @@ export const useProgramStore = create((set) => ({
         banner: "/images/placeholder.png",
         otherImages: [], // Add optional images here
       },
-      featured: true,
+      featured: false,
     },
   },
   setFeaturedProgram: (programKey) =>
