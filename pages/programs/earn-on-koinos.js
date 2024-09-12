@@ -37,9 +37,6 @@ export default function EarnOnKoinos() {
                               {/* Render the short description here */}
                               <p>
                                 {program.shortDescription}{" "}
-                                <a target="_blank" href={program.website}>
-                                  Join the contest now!
-                                </a>
                               </p>
                               <h5 className="s-24 w-700">
                                 {program.smallTitle}
@@ -62,7 +59,7 @@ export default function EarnOnKoinos() {
                                 ))}
                               </ul>
                               <Link
-                              href={program.website}
+                              href={program.website} target="_blank"
                               className="btn r-04 btn--theme hover--tra-black mt-20"
                             >
                               Join the contest now!

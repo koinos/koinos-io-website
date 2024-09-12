@@ -7,8 +7,8 @@ export const useProgramStore = create((set) => ({
       title: "Earn on Koinos",
       subtitle: "Earn up to 16% APY on Koinos!",
       shortDescription:
-        "Join the KOINOS X Chainge Bridge Contest to be part of a community shaping the future of finance. Bridge, share, and you could win part of the 7,000 $KOIN and 30,000 $XCHNG prize pool.",
-      description: `For the first time ever, Chainge is offering yield on a new chain—Koinos—and thanks to a partnership with Koinos Group, you could earn up to 16.24% yield for simply bridging and holding BTC, ETH, or USDT on Koinos through the Chainge app. Best of all, your tokens remain in your wallet and fully liquid at all times so you are free to move your tokens off Koinos at any time!`,
+        "For the first time ever, Chainge is offering yield on a new chain—Koinos—and thanks to a partnership with Koinos Group, you could earn up to 16.24% yield for simply bridging and holding BTC, ETH, or USDT on Koinos through the Chainge app.",
+      description: `Chainge is helping to connect Koinos to the broader DeFi ecosystem while at the same time leveraging its fee-less design and their novel DEX aggregation technology to deliver some of the lowest cost swaps in all of crypto. This is a powerful flywheel all on its own but the Earn on Koinos program will help kick it into high gear!`,
       keyPoints: [
         "Earn up to 16% on bridged assets",
         "Earn KoinDX points by providing liquidity to select pools",
