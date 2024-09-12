@@ -1,23 +1,15 @@
 import { useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
 
 export default function FeatureEcosystem() {
-    const sectionRef = useRef(null);
-
-    useEffect(() => {
-        if (sectionRef.current) {
-          animate(sectionRef.current);
-        }
-      }, [sectionRef]);
 
     return (
         <>
-            <section id="feature-ecosystem" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
+            <section id="feature-ecosystem" className="shape--bg shape--white-500 pt-100 features-section division">
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         {/* FEATURES-13 WRAPPER */}
                         <div className="col-md-7 order-last order-md-2">
-                            <div className="fbox-13-wrapper wow fadeInRight">
+                            <div className="fbox-13-wrapper wow" data-aos='fade-left'>
                                 <div className="row">
                                     <div className="col-md-6">
                                         {/* FEATURE BOX #1 */}
@@ -108,7 +100,7 @@ export default function FeatureEcosystem() {
                         </div>	{/* END FEATURES-13 WRAPPER */}
                         {/* TEXT BLOCK */}
                         <div className="col-md-5 order-first order-md-2">
-                            <div className="txt-block left-column wow fadeInLeft">
+                            <div className="txt-block left-column wow" data-aos='fade-right'>
                                 {/* Section ID */}
                                 <span className="section-id">Ecosystem Highlights</span>
                                 {/* Title */}

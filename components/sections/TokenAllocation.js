@@ -1,23 +1,15 @@
 import { useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
 
 export default function TokenAllocation() {
-    const sectionRef = useRef(null);
-
-    useEffect(() => {
-        if (sectionRef.current) {
-          animate(sectionRef.current);
-        }
-      }, [sectionRef]);
     return (
         <>
-            <section className="pt-100 ct-01 content-section division" ref={sectionRef}>
+            <section className="pt-100 ct-01 content-section division">
                 <div className="container">
                     {/* SECTION CONTENT (ROW) */}
                     <div className="row d-flex align-items-center">
                         {/* TEXT BLOCK */}
                         <div className="col-md-6 order-last order-md-2">
-                            <div className="txt-block left-column wow fadeInRight">
+                            <div className="txt-block left-column wow" data-aos='fade-left'>
                                 {/* Section ID */}
                                 <span className="section-id">Token Allocation</span>
                                 {/* Title */}
@@ -57,7 +49,7 @@ export default function TokenAllocation() {
                         </div> {/* END TEXT BLOCK */}
                         {/* IMAGE BLOCK */}
                         <div className="col-md-6 order-first order-md-2">
-                            <div className="img-block right-column wow fadeInLeft">
+                            <div className="img-block right-column wow" data-aos='fade-right'>
                                 <img className="img-fluid" src="/images/tokenomics-dk.png" alt="Token Allocation" />
                             </div>
                         </div>

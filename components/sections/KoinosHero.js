@@ -1,23 +1,16 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link";
-import { animate } from "../utils/animate";
 
 export default function KoinosHero() {
-  const sectionRef = useRef(null);
   const title1 = "The World's First";
   const title2 = "Feeless Smart Contract Platform";
   const subtle = "Fair Launched, No Locked Coins, 100% Public Allocation";
-
-  useEffect(() => {
-    if (sectionRef.current) {
-      animate(sectionRef.current);
-    }
-  }, [sectionRef]);
+  
 
   return (
     <>
       {/*<section id="hero-27" className="gr--whitesmoke hero-section">*/}
-      <section id="hero-27" ref={sectionRef}>
+      <section id="hero-27" data-aos='fade-down'>
         <div className="hero-overlay bg--fixed">
           <div className="container text-center">
             {/* HERO TEXT */}

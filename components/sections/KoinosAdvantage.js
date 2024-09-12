@@ -1,14 +1,6 @@
 import { useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
 
 export default function KoinosAdvantage() {
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-      if (sectionRef.current) {
-        animate(sectionRef.current);
-      }
-    }, [sectionRef]);
 
   const title = "The Koinos Advantage";
   const subtle = "Koinos is Engineered to Provide a Web2 User Experience on Web3";
@@ -54,7 +46,7 @@ export default function KoinosAdvantage() {
 
   return (
     <>
-      <section id="features" className="py-100 features-section division" ref={sectionRef}>
+      <section id="features" className="py-100 features-section division">
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">
@@ -72,7 +64,7 @@ export default function KoinosAdvantage() {
             <div className="row row-cols-1 row-cols-md-2 rows-3">
               {items.map((item) => (
                 <div key={item.title} className="col">
-                  <div className="fbox-11 fb-1 wow fadeInUp">
+                  <div className="fbox-11 fb-1 wow"  data-aos='fade-up'>
                     {/* Icon */}
                     <div className="fbox-ico-wrap">
                       <div className="fbox-ico ico-60">

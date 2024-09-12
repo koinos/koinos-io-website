@@ -1,14 +1,6 @@
 import { useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
 
 export default function FeaturedProgram() {
-    const sectionRef = useRef(null);
-
-    useEffect(() => {
-        if (sectionRef.current) {
-            animate(sectionRef.current);
-        }
-    }, [sectionRef]);
 
     const title = "Bridge and Win";
     const text = "Join the KOINOS X Chainge Bridge Contest to be part of a community shaping the future of finance. Bridge, share, and you could win part of the 7,000 $KOIN and 30,000 $XCHNG prize pool.";
@@ -20,13 +12,13 @@ export default function FeaturedProgram() {
 
     return (
         <>
-            <section id="featured-program" className="pt-100 ct-01 content-section features-section division" ref={sectionRef}>
+            <section id="featured-program" className="pt-100 ct-01 content-section features-section division">
                 <div className="container">
                     {/* SECTION CONTENT (ROW) */}
                     <div className="row d-flex align-items-center">
                         {/* TEXT BLOCK */}
                         <div className="col-md-6 order-last order-md-2">
-                            <div className="txt-block left-column wow fadeInRight">
+                            <div className="txt-block left-column wow" data-aos='fade-left'>
                                 {/* Section ID */}
                                 <span className="section-id">Featured Program</span>
                                 {/* Title */}
@@ -69,7 +61,7 @@ export default function FeaturedProgram() {
                         </div>	{/* END TEXT BLOCK */}
                         {/* IMAGE BLOCK */}
                         <div className="col-md-6 order-first order-md-2">
-                            <div className="img-block right-column wow fadeInLeft">
+                            <div className="img-block right-column wow" data-aos='fade-right'>
                                 <img className="img-fluid rounded" src="/images/koinos-chainge-bridge.gif" alt="content-image" />
                             </div>
                         </div>
