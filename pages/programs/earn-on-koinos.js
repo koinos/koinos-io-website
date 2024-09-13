@@ -17,7 +17,7 @@ export default function EarnOnKoinos() {
           {/* Promotion Hero Section */}
           <section
             id="project-1"
-            className="gr--whitesmoke inner-page-hero single-project"
+            className="inner-page-hero single-project"
           >
             <div className="container">
               <div className="row justify-content-center">
