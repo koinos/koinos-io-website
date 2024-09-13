@@ -22,11 +22,11 @@ export default function EarnOnKoinos() {
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-lg-11 col-xl-10">
-                <div className="project-description">
+                <div className="project-description txt-block">
                   {/* Title and Program Overview */}
-                  <div className="project-title">
-                    <div className="s-52 w-700">{program.title}</div>
-                  </div>
+                  <h2 className="s-46 w-700">
+                    {program.title}
+                  </h2>
                   {/* Preview Image */}
                   <div className="project-priview-img mb-50">
                     <section className="mb-100 ct-01 content-section features-section division">
@@ -159,10 +159,10 @@ export default function EarnOnKoinos() {
                     </ul>
 
                     {/* Step 2 */}
-                    <h3 className="s-30 w-700 mt-4">Step 2: Bridging USDT, ETH, or BTC from Ethereum to Koinos</h3>
+                    <h3 className="s-30 w-700 mt-4">Step 2: Bridging USDT, ETH, or BTC to Koinos</h3>
                     <ul>
                         <li>Access the <Link href="https://dapp.chainge.finance/?fromChain=ETH&toChain=KOIN&fromToken=USDT&toToken=USDT" className="underline">Chainge Bridge</Link>.</li>
-                        <li>Connect your Ethereum wallet.</li>
+                        <li>Connect your source chain wallet.</li>
                         <li>Enter the amount of USDT, ETH, or BTC to bridge and input your Koinos address.</li>
                         <li>Click on "Bridge now" to start the process.</li>
                     </ul>
