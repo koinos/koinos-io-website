@@ -3,7 +3,7 @@ import Link from "next/link"
 import { useProgramStore } from "@/store/programStore"
 
 export default function ProgramTemplate() {
-  const programName = "taskOn"
+  const programName = "genericProgramTemplate"
   // Fetch the program data from the store
   const program = useProgramStore((state) => state.programs[programName]) // Change this to the appropriate key
 
