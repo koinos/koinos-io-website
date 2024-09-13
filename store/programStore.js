@@ -52,38 +52,6 @@ export const useProgramStore = create((set) => ({
       },
       featured: true,
     },
-    taskOn: {
-      url: "task-on",
-      title: "Koinos X Chainge",
-      shortDescription:
-        "Earn big with the KOINOS X Chainge contest and win a share of 7,000 $KOIN & 30,000 $XCHNG!",
-      description:
-        "Koinos, the world’s first feeless smart contract platform, has partnered with Chainge to bring you a chance to win your share of 7,000 $KOIN and 30,000 $XCHNG!",
-      keyPoints: [
-        "Bridge $10+ USDT to Koinos blockchain",
-        "Follow @FinanceChainge & @KoinosNetwork",
-        "10 lucky winners will be randomly selected",
-      ],
-      guide: [
-        ,
-        ,
-        "Bridge: Transfer $10+ USDT to the Koinos blockchain",
-        "Follow: Follow @FinanceChainge & @KoinosNetwork",
-        "Share: Spread the word with #KOINOSXChaing",
-        "Engage: Join our communities and stay in the loop!",
-      ],
-      category: "Contest",
-      startDate: "August 30th 2024",
-      owner: "Koinos Group & Chainge",
-      details: [],
-      website: "https://taskon.xyz/campaign/detail/238778750",
-      featuredProgram: "http://dapp.chainge.finance/earn?chain=KOIN",
-      images: {
-        banner: "/images/contest-image.png",
-        otherImages: [],
-      },
-      featured: false,
-    },
     // Generic program template
     genericProgramTemplate: {
       url: "generic-program",
