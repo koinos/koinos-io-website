@@ -30,7 +30,7 @@ export default function FeaturedProgram() {
             <div className="row d-flex align-items-center">
               <div className="col-md-6 order-last order-md-2">
                 <div className="txt-block left-column wow fadeInRight">
-                  <span className="">Featured Program</span>
+                  <span className="section-id">Featured Program</span>
                   <h2 className="s-46 w-700">{featuredProgram.title}</h2>
                   {/* Render the short description here */}
                   <p>{featuredProgram.shortDescription} <a target="_self" href={`/programs/${featuredProgram.url}/`}>Learn more</a></p>
@@ -53,7 +53,7 @@ export default function FeaturedProgram() {
                     href={featuredProgram.website}
                     className="btn r-04 btn--theme fw-normal text-decoration-none hover--tra-black mt-20"
                     >
-                    Join the contest now!
+                    Get started now!
                   </Link>
                   </ul>
                 </div>

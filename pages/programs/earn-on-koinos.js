@@ -62,7 +62,7 @@ export default function EarnOnKoinos() {
                               href={program.website} target="_blank"
                               className="btn r-04 btn--theme hover--tra-black mt-20"
                             >
-                              Join the contest now!
+                              Get started now!
                             </Link>
                             </div>
                           </div>
@@ -159,11 +159,11 @@ export default function EarnOnKoinos() {
                     </ul>
 
                     {/* Step 2 */}
-                    <h3 className="s-30 w-700 mt-4">Step 2: Bridging USDT from Ethereum to Koinos</h3>
+                    <h3 className="s-30 w-700 mt-4">Step 2: Bridging USDT, ETH, or BTC from Ethereum to Koinos</h3>
                     <ul>
                         <li>Access the <Link href="https://dapp.chainge.finance/?fromChain=ETH&toChain=KOIN&fromToken=USDT&toToken=USDT" className="text-warning">Chainge Bridge</Link>.</li>
                         <li>Connect your Ethereum wallet.</li>
-                        <li>Enter the amount of USDT to bridge and input your Koinos address.</li>
+                        <li>Enter the amount of USDT, ETH, or BTC to bridge and input your Koinos address.</li>
                         <li>Click on "Bridge now" to start the process.</li>
                     </ul>
 
@@ -171,12 +171,12 @@ export default function EarnOnKoinos() {
                     <h3 className="s-30 w-700 mt-4">Step 3: Providing Liquidity on KoinDX</h3>
                     <ul>
                         <li>Visit <Link href="https://app.koindx.com" className="text-warning">KoinDX</Link> and connect your Kondor wallet.</li>
-                        <li>Select USDT and KOIN pairing to provide liquidity.</li>
+                        <li>Select USDT, ETH, or BTC and KOIN pairing to provide liquidity.</li>
                         <li>Click on "Add Position" to confirm and sign the transaction.</li>
                     </ul>
 
                     <h3 className="s-30 w-700 mt-4">Conclusion</h3>
-                    <p>And that's it! You've successfully participated in the Earn on Koinos promotion, setting yourself up to earn up to 16% yield on your USDT. By following these simple steps, you've acquired KOIN, set up your Kondor wallet, bridged your USDT from Ethereum to Koinos, and provided liquidity on KoinDX. Keep an eye on your positions and enjoy watching your crypto grow!</p>
+                    <p>And that's it! You've successfully participated in the Earn on Koinos promotion, setting yourself up to earn up to 16% yield on your USDT, ETH, or BTC. By following these simple steps, you've acquired KOIN, set up your Kondor wallet, bridged your USDT from Ethereum to Koinos, and provided liquidity on KoinDX. Keep an eye on your positions and enjoy watching your crypto grow!</p>
                     </div>
 
                   </div>
