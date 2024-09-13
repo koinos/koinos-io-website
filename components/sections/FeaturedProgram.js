@@ -51,9 +51,9 @@ export default function FeaturedProgram() {
                     ))}
                   <Link
                     href={featuredProgram.website}
-                    className="btn r-04 btn--theme fw-normal text-decoration-none hover--tra-black mt-20"
+                    className="btn r-04 btn--theme text-decoration-none hover--tra-black mt-20"
                     >
-                    Get started now!
+                    Get Started Now
                   </Link>
                   </ul>
                 </div>
