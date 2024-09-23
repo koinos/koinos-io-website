@@ -50,7 +50,7 @@ class BlockVisualizer {
   createSmallBlocks(position) {
     const geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
     const material = new THREE.MeshBasicMaterial({ 
-      color: 0xFFCF21,
+      color: 0x9966FF,
       wireframe: true,
       transparent: true,
       opacity: 0.7

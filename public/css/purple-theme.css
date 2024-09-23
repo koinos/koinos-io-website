@@ -12951,7 +12951,7 @@ body.theme--dark {
 
 .btn--primary {
   color: #222 !important;
-  background: #FFCF21 !important; 
+  background: #9966FF !important; 
 }
 .btn--secondary {
   color: #fff !important;
@@ -12994,7 +12994,7 @@ body.theme--dark {
 .color--theme i,
 .color--theme span,
 .color--white .color--theme {
-  color: #FFCF21 !important;
+  color: #9966FF !important;
 }
 
 .loading--theme .loader {
