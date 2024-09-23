@@ -10,8 +10,8 @@ export default function Footer3() {
                         {/* FOOTER LOGO */}
                         <div className="col-sm-3">
                             <div className="footer-info">
-                                <img className="footer-logo" src="/images/logo-purple.png" alt="footer-logo" />
-                                <img className="footer-logo-dark" src="/images/logo-purple-white.png" alt="footer-logo" />
+                                <img className="footer-logo" src="/images/logo/png/koinos-logo-white.png" alt="footer-logo" />
+                                <img className="footer-logo-dark" src="/images/logo/png/koinos-logo-white.png" alt="footer-logo" />
                             </div>
                         </div>
                         {/* FOOTER LINKS */}
