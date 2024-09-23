@@ -189,7 +189,7 @@ export default function MediaKit() {
                   <a href="/images/logo/koinos-media-kit.zip" download>
                     All Assets
                   </a>{" "}
-                  (ZIP, 786KB)
+                  (ZIP, 1.9 MB)
                 </div>{" "}
                 <div>
                   Download the Koinos logotype and mark in various formats and
@@ -249,7 +249,7 @@ export default function MediaKit() {
                     </div>
                     <div className="download-box">
                       <img
-                        src="/images/logo/png/koinos-logotype-white.png"
+                        src="/images/logo/png/koinos-logotype.png"
                         alt="Koinos Logotype"
                         className="img-fluid w-50"
                       />
