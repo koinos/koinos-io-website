@@ -29,13 +29,17 @@ export default function Document() {
           key="ogimage"
         />
         <meta
+          property="og:type"
+          content="website"
+        />
+        <meta
           property="og:site_name"
-          content={"Koinos Network"}
+          content={"Koinos"}
           key="ogsitename"
         />
         <meta
           property="og:title"
-          content={"Koinos Network"}
+          content={"Koinos"}
           key="ogtitle"
         />
         <meta
@@ -47,7 +51,7 @@ export default function Document() {
         />
 
         <meta
-          property="twitter:card"
+          name="twitter:card"
           content="summary_large_image"
           key="twittercard"
         />
@@ -60,15 +64,15 @@ export default function Document() {
           content="https://koinos.io"
         />
         <meta
-          property="twitter:title"
-          content="Web3 for Humans"
+          name="twitter:title"
+          content="Web3 for Everyone"
         />
         <meta
-          property="twitter:description"
+          name="twitter:description"
           content="Koinos is a developer centric open source project that leverages blockchain technology to provide a robust smart contract platform where holders have ownership over the network."
         />
         <meta
-          property="twitter:image"
+          name="twitter:image"
           content={"https://koinos.io/images/og-banner.png"}
         />
 
