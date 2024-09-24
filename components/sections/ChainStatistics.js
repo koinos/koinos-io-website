@@ -1,19 +1,11 @@
 import CounterUp from "../elements/CounterUp";
 import { useEffect, useState, useRef } from "react";
 import humanFormat from "human-format";
-import { animate } from "../utils/animate";
 
 export default function ChainStatistics() {
   const [transactions, setTransactions] = useState(0);
   const [accounts, setAccounts] = useState(0);
   const [blocks, setBlocks] = useState(0);
-  const sectionRef = useRef(null);
-
-    useEffect(() => {
-        if (sectionRef.current) {
-          animate(sectionRef.current);
-        }
-      }, [sectionRef]);
 
   const title = "Blockchain Statistics";
   const subtle = "A Powerful Decentralized Network for a Growing Ecosystem"
@@ -82,7 +74,7 @@ export default function ChainStatistics() {
 
   return (
     <>
-      <div id="statistic-5" className="pt-50 statistic-section division" ref={sectionRef}>
+      <div id="statistic-5" className="pt-50 statistic-section division">
         <div className="container">
           {/* STATISTIC-1 WRAPPER */}
           <div className="statistic-5-wrapper">
@@ -101,7 +93,7 @@ export default function ChainStatistics() {
               <div className="row row-cols-1 row-cols-md-3">
                 {/* STATISTIC BLOCK #1 */}
                 <div className="col">
-                  <div id="sb-5-1" className="wow fadeInUp">
+                  <div id="sb-5-1" className="wow"  data-aos='fade-up'>
                     <div className="statistic-block">
                       {/* Digit */}
                       <div className="statistic-digit">
@@ -122,7 +114,7 @@ export default function ChainStatistics() {
                 {/* END STATISTIC BLOCK #1 */}
                 {/* STATISTIC BLOCK #2 */}
                 <div className="col">
-                  <div id="sb-5-2" className="wow fadeInUp">
+                  <div id="sb-5-2" className="wow"  data-aos='fade-up'>
                     <div className="statistic-block">
                       {/* Digit */}
                       <div className="statistic-digit">
@@ -143,7 +135,7 @@ export default function ChainStatistics() {
                 {/* END STATISTIC BLOCK #2 */}
                 {/* STATISTIC BLOCK #3 */}
                 <div className="col">
-                  <div id="sb-5-3" className="wow fadeInUp">
+                  <div id="sb-5-3" className="wow"  data-aos='fade-up'>
                     <div className="statistic-block">
                       {/* Digit */}
                       <div className="statistic-digit">

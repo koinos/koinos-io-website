@@ -12,7 +12,18 @@ import WhereToGetKOIN from "@/components/sections/WhereToGetKOIN"
 import TokenAllocation from "@/components/sections/TokenAllocation"
 import FeaturedProgram from "@/components/sections/FeaturedProgram"
 
+import AOS from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+    });
+  }, []);
+
   return (
     <>
       <Layout
