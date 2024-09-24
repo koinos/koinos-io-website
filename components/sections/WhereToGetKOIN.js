@@ -1,19 +1,11 @@
 import { useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
 import Link from "next/link";
 
 export default function WhereToGetKOIN() {
-    const sectionRef = useRef(null);
-
-    useEffect(() => {
-        if (sectionRef.current) {
-          animate(sectionRef.current);
-        }
-      }, [sectionRef]);
 
     return (
         <>
-            <section id="integrations-1" className="pt-100 integrations-section" ref={sectionRef}>
+            <section id="integrations-1" className="pt-100 integrations-section">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-8">
@@ -26,7 +18,7 @@ export default function WhereToGetKOIN() {
                     <div className="integrations-1-wrapper">
                         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 rows-2">
                             <div className="col">
-                                <Link href="https://dapp.chainge.finance/?fromChain=ETH&toChain=ETH&fromToken=USDT&toToken=KOIN" className="in_tool it-1 r-12 mb-30 wow fadeInUp">
+                                <Link href="https://dapp.chainge.finance/?fromChain=ETH&toChain=ETH&fromToken=USDT&toToken=KOIN" className="in_tool it-1 r-12 mb-30 wow" data-aos='fade-up'>
                                     {/* Icon */}
                                     <div className="in_tool-logo-wrap">
                                         <div className="in_tool-logo ico-60">
@@ -41,7 +33,7 @@ export default function WhereToGetKOIN() {
                                 </Link>
                             </div>
                             <div className="col">
-                                <Link href="https://app.uniswap.org/explore/tokens/ethereum/0xed11c9bcf69fdd2eefd9fe751bfca32f171d53ae" className="in_tool it-1 r-12 mb-30 wow fadeInUp">
+                                <Link href="https://app.uniswap.org/explore/tokens/ethereum/0xed11c9bcf69fdd2eefd9fe751bfca32f171d53ae" className="in_tool it-1 r-12 mb-30 wow"  data-aos='fade-up'>
                                     {/* Icon */}
                                     <div className="in_tool-logo-wrap">
                                         <div className="in_tool-logo ico-60">
@@ -56,7 +48,7 @@ export default function WhereToGetKOIN() {
                                 </Link>
                             </div>
                             <div className="col">
-                                <Link href="https://www.mexc.com/exchange/KOIN_USDT" className="in_tool it-1 r-12 mb-30 wow fadeInUp">
+                                <Link href="https://www.mexc.com/exchange/KOIN_USDT" className="in_tool it-1 r-12 mb-30 wow"  data-aos='fade-up'>
                                     {/* Icon */}
                                     <div className="in_tool-logo-wrap">
                                         <div className="in_tool-logo ico-60">
@@ -71,7 +63,7 @@ export default function WhereToGetKOIN() {
                                 </Link>
                             </div>
                             <div className="col">
-                                <Link href="https://bingx.com/en/spot/KOINUSDT/" className="in_tool it-5 r-12 mb-30 wow fadeInUp">
+                                <Link href="https://bingx.com/en/spot/KOINUSDT/" className="in_tool it-5 r-12 mb-30 wow"  data-aos='fade-up'>
                                     {/* Icon */}
                                     <div className="in_tool-logo-wrap">
                                         <div className="in_tool-logo ico-60">
@@ -86,7 +78,7 @@ export default function WhereToGetKOIN() {
                                 </Link>
                             </div>
                             <div className="col">
-                                <Link href="https://www.biconomy.com/exchange/KOIN_USDT" className="in_tool it-3 r-12 mb-30 wow fadeInUp">
+                                <Link href="https://www.biconomy.com/exchange/KOIN_USDT" className="in_tool it-3 r-12 mb-30 wow"  data-aos='fade-up'>
                                     {/* Icon */}
                                     <div className="in_tool-logo-wrap">
                                         <div className="in_tool-logo ico-60">
@@ -101,7 +93,7 @@ export default function WhereToGetKOIN() {
                                 </Link>
                             </div>
                             <div className="col">
-                                <Link href="https://www.coinstore.com/#/spot/KOINUSDT" className="in_tool it-2 r-12 mb-30 wow fadeInUp">
+                                <Link href="https://www.coinstore.com/#/spot/KOINUSDT" className="in_tool it-2 r-12 mb-30 wow"  data-aos='fade-up'>
                                     {/* Icon */}
                                     <div className="in_tool-logo-wrap">
                                         <div className="in_tool-logo ico-60">
@@ -116,7 +108,7 @@ export default function WhereToGetKOIN() {
                                 </Link>
                             </div>
                             <div className="col">
-                                <Link href="https://exchange.lcx.com/trade/KOIN-EUR" className="in_tool it-4 r-12 mb-30 wow fadeInUp">
+                                <Link href="https://exchange.lcx.com/trade/KOIN-EUR" className="in_tool it-4 r-12 mb-30 wow"  data-aos='fade-up'>
                                     {/* Icon */}
                                     <div className="in_tool-logo-wrap">
                                         <div className="in_tool-logo ico-60">
@@ -131,7 +123,7 @@ export default function WhereToGetKOIN() {
                                 </Link>
                             </div>	
                             <div className="col">
-                                <Link href="https://app.koindx.com/swap" className="in_tool it-5 r-12 mb-30 wow fadeInUp">
+                                <Link href="https://app.koindx.com/swap" className="in_tool it-5 r-12 mb-30 wow"  data-aos='fade-up'>
                                     {/* Icon */}
                                     <div className="in_tool-logo-wrap">
                                         <div className="in_tool-logo ico-60">

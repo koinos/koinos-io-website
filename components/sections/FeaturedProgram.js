@@ -1,17 +1,7 @@
 import { useProgramStore } from "@/store/programStore"; // Import the Zustand store
-import { useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
 import Link from "next/link";
 
 export default function FeaturedProgram() {
-    const sectionRef = useRef(null);
-  
-    useEffect(() => {
-      if (sectionRef.current) {
-        animate(sectionRef.current);
-      }
-    }, [sectionRef]);
-  
     // Get the programs from the store
     const programs = useProgramStore((state) => state.programs);
   
@@ -25,11 +15,11 @@ export default function FeaturedProgram() {
   
     return (
       <>
-        <section id="featured-program" className="pt-100 ct-01 content-section features-section division" ref={sectionRef}>
+        <section id="featured-program" className="pt-100 ct-01 content-section features-section division">
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-md-6 order-last order-md-2">
-                <div className="txt-block left-column wow fadeInRight">
+                <div className="txt-block left-column wow" data-aos='fade-left'>
                   <span className="section-id">Featured Program</span>
                   <h2 className="s-46 w-700">{featuredProgram.title}</h2>
                   {/* Render the short description here */}
@@ -59,7 +49,7 @@ export default function FeaturedProgram() {
                 </div>
               </div>
               <div className="col-md-6 order-first order-md-2">
-                <div className="img-block right-column wow fadeInLeft">
+                <div className="img-block right-column wow" data-aos='fade-right'>
                   <img className="img-fluid rounded" src={featuredProgram.images.banner} alt="content-image" />
                 </div>
               </div>

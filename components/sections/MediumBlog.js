@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
 
 export default function MediumBlog() {
   const sectionRef = useRef(null);
@@ -26,12 +25,6 @@ export default function MediumBlog() {
     }
     fetchData();
   }, []);
-
-  useEffect(() => {
-    if (sectionRef.current) {
-      animate(sectionRef.current);
-    }
-  }, [sectionRef, displayItems]); // triggers after displayItems exists
 
   // convert items to displayItems, strip out what we need etc
   useEffect(() => {
@@ -83,7 +76,7 @@ export default function MediumBlog() {
 
   return (
     <>
-      <section id="blog-1" className="py-100 blog-section division" ref={sectionRef}>
+      <section id="blog-1" className="py-100 blog-section division">
         <div className="container">
           {/* SECTION TITLE */}
           <div className="row justify-content-center">
@@ -101,7 +94,7 @@ export default function MediumBlog() {
               displayItems.map((item, index) => (
                 <>
                   <div className="col-md-6 col-lg-4" key={index}>
-                    <div className="blog-post wow fadeInUp">
+                    <div className="blog-post wow"  data-aos='fade-up'>
                       {/* BLOG POST IMAGE */}
                       <div className="blog-post-img mb-35">
                         <Link href={item.link}>

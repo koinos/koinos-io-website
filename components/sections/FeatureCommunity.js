@@ -1,22 +1,14 @@
 import { useRef, useEffect } from "react";
-import { animate } from "../utils/animate";
 
 export default function FeatureCommunity() {
-    const sectionRef = useRef(null);
-
-    useEffect(() => {
-        if (sectionRef.current) {
-          animate(sectionRef.current);
-        }
-      }, [sectionRef]);
     return (
         <>
-            <section id="feature-community" className="shape--bg shape--white-500 pt-100 features-section division" ref={sectionRef}>
+            <section id="feature-community" className="shape--bg shape--white-500 pt-100 features-section division">
                 <div className="container">
                     <div className="row d-flex align-items-center">
                         {/* TEXT BLOCK */}
                         <div className="col-md-5">
-                            <div className="txt-block left-column wow fadeInRight">
+                            <div className="txt-block left-column wow" data-aos='fade-left'>
                                 {/* Section ID */}
                                 <span className="section-id">Community</span>
                                 {/* Title */}
@@ -56,7 +48,7 @@ export default function FeatureCommunity() {
                         </div> {/* END TEXT BLOCK */}
                         {/* FEATURES-12 WRAPPER */}
                         <div className="col-md-7">
-                            <div className="fbox-12-wrapper wow fadeInLeft">
+                            <div className="fbox-12-wrapper wow" data-aos='fade-right'>
                                 <div className="row">
                                     <div className="col-md-6">
                                         {/* FEATURE BOX #1 */}
