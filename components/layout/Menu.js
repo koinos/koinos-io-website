@@ -19,12 +19,8 @@ export default function Menu() {
                     </ul>
                 </li>
 
-                <li aria-haspopup="true">
-                    <Link href="#" className="h-link">Build<span className="wsarrow" /></Link>
-                    <ul className="sub-menu">
-                        <li aria-haspopup="true" target="_blank"><Link href="https://docs.koinos.io">Documentation</Link></li>
-                        <li aria-haspopup="true" target="_blank"><Link href="https://learnkoinos.xyz">Learn Koinos</Link></li>
-                    </ul>
+                <li className="nl-simple" aria-haspopup="true">
+                    <Link href="https://docs.koinos.io" className="h-link">Documentation</Link>
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
