@@ -10,13 +10,13 @@ export default function KoinosHero() {
   return (
     <>
       {/*<section id="hero-27" className="gr--whitesmoke hero-section">*/}
-      <section id="hero-27" data-aos='fade-down'>
+      <section id="hero-27">
         <div className="hero-overlay bg--fixed">
           <div className="container text-center">
             {/* HERO TEXT */}
             <div className="row justify-content-center">
               <div className="col-md-10 col-lg-9">
-                <div className="hero-27-txt wow fadeInUp">
+                <div className="hero-27-txt wow" data-aos='fade-down'>
                   {/* Title */}
                   <div className="hero-titles">
                     {/*<img src="/images/logo-white-white.png" alt="Koinos Logo" style={{width: '75%', minWidth: '300px', maxWidth: '488px'}} />*/}
