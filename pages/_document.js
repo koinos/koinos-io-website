@@ -86,7 +86,7 @@ export default function Document() {
         />
         <meta
           name="twitter:image"
-          content={"https://deploy-preview-107--koinos-io.netlify.app/images/og-banner.png"}
+          content={"https://koinos.io/images/og-banner.png"}
         />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-5Z72Z9YG2G"></script>
