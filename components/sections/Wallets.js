@@ -17,15 +17,6 @@ export default function Wallets() {
             ios: false,
             url: "https://chromewebstore.google.com/detail/kondor/ghipkefkpgkladckmlmdnadmcchefhjl"
         },
-        /*{
-            name: "My Koinos Wallet",
-            description: "Cross-platform progressive webapp Wallet",
-            icon: "/images/wallets/mkw.png",
-            chrome: true,
-            android: true,
-            ios: true,
-            url: "https://mykw.vercel.app"
-        },*/
         {
             name: "Konio",
             description: "Full featured native mobile wallet for Android/iOS",
@@ -34,16 +25,7 @@ export default function Wallets() {
             android: true,
             ios: true,
             url: "https://konio.io"
-        },
-        {
-            name: "Portal",
-            description: "Native mobile application for assets management",
-            icon: "/images/wallets/portal.png",
-            chrome: false,
-            android: true,
-            ios: true,
-            url: "https://portal.armana.io/"
-        },
+        }
     ]
 
     return (
@@ -63,7 +45,7 @@ export default function Wallets() {
                     </div>
                     {/* FEATURES-2 WRAPPER */}
                     <div className="fbox-wrapper text-center">
-                        <div className="row row-cols-1 row-cols-md-3">
+                        <div className="row row-cols-1 row-cols-md-2">
 
                             {
                                 wallets.map(wallet =>

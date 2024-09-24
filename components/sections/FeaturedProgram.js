@@ -1,73 +1,71 @@
+import { useProgramStore } from "@/store/programStore"; // Import the Zustand store
 import { useRef, useEffect } from "react";
+import { animate } from "../utils/animate";
+import Link from "next/link";
 
 export default function FeaturedProgram() {
-
-    const title = "Bridge and Win";
-    const text = "Join the KOINOS X Chainge Bridge Contest to be part of a community shaping the future of finance. Bridge, share, and you could win part of the 7,000 $KOIN and 30,000 $XCHNG prize pool.";
-
-    const smallTitle = "Maximize your earnings";
-    const bullet1 = "Earn up to 16% on bridged assets";
-    const bullet2 = "Earn KoinDX points by providing liquidity to select pools";
-    const bullet3 = "Win a piece of the prize pool by participating in the contest";
-
+    const sectionRef = useRef(null);
+  
+    useEffect(() => {
+      if (sectionRef.current) {
+        animate(sectionRef.current);
+      }
+    }, [sectionRef]);
+  
+    // Get the programs from the store
+    const programs = useProgramStore((state) => state.programs);
+  
+    // Find the program with the featured flag set to true
+    const featuredProgram = Object.values(programs).find((program) => program.featured);
+  
+    // If no program is featured, render a default message
+    if (!featuredProgram) {
+      return <p>No featured program at this time.</p>;
+    }
+  
     return (
-        <>
-            <section id="featured-program" className="pt-100 ct-01 content-section features-section division">
-                <div className="container">
-                    {/* SECTION CONTENT (ROW) */}
-                    <div className="row d-flex align-items-center">
-                        {/* TEXT BLOCK */}
-                        <div className="col-md-6 order-last order-md-2">
-                            <div className="txt-block left-column wow" data-aos='fade-left'>
-                                {/* Section ID */}
-                                <span className="section-id">Featured Program</span>
-                                {/* Title */}
-                                <h2 className="s-46 w-700">{title}</h2>
-                                {/* Text */}
-                                <p>{text} <a target="_blank" href="https://taskon.xyz/campaign/detail/238778750">Join the contest now!</a></p>
-                                {/* Small Title */}
-                                <h5 className="s-24 w-700">{smallTitle}</h5>
-                                {/* CONTENT BOX #1 */}
-                                <div className="cbox-1 ico-15">
-                                    <div className="ico-wrap color--theme">
-                                        <div className="cbox-1-ico"><span className="flaticon-check" /></div>
-                                    </div>
-                                    <div className="cbox-1-txt">
-                                        <p>{bullet1}</p>
-                                    </div>
-                                </div>
-                                {/* CONTENT BOX #2 */}
-                                <div className="cbox-1 ico-15">
-                                    <div className="ico-wrap color--theme">
-                                        <div className="cbox-1-ico"><span className="flaticon-check" /></div>
-                                    </div>
-                                    <div className="cbox-1-txt">
-                                        <p>{bullet2}
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* CONTENT BOX #3 */}
-                                {/*
-                                <div className="cbox-1 ico-15">
-                                    <div className="ico-wrap color--theme">
-                                        <div className="cbox-1-ico"><span className="flaticon-check" /></div>
-                                    </div>
-                                    <div className="cbox-1-txt">
-                                        <p className="mb-0">{bullet3}</p>
-                                    </div>
-                                </div>
-                                */}
-                            </div>
-                        </div>	{/* END TEXT BLOCK */}
-                        {/* IMAGE BLOCK */}
-                        <div className="col-md-6 order-first order-md-2">
-                            <div className="img-block right-column wow" data-aos='fade-right'>
-                                <img className="img-fluid rounded" src="/images/koinos-chainge-bridge.gif" alt="content-image" />
-                            </div>
+      <>
+        <section id="featured-program" className="pt-100 ct-01 content-section features-section division" ref={sectionRef}>
+          <div className="container">
+            <div className="row d-flex align-items-center">
+              <div className="col-md-6 order-last order-md-2">
+                <div className="txt-block left-column wow fadeInRight">
+                  <span className="section-id">Featured Program</span>
+                  <h2 className="s-46 w-700">{featuredProgram.title}</h2>
+                  {/* Render the short description here */}
+                  <p>{featuredProgram.shortDescription} <a target="_self" href={`/programs/${featuredProgram.url}/`}>Learn more</a></p>
+                  <h5 className="s-24 w-700">{featuredProgram.smallTitle}</h5>
+                  {/* Key Points */}
+                  <ul>
+                    {featuredProgram.keyPoints.map((point, index) => (
+                      <li key={index}>
+                        <div className="cbox-1 ico-15">
+                          <div className="ico-wrap color--theme">
+                            <div className="cbox-1-ico"><span className="flaticon-check" /></div>
+                          </div>
+                          <div className="cbox-1-txt">
+                            <p>{point}</p>
+                          </div>
                         </div>
-                    </div>	{/* END SECTION CONTENT (ROW) */}
-                </div>	   {/* End container */}
-            </section>
-        </>
-    )
-}
+                      </li>
+                    ))}
+                  <Link
+                    href={featuredProgram.website}
+                    className="btn r-04 btn--theme text-decoration-none hover--tra-black mt-20"
+                    >
+                    Get Started Now
+                  </Link>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-md-6 order-first order-md-2">
+                <div className="img-block right-column wow fadeInLeft">
+                  <img className="img-fluid rounded" src={featuredProgram.images.banner} alt="content-image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </>
+    );
+  }
