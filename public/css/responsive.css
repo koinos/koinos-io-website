@@ -1466,7 +1466,7 @@
 
   .theme--dark .tra-menu .wsmobileheader, 
   .theme--dark .white-menu .wsmobileheader { 
-    background-color: #1d222f!important; 
+    background-color: #222!important;
     -webkit-box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
     -moz-box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
     box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
@@ -1496,7 +1496,7 @@
   .wsmenu > .wsmenu-list > li.mobile-last-link > a { border-bottom: none; }
 
   /* Dark Header Settings */
-  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #2c3142!important; }
+  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #222!important; }
 
   .dark-menu .wsmenu > .wsmenu-list > li > a, 
   .black-scroll .wsmenu > .wsmenu-list > li > a { border-bottom-color: rgba(255, 255, 255, .13); }
@@ -1547,7 +1547,7 @@
   }
 
   .black-scroll .wsmenu > .wsmenu-list > li > ul.sub-menu, .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu,
-  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #2c3142!important; }
+  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #222!important; }
 
   /* Sub Menu / Half Menu / Mega Menu Links */
   .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a, 
@@ -1644,7 +1644,7 @@
   .white-scroll .hover--tra-violet:hover, .black-scroll .hover--tra-violet:hover 
   { color: #b55e98!important; border-color: #b55e98!important; background-color: transparent!important; }
 
-  .theme--dark .wsmenu > .wsmenu-list { background-color: #2c3142!important; }
+  .theme--dark .wsmenu > .wsmenu-list { background-color: #222!important; }
   .theme--dark .wsmenu > .wsmenu-list > li > .wsmenu-click > i:before { border-color: rgba(255, 255, 255, 1); }
 
   .theme--dark .navbar-dark .hover--tra-black:hover,
@@ -2864,7 +2864,7 @@
 
   .theme--dark .tra-menu .wsmobileheader, 
   .theme--dark .white-menu .wsmobileheader { 
-    background-color: #1d222f!important; 
+    background-color: #222!important;
     -webkit-box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
     -moz-box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
     box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
@@ -2894,7 +2894,7 @@
   .wsmenu > .wsmenu-list > li.mobile-last-link > a { border-bottom: none; }
 
   /* Dark Header Settings */
-  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #2c3142!important; }
+  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #222!important; }
 
   .dark-menu .wsmenu > .wsmenu-list > li > a, 
   .black-scroll .wsmenu > .wsmenu-list > li > a { border-bottom-color: rgba(255, 255, 255, .13); }
@@ -2945,7 +2945,7 @@
   }
 
   .black-scroll .wsmenu > .wsmenu-list > li > ul.sub-menu, .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu,
-  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #2c3142!important; }
+  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #222!important; }
 
   /* Sub Menu / Half Menu / Mega Menu Links */
   .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a, 
@@ -3041,7 +3041,7 @@
   .white-scroll .hover--tra-violet:hover, .black-scroll .hover--tra-violet:hover 
   { color: #b55e98!important; border-color: #b55e98!important; background-color: transparent!important; }
 
-  .theme--dark .wsmenu > .wsmenu-list { background-color: #2c3142!important; }
+  .theme--dark .wsmenu > .wsmenu-list { background-color: #222!important; }
   .theme--dark .wsmenu > .wsmenu-list > li > .wsmenu-click > i:before { border-color: rgba(255, 255, 255, 1); }
 
   .theme--dark .navbar-dark .hover--tra-black:hover,

@@ -3420,7 +3420,7 @@ p.video-txt-sm {
 
 .dark-menu .wsmainfull {
   padding: 6px 0;
-  background-color: #1d222f !important;
+  background-color: #222 !important;
   -webkit-box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
   -moz-box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
   box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
@@ -3783,8 +3783,8 @@ span.sm-info {
 .black-scroll .scroll .wsmenu > .wsmenu-list > li > ul.sub-menu,
 .black-scroll .scroll .wsmenu > .wsmenu-list > li > .wsmegamenu,
 .black-scroll .scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu {
-  background-color: #1e2129 !important;
-  border: solid 1px #1e2129 !important;
+  background-color: #222 !important;
+  border: solid 1px #222 !important;
   -webkit-box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
   -moz-box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
   box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
@@ -11590,7 +11590,7 @@ button.btn-close:focus {
 
 body.theme--dark,
 .theme--dark .bg--white-100 {
-  background-color: #14151a !important;
+  background-color: #121212 !important;
 }
 
 body.theme--dark {
@@ -11631,14 +11631,14 @@ body.theme--dark {
 }
 
 .theme--dark .x-border {
-  border-top: 1px solid #1e2129;
-  border-bottom: 1px solid #1e2129;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
 }
 .theme--dark .top-border {
-  border-top: 1px solid #1e2129;
+  border-top: 1px solid #222;
 }
 .theme--dark .bottom-border {
-  border-bottom: 1px solid #1e2129;
+  border-bottom: 1px solid #222;
 }
 
 .theme--dark .bg--white-300,
@@ -11649,7 +11649,7 @@ body.theme--dark {
 .theme--dark .shape--white-400:after,
 .theme--dark .shape--white-300:after,
 .theme--dark .shape--white-200:after {
-  background-color: #1e2129;
+  background-color: #222;
 }
 
 .theme--dark .bg--02,
@@ -11659,7 +11659,7 @@ body.theme--dark {
 .theme--dark .shape--whitesmoke:after {
   background-image: linear-gradient(
     180deg,
-    rgba(29, 33, 44, 0.8) 50%,
+    rgba(34, 34, 34, 0.8) 50%,
     rgba(29, 33, 44, 0.55) 100%
   );
 }
@@ -11668,7 +11668,7 @@ body.theme--dark {
 .theme--dark .shape--gr-whitesmoke:after {
   background-image: linear-gradient(
     180deg,
-    rgba(29, 33, 44, 0.8) 50%,
+    rgba(34, 34, 34, 0.8) 50%,
     rgba(29, 33, 44, 0.05) 100%
   );
 }
@@ -11970,8 +11970,8 @@ body.theme--dark {
 .theme--dark .wsmenu > .wsmenu-list > li > ul.sub-menu,
 .theme--dark .wsmenu > .wsmenu-list > li > .wsmegamenu,
 .theme--dark .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu {
-  background-color: #1e2129 !important;
-  border: solid 1px #1e2129 !important;
+  background-color: #222 !important;
+  border: solid 1px #222 !important;
   -webkit-box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
   -moz-box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
   box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
@@ -11980,9 +11980,9 @@ body.theme--dark {
 .theme--dark .wsmenu > .wsmenu-list > li > ul.sub-menu:before,
 .theme--dark .wsmenu > .wsmenu-list > li.mg_link:hover > a:after,
 .theme--dark .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu:before {
-  background-color: #1e2129;
-  border-left: solid 1px #1e2129;
-  border-top: solid 1px #1e2129;
+  background-color: #222;
+  border-left: solid 1px #222;
+  border-top: solid 1px #222;
 }
 
 .theme--dark .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a,
@@ -12297,7 +12297,7 @@ body.theme--dark {
 }
 
 .theme--dark .hero-6-wrapper {
-  background-image: linear-gradient(90deg, #1e2129, #1e2129);
+  background-image: linear-gradient(90deg, #222, #222);
 }
 
 .theme--dark #hero-8-form {
@@ -12340,7 +12340,7 @@ body.theme--dark {
 }
 
 .theme--dark #hero-20:after {
-  background-image: linear-gradient(180deg, #1e2129, #232734);
+  background-image: linear-gradient(180deg, #222, #232734);
 }
 
 .theme--dark #hero-21 .hero-overlay {
@@ -12361,11 +12361,11 @@ body.theme--dark {
 
 .theme--dark #hero-27 .hero-overlay {
   /*background-image: url(../images/hero-27-dark.png);*/
-  background-image: url(../images/circuit-bg.png);
+  /*background-image: url(../images/circuit-bg.png);*/
   max-width: none;
   background-position: bottom;
   @media screen and (max-width: 500px) {
-    background-image: url(../images/circuit-bg-mobile.png);
+    /*background-image: url(../images/circuit-bg-mobile.png);*/
     background-position: top;
   }
 }
@@ -12403,11 +12403,11 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark #reviews-2 .review-2.bg--white-100 {
-  background-color: #1e2129 !important;
+  background-color: #222 !important;
 }
 
 .theme--dark .owl-theme .owl-dots .owl-dot span {
-  background: #1e2129;
+  background: #222;
 }
 
 .theme--dark .owl-theme .owl-dots .owl-dot.active span {
@@ -12439,8 +12439,8 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .rbox-1 .star-rating {
-  background-color: #1e2129 !important;
-  border: 1px solid #1e2129;
+  background-color: #222 !important;
+  border: 1px solid #222;
   -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.13);
@@ -12477,8 +12477,8 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .integrations-1-wrapper .in_tool {
-  background-color: #1e2129;
-  border: 1px solid #1e2129;
+  background-color: #222;
+  border: 1px solid #222;
 }
 
 /*------------------------------------------*/
@@ -12582,7 +12582,7 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .txt-code {
-  background-color: #1e2129;
+  background-color: #222;
 }
 
 .theme--dark .txt-code kbd {
@@ -12749,7 +12749,7 @@ body.theme--dark {
 
 .theme--dark #login .register-page-wrapper:after,
 .theme--dark #signup .register-page-wrapper:after {
-  background-color: #1e2129;
+  background-color: #222;
 }
 
 .theme--dark .form-data span a,
@@ -12770,8 +12770,8 @@ body.theme--dark {
 }
 
 .theme--dark .reset-page-wrapper form {
-  background: #1e2129;
-  border: 1px solid #1e2129;
+  background: #222;
+  border: 1px solid #222;
 }
 
 .theme--dark .register-page-form .form-control::-moz-placeholder {
@@ -12982,7 +12982,7 @@ body.theme--dark {
 .color--theme i,
 .color--theme span,
 .color--white .color--theme {
-  color: #7827e6 !important;
+  color: #9966FF !important;
 }
 
 .loading--theme .loader {
@@ -13097,4 +13097,27 @@ body.theme--dark {
 
 .underline {
   text-decoration: underline !important;
+}
+
+.btn--primary {
+  color: #FFFFFF !important;
+  background: #9966FF !important;
+}
+
+.btn--primary i {
+  margin-left: 0.5em;
+}
+
+.btn--secondary {
+  color: #fff !important;
+  background: #222;
+}
+
+.btn--secondary i {
+  margin-left: 0.5em;
+}
+
+.btn--secondary:hover {
+  color: #fff !important;
+  background: #222;
 }
