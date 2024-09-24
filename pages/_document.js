@@ -22,7 +22,20 @@ export default function Document() {
           rel="stylesheet"
         />
 
-        <meta property="og:url" content={"https://koinos.io"} key="ogurl" />
+        <meta
+          property="language"
+          content="en"
+        />
+        <meta
+          name="robots"
+          content="index, follow"
+        />
+
+        <meta
+          property="og:url"
+          content={"https://koinos.io"}
+          key="ogurl"
+        />
         <meta
           property="og:image"
           content={"https://koinos.io/images/og-banner.png"}
