@@ -129,25 +129,12 @@ export default function MediaKit() {
             <section id="colors" className="mb-5 pt-5">
               <h2>Colors</h2>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Koinos Deep Purple</p>
-                <p className="small mt-2">#25174E</p>
-                <div
-                  className="mt-6"
-                  style={{
-                    backgroundColor: "#25174E",
-                    height: "50px",
-                    width: "100%",
-                    borderRadius: "5px",
-                  }}
-                ></div>
-              </div>
-              <div className="mt-4">
                 <p className="text-uppercase mt-2">Koinos Purple</p>
-                <p className="small mt-2">#6F00F6</p>
+                <p className="small mt-2">#5d00b3</p>
                 <div
                   className="mt-6"
                   style={{
-                    backgroundColor: "#6F00F6",
+                    backgroundColor: "#5d00b3",
                     height: "50px",
                     width: "100%",
                     borderRadius: "5px",
@@ -155,12 +142,12 @@ export default function MediaKit() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Accent Yellow</p>
-                <p className="small mt-2">#FFCF21</p>
+                <p className="text-uppercase mt-2">Accent Purple</p>
+                <p className="small mt-2">#9966FF</p>
                 <div
                   className="mt-6"
                   style={{
-                    backgroundColor: "#FFCF21",
+                    backgroundColor: "#9966FF",
                     height: "50px",
                     width: "100%",
                     borderRadius: "5px",
@@ -168,12 +155,12 @@ export default function MediaKit() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Almost Black</p>
-                <p className="small mt-2">#090221</p>
+                <p className="text-uppercase mt-2">Koinos Black</p>
+                <p className="small mt-2">#121212</p>
                 <div
                   className="mt-6"
                   style={{
-                    backgroundColor: "#090221",
+                    backgroundColor: "#121212",
                     height: "50px",
                     width: "100%",
                     borderRadius: "5px",
@@ -181,12 +168,12 @@ export default function MediaKit() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Almost White</p>
-                <p className="small mt-2">#F5F5F5</p>
+                <p className="text-uppercase mt-2">White</p>
+                <p className="small mt-2">#FFFFFF</p>
                 <div
                   className="mt-6"
                   style={{
-                    backgroundColor: "#F5F5F5",
+                    backgroundColor: "#FFFFFF",
                     height: "50px",
                     width: "100%",
                     borderRadius: "5px",
