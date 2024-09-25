@@ -97,15 +97,15 @@ export default function MediaKit() {
               </p>
             </section>
             <section id="logotype" className="mb-5 pt-5">
-              <h2>Logotype</h2>
+              <h2>Koinos Logo</h2>
               <p>
-                The Koinos logotype is designed with modern and clean lines,
+                The Koinos logo is designed with modern and clean lines,
                 reflecting the innovative and forward-thinking nature of the
                 platform. Please use the provided versions without alterations.
               </p>
               <div>
                 <img
-                  src="/images/logo/png/koinos-logotype.png"
+                  src="/images/logo/png/koinos-logo-white.png"
                   alt="logo image"
                   className="img-fluid w-75"
                 />
@@ -129,12 +129,25 @@ export default function MediaKit() {
             <section id="colors" className="mb-5 pt-5">
               <h2>Colors</h2>
               <div className="mt-4">
+                <p className="text-uppercase mt-2">Koinos Deep Purple</p>
+                <p className="small mt-2">#25174E</p>
+                <div
+                  className="mt-6"
+                  style={{
+                    backgroundColor: "#25174E",
+                    height: "50px",
+                    width: "100%",
+                    borderRadius: "5px",
+                  }}
+                ></div>
+              </div>
+              <div className="mt-4">
                 <p className="text-uppercase mt-2">Koinos Purple</p>
-                <p className="small mt-2">#5d00b3</p>
+                <p className="small mt-2">#6F00F6</p>
                 <div
                   className="mt-6"
                   style={{
-                    backgroundColor: "#5d00b3",
+                    backgroundColor: "#6F00F6",
                     height: "50px",
                     width: "100%",
                     borderRadius: "5px",
@@ -142,12 +155,12 @@ export default function MediaKit() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Accent Purple</p>
-                <p className="small mt-2">#9966FF</p>
+                <p className="text-uppercase mt-2">Accent Yellow</p>
+                <p className="small mt-2">#FFCF21</p>
                 <div
                   className="mt-6"
                   style={{
-                    backgroundColor: "#9966FF",
+                    backgroundColor: "#FFCF21",
                     height: "50px",
                     width: "100%",
                     borderRadius: "5px",
@@ -155,12 +168,12 @@ export default function MediaKit() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Koinos Black</p>
-                <p className="small mt-2">#121212</p>
+                <p className="text-uppercase mt-2">Almost Black</p>
+                <p className="small mt-2">#090221</p>
                 <div
                   className="mt-6"
                   style={{
-                    backgroundColor: "#121212",
+                    backgroundColor: "#090221",
                     height: "50px",
                     width: "100%",
                     borderRadius: "5px",
@@ -168,12 +181,12 @@ export default function MediaKit() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">White</p>
-                <p className="small mt-2">#FFFFFF</p>
+                <p className="text-uppercase mt-2">Almost White</p>
+                <p className="small mt-2">#F5F5F5</p>
                 <div
                   className="mt-6"
                   style={{
-                    backgroundColor: "#FFFFFF",
+                    backgroundColor: "#F5F5F5",
                     height: "50px",
                     width: "100%",
                     borderRadius: "5px",
@@ -185,12 +198,13 @@ export default function MediaKit() {
             <section id="assets" className="mb-5 pt-5">
               <h2 className="mb-5">Assets</h2>
               <p>
-                <div className="btn">
-                  <a href="/images/logo/koinos-media-kit.zip" download>
+              <a href="/images/logo/koinos-media-kit.zip" download>
+                <div className="btn btn-link text-white">
                     All Assets
-                  </a>{" "}
-                  (ZIP, 1.9 MB)
-                </div>{" "}
+                  {" "}
+                  (ZIP, 2 MB)
+                </div></a>{" "}
+
                 <div>
                   Download the Koinos logotype and mark in various formats and
                   colors. Please use the provided versions without alterations.
@@ -206,14 +220,14 @@ export default function MediaKit() {
                     </div>
                     <div className="download-box">
                       <img
-                        src="/images/logo/png/koinos-logo-light.png"
+                        src="/images/logo/png/koinos-logo-white.png"
                         alt="Main Logotype"
                         className="img-fluid w-50"
                       />
                       <div>
                         <div className="dl-button">
                           <a
-                            href="/images/logo/png/koinos-logo-light.png"
+                            href="/images/logo/png/koinos-logo-white.png"
                             download
                           >
                             PNG
@@ -221,7 +235,7 @@ export default function MediaKit() {
                         </div>
                         <div className="dl-button">
                           <a
-                            href="/images/logo/svg/koinos-logo-light.svg"
+                            href="/images/logo/svg/koinos-logo-white.svg"
                             download
                           >
                             SVG
@@ -235,7 +249,7 @@ export default function MediaKit() {
                         className="gray-txt"
                         download
                       >
-                        Download all variations
+                        Download variations
                       </a>
                     </div>
                   </div>
@@ -278,7 +292,7 @@ export default function MediaKit() {
                         className="gray-txt"
                         download
                       >
-                        Download all variations
+                        Download variations
                       </a>
                     </div>
                   </div>
@@ -287,7 +301,7 @@ export default function MediaKit() {
                 {/* koinos mark */}
                 <div className="logo-section">
                   <div>
-                    <h4 className="mb-4">Koinos Logomark</h4>
+                    <h4 className="mb-4">Koinos Mark</h4>
                   </div>
                   <div className="download-box">
                     <img src="/images/logo/png/koinos-logomark-white.png" alt="Koinos Mark" className="img-fluid w-25" />
@@ -310,7 +324,7 @@ export default function MediaKit() {
                       className="gray-txt"
                       download
                     >
-                      Download all variations
+                      Download variations
                     </a>
                   </div>
                 </div>
@@ -341,7 +355,38 @@ export default function MediaKit() {
                       className="gray-txt"
                       download
                     >
-                      Download all variations
+                      Download variations
+                    </a>
+                  </div>
+                </div>
+                <hr />
+                {/* koinos icon square */}
+                <div className="logo-section">
+                  <div>
+                    <h4 className="mb-4">Koinos Icon Square</h4>
+                  </div>
+                  <div className="download-box">
+                    <img src="/images/logo/png/koinos-icon-sq.png" alt="Koinos Mark" className="img-fluid w-25" />
+                    <div>
+                      <div className="dl-button">
+                        <a href="/images/logo/png/koinos-icon-sq.png" download>
+                          PNG
+                        </a>
+                      </div>
+                      <div className="dl-button">
+                        <a href="/images/logo/svg/koinos-icon-sq.svg" download>
+                          SVG
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <a
+                      href="/images/logo/koinos-icon-square-set.zip"
+                      className="gray-txt"
+                      download
+                    >
+                      Download variations
                     </a>
                   </div>
                 </div>
