@@ -4,21 +4,23 @@ export default function TeamComponent() {
   const team = [
     {
       name: "Michael Vandeberg",
-      role: "CIO of Koinos Group and Koinos Architect",
+      role: "CTO of Koinos Group and Koinos Architect",
       photo: "/images/team/michael.png",
+      twitter: "https://twitter.com/koinosvandeberg",
       github: "https://github.com/mvandeberg",
       linkedin: "https://www.linkedin.com/in/michaelvandeberg/",
     },
     {
       name: "Steve Gerbino",
-      role: "CTO of Koinos Group and Koinos Architect",
+      role: "CEO of Koinos Group and Koinos Architect",
       photo: "/images/team/steve.png",
+      twitter: "https://twitter.com/ssgerbino",
       linkedin: "https://www.linkedin.com/in/stevegerbino/",
       github: "https://github.com/sgerbino",
     },
     {
       name: "Andrew Levine",
-      role: "CEO of Koinos Group",
+      role: "CCO of Koinos Group",
       photo: "/images/team/andrew.png",
       linkedin: "https://www.linkedin.com/in/andrew-levine-koinos/",
       twitter: "https://twitter.com/andrarchy",
