@@ -34,6 +34,11 @@ body {
   overflow: hidden;
 }
 
+/* #page {
+  background-image: url(../images/hero-27.svg);
+  background-position: top center;
+} */
+
 .rel,
 section,
 .container {
@@ -5292,13 +5297,18 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-27
 /*------------------------------------------*/
+#hero-27 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../images/hero-27.svg);
+  background-position: top center; 
+  background-repeat: no-repeat;
+  background-size: contain; 
+}
+
 
 #hero-27 .hero-overlay {
-  background-image: url(../images/hero-27.png);
-  background-position: top center;
-  padding-top: 150px;
-  background-size: cover;
-  background-repeat: no-repeat;
   @media screen and (max-width: 500px) {
     padding-top: 150px !important;
   }
