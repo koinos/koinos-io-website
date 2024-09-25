@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function KoinosHero() {
   const title1 = "Web3 for Everyone";
   const title2 = "Free, Frictionless, Familiar";
-  const subtle = "Koinos is engineered to deliver a user experience that reaches everday people.";
+  const subtle = "Koinos is engineered to deliver a user experience for everday people.";
   
 
   return (
