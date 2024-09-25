@@ -2,9 +2,9 @@ import { useEffect, useRef } from "react";
 import Link from "next/link";
 
 export default function KoinosHero() {
-  const title1 = "The World's First";
-  const title2 = "Feeless Smart Contract Platform";
-  const subtle = "Fair Launched, No Locked Coins, 100% Public Allocation";
+  const title1 = "Web3 for Everyone";
+  const title2 = "Empowering Developers";
+  const subtle = "Free, Frictionless, Familiar. Koinos delivers the user experience people want.";
   
 
   return (
@@ -20,11 +20,11 @@ export default function KoinosHero() {
                   {/* Title */}
                   <div className="hero-titles">
                     {/*<img src="/images/logo-white-white.png" alt="Koinos Logo" style={{width: '75%', minWidth: '300px', maxWidth: '488px'}} />*/}
-                    <h2 className="s-50 w-700">{title1}</h2>
-                    <h2 className="s-40 w-700">{title2}</h2>
+                    <h2 className="s-50 w-700 mb-2">{title1}</h2>
+                    <h2 className="s-40 w-700 mb-4">{title2}</h2>
                   </div>
                   {/* Text */}
-                  <p className="s-20">{subtle}</p>
+                  <p className="s-20 mb-4">{subtle}</p>
                   {/* Buttons */}
                   <div className="btns-group hero-btns">
                     <Link

@@ -58,7 +58,7 @@ export default function Document() {
         <meta
           property="og:description"
           content={
-            "Koinos is a developer centric open source project that leverages blockchain technology to provide a robust smart contract platform where holders have ownership over the network."
+            "Free, Frictionless, Familiar. Decentralized. Efficient. Koinos delivers the user experience you want."
           }
           key="ogdesc"
         />
@@ -78,11 +78,11 @@ export default function Document() {
         />
         <meta
           name="twitter:title"
-          content="Web3 for Everyone"
+          content="The Web3 Experience You Deserve"
         />
         <meta
           name="twitter:description"
-          content="Koinos is a developer centric open source project that leverages blockchain technology to provide a robust smart contract platform where holders have ownership over the network."
+          content="Free, Frictionless, Familiar. Decentralized. Efficient. Koinos delivers the user experience you want."
         />
         <meta
           name="twitter:image"
