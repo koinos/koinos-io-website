@@ -20,7 +20,7 @@ export default function KoinosHero() {
           zIndex: -1,
         }}>
           <Spline
-             scene="https://prod.spline.design/Knf6jvIpcfRNsU00/scene.splinecode" 
+            scene="https://prod.spline.design/5G9tdpqRPnI4dqxY/scene.splinecode" 
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
         </div>

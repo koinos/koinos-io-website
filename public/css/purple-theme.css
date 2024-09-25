@@ -5293,10 +5293,15 @@ span.sm-info {
 /*  HERO-27
 /*------------------------------------------*/
 
+#hero-27 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #hero-27 .hero-overlay {
   /* background-image: url(../images/hero-27.png); */
   background-position: top center;
-  padding-top: 150px;
   background-size: cover;
   background-repeat: no-repeat;
   @media screen and (max-width: 500px) {
