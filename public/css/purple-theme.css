@@ -5294,7 +5294,7 @@ span.sm-info {
 /*------------------------------------------*/
 
 #hero-27 .hero-overlay {
-  background-image: url(../images/hero-27.png);
+  /* background-image: url(../images/hero-27.png); */
   background-position: top center;
   padding-top: 150px;
   background-size: cover;

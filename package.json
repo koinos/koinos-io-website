@@ -11,10 +11,13 @@
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
     },
     "dependencies": {
+        "@splinetool/react-spline": "^4.0.0",
+        "@splinetool/runtime": "^1.9.27",
         "aos": "^2.3.4",
         "eslint": "8.41.0",
         "eslint-config-next": "^14.2.3",
         "human-format": "^1.2.0",
+        "n": "^10.0.0",
         "next": "^14.2.3",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
