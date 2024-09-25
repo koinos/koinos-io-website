@@ -58,6 +58,11 @@ export default function KoinosHero() {
           {/* End container */}
         </div>{" "}
         {/* End hero-overlay */}
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </section>
     </>
   );
