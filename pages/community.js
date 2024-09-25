@@ -147,7 +147,7 @@ export default function Community() {
                 <div className="row">
                   {official.map((community, index) => (
                     <div className="col-md-6 col-lg-4">
-                      <div className="blog-post mb-40 wow clearfix" data-aos='fade-down'>
+                      <div className="blog-post mb-40 wow clearfix">
                         <div className="blog-post-img mb-35">
                           <img
                             className="img-fluid r-16"

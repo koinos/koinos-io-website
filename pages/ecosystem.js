@@ -169,7 +169,7 @@ export default function Home() {
                     </section>	{/* END PAGE HERO SECTION */}
 
                     <section id="features-11" className="py-100 features-section division">
-                        <div className="container" data-aos='fade-down'>
+                        <div className="container">
                             {/* SECTION TITLE */}
                             <div className="row justify-content-center">
                                 <div className="col-md-10 col-lg-9">
