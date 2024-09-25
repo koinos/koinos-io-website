@@ -1,10 +1,9 @@
-import { useEffect, useRef } from "react";
 import Link from "next/link";
 
 export default function KoinosHero() {
   const title1 = "Web3 for Everyone";
-  const title2 = "Empowering Developers";
-  const subtle = "Free, Frictionless, Familiar. Koinos delivers the user experience people want.";
+  const title2 = "Free, Frictionless, Familiar";
+  const subtle = "Koinos is engineered to deliver the user experience that reaches everday people.";
   
 
   return (
