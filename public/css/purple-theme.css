@@ -13165,6 +13165,8 @@ body.theme--dark {
   animation: animate 2s infinite;
   animation-delay: 3s;
   opacity: 0;
+  width: 20px;
+  height: 20px;
 }
 
 .arrow span:nth-child(2) {
