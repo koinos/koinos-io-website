@@ -5319,7 +5319,23 @@ span.sm-info {
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
 
+@media screen and (max-width: 991.99px) {
+  #hero-27:before {
+    content: ""; /* create an empty pseudo-element */
+    position: absolute; /* position it absolutely */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; /* ensure it's behind the content */
+    opacity: 0.3;
+    background-image: url(../images/hero-27.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+  }
 }
 
 
