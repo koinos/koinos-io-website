@@ -58,7 +58,7 @@ export default function Document() {
         <meta
           property="og:description"
           content={
-            "Free, Frictionless, Familiar. Truly decentralized. Koinos is engineered to deliver a user experience for everday people."
+            "Frictionless, Simple, Powerful. Decentralized and efficient. Koinos is engineered to deliver a user experience for everday people."
           }
           key="ogdesc"
         />
@@ -78,11 +78,11 @@ export default function Document() {
         />
         <meta
           name="twitter:title"
-          content="The Web3 Experience You Deserve"
+          content="Web3 for Everyone"
         />
         <meta
           name="twitter:description"
-          content="Free, Frictionless, Familiar. Truly decentralized. Koinos is engineered to deliver a user experience for everday people."
+          content="Frictionless, Simple, Powerful. Decentralized and efficient. Koinos is engineered to deliver a user experience for everday people."
         />
         <meta
           name="twitter:image"
