@@ -484,7 +484,7 @@
   .hero-26-img { margin: 0 -90% 0 -30px; }
 
   /* HERO-27 */
-  #hero-27 .hero-overlay { padding-top: 160px; }
+  #hero-27 .hero-overlay { padding-top: 40px; }
   .hero-27-txt h2 { margin-bottom: 5px; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 8px; }
 
@@ -1466,10 +1466,8 @@
 
   .theme--dark .tra-menu .wsmobileheader, 
   .theme--dark .white-menu .wsmobileheader { 
-    background-color: #1d222f!important; 
-    -webkit-box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
-    -moz-box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
-    box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
+    border-radius: 3px;
+    background: hsla(0, 0%, 7%, 1);
   }
 
   /* Mobile Header Phone Icon */
@@ -1486,7 +1484,7 @@
   .black-scroll .wsanimated-arrow span:before, .black-scroll .wsanimated-arrow span:after { background: #fff; }
 
   .theme--dark .wsanimated-arrow span, .theme--dark .wsanimated-arrow span:before, 
-  .theme--dark .wsanimated-arrow span:after { background: #b1b7cd; }
+  .theme--dark .wsanimated-arrow span:after { background: #d4d4d4; }
 
   .wsactive .wsanimated-arrow span:before, .wsactive .wsanimated-arrow.active span:after { width: 28px; top: 0; }
   .wsactive .wsanimated-arrow span:after { width: 28px; top: 0; }
@@ -1496,7 +1494,7 @@
   .wsmenu > .wsmenu-list > li.mobile-last-link > a { border-bottom: none; }
 
   /* Dark Header Settings */
-  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #2c3142!important; }
+  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #272727!important; }
 
   .dark-menu .wsmenu > .wsmenu-list > li > a, 
   .black-scroll .wsmenu > .wsmenu-list > li > a { border-bottom-color: rgba(255, 255, 255, .13); }
@@ -1547,7 +1545,7 @@
   }
 
   .black-scroll .wsmenu > .wsmenu-list > li > ul.sub-menu, .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu,
-  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #2c3142!important; }
+  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #272727!important; }
 
   /* Sub Menu / Half Menu / Mega Menu Links */
   .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a, 
@@ -1590,7 +1588,7 @@
   .wsmenu > .wsmenu-list > li > .wsmegamenu ul li.title { font-size: 1.1765rem; padding: 0 14px; margin-bottom: 10px; } 
 
   .dark-menu .title, .black-scroll .title, 
-  .dark-menu .icons-menu-txt span, .black-scroll .icons-menu-txt span { color: #b1b7cd!important; } 
+  .dark-menu .icons-menu-txt span, .black-scroll .icons-menu-txt span { color: #d4d4d4!important; }
 
   /* Button */
   .wsmenu > .wsmenu-list > li a.btn {  
@@ -1644,7 +1642,11 @@
   .white-scroll .hover--tra-violet:hover, .black-scroll .hover--tra-violet:hover 
   { color: #b55e98!important; border-color: #b55e98!important; background-color: transparent!important; }
 
-  .theme--dark .wsmenu > .wsmenu-list { background-color: #2c3142!important; }
+  .theme--dark .wsmenu > .wsmenu-list {
+    border-radius: 3px;
+    background: hsla(0, 0%, 7%, 1);
+  }
+
   .theme--dark .wsmenu > .wsmenu-list > li > .wsmenu-click > i:before { border-color: rgba(255, 255, 255, 1); }
 
   .theme--dark .navbar-dark .hover--tra-black:hover,
@@ -1857,7 +1859,7 @@
   .hero-26-img { margin: 0 -94% 0 -20px; }
 
   /* HERO-27 */
-  #hero-27 .hero-overlay { padding-top: 80px; }
+  #hero-27 .hero-overlay { padding-top: 40px; }
   .hero-27-txt h2 { margin-bottom: 2px; }
   .hero-27-txt p.s-20, .hero-27-txt p.s-21 { padding: 0; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 0; }
@@ -2863,11 +2865,9 @@
   .dark-menu .wsmobileheader, .black-scroll .wsmobileheader { background-color: #1d222f; }
 
   .theme--dark .tra-menu .wsmobileheader, 
-  .theme--dark .white-menu .wsmobileheader { 
-    background-color: #1d222f!important; 
-    -webkit-box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
-    -moz-box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
-    box-shadow: 0 2px 3px rgba(1, 1, 1, .1);
+  .theme--dark .white-menu .wsmobileheader {
+    border-radius: 3px;
+    background: hsla(0, 0%, 7%, 1);
   }
 
   /* Mobile Header Phone Icon */
@@ -2884,7 +2884,7 @@
   .black-scroll .wsanimated-arrow span:before, .black-scroll .wsanimated-arrow span:after { background: #fff; }
 
   .theme--dark .wsanimated-arrow span, .theme--dark .wsanimated-arrow span:before, 
-  .theme--dark .wsanimated-arrow span:after { background: #b1b7cd; }
+  .theme--dark .wsanimated-arrow span:after { background: #d4d4d4; }
 
   .wsactive .wsanimated-arrow span:before, .wsactive .wsanimated-arrow.active span:after { width: 28px; top: 0; }
   .wsactive .wsanimated-arrow span:after { width: 28px; top: 0; }
@@ -2894,7 +2894,7 @@
   .wsmenu > .wsmenu-list > li.mobile-last-link > a { border-bottom: none; }
 
   /* Dark Header Settings */
-  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #2c3142!important; }
+  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #272727!important; }
 
   .dark-menu .wsmenu > .wsmenu-list > li > a, 
   .black-scroll .wsmenu > .wsmenu-list > li > a { border-bottom-color: rgba(255, 255, 255, .13); }
@@ -2928,7 +2928,7 @@
 
   .wsmenu > .wsmenu-list > li > ul.sub-menu, .wsmenu > .wsmenu-list > li > .wsmegamenu.w-75,
   .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { top: 5px; -webkit-border-radius: 0; -moz-border-radius: 0; 
-  -o-border-radius: 0; -webkit-box-shadow: 0 0; -moz-box-shadow: 0 0; box-shadow: 0 0; border-bottom: 1px solid #ddd; }
+  -o-border-radius: 0; -webkit-box-shadow: 0 0; -moz-box-shadow: 0 0; box-shadow: 0 0; border-bottom: 1px solid #d4d4d4; }
 
   .wsmenu > .wsmenu-list > li > ul.sub-menu, .wsmenu > .wsmenu-list > li > .wsmegamenu { 
     opacity: 1!important; visibility: visible!important; -webkit-transform: rotateX(0deg);
@@ -2945,7 +2945,7 @@
   }
 
   .black-scroll .wsmenu > .wsmenu-list > li > ul.sub-menu, .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu,
-  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #2c3142!important; }
+  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #272727!important; }
 
   /* Sub Menu / Half Menu / Mega Menu Links */
   .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a, 
@@ -2987,7 +2987,7 @@
   .wsmenu > .wsmenu-list > li > .wsmegamenu ul li.title { font-size: 1.0625rem; padding: 0 7px; margin-bottom: 10px; } 
 
   .dark-menu .title, .black-scroll .title, .dark-menu .icons-menu-txt span, 
-  .black-scroll .icons-menu-txt span { color: #b1b7cd!important; }  
+  .black-scroll .icons-menu-txt span { color: #d4d4d4!important; }
 
   /* Button */
   .wsmenu > .wsmenu-list > li a.btn {  
@@ -3041,7 +3041,10 @@
   .white-scroll .hover--tra-violet:hover, .black-scroll .hover--tra-violet:hover 
   { color: #b55e98!important; border-color: #b55e98!important; background-color: transparent!important; }
 
-  .theme--dark .wsmenu > .wsmenu-list { background-color: #2c3142!important; }
+  .theme--dark .wsmenu > .wsmenu-list {
+    border-radius: 3px;
+    background: hsla(0, 0%, 7%, 1);
+  }
   .theme--dark .wsmenu > .wsmenu-list > li > .wsmenu-click > i:before { border-color: rgba(255, 255, 255, 1); }
 
   .theme--dark .navbar-dark .hover--tra-black:hover,
@@ -3213,7 +3216,7 @@
   .hero-26-img { margin: 40px 0 0 0; }
 
   /* HERO-27 */
-  #hero-27 .hero-overlay { padding-top: 80px; }
+  #hero-27 .hero-overlay { padding-top: 40px; }
   .hero-27-txt h2 { margin-bottom: 2px; }
   .hero-27-txt p.s-20, .hero-27-txt p.s-21 { padding: 0; }
   .hero-27-txt .btns-group.mt-15 { margin-top: 0; }
@@ -4508,8 +4511,33 @@
 
 }
 
+/* This fixes an odd grouping of the buttons between breakpoints */
+@media (min-width: 479.99px) and (max-width: 553px) {
+  /* Button */
+  .btn { font-size: 1.125rem; }
+  .btn.btn-sm { font-size: 1rem; padding: 0.7rem 1.5rem; }
+  .btns-group .btn.ico-30.ico-left, .btns-group .btn.ico-30.ico-right { padding: 0.68165rem 0.5rem 0; }
 
+  /* Buttons Group */
+  .btns-group .btn:first-child { margin-left: 8px; margin-right: 8px; margin-bottom: 15px; }
+  .btns-group .btn:last-child { margin-left: 8px; margin-right: 8px; }
 
+  /* Button Icon */
+  .btn.ico-20 [class*="flaticon-"]:before,
+  .btn.ico-20 [class*="flaticon-"]:after { font-size: 1.225rem; line-height: 0.45rem!important;top: 4px; }
+
+  .btn.ico-30 [class*="flaticon-"]:before, .btn.ico-30 [class*="flaticon-"]:after { font-size: 2.05rem; }
+
+  .btn.ico-30.ico-left span.ico-30-txt { font-size: 1.15rem; top: -10px; margin-right: 0; }
+  .btn.ico-30.ico-right span.ico-30-txt { font-size: 1.15rem; top: -10px; margin-left: 0; }
+  .btn.ico-left span { margin-right: 3px; }
+  .btn.ico-right span { margin-left: 3px; }
+
+  /* Button Text */
+  p.btn-txt, .text-center p.btns-group-txt { margin-top: 18px; margin-bottom: 0; }
+  .btn-rating { margin: 15px 0 0 0; }
+  .btn-rating p.p-sm { font-size: 0.9375rem; }
+}
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */

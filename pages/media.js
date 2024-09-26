@@ -406,13 +406,12 @@ export default function MediaKit() {
         .nav-link:active,
         .nav-link:focus,
         .nav-link:hover {
-          color: #ffcf21; /* Change this to your desired color */
+          color: #9966FF; /* Change this to your desired color */
           outline: none; /* Remove outline */
         }
         .sidebar {
           margin-top: 4em;
           z-index: 10;
-          background: #13151b;
           transition: top 0.5s ease; /* Add transition for smooth movement */
         }
         @media (min-width: 992px) {

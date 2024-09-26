@@ -64,39 +64,15 @@ export default function MobileMenu({ handleMobileMenu }) {
             </li>
           </ul>
         </li>
-        <li aria-haspopup="true">
-          <span
-            className={
-              isActive.key == 2 ? "wsmenu-click ws-activearrow" : "wsmenu-click"
-            }
-            onClick={() => handleToggle(2)}
+
+        <li className="nl-simple" aria-haspopup="true">
+          <Link
+            href="https://docs.koinos.io"
+            onClick={handleMobileMenu}
+            className="h-link"
           >
-            <i className="wsmenu-arrow" />
-          </span>
-          <Link href="#" className="h-link">
-            Build
-            <span className="wsarrow" />
+            Documentation
           </Link>
-          <ul
-            className="sub-menu"
-            style={{
-              display: `${isActive.key == 2 ? "block" : "none"}`,
-            }}
-          >
-            <li aria-haspopup="true" target="_blank">
-              <Link href="https://docs.koinos.io" onClick={handleMobileMenu}>
-                Documentation
-              </Link>
-            </li>
-            <li aria-haspopup="true" target="_blank">
-              <Link
-                href="https://learnkoinos.xyz/docs"
-                onClick={handleMobileMenu}
-              >
-                Learn Koinos
-              </Link>
-            </li>
-          </ul>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
@@ -126,7 +102,7 @@ export default function MobileMenu({ handleMobileMenu }) {
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="/#team" onClick={handleMobileMenu} className="h-link">
+          <Link href="/team" onClick={handleMobileMenu} className="h-link">
             Team
           </Link>
         </li>

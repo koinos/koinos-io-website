@@ -1,5 +1,16 @@
 import Layout from "@/components/layout/Layout";
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 export default function Community() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   const title1 = "Decentralization";
   const title2 = "Communities";
   const description = `
@@ -112,7 +123,7 @@ export default function Community() {
             className="pb-60 inner-page-hero blog-page-section"
           >
             <div className="container">
-              <div className="blog-post wide-post wow fadeInUp">
+              <div className="blog-post wide-post wow" data-aos='fade-down'>
                 <div className="row d-flex align-items-center">
                   <div className="col-md-6">
                     <div className="blog-post-img">
@@ -136,7 +147,7 @@ export default function Community() {
                 <div className="row">
                   {official.map((community, index) => (
                     <div className="col-md-6 col-lg-4">
-                      <div className="blog-post mb-40 wow fadeInUp clearfix">
+                      <div className="blog-post mb-40 wow clearfix">
                         <div className="blog-post-img mb-35">
                           <img
                             className="img-fluid r-16"

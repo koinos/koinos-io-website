@@ -1,6 +1,15 @@
 import Layout from "@/components/layout/Layout";
-import Link from "next/link"
+
+import AOS from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
         
   const dapps = [
     {
@@ -128,7 +137,7 @@ export default function Home() {
                                 <div className="row d-flex align-items-center">
                                     {/* TEXT BLOCK */}
                                     <div className="col-md-6">
-                                        <div className="txt-block left-column color--white wow fadeInRight">
+                                        <div className="txt-block left-column color--white wow" data-aos='fade-left'>
                                             {/* Section ID */}
                                             <span className="section-id rounded-id bg--tra-white color--white">
                                             Featured
@@ -146,7 +155,7 @@ export default function Home() {
                                     </div>	{/* END TEXT BLOCK */}
                                     {/* IMAGE BLOCK */}
                                     <div className="col-md-6">
-                                        <div className="img-block right-column wow fadeInLeft">
+                                        <div className="img-block right-column wow" data-aos='fade-right'>
                                             <img className="img-fluid btn color--theme" src="/images/koindx.png" alt="content-image" />
                                         </div>
                                     </div>

@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/images/favicon.png" type="image/png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
@@ -22,29 +22,77 @@ export default function Document() {
           rel="stylesheet"
         />
 
-        <meta property="og:url" content={"https://koinos.io"} key="ogurl" />
+        <meta
+          property="language"
+          content="en"
+        />
+        <meta
+          name="robots"
+          content="index, follow"
+        />
+        <meta
+          name="theme-color"
+          content="#121212"
+        />
+
+        <meta
+          property="og:url"
+          content={"https://koinos.io"}
+          key="ogurl"
+        />
         <meta
           property="og:image"
-          content={"https://koinos.io/images/koinos-open-graph.png"}
+          content={"https://koinos.io/images/og-banner.png"}
           key="ogimage"
         />
         <meta
+          property="og:type"
+          content="website"
+        />
+        <meta
           property="og:site_name"
-          content={"Koinos Network"}
+          content={"Koinos"}
           key="ogsitename"
         />
         <meta
           property="og:title"
-          content={"Koinos Network"}
+          content={"Koinos"}
           key="ogtitle"
         />
         <meta
           property="og:description"
           content={
-            "Koinos is a developer centric open source project that leverages blockchain technology to provide a robust smart contract platform where holders have ownership over the network."
+            "Frictionless, Simple, Powerful. Decentralized and efficient. Koinos is engineered to deliver a user experience for everday people."
           }
           key="ogdesc"
         />
+
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+          key="twittercard"
+        />
+        <meta
+          property="twitter:domain"
+          content="koinos.io"
+        />
+        <meta
+          property="twitter:url"
+          content="https://koinos.io"
+        />
+        <meta
+          name="twitter:title"
+          content="Web3 for Everyone"
+        />
+        <meta
+          name="twitter:description"
+          content="Frictionless, Simple, Powerful. Decentralized and efficient. Koinos is engineered to deliver a user experience for everday people."
+        />
+        <meta
+          name="twitter:image"
+          content={"https://koinos.io/images/og-banner.png"}
+        />
+
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-5Z72Z9YG2G"></script>
         <script
           dangerouslySetInnerHTML={{

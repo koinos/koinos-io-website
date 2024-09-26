@@ -60,7 +60,7 @@ export default function EarnOnKoinos() {
                               </ul>
                               <Link
                               href={program.website} target="_blank"
-                              className="btn r-04 btn--theme hover--tra-black mt-20"
+                              className="btn r-04 btn--theme btn--primary mt-20"
                             >
                               Get Started Now
                             </Link>

@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
 
     return (<>
             <Head>
-                <title>Koinos Network</title>
+                <title>Web3 for Everyone | Koinos</title>
             </Head>
             <Component {...pageProps} />
     </>);
