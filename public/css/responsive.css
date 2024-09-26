@@ -1494,7 +1494,7 @@
   .wsmenu > .wsmenu-list > li.mobile-last-link > a { border-bottom: none; }
 
   /* Dark Header Settings */
-  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #222!important; }
+  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #272727!important; }
 
   .dark-menu .wsmenu > .wsmenu-list > li > a, 
   .black-scroll .wsmenu > .wsmenu-list > li > a { border-bottom-color: rgba(255, 255, 255, .13); }
@@ -1545,7 +1545,7 @@
   }
 
   .black-scroll .wsmenu > .wsmenu-list > li > ul.sub-menu, .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu,
-  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #222!important; }
+  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #272727!important; }
 
   /* Sub Menu / Half Menu / Mega Menu Links */
   .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a, 
@@ -2894,7 +2894,7 @@
   .wsmenu > .wsmenu-list > li.mobile-last-link > a { border-bottom: none; }
 
   /* Dark Header Settings */
-  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #222!important; }
+  .dark-menu .wsmenu > .wsmenu-list, .black-scroll .wsmenu > .wsmenu-list { background-color: #272727!important; }
 
   .dark-menu .wsmenu > .wsmenu-list > li > a, 
   .black-scroll .wsmenu > .wsmenu-list > li > a { border-bottom-color: rgba(255, 255, 255, .13); }
@@ -2945,7 +2945,7 @@
   }
 
   .black-scroll .wsmenu > .wsmenu-list > li > ul.sub-menu, .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu,
-  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #222!important; }
+  .black-scroll .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu { background-color: #272727!important; }
 
   /* Sub Menu / Half Menu / Mega Menu Links */
   .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a, 
