@@ -539,7 +539,7 @@ section,
 
 .bg--fixed,
 .bg--scroll {
-  width: 100%;
+  width: 100% !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -13163,7 +13163,7 @@ body.theme--dark {
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
-  animation-delay: 3s;
+  animation-delay: 2s;
   opacity: 0;
   width: 20px;
   height: 20px;
