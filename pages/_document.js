@@ -30,6 +30,10 @@ export default function Document() {
           name="robots"
           content="index, follow"
         />
+        <meta
+          name="theme-color"
+          content="#121212"
+        />
 
         <meta
           property="og:url"
