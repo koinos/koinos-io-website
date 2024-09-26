@@ -13163,7 +13163,7 @@ body.theme--dark {
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
-  animation-delay: 10s;
+  animation-delay: 3s;
   opacity: 0;
 }
 
