@@ -1484,7 +1484,7 @@
   .black-scroll .wsanimated-arrow span:before, .black-scroll .wsanimated-arrow span:after { background: #fff; }
 
   .theme--dark .wsanimated-arrow span, .theme--dark .wsanimated-arrow span:before, 
-  .theme--dark .wsanimated-arrow span:after { background: #b1b7cd; }
+  .theme--dark .wsanimated-arrow span:after { background: #d4d4d4; }
 
   .wsactive .wsanimated-arrow span:before, .wsactive .wsanimated-arrow.active span:after { width: 28px; top: 0; }
   .wsactive .wsanimated-arrow span:after { width: 28px; top: 0; }
@@ -1588,7 +1588,7 @@
   .wsmenu > .wsmenu-list > li > .wsmegamenu ul li.title { font-size: 1.1765rem; padding: 0 14px; margin-bottom: 10px; } 
 
   .dark-menu .title, .black-scroll .title, 
-  .dark-menu .icons-menu-txt span, .black-scroll .icons-menu-txt span { color: #b1b7cd!important; } 
+  .dark-menu .icons-menu-txt span, .black-scroll .icons-menu-txt span { color: #d4d4d4!important; }
 
   /* Button */
   .wsmenu > .wsmenu-list > li a.btn {  
@@ -2884,7 +2884,7 @@
   .black-scroll .wsanimated-arrow span:before, .black-scroll .wsanimated-arrow span:after { background: #fff; }
 
   .theme--dark .wsanimated-arrow span, .theme--dark .wsanimated-arrow span:before, 
-  .theme--dark .wsanimated-arrow span:after { background: #b1b7cd; }
+  .theme--dark .wsanimated-arrow span:after { background: #d4d4d4; }
 
   .wsactive .wsanimated-arrow span:before, .wsactive .wsanimated-arrow.active span:after { width: 28px; top: 0; }
   .wsactive .wsanimated-arrow span:after { width: 28px; top: 0; }
@@ -2987,7 +2987,7 @@
   .wsmenu > .wsmenu-list > li > .wsmegamenu ul li.title { font-size: 1.0625rem; padding: 0 7px; margin-bottom: 10px; } 
 
   .dark-menu .title, .black-scroll .title, .dark-menu .icons-menu-txt span, 
-  .black-scroll .icons-menu-txt span { color: #b1b7cd!important; }  
+  .black-scroll .icons-menu-txt span { color: #d4d4d4!important; }
 
   /* Button */
   .wsmenu > .wsmenu-list > li a.btn {  
