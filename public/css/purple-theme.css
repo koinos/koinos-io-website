@@ -3668,9 +3668,9 @@ span.sm-info {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -o-border-radius: 6px;
-  -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
-  -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
-  box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
+  -webkit-box-shadow: 0 2px 3px #272727;
+  -moz-box-shadow: 0 2px 3px #272727;
+  box-shadow: 0 2px 3px #272727;
 }
 
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a {
@@ -5304,20 +5304,24 @@ span.sm-info {
   position: relative;
 }
 
-#hero-27:before {
-  content: ""; /* create an empty pseudo-element */
-  position: absolute; /* position it absolutely */
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1; /* ensure it's behind the content */
-  opacity: 0.2;
-  background-image: url(../images/hero-27.svg);
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover; 
+@media screen and (min-width: 992px) {
+  #hero-27:before {
+    content: ""; /* create an empty pseudo-element */
+    position: absolute; /* position it absolutely */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; /* ensure it's behind the content */
+    opacity: 0.2;
+    background-image: url(../images/hero-27.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 }
+
 
 /* 
 #hero-27 .hero-overlay {
@@ -11992,11 +11996,9 @@ body.theme--dark {
 .theme--dark .wsmenu > .wsmenu-list > li > ul.sub-menu,
 .theme--dark .wsmenu > .wsmenu-list > li > .wsmegamenu,
 .theme--dark .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu {
-  background-color: #272727 !important;
-  border: solid 1px #272727 !important;
-  -webkit-box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
-  -moz-box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
-  box-shadow: 0 2px 3px rgba(1, 1, 1, 0.1);
+  border-radius: 3px;
+  background: hsla(0, 0%, 7%, 1);
+  border: none;
 }
 
 .theme--dark .wsmenu > .wsmenu-list > li > ul.sub-menu:before,
@@ -13161,6 +13163,8 @@ body.theme--dark {
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
+  animation-delay: 10s;
+  opacity: 0;
 }
 
 .arrow span:nth-child(2) {
