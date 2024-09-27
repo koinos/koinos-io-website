@@ -12211,7 +12211,7 @@ body.theme--dark {
 
 .theme--dark .hero-section .quick-form .form-control {
   color: #fff;
-  background-color: #363f54;
+  background-color: #272727;
 }
 
 .theme--dark #hero-14.hero-section .quick-form .form-control,
@@ -12283,7 +12283,7 @@ body.theme--dark {
 }
 
 .theme--dark .hero-section .quick-form .form-control:focus {
-  background-color: #505c77;
+  background-color: #272727;
   border-color: transparent;
 }
 
@@ -12296,7 +12296,7 @@ body.theme--dark {
 
 .theme--dark .hero-section .request-form .form-control {
   color: #fff;
-  background-color: #363f54;
+  background-color: #272727;
 }
 
 .theme--dark .hero-section .request-form .form-control::-moz-placeholder {
@@ -12313,7 +12313,7 @@ body.theme--dark {
 }
 
 .theme--dark .hero-section .request-form .form-control:focus {
-  background-color: #505c77;
+  background-color: #272727;
   border-color: transparent;
 }
 
@@ -12419,7 +12419,7 @@ body.theme--dark {
 }
 
 .theme--dark .fbox-7 {
-  border: 2px solid #363f54;
+  border: 2px solid #272727;
 }
 
 /*------------------------------------------*/
@@ -12427,7 +12427,7 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .cbox-2-line {
-  background-color: #363f54;
+  background-color: #272727;
 }
 
 /*------------------------------------------*/
@@ -12435,7 +12435,7 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark #statistic-5 .statistic-digit {
-  border-bottom: 1px solid #505c77;
+  border-bottom: 1px solid #272727;
 }
 
 /*------------------------------------------*/
@@ -12455,7 +12455,7 @@ body.theme--dark {
 }
 
 .theme--dark .review-3.block-border {
-  border-color: #363f54;
+  border-color: #272727;
 }
 
 /*------------------------------------------*/
@@ -12463,7 +12463,7 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .project-title h2 {
-  border-bottom: 1px solid #363f54;
+  border-bottom: 1px solid #272727;
 }
 
 .theme--dark .project-data p span {
@@ -12501,15 +12501,15 @@ body.theme--dark {
 
 .theme--dark .comp-table .table thead th {
   color: #fff;
-  border-color: #363f54;
+  border-color: #272727;
 }
 
 .theme--dark .comp-table tbody th {
-  border-bottom: 1px solid #363f54 !important;
+  border-bottom: 1px solid #272727 !important;
 }
 
 .theme--dark .comp-table .table tr td {
-  border-bottom: 2px solid #363f54;
+  border-bottom: 2px solid #272727;
 }
 
 /*------------------------------------------*/
@@ -12526,8 +12526,8 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .switcher.bg--grey {
-  background-color: #363f54;
-  border: 2px solid #363f54;
+  background-color: #272727;
+  border: 2px solid #272727;
 }
 
 /*------------------------------------------*/
@@ -12535,7 +12535,7 @@ body.theme--dark {
 /*------------------------------------------*/
 
 .theme--dark .banner-16-wrapper.bg--white-100.block-border {
-  border-color: #363f54;
+  border-color: #272727;
 }
 
 /*------------------------------------------*/
@@ -12562,11 +12562,11 @@ body.theme--dark {
 .theme--dark .faqs-section .accordion-item,
 .theme--dark #faqs-2.faqs-section .accordion-item,
 .theme--dark #faqs-2.faqs-section .accordion-item.is-active .accordion-thumb {
-  border-bottom: 1px solid #363f54;
+  border-bottom: 1px solid #272727;
 }
 
 .theme--dark .faqs-section .tabs-1 li {
-  border: 2px solid #363f54;
+  border: 2px solid #272727;
 }
 
 .theme--dark .faqs-section .tabs-1 li span,
@@ -12585,12 +12585,12 @@ body.theme--dark {
 
 .theme--dark .newsletter-section .form-control {
   color: #f1f1f1;
-  background-color: #363f54;
-  border: 1px solid #363f54;
+  background-color: #272727;
+  border: 1px solid #272727;
 }
 
 .theme--dark .newsletter-section .form-control:focus {
-  background-color: #505c77;
+  background-color: #272727;
   border-color: transparent;
 }
 
@@ -12626,7 +12626,7 @@ body.theme--dark {
 }
 
 .theme--dark .txt-code kbd {
-  background-color: #363f54;
+  background-color: #272727;
 }
 
 .theme--dark .txt-code p {
@@ -12642,11 +12642,11 @@ body.theme--dark {
 
 .theme--dark .comment-form .form-control {
   color: #f1f1f1;
-  background-color: #363f54;
+  background-color: #272727;
 }
 
 .theme--dark .comment-form .form-control:focus {
-  background-color: #505c77;
+  background-color: #272727;
   border-color: transparent;
 }
 
@@ -12672,7 +12672,7 @@ body.theme--dark {
 .theme--dark .contact-form .form-control,
 .theme--dark .contact-form .form-select {
   color: #f1f1f1;
-  background-color: #363f54;
+  background-color: #272727;
 }
 
 .theme--dark .contact-form .form-control::-moz-placeholder {
@@ -12687,7 +12687,7 @@ body.theme--dark {
 
 .theme--dark .contact-form .form-control:focus,
 .theme--dark .contact-form .form-select:focus {
-  background-color: #505c77;
+  background-color: #272727;
   border-color: transparent;
 }
 
@@ -12709,7 +12709,7 @@ body.theme--dark {
 }
 
 .theme--dark #footer-10 .footer-info {
-  border-bottom: 1px solid #363f54;
+  border-bottom: 1px solid #272727;
 }
 
 .theme--dark .footer-form .newsletter-form .btn.dark-color span {
@@ -12718,7 +12718,7 @@ body.theme--dark {
 
 .theme--dark .footer-form .newsletter-form .input-group {
   background-color: #282d3c;
-  border: 1px solid #505c77;
+  border: 1px solid #272727;
 }
 
 .theme--dark .footer-form .form-control {
@@ -12805,8 +12805,8 @@ body.theme--dark {
 .theme--dark .reset-page-wrapper .form-control,
 .theme--dark .register-page-form .form-control {
   color: #f1f1f1;
-  background-color: #363f54;
-  border: 1px solid #363f54;
+  background-color: #272727;
+  border: 1px solid #272727;
 }
 
 .theme--dark .reset-page-wrapper form {
@@ -12836,8 +12836,8 @@ body.theme--dark {
 
 .theme--dark .register-page-form .btn-google {
   color: #d4d4d4;
-  background-color: #363f54;
-  border: 1px solid #363f54;
+  background-color: #272727;
+  border: 1px solid #272727;
 }
 
 /* ==========================================================================
