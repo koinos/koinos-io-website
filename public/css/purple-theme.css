@@ -13131,8 +13131,7 @@ body.theme--dark {
 
 #feature-ecosystem a:link,
 #featured-program a:link,
-#feature-community a:link,
-#featured-program-header a:link {
+#feature-community a:link {
   text-decoration: underline;
 }
 

@@ -21,7 +21,7 @@ export const useProgramStore = create((set) => ({
         <><strong>BTC</strong>: 4.1% APY, Matching Total: 8.2% with $KOIN rewards</>,
       ],
       guide: [
-        <>Visit the <Link href="https://telegram.koinos.io/" target="_blank">Chainge bridge</Link>.</>,
+        <>Visit the <Link href="https://telegram.koinos.io/" className="underline" target="_blank">Chainge bridge</Link>.</>,
         <>Connect your wallet (MetaMask or other supported wallets).</>,
         <>Select the 'Earn' tab and choose 'Koinos' as the chain.</>,
         <>Bridge your BTC, ETH, or USDT to Koinos.</>,
