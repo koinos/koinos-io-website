@@ -1,10 +1,10 @@
-import { create } from "zustand"
+import { create } from "zustand";
 import Link from "next/link";
 
 export const useProgramStore = create((set) => ({
   programs: {
     earnOnKoinos: {
-      url: "earn-on-koinos",
+      url: "/featured-programs/earn-on-koinos",
       title: "Earn on Koinos",
       subtitle: "Earn up to 16% APY on Koinos!",
       shortDescription:
@@ -35,7 +35,7 @@ export const useProgramStore = create((set) => ({
     },
     // Generic program template
     genericProgramTemplate: {
-      url: "generic-program",
+      url: "/featured-programs/generic-program",
       title: "Generic Program Title",
       subtitle: "Optional Subtitle",
       shortDescription: "A brief description of the program.",
