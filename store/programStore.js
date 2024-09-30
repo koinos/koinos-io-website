@@ -2,10 +2,6 @@ import { create } from "zustand"
 import Link from "next/link";
 
 export const useProgramStore = create((set) => ({
-  fetch: async (store) => {
-    const response = await fetch(store)
-    set({ programs: await response.json() })
-  },
   programs: {
     earnOnKoinos: {
       url: "earn-on-koinos",
