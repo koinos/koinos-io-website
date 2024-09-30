@@ -19,7 +19,7 @@ export default function FeaturedProgram() {
                   <span className="section-id">Featured Program</span>
                   <h2 className="s-46 w-700">{featuredProgram.title}</h2>
                   {/* Render the short description here */}
-                  <p>{featuredProgram.shortDescription} <a target="_self" href={`/programs/${featuredProgram.url}/`}>Learn more</a></p>
+                  <p>{featuredProgram.shortDescription} <a target="_self" href={featuredProgram.url}>Learn more</a></p>
                   <h5 className="s-24 w-700">{featuredProgram.smallTitle}</h5>
                   {/* Key Points */}
                   <ul>
