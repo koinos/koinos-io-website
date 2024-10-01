@@ -19,7 +19,7 @@ export default function handler(req, res) {
     const programList = Object.entries(programs)
       .filter(([_, program]) => program.active)
       .map(([key, program]) => {
-        const { details, guide, ...rest } = program;
+        const { details, ...rest } = program;
         return transformProgram(req, { key, ...rest });
       });
 

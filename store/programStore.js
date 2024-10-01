@@ -61,10 +61,6 @@ export const useProgramStore = create((set) => ({
         <>Detail 1</>,
         <>Detail 2</>,
       ],
-      guide: [
-        <>Step 1</>,
-        <>Step 2</>,
-      ],
       images: {
         banner: "/images/placeholder.png",
       },

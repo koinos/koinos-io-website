@@ -79,20 +79,6 @@ export default function ProgramHeader({ program }) {
                 ))}
               </ul>
             )}
-
-            {/* Guide Section (Optional) */}
-            {program.guide && (
-              <>
-                <h5 className="s-24 w-700 mt-35 mb-35">
-                  How to Participate
-                </h5>
-                <ol>
-                  {program.guide.map((step, index) => (
-                    <li key={index}>{step}</li>
-                  ))}
-                </ol>
-              </>
-            )}
           </div>
         </div>
       </section>
