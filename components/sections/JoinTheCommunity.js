@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function JoinTheCommunity() {
   return (
     <>
-      <section id="join-the-community" className="mb-100 ct-01 content-section features-section division">
+      <section id="join-the-community" className="mb-100 mt-100 ct-01 content-section features-section division">
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-md-6 order-last order-md-2">

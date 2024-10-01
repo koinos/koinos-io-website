@@ -2,7 +2,8 @@ import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import { useProgramStore } from "@/store/programStore";
 import JoinTheCommunity from "@/components/sections/JoinTheCommunity"
-import FeaturedProgramHeader from "@/components/sections/FeaturedProgramHeader"
+import ProgramHeader from "@/components/sections/ProgramHeader"
+import RelatedProgram from "@/components/sections/RelatedProgram"
 
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -15,8 +16,8 @@ export default function EarnOnKoinos() {
     });
   }, []);
 
-  // Fetch the earnOnKoinos program data from the store
   const program = useProgramStore((state) => state.programs.earnOnKoinos);
+  const relatedProgram = useProgramStore((state) => state.programs.koindxFarm)
 
   return (
     <>
@@ -28,56 +29,48 @@ export default function EarnOnKoinos() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-11 col-xl-10">
-              <FeaturedProgramHeader program={program} />
+              <ProgramHeader program={program} />
 
-              {/* Tutorial Section */}
+              {/* Guide Section */}
               <section id="featured-program-tutorial" className="mb-5 ct-01 content-section features-section division">
                 <div className="mt-5">
                   <div className="mt-5">
-                    <h2 className="s-38 w-700 my-4">Earn on Koinos Tutorial</h2>
-                    <p>Welcome to this quick guide on how to participate in the Earn on Koinos promotion, where you can earn up to 16% yield on your USDT by bridging it from Ethereum to Koinos and providing liquidity on KoinDX. We will do this in three steps, let's dive right in!</p>
+                    <h2 className="s-38 w-700 my-4">Let's Get Started!</h2>
 
                     {/* Step 1 */}
-                    <h3 className="s-30 w-700 my-4">Step 1: Acquiring KOIN and Setting Up Kondor</h3>
-                    <p>Before we start, you'll need to have some KOIN in your wallet and set up the Kondor wallet to interact with the Koinos blockchain.</p>
-                    <ul>
-                      <li><strong>Acquire KOIN:</strong>
-                        <ul>
-                          <li>You can acquire KOIN from several platforms:</li>
-                          <li><Link href="https://app.uniswap.org/explore/tokens/ethereum/0xed11c9bcf69fdd2eefd9fe751bfca32f171d53ae" className="underline">Uniswap (DEX)</Link></li>
-                          <li><Link href="https://www.mexc.com/exchange/KOIN_USDT" className="underline">MEXC (CEX)</Link></li>
-                          <li><Link href="https://bingx.com/en/spot/KOINUSDT/" className="underline">BingX (CEX)</Link></li>
-                          <li><Link href="https://www.coinstore.com/#/spot/KOINUSDT" className="underline">Coinstore (CEX)</Link></li>
-                          <li><Link href="https://exchange.lcx.com/trade/KOIN-EUR" className="underline">LCX (CEX)</Link></li>
-                          <li><Link href="https://app.koindx.com/swap" className="underline">KoinDX (DEX)</Link></li>
-                        </ul>
-                      </li>
-                      <li><strong>Set Up Kondor Wallet:</strong> Download and set up Kondor wallet from <Link href="https://kondorwallet.com" className="underline">Kondor Wallet Link</Link>.</li>
-                    </ul>
+                    <h3 className="s-30 w-700 my-4">Step 1: Setup your Koinos wallet</h3>
+                    <ol>
+                      <li>Go to the Chrome Webstore and install <Link href="https://chromewebstore.google.com/detail/kondor/ghipkefkpgkladckmlmdnadmcchefhjl" className="underline">Kondor</Link></li>
+                      <li>Follow the setup steps to create your Koinos wallet.</li>
+                      <li>Safely store your seed phrase!</li>
+                    </ol>
 
                     {/* Step 2 */}
                     <h3 className="s-30 w-700 my-4">Step 2: Bridging USDT, ETH, or BTC to Koinos</h3>
-                    <ul>
-                      <li>Access the <Link href="https://dapp.chainge.finance/?fromChain=ETH&toChain=KOIN&fromToken=USDT&toToken=USDT" className="underline">Chainge Bridge</Link>.</li>
+                    <ol>
+                      <li>Access the <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link> and choose the asset you'd like to bridge.</li>
                       <li>Connect your source chain wallet.</li>
                       <li>Enter the amount of USDT, ETH, or BTC to bridge and input your Koinos address.</li>
                       <li>Click on "Bridge now" to start the process.</li>
-                    </ul>
+                    </ol>
 
                     {/* Step 3 */}
-                    <h3 className="s-30 w-700 my-4">Step 3: Providing Liquidity on KoinDX</h3>
-                    <ul>
-                      <li>Visit <Link href="https://app.koindx.com" className="underline">KoinDX</Link> and connect your Kondor wallet.</li>
-                      <li>Select USDT, ETH, or BTC and KOIN pairing to provide liquidity.</li>
-                      <li>Click on "Add Position" to confirm and sign the transaction.</li>
-                    </ul>
+                    <h3 className="s-30 w-700 my-4">Step 3: Claim your APY Daily</h3>
+                    <p>If you are providing liquidity for <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">KoinDX</Link> on the <strong>KOIN-USDT</strong>, <strong>KOIN-ETH</strong>, <strong>KOIN-BTC</strong> pools, your APY will be distributed to you automatically and you can safely skip this step. For all other participants, follow the steps below to claim your APY daily.</p>
+                    <ol>
+                      <li>Access the <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link>.</li>
+                      <li>Connect your Koinos wallet.</li>
+                      <li>Claim the available APY on your assets.</li>
+                    </ol>
 
-                    <h3 className="s-30 w-700 my-4">Conclusion</h3>
-                    <p className="mb-5">And that's it! You've successfully participated in the Earn on Koinos promotion, setting yourself up to earn up to 16% yield on your USDT, ETH, or BTC. By following these simple steps, you've acquired KOIN, set up your Kondor wallet, bridged your USDT from Ethereum to Koinos, and provided liquidity on KoinDX. Keep an eye on your positions and enjoy watching your crypto grow!</p>
                   </div>
                 </div>
               </section>
 
+              <RelatedProgram
+                program={relatedProgram}
+                message={"By using your bridged assets from the Earn on Koinos program and providing liquidity on KoinDX you can maximize your earnings."}
+              />
               <JoinTheCommunity />
             </div>
           </div>

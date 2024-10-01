@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function FeaturedProgramHeader({ program }) {
+export default function ProgramHeader({ program }) {
 
   return (
     <>
