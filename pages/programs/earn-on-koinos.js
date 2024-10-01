@@ -56,7 +56,7 @@ export default function EarnOnKoinos() {
 
                     {/* Step 3 */}
                     <h3 className="s-30 w-700 my-4">Step 3: Claim your APY Daily</h3>
-                    <p>If you are providing liquidity for <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">KoinDX</Link> on the <strong>KOIN-USDT</strong>, <strong>KOIN-ETH</strong>, <strong>KOIN-BTC</strong> pools, your APY will be distributed to you automatically and you can safely skip this step. For all other participants, follow the steps below to claim your APY daily.</p>
+                    <p>If you are providing liquidity for <Link href="https://koindx.com" className="underline">KoinDX</Link> on the <strong>KOIN-USDT</strong>, <strong>KOIN-ETH</strong>, <strong>KOIN-BTC</strong> pools, your APY will be distributed to you automatically and you can safely skip this step. For all other participants, follow the steps below to claim your APY daily.</p>
                     <ol>
                       <li>Access the <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link>.</li>
                       <li>Connect your Koinos wallet.</li>
