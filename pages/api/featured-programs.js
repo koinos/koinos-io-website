@@ -3,7 +3,7 @@ import { useProgramStore } from "@/store/programStore";
 function makeAbsolute(req, relativePath) {
   const protocol = req.headers['x-forwarded-proto'] || 'http';
   const host = req.headers['x-forwarded-host'] || req.headers.host;
-  return `${protocol}://${host}` + relativePath;
+  return `${protocol}://${host}${relativePath}`;
 }
 
 function transformProgram(req, program) {
