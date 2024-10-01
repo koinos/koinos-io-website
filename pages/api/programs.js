@@ -1,14 +1,25 @@
 import { useProgramStore } from "@/store/programStore";
 
-function makeAbsolute(req, relativePath) {
+function isAbsolute(path) {
+  const absoluteCheck = new RegExp('^(?:[a-z+]+:)?//', 'i');
+  return absoluteCheck.test(path);
+}
+
+function makeAbsolute(req, path) {
   const protocol = req.headers['x-forwarded-proto'] || 'http';
   const host = req.headers['x-forwarded-host'] || req.headers.host;
-  return `${protocol}://${host}${relativePath}`;
+  return `${protocol}://${host}${path}`;
 }
 
 function transformProgram(req, program) {
-  program.url = makeAbsolute(req, program.url);
-  program.images.banner = makeAbsolute(req, program.images.banner);
+  if (!isAbsolute(program.url)) {
+    program.url = makeAbsolute(req, program.url);
+  }
+
+  if (!isAbsolute(program.images.banner)) {
+    program.images.banner = makeAbsolute(req, program.images.banner);
+  }
+
   return program;
 }
 
