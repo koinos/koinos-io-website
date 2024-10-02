@@ -99,20 +99,6 @@ export default function ProgramTemplate() {
                       </ul>
                     )}
 
-                    {/* Guide Section (Optional) */}
-                    {program.guide && (
-                      <>
-                        <h5 className="s-24 w-700 mt-35 mb-35">
-                          How to Participate
-                        </h5>
-                        <ol>
-                          {program.guide.map((step, index) => (
-                            <li key={index}>{step}</li>
-                          ))}
-                        </ol>
-                      </>
-                    )}
-
                     {/* Additional Images (Optional) */}
                     {program.images?.otherImages?.length > 0 && (
                       <div className="row d-flex align-items-center project-inner-img mt-50">

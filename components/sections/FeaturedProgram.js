@@ -1,14 +1,10 @@
-import { useProgramStore } from "@/store/programStore"; // Import the Zustand store
+import { useProgramStore } from "@/store/programStore";
 import Link from "next/link";
 
 export default function FeaturedProgram() {
-    // Get the programs from the store
     const programs = useProgramStore((state) => state.programs);
-  
-    // Find the program with the featured flag set to true
     const featuredProgram = Object.values(programs).find((program) => program.featured);
-  
-    // If no program is featured, render a default message
+
     if (!featuredProgram) {
       return <p>No featured program at this time.</p>;
     }
@@ -23,7 +19,7 @@ export default function FeaturedProgram() {
                   <span className="section-id">Featured Program</span>
                   <h2 className="s-46 w-700">{featuredProgram.title}</h2>
                   {/* Render the short description here */}
-                  <p>{featuredProgram.shortDescription} <a target="_self" href={`/programs/${featuredProgram.url}/`}>Learn more</a></p>
+                  <p>{featuredProgram.shortDescription} <a target="_self" href={featuredProgram.url}>Learn more</a></p>
                   <h5 className="s-24 w-700">{featuredProgram.smallTitle}</h5>
                   {/* Key Points */}
                   <ul>

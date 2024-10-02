@@ -191,7 +191,7 @@ export default function Home() {
                                         <div className="fbox-txt">
                                             <h6 className="s-22 w-700">{dapp.name}</h6>
                                             <p>{dapp.description}</p>
-                                            <a href={dapp.url} className="btn-link mt-8">Learn More</a>
+                                            <a href={dapp.url} className="btn-link mt-8">Learn more</a>
                                         </div>
                                     </div>      
                                     ))}
