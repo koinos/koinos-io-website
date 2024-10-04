@@ -23,7 +23,7 @@ export const useProgramStore = create((set) => ({
       images: {
         banner: "/images/eok-image.png",
       },
-      featured: true,
+      featured: false,
       active: true,
     },
     koindxFarm: {
@@ -40,13 +40,35 @@ export const useProgramStore = create((set) => ({
       website: "https://medium.com/@koindx/koindx-airdrop-your-guide-to-participation-3b12bdeffb73",
       details: [
         <><strong>Liquidity Provision</strong>: Earn KOINDX by providing liquidity to KOIN-ETH, KOIN-BTC, KOIN-USDT, or KOIN-VHP pools</>,
-        <><strong>Trading Activity</strong>: By perform trades on KoinDX, users are qualified to receive KOINDX airdrops.</>,
+        <><strong>Trading Activity</strong>: By perform trades on KoinDX, users are qualified to receive KOINDX airdrops</>,
       ],
       images: {
         banner: "/images/koindx-airdrop.png",
       },
       featured: false,
       active: false,
+    },
+    taskonQuest: {
+      url: "/programs/taskon-quests",
+      title: "TaskOn Quests",
+      subtitle: "Earn rewards for participating!",
+      shortDescription:
+        "Don't miss out on the launch Koinos' TaskOn Community. A few simple steps that help drive engagement to Koinos makes you eligible for lucrative rewards!",
+      description: "Koinos is launching their TaskOn Community. Every month users can participate in the Koinos ecosystem to earn rewards in USDT, KOIN, and various project tokens. Participating in tasks helps Koinos reach new heights!",
+      keyPoints: [
+        "Earn your share of $1,250 USDT for joining",
+        "Earn KOIN and FAITH for playing Lords Forsaken",
+      ],
+      website: "https://taskon.xyz/Koinos",
+      details: [
+        <><strong>TaskOn Community Launch</strong>: Participate in the welcome campaign and earn your share of the $1,250 USDT prize pool</>,
+        <><strong>Lords Forsaken Quest</strong>: Play Koinos' premiere Play-to-Earn Web3 card game, Lords Forsaken, and earn your share of KOIN and FAITH</>,
+      ],
+      images: {
+        banner: "/images/taskon-quest.png",
+      },
+      featured: true,
+      active: true,
     },
     // Generic program template
     genericProgramTemplate: {
