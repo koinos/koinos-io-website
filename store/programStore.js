@@ -58,13 +58,11 @@ export const useProgramStore = create((set) => ({
       keyPoints: [
         "Earn your share of $1,250 USDT for joining",
         "Check back daily for additional quests and rewards",
-        "Prestigious Discord roles to reflect your contributions"
       ],
       website: "https://taskon.xyz/Koinos",
       details: [
         <><strong>TaskOn Community Launch</strong>: Participate in the welcome campaign and earn your share of the $1,250 USDT prize pool</>,
         <><strong>Monthly Quests</strong>: Return to the TaskOn Community page for monthly quests and opportunities to continue earning</>,
-        <><strong>Discord Prestige</strong>: Performing tasks give you prestigious Discord roles that reflect your contributions</>,
       ],
       images: {
         banner: "/images/quest-taskon-launch.png",
