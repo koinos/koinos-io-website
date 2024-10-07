@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import Link from "next/link";
 
 export const useProgramStore = create((set) => ({
   programs: {
@@ -23,7 +24,7 @@ export const useProgramStore = create((set) => ({
       images: {
         banner: "/images/eok-image.png",
       },
-      featured: true,
+      featured: false,
       active: true,
     },
     koindxFarm: {
@@ -40,13 +41,38 @@ export const useProgramStore = create((set) => ({
       website: "https://medium.com/@koindx/koindx-airdrop-your-guide-to-participation-3b12bdeffb73",
       details: [
         <><strong>Liquidity Provision</strong>: Earn KOINDX by providing liquidity to KOIN-ETH, KOIN-BTC, KOIN-USDT, or KOIN-VHP pools</>,
-        <><strong>Trading Activity</strong>: By perform trades on KoinDX, users are qualified to receive KOINDX airdrops.</>,
+        <><strong>Trading Activity</strong>: By perform trades on KoinDX, users are qualified to receive KOINDX airdrops</>,
       ],
       images: {
         banner: "/images/koindx-airdrop.png",
       },
       featured: false,
       active: false,
+    },
+    taskonQuest: {
+      url: "/programs/taskon-launch",
+      title: "TaskOn Launch",
+      subtitle: "Earn rewards for participating!",
+      shortDescription:
+        "Don't miss out on the launch of the Koinos TaskOn Community. A few simple steps that help drive engagement to Koinos makes you eligible for lucrative rewards!",
+      description: "Every month users can participate in the Koinos ecosystem to earn rewards in USDT, KOIN, and various project tokens.",
+      keyPoints: [
+        "Earn your share of $1,250 USDT for joining",
+        "Check back daily for additional quests and rewards",
+        "Refer your friends for a prestigious Discord role",
+      ],
+      website: "https://taskon.xyz/quest/333189736",
+      details: [
+        <><strong>TaskOn Community Launch</strong>: Participate in the welcome campaign and earn your share of the $1,250 USDT prize pool</>,
+        <><strong>Monthly Quests</strong>: Return to the TaskOn Community page for monthly quests and opportunities to continue earning</>,
+        <><strong>Join the TaskOn Community</strong>: Visit our <Link href="https://taskon.xyz/Koinos" className="underline" target="_blank">TaskOn Community</Link> and stay up-to-date with the latest incentives</>,
+        <><strong>Referral Rewards</strong>: Refer two friends to the quest and earn a prestigious Discord role, <Link href="https://taskon.xyz/referral/837" className="underline" target="_blank">learn more</Link></>
+      ],
+      images: {
+        banner: "/images/quest-taskon-launch.png",
+      },
+      featured: true,
+      active: true,
     },
     // Generic program template
     genericProgramTemplate: {
