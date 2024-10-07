@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import Link from "next/link";
 
 export const useProgramStore = create((set) => ({
   programs: {
@@ -59,10 +60,11 @@ export const useProgramStore = create((set) => ({
         "Earn your share of $1,250 USDT for joining",
         "Check back daily for additional quests and rewards",
       ],
-      website: "https://taskon.xyz/Koinos",
+      website: "https://taskon.xyz/quest/333189736",
       details: [
         <><strong>TaskOn Community Launch</strong>: Participate in the welcome campaign and earn your share of the $1,250 USDT prize pool</>,
         <><strong>Monthly Quests</strong>: Return to the TaskOn Community page for monthly quests and opportunities to continue earning</>,
+        <><strong>Join the TaskOn Community</strong>: Visit our <Link href="https://taskon.xyz/Koinos" className="underline" target="_blank">TaskOn Community</Link> and stay up-to-date with the latest incentives</>
       ],
       images: {
         banner: "/images/quest-taskon-launch.png",

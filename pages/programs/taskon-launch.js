@@ -17,8 +17,7 @@ export default function TaskOnQuest() {
 
   const program = useProgramStore((state) => state.programs.taskonQuest);
 
-  const quest1Url = "https://taskon.xyz/quest/1";
-  const quest2Url = "https://taskon.xyz/quest/2";
+  const questUrl = "https://taskon.xyz/quest/333189736";
 
   return (
     <>
@@ -48,7 +47,7 @@ export default function TaskOnQuest() {
                     </ol>
 
                     <Link
-                      href={quest1Url}
+                      href={questUrl}
                       className="btn r-04 btn--theme btn--primary text-decoration-none mt-20"
                       target="_blank"
                     >
