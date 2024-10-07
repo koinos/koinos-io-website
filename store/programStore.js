@@ -54,8 +54,8 @@ export const useProgramStore = create((set) => ({
       title: "TaskOn Launch",
       subtitle: "Earn rewards for participating!",
       shortDescription:
-        "Don't miss out on the launch Koinos' TaskOn Community. A few simple steps that help drive engagement to Koinos makes you eligible for lucrative rewards!",
-      description: "Koinos is launching their TaskOn Community. Every month users can participate in the Koinos ecosystem to earn rewards in USDT, KOIN, and various project tokens. Participating in tasks helps Koinos reach new heights!",
+        "Don't miss out on the launch of the Koinos TaskOn Community. A few simple steps that help drive engagement to Koinos makes you eligible for lucrative rewards!",
+      description: "Every month users can participate in the Koinos ecosystem to earn rewards in USDT, KOIN, and various project tokens.",
       keyPoints: [
         "Earn your share of $1,250 USDT for joining",
         "Check back daily for additional quests and rewards",
