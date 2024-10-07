@@ -38,7 +38,7 @@ export default function TaskOnQuest() {
                   <div className="mt-5">
                     <h2 className="s-38 w-700 my-4">Let's Get Started!</h2>
 
-                    {/* Step 1 */}
+                    {/* Steps */}
                     <h3 className="s-30 w-700 my-4">TaskOn Community Launch Quest</h3>
                     <p>Earn yourself a piece of the $1,250 USDT prize pool by taking three easy steps.</p>
                     <ol>
@@ -49,24 +49,6 @@ export default function TaskOnQuest() {
 
                     <Link
                       href={quest1Url}
-                      className="btn r-04 btn--theme btn--primary text-decoration-none mt-20"
-                      target="_blank"
-                    >
-                      Join the Quest
-                    </Link>
-
-                    {/* Step 2 */}
-                    <h3 className="s-30 w-700 my-4">Lords Forsaken Quest</h3>
-                    <p>Earn yourself some KOIN and FAITH by playing Koinos' premiere Play-to-Earn Web3 game, Lords Forsaken!</p>
-                    <ol>
-                      <li>Download and setup a <Link href="https://chromewebstore.google.com/detail/kondor/ghipkefkpgkladckmlmdnadmcchefhjl" className="underline">Kondor</Link> wallet</li>
-                      <li>Follow <Link href="https://x.com/lordsforsak3n" className="underline">Lords Forsaken</Link> on X</li>
-                      <li>Join Lords Forsaken's <Link href="https://t.me/lordsforsaken" className="underline">Telegram</Link></li>
-                      <li>Tweet a victory screenshot on X</li>
-                    </ol>
-
-                    <Link
-                      href={quest2Url}
                       className="btn r-04 btn--theme btn--primary text-decoration-none mt-20"
                       target="_blank"
                     >

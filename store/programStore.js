@@ -49,23 +49,25 @@ export const useProgramStore = create((set) => ({
       active: false,
     },
     taskonQuest: {
-      url: "/programs/taskon-quests",
-      title: "TaskOn Quests",
+      url: "/programs/taskon-launch",
+      title: "TaskOn Launch",
       subtitle: "Earn rewards for participating!",
       shortDescription:
         "Don't miss out on the launch Koinos' TaskOn Community. A few simple steps that help drive engagement to Koinos makes you eligible for lucrative rewards!",
       description: "Koinos is launching their TaskOn Community. Every month users can participate in the Koinos ecosystem to earn rewards in USDT, KOIN, and various project tokens. Participating in tasks helps Koinos reach new heights!",
       keyPoints: [
         "Earn your share of $1,250 USDT for joining",
-        "Earn KOIN and FAITH for playing Lords Forsaken",
+        "Check back daily for additional quests and rewards",
+        "Prestigious Discord roles to reflect your contributions"
       ],
       website: "https://taskon.xyz/Koinos",
       details: [
         <><strong>TaskOn Community Launch</strong>: Participate in the welcome campaign and earn your share of the $1,250 USDT prize pool</>,
-        <><strong>Lords Forsaken Quest</strong>: Play Koinos' premiere Play-to-Earn Web3 card game, Lords Forsaken, and earn your share of KOIN and FAITH</>,
+        <><strong>Monthly Quests</strong>: Return to the TaskOn Community page for monthly quests and opportunities to continue earning</>,
+        <><strong>Discord Prestige</strong>: Performing tasks give you prestigious Discord roles that reflect your contributions</>,
       ],
       images: {
-        banner: "/images/taskon-quest.png",
+        banner: "/images/quest-taskon-launch.png",
       },
       featured: true,
       active: true,
