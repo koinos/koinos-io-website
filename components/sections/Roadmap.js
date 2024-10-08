@@ -101,7 +101,7 @@ export default function Roadmap() {
         {
           text: "Improved Nonce Handling",
           icon: "fa-solid fa-box",
-          description: "Developers need to increment nonces when sending subsequent transactions. This is an unncessary burden on the developer. The mempool will be improved to assist developers and move that burden onto the Koinos cluster.",
+          description: "Developers need to increment nonces when sending subsequent transactions. This is an unnecessary burden on the developer. The mempool will be improved to assist developers and move that burden onto the Koinos cluster.",
         },
       ],
       status: "todo",
@@ -120,7 +120,7 @@ export default function Roadmap() {
         {
           text: "Enhanced REST API",
           icon: "fa-solid fa-server",
-          description: "The Koinos REST API has been a great addition to our infrastructure. Enhancements need to be made so it has feature parity with JSON-RPC."
+          description: "The Koinos REST API has been a great addition to our infrastructure. Enhancements need to be made so it has feature parity with JSON-RPC and more to better meet developer needs."
         },
       ],
       status: "todo",
