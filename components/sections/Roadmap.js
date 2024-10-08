@@ -74,13 +74,13 @@ export default function Roadmap() {
       description: [
         {
           text: "Microservice Improvements",
-          icon: "fa-solid fa-arrow-right-arrow-left",
+          icon: "fa-solid fa-box",
           description: "During the first year of the Koinos main network, each microservice was worked on in order to improve stability and performance.",
         },
         {
           text: "First In-band Upgrade",
-          icon: "fa-brands fa-wpexplorer",
-          description: "Bugs happen. A regression was identified in one of the core tokens, VHP. Thankfully, the bug was no exploited and we had the opportunity to utilize our in-band upgrade and governance system to patch the issue without stopping the chain.",
+          icon: "fa-solid fa-circle-up",
+          description: "Bugs happen. A regression was identified in one of the core tokens, VHP. Thankfully, the bug was not exploited and we had the opportunity to utilize our in-band upgrade and governance system to patch the issue without stopping the chain.",
         },
       ],
       status: "done",
@@ -95,12 +95,12 @@ export default function Roadmap() {
         },
         {
           text: "KOIN & VHP KCS-4 Upgrade",
-          icon: "fa-solid fa-gamepad",
+          icon: "fa-solid fa-circle-up",
           description: "Our original vision of smart wallets for everyone did not come to fruition. A baseline of security was demanded by the community. That led to the development of the KCS-4 standard and the upgrade of core tokens.",
         },
         {
           text: "Improved Nonce Handling",
-          icon: "fa-solid fa-gamepad",
+          icon: "fa-solid fa-box",
           description: "Developers need to increment nonces when sending subsequent transactions. This is an unncessary burden on the developer. The mempool will be improved to assist developers and move that burden onto the Koinos cluster.",
         },
       ],
