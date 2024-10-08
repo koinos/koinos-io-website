@@ -197,7 +197,7 @@ export default function Roadmap() {
                                 <div>{obj.text}</div>
                                 <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i> </div>
                               </div>
-                              <div className="roadmap-desc ms-auto w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
+                              <div className="text-end roadmap-desc ms-auto w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
                             </div>
                           ))}
                         </>
@@ -254,7 +254,7 @@ export default function Roadmap() {
                               <div>{obj.text}</div>
                               <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i> </div>
                             </div>
-                            <div className="roadmap-desc w-75 ms-auto d-flex justify-content-center d-none d-md-flex mb-3">{obj.description}</div>
+                            <div className="text-end roadmap-desc w-75 ms-auto d-flex justify-content-center d-none d-md-flex mb-3">{obj.description}</div>
                           </div>
                           ))}
                         </>
