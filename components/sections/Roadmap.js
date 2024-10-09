@@ -100,7 +100,7 @@ export default function Roadmap() {
           description: "Our original vision of smart wallets for everyone did not come to fruition. A baseline of security was demanded by the community. That led to the development of the KCS-4 standard and the upgrade of core tokens.",
         },
         {
-          text: "Improved Nonce Handling",
+          text: "Mempool v1.5",
           icon: "fa-solid fa-box",
           description: "Developers need to increment nonces when sending subsequent transactions. This is an unnecessary burden on the developer. The mempool will be improved to assist developers and move that burden onto the Koinos cluster.",
         },
@@ -119,7 +119,7 @@ export default function Roadmap() {
           description: "We have had some developers at different times upload Koinos snapshots for general use. However, we have never had a dedicated service for this. It will benefit the entire community if official snapshots are generated and shared.",
         },
         {
-          text: "Enhanced REST API",
+          text: "REST API v1.1",
           icon: "fa-solid fa-server",
           description: "The Koinos REST API has been a great addition to our infrastructure. Enhancements need to be made so it has feature parity with JSON-RPC and more to better meet developer needs."
         },
@@ -130,7 +130,7 @@ export default function Roadmap() {
       title: "Q2",
       description: [
         {
-          text: "Simplified Authority System",
+          text: "Authority System v2",
           icon: "fa-solid fa-wallet",
           description: "The idea behind letting contracts define their own authorization logic is a fantastic feature of Koinos, but this feature remains underutilized because the design is complicated and difficult to explain to developers. The entire system will be simplified so it easier to use for developers."
         },
