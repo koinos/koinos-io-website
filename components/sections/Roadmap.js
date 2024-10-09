@@ -10,7 +10,8 @@ export default function Roadmap() {
     {
       title: "2020",
       description: [
-        { text: "Koinos Announced",
+        {
+          text: "Koinos Announced",
           icon: "fa-solid fa-bullhorn",
           description: "Prior to the launch of the ERC-20 mining process which created the initial supply of KOIN, Koinos was announced publicly a month in advance on several popular platforms including bitcointalk.org, Medium, X, and SteemIt.",
         },
@@ -165,6 +166,86 @@ export default function Roadmap() {
     },
   ];
 
+  const beyondRoadmap = [
+    {
+      title: "",
+      description: [
+        {
+          text: "C++ SDK",
+          icon: "fa-solid fa-code",
+          description: "After the C SDK, we want to recreate a new and improved C++ SDK. This is the simplest language to do this with, but will ensure we have designed the C SDK well enough to be used as a core for future SDKs.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Rust SDK",
+          icon: "fa-solid fa-code",
+          description: "Rust also supports calling C functions and is an increasingly popular language, especially within the crypto space. By adding Rust support, we can extend our reach to even more developers and demonstrate the flexibility of the Koinos VM."
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "WASM VM Optimizations",
+          icon: "fa-solid fa-code",
+          description: "We will analyze the current state of WASM VMs and test different VMs for performance and compatibility with Koinos. As a result of improved performance, we will be able to increase resource budgets, which will decrease mana costs for all transactions."
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Data Store Microservice",
+          icon: "fa-solid fa-server",
+          description: "The data store microservice will be a replacement microservice for the block store, transaction store, and account history. Running a Koinos node will require considerably less disk space than it currently does.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Redundant Microservices",
+          icon: "fa-solid fa-server",
+          description: "Improve scaling and redundancy for microservices within the Koinos cluster. By adding support for scaling individual microservices, nodes in enterprise environments become more performant and redundant."
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Optimistic Execution of Transactions",
+          icon: "fa-solid fa-code",
+          description: "Allowing unrelated transactions to execute in parallel will drastically improve throughput of the Koinos blockchain. The work needed to implement this optimization will allow the framework to interact with transactions in more ways that help create building blocks that will enable drastic improvements in the future."
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Dynamic Sharding",
+          icon: "fa-solid fa-code",
+          description: "Dynamic sharding allows the blockchain to split into smaller pieces based on usage. Block producers then become responsible for a subset of the whole blockchain while ensuring sufficient overlap to guarantee consistency and decentralization."
+        },
+      ],
+      status: "todo",
+    },
+  ];
+
   return (
     <>
       <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division">
@@ -184,108 +265,172 @@ export default function Roadmap() {
           <div className="row d-flex">
             {/* TEXT BLOCK */}
             <div className="col-md-12 order-last order-md-2">
-              <div className="txt-block left-column wow" data-aos='fade-left'>
+              <div className="txt-block left-column wow">
                 {roadmapPrevious.map((item, index) => (
-                  <div key={index} className="cbox-2 process-step">
-                    <div className="cbox-2-txt me-4">
-                      {index % 2 > 0 && (
-                        <>
-                          <h5 className="text-end">{item.title}</h5>
-                          {item.description.map((obj, idx) => (
-                            <div key={idx}>
-                              <div className="text-end d-flex align-items-center justify-content-end gap-3">
-                                <div>{obj.text}</div>
-                                <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i> </div>
+                  <div data-aos='fade-up'>
+                    <div key={index} className="cbox-2 process-step">
+                      <div className="cbox-2-txt me-4">
+                        {index % 2 > 0 && (
+                          <>
+                            <h5 className="text-end">{item.title}</h5>
+                            {item.description.map((obj, idx) => (
+                              <div key={idx}>
+                                <div className="text-end d-flex align-items-center justify-content-end gap-3">
+                                  <div>{obj.text}</div>
+                                  <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i> </div>
+                                </div>
+                                <div className="text-end roadmap-desc ms-auto w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
                               </div>
-                              <div className="text-end roadmap-desc ms-auto w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
-                            </div>
-                          ))}
-                        </>
-                      )}
-                    </div>
-                    {/* Icon */}
-                    <div className="ico-wrap">
-                      {item.status === "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo2.png" />
-                      )}
-                      {item.status !== "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo1.png" />
-                      )}
-                      <span className="cbox-2-line" />
-                    </div>
-                    {/* Text */}
-                    <div className="cbox-2-txt">
-                      {index % 2 == 0 && (
-                        <>
-                          <h5 className="">{item.title}</h5>
-                          {item.description.map((obj, idx) => (
-                            <div key={idx}>
-                              <div className="d-flex align-items-center justify-content-start gap-3">
-                                <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i></div>
-                                <div>{obj.text}</div>
+
+                            ))}
+                          </>
+                        )}
+                      </div>
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        {item.status === "done" && (
+                          <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                        )}
+                        {item.status !== "done" && (
+                          <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                        )}
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        {index % 2 == 0 && (
+                          <>
+                            <h5 className="">{item.title}</h5>
+                            {item.description.map((obj, idx) => (
+                              <div key={idx}>
+                                <div className="d-flex align-items-center justify-content-start gap-3">
+                                  <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i></div>
+                                  <div>{obj.text}</div>
+                                </div>
+                                <div className="roadmap-desc w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
                               </div>
-                              <div className="roadmap-desc w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
-                            </div>
-                          ))}
-                        </>
-                      )}
+                            ))}
+                          </>
+                        )}
+                      </div>
                     </div>
                   </div>
                 ))}
 
                 <div className="row justify-content-center">
                   <div className="col-md-8">
-                    <div className="section-title mb-70">
+                    <div className="section-title my-5">
                       {/* Title */}
-                      <h2 className="s-50 w-700">{year} 🚀</h2>
+                      <h2 className="s-50 w-700">{year}</h2>
                     </div>
                   </div>
                 </div>
 
                 {roadmap.map((item, index) => (
-                  <div key={index} className="cbox-2 process-step">
-                    <div className="cbox-2-txt me-4">
-                      {index % 2 == 0 && (
-                        <>
-                          <h5 className="text-end s-22 w-700">{item.title}</h5>
-                          {item.description.map((obj, idx) => (
-                            <div key={idx}>
-                            <div className="text-end d-flex align-items-center justify-content-end gap-3">
-                              <div>{obj.text}</div>
-                              <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i> </div>
-                            </div>
-                            <div className="text-end roadmap-desc w-75 ms-auto d-flex justify-content-center d-none d-md-flex mb-3">{obj.description}</div>
-                          </div>
-                          ))}
-                        </>
-                      )}
+                  <div data-aos='fade-up'>
+                    <div key={index} className="cbox-2 process-step">
+                      <div className="cbox-2-txt me-4">
+                        {index % 2 == 0 && (
+                          <>
+                            <h5 className="text-end s-22 w-700">{item.title}</h5>
+                            {item.description.map((obj, idx) => (
+                              <div key={idx}>
+                                <div className="text-end d-flex align-items-center justify-content-end gap-3">
+                                  <div>{obj.text}</div>
+                                  <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i> </div>
+                                </div>
+                                <div className="text-end roadmap-desc w-75 ms-auto d-flex justify-content-center d-none d-md-flex mb-3">{obj.description}</div>
+                              </div>
+                            ))}
+                          </>
+                        )}
+                      </div>
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        {item.status === "done" && (
+                          <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                        )}
+                        {item.status !== "done" && (
+                          <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                        )}
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        {index % 2 != 0 && (
+                          <>
+                            <h5 className="s-22 w-700">{item.title}</h5>
+                            {item.description.map((obj, idx) => (
+                              <div key={idx}>
+                                <div className="d-flex align-items-center justify-content-start gap-3">
+                                  <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i></div>
+                                  <div>{obj.text}</div>
+                                </div>
+                                <div className="roadmap-desc w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
+                              </div>
+                            ))}
+                          </>
+                        )}
+                      </div>
                     </div>
-                    {/* Icon */}
-                    <div className="ico-wrap">
-                      {item.status === "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo2.png" />
-                      )}
-                      {item.status !== "done" && (
-                        <img className="cbox-2-ico" src="images/rm-logo1.png" />
-                      )}
-                      <span className="cbox-2-line" />
+                  </div>
+                ))}
+
+                <div className="row justify-content-center">
+                  <div className="col-md-8">
+                    <div className="section-title my-5">
+                      {/* Title */}
+                      <h2 className="s-50 w-700">Beyond 🚀</h2>
                     </div>
-                    {/* Text */}
-                    <div className="cbox-2-txt">
-                      {index % 2 != 0 && (
-                        <>
-                          <h5 className="s-22 w-700">{item.title}</h5>
-                          {item.description.map((obj, idx) => (
-                            <div key={idx}>
-                            <div className="d-flex align-items-center justify-content-start gap-3">
-                              <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i></div>
-                              <div>{obj.text}</div>
-                            </div>
-                            <div className="roadmap-desc w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
-                          </div>
-                          ))}
-                        </>
-                      )}
+                  </div>
+                </div>
+
+                {beyondRoadmap.map((item, index) => (
+                  <div data-aos='fade-up'>
+                    <div key={index} className="cbox-2 process-step">
+                      <div className="cbox-2-txt me-4">
+                        {index % 2 == 0 && (
+                          <>
+                            <h5 className="text-end s-22 w-700">{item.title}</h5>
+                            {item.description.map((obj, idx) => (
+                              <div key={idx}>
+                                <div className="text-end d-flex align-items-center justify-content-end gap-3">
+                                  <div>{obj.text}</div>
+                                  <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i> </div>
+                                </div>
+                                <div className="text-end roadmap-desc w-75 ms-auto d-flex justify-content-center d-none d-md-flex mb-3">{obj.description}</div>
+                              </div>
+                            ))}
+                          </>
+                        )}
+                      </div>
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        {item.status === "done" && (
+                          <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                        )}
+                        {item.status !== "done" && (
+                          <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                        )}
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        {index % 2 != 0 && (
+                          <>
+                            <h5 className="s-22 w-700">{item.title}</h5>
+                            {item.description.map((obj, idx) => (
+                              <div key={idx}>
+                                <div className="d-flex align-items-center justify-content-start gap-3">
+                                  <div className="d-flex justify-content-center d-none d-md-flex" style={{ width: '42px', minWidth: '42px' }}><i className={`m-2 ${obj.icon}`}></i></div>
+                                  <div>{obj.text}</div>
+                                </div>
+                                <div className="roadmap-desc w-75 d-flex justify-content-center d-none d-md-flex s-15 mb-3">{obj.description}</div>
+                              </div>
+                            ))}
+                          </>
+                        )}
+                      </div>
                     </div>
                   </div>
                 ))}
