@@ -9,15 +9,15 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-export default function TaskOnQuest() {
+export default function LordsForsakenQuest() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
     });
   }, []);
 
-  const program = useProgramStore((state) => state.programs.taskonQuest);
-  const relatedProgram = useProgramStore((state) => state.programs.lordsForsakenQuest);
+  const program = useProgramStore((state) => state.programs.lordsForsakenQuest);
+  const relatedProgram = useProgramStore((state) => state.programs.taskonQuest);
 
   const questUrl = "https://taskon.xyz/quest/333189736";
 
@@ -40,12 +40,16 @@ export default function TaskOnQuest() {
                     <h2 className="s-38 w-700 my-4">Let's Get Started!</h2>
 
                     {/* Steps */}
-                    <h3 className="s-30 w-700 my-4">TaskOn Community Launch Quest</h3>
-                    <p>Earn yourself a piece of the $1,250 USDT prize pool by taking three easy steps.</p>
+                    <h3 className="s-30 w-700 my-4">Lord's Forsaken Launch Quest</h3>
+                    <p>Earn yourself a piece of the 1500 KOIN and 18000 FAITH prize pool by playing.</p>
                     <ol>
+                      <li>Follow <Link href="https://x.com/lordsforsak3n" className="underline">LordsForsak3n</Link> on X</li>
                       <li>Follow <Link href="https://x.com/KoinosNetwork" className="underline">KoinosNetwork</Link> on X</li>
-                      <li>Join our <Link href="https://telegram.koinos.io/" className="underline">Telegram</Link></li>
-                      <li>Join our <Link href="https://taskon.xyz/Koinos" className="underline">TaskOn Community</Link></li>
+                      <li>Join <Link href="https://t.me/lordsforsaken" className="underline">Lord's Forsaken on Telegram</Link></li>
+                      <li>Join <Link href="https://telegram.koinos.io/" className="underline">Koinos Telegram</Link></li>
+                      <li><Link href="https://lordsforsaken.com/" className="underline">Play Lord's Forsaken</Link></li>
+                      <li>Post on <Link href="https://x.com/" className="underline">X</Link> with a screenshot of your victory -- be sure to include "@lordsforsak3n on @KoinosNetwork" in the text</li>
+                      <li>Join <Link href="https://taskon.xyz/Koinos" className="underline">Koinos on TaskOn</Link></li>
                     </ol>
 
                     <Link
@@ -60,7 +64,7 @@ export default function TaskOnQuest() {
                 </div>
               </section>
 
-              <RelatedProgram program={relatedProgram} message="You can take advantage of yet another TaskOn quest to be eligible for your share of the 1500 KOIN and 18000 FAITH prize pool!" />
+              <RelatedProgram program={relatedProgram} message="You can take advantage of yet another TaskOn quest to be eligible for your share of the 1250 USDT prize pool!" />
               <JoinTheCommunity />
             </div>
           </div>
