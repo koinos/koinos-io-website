@@ -86,7 +86,7 @@ export const useProgramStore = create((set) => ({
         "Get your hands on your share of 18000 FAITH",
         "Play-to-Earn on Lord's Forsaken to earn even more FAITH",
       ],
-      website: "https://taskon.xyz/quest/333189736",
+      website: "https://taskon.xyz/quest/6984752",
       details: [
         <><strong>Free-to-Play</strong>: Thanks to feeless transactions on Koinos you can play Lord's Forsaken and earn FAITH with no cost to you</>,
         <><strong>Play-to-Earn</strong>: Earn the in-game currency, FAITH, giving you access to upgraded card decks</>,
