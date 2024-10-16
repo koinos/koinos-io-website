@@ -71,6 +71,29 @@ export const useProgramStore = create((set) => ({
       images: {
         banner: "/images/quest-taskon-launch.png",
       },
+      featured: false,
+      active: true,
+    },
+    lordsForsakenQuest: {
+      url: "/programs/lords-forsaken-quest",
+      title: "Lord's Forsaken Quest",
+      subtitle: "Earn rewards for playing!",
+      shortDescription:
+        "Koinos' premiere Web3 Play-to-Earn card game launch quest. Have fun playing while earning valuable rewards!",
+      description: "Lord's Forsaken is about to launch on Koinos and to celebrate this event we are offering lucrative rewards for participating. A few simple steps could net you some valuable KOIN and FAITH!",
+      keyPoints: [
+        "Earn your share of 1500 KOIN for having fun!",
+        "Get your hands on your share of 18000 FAITH",
+        "Play-to-Earn on Lord's Forsaken to earn even more FAITH",
+      ],
+      website: "https://taskon.xyz/quest/6984752",
+      details: [
+        <><strong>Free-to-Play</strong>: Thanks to feeless transactions on Koinos you can play Lord's Forsaken and earn FAITH with no cost to you</>,
+        <><strong>Play-to-Earn</strong>: Earn the in-game currency, FAITH, giving you access to upgraded card decks</>,
+      ],
+      images: {
+        banner: "/images/quest-lords.png",
+      },
       featured: true,
       active: true,
     },
