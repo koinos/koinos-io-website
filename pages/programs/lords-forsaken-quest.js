@@ -19,7 +19,7 @@ export default function LordsForsakenQuest() {
   const program = useProgramStore((state) => state.programs.lordsForsakenQuest);
   const relatedProgram = useProgramStore((state) => state.programs.taskonQuest);
 
-  const questUrl = "https://taskon.xyz/quest/333189736";
+  const questUrl = "https://taskon.xyz/quest/6984752";
 
   return (
     <>
