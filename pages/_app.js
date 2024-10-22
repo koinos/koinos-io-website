@@ -2,6 +2,7 @@ import Preloader from "@/components/elements/Preloader"
 import { useEffect, useState } from "react"
 import { initGTM } from '../lib/gtm';
 import Head from 'next/head'
+import { BuyProvider } from '../store/buyStore';
 
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -54,8 +55,10 @@ function MyApp({ Component, pageProps }) {
             <Head>
                 <title>Web3 for Everyone | Koinos</title>
             </Head>
-            <Component {...pageProps} />
+            <BuyProvider>
+                <Component {...pageProps} />
+            </BuyProvider>
     </>);
 }
-
 export default MyApp
+

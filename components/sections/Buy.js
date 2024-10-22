@@ -1,47 +1,10 @@
 import Link from "next/link";
+import { useBuyData } from "../../store/buyStore";
 
 
 export default function Buy() {
-
     const title = "Where to get KOIN";
-
-    const buy = [
-        {
-            name: "Chainge",
-            icon: "/images/exchanges/chainge-mark.svg",
-            url: "https://dapp.chainge.finance/?fromChain=ETH&toChain=ETH&fromToken=USDT&toToken=KOIN"
-        },
-        {
-            name: "Uniswap",
-            icon: "/images/exchanges/uniswap-mark.svg",
-            url: "https://www.mexc.com/exchange/KOIN_USDThttps://app.uniswap.org/explore/tokens/ethereum/0xed11c9bcf69fdd2eefd9fe751bfca32f171d53ae"
-        },
-        {
-            name: "MEXC",
-            icon: "/images/buy/mexc-logo.png",
-            url: "https://www.mexc.com/exchange/KOIN_USDT"
-        },
-        {
-            name: "Coinstore",
-            icon: "/images/buy/coinstore-logo.png",
-            url: "https://www.coinstore.com/#/spot/KOINUSDT"
-        },
-        {
-            name: "Biconomy",
-            icon: "/images/buy/biconomy-logo.png",
-            url: "https://www.biconomy.com/exchange/KOIN_USDT"
-        },
-        {
-            name: "LCX",
-            icon: "/images/buy/lcx-logo.png",
-            url: "https://exchange.lcx.com/trade/KOIN-EUR"
-        },
-        {
-            name: "KoinDX",
-            icon: "/images/buy/koindx-logo.png",
-            url: "https://app.koindx.com/swap"
-        },
-    ]
+    const buy = useBuyData();
 
     return (
         <>
