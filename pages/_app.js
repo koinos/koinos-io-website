@@ -55,9 +55,7 @@ function MyApp({ Component, pageProps }) {
             <Head>
                 <title>Web3 for Everyone | Koinos</title>
             </Head>
-            <BuyProvider>
-                <Component {...pageProps} />
-            </BuyProvider>
+            <Component {...pageProps} />
     </>);
 }
 export default MyApp

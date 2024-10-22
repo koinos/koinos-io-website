@@ -72,4 +72,6 @@ export const useBuyStore = create((set) => ({
         }))
 }));
 
+export const useBuyData = () => useBuyStore(state => state.buyData);
+
 export const initialBuyData = buyData;
