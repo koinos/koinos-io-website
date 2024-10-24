@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { useBuyData } from "../../store/buyStore";
+import { useExchangeList } from "@/store/exchangeStore";
 
 export default function WhereToGetKOIN() {
-    const buyData = useBuyData();
-    const isEven = buyData.length % 2 === 0;
+    const exchanges = useExchangeList();
 
     return (
         <>
@@ -18,8 +17,8 @@ export default function WhereToGetKOIN() {
                         </div>
                     </div>
                     <div className="integrations-1-wrapper">
-                        <div className={`row row-cols-1 row-cols-md-2 row-cols-lg-${isEven ? '4' : '3'} rows-2`}>
-                            {buyData.map((exchange, index) => (
+                        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 rows-2">
+                            {exchanges.map((exchange, index) => (
                                 <div key={index} className="col">
                                     <Link href={exchange.url} className="in_tool it-1 r-12 mb-30 wow" data-aos='fade-up'>
                                         {/* Icon */}

@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-const buyData = [
+const exchangeList = [
     {
         name: "Chainge",
         icon: "/images/exchanges/chainge-logo.png",
@@ -15,63 +15,63 @@ const buyData = [
     },
     {
         name: "MEXC",
-        icon: "/images/buy/mexc-logo.png",
+        icon: "/images/exchanges/mexc-logo.png",
         url: "https://www.mexc.com/exchange/KOIN_USDT",
         type: "CEX"
     },
     {
         name: "BingX",
-        icon: "/images/buy/bingx-logo.png",
+        icon: "/images/exchanges/bingx-logo.png",
         url: "https://bingx.com/en/spot/KOINUSDT/",
         type: "CEX"
     },
     {
         name: "Biconomy",
-        icon: "/images/buy/biconomy-logo.png",
+        icon: "/images/exchanges/biconomy-logo.png",
         url: "https://www.biconomy.com/exchange/KOIN_USDT",
         type: "CEX"
     },
     {
         name: "Coinstore",
-        icon: "/images/buy/coinstore-logo.png",
+        icon: "/images/exchanges/coinstore-logo.png",
         url: "https://www.coinstore.com/#/spot/KOINUSDT",
         type: "CEX"
     },
     {
         name: "LCX",
-        icon: "/images/buy/lcx-logo.png",
+        icon: "/images/exchanges/lcx-logo.png",
         url: "https://exchange.lcx.com/trade/KOIN-EUR",
         type: "CEX"
     },
     {
         name: "KoinDX",
-        icon: "/images/buy/koindx-logo.png",
+        icon: "/images/exchanges/koindx-logo.png",
         url: "https://app.koindx.com/swap",
         type: "DEX"
     },
 ];
 
-export const useBuyStore = create((set) => ({
-    buyData: buyData,  
+export const useExchangeStore = create((set) => ({
+    exchanges: exchangeList,  
     
-    updateBuyOption: (index, updatedOption) => 
+    updateExchangeOption: (index, updatedOption) => 
         set((state) => {
-            const newData = [...state.buyData];
-            newData[index] = { ...newData[index], ...updatedOption };
-            return { buyData: newData };
+            const newList = [...state.exchanges];
+            newList[index] = { ...newList[index], ...updatedOption };
+            return { exchanges: newList };
         }),
         
-    addBuyOption: (newOption) =>
+    addExchangeOption: (newOption) =>
         set((state) => ({
-            buyData: [...state.buyData, newOption]
+            exchanges: [...state.exchanges, newOption]
         })),
         
-    removeBuyOption: (index) =>
+    removeExchangeOption: (index) =>
         set((state) => ({
-            buyData: state.buyData.filter((_, i) => i !== index)
+            exchanges: state.exchanges.filter((_, i) => i !== index)
         }))
 }));
 
-export const useBuyData = () => useBuyStore(state => state.buyData);
+export const useExchangeList = () => useExchangeStore(state => state.exchanges);
 
-export const initialBuyData = buyData;
+export const initialExchangeList = exchangeList;
