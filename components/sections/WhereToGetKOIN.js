@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { useExchangeList } from "@/store/exchangeStore";
+import { useExchangeStore } from "@/store/exchangeStore";
 
 export default function WhereToGetKOIN() {
-    const exchanges = useExchangeList();
+    const { exchanges } = useExchangeStore();
 
     return (
         <>

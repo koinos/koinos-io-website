@@ -16,12 +16,12 @@ export default function handler(req, res) {
 
     const { exchanges } = useExchangeStore.getState();
 
-    const exchangeList = exchanges.map(exchange => 
+    const transformedExchanges = exchanges.map(exchange => 
       transformExchange(req, exchange)
     );
 
     return res.status(200).json({ 
-      exchanges: exchangeList 
+      exchanges: transformedExchanges 
     });
 
   } catch (error) {
