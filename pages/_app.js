@@ -2,7 +2,6 @@ import Preloader from "@/components/elements/Preloader"
 import { useEffect, useState } from "react"
 import { initGTM } from '../lib/gtm';
 import Head from 'next/head'
-import { BuyProvider } from '../store/exchangeStore';
 
 import 'swiper/css'
 import 'swiper/css/navigation'
