@@ -1,15 +1,5 @@
 import { useProgramStore } from "@/store/programStore";
-
-function isAbsolute(path) {
-  const absoluteCheck = new RegExp('^(?:[a-z+]+:)?//', 'i');
-  return absoluteCheck.test(path);
-}
-
-function makeAbsolute(req, path) {
-  const protocol = req.headers['x-forwarded-proto'] || 'http';
-  const host = req.headers['x-forwarded-host'] || req.headers.host;
-  return `${protocol}://${host}${path}`;
-}
+import { isAbsolute, makeAbsolute } from "@/utils/urlHelpers";
 
 function transformProgram(req, program) {
   if (!isAbsolute(program.url)) {
