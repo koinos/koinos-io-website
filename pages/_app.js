@@ -12,7 +12,7 @@ import "/public/css/menu.css"
 import "/public/css/dropdown-effects/fade-down.css"
 // import "/public/css/lunar.css"
 // import "/public/css/animate.css"
-import "/public/css/purple-theme.css"
+import "/public/css/koinos.css"
 import "/public/css/responsive.css"
 // import "/public/css/modal-video.css"
 
