@@ -24,9 +24,6 @@ export default function Menu() {
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
-                    <Link href="/community" className="h-link">Community</Link>
-                </li>
-                <li className="nl-simple" aria-haspopup="true">
                     <Link href="/ecosystem" className="h-link">Ecosystem</Link>
                 </li>
 

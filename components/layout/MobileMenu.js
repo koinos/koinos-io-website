@@ -86,16 +86,6 @@ export default function MobileMenu({ handleMobileMenu }) {
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link
-            href="/community"
-            onClick={handleMobileMenu}
-            className="h-link"
-          >
-            Community
-          </Link>
-        </li>
-
-        <li className="nl-simple" aria-haspopup="true">
           <Link href="/#roadmap" onClick={handleMobileMenu} className="h-link">
             Roadmap
           </Link>
