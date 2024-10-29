@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { initGTM } from '../lib/gtm';
+import { initGTM } from '../utils/gtm';
 
 import 'swiper/css'
 import 'swiper/css/navigation'
