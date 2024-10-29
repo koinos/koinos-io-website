@@ -43,7 +43,7 @@ const swiperOptions = {
 }
 
 
-export default function BrandSlider1() {
+export default function BrandSlider() {
 
     const brands = [
         {
