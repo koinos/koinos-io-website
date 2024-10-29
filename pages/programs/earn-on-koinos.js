@@ -25,6 +25,7 @@ export default function EarnOnKoinos() {
         headerStyle={1}
         footerStyle={3}
         headerCls="navbar-dark inner-page-header"
+        headTitle="Earn on Koinos | Koinos"
       >
         <div className="container">
           <div className="row justify-content-center">

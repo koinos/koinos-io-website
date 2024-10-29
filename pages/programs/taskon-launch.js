@@ -27,6 +27,7 @@ export default function TaskOnQuest() {
         headerStyle={1}
         footerStyle={3}
         headerCls="navbar-dark inner-page-header"
+        headTitle="TaskOn Community Launch | Koinos"
       >
         <div className="container">
           <div className="row justify-content-center">
