@@ -114,7 +114,7 @@ export default function Community() {
     <>
       <Layout
         headerStyle={1}
-        footerStyle={3}
+        footerStyle={1}
         headerCls="navbar-dark inner-page-header"
       >
         <div>

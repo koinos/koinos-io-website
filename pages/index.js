@@ -28,7 +28,7 @@ export default function Home() {
     <>
       <Layout
         headerStyle={1}
-        footerStyle={3}
+        footerStyle={1}
         headerCls="navbar-dark light-hero-header"
         headerTitle="Web3 for Everyone | Koinos"
       >

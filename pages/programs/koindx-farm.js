@@ -23,7 +23,7 @@ export default function KoinDXFarm() {
     <>
       <Layout
         headerStyle={1}
-        footerStyle={3}
+        footerStyle={1}
         headerCls="navbar-dark inner-page-header"
         headTitle="KoinDX Farm | Koinos"
       >

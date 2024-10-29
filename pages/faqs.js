@@ -87,7 +87,7 @@ export default function Home() {
     <>
       <Layout 
         headerStyle={1}
-        footerStyle={3}
+        footerStyle={1}
         headerCls="navbar-dark inner-page-header"
         headTitle="Frequently Asked Questions | Koinos"
       >

@@ -57,7 +57,7 @@ export default function MediaKit() {
   return (
     <Layout
       headerStyle={1}
-      footerStyle={3}
+      footerStyle={1}
       headerCls="navbar-dark inner-page-header"
       headTitle="Media Kit | Koinos"
     >

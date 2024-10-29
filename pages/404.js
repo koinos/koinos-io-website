@@ -4,7 +4,7 @@ export default function Home() {
 
   return (
     <>
-      <Layout headerStyle={1} footerStyle={2} headerCls="navbar-dark inner-page-header">
+      <Layout headerStyle={1} footerStyle={1} headerCls="navbar-dark inner-page-header">
         <div>
           {/* PAGE 404
 			============================================= */}

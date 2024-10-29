@@ -25,7 +25,7 @@ export default function LordsForsakenQuest() {
     <>
       <Layout
         headerStyle={1}
-        footerStyle={3}
+        footerStyle={1}
         headerCls="navbar-dark inner-page-header"
         headTitle="Lord's Forsaken Quest | Koinos"
       >

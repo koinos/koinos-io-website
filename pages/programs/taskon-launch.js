@@ -25,7 +25,7 @@ export default function TaskOnQuest() {
     <>
       <Layout
         headerStyle={1}
-        footerStyle={3}
+        footerStyle={1}
         headerCls="navbar-dark inner-page-header"
         headTitle="TaskOn Community Launch | Koinos"
       >
