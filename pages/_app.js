@@ -1,6 +1,5 @@
 import { useEffect } from "react"
 import { initGTM } from '../lib/gtm';
-import Head from 'next/head'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -17,16 +16,13 @@ import "/public/css/responsive.css"
 // import "/public/css/modal-video.css"
 
 function MyApp({ Component, pageProps }) {
-    useEffect(() => {
-        initGTM();
-      }, []);
+  useEffect(() => {
+    initGTM();
+  }, []);
 
-    return (<>
-            <Head>
-                <title>Web3 for Everyone | Koinos</title>
-            </Head>
-            <Component {...pageProps} />
-    </>);
+  return (<>
+    <Component {...pageProps} />
+  </>);
 }
 export default MyApp
 

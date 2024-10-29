@@ -59,6 +59,7 @@ export default function MediaKit() {
       headerStyle={1}
       footerStyle={3}
       headerCls="navbar-dark inner-page-header"
+      headTitle="Media Kit | Koinos"
     >
       <div className="mt-5 text-light py-5 header-section">
         <div className="container mt-5">

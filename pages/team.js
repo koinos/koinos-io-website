@@ -11,6 +11,7 @@ export default function Team() {
         headerStyle={1}
         footerStyle={3}
         headerCls="navbar-dark light-hero-header"
+        headTitle="Who We Are | Koinos"
       >
 
         <TeamComponent />
