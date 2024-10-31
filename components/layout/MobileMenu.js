@@ -107,13 +107,13 @@ export default function MobileMenu({ handleMobileMenu }) {
           >
             <a target="_blank" rel="noopener noreferrer">
               <img
-                src="/images/icons/github-mark.svg"
+                src="/images/menu/github-mark.svg"
                 alt="GitHub"
                 style={{ width: "30px", height: "30px" }}
                 className="light-theme-img"
               />
               <img
-                src="/images/icons/github-mark-white.svg"
+                src="/images/menu/github-mark-white.svg"
                 alt="GitHub"
                 style={{ width: "30px", height: "30px" }}
                 className="dark-theme-img"

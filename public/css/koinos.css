@@ -4494,7 +4494,7 @@ span.sm-info {
     right: 0;
     z-index: 1; /* ensure it's behind the content */
     opacity: 0.2;
-    background-image: url(../images/pages/hero-background.svg);
+    background-image: url(../images/pages/index/hero-background.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4511,7 +4511,7 @@ span.sm-info {
     right: 0;
     z-index: 1; /* ensure it's behind the content */
     opacity: 0.3;
-    background-image: url(../images/pages/hero-background.svg);
+    background-image: url(../images/pages/index/hero-background.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200%;

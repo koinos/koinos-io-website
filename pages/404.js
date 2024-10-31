@@ -16,7 +16,7 @@ export default function NotFoundPage() {
                   <div className="page-404-txt text-center">
                     {/* Image */}
                     <div className="rel page-404-img">
-                      <img className="img-fluid" src="/images/pages/error-404.png" alt="error-404-img" />
+                      <img className="img-fluid" src="/images/pages/404/error-404.png" alt="error-404-img" />
                     </div>
                     {/* Text */}
                     <h2 className="s-56 w-700 color--dark">Page Not Found</h2>

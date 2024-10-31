@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Footer3() {
+export default function Footer1() {
   return (
     <>
       <footer id="footer-3" className="pt-100 footer ft-3-ntr">
