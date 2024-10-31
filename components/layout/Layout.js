@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Breadcrumb from "./Breadcrumb";
 import PageHead from "./PageHead";
 import Footer1 from "./footer/Footer1";
 import Header1 from "./header/Header1";
@@ -8,7 +7,6 @@ export default function Layout({
   headerStyle,
   footerStyle,
   headTitle,
-  breadcrumbTitle,
   children,
   headerCls,
 }) {
@@ -44,8 +42,6 @@ export default function Layout({
         ) : null}
 
         <main className="main">
-          {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
-
           {children}
         </main>
 
