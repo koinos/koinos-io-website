@@ -1,7 +1,8 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from "react"
-export default function Home() {
+
+export default function FaqPage() {
   const [isActive, setIsActive] = useState({
     status: false,
     key: 1,

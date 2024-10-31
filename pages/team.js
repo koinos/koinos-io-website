@@ -1,9 +1,9 @@
 import { useState } from "react"
 import Layout from "@/components/layout/Layout"
-import TeamComponent from "@/components/sections/TeamComponent"
+import Team from "@/components/sections/Team"
 
 
-export default function Team() {
+export default function TeamPage() {
   const [isModalOpen, setModalOpen] = useState(false)
   return (
     <>
@@ -14,7 +14,7 @@ export default function Team() {
         headTitle="Who We Are | Koinos"
       >
 
-        <TeamComponent />
+        <Team />
       </Layout>
     </>
   )

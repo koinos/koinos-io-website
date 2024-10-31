@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useEffect, useRef } from "react"
 
-export default function MediaKit() {
+export default function MediaPage() {
   const sidebarRef = useRef(null)
 
   useEffect(() => {

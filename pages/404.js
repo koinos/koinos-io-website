@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-export default function Home() {
+export default function NotFoundPage() {
 
   return (
     <>

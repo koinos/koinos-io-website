@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function TeamComponent() {
+export default function Team() {
   const team = [
     {
       name: "Michael Vandeberg",
