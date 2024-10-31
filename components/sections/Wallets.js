@@ -11,7 +11,7 @@ export default function Wallets() {
     {
       name: "Kondor",
       description: "Full featured Koinos wallet for Google Chrome",
-      icon: "/images/wallets/kondor.png",
+      icon: "/images/sections/wallets/kondor.png",
       chrome: true,
       android: false,
       ios: false,
@@ -20,7 +20,7 @@ export default function Wallets() {
     {
       name: "Konio",
       description: "Full featured native mobile wallet for Android/iOS",
-      icon: "/images/wallets/konio.png",
+      icon: "/images/sections/wallets/konio.png",
       chrome: false,
       android: true,
       ios: true,

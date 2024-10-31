@@ -5,7 +5,7 @@ export default function Team() {
     {
       name: "Michael Vandeberg",
       role: "CTO of Koinos Group and Koinos Architect",
-      photo: "/images/team/michael.png",
+      photo: "/images/sections/team/michael.png",
       twitter: "https://twitter.com/koinosvandeberg",
       github: "https://github.com/mvandeberg",
       linkedin: "https://www.linkedin.com/in/michaelvandeberg/",
@@ -13,7 +13,7 @@ export default function Team() {
     {
       name: "Steve Gerbino",
       role: "CEO of Koinos Group and Koinos Architect",
-      photo: "/images/team/steve.png",
+      photo: "/images/sections/team/steve.png",
       twitter: "https://twitter.com/ssgerbino",
       linkedin: "https://www.linkedin.com/in/stevegerbino/",
       github: "https://github.com/sgerbino",
@@ -21,26 +21,26 @@ export default function Team() {
     {
       name: "Andrew Levine",
       role: "CCO of Koinos Group",
-      photo: "/images/team/andrew.png",
+      photo: "/images/sections/team/andrew.png",
       linkedin: "https://www.linkedin.com/in/andrew-levine-koinos/",
       twitter: "https://twitter.com/andrarchy",
     },
     {
       name: "Ron Hamenahem",
       role: "COO of Koinos Group",
-      photo: "/images/team/ron.png",
+      photo: "/images/sections/team/ron.png",
       github: "https://github.com/brklyn8900",
     },
     {
       name: "Nathaniel Caldwell",
       role: "Creator of Koinos CLI",
-      photo: "/images/team/nathaniel.png",
+      photo: "/images/sections/team/nathaniel.png",
       github: "https://github.com/youkaicountry",
     },
     {
       name: "Justin W.",
       role: "Developer",
-      photo: "/images/team/justin.jpg",
+      photo: "/images/sections/team/justin.jpg",
       linkedin: "https://www.linkedin.com/in/justin-welch-5520a9112/",
       twitter: "https://twitter.com/ogjustinw",
       github: "https:/github.com/jredbeard",
@@ -48,13 +48,13 @@ export default function Team() {
     {
       name: "@ederaleng",
       role: "Developer",
-      photo: "/images/team/ederaleng.png",
+      photo: "/images/sections/team/ederaleng.png",
       twitter: "https://twitter.com/ederaleng",
     },
     {
       name: "Luke Willis",
       role: "Developer",
-      photo: "/images/team/luke.jpg",
+      photo: "/images/sections/team/luke.jpg",
       linkedin: "https://linkedin.com/in/lukemwillis",
       twitter: "https://twitter.com/lukemwillis",
       github: "https://github.com/lukemwillis",
@@ -62,14 +62,14 @@ export default function Team() {
     {
       name: "Kui He",
       role: "Developer",
-      photo: "/images/team/kui.jpg",
+      photo: "/images/sections/team/kui.jpg",
       linkedin: "https://www.linkedin.com/in/kuixihe",
       twitter: "https://twitter.com/kuixihe",
     },
     {
       name: "Adriano Foschi",
       role: "Developer",
-      photo: "/images/team/adriano.jpg",
+      photo: "/images/sections/team/adriano.jpg",
       linkedin: "https://www.linkedin.com/in/adrianofoschi",
       twitter: "https://twitter.com/adrihoke",
       github: "https://github.com/adrianofoschi",
@@ -77,13 +77,13 @@ export default function Team() {
     {
       name: "@vonlooten",
       role: "Developer",
-      photo: "/images/team/vonlooten.jpg",
+      photo: "/images/sections/team/vonlooten.jpg",
       twitter: "https://twitter.com/vonlooten",
     },
     {
       name: "Julián González",
       role: "Developer",
-      photo: "/images/team/julian.jpg",
+      photo: "/images/sections/team/julian.jpg",
       linkedin:
         "https://www.linkedin.com/in/juli%C3%A1n-gonz%C3%A1lez-50773962/",
       twitter: "https://twitter.com/joticajulian",
@@ -92,13 +92,13 @@ export default function Team() {
     {
       name: "@roamin",
       role: "Developer",
-      photo: "/images/team/roamin.jpg",
+      photo: "/images/sections/team/roamin.jpg",
       github: "https://github.com/roaminro",
     },
     {
       name: "Frank Weijers",
       role: "Developer",
-      photo: "/images/team/frank.jpg",
+      photo: "/images/sections/team/frank.jpg",
       linkedin: "https://www.linkedin.com/in/weijersf",
       github: "https://github.com/frank-weijers",
       twitter: "https://twitter.com/ElImbatido1",
@@ -106,13 +106,13 @@ export default function Team() {
     {
       name: "@mixibo",
       role: "Developer",
-      photo: "/images/team/mixibo.jpg",
+      photo: "/images/sections/team/mixibo.jpg",
       github: "https://github.com/MiXiBo",
     },
     {
       name: "@red.raven",
       role: "Developer",
-      photo: "/images/team/red.jpg",
+      photo: "/images/sections/team/red.jpg",
       github: "https://github.com/EtheredRaven",
     },
   ];
