@@ -289,10 +289,10 @@ export default function Roadmap() {
                       {/* Icon */}
                       <div className="ico-wrap">
                         {item.status === "done" && (
-                          <img className="cbox-2-ico" src="images/sections/logo-filled.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-filled.png" />
                         )}
                         {item.status !== "done" && (
-                          <img className="cbox-2-ico" src="images/sections/logo-hollow.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-hollow.png" />
                         )}
                         <span className="cbox-2-line" />
                       </div>
@@ -348,10 +348,10 @@ export default function Roadmap() {
                       {/* Icon */}
                       <div className="ico-wrap">
                         {item.status === "done" && (
-                          <img className="cbox-2-ico" src="images/sections/logo-filled.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-filled.png" />
                         )}
                         {item.status !== "done" && (
-                          <img className="cbox-2-ico" src="images/sections/logo-hollow.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-hollow.png" />
                         )}
                         <span className="cbox-2-line" />
                       </div>
@@ -407,10 +407,10 @@ export default function Roadmap() {
                       {/* Icon */}
                       <div className="ico-wrap">
                         {item.status === "done" && (
-                          <img className="cbox-2-ico" src="images/sections/logo-filled.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-filled.png" />
                         )}
                         {item.status !== "done" && (
-                          <img className="cbox-2-ico" src="images/sections/logo-hollow.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-hollow.png" />
                         )}
                         <span className="cbox-2-line" />
                       </div>

@@ -10,37 +10,37 @@ export default function KoinosAdvantage() {
       title: "Smart Contracts without Fees",
       description:
         "Just like the internet! The Koinos Mana system allows you to use the blockchain without spending, or even holding, ANY tokens. Mana recharges over time and can be shared with others. Koinos lowers the barrier with feeless smart contracts!",
-      icon: "/images/features/feeless.png",
+      icon: "/images/sections/koinos-advantage/feeless.png",
     },
     {
       title: "A Web2 User Experience on Web3",
       description:
         'Our innovative Mana system recharges like a battery, enabling applications to allow feeless transactions for you and the only cost to them is waiting for their "battery" to recharge. This unique approach offers a truly frictionless user experience.',
-      icon: "/images/features/web2.png",
+      icon: "/images/sections/koinos-advantage/web2.png",
     },
     {
       title: "Upgradable / Evolving Blockchain",
       description:
         'The entire blockchain is highly modular and is the first chain with consensus and governance built from smart contracts. Anything including the core features of the blockchain can be upgraded with ease. No more "Eth 2.0-style" delays.',
-      icon: "/images/features/upgradeable.png",
+      icon: "/images/sections/koinos-advantage/upgradeable.png",
     },
     {
       title: "Lightning Fast",
       description:
         "With a 3 second block times, Koinos offers a near realtime experience for both applications and you, the user. This provides critical responsiveness needed to facilitate a Web2 experience on Web3.",
-      icon: "/images/features/fast.png",
+      icon: "/images/sections/koinos-advantage/fast.png",
     },
     {
       title: "Microservices Architecture",
       description:
         "Koinos is one of the very few blockchains to leverage a microservice architecture. As a developer you can build custom microservices in all major languages. No more monolithic codebases.",
-      icon: "/images/features/microservices.png",
+      icon: "/images/sections/koinos-advantage/microservices.png",
     },
     {
       title: "Universal Language Support",
       description:
         "A growing number of smart contract languages are added thanks to the KVM (Koinos Virtual Machine) implementation of WebAssembly (WASM) and Google’s protocol buffers (Protobuf). Today you can get started with the popular languages TypeScript and C++. ",
-      icon: "/images/features/universal.png",
+      icon: "/images/sections/koinos-advantage/universal.png",
     },
   ];
 

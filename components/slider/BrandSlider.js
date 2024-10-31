@@ -48,62 +48,62 @@ export default function BrandSlider() {
     const brands = [
         {
             name: 'mexc',
-            imageLight: '/images/exchanges/mexc.png',
-            imageDark: '/images/exchanges/mexc-white.png',
+            imageLight: '/images/sections/partners/mexc.png',
+            imageDark: '/images/sections/partners/mexc-white.png',
             url: 'https://www.mexc.com/price/KOIN'
         },
         {
             name: 'coinstore',
-            imageLight: '/images/exchanges/coinstore.png',
-            imageDark: '/images/exchanges/coinstore-white.png',
+            imageLight: '/images/sections/partners/coinstore.png',
+            imageDark: '/images/sections/partners/coinstore-white.png',
             url: 'https://www.coinstore.com/#/spot/KOINUSDT'
         },
         {
             name: 'chainge',
-            imageLight: '/images/exchanges/chainge.png',
-            imageDark: '/images/exchanges/chainge-white.png',
+            imageLight: '/images/sections/partners/chainge.png',
+            imageDark: '/images/sections/partners/chainge-white.png',
             url: 'https://dapp.chainge.finance/?fromChain=ETH&toChain=KOIN&fromToken=USDT&toToken=KOIN'
         },
         {
             name: 'lcx',
-            imageLight: '/images/exchanges/lcx.png',
-            imageDark: '/images/exchanges/lcx-white.png',
+            imageLight: '/images/sections/partners/lcx.png',
+            imageDark: '/images/sections/partners/lcx-white.png',
             url: 'https://exchange.lcx.com/trade/KOIN-EUR'
         },
         {
             name: 'tangem',
-            imageLight: '/images/exchanges/tangem.png',
-            imageDark: '/images/exchanges/tangem-white.png',
+            imageLight: '/images/sections/partners/tangem.png',
+            imageDark: '/images/sections/partners/tangem-white.png',
             url: 'https://tangem.com/en/'
         },
         {
             name: 'bff',
-            imageLight: '/images/exchanges/bff.png',
-            imageDark: '/images/exchanges/bff-white.png',
+            imageLight: '/images/sections/partners/bff.png',
+            imageDark: '/images/sections/partners/bff-white.png',
             url: 'https://blockchainff.com/'
         },
         {
             name: 'rhubarb',
-            imageLight: '/images/exchanges/rhubarb.png',
-            imageDark: '/images/exchanges/rhubarb-white.png',
+            imageLight: '/images/sections/partners/rhubarb.png',
+            imageDark: '/images/sections/partners/rhubarb-white.png',
             url: 'https://rhubarbmedia.ca/'
         },
         {
             name: 'constellation',
-            imageLight: '/images/exchanges/constellation.png',
-            imageDark: '/images/exchanges/constellation-white.png',
+            imageLight: '/images/sections/partners/constellation.png',
+            imageDark: '/images/sections/partners/constellation-white.png',
             url: 'https://constellationnetwork.io/'
         },
         {
             name: 'coinmarketcap',
-            imageLight: '/images/exchanges/cmc.png',
-            imageDark: '/images/exchanges/cmc-white.png',
+            imageLight: '/images/sections/partners/cmc.png',
+            imageDark: '/images/sections/partners/cmc-white.png',
             url: 'https://coinmarketcap.com/currencies/koinos/'
         },
         {
             name: 'coingecko',
-            imageLight: '/images/exchanges/cg.png',
-            imageDark: '/images/exchanges/cg-white.png',
+            imageLight: '/images/sections/partners/cg.png',
+            imageDark: '/images/sections/partners/cg-white.png',
             url: 'https://www.coingecko.com/en/coins/koinos'
         }
     ];
