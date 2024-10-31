@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import BackToTop from "../elements/BackToTop";
 import Breadcrumb from "./Breadcrumb";
 import PageHead from "./PageHead";
 import Footer1 from "./footer/Footer1";
@@ -52,8 +51,6 @@ export default function Layout({
 
         {!footerStyle && <Footer1 />}
         {footerStyle == 1 ? <Footer1 /> : null}
-
-        <BackToTop />
       </div>
     </>
   );
