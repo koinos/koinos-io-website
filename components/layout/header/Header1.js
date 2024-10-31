@@ -41,7 +41,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                             <Link href="/">
                                 <>
                                 <img className="dark-theme-img" src="/images/logo-white-white.png" alt="mobile-logo" />
-                                <img className="light-theme-img" src="/images/logo-purple.png" alt="mobile-logo" />
                                 </>
                             </Link>
                         </span>
@@ -54,14 +53,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                             <div className="desktoplogo">
                                 <Link href="/" className="logo-black">
                                     <>
-                                    <img className="light-theme-img" src="/images/logo-purple.png" alt="logo" />
                                     <img className="dark-theme-img" src="/images/logo-white-white.png" alt="logo" />
                                     </>
                                 </Link>
                             </div>
                             {/* HEADER WHITE LOGO */}
                             <div className="desktoplogo">
-                                <Link href="/" className="logo-white"><img src="/images/logo-white.png" alt="logo" /></Link>
                             </div>
                             {/* MAIN MENU */}
                             <nav className="wsmenu clearfix" style={{ height: `${isMobileMenu ? "100vh" : ""}` }}>
