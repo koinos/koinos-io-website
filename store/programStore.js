@@ -32,7 +32,7 @@ export const useProgramStore = create((set) => ({
         </>,
       ],
       images: {
-        banner: "/images/eok-image.png",
+        banner: "/images/programs/earn-on-koinos.png",
       },
       featured: false,
       active: true,
@@ -62,7 +62,7 @@ export const useProgramStore = create((set) => ({
         </>,
       ],
       images: {
-        banner: "/images/koindx-airdrop.png",
+        banner: "/images/programs/koindx-farm.png",
       },
       featured: false,
       active: false,
@@ -114,7 +114,7 @@ export const useProgramStore = create((set) => ({
         </>,
       ],
       images: {
-        banner: "/images/quest-taskon-launch.png",
+        banner: "/images/programs/taskon-launch.png",
       },
       featured: false,
       active: true,
@@ -144,7 +144,7 @@ export const useProgramStore = create((set) => ({
         </>,
       ],
       images: {
-        banner: "/images/quest-lords.png",
+        banner: "/images/programs/lords-forsaken-quest.png",
       },
       featured: true,
       active: true,

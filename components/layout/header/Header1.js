@@ -40,7 +40,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                         <span className="smllogo">
                             <Link href="/">
                                 <>
-                                <img className="dark-theme-img" src="/images/logo-white-white.png" alt="mobile-logo" />
+                                <img className="dark-theme-img" src="/images/pages/logo-white.png" alt="mobile-logo" />
                                 </>
                             </Link>
                         </span>
@@ -53,7 +53,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
                             <div className="desktoplogo">
                                 <Link href="/" className="logo-black">
                                     <>
-                                    <img className="dark-theme-img" src="/images/logo-white-white.png" alt="logo" />
+                                    <img className="dark-theme-img" src="/images/pages/logo-white.png" alt="logo" />
                                     </>
                                 </Link>
                             </div>

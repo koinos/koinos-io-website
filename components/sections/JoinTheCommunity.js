@@ -34,7 +34,7 @@ export default function JoinTheCommunity() {
               <div className="img-block right-column wow" data-aos='fade-right'>
                 <img
                   className="img-fluid rounded"
-                  src="/images/koinos-community.png"
+                  src="/images/sections/koinos-community.png"
                   alt="Join the community!"
                 />
               </div>

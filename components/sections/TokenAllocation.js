@@ -50,7 +50,7 @@ export default function TokenAllocation() {
                         {/* IMAGE BLOCK */}
                         <div className="col-md-6 order-first order-md-2">
                             <div className="img-block right-column wow" data-aos='fade-right'>
-                                <img className="img-fluid" src="/images/tokenomics-dk.png" alt="Token Allocation" />
+                                <img className="img-fluid" src="/images/sections/tokenomics.png" alt="Token Allocation" />
                             </div>
                         </div>
                     </div> {/* END SECTION CONTENT (ROW) */}

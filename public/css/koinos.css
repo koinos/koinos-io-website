@@ -34,11 +34,6 @@ body {
   overflow: hidden;
 }
 
-/* #page {
-  background-image: url(../images/hero-27.svg);
-  background-position: top center;
-} */
-
 .rel,
 section,
 .container {
@@ -4499,7 +4494,7 @@ span.sm-info {
     right: 0;
     z-index: 1; /* ensure it's behind the content */
     opacity: 0.2;
-    background-image: url(../images/hero-27.svg);
+    background-image: url(../images/pages/hero-background.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4516,7 +4511,7 @@ span.sm-info {
     right: 0;
     z-index: 1; /* ensure it's behind the content */
     opacity: 0.3;
-    background-image: url(../images/hero-27.svg);
+    background-image: url(../images/pages/hero-background.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200%;

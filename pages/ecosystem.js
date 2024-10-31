@@ -157,7 +157,7 @@ export default function Home() {
                   {/* IMAGE BLOCK */}
                   <div className="col-md-6">
                     <div className="img-block right-column wow" data-aos='fade-right'>
-                      <img className="img-fluid btn color--theme" src="/images/koindx.png" alt="content-image" />
+                      <img className="img-fluid btn color--theme" src="/images/pages/koindx.png" alt="KoinDX" />
                     </div>
                   </div>
                 </div>   {/* End row */}
