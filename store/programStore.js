@@ -1,7 +1,7 @@
 import { create } from "zustand"
 import Link from "next/link"
 
-export const useProgramStore = create((set) => ({
+export const useProgramStore = create(() => ({
   programs: {
     earnOnKoinos: {
       url: "/programs/earn-on-koinos",
@@ -117,7 +117,7 @@ export const useProgramStore = create((set) => ({
         banner: "/images/programs/taskon-launch.png",
       },
       featured: false,
-      active: true,
+      active: false,
     },
     lordsForsakenQuest: {
       url: "/programs/lords-forsaken-quest",
@@ -149,32 +149,5 @@ export const useProgramStore = create((set) => ({
       featured: true,
       active: true,
     },
-    // Generic program template
-    genericProgramTemplate: {
-      url: "/programs/generic-program",
-      title: "Generic Program Title",
-      subtitle: "Optional Subtitle",
-      shortDescription: "A brief description of the program.",
-      description: "A more detailed description of the program goes here.",
-      keyPoints: ["Key point 1", "Key point 2", "Key point 3"],
-      website: "https://example.com",
-      details: [<>Detail 1</>, <>Detail 2</>],
-      images: {
-        banner: "/images/placeholder.png",
-      },
-      featured: false,
-      active: false,
-    },
   },
-  setFeaturedProgram: (programKey) =>
-    set((state) => {
-      const updatedPrograms = {}
-      for (const key in state.programs) {
-        updatedPrograms[key] = {
-          ...state.programs[key],
-          featured: key === programKey,
-        }
-      }
-      return { programs: updatedPrograms }
-    }),
 }))

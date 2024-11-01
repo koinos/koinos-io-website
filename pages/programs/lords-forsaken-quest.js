@@ -17,7 +17,6 @@ export default function LordsForsakenQuest() {
   }, []);
 
   const program = useProgramStore((state) => state.programs.lordsForsakenQuest);
-  const relatedProgram = useProgramStore((state) => state.programs.taskonQuest);
 
   const questUrl = "https://taskon.xyz/quest/6984752";
 
@@ -65,7 +64,6 @@ export default function LordsForsakenQuest() {
                 </div>
               </section>
 
-              <RelatedProgram program={relatedProgram} message="You can take advantage of yet another TaskOn quest to be eligible for your share of the 1250 USDT prize pool!" />
               <JoinTheCommunity />
             </div>
           </div>
