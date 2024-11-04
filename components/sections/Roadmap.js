@@ -289,10 +289,10 @@ export default function Roadmap() {
                       {/* Icon */}
                       <div className="ico-wrap">
                         {item.status === "done" && (
-                          <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-filled.png" />
                         )}
                         {item.status !== "done" && (
-                          <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-hollow.png" />
                         )}
                         <span className="cbox-2-line" />
                       </div>
@@ -327,8 +327,8 @@ export default function Roadmap() {
                 </div>
 
                 {roadmap.map((item, index) => (
-                  <div data-aos='fade-up'>
-                    <div key={index} className="cbox-2 process-step">
+                  <div key={index} data-aos='fade-up'>
+                    <div className="cbox-2 process-step">
                       <div className="cbox-2-txt me-4">
                         {index % 2 == 0 && (
                           <>
@@ -348,10 +348,10 @@ export default function Roadmap() {
                       {/* Icon */}
                       <div className="ico-wrap">
                         {item.status === "done" && (
-                          <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-filled.png" />
                         )}
                         {item.status !== "done" && (
-                          <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-hollow.png" />
                         )}
                         <span className="cbox-2-line" />
                       </div>
@@ -407,10 +407,10 @@ export default function Roadmap() {
                       {/* Icon */}
                       <div className="ico-wrap">
                         {item.status === "done" && (
-                          <img className="cbox-2-ico" src="images/rm-logo2.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-filled.png" />
                         )}
                         {item.status !== "done" && (
-                          <img className="cbox-2-ico" src="images/rm-logo1.png" />
+                          <img className="cbox-2-ico" src="images/sections/roadmap/logo-hollow.png" />
                         )}
                         <span className="cbox-2-line" />
                       </div>

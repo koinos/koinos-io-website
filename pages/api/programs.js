@@ -15,6 +15,10 @@ function transformProgram(req, program) {
 
 export default function handler(req, res) {
   try {
+    if (req.method !== 'GET') {
+      return res.status(405).json({ error: 'Method Not Allowed' });
+    }
+
     const { programs } = useProgramStore.getState();
 
     const programList = Object.entries(programs)

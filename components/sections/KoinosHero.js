@@ -18,7 +18,6 @@ export default function KoinosHero() {
                 <div className="hero-27-txt wow" data-aos='fade-down'>
                   {/* Title */}
                   <div className="hero-titles">
-                    {/*<img src="/images/logo-white-white.png" alt="Koinos Logo" style={{width: '75%', minWidth: '300px', maxWidth: '488px'}} />*/}
                     <h2 className="s-50 w-700 mb-2">{title1}</h2>
                     <h2 className="s-40 w-700 mb-4">{title2}</h2>
                   </div>

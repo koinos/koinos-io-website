@@ -1,4 +1,4 @@
-import BrandSlider1 from "../slider/BrandSlider1";
+import BrandSlider from "../slider/BrandSlider";
 export default function Partners() {
 
   return (
@@ -10,7 +10,7 @@ export default function Partners() {
           {/* BRANDS CAROUSEL */}
           <div className="row">
             <div className="col text-center">
-              <BrandSlider1 />
+              <BrandSlider />
             </div>
           </div>{" "}
           {/* END BRANDS CAROUSEL */}

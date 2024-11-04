@@ -16,7 +16,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-export default function Home() {
+export default function IndexPage() {
 
   useEffect(() => {
     AOS.init({
@@ -28,8 +28,9 @@ export default function Home() {
     <>
       <Layout
         headerStyle={1}
-        footerStyle={3}
+        footerStyle={1}
         headerCls="navbar-dark light-hero-header"
+        headerTitle="Web3 for Everyone | Koinos"
       >
         <KoinosHero />
 

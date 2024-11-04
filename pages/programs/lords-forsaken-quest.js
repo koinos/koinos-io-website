@@ -17,7 +17,6 @@ export default function LordsForsakenQuest() {
   }, []);
 
   const program = useProgramStore((state) => state.programs.lordsForsakenQuest);
-  const relatedProgram = useProgramStore((state) => state.programs.taskonQuest);
 
   const questUrl = "https://taskon.xyz/quest/6984752";
 
@@ -25,8 +24,9 @@ export default function LordsForsakenQuest() {
     <>
       <Layout
         headerStyle={1}
-        footerStyle={3}
+        footerStyle={1}
         headerCls="navbar-dark inner-page-header"
+        headTitle="Lord's Forsaken Quest | Koinos"
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -64,7 +64,6 @@ export default function LordsForsakenQuest() {
                 </div>
               </section>
 
-              <RelatedProgram program={relatedProgram} message="You can take advantage of yet another TaskOn quest to be eligible for your share of the 1250 USDT prize pool!" />
               <JoinTheCommunity />
             </div>
           </div>

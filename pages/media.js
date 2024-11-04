@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useEffect, useRef } from "react"
 
-export default function MediaKit() {
+export default function MediaPage() {
   const sidebarRef = useRef(null)
 
   useEffect(() => {
@@ -57,8 +57,9 @@ export default function MediaKit() {
   return (
     <Layout
       headerStyle={1}
-      footerStyle={3}
+      footerStyle={1}
       headerCls="navbar-dark inner-page-header"
+      headTitle="Media Kit | Koinos"
     >
       <div className="mt-5 text-light py-5 header-section">
         <div className="container mt-5">
