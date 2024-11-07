@@ -210,14 +210,14 @@ export default function NotFoundPage() {
                     <div className="glitch-text">404</div>
 
                     <div className="text-content">
-                      <h2 className="page-404-heading">Reality Not Found</h2>
+                      <h2 className="page-404-heading">There is no spoon</h2>
                       <h6 className="page-404-subtext">
-                        The digital realm you seek exists beyond our current dimension
+                        It is not the spoon that bends, it is only yourself.
                       </h6>
                     </div>
 
                     <div className="button-wrapper">
-                      <Link href="/demo-1" className="gradient-border-btn">
+                      <Link href="/" className="gradient-border-btn">
                         Return to Reality
                       </Link>
                     </div>
