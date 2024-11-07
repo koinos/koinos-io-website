@@ -1,0 +1,23 @@
+# All robots
+User-agent: *
+
+# Block access to API endpoints
+Disallow: /api/
+
+# Block access to Next.js internals
+Disallow: /_next/static/
+
+# Allow everything else
+Allow: /
+
+# Googlebot specific
+User-agent: Googlebot
+Allow: /
+
+# Googlebot Images
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /
+
+# Sitemap location
+Sitemap: https://koinos.io/api/sitemap.xml
