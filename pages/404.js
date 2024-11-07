@@ -1,4 +1,4 @@
-import Layout from "@/components/layout/Layout"
+import Layout from "@/components/layout/Layout";
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 
@@ -23,7 +23,7 @@ export default function NotFoundPage() {
     const characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ404アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
     const charArray = characters.split('');
     
-    const fontSize = 16;
+    const fontSize = Math.min(16, window.innerWidth / 50);
     const columns = canvas.width / fontSize;
     const drops = [];
     
@@ -80,7 +80,7 @@ export default function NotFoundPage() {
   }, []);
 
   return (
-    <Layout headerStyle={1} footerStyle={1} headerCls="navbar-dark">
+    <Layout headerStyle={1} footerStyle={3}>
       <div>
         <section id="page-404">
           <style jsx>{`
@@ -105,13 +105,14 @@ export default function NotFoundPage() {
             .content-wrapper {
               position: relative;
               z-index: 2;
-              padding: 3rem;
+              padding: clamp(1.5rem, 5vw, 3rem);
+              margin: 1rem;
               border-radius: 16px;
               box-shadow: 0 0 30px rgba(153, 102, 255, 0.1);
             }
 
             .glitch-text {
-              font-size: 180px;
+              font-size: clamp(80px, 25vw, 180px);
               font-weight: 800;
               color: #fff;
               text-shadow: 
@@ -127,7 +128,7 @@ export default function NotFoundPage() {
 
             .page-404-heading {
               color: #fff;
-              font-size: 2.5rem;
+              font-size: clamp(1.5rem, 5vw, 2.5rem);
               font-weight: 700;
               margin: 2rem 0 1rem;
               text-transform: uppercase;
@@ -137,53 +138,48 @@ export default function NotFoundPage() {
 
             .page-404-subtext {
               color: #a3a3a3;
-              font-size: 1.25rem;
+              font-size: clamp(1rem, 3vw, 1.25rem);
               max-width: 600px;
               margin: 0 auto 2rem auto;
+              padding: 0 1rem;
             }
 
-            .gradient-border-btn {
+            :global(.gradient-border-btn) {
               position: relative;
               display: inline-flex;
-              padding: 0.75rem 2rem;
+              padding: clamp(0.5rem, 2vw, 0.75rem) clamp(1rem, 4vw, 2rem);
               border-radius: 8px;
-              background: rgba(18, 18, 18, 0.9);
-              color: #9966FF;
+              background: #121212;
+              color: #fff;
               text-decoration: none;
               font-weight: 500;
               text-transform: uppercase;
               letter-spacing: 2px;
-              isolation: isolate;
-              overflow: hidden;
               transition: all 0.3s ease;
+              box-shadow:
+                0 0 5px rgba(153, 102, 255, 0.5),
+                0 0 10px rgba(153, 102, 255, 0.3),
+                inset 0 0 5px rgba(153, 102, 255, 0.5),
+                inset 0 0 10px rgba(153, 102, 255, 0.3);
+              font-size: clamp(0.875rem, 2.5vw, 1rem);
             }
 
-            .gradient-border-btn::before {
-              content: '';
-              position: absolute;
-              inset: -2px;
-              background: #9966FF;
-              opacity: 0.7;
-              z-index: -2;
-            }
-
-            .gradient-border-btn::after {
-              content: '';
-              position: absolute;
-              inset: 2px;
-              background: rgba(18, 18, 18, 0.9);
-              border-radius: 6px;
-              z-index: -1;
-            }
-
-            .gradient-border-btn:hover {
+            :global(.gradient-border-btn:hover) {
               transform: translateY(-2px);
+              background: #1a1a1a;
               color: #fff;
-              text-shadow: 0 0 10px #9966FF;
-            }
-
-            .gradient-border-btn:hover::before {
-              opacity: 1;
+              text-shadow: 
+                0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #9966FF,
+                0 0 30px #9966FF,
+                0 0 40px #9966FF,
+                0 0 50px #9966FF;
+              box-shadow:
+                0 0 10px rgba(153, 102, 255, 0.7),
+                0 0 20px rgba(153, 102, 255, 0.5),
+                inset 0 0 10px rgba(153, 102, 255, 0.7),
+                inset 0 0 20px rgba(153, 102, 255, 0.5);
             }
 
             @keyframes float {
@@ -197,6 +193,17 @@ export default function NotFoundPage() {
 
             .content-wrapper {
               animation: float 6s ease-in-out infinite;
+            }
+
+            @media (max-width: 480px) {
+              .content-wrapper {
+                animation: none;
+              }
+              
+              :global(.gradient-border-btn) {
+                width: 90%;
+                justify-content: center;
+              }
             }
           `}</style>
 
@@ -218,7 +225,7 @@ export default function NotFoundPage() {
 
                     <div className="button-wrapper">
                       <Link href="/" className="gradient-border-btn">
-                        Return to Reality
+                        Back to the Real World
                       </Link>
                     </div>
                   </div>
