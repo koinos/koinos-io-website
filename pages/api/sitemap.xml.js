@@ -1,9 +1,3 @@
-/**
- * Dynamic Sitemap Generator for Koinos
- * Following Google's sitemap guidelines:
- * @see https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
- */
-
 import { format } from 'date-fns';
 const SITE_URL = process.env.NODE_ENV === 'development' 
   ? 'http://localhost:3000'
