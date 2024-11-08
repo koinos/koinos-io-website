@@ -20,7 +20,7 @@ export default function NotFoundPage() {
     resizeCanvas();
     window.addEventListener('resize', resizeCanvas);
 
-    const characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ404アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
+    const characters = 'KOINOS404アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
     const charArray = characters.split('');
     
     const fontSize = Math.min(16, window.innerWidth / 50);
@@ -61,7 +61,7 @@ export default function NotFoundPage() {
           drops[i] = 0;
         }
         
-        drops[i]++;
+        drops[i]+= 0.5;
       }
     };
 
@@ -193,6 +193,9 @@ export default function NotFoundPage() {
 
             .content-wrapper {
               animation: float 6s ease-in-out infinite;
+              box-shadow: none !important;
+              -webkit-box-shadow: none !important;
+              -moz-box-shadow: none !important;
             }
 
             @media (max-width: 480px) {
