@@ -13,8 +13,8 @@ export default function NotFoundPage() {
     const ctx = canvas.getContext('2d');
 
     const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      canvas.width = document.documentElement.clientWidth;
+      canvas.height = document.documentElement.clientHeight;
     };
     
     resizeCanvas();
@@ -91,24 +91,34 @@ export default function NotFoundPage() {
               align-items: center;
               position: relative;
               overflow: hidden;
+              margin: 0;
+              padding: 0;
             }
 
             .matrix-canvas {
-              position: absolute;
+              position: fixed;
               top: 0;
               left: 0;
-              width: 100%;
-              height: 100%;
+              width: 100vw;
+              height: 100vh;
               z-index: 1;
+              overflow: hidden;
             }
 
             .content-wrapper {
               position: relative;
               z-index: 2;
-              padding: clamp(1.5rem, 5vw, 3rem);
-              margin: 1rem;
+              padding: clamp(1rem, 3vh, 3rem);
+              margin: 0;
               border-radius: 16px;
-              box-shadow: 0 0 30px rgba(153, 102, 255, 0.1);
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              min-height: 100vh;
+            }
+
+            .page-404-txt {
+              padding-top: env(safe-area-inset-top);
             }
 
             .glitch-text {
@@ -200,12 +210,14 @@ export default function NotFoundPage() {
 
             @media (max-width: 480px) {
               .content-wrapper {
+                padding: max(1rem, 3vh) 1rem;
+                min-height: 100vh;
                 animation: none;
-              }
-              
-              :global(.gradient-border-btn) {
-                width: 90%;
                 justify-content: center;
+              }
+
+              .page-404-txt {
+                margin-top: -10vh;
               }
             }
           `}</style>
