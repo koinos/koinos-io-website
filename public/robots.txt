@@ -20,4 +20,4 @@ Allow: /images/
 Allow: /
 
 # Sitemap location
-Sitemap: https://koinos.io/api/sitemap.xml
+Sitemap: https://koinos.io/sitemap.xml
