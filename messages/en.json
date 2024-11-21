@@ -1,0 +1,49 @@
+{
+  "Menu": {
+    "learn": "Learn",
+    "whitepaper": "Whitepaper",
+    "features": "Features",
+    "faqs": "FAQs",
+    "documentation": "Documentation",
+    "ecosystem": "Ecosystem",
+    "roadmap": "Roadmap",
+    "team": "Team"
+  },
+  "Hero": {
+    "title1": "Web3 for Everyone",
+    "title2": "Frictionless, Simple, Powerful",
+    "subtitle": "Koinos is engineered to deliver a user experience for everyday people.",
+    "buttons": {
+      "telegram": "Join Telegram",
+      "build": "Build on Koinos"
+    }
+  },
+  "FeatureEcosystem": {
+    "sectionId": "Ecosystem Highlights",
+    "title": "An Ever-Evolving Ecosystem",
+    "description": "With new and innovative dApps popping up every week, Koinos facilitates a bright future for Web3. Check out the <ecosystemLink>ecosystem</ecosystemLink> page to learn about more great projects.",
+    "ecosystemLink": "ecosystem",
+    "benefits": {
+      "item1": "Onboard new users with free accounts and allow them to interact with your dApp without cryptocurrency",
+      "item2": "Tap into the community to bootstrap your ideas and bring them to fruition"
+    },
+    "projects": {
+      "kollection": {
+        "title": "Kollection",
+        "description": "<kollectionLink>Kollection</kollectionLink> is a full featured NFT marketplace that allows creators to launch and sell their products."
+      },
+      "koindx": {
+        "title": "KoinDX",
+        "description": "<koindxLink>KoinDX</koindxLink> is the world's first decentralized exchange built on the Koinos blockchain."
+      },
+      "koiner": {
+        "title": "Koiner",
+        "description": "<koinerLink>Koiner</koinerLink> is the Koinos' community favorite block explorer giving users insights into chain statistics."
+      },
+      "koincity": {
+        "title": "KoinCity",
+        "description": "<koincityLink>KoinCity</koincityLink> is a token launchpad with features including staking and social interaction."
+      }
+    }
+  }
+}

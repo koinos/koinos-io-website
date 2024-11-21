@@ -61,3 +61,11 @@ export default function IndexPage() {
     </>
   );
 }
+
+export async function getStaticProps({ params: { locale } }) {
+  return {
+    props: {
+      messages: (await import(`../messages/${locale}.json`)).default
+    }
+  }
+}

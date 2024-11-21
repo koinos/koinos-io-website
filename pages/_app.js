@@ -1,4 +1,6 @@
 import { useEffect } from "react"
+import { NextIntlClientProvider } from 'next-intl';
+import { useRouter } from 'next/router';
 import { initGTM } from '../utils/gtm';
 
 import 'swiper/css'
@@ -13,13 +15,22 @@ import "/public/css/koinos.css"
 import "/public/css/responsive.css"
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
   useEffect(() => {
     initGTM();
   }, []);
 
-  return (<>
-    <Component {...pageProps} />
-  </>);
+  return (
+    <NextIntlClientProvider
+      locale={router.locale}
+      messages={pageProps.messages}
+      timeZone="UTC"
+    >
+      <Component {...pageProps} />
+    </NextIntlClientProvider>
+  );
 }
+
 export default MyApp
 

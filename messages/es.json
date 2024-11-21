@@ -1,0 +1,49 @@
+{
+  "Menu": {
+    "learn": "Aprende",
+    "whitepaper": "Libro Blanco",
+    "features": "Características",
+    "faqs": "Preguntas Frecuentes",
+    "documentation": "Documentación",
+    "ecosystem": "Ecosistema",
+    "roadmap": "Hoja de Ruta",
+    "team": "Equipo"
+  },
+  "Hero": {
+    "title1": "Web3 para Todos",
+    "title2": "Sin Fricción, Simple, Potente",
+    "subtitle": "Koinos está diseñado para ofrecer una experiencia de usuario para personas comunes.",
+    "buttons": {
+      "telegram": "Únete a Telegram",
+      "build": "Construye en Koinos"
+    }
+  },
+  "FeatureEcosystem": {
+    "sectionId": "Destacados del Ecosistema",
+    "title": "Un Ecosistema en Constante Evolución",
+    "description": "Con nuevas e innovadoras dApps surgiendo cada semana, Koinos facilita un futuro brillante para Web3. Visita la página del <ecosystemLink>ecosistema</ecosystemLink> para conocer más proyectos increíbles.",
+    "ecosystemLink": "ecosistema",
+    "benefits": {
+      "item1": "Incorpora nuevos usuarios con cuentas gratuitas y permíteles interactuar con tu dApp sin criptomonedas",
+      "item2": "Aprovecha la comunidad para impulsar tus ideas y llevarlas a cabo"
+    },
+    "projects": {
+      "kollection": {
+        "title": "Kollection",
+        "description": "<kollectionLink>Kollection</kollectionLink> es un mercado NFT completo que permite a los creadores lanzar y vender sus productos."
+      },
+      "koindx": {
+        "title": "KoinDX",
+        "description": "<koindxLink>KoinDX</koindxLink> es el primer intercambio descentralizado construido en la blockchain de Koinos."
+      },
+      "koiner": {
+        "title": "Koiner",
+        "description": "<koinerLink>Koiner</koinerLink> es el explorador de bloques favorito de la comunidad Koinos que proporciona información sobre las estadísticas de la cadena."
+      },
+      "koincity": {
+        "title": "KoinCity",
+        "description": "<koincityLink>KoinCity</koincityLink> es una plataforma de lanzamiento de tokens con características que incluyen staking e interacción social."
+      }
+    }
+  }
+}
