@@ -16,6 +16,7 @@ import "/public/css/responsive.css"
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
+  const messages = pageProps.messages || {};
 
   useEffect(() => {
     initGTM();
@@ -23,8 +24,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <NextIntlClientProvider
-      locale={router.locale}
-      messages={pageProps.messages}
+      locale={router.locale || 'en'}
+      messages={messages}
       timeZone="UTC"
     >
       <Component {...pageProps} />
