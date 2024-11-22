@@ -86,7 +86,7 @@ export default function Document() {
         />
         <meta
           name="twitter:description"
-          content="Frictionless, Simple, Powerful. Decentralized and efficient. Koinos is engineered to deliver a user experience for everyday people."
+          content="Feeless, Frictionless, Familiar. Decentralized and efficient. Koinos is engineered to deliver a user experience for everyday people."
         />
         <meta
           name="twitter:image"
