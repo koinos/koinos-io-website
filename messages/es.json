@@ -45,5 +45,70 @@
         "description": "<koincityLink>KoinCity</koincityLink> es una plataforma de lanzamiento de tokens con características que incluyen staking e interacción social."
       }
     }
+  },
+  "FeatureCommunity": {
+    "section_id": "Comunidad",
+    "title": "Construyendo el Futuro de Web3",
+    "description": "Koinos es un proyecto descentralizado gobernado por la comunidad. Regularmente surgen nuevos proyectos comunitarios emocionantes, reflejando la diversidad de pensamiento y creatividad de la comunidad Koinos.",
+    "built_for": {
+      "developers": "Construido para Desarrolladores",
+      "entrepreneurs": "Construido para Emprendedores",
+      "users": "Construido para Usuarios"
+    },
+    "telegram_text": "Da forma al futuro del protocolo uniéndote a nosotros en",
+    "discord_text": "Colabora con ingenieros Web3 y validadores en",
+    "twitter_text": "Mantente al día con los últimos desarrollos siguiéndonos en",
+    "more_text": "Visita la página de la comunidad para descubrir grupos internacionales y de dApps de Koinos"
+  },
+  "TokenAllocation": {
+    "section_id": "Distribución de Tokens",
+    "title": "Lanzamiento Justo",
+    "description": "El suministro inicial de Koinos se creó a través de un contrato de minería Proof-of-Work de un año en la blockchain de Ethereum. Las monedas siguen siendo reclamables en la red principal de Koinos para todos los participantes.",
+    "features": {
+      "fair_launch": "Lanzamiento Justo",
+      "no_locked": "Sin Monedas Bloqueadas",
+      "public_allocation": "100% Asignación Pública"
+    }
+  },
+  "WhereToGetKOIN": {
+    "title": "Dónde obtener KOIN",
+    "subtitle": "Encuentra Koinos en Exchanges de Todo el Mundo"
+  },
+  "MediumBlog": {
+    "section_id": "Blog",
+    "title": "Noticias y Actualizaciones",
+    "subtitle": "Mantente Actualizado con las Últimas Noticias en nuestro Blog de Medium",
+    "loading": "Cargando...",
+    "published_on": "Publicado el"
+  },
+  "KoinosAdvantage": {
+    "title": "La Ventaja de Koinos",
+    "subtitle": "Koinos está Diseñado para Proporcionar una Experiencia Web2 en Web3",
+    "items": {
+      "feeless": {
+        "title": "Contratos Inteligentes sin Comisiones",
+        "description": "¡Como el internet! El sistema Mana de Koinos te permite usar la blockchain sin gastar, o incluso tener, NINGÚN token. Mana se recarga con el tiempo y puede compartirse con otros. ¡Koinos reduce las barreras con contratos inteligentes sin comisiones!"
+      },
+      "web2": {
+        "title": "Una Experiencia Web2 en Web3",
+        "description": "Nuestro innovador sistema Mana se recarga como una batería, permitiendo que las aplicaciones realicen transacciones sin comisiones y el único costo es esperar a que su \"batería\" se recargue. Este enfoque único ofrece una experiencia de usuario verdaderamente sin fricciones."
+      },
+      "upgradeable": {
+        "title": "Blockchain Actualizable / Evolutiva",
+        "description": "Toda la blockchain es altamente modular y es la primera cadena con consenso y gobernanza construida desde contratos inteligentes. Cualquier cosa, incluyendo las características principales de la blockchain, puede actualizarse con facilidad. No más retrasos \"estilo Eth 2.0\"."
+      },
+      "fast": {
+        "title": "Velocidad Relámpago",
+        "description": "Con bloques cada 3 segundos, Koinos ofrece una experiencia casi en tiempo real tanto para aplicaciones como para ti, el usuario. Esto proporciona la capacidad de respuesta crítica necesaria para facilitar una experiencia Web2 en Web3."
+      },
+      "microservices": {
+        "title": "Arquitectura de Microservicios",
+        "description": "Koinos es una de las pocas blockchains que aprovecha una arquitectura de microservicios. Como desarrollador, puedes construir microservicios personalizados en todos los lenguajes principales. No más bases de código monolíticas."
+      },
+      "universal": {
+        "title": "Soporte Universal de Lenguajes",
+        "description": "Se agregan cada vez más lenguajes de contratos inteligentes gracias a la implementación KVM (Koinos Virtual Machine) de WebAssembly (WASM) y los protocol buffers de Google (Protobuf). Hoy puedes comenzar con los populares lenguajes TypeScript y C++."
+      }
+    }
   }
 }

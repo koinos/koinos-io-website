@@ -1,7 +1,9 @@
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 import { useExchangeStore } from "@/store/exchangeStore";
 
 export default function WhereToGetKOIN() {
+  const t = useTranslations('WhereToGetKOIN');
   const { exchanges } = useExchangeStore();
 
   return (
@@ -11,8 +13,8 @@ export default function WhereToGetKOIN() {
           <div className="row justify-content-center">
             <div className="col-md-8">
               <div className="section-title mb-70">
-                <h2 className="s-50 w-700">Where to get KOIN</h2>
-                <p className="s-21 color--grey">Find Koinos on Exchanges Across the Globe</p>
+                <h2 className="s-50 w-700">{t('title')}</h2>
+                <p className="s-21 color--grey">{t('subtitle')}</p>
               </div>
             </div>
           </div>

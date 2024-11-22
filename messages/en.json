@@ -45,5 +45,70 @@
         "description": "<koincityLink>KoinCity</koincityLink> is a token launchpad with features including staking and social interaction."
       }
     }
+  },
+  "FeatureCommunity": {
+    "section_id": "Community",
+    "title": "Building the Future of Web3",
+    "description": "Koinos is a decentralized project governed by the community. Exciting new community projects emerge regularly, reflecting the diversity of thought and creativity of the Koinos community.",
+    "built_for": {
+      "developers": "Built for Developers",
+      "entrepreneurs": "Built for Entrepreneurs",
+      "users": "Built for Users"
+    },
+    "telegram_text": "Shape the future of the protocol by joining us on",
+    "discord_text": "Collaborate with Web3 engineers and validators on",
+    "twitter_text": "Stay up-to-date with the latest developments by following us on",
+    "more_text": "Visit the community page to discover Koinos international and dApp groups"
+  },
+  "TokenAllocation": {
+    "section_id": "Token Allocation",
+    "title": "Fair Launched",
+    "description": "Koinos' initial supply was created through a one year Proof-of-Work mining contract on the Ethereum blockchain. Coins remain claimable on Koinos' main net for all participants.",
+    "features": {
+      "fair_launch": "Fair Launch",
+      "no_locked": "No Locked Coins",
+      "public_allocation": "100% Publicly Allocated"
+    }
+  },
+  "WhereToGetKOIN": {
+    "title": "Where to get KOIN",
+    "subtitle": "Find Koinos on Exchanges Across the Globe"
+  },
+  "MediumBlog": {
+    "section_id": "Blog",
+    "title": "News & Updates",
+    "subtitle": "Stay Updated with the Latest News on our Medium Blog",
+    "loading": "Loading...",
+    "published_on": "Published on"
+  },
+  "KoinosAdvantage": {
+    "title": "The Koinos Advantage",
+    "subtitle": "Koinos is Engineered to Provide a Web2 User Experience on Web3",
+    "items": {
+      "feeless": {
+        "title": "Smart Contracts without Fees",
+        "description": "Just like the internet! The Koinos Mana system allows you to use the blockchain without spending, or even holding, ANY tokens. Mana recharges over time and can be shared with others. Koinos lowers the barrier with feeless smart contracts!"
+      },
+      "web2": {
+        "title": "A Web2 User Experience on Web3",
+        "description": "Our innovative Mana system recharges like a battery, enabling applications to allow feeless transactions for you and the only cost to them is waiting for their \"battery\" to recharge. This unique approach offers a truly frictionless user experience."
+      },
+      "upgradeable": {
+        "title": "Upgradable / Evolving Blockchain",
+        "description": "The entire blockchain is highly modular and is the first chain with consensus and governance built from smart contracts. Anything including the core features of the blockchain can be upgraded with ease. No more \"Eth 2.0-style\" delays."
+      },
+      "fast": {
+        "title": "Lightning Fast",
+        "description": "With a 3 second block times, Koinos offers a near realtime experience for both applications and you, the user. This provides critical responsiveness needed to facilitate a Web2 experience on Web3."
+      },
+      "microservices": {
+        "title": "Microservices Architecture",
+        "description": "Koinos is one of the very few blockchains to leverage a microservice architecture. As a developer you can build custom microservices in all major languages. No more monolithic codebases."
+      },
+      "universal": {
+        "title": "Universal Language Support",
+        "description": "A growing number of smart contract languages are added thanks to the KVM (Koinos Virtual Machine) implementation of WebAssembly (WASM) and Google's protocol buffers (Protobuf). Today you can get started with the popular languages TypeScript and C++."
+      }
+    }
   }
 }

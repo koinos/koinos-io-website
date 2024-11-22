@@ -44,7 +44,7 @@ export default function Menu() {
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <div className="language-switcher">
+          <div className="language-switcher mt-3">
             <Link href={router.asPath} locale="en" className={router.locale === 'en' ? 'active' : ''}>
               EN
             </Link>

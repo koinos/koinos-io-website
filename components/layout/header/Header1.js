@@ -61,7 +61,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
               <div className="desktoplogo">
               </div>
               {/* MAIN MENU */}
-              <nav className="wsmenu clearfix" style={{ height: `${isMobileMenu ? "100vh" : ""}` }}>
+              <nav 
+                className="wsmenu clearfix" 
+                style={isMobileMenu ? { height: '100vh' } : undefined}
+              >
                 {isMobileMenu ? <MobileMenu handleMobileMenu={handleMobileMenu} /> : <Menu />}
               </nav> {/* END MAIN MENU */}
             </div>
