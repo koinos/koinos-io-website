@@ -110,5 +110,31 @@
         "description": "Se agregan cada vez más lenguajes de contratos inteligentes gracias a la implementación KVM (Koinos Virtual Machine) de WebAssembly (WASM) y los protocol buffers de Google (Protobuf). Hoy puedes comenzar con los populares lenguajes TypeScript y C++."
       }
     }
+  },
+  "ChainStatistics": {
+    "title": "Estadísticas de la Blockchain",
+    "subtitle": "Una Potente Red Descentralizada para un Ecosistema en Crecimiento",
+    "accounts": {
+      "title": "Cuentas",
+      "description": "Número total de cuentas activadas"
+    },
+    "blocks": {
+      "title": "Bloques",
+      "description": "Número total de bloques producidos"
+    },
+    "transactions": {
+      "title": "Transacciones",
+      "description": "Número total de transacciones realizadas"
+    }
+  },
+  "Wallets": {
+    "title": "Billeteras",
+    "subtitle": "Las Billeteras de Koinos Llevan Tecnología de Vanguardia a Todos",
+    "kondor": {
+      "description": "Billetera Koinos completa para Google Chrome"
+    },
+    "konio": {
+      "description": "Billetera móvil nativa completa para Android/iOS"
+    }
   }
 }

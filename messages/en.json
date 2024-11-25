@@ -110,5 +110,31 @@
         "description": "A growing number of smart contract languages are added thanks to the KVM (Koinos Virtual Machine) implementation of WebAssembly (WASM) and Google's protocol buffers (Protobuf). Today you can get started with the popular languages TypeScript and C++."
       }
     }
+  },
+  "ChainStatistics": {
+    "title": "Blockchain Statistics",
+    "subtitle": "A Powerful Decentralized Network for a Growing Ecosystem",
+    "accounts": {
+      "title": "Accounts",
+      "description": "Total number of activated accounts"
+    },
+    "blocks": {
+      "title": "Blocks",
+      "description": "Total number of blocks produced"
+    },
+    "transactions": {
+      "title": "Transactions",
+      "description": "Total number of transactions performed"
+    }
+  },
+  "Wallets": {
+    "title": "Wallets",
+    "subtitle": "Koinos Wallets Bring Cutting-Edge Technology to Everyone",
+    "kondor": {
+      "description": "Full featured Koinos wallet for Google Chrome"
+    },
+    "konio": {
+      "description": "Full featured native mobile wallet for Android/iOS"
+    }
   }
 }
