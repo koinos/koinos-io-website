@@ -1,9 +1,8 @@
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 export default function KoinosHero() {
-  const title1 = "Web3 for Everyone";
-  const title2 = "Frictionless, Simple, Powerful";
-  const subtle = "Koinos is engineered to deliver a user experience for everyday people.";
+  const t = useTranslations('Hero');
   
 
   return (
@@ -18,11 +17,11 @@ export default function KoinosHero() {
                 <div className="hero-27-txt wow" data-aos='fade-down'>
                   {/* Title */}
                   <div className="hero-titles">
-                    <h2 className="s-50 w-700 mb-2">{title1}</h2>
-                    <h2 className="s-40 w-700 mb-4">{title2}</h2>
+                    <h2 className="s-50 w-700 mb-2">{t('title1')}</h2>
+                    <h2 className="s-40 w-700 mb-4">{t('title2')}</h2>
                   </div>
                   {/* Text */}
-                  <p className="s-20 mb-4">{subtle}</p>
+                  <p className="s-20 mb-4">{t('subtitle')}</p>
                   {/* Buttons */}
                   <div className="btns-group hero-btns">
                     <Link
@@ -30,25 +29,16 @@ export default function KoinosHero() {
                       target="_blank"
                       className="btn r-04 btn--theme btn--primary"
                     >
-                      Join Telegram{" "}<i className="fa-brands fa-telegram fa-lg" />
+                      {t('buttons.telegram')}{" "}<i className="fa-brands fa-telegram fa-lg" />
                     </Link>
                     <Link
                       href="https://docs.koinos.io/"
                       target="_blank"
                       className="btn r-04 btn--theme btn--secondary"
                     >
-                      Build on Koinos{" "}<i className="fa-solid fa-code fa-lg" />
+                      {t('buttons.build')}{" "}<i className="fa-solid fa-code fa-lg" />
                     </Link>
                   </div>
-                  {/* 
-                                    <ul className="advantages ico-15 mt-25 clearfix">
-                                        <li><p>No credit card required</p></li>
-                                        <li className="advantages-links-divider"><p><span className="flaticon-minus" /></p></li>
-                                        <li><p>Cancel at anytime</p></li>
-                                        <li className="advantages-links-divider"><p><span className="flaticon-minus" /></p></li>
-                                        <li><p>Free 14 days trial</p></li>
-                                    </ul>
-                                     */}
                 </div>
               </div>
             </div>{" "}

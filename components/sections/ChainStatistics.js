@@ -1,14 +1,13 @@
 import CounterUp from "../elements/CounterUp";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import humanFormat from "human-format";
+import { useTranslations } from "next-intl";
 
 export default function ChainStatistics() {
   const [transactions, setTransactions] = useState(0);
   const [accounts, setAccounts] = useState(0);
   const [blocks, setBlocks] = useState(0);
-
-  const title = "Blockchain Statistics";
-  const subtle = "A Powerful Decentralized Network for a Growing Ecosystem"
+  const t = useTranslations('ChainStatistics');
 
   const getData = () => {
     const url = "https://api.koiner.app/graphql";
@@ -76,26 +75,20 @@ export default function ChainStatistics() {
     <>
       <div id="statistic-5" className="pt-50 statistic-section division">
         <div className="container">
-          {/* STATISTIC-1 WRAPPER */}
           <div className="statistic-5-wrapper">
-            {/* SECTION TITLE */}
             <div className="row justify-content-center">
               <div className="col-md-8">
                 <div className="section-title mb-70">
-                  {/* Title */}
-                  <h2 className="s-50 w-700">{title}</h2>
-                  {/* Text */}
-                  <p className="s-21 color--grey">{subtle}</p>
+                  <h2 className="s-50 w-700">{t('title')}</h2>
+                  <p className="s-21 color--grey">{t('subtitle')}</p>
                 </div>
               </div>
             </div>
             <div className="data-wrapper">
               <div className="row row-cols-1 row-cols-md-3">
-                {/* STATISTIC BLOCK #1 */}
                 <div className="col">
-                  <div id="sb-5-1" className="wow"  data-aos='fade-up'>
+                  <div id="sb-5-1" className="wow" data-aos='fade-up'>
                     <div className="statistic-block">
-                      {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
                           <CounterUp end={humanAccounts[0]} duration={20} />.
@@ -103,20 +96,16 @@ export default function ChainStatistics() {
                           {humanAccounts[2]}
                         </h2>
                       </div>
-                      {/* Text */}
                       <div className="statistic-txt">
-                        <h5 className="s-19 w-700">Accounts</h5>
-                        <p>Total number of activated accounts</p>
+                        <h5 className="s-19 w-700">{t('accounts.title')}</h5>
+                        <p>{t('accounts.description')}</p>
                       </div>
                     </div>
                   </div>
-                </div>{" "}
-                {/* END STATISTIC BLOCK #1 */}
-                {/* STATISTIC BLOCK #2 */}
+                </div>
                 <div className="col">
-                  <div id="sb-5-2" className="wow"  data-aos='fade-up'>
+                  <div id="sb-5-2" className="wow" data-aos='fade-up'>
                     <div className="statistic-block">
-                      {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
                           <CounterUp end={humanBlocks[0]} duration={20} />.
@@ -124,44 +113,34 @@ export default function ChainStatistics() {
                           {humanBlocks[2]}
                         </h2>
                       </div>
-                      {/* Text */}
                       <div className="statistic-txt">
-                        <h5 className="s-19 w-700">Blocks</h5>
-                        <p>Total number of blocks produced</p>
+                        <h5 className="s-19 w-700">{t('blocks.title')}</h5>
+                        <p>{t('blocks.description')}</p>
                       </div>
                     </div>
                   </div>
-                </div>{" "}
-                {/* END STATISTIC BLOCK #2 */}
-                {/* STATISTIC BLOCK #3 */}
+                </div>
                 <div className="col">
-                  <div id="sb-5-3" className="wow"  data-aos='fade-up'>
+                  <div id="sb-5-3" className="wow" data-aos='fade-up'>
                     <div className="statistic-block">
-                      {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
-                          <CounterUp end={humanTransactions[0]} duration={20} />
-                          .
+                          <CounterUp end={humanTransactions[0]} duration={20} />.
                           <CounterUp end={humanTransactions[1]} duration={20} />
                           {humanTransactions[2]}
                         </h2>
                       </div>
-                      {/* Text */}
                       <div className="statistic-txt">
-                        <h5 className="s-19 w-700">Transactions</h5>
-                        <p>Total number of transactions performed</p>
+                        <h5 className="s-19 w-700">{t('transactions.title')}</h5>
+                        <p>{t('transactions.description')}</p>
                       </div>
                     </div>
                   </div>
-                </div>{" "}
-                {/* END STATISTIC BLOCK #3 */}
-              </div>{" "}
+                </div>
+              </div>
             </div>
-            {/* End row */}
-          </div>{" "}
-          {/* END STATISTIC-5 WRAPPER */}
-        </div>{" "}
-        {/* End container */}
+          </div>
+        </div>
       </div>
     </>
   );
