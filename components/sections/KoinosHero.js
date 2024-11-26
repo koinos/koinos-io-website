@@ -2,9 +2,7 @@ import Link from "next/link";
 
 export default function KoinosHero() {
   const title1 = "Web3 for Everyone";
-  const title2 = "Frictionless, Simple, Powerful";
-  const subtle = "Koinos is engineered to deliver a user experience for everyday people.";
-  
+  const title2 = "Feeless, Frictionless, Familiar";
 
   return (
     <>
@@ -21,10 +19,8 @@ export default function KoinosHero() {
                     <h2 className="s-50 w-700 mb-2">{title1}</h2>
                     <h2 className="s-40 w-700 mb-4">{title2}</h2>
                   </div>
-                  {/* Text */}
-                  <p className="s-20 mb-4">{subtle}</p>
                   {/* Buttons */}
-                  <div className="btns-group hero-btns">
+                  <div className="btns-group hero-btns mt-4">
                     <Link
                       href="https://telegram.koinos.io/"
                       target="_blank"
