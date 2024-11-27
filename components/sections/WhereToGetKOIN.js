@@ -17,7 +17,7 @@ export default function WhereToGetKOIN() {
             </div>
           </div>
           <div className="integrations-1-wrapper">
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 rows-2">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 rows-2">
               {exchanges.map((exchange, index) => (
                 <div key={index} className="col">
                   <Link href={exchange.url} className="in_tool it-1 r-12 mb-30 wow" data-aos='fade-up'>
