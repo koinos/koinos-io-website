@@ -338,5 +338,27 @@
         }
       }
     }
+  },
+  "Footer": {
+    "help": {
+      "title": "Ayuda",
+      "faqs": "Preguntas Frecuentes",
+      "media": "Medios",
+      "contact": "Contacto"
+    },
+    "social": {
+      "title": "Social",
+      "telegram": "Telegram",
+      "discord": "Discord",
+      "twitter": "Twitter",
+      "youtube": "YouTube"
+    },
+    "other": {
+      "title": "Otros",
+      "claim": "Reclamar KOIN",
+      "story": "Nuestra Historia",
+      "blog": "Blog"
+    },
+    "copyright": "Todos los derechos reservados"
   }
 }

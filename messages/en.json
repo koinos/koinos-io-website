@@ -338,5 +338,27 @@
         }
       }
     }
+  },
+  "Footer": {
+    "help": {
+      "title": "Help",
+      "faqs": "FAQs",
+      "media": "Media",
+      "contact": "Contact"
+    },
+    "social": {
+      "title": "Social",
+      "telegram": "Telegram",
+      "discord": "Discord",
+      "twitter": "Twitter",
+      "youtube": "YouTube"
+    },
+    "other": {
+      "title": "Other",
+      "claim": "Claim KOIN",
+      "story": "Our Story",
+      "blog": "Blog"
+    },
+    "copyright": "All rights reserved"
   }
 }

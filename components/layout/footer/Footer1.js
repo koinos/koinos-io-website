@@ -1,6 +1,8 @@
 import Link from "next/link"
+import { useTranslations } from 'next-intl';
 
 export default function Footer1() {
+  const t = useTranslations('Footer');
   return (
     <>
       <footer id="footer-3" className="pt-100 footer ft-3-ntr">
@@ -18,136 +20,87 @@ export default function Footer1() {
             <div className="col-sm-3">
               <div className="footer-links fl-1">
                 {/* Title */}
-                <h6 className="s-17 w-700">Help</h6>
+                <h6 className="s-17 w-700">{t('help.title')}</h6>
                 {/* Links */}
                 <ul className="foo-links clearfix">
                   <li>
-                    <p><Link href="/faqs">FAQs</Link></p>
+                    <p><Link href="/faqs">{t('help.faqs')}</Link></p>
                   </li>
                   <li>
-                    <p><Link href="/media">Media Kit</Link></p>
+                    <p><Link href="/media">{t('help.media')}</Link></p>
                   </li>
                   <li>
-                    <p><Link href="https://telegram.koinos.io">Contact us</Link></p>
+                    <p><Link href="https://telegram.koinos.io">{t('help.contact')}</Link></p>
                   </li>
                 </ul>
               </div>
-            </div> {/* END FOOTER LINKS */}
-
-            {/*
-                        <div className="col-sm-3 col-lg-3 col-xl-2">
-                            <div className="footer-links fl-3">
-
-                                <h6 className="s-17 w-700">Legal</h6>
-
-                                <ul className="foo-links clearfix">
-                                    <li>
-                                        <p><Link href="/terms">Terms of Use</Link></p>
-                                    </li>
-                                    <li>
-                                        <p><Link href="/privacy">Privacy Policy</Link></p>
-                                    </li>
-                                    <li>
-                                        <p><Link href="/cookies">Cookie Policy</Link></p>
-                                    </li>
-                                    <li>
-                                        <p><Link href="#">Site Map</Link></p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        */}
+            </div>
 
             {/* FOOTER LINKS */}
             <div className="col-sm-3">
               <div className="footer-links fl-2">
                 {/* Title */}
-                <h6 className="s-17 w-700">Social</h6>
+                <h6 className="s-17 w-700">{t('social.title')}</h6>
                 {/* Links */}
                 <ul className="foo-links clearfix">
                   <li>
-                    <p><Link href="https://telegram.koinos.io" target="_blank">Telegram</Link></p>
+                    <p><Link href="https://telegram.koinos.io" target="_blank">{t('social.telegram')}</Link></p>
                   </li>
                   <li>
-                    <p><Link href="https://discord.koinos.io" target="_blank">Discord</Link></p>
+                    <p><Link href="https://discord.koinos.io" target="_blank">{t('social.discord')}</Link></p>
                   </li>
                   <li>
-                    <p><Link href="https://twitter.com/koinosnetwork" target="_blank">Twitter</Link></p>
+                    <p><Link href="https://twitter.com/koinosnetwork" target="_blank">{t('social.twitter')}</Link></p>
                   </li>
                   <li>
-                    <p><Link href="https://www.youtube.com/channel/UCamXqlj7q14TllcrCM0ikkw" target="_blank">Youtube</Link></p>
+                    <p><Link href="https://www.youtube.com/channel/UCamXqlj7q14TllcrCM0ikkw" target="_blank">{t('social.youtube')}</Link></p>
                   </li>
                 </ul>
               </div>
-            </div> {/* END FOOTER LINKS */}
+            </div>
 
             {/* FOOTER LINKS */}
             <div className="col-sm-3">
               <div className="footer-links fl-2">
                 {/* Title */}
-                <h6 className="s-17 w-700">Other</h6>
+                <h6 className="s-17 w-700">{t('other.title')}</h6>
                 {/* Links */}
                 <ul className="foo-links clearfix">
                   <li>
-                    <p><Link href="https://claim.koinos.io" target="_blank">Claim Pre-Mainnet KOIN</Link></p>
+                    <p><Link href="https://claim.koinos.io" target="_blank">{t('other.claim')}</Link></p>
                   </li>
                   <li>
-                    <p><Link href="https://koinos.group/story" target="_blank">Our Story</Link></p>
+                    <p><Link href="https://koinos.group/story" target="_blank">{t('other.story')}</Link></p>
                   </li>
                   <li>
-                    <p><Link href="https://medium.com/koinosnetwork" target="_blank">Blog</Link></p>
+                    <p><Link href="https://medium.com/koinosnetwork" target="_blank">{t('other.blog')}</Link></p>
                   </li>
                 </ul>
               </div>
-            </div> {/* END FOOTER LINKS */}
-
-            {/* FOOTER NEWSLETTER FORM
-                        <div className="col-sm-10 col-md-8 col-lg-4 col-xl-3">
-                            <div className="footer-form">
-
-                                <h6 className="s-17 w-700">Follow the Best</h6>
-
-                                <form className="newsletter-form">
-                                    <div className="input-group r-06">
-                                        <input type="email" className="form-control" placeholder="Email Address" required id="s-email" />
-                                        <span className="input-group-btn ico-15">
-                                            <button type="submit" className="btn color--theme">
-                                                <span className="flaticon-right-arrow-1" />
-                                            </button>
-                                        </span>
-                                    </div>
-
-                                    <label htmlFor="s-email" className="form-notification" />
-                                </form>
-                            </div>
-                        </div>
-                        */}
-          </div> {/* END FOOTER CONTENT */}
-          <hr /> {/* FOOTER DIVIDER LINE */}
+            </div>
+          </div>
+          <hr />
           {/* BOTTOM FOOTER */}
           <div className="bottom-footer">
             <div className="row row-cols-1 row-cols-md-2 d-flex align-items-center">
               {/* FOOTER COPYRIGHT */}
               <div className="col">
                 <div className="footer-copyright">
-                  <p className="p-sm">© 2023 Koinos. <span>All Rights Reserved</span></p>
+                    <p className="p-sm">© 2024 Koinos. <span>{t('copyright')}</span></p>
                 </div>
               </div>
-              {/* FOOTER SOCIALS
-                            <div className="col">
-                                <ul className="bottom-footer-socials ico-20 text-end">
-                                    <li><Link href="https://discord.com/invite/GErGNsu"><span className="flaticon-facebook" /></Link></li>
-                                    <li><Link href="https://twitter.com/koinosnetwork"><span className="flaticon-twitter" /></Link></li>
-                                    <li><Link href="https://t.me/joinchat/SXe6mLnb8Ssywlq9"><span className="flaticon-instagram" /></Link></li>
-                                    <li><Link href="https://www.youtube.com/channel/UCamXqlj7q14TllcrCM0ikkw"><span className="flaticon-youtube" /></Link></li>
-                                </ul>
-                            </div>
-                            */}
-            </div> {/* End row */}
-          </div> {/* END BOTTOM FOOTER */}
-        </div> {/* End container */}
+              <div className="col">
+                <ul className="bottom-footer-socials ico-20 text-end">
+                  <li><Link href="https://discord.com/invite/GErGNsu"><i className="fa-brands fa-discord"></i></Link></li>
+                  <li><Link href="https://twitter.com/koinosnetwork"><i className="fa-brands fa-square-x-twitter"></i></Link></li>
+                  <li><Link href="https://t.me/joinchat/SXe6mLnb8Ssywlq9"><i className="fa-brands fa-telegram"></i></Link></li>
+                  <li><Link href="https://www.youtube.com/channel/UCamXqlj7q14TllcrCM0ikkw"><i className="fa-brands fa-youtube"></i></Link></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
-
     </>
   )
 }
