@@ -267,8 +267,8 @@ export default function Roadmap() {
             <div className="col-md-12 order-last order-md-2">
               <div className="txt-block left-column wow">
                 {roadmapPrevious.map((item, index) => (
-                  <div data-aos='fade-up'>
-                    <div key={index} className="cbox-2 process-step">
+                  <div key={index} data-aos='fade-up'>
+                    <div className="cbox-2 process-step">
                       <div className="cbox-2-txt me-4">
                         {index % 2 > 0 && (
                           <>
@@ -386,8 +386,8 @@ export default function Roadmap() {
                 </div>
 
                 {beyondRoadmap.map((item, index) => (
-                  <div data-aos='fade-up'>
-                    <div key={index} className="cbox-2 process-step">
+                  <div key={index} data-aos='fade-up'>
+                    <div className="cbox-2 process-step">
                       <div className="cbox-2-txt me-4">
                         {index % 2 == 0 && (
                           <>

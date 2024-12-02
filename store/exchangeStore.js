@@ -27,18 +27,6 @@ export const useExchangeStore = create(() => ({
       type: "CEX",
     },
     {
-      name: "Biconomy",
-      icon: "/images/exchanges/biconomy-logo.png",
-      url: "https://www.biconomy.com/exchange/KOIN_USDT",
-      type: "CEX",
-    },
-    {
-      name: "Coinstore",
-      icon: "/images/exchanges/coinstore-logo.png",
-      url: "https://www.coinstore.com/#/spot/KOINUSDT",
-      type: "CEX",
-    },
-    {
       name: "LCX",
       icon: "/images/exchanges/lcx-logo.png",
       url: "https://exchange.lcx.com/trade/KOIN-EUR",

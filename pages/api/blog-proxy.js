@@ -2,7 +2,6 @@
 // we previously used api.rss2json.com but they now prevent a cloudflare challenge
 // this just gets it directly from the source (medium) and converts it to json
 
-import { NextApiRequest, NextApiResponse } from 'next';
 import xml2js from 'xml2js';
 
 export default async function handler(req, res) {
