@@ -136,5 +136,207 @@
     "konio": {
       "description": "Billetera móvil nativa completa para Android/iOS"
     }
+  },
+  "Roadmap": {
+    "title": "Hoja de Ruta",
+    "subtitle": "Un vistazo al camino que nos espera",
+    "beyond": "Más allá",
+    "previous": {
+      "2020": {
+        "title": "2020",
+        "items": {
+          "announcement": {
+            "text": "Anuncio de Koinos",
+            "icon": "fa-solid fa-bullhorn",
+            "description": "Antes del lanzamiento del proceso de minería ERC-20 que creó el suministro inicial de KOIN, Koinos se anunció públicamente con un mes de anticipación en varias plataformas populares, incluyendo bitcointalk.org, Medium, X y SteemIt."
+          },
+          "pow": {
+            "text": "Distribución del Suministro Inicial por Proof-of-Work",
+            "icon": "fa-solid fa-parachute-box",
+            "description": "Para iniciar nuestro ecosistema y algoritmo único de consenso, el suministro inicial de KOIN se minó públicamente en la blockchain de Ethereum."
+          }
+        },
+        "status": "done"
+      },
+      "2021": {
+        "title": "2021",
+        "items": {
+          "testnet": {
+            "text": "Red de Pruebas",
+            "icon": "fa-solid fa-landmark",
+            "description": "Se lanzó una red de pruebas simplificada para probar la arquitectura del Framework de Blockchain Koinos y mejorar la estabilidad del sistema durante el desarrollo."
+          },
+          "cli": {
+            "text": "Interfaz de Línea de Comandos (CLI) de Koinos",
+            "icon": "fa-solid fa-code",
+            "description": "Se desarrolló una billetera avanzada de línea de comandos para facilitar las interacciones con la blockchain antes del desarrollo de herramientas orientadas al usuario."
+          },
+          "pob": {
+            "text": "Desarrollo de Proof-of-Burn",
+            "icon": "fa-solid fa-fire",
+            "description": "La implementación de Proof-of-Burn comenzó y luego se implementó en nuestra red de pruebas sin necesidad de un hardfork. Este fue un hito importante y una prueba de concepto."
+          },
+          "protobuf": {
+            "text": "Integración de Protobuf",
+            "icon": "fa-solid fa-code",
+            "description": "Usar herramientas estándar de la industria es importante para la adopción por parte de los desarrolladores. Se eligió Protocol buffers debido a su soporte en una amplia variedad de lenguajes y dominio del mercado."
+          }
+        },
+        "status": "done"
+      },
+      "2022": {
+        "title": "2022",
+        "items": {
+          "governance": {
+            "text": "Desarrollo de Gobernanza Descentralizada",
+            "icon": "fa-solid fa-scale-balanced",
+            "description": "Creemos en los beneficios de la descentralización y, al mismo tiempo, entendemos que la blockchain debe evolucionar con el ecosistema. Se desarrolló una solución de gobernanza descentralizada para facilitar las actualizaciones del protocolo sin una autoridad centralizada."
+          },
+          "mana": {
+            "text": "Desarrollo del Sistema Mana",
+            "icon": "fa-solid fa-wand-magic-sparkles",
+            "description": "Para ofrecer una experiencia de usuario diseñada para personas comunes, necesitábamos eliminar las tarifas de transacción. El revolucionario sistema mana maneja los recursos de la blockchain de una manera única."
+          },
+          "mainnet": {
+            "text": "Lanzamiento de la Red Principal (5 de noviembre)",
+            "icon": "fa-solid fa-landmark",
+            "description": "Después de desarrollar y probar todas las características necesarias, la red principal de Koinos se lanzó en vivo en YouTube el 5 de noviembre."
+          }
+        },
+        "status": "done"
+      },
+      "2023": {
+        "title": "2023",
+        "items": {
+          "microservices": {
+            "text": "Mejoras en Microservicios",
+            "icon": "fa-solid fa-box",
+            "description": "Durante el primer año de la red principal de Koinos, se trabajó en cada microservicio para mejorar la estabilidad y el rendimiento."
+          },
+          "upgrade": {
+            "text": "Primera Actualización En-banda",
+            "icon": "fa-solid fa-circle-up",
+            "description": "Los errores suceden. Se identificó una regresión en uno de los tokens principales, VHP. Afortunadamente, el error no fue explotado y tuvimos la oportunidad de utilizar nuestro sistema de actualización en-banda y gobernanza para corregir el problema sin detener la cadena."
+          }
+        },
+        "status": "done"
+      },
+      "2024": {
+        "title": "2024",
+        "items": {
+          "rest": {
+            "text": "API REST",
+            "icon": "fa-solid fa-server",
+            "description": "El microservicio de terceros, API REST, fue adoptado en el paquete principal de microservicios con modificaciones menores. Ofreció una experiencia de desarrollo mucho mejor que nuestro microservicio JSON-RPC existente."
+          },
+          "kcs4": {
+            "text": "Actualización KCS-4 de KOIN y VHP",
+            "icon": "fa-solid fa-circle-up",
+            "description": "Nuestra visión original de billeteras inteligentes para todos no se materializó. La comunidad exigió una base de seguridad. Esto llevó al desarrollo del estándar KCS-4 y la actualización de los tokens principales."
+          },
+          "mempool": {
+            "text": "Mempool v1.5",
+            "icon": "fa-solid fa-box",
+            "description": "Los desarrolladores necesitan incrementar los nonces al enviar transacciones subsiguientes. Esta es una carga innecesaria para el desarrollador. El mempool se mejorará para ayudar a los desarrolladores y trasladar esa carga al clúster de Koinos."
+          }
+        },
+        "status": "todo"
+      }
+    },
+    "current": {
+      "q1": {
+        "title": "Q1",
+        "items": {
+          "snapshots": {
+            "text": "Instantáneas Públicas",
+            "icon": "fa-solid fa-file",
+            "description": "Hemos tenido algunos desarrolladores que en diferentes momentos han subido instantáneas de Koinos para uso general. Sin embargo, nunca hemos tenido un servicio dedicado para esto. Beneficiará a toda la comunidad si se generan y comparten instantáneas oficiales."
+          },
+          "rest_api": {
+            "text": "API REST v1.1",
+            "icon": "fa-solid fa-server",
+            "description": "La API REST de Koinos ha sido una gran adición a nuestra infraestructura. Se necesitan hacer mejoras para que tenga paridad de características con JSON-RPC y más para satisfacer mejor las necesidades de los desarrolladores."
+          }
+        },
+        "status": "todo"
+      },
+      "q2": {
+        "title": "Q2",
+        "items": {
+          "authority": {
+            "text": "Sistema de Autoridad v2",
+            "icon": "fa-solid fa-wallet",
+            "description": "La idea de permitir que los contratos definan su propia lógica de autorización es una característica fantástica de Koinos, pero esta característica sigue siendo subutilizada porque el diseño es complicado y difícil de explicar a los desarrolladores. Todo el sistema se simplificará para que sea más fácil de usar para los desarrolladores."
+          }
+        },
+        "status": "todo"
+      },
+      "q3": {
+        "title": "Q3",
+        "items": {
+          "libraries": {
+            "text": "Bibliotecas Cliente",
+            "icon": "fa-solid fa-code",
+            "description": "Algunos de los lenguajes de biblioteca más solicitados, por desarrolladores y socios, son Python y Golang. Con la API REST actualizada, queremos crear bibliotecas cliente para estos lenguajes y muchos más para llegar a los desarrolladores donde están actualmente."
+          },
+          "c_sdk": {
+            "text": "SDK de C",
+            "icon": "fa-solid fa-code",
+            "description": "Koinos actualmente tiene dos SDKs para construir contratos inteligentes, C++ y Assembly Script (AS). Crearemos un SDK de C que no solo dará a los desarrolladores otra opción poderosa para escribir contratos inteligentes, sino que también sentará las bases para agregar aún más lenguajes en el futuro y crear un SDK de C++ aún mejor."
+          }
+        },
+        "status": "todo"
+      },
+      "q4": {
+        "title": "Q4",
+        "items": {
+          "vscode": {
+            "text": "Extensión VSCode",
+            "icon": "fa-solid fa-code",
+            "description": "Una herramienta importante que le falta a Koinos es un entorno de desarrollo integrado (IDE) completo. Esta extensión proporcionará una experiencia de primera mano, simplificando y facilitando el desarrollo, prueba y despliegue de contratos inteligentes de Koinos, haciendo aún más fácil construir en Koinos."
+          }
+        },
+        "status": "todo"
+      }
+    },
+    "future": {
+      "items": {
+        "cpp_sdk": {
+          "text": "SDK de C++",
+          "icon": "fa-solid fa-code",
+          "description": "Después del SDK de C, queremos recrear un SDK de C++ nuevo y mejorado. Este es el lenguaje más simple para hacer esto, pero asegurará que hayamos diseñado el SDK de C lo suficientemente bien como para ser utilizado como base para futuros SDKs."
+        },
+        "rust_sdk": {
+          "text": "SDK de Rust",
+          "icon": "fa-solid fa-code",
+          "description": "Rust también admite llamar a funciones C y es un lenguaje cada vez más popular, especialmente dentro del espacio cripto. Al agregar soporte para Rust, podemos extender nuestro alcance a aún más desarrolladores y demostrar la flexibilidad de la VM de Koinos."
+        },
+        "wasm": {
+          "text": "Optimizaciones de VM WASM",
+          "icon": "fa-solid fa-code",
+          "description": "Analizaremos el estado actual de las VMs WASM y probaremos diferentes VMs para rendimiento y compatibilidad con Koinos. Como resultado de un mejor rendimiento, podremos aumentar los presupuestos de recursos, lo que disminuirá los costos de mana para todas las transacciones."
+        },
+        "data_store": {
+          "text": "Microservicio de Almacenamiento de Datos",
+          "icon": "fa-solid fa-server",
+          "description": "El microservicio de almacenamiento de datos será un microservicio de reemplazo para el almacenamiento de bloques, almacenamiento de transacciones e historial de cuentas. Ejecutar un nodo Koinos requerirá considerablemente menos espacio en disco del que requiere actualmente."
+        },
+        "redundant": {
+          "text": "Microservicios Redundantes",
+          "icon": "fa-solid fa-server",
+          "description": "Mejorar el escalado y la redundancia para microservicios dentro del clúster Koinos. Al agregar soporte para escalar microservicios individuales, los nodos en entornos empresariales se vuelven más eficientes y redundantes."
+        },
+        "optimistic": {
+          "text": "Ejecución Optimista de Transacciones",
+          "icon": "fa-solid fa-code",
+          "description": "Permitir que las transacciones no relacionadas se ejecuten en paralelo mejorará drásticamente el rendimiento de la blockchain Koinos. El trabajo necesario para implementar esta optimización permitirá que el framework interactúe con las transacciones de más formas que ayuden a crear bloques de construcción que permitirán mejoras drásticas en el futuro."
+        },
+        "sharding": {
+          "text": "Fragmentación Dinámica",
+          "icon": "fa-solid fa-code",
+          "description": "La fragmentación dinámica permite que la blockchain se divida en piezas más pequeñas según el uso. Los productores de bloques entonces se vuelven responsables de un subconjunto de toda la blockchain mientras aseguran suficiente superposición para garantizar la consistencia y descentralización."
+        }
+      }
+    }
   }
 }

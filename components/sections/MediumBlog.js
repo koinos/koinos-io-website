@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 export default function MediumBlog() {
+  const t = useTranslations('MediumBlog');
+
   const sectionRef = useRef(null);
   const mediumRssFeedJsonLink =
     "/api/blog-proxy";
@@ -83,9 +86,9 @@ export default function MediumBlog() {
             <div className="col-md-10 col-lg-9">
               <div className="section-title mb-70">
                 {/* Title */}
-                <h2 className="s-52 w-700">News &amp; Updates</h2>
+                <h2 className="s-52 w-700">{t('title')}</h2>
                 {/* Text */}
-                <p className="s-21 color--grey">Stay Updated with the Latest News on our Medium Blog</p>
+                <p className="s-21 color--grey">{t('subtitle')}</p>
               </div>
             </div>
           </div>
@@ -124,7 +127,7 @@ export default function MediumBlog() {
                         <div className="blog-post-meta mt-20">
                           <ul className="post-meta-list ico-10">
                             <li>
-                            <p className="p-sm">Published on {item.pubDate}</p>
+                            <p className="p-sm">{t('published_on')} {item.pubDate}</p>
                             </li>
                           </ul>
                         </div>
@@ -134,7 +137,7 @@ export default function MediumBlog() {
                   </div>
                 </>
               ))}
-            {!displayItems && <div>Loading...</div>}
+            {!displayItems && <div>{t('loading')}</div>}
           </div>{" "}
           {/* End row */}
         </div>{" "}
