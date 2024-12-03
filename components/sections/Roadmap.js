@@ -178,7 +178,6 @@ export default function Roadmap() {
           description: t("future.items.cpp_sdk.description"),
         },
       ],
-      status: t("future.items.cpp_sdk.status"),
     },
     {
       title: "",
@@ -189,7 +188,6 @@ export default function Roadmap() {
           description: t("future.items.rust_sdk.description"),
         },
       ],
-      status: t("future.items.rust_sdk.status"),
     },
     {
       title: "",
@@ -200,7 +198,6 @@ export default function Roadmap() {
           description: t("future.items.wasm.description"),
         },
       ],
-      status: t("future.items.wasm.status"),
     },
     {
       title: "",
@@ -211,7 +208,6 @@ export default function Roadmap() {
           description: t("future.items.data_store.description"),
         },
       ],
-      status: t("future.items.data_store.status"),
     },
     {
       title: "",
@@ -222,7 +218,6 @@ export default function Roadmap() {
           description: t("future.items.redundant.description"),
         },
       ],
-      status: t("future.items.redundant.status"),
     },
     {
       title: "",
@@ -233,7 +228,6 @@ export default function Roadmap() {
           description: t("future.items.optimistic.description"),
         },
       ],
-      status: t("future.items.optimistic.status"),
     },
     {
       title: "",
@@ -244,7 +238,6 @@ export default function Roadmap() {
           description: t("future.items.sharding.description"),
         },
       ],
-      status: t("future.items.sharding.status"),
     },
   ]
 

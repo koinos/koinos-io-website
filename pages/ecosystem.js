@@ -82,7 +82,7 @@ export default function EcosystemPage() {
       url: "https://kryptobulls.io/"
     },
     {
-      name: "serfdomsorcery",
+      name: "serfdomandsorcery",
       icon: "/images/pages/ecosystem/serfdorm-scorcery.png",
       url: "https://twitter.com/SerfdomSorcery"
     },

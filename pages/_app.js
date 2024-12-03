@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { NextIntlClientProvider } from 'next-intl';
+import { NextIntlProvider } from 'next-intl';
 import { useRouter } from 'next/router';
 import { initGTM } from '../utils/gtm';
 
@@ -23,13 +23,13 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   return (
-    <NextIntlClientProvider
+    <NextIntlProvider
       locale={router.locale || 'en'}
       messages={messages}
       timeZone="UTC"
     >
       <Component {...pageProps} />
-    </NextIntlClientProvider>
+    </NextIntlProvider>
   );
 }
 
