@@ -360,5 +360,109 @@
       "blog": "Blog"
     },
     "copyright": "Todos los derechos reservados"
+  },
+  "Team": {
+    "title": "Somos un grupo de soñadores y realizadores comprometidos con redefinir el futuro"
+  },
+"Ecosystem": {
+    "pageTitle": "Ecosistema | Koinos",
+    "featured": "Destacado",
+    "koindxDescription": "KoinDX es una plataforma de intercambio descentralizada que facilita el comercio fluido y eficiente de activos digitales dentro del ecosistema Koinos, ofreciendo a los usuarios una experiencia de usuario amigable con un diseño moderno.",
+    "visitKoindx": "Visitar KoinDX",
+    "title": "Un Ecosistema en Constante Evolución",
+    "description": "El ecosistema Koinos está evolucionando rápidamente hacia un entorno dinámico e inclusivo para aplicaciones descentralizadas e innovación blockchain. Aprovechando el poder de una blockchain sin comisiones e infinitamente actualizable, Koinos ofrece a desarrolladores y usuarios una flexibilidad y accesibilidad sin precedentes.",
+    "learnMore": "Más Información",
+    "dapps": {
+      "koindx": {
+        "title": "KoinDX",
+        "description": "KoinDX es un intercambio descentralizado diseñado para facilitar el intercambio fluido de tokens, proporcionando a los usuarios una experiencia de trading rápida y fácil de usar.",
+        "visitProject": "Visitar KoinDX"
+      },
+      "kap": {
+        "title": "KAP",
+        "description": "KAP proporciona acceso fácil a dApps con un nombre de usuario gratuito o premium, sirviendo como columna vertebral para aplicaciones gratuitas en la blockchain Koinos.",
+        "visitProject": "Visitar KAP"
+      },
+      "kollection": {
+        "title": "Kollection",
+        "description": "Kollection es un mercado NFT innovador donde los usuarios pueden comprar, vender y crear activos digitales únicos, fomentando una vibrante comunidad de creadores y coleccionistas.",
+        "visitProject": "Visitar Kollection"
+      },
+      "kanvas": {
+        "title": "Kanvas",
+        "description": "Kanvas es una aplicación de tablero de dibujo versátil y dinámica que permite a los usuarios liberar su creatividad y colaborar en varios proyectos en tiempo real.",
+        "visitProject": "Visitar Kanvas"
+      },
+      "koiner": {
+        "title": "Koiner",
+        "description": "Koiner es un explorador blockchain completo para la red Koinos, proporcionando información detallada y datos en tiempo real sobre transacciones, bloques y más.",
+        "visitProject": "Visitar Koiner"
+      },
+      "fogata": {
+        "title": "Fogata",
+        "description": "Fogata es un pool de minería robusto diseñado específicamente para entusiastas de Koinos, donde los usuarios pueden ejecutar sus propios pools o unirse a los de la comunidad.",
+        "visitProject": "Visitar Fogata"
+      },
+      "koincity": {
+        "title": "Koincity",
+        "description": "Koincity es una plataforma de lanzamiento innovadora que apoya el desarrollo y lanzamiento de nuevos proyectos en la blockchain de Koinos, ayudando a los creadores a dar vida a sus ideas.",
+        "visitProject": "Visitar Koincity"
+      },
+      "burnkoin": {
+        "title": "BurnKoin",
+        "description": "BurnKoin es un pool de minería dedicado enfocado en optimizar las recompensas de minería para sus usuarios, proporcionando un entorno confiable y eficiente para los mineros de Koinos.",
+        "visitProject": "Visitar BurnKoin"
+      },
+      "koinosblocks": {
+        "title": "Koinos Blocks",
+        "description": "Koinos Blocks es un explorador de bloques detallado para la blockchain de Koinos, ofreciendo datos y análisis completos para que los usuarios exploren.",
+        "visitProject": "Visitar Koinos Blocks"
+      },
+      "koinosboxpolls": {
+        "title": "Koinosbox Polls",
+        "description": "Koinosbox Polls es una aplicación descentralizada que permite a los usuarios crear, participar y gestionar encuestas, haciendo que la toma de decisiones comunitaria sea más transparente y democrática.",
+        "visitProject": "Visitar Koinosbox Polls"
+      },
+      "atomicswaps": {
+        "title": "Atomic Swaps",
+        "description": "Atomic Swaps es una plataforma para intercambios de criptomonedas peer-to-peer, permitiendo a los usuarios intercambiar activos digitales directamente sin necesidad de intermediarios.",
+        "visitProject": "Visitar Atomic Swaps"
+      },
+      "spacestriker": {
+        "title": "Space Striker",
+        "description": "Space Striker es un juego temático espacial inmersivo y atractivo que desafía a los jugadores a navegar y conquistar el cosmos en una emocionante aventura.",
+        "visitProject": "Visitar Space Striker"
+      },
+      "cryptobulls": {
+        "title": "Crypto Bulls",
+        "description": "Crypto Bulls es un juego de disparos en primera persona lleno de acción que combina combate rápido con jugabilidad estratégica, ofreciendo una experiencia emocionante para los jugadores.",
+        "visitProject": "Visitar Crypto Bulls"
+      },
+      "serfdomsorcery": {
+        "title": "Serfdom & Sorcery",
+        "description": "Serfdom & Sorcery es un juego cautivador ambientado en un mundo fantástico, donde los jugadores pueden sumergirse en una rica narrativa y aventuras mágicas.",
+        "visitProject": "Visitar Serfdom & Sorcery"
+      },
+      "nicknames": {
+        "title": "Nicknames",
+        "description": "Nicknames es un servicio en la blockchain de Koinos que permite a los usuarios registrar y resolver nombres de usuario únicos, facilitando la identificación e interacción con otros.",
+        "visitProject": "Visitar Nicknames"
+      },
+      "koincrew": {
+        "title": "Koin Crew",
+        "description": "Koin Crew ofrece un conjunto de utilidades diseñadas para mejorar el ecosistema Koinos, proporcionando a los usuarios una gama de herramientas y servicios para optimizar su experiencia blockchain.",
+        "visitProject": "Visitar Koin Crew"
+      },
+      "koinosgarden": {
+        "title": "Koinos Garden",
+        "description": "Koinos Garden es una DAO de inversión que reúne a una comunidad de inversores para colaborar y financiar proyectos prometedores dentro del ecosistema Koinos.",
+        "visitProject": "Visitar Koinos Garden"
+      },
+      "lordsforsaken": {
+        "title": "Lords Forsaken",
+        "description": "Lords Forsaken es un emocionante juego de cartas NFT que combina jugabilidad estratégica con cartas digitales coleccionables, ofreciendo a los jugadores una experiencia única y atractiva.",
+        "visitProject": "Visitar Lords Forsaken"
+      }
+    }
   }
 }

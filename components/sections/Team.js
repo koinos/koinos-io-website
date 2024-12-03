@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 export default function Team() {
+  const t = useTranslations();
   const team = [
     {
       name: "Michael Vandeberg",
@@ -129,8 +131,7 @@ export default function Team() {
             <div className="col-md-10 col-lg-9">
               <div className="section-title mb-80">
                 <h2 className="s-42 w-700">
-                  We're a group of dreamers and doers, committed to redefining
-                  the future
+                  {t('Team.title')}
                 </h2>
               </div>
             </div>
