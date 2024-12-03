@@ -1,15 +1,15 @@
 const createNextIntlPlugin = require('next-intl/plugin');
 
-const withNextIntl = createNextIntlPlugin('./i18n/request.js');
+const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  i18n: {
-    locales: ['en', 'es'],
-    defaultLocale: 'en',
-  },
   reactStrictMode: false,
   output: 'standalone',
+  i18n: {
+    locales: ['en', 'es'],
+    defaultLocale: 'en'
+  },
   async headers() {
     return [
       {
