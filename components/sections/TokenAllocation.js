@@ -12,7 +12,7 @@ export default function TokenAllocation() {
             <div className="col-md-6 order-last order-md-2">
               <div className="txt-block left-column wow" data-aos='fade-left'>
                 {/* Section ID */}
-                <span className="section-id">{t('section_id')}</span>
+                <span className="section-id">{t('sectionId')}</span>
                 
                 {/* Title */}
                 <h2 className="s-46 w-700">{t('title')}</h2>
@@ -26,7 +26,7 @@ export default function TokenAllocation() {
                     <div className="cbox-1-ico"><span className="flaticon-check" /></div>
                   </div>
                   <div className="cbox-1-txt">
-                    <p>{t('features.fair_launch')}</p>
+                    <p>{t('features.fairLaunch')}</p>
                   </div>
                 </div>
 
@@ -36,7 +36,7 @@ export default function TokenAllocation() {
                     <div className="cbox-1-ico"><span className="flaticon-check" /></div>
                   </div>
                   <div className="cbox-1-txt">
-                    <p>{t('features.no_locked')}</p>
+                    <p>{t('features.noLocked')}</p>
                   </div>
                 </div>
 
@@ -46,7 +46,7 @@ export default function TokenAllocation() {
                     <div className="cbox-1-ico"><span className="flaticon-check" /></div>
                   </div>
                   <div className="cbox-1-txt">
-                    <p className="mb-0">{t('features.public_allocation')}</p>
+                    <p className="mb-0">{t('features.publicAllocation')}</p>
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default function TokenAllocation() {
             {/* IMAGE BLOCK */}
             <div className="col-md-6 order-first order-md-2">
               <div className="img-block right-column wow" data-aos='fade-right'>
-                <img className="img-fluid" src="/images/sections/token-allocation/tokenomics.png" alt={t('section_id')} />
+                <img className="img-fluid" src="/images/sections/token-allocation/tokenomics.png" alt={t('sectionId')} />
               </div>
             </div>
           </div>

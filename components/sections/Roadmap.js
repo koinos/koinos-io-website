@@ -121,9 +121,9 @@ export default function Roadmap() {
           description: t("current.q1.items.snapshots.description"),
         },
         {
-          text: t("current.q1.items.rest_api.text"),
-          icon: t("current.q1.items.rest_api.icon"),
-          description: t("current.q1.items.rest_api.description"),
+          text: t("current.q1.items.restApi.text"),
+          icon: t("current.q1.items.restApi.icon"),
+          description: t("current.q1.items.restApi.description"),
         },
       ],
       status: t("current.q1.status"),

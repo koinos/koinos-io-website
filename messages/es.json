@@ -47,27 +47,27 @@
     }
   },
   "FeatureCommunity": {
-    "section_id": "Comunidad",
+    "sectionId": "Comunidad",
     "title": "Construyendo el Futuro de Web3",
     "description": "Koinos es un proyecto descentralizado gobernado por la comunidad. Regularmente surgen nuevos proyectos comunitarios emocionantes, reflejando la diversidad de pensamiento y creatividad de la comunidad Koinos.",
-    "built_for": {
+    "builtFor": {
       "developers": "Construido para Desarrolladores",
       "entrepreneurs": "Construido para Emprendedores",
       "users": "Construido para Usuarios"
     },
-    "telegram_text": "Da forma al futuro del protocolo uniéndote a nosotros en",
-    "discord_text": "Colabora con ingenieros Web3 y validadores en",
-    "twitter_text": "Mantente al día con los últimos desarrollos siguiéndonos en",
-    "more_text": "Visita la página de la comunidad para descubrir grupos internacionales y de dApps de Koinos"
+    "telegramText": "Da forma al futuro del protocolo uniéndote a nosotros en",
+    "discordText": "Colabora con ingenieros Web3 y validadores en",
+    "twitterText": "Mantente al día con los últimos desarrollos siguiéndonos en",
+    "moreText": "Visita la página de la comunidad para descubrir grupos internacionales y de dApps de Koinos"
   },
   "TokenAllocation": {
-    "section_id": "Distribución de Tokens",
+    "sectionId": "Distribución de Tokens",
     "title": "Lanzamiento Justo",
     "description": "El suministro inicial de Koinos se creó a través de un contrato de minería Proof-of-Work de un año en la blockchain de Ethereum. Las monedas siguen siendo reclamables en la red principal de Koinos para todos los participantes.",
     "features": {
-      "fair_launch": "Lanzamiento Justo",
-      "no_locked": "Sin Monedas Bloqueadas",
-      "public_allocation": "100% Asignación Pública"
+      "fairLaunch": "Lanzamiento Justo",
+      "noLocked": "Sin Monedas Bloqueadas",
+      "publicAllocation": "100% Asignación Pública"
     }
   },
   "WhereToGetKOIN": {
@@ -75,11 +75,11 @@
     "subtitle": "Encuentra Koinos en Exchanges de Todo el Mundo"
   },
   "MediumBlog": {
-    "section_id": "Blog",
+    "sectionId": "Blog",
     "title": "Noticias y Actualizaciones",
     "subtitle": "Mantente Actualizado con las Últimas Noticias en nuestro Blog de Medium",
     "loading": "Cargando...",
-    "published_on": "Publicado el"
+    "publishedOn": "Publicado el"
   },
   "KoinosAdvantage": {
     "title": "La Ventaja de Koinos",
@@ -252,7 +252,7 @@
             "icon": "fa-solid fa-file",
             "description": "Hemos tenido algunos desarrolladores que en diferentes momentos han subido instantáneas de Koinos para uso general. Sin embargo, nunca hemos tenido un servicio dedicado para esto. Beneficiará a toda la comunidad si se generan y comparten instantáneas oficiales."
           },
-          "rest_api": {
+          "restApi": {
             "text": "API REST v1.1",
             "icon": "fa-solid fa-server",
             "description": "La API REST de Koinos ha sido una gran adición a nuestra infraestructura. Se necesitan hacer mejoras para que tenga paridad de características con JSON-RPC y más para satisfacer mejor las necesidades de los desarrolladores."
@@ -324,12 +324,12 @@
         "redundant": {
           "text": "Microservicios Redundantes",
           "icon": "fa-solid fa-server",
-          "description": "Mejorar el escalado y la redundancia para microservicios dentro del clúster Koinos. Al agregar soporte para escalar microservicios individuales, los nodos en entornos empresariales se vuelven más eficientes y redundantes."
+          "description": "Mejorar la escalabilidad y redundancia de los microservicios dentro del clúster de Koinos. Al agregar soporte para escalar microservicios individuales, los nodos en entornos empresariales se vuelven más eficientes y redundantes."
         },
         "optimistic": {
           "text": "Ejecución Optimista de Transacciones",
           "icon": "fa-solid fa-code",
-          "description": "Permitir que las transacciones no relacionadas se ejecuten en paralelo mejorará drásticamente el rendimiento de la blockchain Koinos. El trabajo necesario para implementar esta optimización permitirá que el framework interactúe con las transacciones de más formas que ayuden a crear bloques de construcción que permitirán mejoras drásticas en el futuro."
+          "description": "Permitir que las transacciones no relacionadas se ejecuten en paralelo mejorará drásticamente el rendimiento de la blockchain de Koinos. El trabajo necesario para implementar esta optimización permitirá que el framework interactúe con las transacciones de más formas que ayuden a crear bloques de construcción que permitirán mejoras drásticas en el futuro."
         },
         "sharding": {
           "text": "Fragmentación Dinámica",
@@ -438,7 +438,7 @@
         "description": "Crypto Bulls es un juego de disparos en primera persona lleno de acción que combina combate rápido con jugabilidad estratégica, ofreciendo una experiencia emocionante para los jugadores.",
         "visitProject": "Visitar Crypto Bulls"
       },
-      "serfdomsorcery": {
+      "serfdomandsorcery": {
         "title": "Serfdom & Sorcery",
         "description": "Serfdom & Sorcery es un juego cautivador ambientado en un mundo fantástico, donde los jugadores pueden sumergirse en una rica narrativa y aventuras mágicas.",
         "visitProject": "Visitar Serfdom & Sorcery"
@@ -518,7 +518,7 @@
       "payingTime": {
         "title": "\"Pagando\" en Tiempo",
         "p1": "Una vez que se consume cualquier Mana en un token dado, ese token se bloquea durante 5 días, para que puedan desarrollar un \"ritmo\" semanal en su uso de blockchain (y dApp). Esto crea un costo de oportunidad en lugar de un costo monetario en tiempo real que sirve para desincentivar el envío de transacciones sin valor. Este período fijo de tiempo funciona como un \"tiempo de regeneración\" que crea la experiencia de usuario de Mana \"regenerándose con el tiempo\", creando una experiencia de usuario divertida, casi como un juego.",
-        "p2": "El tiempo de regeneración se basa en cuánto tiempo toma regenerar un satoshi de Mana, con la regeneración ocurriendo en todos los tokens de un usuario al mismo tiempo. Dado que este mecanismo es distributivo, el tiempo de regeneración aparece dinámico para el usuario. En otras palabras, el Mana de un usuario se estará regenerando constantemente por lo que no tendrán que esperar los 5 días completos para reanudar su uso de la blockchain."
+        "p2": "El tiempo de regeneración se basa en cuánto tiempo tarda en regenerarse un satoshi de Mana, con la regeneración ocurriendo en todos los tokens de un usuario al mismo tiempo. Dado que este mecanismo es distributivo, el tiempo de regeneración aparece dinámico para el usuario. En otras palabras, el Mana de un usuario se estará regenerando constantemente por lo que no tendrán que esperar los 5 días completos para reanudar su uso de la blockchain."
       }
     },
     "freeToUse": {

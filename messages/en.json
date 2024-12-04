@@ -47,27 +47,27 @@
     }
   },
   "FeatureCommunity": {
-    "section_id": "Community",
+    "sectionId": "Community",
     "title": "Building the Future of Web3",
     "description": "Koinos is a decentralized project governed by the community. Exciting new community projects emerge regularly, reflecting the diversity of thought and creativity of the Koinos community.",
-    "built_for": {
+    "builtFor": {
       "developers": "Built for Developers",
       "entrepreneurs": "Built for Entrepreneurs",
       "users": "Built for Users"
     },
-    "telegram_text": "Shape the future of the protocol by joining us on",
-    "discord_text": "Collaborate with Web3 engineers and validators on",
-    "twitter_text": "Stay up-to-date with the latest developments by following us on",
-    "more_text": "Visit the community page to discover Koinos international and dApp groups"
+    "telegramText": "Shape the future of the protocol by joining us on",
+    "discordText": "Collaborate with Web3 engineers and validators on",
+    "twitterText": "Stay up-to-date with the latest developments by following us on",
+    "moreText": "Visit the community page to discover Koinos international and dApp groups"
   },
   "TokenAllocation": {
-    "section_id": "Token Allocation",
+    "sectionId": "Token Allocation",
     "title": "Fair Launched",
     "description": "Koinos' initial supply was created through a one year Proof-of-Work mining contract on the Ethereum blockchain. Coins remain claimable on Koinos' main net for all participants.",
     "features": {
-      "fair_launch": "Fair Launch",
-      "no_locked": "No Locked Coins",
-      "public_allocation": "100% Publicly Allocated"
+      "fairLaunch": "Fair Launch",
+      "noLocked": "No Locked Coins",
+      "publicAllocation": "100% Publicly Allocated"
     }
   },
   "WhereToGetKOIN": {
@@ -75,11 +75,11 @@
     "subtitle": "Find Koinos on Exchanges Across the Globe"
   },
   "MediumBlog": {
-    "section_id": "Blog",
+    "sectionId": "Blog",
     "title": "News & Updates",
     "subtitle": "Stay Updated with the Latest News on our Medium Blog",
     "loading": "Loading...",
-    "published_on": "Published on"
+    "publishedOn": "Published on"
   },
   "KoinosAdvantage": {
     "title": "The Koinos Advantage",
@@ -252,7 +252,7 @@
             "icon": "fa-solid fa-file",
             "description": "We have had some developers at different times upload Koinos snapshots for general use. However, we have never had a dedicated service for this. It will benefit the entire community if official snapshots are generated and shared."
           },
-          "rest_api": {
+          "restApi": {
             "text": "REST API v1.1",
             "icon": "fa-solid fa-server",
             "description": "The Koinos REST API has been a great addition to our infrastructure. Enhancements need to be made so it has feature parity with JSON-RPC and more to better meet developer needs."

@@ -127,7 +127,7 @@ export default function MediumBlog() {
                         <div className="blog-post-meta mt-20">
                           <ul className="post-meta-list ico-10">
                             <li>
-                            <p className="p-sm">{t('published_on')} {item.pubDate}</p>
+                            <p className="p-sm">{t('publishedOn')} {item.pubDate}</p>
                             </li>
                           </ul>
                         </div>

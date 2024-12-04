@@ -10,7 +10,7 @@ export default function FeatureCommunity() {
           <div className="row d-flex align-items-center">
             <div className="col-md-5">
               <div className="txt-block left-column wow" data-aos='fade-left'>
-                <span className="section-id">{t('section_id')}</span>
+                <span className="section-id">{t('sectionId')}</span>
                 <h2 className="s-46 w-700">{t('title')}</h2>
                 <p>{t('description')}</p>
 
@@ -19,7 +19,7 @@ export default function FeatureCommunity() {
                     <div className="cbox-1-ico"><span className="flaticon-check" /></div>
                   </div>
                   <div className="cbox-1-txt">
-                    <p>{t('built_for.developers')}</p>
+                    <p>{t('builtFor.developers')}</p>
                   </div>
                 </div>
 
@@ -28,7 +28,7 @@ export default function FeatureCommunity() {
                     <div className="cbox-1-ico"><span className="flaticon-check" /></div>
                   </div>
                   <div className="cbox-1-txt">
-                    <p>{t('built_for.entrepreneurs')}</p>
+                    <p>{t('builtFor.entrepreneurs')}</p>
                   </div>
                 </div>
 
@@ -37,7 +37,7 @@ export default function FeatureCommunity() {
                     <div className="cbox-1-ico"><span className="flaticon-check" /></div>
                   </div>
                   <div className="cbox-1-txt">
-                    <p className="mb-0">{t('built_for.users')}</p>
+                    <p className="mb-0">{t('builtFor.users')}</p>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default function FeatureCommunity() {
                       </div>
                       <div className="fbox-txt">
                         <h5 className="s-19 w-700">Telegram</h5>
-                        <p>{t('telegram_text')} <a href="https://telegram.koinos.io">Telegram</a>.</p>
+                        <p>{t('telegramText')} <a href="https://telegram.koinos.io">Telegram</a>.</p>
                       </div>
                     </div>
 
@@ -73,7 +73,7 @@ export default function FeatureCommunity() {
                       </div>
                       <div className="fbox-txt">
                         <h5 className="s-19 w-700">Twitter</h5>
-                        <p>{t('twitter_text')} <a href="https://twitter.koinos.io">Twitter</a>.</p>
+                        <p>{t('twitterText')} <a href="https://twitter.koinos.io">Twitter</a>.</p>
                       </div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ export default function FeatureCommunity() {
                       </div>
                       <div className="fbox-txt">
                         <h5 className="s-19 w-700">Discord</h5>
-                        <p>{t('discord_text')} <a href="https://discord.koinos.io">Discord</a>.</p>
+                        <p>{t('discordText')} <a href="https://discord.koinos.io">Discord</a>.</p>
                       </div>
                     </div>
 
@@ -105,7 +105,7 @@ export default function FeatureCommunity() {
                       </div>
                       <div className="fbox-txt">
                         <h5 className="s-19 w-700">More</h5>
-                        <p>{t('more_text')}</p>
+                        <p>{t('moreText')}</p>
                       </div>
                     </div>
                   </div>
