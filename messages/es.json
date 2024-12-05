@@ -440,7 +440,7 @@
       },
       "serfdomandsorcery": {
         "title": "Serfdom & Sorcery",
-        "description": "Serfdom & Sorcery es un juego cautivador ambientado en un mundo fantástico, donde los jugadores pueden sumergirse en una rica narrativa y aventuras mágicas.",
+        "description": "Serfdom & Sorcery es un juego cautivador ambientado en un mundo fantástico, donde los jugadores pueden sumergirse en una rica narrativa y aventuras m��gicas.",
         "visitProject": "Visitar Serfdom & Sorcery"
       },
       "nicknames": {
@@ -614,5 +614,70 @@
     "a11": "La solución de escalabilidad definitiva es la capacidad de integrar rápidamente las soluciones de escalabilidad más eficientes, seguras y bien mantenidas a medida que surgen. En otras palabras, la capacidad de actualización es la solución de escalabilidad definitiva, por lo que Koinos está diseñado para ser la blockchain más actualizable del mundo. Ya sea que las mejores soluciones aprovechen la comunicación entre cadenas, el sharding o algo completamente diferente, Koinos estará listo para aprovechar cualquiera o todas estas.",
     "q12": "¿Qué tan composable es Koinos?",
     "a12": "Koinos tiene el mayor grado de composibilidad posible porque es el único marco de blockchain que mueve toda la lógica del sistema a contratos inteligentes. Cuando hablamos de composibilidad en el contexto de blockchain, nos referimos a la capacidad de los desarrolladores de aplicaciones descentralizadas para reutilizar el código que ya se está ejecutando en la blockchain dentro de sus aplicaciones (es decir, 'componer' sus aplicaciones). La mayoría de las blockchains que afirman tener 'alta composibilidad' simplemente dicen que no tienen sharding, lo cual es un intento de redefinir una limitación como un valor añadido. Koinos está optimizado para la flexibilidad, lo que significa que podría utilizar sharding o no, según los contratos inteligentes que se estén ejecutando en él. Debido a que toda la lógica del sistema está contenida en módulos de contratos inteligentes, los desarrolladores de aplicaciones podrán no solo reutilizar los contratos inteligentes escritos por otros desarrolladores de dApps, sino también el código escrito por los ingenieros de blockchain más experimentados del mundo; los ingenieros que construyen blockchains basadas en Koinos. ¡Pero espera, hay más! Debido a que estos contratos inteligentes se escribirán en un número cada vez mayor de los lenguajes de programación más utilizados en el mundo, los desarrolladores no solo podrán encontrar el contrato inteligente perfecto para sus necesidades, sino que podrán encontrar contratos inteligentes escritos en su lenguaje de programación preferido. Esto lleva la composibilidad de Koinos, ya muy superior a cualquier otro protocolo, a un nivel completamente nuevo. Síguenos en Twitter para actualizaciones y la ubicación del último AMA."
+  },
+  "Programs": {
+    "earnOnKoinos": {
+      "pageTitle": "Gana en Koinos | Koinos",
+      "getStarted": "¡Empecemos!",
+      "step1": {
+        "title": "Paso 1: Configura tu billetera Koinos",
+        "steps": {
+          "install": "Ve a la Chrome Webstore e instala Kondor",
+          "setup": "Sigue los pasos de configuración para crear tu billetera Koinos.",
+          "store": "¡Guarda tu frase semilla de forma segura!"
+        }
+      },
+      "step2": {
+        "title": "Paso 2: Transferir USDT, ETH o BTC a Koinos",
+        "steps": {
+          "access": "Accede al Puente Chainge y elige el activo que deseas transferir.",
+          "connect": "Conecta tu billetera de la cadena de origen.",
+          "enter": "Ingresa la cantidad de USDT, ETH o BTC a transferir e introduce tu dirección de Koinos.",
+          "bridge": "Haz clic en \"Transferir ahora\" para iniciar el proceso."
+        }
+      },
+      "step3": {
+        "title": "Paso 3: Reclama tu APY Diariamente",
+        "description": "Si estás proporcionando liquidez para KoinDX en los pools KOIN-USDT, KOIN-ETH, KOIN-BTC, tu APY se distribuirá automáticamente y puedes omitir este paso de forma segura. Para todos los demás participantes, sigue los pasos a continuación para reclamar tu APY diariamente.",
+        "steps": {
+          "access": "Accede al Puente Chainge.",
+          "connect": "Conecta tu billetera Koinos.",
+          "claim": "Reclama el APY disponible en tus activos."
+        }
+      }
+    },
+    "koindxFarm": {
+      "pageTitle": "Granja KoinDX | Koinos",
+      "relatedMessage": "¡Al proporcionar liquidez con tus activos transferidos desde Gana en Koinos, puedes ganar tanto APY en USDT, ETH y BTC como KOIN mientras ganas KOINDX simultáneamente!"
+    },
+    "lordsForsaken": {
+      "pageTitle": "Misión de Lord's Forsaken | Koinos",
+      "getStarted": "¡Empecemos!",
+      "questTitle": "Misión de Lanzamiento de Lord's Forsaken",
+      "description": "Gana una parte del premio de 1500 KOIN y 18000 FAITH jugando.",
+      "steps": {
+        "followLords": "Sigue a LordsForsak3n en X",
+        "followKoinos": "Sigue a KoinosNetwork en X",
+        "joinLordsTg": "Únete a Lord's Forsaken en Telegram",
+        "joinKoinosTg": "Únete a Koinos en Telegram",
+        "playGame": "Juega Lord's Forsaken",
+        "postVictory": "Publica en X con una captura de pantalla de tu victoria -- asegúrate de incluir \"Gana $FAITH jugando @lordsforsak3n en @KoinosNetwork\" en el texto",
+        "joinTaskon": "Únete a Koinos en TaskOn"
+      },
+      "joinQuest": "Únete a la Misión"
+    },
+    "taskonLaunch": {
+      "pageTitle": "Lanzamiento de la Comunidad TaskOn | Koinos",
+      "getStarted": "¡Empecemos!",
+      "questTitle": "Misión de Lanzamiento de la Comunidad TaskOn",
+      "description": "Gana una parte del premio de $1,250 USDT siguiendo tres sencillos pasos.",
+      "steps": {
+        "followKoinos": "Sigue a KoinosNetwork en X",
+        "joinTelegram": "Únete a nuestro Telegram",
+        "joinTaskon": "Únete a nuestra Comunidad TaskOn"
+      },
+      "joinQuest": "Únete a la Misión",
+      "relatedMessage": "¡Puedes aprovechar otra misión de TaskOn para ser elegible para tu parte del premio de 1500 KOIN y 18000 FAITH!"
+    }
   }
 }

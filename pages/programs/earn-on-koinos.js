@@ -12,6 +12,8 @@ import { useEffect } from "react";
 
 export default function EarnOnKoinos() {
   const t = useTranslations('Programs.earnOnKoinos');
+  const commonT = useTranslations('Programs.common');
+  const koindxFarmT = useTranslations('Programs.koindxFarm');
 
   useEffect(() => {
     AOS.init({
@@ -28,7 +30,7 @@ export default function EarnOnKoinos() {
         headerStyle={1}
         footerStyle={1}
         headerCls="navbar-dark inner-page-header"
-        headTitle={t('pageTitle')}
+        headTitle={t('title')}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -73,13 +75,21 @@ export default function EarnOnKoinos() {
 
               <RelatedProgram
                 program={relatedProgram}
-                message={t('koindxFarm.relatedMessage', {}, { fallback: "By using your bridged assets from the Earn on Koinos program and providing liquidity on KoinDX you can maximize your earnings." })}
+                message={koindxFarmT('relatedMessage')}
               />
               <JoinTheCommunity />
             </div>
           </div>
         </div>
-      </Layout >
+      </Layout>
     </>
   )
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      messages: (await import(`../../messages/${locale}.json`)).default
+    }
+  }
 }

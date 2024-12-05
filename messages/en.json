@@ -651,8 +651,12 @@
     "a12": "Koinos has the highest degree of composability possible because it is the only blockchain framework to move all of the system logic into smart contracts. When we’re talking about composability in the blockchain context, what we are talking about is the ability for decentralized application developers to repurpose code that is already running on the blockchain within their applications (i.e. to “compose” their applications). Most blockchains that claim “high composability” are just saying that they don’t have sharding, which is an attempt to rebrand a limitation as a value-add. Koinos is optimized for flexibility which means that it could shard, or not shard, based on the smart contracts that are running on it. Because all of the system logic is contained in smart contract modules, application developers will be able to not just repurpose the smart contracts written by other dApp developers, they’ll be able to repurpose the code written by the most experienced blockchain engineers in the world; the engineers building Koinos-based blockchains. But wait there’s more! Because these smart contracts will be written in an ever growing number of the most used programming languages in the world, developers won’t just be able to find the perfect smart contract for their needs, they will be able to find smart contracts written in their preferred programming language! This takes the composability of Koinos, already far greater than any other protocol, to an entirely new level! Follow us on Twitter for updates and the latest AMA location."
   },
   "Programs": {
+    "common": {
+      "getStarted": "Get Started"
+    },
     "earnOnKoinos": {
       "pageTitle": "Earn on Koinos | Koinos",
+      "title": "Earn on Koinos",
       "getStarted": "Let's Get Started!",
       "step1": {
         "title": "Step 1: Setup your Koinos wallet",
