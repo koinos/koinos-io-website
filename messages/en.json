@@ -649,5 +649,70 @@
     "a11": "The ultimate scaling solution is the ability to rapidly integrate the most efficient, secure, and well-maintained scaling solutions as they emerge. In other words, upgradeability is the ultimate scaling solution which is why Koinos is designed to be the most upgradeable blockchain in the world. Whether the best solutions leverage inter-chain communication, sharding, or something else entirely, Koinos will be ready to take advantage of any or all of these.",
     "q12": "How Composable is Koinos ?",
     "a12": "Koinos has the highest degree of composability possible because it is the only blockchain framework to move all of the system logic into smart contracts. When we’re talking about composability in the blockchain context, what we are talking about is the ability for decentralized application developers to repurpose code that is already running on the blockchain within their applications (i.e. to “compose” their applications). Most blockchains that claim “high composability” are just saying that they don’t have sharding, which is an attempt to rebrand a limitation as a value-add. Koinos is optimized for flexibility which means that it could shard, or not shard, based on the smart contracts that are running on it. Because all of the system logic is contained in smart contract modules, application developers will be able to not just repurpose the smart contracts written by other dApp developers, they’ll be able to repurpose the code written by the most experienced blockchain engineers in the world; the engineers building Koinos-based blockchains. But wait there’s more! Because these smart contracts will be written in an ever growing number of the most used programming languages in the world, developers won’t just be able to find the perfect smart contract for their needs, they will be able to find smart contracts written in their preferred programming language! This takes the composability of Koinos, already far greater than any other protocol, to an entirely new level! Follow us on Twitter for updates and the latest AMA location."
+  },
+  "Programs": {
+    "earnOnKoinos": {
+      "pageTitle": "Earn on Koinos | Koinos",
+      "getStarted": "Let's Get Started!",
+      "step1": {
+        "title": "Step 1: Setup your Koinos wallet",
+        "steps": {
+          "install": "Go to the Chrome Webstore and install Kondor",
+          "setup": "Follow the setup steps to create your Koinos wallet.",
+          "store": "Safely store your seed phrase!"
+        }
+      },
+      "step2": {
+        "title": "Step 2: Bridging USDT, ETH, or BTC to Koinos",
+        "steps": {
+          "access": "Access the Chainge Bridge and choose the asset you'd like to bridge.",
+          "connect": "Connect your source chain wallet.",
+          "enter": "Enter the amount of USDT, ETH, or BTC to bridge and input your Koinos address.",
+          "bridge": "Click on \"Bridge now\" to start the process."
+        }
+      },
+      "step3": {
+        "title": "Step 3: Claim your APY Daily",
+        "description": "If you are providing liquidity for KoinDX on the KOIN-USDT, KOIN-ETH, KOIN-BTC pools, your APY will be distributed to you automatically and you can safely skip this step. For all other participants, follow the steps below to claim your APY daily.",
+        "steps": {
+          "access": "Access the Chainge Bridge.",
+          "connect": "Connect your Koinos wallet.",
+          "claim": "Claim the available APY on your assets."
+        }
+      }
+    },
+    "koindxFarm": {
+      "pageTitle": "KoinDX Farm | Koinos",
+      "relatedMessage": "By providing liquidity with your bridged assets from Earn on Koinos, you can earn both APY on USDT, ETH, and BTC as well as KOIN while earning KOINDX simultaneously!"
+    },
+    "lordsForsaken": {
+      "pageTitle": "Lord's Forsaken Quest | Koinos",
+      "getStarted": "Let's Get Started!",
+      "questTitle": "Lord's Forsaken Launch Quest",
+      "description": "Earn yourself a piece of the 1500 KOIN and 18000 FAITH prize pool by playing.",
+      "steps": {
+        "followLords": "Follow LordsForsak3n on X",
+        "followKoinos": "Follow KoinosNetwork on X",
+        "joinLordsTg": "Join Lord's Forsaken on Telegram",
+        "joinKoinosTg": "Join Koinos Telegram",
+        "playGame": "Play Lord's Forsaken",
+        "postVictory": "Post on X with a screenshot of your victory -- be sure to include \"Earn $FAITH by playing @lordsforsak3n on @KoinosNetwork \" in the text",
+        "joinTaskon": "Join Koinos on TaskOn"
+      },
+      "joinQuest": "Join the Quest"
+    },
+    "taskonLaunch": {
+      "pageTitle": "TaskOn Community Launch | Koinos",
+      "getStarted": "Let's Get Started!",
+      "questTitle": "TaskOn Community Launch Quest",
+      "description": "Earn yourself a piece of the $1,250 USDT prize pool by taking three easy steps.",
+      "steps": {
+        "followKoinos": "Follow KoinosNetwork on X",
+        "joinTelegram": "Join our Telegram",
+        "joinTaskon": "Join our TaskOn Community"
+      },
+      "joinQuest": "Join the Quest",
+      "relatedMessage": "You can take advantage of yet another TaskOn quest to be eligible for your share of the 1500 KOIN and 18000 FAITH prize pool!"
+    }
   }
 }

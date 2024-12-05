@@ -34,7 +34,7 @@ export const useProgramStore = create(() => ({
       images: {
         banner: "/images/programs/earn-on-koinos.png",
       },
-      featured: false,
+      featured: true,
       active: true,
     },
     koindxFarm: {
@@ -146,8 +146,8 @@ export const useProgramStore = create(() => ({
       images: {
         banner: "/images/programs/lords-forsaken-quest.png",
       },
-      featured: true,
-      active: true,
+      featured: false,
+      active: false,
     },
   },
 }))
