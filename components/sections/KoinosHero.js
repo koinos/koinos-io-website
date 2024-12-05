@@ -23,7 +23,7 @@ export default function KoinosHero() {
                   {/* Text */}
                   <p className="s-20 mb-4">{t('subtitle')}</p>
                   {/* Buttons */}
-                  <div className="btns-group hero-btns">
+                  <div className="btns-group hero-btns mt-4">
                     <Link
                       href="https://telegram.koinos.io/"
                       target="_blank"
