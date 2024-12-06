@@ -625,36 +625,54 @@
     "heading": "FAQs",
     "haveQuestions": "Have any questions?",
     "getInTouch": "Get in Touch",
-    "q1": "What is the mission of Koinos ?",
+    "q1": "What is the mission of Koinos?",
     "a1": "To accelerate the transition to a truly decentralized future by providing Web2 User Experiences on Web3.",
     "q2": "When will mainnet be released?",
     "a2": "Main net was released on November the 5th, 2022 and fully decentralized December 5th, 2022.",
-    "q3": "How will mainnet tokens be distributed ?",
+    "q3": "How will mainnet tokens be distributed?",
     "a3": "The initial token balances on main net were determined entirely by the token balances of the KOIN ERC20 (i.e. the KOIN tokens on Ethereum that were distributed through proof of work mining). That ERC20 was implemented using OpenZeppelin’s tooling including their snapshot mechanism. This mechanism within the smart contract allows for the creation of a decentralized record of all token balances and total supply at the time of use (i.e. a “snapshot”). No date has been announced for the snapshot that will be used for mainnet.",
-    "q4": "How is Koinos feeless ?",
+    "q4": "How is Koinos feeless?",
     "a4": "Koinos features a new concept called “mana” that is the most innovative solution to the halting problem since the invention of Ethereum’s “gas.” It is a property of the KOIN token that gets “consumed” as a user performs feeless transactions, but that also regenerates over time. This means that even if all of a user’s mana gets consumed, all they have to do is wait if they want to perform more feeless transactions without having to purchase additional KOIN. Once any mana in a token is consumed, that token becomes locked (non-transferrable) for the duration of the regen period. The regen period is based on how long it takes for one satoshi of mana to regenerate, with regeneration happening on all of a user's tokens at the same time. Since this mechanism is distributive, the regen time appears dynamic to the user. In other words, a user's mana will constantly be regenerating so they will not have to wait the full 5 days to resume their blockchain usage.",
-    "q5": "How decentralized is Koinos ?",
+    "q5": "How decentralized is Koinos?",
     "a5": "Koinos is highly decentralized as a result of its novel proof-of-burn consensus algorithm. the KOIN token is intended to deliver on Satoshi’s original vision of a truly peer-to-peer electronic cash that utilizes spare computational resources and does not require dedicated hardware. In other words, it is provably egalitarian. Iain Stewart proposed proof-of-burn in 2012, a year after proof-of-stake was proposed, and we believe this represents the next stage of evolution in consensus algorithms. Proof-of-burn enables Koinos to accomplish provable egalitarianism by delivering the economics of proof-of-work with even higher efficiency than proof-of-stake.",
     "q6": "What is the TPS (transactions per second)?",
     "a6": "Koinos main net is capable of supporting an average TPS of 150 and a peak TPS of 450 but it is important to bear in mind that Koinos is not optimized for throughput, it is optimized for upgradeability which means that it can rapidly adopt the most advanced and secure scaling solutions (e.g. sharding, parachains, etc.) as soon as they are available. Koinos Group, the inventors of Koinos have already identified new WASM VMs that could improve performance by 10x.",
     "q7": "Was there an ICO?",
     "a7": "No. The KOIN token launch was modeled off Bitcoin to maximize accessibility and made innovative use of the Ethereum blockchain to further maximize accessibility. Instead of having to access an entirely new blockchain, people could use an incredibly easy-to-use, free, and open mining program to submit CPU-optimized proofs of work to an Ethereum smart contract which would in turn distribute KOIN tokens based on the size of the proofs.The purpose of this Ethereum-based token is to pre-seed the Koinos ecosystem with a base level of decentralization. This means that the only way to acquire KOIN was through PoW mining or open market purchases so there was no pre-mine, ICO, IEO, or any other IxO (lol).",
-    "q8": "What are the features of mainnet ?",
+    "q8": "What are the features of mainnet?",
     "a8": "1. Feeless Mana system <br> 2. Proof-of-Burn consensus algorithm <br> 3. Universal Language Support <br> 4. Infinite Upgradeability",
-    "q9": "Is Koinos “Ethereum-compatible” ?",
+    "q9": "Is Koinos “Ethereum-compatible”?",
     "a9": "Maximum accessibility is the ultimate compatibility. Koinos is designed so that developers can use the programming languages they already know and love to build their applications, not learn new languages like Solidity. Any developer who can write a smart contract in Solidity can easily rewrite that smart contract in C++ or TypeScript, which are the first two languages Koinos will support.",
-    "q10": "How is the team funded ?",
+    "q10": "How is the team funded?",
     "a10": "Koinos Group is being modeled off traditional tech growth companies that sacrifice profits in the early years to build a user base and leverage unique knowledge of an ecosystem to find product-market fit for a high-margin software product. Koinos Group was founded by the core development team behind the Steem blockchain to accelerate the transition to a more decentralized future by focusing on accessibility. This team worked together for 4+ years at Steemit on the Steem blockchain, at the time the most accessible blockchain by orders of magnitude, and we have now been working together for nearly 2 years on Koinos. Every member of Koinos Group has been working solely for equity in the company, which means they believe in the product and the business plan, and have a vested interest in seeing both the platform and the company succeed. Koinos Group had to acquire its KOIN like everyone else through either PoW mining or open market purchases, making it impossible to confuse holding KOIN as any kind of investment in Koinos Group. This aligns its incentives with the incentives of the Koinos community.",
-    "q11": "How will Koinos scale ?",
+    "q11": "How will Koinos scale?",
     "a11": "The ultimate scaling solution is the ability to rapidly integrate the most efficient, secure, and well-maintained scaling solutions as they emerge. In other words, upgradeability is the ultimate scaling solution which is why Koinos is designed to be the most upgradeable blockchain in the world. Whether the best solutions leverage inter-chain communication, sharding, or something else entirely, Koinos will be ready to take advantage of any or all of these.",
-    "q12": "How Composable is Koinos ?",
+    "q12": "How Composable is Koinos?",
     "a12": "Koinos has the highest degree of composability possible because it is the only blockchain framework to move all of the system logic into smart contracts. When we’re talking about composability in the blockchain context, what we are talking about is the ability for decentralized application developers to repurpose code that is already running on the blockchain within their applications (i.e. to “compose” their applications). Most blockchains that claim “high composability” are just saying that they don’t have sharding, which is an attempt to rebrand a limitation as a value-add. Koinos is optimized for flexibility which means that it could shard, or not shard, based on the smart contracts that are running on it. Because all of the system logic is contained in smart contract modules, application developers will be able to not just repurpose the smart contracts written by other dApp developers, they’ll be able to repurpose the code written by the most experienced blockchain engineers in the world; the engineers building Koinos-based blockchains. But wait there’s more! Because these smart contracts will be written in an ever growing number of the most used programming languages in the world, developers won’t just be able to find the perfect smart contract for their needs, they will be able to find smart contracts written in their preferred programming language! This takes the composability of Koinos, already far greater than any other protocol, to an entirely new level! Follow us on Twitter for updates and the latest AMA location."
   },
   "Programs": {
     "common": {
-      "getStarted": "Get Started"
+      "learnMore": "Learn more",
+      "getStarted": "Get Started Now",
+      "sectionId": "Featured Program"
     },
     "earnOnKoinos": {
+      "featured": {
+        "title": "Earn on Koinos",
+        "subtitle": "Earn up to 16% APY on Koinos!",
+        "shortDescription": "Chainge Finance and Koinos Group have partnered to offer up to 16.24% yield for simply bridging and holding BTC, ETH, or USDT on Koinos through the Chainge app.",
+        "description": "Chainge makes Koinos interoperable with over 2000 blockchains and their novel DEX aggregation technology delivers some of the lowest cost swaps in all of crypto. High yields and low fees are a powerful flywheel and the Earn on Koinos program kicks it into high gear!",
+        "keyPoints": {
+          "first": "Earn up to 16% on bridged assets",
+          "second": "Earn APY on USDT, ETH, and BTC",
+          "third": "Earn KOIN with your USDT, ETH, and BTC"
+        },
+        "details": {
+          "first": "USDT: 8.12% APY, Matching Total: 16.24% with $KOIN rewards",
+          "second": "ETH: 5.2% APY, Matching Total: 10.4% with $KOIN rewards",
+          "third": "BTC: 4.1% APY, Matching Total: 8.2% with $KOIN rewards"
+        }
+      },
       "pageTitle": "Earn on Koinos | Koinos",
       "title": "Earn on Koinos",
       "getStarted": "Let's Get Started!",

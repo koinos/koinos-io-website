@@ -5,8 +5,6 @@ import { useTranslations } from 'next-intl'
 export default function Menu() {
   const router = useRouter()
   const t = useTranslations('Menu')
-  console.log('translations', t)
-  console.log('Menu.learn:', t('learn'));
   return (
     <>
       <ul className="wsmenu-list nav-theme">

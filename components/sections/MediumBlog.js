@@ -22,7 +22,6 @@ export default function MediumBlog() {
         const items = data.items;
         setItems(items);
       } catch {
-        console.log("error fetching items from medium blog rss feed");
         setError(true);
       }
     }
@@ -78,7 +77,6 @@ export default function MediumBlog() {
   }, [items]); // re-run when items changes
 
   return (
-    <>
       <section id="blog-1" className="py-100 blog-section division">
         <div className="container">
           {/* SECTION TITLE */}
@@ -95,47 +93,44 @@ export default function MediumBlog() {
           <div className="row">
             {displayItems &&
               displayItems.map((item, index) => (
-                <>
-                  <div className="col-md-6 col-lg-4" key={index}>
-                    <div className="blog-post wow"  data-aos='fade-up'>
-                      {/* BLOG POST IMAGE */}
-                      <div className="blog-post-img mb-35">
-                        <Link href={item.link}>
-                          <img
-                            className="img-fluid light-theme-img r-16"
-                            src={item.image}
-                            alt="blog-post-image"
-                            style={{ border: "2px solid #000" }}
-                          />
-                          <img
-                            className="img-fluid dark-theme-img r-16"
-                            src={item.image}
-                            alt="blog-post-image"
-                            style={{ border: '1px solid #fff' }}
-                          />
-                        </Link>
-                      </div>
-                      {/* BLOG POST TEXT */}
-                      <div className="blog-post-txt">
-                        {/* Post Link */}
-                        <h6 className="s-20 w-700">
-                          <Link href={item.link}>{item.title}</Link>
-                        </h6>
-                        {/* Text Description */}
-                        <p>{item.description}</p>
-                        {/* Post Meta */}
-                        <div className="blog-post-meta mt-20">
-                          <ul className="post-meta-list ico-10">
-                            <li>
+                <div className="col-md-6 col-lg-4" key={item.link || index}>
+                  <div className="blog-post wow" data-aos='fade-up'>
+                    {/* BLOG POST IMAGE */}
+                    <div className="blog-post-img mb-35">
+                      <Link href={item.link}>
+                        <img
+                          className="img-fluid light-theme-img r-16"
+                          src={item.image}
+                          alt="blog-post-image"
+                          style={{ border: "2px solid #000" }}
+                        />
+                        <img
+                          className="img-fluid dark-theme-img r-16"
+                          src={item.image}
+                          alt="blog-post-image"
+                          style={{ border: '1px solid #fff' }}
+                        />
+                      </Link>
+                    </div>
+                    {/* BLOG POST TEXT */}
+                    <div className="blog-post-txt">
+                      {/* Post Link */}
+                      <h6 className="s-20 w-700">
+                        <Link href={item.link}>{item.title}</Link>
+                      </h6>
+                      {/* Text Description */}
+                      <p>{item.description}</p>
+                      {/* Post Meta */}
+                      <div className="blog-post-meta mt-20">
+                        <ul className="post-meta-list ico-10">
+                          <li>
                             <p className="p-sm">{t('publishedOn')} {item.pubDate}</p>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>{" "}
-                      {/* END BLOG POST TEXT */}
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                </>
+                </div>
               ))}
             {!displayItems && <div>{t('loading')}</div>}
           </div>{" "}
@@ -143,6 +138,5 @@ export default function MediumBlog() {
         </div>{" "}
         {/* End container */}
       </section>
-    </>
   );
 }

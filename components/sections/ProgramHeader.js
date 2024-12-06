@@ -1,6 +1,9 @@
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 export default function ProgramHeader({ program }) {
+  const commonT = useTranslations('Programs.common');
+  const programT = useTranslations(`Programs.${program.id}`);
 
   return (
     <>
@@ -14,14 +17,14 @@ export default function ProgramHeader({ program }) {
                     <div className="txt-block left-column wow" data-aos='fade-left'>
                       {/* Title and Program Overview */}
                       <h2 className="s-46 w-700">
-                        {program.title}
+                        {programT('featured.title')}
                       </h2>
                       {/* Render the short description here */}
                       <p>
-                        {program.shortDescription}{" "}
+                        {programT('featured.shortDescription')}{" "}
                       </p>
                       <h5 className="s-24 w-700">
-                        {program.smallTitle}
+                        {programT('featured.subtitle')}
                       </h5>
                       {/* Key Points */}
                       <ul>
@@ -34,7 +37,7 @@ export default function ProgramHeader({ program }) {
                                 </div>
                               </div>
                               <div className="cbox-1-txt">
-                                <p>{point}</p>
+                                <p>{programT(`featured.keyPoints.${index}`)}</p>
                               </div>
                             </div>
                           </li>
@@ -44,7 +47,7 @@ export default function ProgramHeader({ program }) {
                         href={program.website} target="_blank"
                         className="btn r-04 btn--theme btn--primary mt-20"
                       >
-                        Get Started Now
+                        {commonT('getStarted')}
                       </Link>
                     </div>
                   </div>
@@ -65,7 +68,7 @@ export default function ProgramHeader({ program }) {
 
           {/* Program Description */}
           <div className="project-txt mt-5">
-            <p>{program.description}</p>
+            <p>{programT('description')}</p>
 
             {/* List of features */}
             {program.details && (

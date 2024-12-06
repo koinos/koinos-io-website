@@ -1,9 +1,12 @@
 import { useProgramStore } from "@/store/programStore";
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 export default function FeaturedProgram() {
     const programs = useProgramStore((state) => state.programs);
     const featuredProgram = Object.values(programs).find((program) => program.featured);
+    const t = useTranslations('Programs.earnOnKoinos.featured');
+    const commonT = useTranslations('Programs.common');
 
     if (!featuredProgram) {
       return <p>No featured program at this time.</p>;
@@ -16,14 +19,16 @@ export default function FeaturedProgram() {
             <div className="row d-flex align-items-center">
               <div className="col-md-6 order-last order-md-2">
                 <div className="txt-block left-column wow" data-aos='fade-left'>
-                  <span className="section-id">Featured Program</span>
-                  <h2 className="s-46 w-700">{featuredProgram.title}</h2>
-                  {/* Render the short description here */}
-                  <p>{featuredProgram.shortDescription} <a target="_self" href={featuredProgram.url}>Learn more</a></p>
-                  <h5 className="s-24 w-700">{featuredProgram.smallTitle}</h5>
-                  {/* Key Points */}
+                  <span className="section-id">{commonT('sectionId')}</span>
+                  <h2 className="s-46 w-700">{t('title')}</h2>
+                  <p>{t('shortDescription')} <a target="_self" href={featuredProgram.url}>{commonT('learnMore')}</a></p>
+                  <h5 className="s-24 w-700">{t('subtitle')}</h5>
                   <ul>
-                    {featuredProgram.keyPoints.map((point, index) => (
+                    {[
+                      t('keyPoints.first'),
+                      t('keyPoints.second'),
+                      t('keyPoints.third')
+                    ].map((point, index) => (
                       <li key={index}>
                         <div className="cbox-1 ico-15">
                           <div className="ico-wrap color--theme">
@@ -35,12 +40,12 @@ export default function FeaturedProgram() {
                         </div>
                       </li>
                     ))}
-                  <Link
-                    href={featuredProgram.website}
-                    className="btn r-04 btn--theme btn--primary text-decoration-none mt-20"
+                    <Link
+                      href={featuredProgram.website}
+                      className="btn r-04 btn--theme btn--primary text-decoration-none mt-20"
                     >
-                    Get Started Now
-                  </Link>
+                      {commonT('getStarted')}
+                    </Link>
                   </ul>
                 </div>
               </div>
@@ -54,4 +59,4 @@ export default function FeaturedProgram() {
         </section>
       </>
     );
-  }
+}

@@ -616,7 +616,25 @@
     "a12": "Koinos tiene el mayor grado de composibilidad posible porque es el único marco de blockchain que mueve toda la lógica del sistema a contratos inteligentes. Cuando hablamos de composibilidad en el contexto de blockchain, nos referimos a la capacidad de los desarrolladores de aplicaciones descentralizadas para reutilizar el código que ya se está ejecutando en la blockchain dentro de sus aplicaciones (es decir, 'componer' sus aplicaciones). La mayoría de las blockchains que afirman tener 'alta composibilidad' simplemente dicen que no tienen sharding, lo cual es un intento de redefinir una limitación como un valor añadido. Koinos está optimizado para la flexibilidad, lo que significa que podría utilizar sharding o no, según los contratos inteligentes que se estén ejecutando en él. Debido a que toda la lógica del sistema está contenida en módulos de contratos inteligentes, los desarrolladores de aplicaciones podrán no solo reutilizar los contratos inteligentes escritos por otros desarrolladores de dApps, sino también el código escrito por los ingenieros de blockchain más experimentados del mundo; los ingenieros que construyen blockchains basadas en Koinos. ¡Pero espera, hay más! Debido a que estos contratos inteligentes se escribirán en un número cada vez mayor de los lenguajes de programación más utilizados en el mundo, los desarrolladores no solo podrán encontrar el contrato inteligente perfecto para sus necesidades, sino que podrán encontrar contratos inteligentes escritos en su lenguaje de programación preferido. Esto lleva la composibilidad de Koinos, ya muy superior a cualquier otro protocolo, a un nivel completamente nuevo. Síguenos en Twitter para actualizaciones y la ubicación del último AMA."
   },
   "Programs": {
+    "common": {
+      "getStarted": "¡Empecemos!"
+    },
     "earnOnKoinos": {
+      "featured": {
+        "title": "Gana en Koinos",
+        "subtitle": "¡Gana hasta un 16% de APY en Koinos!",
+        "shortDescription": "Chainge Finance y Koinos Group se han asociado para ofrecer hasta un 16.24% de rendimiento simplemente por conectar y mantener BTC, ETH o USDT en Koinos a través de la aplicación Chainge.",
+        "keyPoints": {
+          "first": "Gana hasta un 16% en activos conectados",
+          "second": "Gana APY en USDT, ETH y BTC",
+          "third": "Gana KOIN con tu USDT, ETH y BTC"
+        },
+        "details": {
+          "first": "USDT: 8.12% APY, Total Combinado: 16.24% con recompensas en $KOIN",
+          "second": "ETH: 5.2% APY, Total Combinado: 10.4% con recompensas en $KOIN",
+          "third": "BTC: 4.1% APY, Total Combinado: 8.2% con recompensas en $KOIN"
+        }
+      },
       "pageTitle": "Gana en Koinos | Koinos",
       "getStarted": "¡Empecemos!",
       "step1": {
