@@ -650,6 +650,15 @@
     "q12": "How Composable is Koinos?",
     "a12": "Koinos has the highest degree of composability possible because it is the only blockchain framework to move all of the system logic into smart contracts. When we’re talking about composability in the blockchain context, what we are talking about is the ability for decentralized application developers to repurpose code that is already running on the blockchain within their applications (i.e. to “compose” their applications). Most blockchains that claim “high composability” are just saying that they don’t have sharding, which is an attempt to rebrand a limitation as a value-add. Koinos is optimized for flexibility which means that it could shard, or not shard, based on the smart contracts that are running on it. Because all of the system logic is contained in smart contract modules, application developers will be able to not just repurpose the smart contracts written by other dApp developers, they’ll be able to repurpose the code written by the most experienced blockchain engineers in the world; the engineers building Koinos-based blockchains. But wait there’s more! Because these smart contracts will be written in an ever growing number of the most used programming languages in the world, developers won’t just be able to find the perfect smart contract for their needs, they will be able to find smart contracts written in their preferred programming language! This takes the composability of Koinos, already far greater than any other protocol, to an entirely new level! Follow us on Twitter for updates and the latest AMA location."
   },
+  "JoinTheCommunity": {
+    "sectionId": "Community",
+    "title": "Join the Community",
+    "description": "If you have any questions, join our community and ask! You will find that the Koinos community is both friendly and helpful, don't be shy. We look forward to meeting you!",
+    "buttons": {
+      "telegram": "Join Telegram",
+      "discord": "Join Discord"
+    }
+  },
   "Programs": {
     "common": {
       "learnMore": "Learn more",
@@ -705,9 +714,40 @@
     },
     "koindxFarm": {
       "pageTitle": "KoinDX Farm | Koinos",
+      "featured": {
+        "title": "KoinDX Farm",
+        "subtitle": "Earn KOINDX by Providing Liquidity",
+        "shortDescription": "Don't miss out on the launch of KoinDX's native token, KOINDX! By providing liquidity on qualifying pools you can earn KoinDX's revenue sharing token, KOINDX.",
+        "description": "KoinDX is launching their native token, KOINDX. The native DEX token allows users to share in the revenue from swap fees as wall as participate in KOINDX governance. To participate in the airdrop, users can simply provide liquidity to qualifying pools on KoinDX.",
+        "keyPoints": {
+          "first": "Earn KOINDX token by providing liquidity",
+          "second": "Earn KOINDX token by swapping assets on the DEX",
+          "third": "Share in revenue from swap fees and participate in governance"
+        },
+        "details": {
+          "first": "Liquidity Provision: Earn KOINDX by providing liquidity to KOIN-ETH, KOIN-BTC, KOIN-USDT, or KOIN-VHP pools",
+          "second": "Trading Activity: By perform trades on KoinDX, users are qualified to receive KOINDX airdrops"
+        }
+      },
       "relatedMessage": "By providing liquidity with your bridged assets from Earn on Koinos, you can earn both APY on USDT, ETH, and BTC as well as KOIN while earning KOINDX simultaneously!"
     },
-    "lordsForsaken": {
+    "lordsForsakenQuest": {
+      "featured": {
+        "title": "Lord's Forsaken Quest",
+        "subtitle": "Earn rewards for playing!",
+        "shortDescription": "Koinos' premiere Web3 Play-to-Earn card game launch quest. Have fun playing while earning valuable rewards!",
+        "description": "Lord's Forsaken is about to launch on Koinos and to celebrate this event we are offering lucrative rewards for participating. A few simple steps could net you some valuable KOIN and FAITH!",
+        "keyPoints": {
+          "first": "Earn your share of 1500 KOIN for having fun!",
+          "second": "Get your hands on your share of 18000 FAITH",
+          "third": "Play-to-Earn on Lord's Forsaken to earn even more FAITH"
+        },
+        "details": {
+          "first": "Free-to-Play: Thanks to feeless transactions on Koinos you can play Lord's Forsaken and earn FAITH with no cost to you",
+          "second": "Play-to-Earn: Earn the in-game currency, FAITH, giving you access to upgraded card decks",
+          "third": ""
+        }
+      },
       "pageTitle": "Lord's Forsaken Quest | Koinos",
       "getStarted": "Let's Get Started!",
       "questTitle": "Lord's Forsaken Launch Quest",

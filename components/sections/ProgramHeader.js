@@ -28,17 +28,13 @@ export default function ProgramHeader({ program }) {
                       </h5>
                       {/* Key Points */}
                       <ul>
-                        {program.keyPoints.map((point, index) => (
+                        {program?.keyPoints && Object.values(program.keyPoints).map((point, index) => (
                           <li key={index}>
                             <div className="cbox-1 ico-15">
                               <div className="ico-wrap color--theme">
-                                <div className="cbox-1-ico">
-                                  <span className="flaticon-check" />
-                                </div>
+                                <span className="flaticon-check"></span>
                               </div>
-                              <div className="cbox-1-txt">
-                                <p>{programT(`featured.keyPoints.${index}`)}</p>
-                              </div>
+                              <p>{point}</p>
                             </div>
                           </li>
                         ))}
@@ -68,7 +64,7 @@ export default function ProgramHeader({ program }) {
 
           {/* Program Description */}
           <div className="project-txt mt-5">
-            <p>{programT('description')}</p>
+            <p>{programT('featured.description')}</p>
 
             {/* List of features */}
             {program.details && (

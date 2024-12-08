@@ -1,36 +1,43 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useTranslations } from 'next-intl'
+import { useState } from 'react'
 
 export default function Menu() {
   const router = useRouter()
   const t = useTranslations('Menu')
+  const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false)
+
+  const toggleLangDropdown = () => {
+    setIsLangDropdownOpen(!isLangDropdownOpen)
+  }
+
   return (
     <>
       <ul className="wsmenu-list nav-theme">
         <li aria-haspopup="true">
-          <Link href="#" className="h-link">{t('learn')}<span className="wsarrow" /></Link>
+          <Link href="#" locale={router.locale} className="h-link">{t('learn')}<span className="wsarrow" /></Link>
           <ul className="sub-menu">
-            <li aria-haspopup="true"><Link href="/whitepaper">{t('whitepaper')}</Link></li>
-            <li aria-haspopup="true"><Link href="/#features">{t('features')}</Link></li>
-            <li aria-haspopup="true"><Link href="/faqs">{t('faqs')}</Link></li>
+            <li aria-haspopup="true"><Link href="/whitepaper" locale={router.locale}>{t('whitepaper')}</Link></li>
+            <li aria-haspopup="true"><Link href="/#features" locale={router.locale}>{t('features')}</Link></li>
+            <li aria-haspopup="true"><Link href="/faqs" locale={router.locale}>{t('faqs')}</Link></li>
           </ul>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="https://docs.koinos.io" className="h-link">{t('documentation')}</Link>
+          <Link href="https://docs.koinos.io" locale={router.locale} className="h-link">{t('documentation')}</Link>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="/ecosystem" className="h-link">{t('ecosystem')}</Link>
+          <Link href="/ecosystem" locale={router.locale} className="h-link">{t('ecosystem')}</Link>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="/#roadmap" className="h-link">{t('roadmap')}</Link>
+          <Link href="/#roadmap" locale={router.locale} className="h-link">{t('roadmap')}</Link>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="/team" className="h-link">{t('team')}</Link>
+          <Link href="/team" locale={router.locale} className="h-link">{t('team')}</Link>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
@@ -42,15 +49,41 @@ export default function Menu() {
           </Link>
         </li>
 
-        <li className="nl-simple" aria-haspopup="true">
-          <div className="language-switcher mt-3">
-            <Link href={router.asPath} locale="en" className={router.locale === 'en' ? 'active' : ''}>
-              EN
-            </Link>
-            {' | '}
-            <Link href={router.asPath} locale="es" className={router.locale === 'es' ? 'active' : ''}>
-              ES
-            </Link>
+        <li aria-haspopup="true" className="nl-simple">
+          <div className="language-switcher position-relative" style={{paddingTop: '1.2em'}}>
+            <button 
+              onClick={toggleLangDropdown}
+              className="bg-transparent border-0 text-inherit"
+              aria-label="Toggle language"
+            >
+              <i className="fa-solid fa-globe text-white"></i>
+            </button>
+            
+            {isLangDropdownOpen && (
+              <div className="lang-dropdown position-absolute shadow-sm rounded py-2" style={{
+                right: 0,
+                top: '100%',
+                minWidth: '100px',
+                zIndex: 1000
+              }}>
+                <Link 
+                  href={router.asPath} 
+                  locale="en" 
+                  className={`d-block px-3 py-1 text-decoration-none text-left ${router.locale === 'en' ? 'active' : ''}`}
+                  onClick={() => setIsLangDropdownOpen(false)}
+                >
+                  English
+                </Link>
+                <Link 
+                  href={router.asPath} 
+                  locale="es" 
+                  className={`d-block px-3 py-1 text-decoration-none text-left ${router.locale === 'es' ? 'active' : ''}`}
+                  onClick={() => setIsLangDropdownOpen(false)}
+                >
+                  Español
+                </Link>
+              </div>
+            )}
           </div>
         </li>
       </ul>

@@ -615,15 +615,27 @@
     "q12": "¿Qué tan composable es Koinos?",
     "a12": "Koinos tiene el mayor grado de composibilidad posible porque es el único marco de blockchain que mueve toda la lógica del sistema a contratos inteligentes. Cuando hablamos de composibilidad en el contexto de blockchain, nos referimos a la capacidad de los desarrolladores de aplicaciones descentralizadas para reutilizar el código que ya se está ejecutando en la blockchain dentro de sus aplicaciones (es decir, 'componer' sus aplicaciones). La mayoría de las blockchains que afirman tener 'alta composibilidad' simplemente dicen que no tienen sharding, lo cual es un intento de redefinir una limitación como un valor añadido. Koinos está optimizado para la flexibilidad, lo que significa que podría utilizar sharding o no, según los contratos inteligentes que se estén ejecutando en él. Debido a que toda la lógica del sistema está contenida en módulos de contratos inteligentes, los desarrolladores de aplicaciones podrán no solo reutilizar los contratos inteligentes escritos por otros desarrolladores de dApps, sino también el código escrito por los ingenieros de blockchain más experimentados del mundo; los ingenieros que construyen blockchains basadas en Koinos. ¡Pero espera, hay más! Debido a que estos contratos inteligentes se escribirán en un número cada vez mayor de los lenguajes de programación más utilizados en el mundo, los desarrolladores no solo podrán encontrar el contrato inteligente perfecto para sus necesidades, sino que podrán encontrar contratos inteligentes escritos en su lenguaje de programación preferido. Esto lleva la composibilidad de Koinos, ya muy superior a cualquier otro protocolo, a un nivel completamente nuevo. Síguenos en Twitter para actualizaciones y la ubicación del último AMA."
   },
+  "JoinTheCommunity": {
+    "sectionId": "Comunidad",
+    "title": "Únete a la Comunidad",
+    "description": "Si tienes alguna pregunta, ¡únete a nuestra comunidad y pregunta! Descubrirás que la comunidad de Koinos es amigable y servicial, no seas tímido. ¡Esperamos conocerte!",
+    "buttons": {
+      "telegram": "Únete a Telegram",
+      "discord": "Únete a Discord"
+    }
+  },
   "Programs": {
     "common": {
-      "getStarted": "¡Empecemos!"
+      "learnMore": "Más información",
+      "getStarted": "¡Empecemos!",
+      "sectionId": "Programa Destacado"
     },
     "earnOnKoinos": {
       "featured": {
         "title": "Gana en Koinos",
         "subtitle": "¡Gana hasta un 16% de APY en Koinos!",
         "shortDescription": "Chainge Finance y Koinos Group se han asociado para ofrecer hasta un 16.24% de rendimiento simplemente por conectar y mantener BTC, ETH o USDT en Koinos a través de la aplicación Chainge.",
+        "description": "Chainge hace que Koinos sea interoperable con más de 2000 blockchains y su novedosa tecnología de agregación DEX ofrece algunos de los intercambios de menor costo en todo el mundo cripto. Los altos rendimientos y las bajas comisiones son un poderoso impulso y el programa Gana en Koinos lo lleva a otro nivel.",
         "keyPoints": {
           "first": "Gana hasta un 16% en activos conectados",
           "second": "Gana APY en USDT, ETH y BTC",
@@ -636,6 +648,7 @@
         }
       },
       "pageTitle": "Gana en Koinos | Koinos",
+      "title": "Gana en Koinos",
       "getStarted": "¡Empecemos!",
       "step1": {
         "title": "Paso 1: Configura tu billetera Koinos",
@@ -666,7 +679,22 @@
     },
     "koindxFarm": {
       "pageTitle": "Granja KoinDX | Koinos",
-      "relatedMessage": "¡Al proporcionar liquidez con tus activos transferidos desde Gana en Koinos, puedes ganar tanto APY en USDT, ETH y BTC como KOIN mientras ganas KOINDX simultáneamente!"
+      "relatedMessage": "¡Al proporcionar liquidez con tus activos transferidos desde Gana en Koinos, puedes ganar tanto APY en USDT, ETH y BTC como KOIN mientras ganas KOINDX simultáneamente!",
+      "featured": {
+        "title": "Granja KoinDX",
+        "subtitle": "¡Gana el token nativo del DEX, KOINDX!",
+        "shortDescription": "¡No te pierdas el lanzamiento del token nativo de KoinDX, KOINDX! Al proporcionar liquidez en pools calificados, puedes ganar el token de participación en ingresos de KoinDX, KOINDX.",
+        "description": "KoinDX está lanzando su token nativo, KOINDX. El token nativo del DEX permite a los usuarios participar en los ingresos de las comisiones de intercambio, así como participar en la gobernanza de KOINDX. Para participar en el airdrop, los usuarios simplemente pueden proporcionar liquidez a los pools calificados en KoinDX.",
+        "keyPoints": {
+          "first": "Gana tokens KOINDX proporcionando liquidez",
+          "second": "Gana tokens KOINDX intercambiando activos en el DEX",
+          "third": "Participa en la gobernanza de KOINDX"
+        },
+        "details": {
+          "first": "**Provisión de Liquidez**: Gana KOINDX proporcionando liquidez a los pools KOIN-ETH, KOIN-BTC, KOIN-USDT o KOIN-VHP",
+          "second": "**Actividad de Trading**: Al realizar intercambios en KoinDX, los usuarios califican para recibir airdrops de KOINDX"
+        }
+      }
     },
     "lordsForsaken": {
       "pageTitle": "Misión de Lord's Forsaken | Koinos",

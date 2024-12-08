@@ -1,16 +1,20 @@
 import { useProgramStore } from "@/store/programStore";
 import Link from "next/link";
 import { useTranslations } from 'next-intl';
+import { useRouter } from 'next/router';
 
 export default function FeaturedProgram() {
+    const router = useRouter();
     const programs = useProgramStore((state) => state.programs);
     const featuredProgram = Object.values(programs).find((program) => program.featured);
-    const t = useTranslations('Programs.earnOnKoinos.featured');
     const commonT = useTranslations('Programs.common');
-
+    
     if (!featuredProgram) {
       return <p>No featured program at this time.</p>;
     }
+
+    // Dynamically get translations based on program ID
+    const t = useTranslations(`Programs.${featuredProgram.id}`);
   
     return (
       <>
@@ -20,14 +24,14 @@ export default function FeaturedProgram() {
               <div className="col-md-6 order-last order-md-2">
                 <div className="txt-block left-column wow" data-aos='fade-left'>
                   <span className="section-id">{commonT('sectionId')}</span>
-                  <h2 className="s-46 w-700">{t('title')}</h2>
-                  <p>{t('shortDescription')} <a target="_self" href={featuredProgram.url}>{commonT('learnMore')}</a></p>
-                  <h5 className="s-24 w-700">{t('subtitle')}</h5>
+                  <h2 className="s-46 w-700">{t('featured.title')}</h2>
+                  <p>{t('featured.shortDescription')} <Link href={featuredProgram.url} locale={router.locale}>{commonT('learnMore')}</Link></p>
+                  <h5 className="s-24 w-700">{t('featured.subtitle')}</h5>
                   <ul>
                     {[
-                      t('keyPoints.first'),
-                      t('keyPoints.second'),
-                      t('keyPoints.third')
+                      t('featured.keyPoints.first'),
+                      t('featured.keyPoints.second'),
+                      t('featured.keyPoints.third')
                     ].map((point, index) => (
                       <li key={index}>
                         <div className="cbox-1 ico-15">

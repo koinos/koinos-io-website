@@ -22,6 +22,7 @@ export default function EarnOnKoinos() {
   }, []);
 
   const program = useProgramStore((state) => state.programs.earnOnKoinos);
+  console.log('Program data:', program);
   const relatedProgram = useProgramStore((state) => state.programs.koindxFarm)
 
   return (
@@ -41,32 +42,32 @@ export default function EarnOnKoinos() {
               <section id="featured-program-tutorial" className="mb-5 ct-01 content-section features-section division">
                 <div className="mt-5">
                   <div className="mt-5">
-                    <h2 className="s-38 w-700 my-4">{t('title')}</h2>
+                    <h2 className="s-38 w-700 my-4">{t('getStarted')}</h2>
 
                     {/* Step 1 */}
-                    <h3 className="s-30 w-700 my-4">{t('Programs.earnOnKoinos.step1.title')}</h3>
+                    <h3 className="s-30 w-700 my-4">{t('step1.title')}</h3>
                     <ol>
-                      <li>{t('Programs.earnOnKoinos.step1.steps.install')} <Link href="https://chromewebstore.google.com/detail/kondor/ghipkefkpgkladckmlmdnadmcchefhjl" className="underline">Kondor</Link></li>
-                      <li>{t('Programs.earnOnKoinos.step1.steps.setup')}</li>
-                      <li>{t('Programs.earnOnKoinos.step1.steps.store')}</li>
+                      <li>{t('step1.steps.install')} <Link href="https://chromewebstore.google.com/detail/kondor/ghipkefkpgkladckmlmdnadmcchefhjl" className="underline">Kondor</Link></li>
+                      <li>{t('step1.steps.setup')}</li>
+                      <li>{t('step1.steps.store')}</li>
                     </ol>
 
                     {/* Step 2 */}
-                    <h3 className="s-30 w-700 my-4">{t('Programs.earnOnKoinos.step2.title')}</h3>
+                    <h3 className="s-30 w-700 my-4">{t('step2.title')}</h3>
                     <ol>
-                      <li>{t('Programs.earnOnKoinos.step2.steps.access')} <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link></li>
-                      <li>{t('Programs.earnOnKoinos.step2.steps.connect')}</li>
-                      <li>{t('Programs.earnOnKoinos.step2.steps.enter')}</li>
-                      <li>{t('Programs.earnOnKoinos.step2.steps.bridge')}</li>
+                      <li>{t('step2.steps.access')} <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link></li>
+                      <li>{t('step2.steps.connect')}</li>
+                      <li>{t('step2.steps.enter')}</li>
+                      <li>{t('step2.steps.bridge')}</li>
                     </ol>
 
                     {/* Step 3 */}
-                    <h3 className="s-30 w-700 my-4">{t('Programs.earnOnKoinos.step3.title')}</h3>
-                    <p>{t('Programs.earnOnKoinos.step3.description')}</p>
+                    <h3 className="s-30 w-700 my-4">{t('step3.title')}</h3>
+                    <p>{t('step3.description')}</p>
                     <ol>
-                      <li>{t('Programs.earnOnKoinos.step3.steps.access')} <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link></li>
-                      <li>{t('Programs.earnOnKoinos.step3.steps.connect')}</li>
-                      <li>{t('Programs.earnOnKoinos.step3.steps.claim')}</li>
+                      <li>{t('step3.steps.access')} <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link></li>
+                      <li>{t('step3.steps.connect')}</li>
+                      <li>{t('step3.steps.claim')}</li>
                     </ol>
 
                   </div>
@@ -87,9 +88,19 @@ export default function EarnOnKoinos() {
 }
 
 export async function getStaticProps({ locale }) {
-  return {
-    props: {
-      messages: (await import(`../../messages/${locale}.json`)).default
-    }
+  try {
+    const messages = (await import(`../../messages/${locale}.json`)).default;
+    
+    return {
+      props: {
+        messages,
+        locale: locale
+      }
+    };
+  } catch (error) {
+    console.error(`Failed to load messages for locale ${locale}:`, error);
+    return {
+      notFound: true
+    };
   }
 }
