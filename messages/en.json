@@ -772,7 +772,13 @@
         "keyPoints": {
           "first": "Earn your share of $1,250 USDT for joining",
           "second": "Check back daily for additional quests and rewards",
-          "third":  "Refer your friends for a prestigious Discord role"
+          "third": "Refer your friends for a prestigious Discord role"
+        },
+        "details": {
+          "first": "TaskOn Community Launch: Participate in the welcome campaign and earn your share of the $1,250 USDT prize pool",
+          "second": "Monthly Quests: Return to the TaskOn Community page for monthly quests and opportunities to continue earning",
+          "third": "Join the TaskOn Community: Visit our TaskOn Community and stay up-to-date with the latest incentives",
+          "fourth": "Referral Rewards: Refer two friends to the quest and earn a prestigious Discord role, learn more"
         }
       },
       "pageTitle": "TaskOn Community Launch | Koinos",
