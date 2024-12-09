@@ -23,7 +23,7 @@ export const useProgramStore = create(() => ({
       active: false,
     },
     taskonQuest: {
-      id: "taskonQuest",
+      id: "taskonLaunch",
       url: "/programs/taskon-launch",
       website: "https://taskon.xyz/quest/333189736",
       images: {

@@ -537,7 +537,7 @@
     },
     "exchangeAttack": {
       "title": "El Ataque de Exchange",
-      "p1": "Proof-of-burn como algoritmo de consenso es notablemente simple y su valor único es fácil de entender. Como proof-of-work, requiere que el costo de atacar la red se pague \"por adelantado\". Como proof-of-stake, no se necesita comprar y ejecutar hardware real, aparte del hardware necesario para producir bloques. Como proof-of-work, el ataque de exchange se frustra porque el productor de bloques ya ha perdido su dinero, simplemente está tratando de recuperarlo manteniendo un libro mayor correcto. Cualquier exchange que busque aprovechar los fondos de los usuarios para influir en la gobernanza como resultado de la codicia, coerción o engaño (ver el <link>incidente de Steem/Tron</link>) primero tendría que destruir los fondos de los usuarios, lo que nunca harían. Esto también reduce la necesidad de las complicadas condiciones de recorte requeridas para las implementaciones de proof-of-stake porque los productores de bloques están efectivamente \"pre-recortando\" su capital antes de ganar recompensas de bloque, como con proof-of-work."
+      "p1": "Proof-of-burn como algoritmo de consenso es notablemente simple y su valor único es fácil de entender. Como proof-of-work, requiere que el costo de atacar la red se pague \"por adelantado\". Como proof-of-stake, no se necesita comprar y ejecutar hardware real, aparte del hardware necesario para producir bloques. Como proof-of-work, el ataque de exchange se frustra porque el productor de bloques ya ha perdido su dinero, simplemente está tratando de recuperarlo manteniendo un libro mayor correcto. Cualquier exchange que busque aprovechar los fondos de los usuarios para influir en la gobernanza como resultado de la codicia, coerción o engaño (ver el <link>incidente de Steem/Tron) primero tendría que destruir los fondos de los usuarios, lo que nunca harían. Esto también reduce la necesidad de las complicadas condiciones de recorte requeridas para las implementaciones de proof-of-stake porque los productores de bloques están efectivamente \"pre-recortando\" su capital antes de ganar recompensas de bloque, como con proof-of-work."
     },
     "virtualMining": {
       "title": "Minería Virtual",
@@ -696,7 +696,23 @@
         }
       }
     },
-    "lordsForsaken": {
+    "lordsForsakenQuest": {
+      "featured": {
+        "title": "Misión de Lord's Forsaken",
+        "subtitle": "¡Gana recompensas por jugar!",
+        "shortDescription": "Misión de lanzamiento del primer juego de cartas Web3 Play-to-Earn de Koinos. ¡Diviértete jugando mientras ganas valiosas recompensas!",
+        "description": "Lord's Forsaken está a punto de lanzarse en Koinos y para celebrar este evento estamos ofreciendo lucrativas recompensas por participar. Unos simples pasos podrían darte valiosos KOIN y FAITH.",
+        "keyPoints": {
+          "first": "¡Gana tu parte de 1500 KOIN divirtiéndote!",
+          "second": "Obtén tu parte de 18000 FAITH",
+          "third": "Juega para ganar en Lord's Forsaken y gana aún más FAITH"
+        },
+        "details": {
+          "first": "Gratis para jugar: Gracias a las transacciones sin comisiones en Koinos, puedes jugar Lord's Forsaken y ganar FAITH sin costo alguno",
+          "second": "Juega para ganar: Gana la moneda del juego, FAITH, dándote acceso a mazos de cartas mejorados",
+          "third": ""
+        }
+      },
       "pageTitle": "Misión de Lord's Forsaken | Koinos",
       "getStarted": "¡Empecemos!",
       "questTitle": "Misión de Lanzamiento de Lord's Forsaken",
@@ -713,10 +729,27 @@
       "joinQuest": "Únete a la Misión"
     },
     "taskonLaunch": {
+      "featured": {
+        "title": "Lanzamiento de TaskOn",
+        "subtitle": "¡Gana recompensas por participar!",
+        "shortDescription": "No te pierdas el lanzamiento de la Comunidad TaskOn de Koinos. ¡Unos simples pasos que ayudan a impulsar la participación en Koinos te hacen elegible para lucrativas recompensas!",
+        "description": "Cada mes los usuarios pueden participar en el ecosistema Koinos para ganar recompensas en USDT, KOIN y varios tokens de proyectos.",
+        "keyPoints": {
+          "first": "Gana tu parte de $1,250 USDT por unirte",
+          "second": "Vuelve diariamente para misiones y recompensas adicionales",
+          "third": "Refiere a tus amigos para obtener un rol prestigioso en Discord"
+        },
+        "details": {
+          "first": "Lanzamiento de la Comunidad TaskOn: Participa en la campaña de bienvenida y gana tu parte del premio de $1,250 USDT",
+          "second": "Misiones Mensuales: Regresa a la página de la Comunidad TaskOn para misiones mensuales y oportunidades para seguir ganando",
+          "third": "Únete a la Comunidad TaskOn: Visita nuestra Comunidad TaskOn y mantente al día con los últimos incentivos",
+          "fourth": "Recompensas por Referidos: Refiere a dos amigos a la misión y gana un rol prestigioso en Discord, aprende más"
+        }
+      },
       "pageTitle": "Lanzamiento de la Comunidad TaskOn | Koinos",
       "getStarted": "¡Empecemos!",
       "questTitle": "Misión de Lanzamiento de la Comunidad TaskOn",
-      "description": "Gana una parte del premio de $1,250 USDT siguiendo tres sencillos pasos.",
+      "description": "Gana tu parte del premio de $1,250 USDT siguiendo tres sencillos pasos.",
       "steps": {
         "followKoinos": "Sigue a KoinosNetwork en X",
         "joinTelegram": "Únete a nuestro Telegram",
