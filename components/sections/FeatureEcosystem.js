@@ -1,6 +1,9 @@
 import { useRef, useEffect } from "react";
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 export default function FeatureEcosystem() {
+  const t = useTranslations('FeatureEcosystem');
 
   return (
     <>
@@ -28,8 +31,10 @@ export default function FeatureEcosystem() {
                       </div>	{/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h5 className="s-19 w-700">Kollection</h5>
-                        <p><a href="https://kollection.app">Kollection</a> is a full featured NFT marketplace that allows creators to launch and sell their products.</p>
+                        <h5 className="s-19 w-700">{t('projects.kollection.title')}</h5>
+                        <p>{t.rich('projects.kollection.description', {
+                          kollectionLink: (chunks) => <a href="https://kollection.app">Kollection</a>
+                        })}</p>
                       </div>
                     </div>
                     {/* FEATURE BOX #2 */}
@@ -38,7 +43,6 @@ export default function FeatureEcosystem() {
                       <div className="fbox-ico ico-50">
                         <div className="shape-ico color--theme">
                           {/* Vector Icon */}
-                          {/*<span className="flaticon-tutorial" />*/}
                           <img src="images/pages/ecosystem/koindx.png" />
                           {/* Shape */}
                           <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -48,8 +52,10 @@ export default function FeatureEcosystem() {
                       </div>	{/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h5 className="s-19 w-700">KoinDX</h5>
-                        <p><a href="https://koindx.com">KoinDX</a> is the world's first decentralized exchange built on the Koinos blockchain.</p>
+                        <h5 className="s-19 w-700">{t('projects.koindx.title')}</h5>
+                        <p>{t.rich('projects.koindx.description', {
+                          koindxLink: (chunks) => <a href="https://koindx.com">KoinDX</a>
+                        })}</p>
                       </div>
                     </div>
                   </div>
@@ -70,8 +76,10 @@ export default function FeatureEcosystem() {
                       </div>	{/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h5 className="s-19 w-700">Koiner</h5>
-                        <p><a href="https://koiner.app">Koiner</a> is the Koinos' community favorite block explorer giving users insights into chain statistics.</p>
+                        <h5 className="s-19 w-700">{t('projects.koiner.title')}</h5>
+                        <p>{t.rich('projects.koiner.description', {
+                          koinerLink: (chunks) => <a href="https://koiner.app">{chunks}</a>
+                        })}</p>
                       </div>
                     </div>
                     {/* FEATURE BOX #4 */}
@@ -90,8 +98,10 @@ export default function FeatureEcosystem() {
                       </div>	{/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h5 className="s-19 w-700">KoinCity</h5>
-                        <p><a href="https://koincity.com">KoinCity</a> is a token launchpad with features including staking and social interaction.</p>
+                        <h5 className="s-19 w-700">{t('projects.koincity.title')}</h5>
+                        <p>{t.rich('projects.koincity.description', {
+                          koincityLink: (chunks) => <a href="https://koincity.com">KoinCity</a>
+                        })}</p>
                       </div>
                     </div>
                   </div>
@@ -102,21 +112,20 @@ export default function FeatureEcosystem() {
             <div className="col-md-5 order-first order-md-2">
               <div className="txt-block left-column wow" data-aos='fade-right'>
                 {/* Section ID */}
-                <span className="section-id">Ecosystem Highlights</span>
+                <span className="section-id">{t('sectionId')}</span>
                 {/* Title */}
-                <h2 className="s-44 w-700">An Ever-Evolving Ecosystem</h2>
+                <h2 className="s-44 w-700">{t('title')}</h2>
                 {/* Text */}
-                <p>With new and innovative dApps popping up every week, Koinos facilitates a bright future for Web3. Check out the <a href="/ecosystem">ecosystem</a> page to learn about more great projects.
-                </p>
+                <p>{t.rich('description', {
+                  ecosystemLink: (chunk) => <Link href="/ecosystem">ecosystem</Link>
+                })}</p>
                 {/* List */}
                 <ul className="simple-list">
                   <li className="list-item">
-                    <p>Onboard new users with free accounts and allow them to interact with your dApp without cryptocurrency
-                    </p>
+                    <p>{t('benefits.item1')}</p>
                   </li>
                   <li className="list-item">
-                    <p className="mb-0">Tap into the community to bootstrap your ideas and bring them to fruition
-                    </p>
+                    <p className="mb-0">{t('benefits.item2')}</p>
                   </li>
                 </ul>
               </div>

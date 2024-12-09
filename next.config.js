@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: false,
   output: 'standalone',
+  i18n: {
+    locales: ['en', 'es', 'it', 'fa'],
+    defaultLocale: 'en'
+  },
   async headers() {
     return [
       {
@@ -19,6 +23,6 @@ const nextConfig = {
       }
     ];
   }
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

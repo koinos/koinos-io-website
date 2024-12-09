@@ -12096,3 +12096,16 @@ body.theme--dark {
 .roadmap-desc {
   font-size: 0.85rem;
 }
+
+.language-switcher {
+  padding: 0 15px;
+}
+
+.language-switcher a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.language-switcher a.active {
+  font-weight: bold;
+}
