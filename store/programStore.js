@@ -8,7 +8,7 @@ export const useProgramStore = create(() => ({
       url: "/programs/earn-on-koinos",
       website: "http://dapp.chainge.finance/earn?chain=KOIN",
       images: { banner: "/images/programs/earn-on-koinos.png", },
-      featured: false,
+      featured: true,
       active: true
     },
     koindxFarm: {
@@ -19,7 +19,7 @@ export const useProgramStore = create(() => ({
       images: {
         banner: "/images/programs/koindx-farm.png",
       },
-      featured: true,
+      featured: false,
       active: false,
     },
     taskonQuest: {

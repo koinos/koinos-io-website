@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: false,
   output: 'standalone',
   i18n: {
-    locales: ['en', 'es'],
+    locales: ['en', 'es', 'it', 'fa'],
     defaultLocale: 'en'
   },
   async headers() {

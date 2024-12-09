@@ -82,6 +82,22 @@ export default function Menu() {
                 >
                   Español
                 </Link>
+                <Link 
+                  href={router.asPath} 
+                  locale="it" 
+                  className={`d-block px-3 py-1 text-decoration-none text-left ${router.locale === 'es' ? 'active' : ''}`}
+                  onClick={() => setIsLangDropdownOpen(false)}
+                >
+                  Italiano
+                </Link>
+                <Link 
+                  href={router.asPath} 
+                  locale="fa" 
+                  className={`d-block px-3 py-1 text-decoration-none text-left ${router.locale === 'es' ? 'active' : ''}`}
+                  onClick={() => setIsLangDropdownOpen(false)}
+                >
+                  فارسی
+                </Link>
               </div>
             )}
           </div>

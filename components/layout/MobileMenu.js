@@ -162,7 +162,33 @@ export default function MobileMenu({ handleMobileMenu }) {
                     }}
                   >
                     Español
-                  </Link>
+                    </Link>
+                </div>
+                <div>
+                  <Link 
+                    href={router.asPath} 
+                    locale="it" 
+                    className={`d-block py-1 text-decoration-none ${router.locale === 'es' ? 'active' : ''}`}
+                    onClick={() => {
+                      setIsLangDropdownOpen(false)
+                      handleMobileMenu()
+                    }}
+                  >
+                    Italiano
+                    </Link>
+                </div>
+                <div>
+                  <Link 
+                    href={router.asPath} 
+                    locale="fa" 
+                    className={`d-block py-1 text-decoration-none ${router.locale === 'es' ? 'active' : ''}`}
+                    onClick={() => {
+                      setIsLangDropdownOpen(false)
+                      handleMobileMenu()
+                    }}
+                  >
+                    فارسی
+                    </Link>
                 </div>
               </div>
             )}
