@@ -18,10 +18,8 @@ export default function KoinosHero() {
                   {/* Title */}
                   <div className="hero-titles">
                     <h2 className="s-50 w-700 mb-2">{t('title1')}</h2>
-                    <h2 className="s-40 w-700 mb-4">{t('title2')}</h2>
+                    <h2 className="s-30 fw-light w-700 mb-4">{t('title2')}</h2>
                   </div>
-                  {/* Text */}
-                  <p className="s-20 mb-4">{t('subtitle')}</p>
                   {/* Buttons */}
                   <div className="btns-group hero-btns mt-4">
                     <Link
