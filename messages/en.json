@@ -793,5 +793,63 @@
       "joinQuest": "Join the Quest",
       "relatedMessage": "You can take advantage of yet another TaskOn quest to be eligible for your share of the 1500 KOIN and 18000 FAITH prize pool!"
     }
+  },
+  "Media": {
+    "pageTitle": "Media Kit | Koinos",
+    "mainTitle": "Koinos Media Kit",
+    "welcome": {
+      "title": "Welcome to the Koinos Media Kit Page",
+      "description": "Official visual assets to help promote Koinos in marketing communications, including logos, logo marks, and logotypes."
+    },
+    "navigation": {
+      "logotype": "Logotype",
+      "clearspace": "Clearspace",
+      "colors": "Colors",
+      "assets": "Assets",
+      "pressInquiries": "Press Inquiries"
+    },
+    "logo": {
+      "title": "Koinos Logo",
+      "description": "The Koinos logo is designed with modern and clean lines, reflecting the innovative and forward-thinking nature of the platform. Please use the provided versions without alterations."
+    },
+    "clearspace": {
+      "title": "Clearspace",
+      "description": "Ensure there is sufficient space around the Koinos logomark to prevent clutter. Below are the minimum spacings for both logomark and wordmark."
+    },
+    "colors": {
+      "title": "Colors",
+      "koinosPurple": "Koinos Purple",
+      "accentPurple": "Accent Purple",
+      "koinosBlack": "Koinos Black",
+      "white": "White"
+    },
+    "assets": {
+      "title": "Assets",
+      "downloadAll": "All Assets",
+      "zipSize": "(ZIP, 2 MB)",
+      "description": "Download the Koinos logotype and mark in various formats and colors. Please use the provided versions without alterations.",
+      "downloadVariations": "Download variations",
+      "sections": {
+        "logo": {
+          "title": "Koinos Logo"
+        },
+        "logotype": {
+          "title": "Koinos Logotype"
+        },
+        "mark": {
+          "title": "Koinos Mark"
+        },
+        "icon": {
+          "title": "Koinos Icon"
+        },
+        "iconSquare": {
+          "title": "Koinos Icon Square"
+        }
+      }
+    },
+    "pressInquiries": {
+      "title": "Press Inquiries",
+      "description": "Please direct press inquiries to press@koinos.io"
+    }
   }
 }

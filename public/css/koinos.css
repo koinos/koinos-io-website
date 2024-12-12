@@ -13,6 +13,13 @@
   01. GENERAL & BASIC STYLES
   =========================================================================== */
 
+:root {
+  --koinos-purple: #5d00b3;
+  --koinos-purple-light: #9966FF;
+  --koinos-black: #121212;
+  --koinos-white: #ffffff;
+}
+
 html {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;

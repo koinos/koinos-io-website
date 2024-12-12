@@ -49,58 +49,49 @@ export default function Menu() {
           </Link>
         </li>
 
-        <li aria-haspopup="true" className="nl-simple">
-          <div className="language-switcher position-relative" style={{paddingTop: '1.2em'}}>
-            <button 
-              onClick={toggleLangDropdown}
-              className="bg-transparent border-0 text-inherit"
-              aria-label="Toggle language"
-            >
-              <i className="fa-solid fa-globe text-white"></i>
-            </button>
-            
-            {isLangDropdownOpen && (
-              <div className="lang-dropdown position-absolute shadow-sm rounded py-2" style={{
-                right: 0,
-                top: '100%',
-                minWidth: '100px',
-                zIndex: 1000
-              }}>
-                <Link 
-                  href={router.asPath} 
-                  locale="en" 
-                  className={`d-block px-3 py-1 text-decoration-none text-left ${router.locale === 'en' ? 'active' : ''}`}
-                  onClick={() => setIsLangDropdownOpen(false)}
-                >
-                  English
-                </Link>
-                <Link 
-                  href={router.asPath} 
-                  locale="es" 
-                  className={`d-block px-3 py-1 text-decoration-none text-left ${router.locale === 'es' ? 'active' : ''}`}
-                  onClick={() => setIsLangDropdownOpen(false)}
-                >
-                  Español
-                </Link>
-                <Link 
-                  href={router.asPath} 
-                  locale="it" 
-                  className={`d-block px-3 py-1 text-decoration-none text-left ${router.locale === 'es' ? 'active' : ''}`}
-                  onClick={() => setIsLangDropdownOpen(false)}
-                >
-                  Italiano
-                </Link>
-                <Link 
-                  href={router.asPath} 
-                  locale="fa" 
-                  className={`d-block px-3 py-1 text-decoration-none text-left ${router.locale === 'es' ? 'active' : ''}`}
-                  onClick={() => setIsLangDropdownOpen(false)}
-                >
-                  فارسی
-                </Link>
-              </div>
-            )}
+        <li aria-haspopup="true">
+          <div className="h-link" style={{paddingTop: '1.2em', cursor: 'pointer'}}>
+            <i className="fa-solid fa-globe text-white"></i>
+            <span className="wsarrow" />
           </div>
+          <ul className="sub-menu">
+            <li aria-haspopup="true">
+              <Link 
+                href={router.asPath} 
+                locale="en" 
+                className={router.locale === 'en' ? 'active' : ''}
+              >
+                English
+              </Link>
+            </li>
+            <li aria-haspopup="true">
+              <Link 
+                href={router.asPath} 
+                locale="es" 
+                className={router.locale === 'es' ? 'active' : ''}
+              >
+                Español
+              </Link>
+            </li>
+            <li aria-haspopup="true">
+              <Link 
+                href={router.asPath} 
+                locale="it" 
+                className={router.locale === 'it' ? 'active' : ''}
+              >
+                Italiano
+              </Link>
+            </li>
+            <li aria-haspopup="true">
+              <Link 
+                href={router.asPath} 
+                locale="fa" 
+                className={router.locale === 'fa' ? 'active' : ''}
+              >
+                فارسی
+              </Link>
+            </li>
+          </ul>
         </li>
       </ul>
     </>

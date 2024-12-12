@@ -793,5 +793,63 @@
         "joinQuest": "Unisciti alla Quest",
         "relatedMessage": "Puoi approfittare di un'altra quest su TaskOn per essere idoneo a ricevere la tua parte dei 1500 KOIN e 18000 FAITH!"
       }
+    },
+    "Media": {
+      "pageTitle": "Kit Media | Koinos",
+      "mainTitle": "Kit Media Koinos",
+      "welcome": {
+        "title": "Benvenuto alla Pagina del Kit Media di Koinos",
+        "description": "Risorse visive ufficiali per aiutare a promuovere Koinos nelle comunicazioni di marketing, inclusi loghi, marchi e logotipi."
+      },
+      "navigation": {
+        "logotype": "Logotipo",
+        "clearspace": "Spazio vuoto",
+        "colors": "Colori",
+        "assets": "Risorse",
+        "pressInquiries": "Richieste Stampa"
+      },
+      "logo": {
+        "title": "Logo Koinos",
+        "description": "Il logo Koinos è progettato con linee moderne e pulite, riflettendo la natura innovativa e lungimirante della piattaforma. Si prega di utilizzare le versioni fornite senza alterazioni."
+      },
+      "clearspace": {
+        "title": "Spazio vuoto",
+        "description": "Assicurati che ci sia spazio sufficiente intorno al logo Koinos per evitare il disordine. Di seguito sono riportate le spaziature minime sia per il logo che per il testo."
+      },
+      "colors": {
+        "title": "Colori",
+        "koinosPurple": "Viola Koinos",
+        "accentPurple": "Viola Accento",
+        "koinosBlack": "Nero Koinos",
+        "white": "Bianco"
+      },
+      "assets": {
+        "title": "Risorse",
+        "downloadAll": "Tutte le Risorse",
+        "zipSize": "(ZIP, 2 MB)",
+        "description": "Scarica il logotipo e il marchio Koinos in vari formati e colori. Si prega di utilizzare le versioni fornite senza alterazioni.",
+        "downloadVariations": "Scarica variazioni",
+        "sections": {
+          "logo": {
+            "title": "Logo Koinos"
+          },
+          "logotype": {
+            "title": "Logotipo Koinos"
+          },
+          "mark": {
+            "title": "Marchio Koinos"
+          },
+          "icon": {
+            "title": "Icona Koinos"
+          },
+          "iconSquare": {
+            "title": "Icona Quadrata Koinos"
+          }
+        }
+      },
+      "pressInquiries": {
+        "title": "Richieste Stampa",
+        "description": "Si prega di indirizzare le richieste stampa a press@koinos.io"
+      }
     }
   }
