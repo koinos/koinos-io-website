@@ -1,8 +1,10 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useEffect, useRef } from "react"
+import { useTranslations } from 'next-intl';
 
 export default function MediaPage() {
+  const t = useTranslations('Media');
   const sidebarRef = useRef(null)
 
   useEffect(() => {
@@ -59,11 +61,11 @@ export default function MediaPage() {
       headerStyle={1}
       footerStyle={1}
       headerCls="navbar-dark inner-page-header"
-      headTitle="Media Kit | Koinos"
+      headTitle={t('pageTitle')}
     >
       <div className="mt-5 text-light py-5 header-section">
         <div className="container mt-5">
-          <h1 className="mb-4 display-1 fw-bold">Koinos Media Kit</h1>
+          <h1 className="mb-4 display-1 fw-bold">{t('mainTitle')}</h1>
         </div>
       </div>
       <div className="container mt-5">
@@ -72,38 +74,31 @@ export default function MediaPage() {
             <div className="sidebar" ref={sidebarRef}>
               <nav className="nav flex-column">
                 <Link href="#logotype" legacyBehavior>
-                  <a className="nav-link">Logotype</a>
+                  <a className="nav-link">{t('navigation.logotype')}</a>
                 </Link>
                 <Link href="#clearspace" legacyBehavior>
-                  <a className="nav-link">Clearspace</a>
+                  <a className="nav-link">{t('navigation.clearspace')}</a>
                 </Link>
                 <Link href="#colors" legacyBehavior>
-                  <a className="nav-link">Colors</a>
+                  <a className="nav-link">{t('navigation.colors')}</a>
                 </Link>
                 <Link href="#assets" legacyBehavior>
-                  <a className="nav-link">Assets</a>
+                  <a className="nav-link">{t('navigation.assets')}</a>
                 </Link>
                 <Link href="#press-inquiries" legacyBehavior>
-                  <a className="nav-link">Press Inquiries</a>
+                  <a className="nav-link">{t('navigation.pressInquiries')}</a>
                 </Link>
               </nav>
             </div>
           </div>
           <div className="col-lg-8 order-lg-1">
             <section id="logotype" className="mb-5 pt-5">
-              <h2>Welcome to the Koinos Media Kit Page</h2>
-              <p>
-                Official visual assets to help promote Koinos in marketing
-                communications, including logos, logo marks, and logotypes.
-              </p>
+              <h2>{t('welcome.title')}</h2>
+              <p>{t('welcome.description')}</p>
             </section>
             <section id="logotype" className="mb-5 pt-5">
-              <h2>Koinos Logo</h2>
-              <p>
-                The Koinos logo is designed with modern and clean lines,
-                reflecting the innovative and forward-thinking nature of the
-                platform. Please use the provided versions without alterations.
-              </p>
+              <h2>{t('logo.title')}</h2>
+              <p>{t('logo.description')}</p>
               <div>
                 <img
                   src="/images/logo/png/koinos-logo-white.png"
@@ -113,12 +108,8 @@ export default function MediaPage() {
               </div>
             </section>
             <section id="clearspace" className="mb-5 pt-5">
-              <h2>Clearspace</h2>
-              <p>
-                Ensure there is sufficient space around the Koinos logomark to
-                prevent clutter. Below are the minimum spacings for both
-                logomark and wordmark.
-              </p>
+              <h2>{t('clearspace.title')}</h2>
+              <p>{t('clearspace.description')}</p>
               <div className="images">
                 <img
                   src="/images/logo/spacing/standard.png"
@@ -128,9 +119,9 @@ export default function MediaPage() {
               </div>
             </section>
             <section id="colors" className="mb-5 pt-5">
-              <h2>Colors</h2>
+              <h2>{t('colors.title')}</h2>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Koinos Purple</p>
+                <p className="text-uppercase mt-2">{t('colors.koinosPurple')}</p>
                 <p className="small mt-2">#5d00b3</p>
                 <div
                   className="mt-6"
@@ -143,7 +134,7 @@ export default function MediaPage() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Accent Purple</p>
+                <p className="text-uppercase mt-2">{t('colors.accentPurple')}</p>
                 <p className="small mt-2">#9966FF</p>
                 <div
                   className="mt-6"
@@ -156,7 +147,7 @@ export default function MediaPage() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">Koinos Black</p>
+                <p className="text-uppercase mt-2">{t('colors.koinosBlack')}</p>
                 <p className="small mt-2">#121212</p>
                 <div
                   className="mt-6"
@@ -169,7 +160,7 @@ export default function MediaPage() {
                 ></div>
               </div>
               <div className="mt-4">
-                <p className="text-uppercase mt-2">White</p>
+                <p className="text-uppercase mt-2">{t('colors.white')}</p>
                 <p className="small mt-2">#FFFFFF</p>
                 <div
                   className="mt-6"
@@ -184,27 +175,20 @@ export default function MediaPage() {
               </div>
             </section>
             <section id="assets" className="mb-5 pt-5">
-              <h2 className="mb-5">Assets</h2>
-              <p>
-              <a href="/images/logo/koinos-media-kit.zip" download>
-                <div className="btn btn-link text-white">
-                    All Assets
-                  {" "}
-                  (ZIP, 2 MB)
-                </div></a>{" "}
-
-                <div>
-                  Download the Koinos logotype and mark in various formats and
-                  colors. Please use the provided versions without alterations.
-                </div>
-              </p>
+              <h2 className="mb-5">{t('assets.title')}</h2>
+              <div className="d-flex flex-column">
+                <a href="/images/logo/koinos-media-kit.zip" download className="btn btn-link text-white p-0">
+                  {t('assets.downloadAll')} {t('assets.zipSize')}
+                </a>
+                <p>{t('assets.description')}</p>
+              </div>
               <hr />
               <div>
                 {/* koinos logo */}
                 <div className="logo-section">
                   <div>
                     <div>
-                      <h4 className="mb-4">Koinos Logo</h4>
+                      <h4 className="mb-4">{t('assets.sections.logo.title')}</h4>
                     </div>
                     <div className="download-box">
                       <img
@@ -214,30 +198,16 @@ export default function MediaPage() {
                       />
                       <div>
                         <div className="dl-button">
-                          <a
-                            href="/images/logo/png/koinos-logo-white.png"
-                            download
-                          >
-                            PNG
-                          </a>
+                          <a href="/images/logo/png/koinos-logo-white.png" download>PNG</a>
                         </div>
                         <div className="dl-button">
-                          <a
-                            href="/images/logo/svg/koinos-logo-white.svg"
-                            download
-                          >
-                            SVG
-                          </a>
+                          <a href="/images/logo/svg/koinos-logo-white.svg" download>SVG</a>
                         </div>
                       </div>
                     </div>
                     <div>
-                      <a
-                        href="/images/logo/koinos-logo-set.zip"
-                        className="gray-txt"
-                        download
-                      >
-                        Download variations
+                      <a href="/images/logo/koinos-logo-set.zip" className="gray-txt" download>
+                        {t('assets.downloadVariations')}
                       </a>
                     </div>
                   </div>
@@ -247,7 +217,7 @@ export default function MediaPage() {
                 <div className="logo-section">
                   <div>
                     <div>
-                      <h4 className="mb-4">Koinos Logotype</h4>
+                      <h4 className="mb-4">{t('assets.sections.logotype.title')}</h4>
                     </div>
                     <div className="download-box">
                       <img
@@ -257,30 +227,16 @@ export default function MediaPage() {
                       />
                       <div>
                         <div className="dl-button">
-                          <a
-                            href="/images/logo/png/koinos-logotype-white.png"
-                            download
-                          >
-                            PNG
-                          </a>
+                          <a href="/images/logo/png/koinos-logotype-white.png" download>PNG</a>
                         </div>
                         <div className="dl-button">
-                          <a
-                            href="/images/logo/svg/koinos-logotype-white.svg"
-                            download
-                          >
-                            SVG
-                          </a>
+                          <a href="/images/logo/svg/koinos-logotype-white.svg" download>SVG</a>
                         </div>
                       </div>
                     </div>
                     <div>
-                      <a
-                        href="/images/logo/koinos-logotype-set.zip"
-                        className="gray-txt"
-                        download
-                      >
-                        Download variations
+                      <a href="/images/logo/koinos-logotype-set.zip" className="gray-txt" download>
+                        {t('assets.downloadVariations')}
                       </a>
                     </div>
                   </div>
@@ -289,30 +245,26 @@ export default function MediaPage() {
                 {/* koinos mark */}
                 <div className="logo-section">
                   <div>
-                    <h4 className="mb-4">Koinos Mark</h4>
+                    <h4 className="mb-4">{t('assets.sections.mark.title')}</h4>
                   </div>
                   <div className="download-box">
-                    <img src="/images/logo/png/koinos-logomark-white.png" alt="Koinos Mark" className="img-fluid w-25" />
+                    <img
+                      src="/images/logo/png/koinos-logomark-white.png"
+                      alt="Koinos Mark"
+                      className="img-fluid w-25"
+                    />
                     <div>
                       <div className="dl-button">
-                        <a href="/images/logo/png/koinos-logomark-white.png" download>
-                          PNG
-                        </a>
+                        <a href="/images/logo/png/koinos-logomark-white.png" download>PNG</a>
                       </div>
                       <div className="dl-button">
-                        <a href="/images/logo/svg/koinos-logomark-white.svg" download>
-                          SVG
-                        </a>
+                        <a href="/images/logo/svg/koinos-logomark-white.svg" download>SVG</a>
                       </div>
                     </div>
                   </div>
                   <div>
-                    <a
-                      href="/images/logo/koinos-logomark-set.zip"
-                      className="gray-txt"
-                      download
-                    >
-                      Download variations
+                    <a href="/images/logo/koinos-logomark-set.zip" className="gray-txt" download>
+                      {t('assets.downloadVariations')}
                     </a>
                   </div>
                 </div>
@@ -320,30 +272,26 @@ export default function MediaPage() {
                 {/* koinos icon */}
                 <div className="logo-section">
                   <div>
-                    <h4 className="mb-4">Koinos Icon</h4>
+                    <h4 className="mb-4">{t('assets.sections.icon.title')}</h4>
                   </div>
                   <div className="download-box">
-                    <img src="/images/logo/png/koinos-icon.png" alt="Koinos Mark" className="img-fluid w-25" />
+                    <img
+                      src="/images/logo/png/koinos-icon.png"
+                      alt="Koinos Mark"
+                      className="img-fluid w-25"
+                    />
                     <div>
                       <div className="dl-button">
-                        <a href="/images/logo/png/koinos-icon.png" download>
-                          PNG
-                        </a>
+                        <a href="/images/logo/png/koinos-icon.png" download>PNG</a>
                       </div>
                       <div className="dl-button">
-                        <a href="/images/logo/svg/koinos-icon.svg" download>
-                          SVG
-                        </a>
+                        <a href="/images/logo/svg/koinos-icon.svg" download>SVG</a>
                       </div>
                     </div>
                   </div>
                   <div>
-                    <a
-                      href="/images/logo/koinos-icon-set.zip"
-                      className="gray-txt"
-                      download
-                    >
-                      Download variations
+                    <a href="/images/logo/koinos-icon-set.zip" className="gray-txt" download>
+                      {t('assets.downloadVariations')}
                     </a>
                   </div>
                 </div>
@@ -351,30 +299,26 @@ export default function MediaPage() {
                 {/* koinos icon square */}
                 <div className="logo-section">
                   <div>
-                    <h4 className="mb-4">Koinos Icon Square</h4>
+                    <h4 className="mb-4">{t('assets.sections.iconSquare.title')}</h4>
                   </div>
                   <div className="download-box">
-                    <img src="/images/logo/png/koinos-icon-sq.png" alt="Koinos Mark" className="img-fluid w-25" />
+                    <img
+                      src="/images/logo/png/koinos-icon-sq.png"
+                      alt="Koinos Mark"
+                      className="img-fluid w-25"
+                    />
                     <div>
                       <div className="dl-button">
-                        <a href="/images/logo/png/koinos-icon-sq.png" download>
-                          PNG
-                        </a>
+                        <a href="/images/logo/png/koinos-icon-sq.png" download>PNG</a>
                       </div>
                       <div className="dl-button">
-                        <a href="/images/logo/svg/koinos-icon-sq.svg" download>
-                          SVG
-                        </a>
+                        <a href="/images/logo/svg/koinos-icon-sq.svg" download>SVG</a>
                       </div>
                     </div>
                   </div>
                   <div>
-                    <a
-                      href="/images/logo/koinos-icon-square-set.zip"
-                      className="gray-txt"
-                      download
-                    >
-                      Download variations
+                    <a href="/images/logo/koinos-icon-square-set.zip" className="gray-txt" download>
+                      {t('assets.downloadVariations')}
                     </a>
                   </div>
                 </div>
@@ -382,9 +326,9 @@ export default function MediaPage() {
               </div>
             </section>
             <section id="press-inquiries" className="mb-5 pt-5">
-              <h2>Press Inquiries</h2>
+              <h2>{t('pressInquiries.title')}</h2>
               <p>
-                Please direct press inquiries to{" "}
+                {t('pressInquiries.description')}{" "}
                 <a href="mailto:press@koinos.io">press@koinos.io</a>.
               </p>
             </section>
@@ -407,13 +351,13 @@ export default function MediaPage() {
         .nav-link:active,
         .nav-link:focus,
         .nav-link:hover {
-          color: #9966FF; /* Change this to your desired color */
-          outline: none; /* Remove outline */
+          color: #9966FF;
+          outline: none;
         }
         .sidebar {
           margin-top: 4em;
           z-index: 10;
-          transition: top 0.5s ease; /* Add transition for smooth movement */
+          transition: top 0.5s ease;
         }
         @media (min-width: 992px) {
           .sidebar {
@@ -511,16 +455,23 @@ export default function MediaPage() {
         .btn {
           padding-left: 0;
         }
-         .koinos-mark {
-            fill: #6F00F6;
-            transition: fill 0.5s;
-          }
-            .koinos-mark:hover {
-            
-            fill: #FFCF21;
-            transition: fill 0.5s;
-            }
+        .koinos-mark {
+          fill: #6F00F6;
+          transition: fill 0.5s;
+        }
+        .koinos-mark:hover {
+          fill: #FFCF21;
+          transition: fill 0.5s;
+        }
       `}</style>
     </Layout>
   )
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      messages: (await import(`../messages/${locale}.json`)).default
+    }
+  }
 }

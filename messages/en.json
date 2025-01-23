@@ -1,0 +1,855 @@
+{
+  "Menu": {
+    "learn": "Learn",
+    "whitepaper": "Whitepaper",
+    "features": "Features",
+    "faqs": "FAQs",
+    "documentation": "Documentation",
+    "ecosystem": "Ecosystem",
+    "roadmap": "Roadmap",
+    "team": "Team"
+  },
+  "Hero": {
+    "title1": "Web3 for Everyone",
+    "title2": "Feeless, Frictionless, Familiar",
+    "subtitle": "Koinos is engineered to deliver a user experience for everyday people.",
+    "buttons": {
+      "telegram": "Join Telegram",
+      "build": "Build on Koinos"
+    }
+  },
+  "FeatureEcosystem": {
+    "sectionId": "Ecosystem Highlights",
+    "title": "An Ever-Evolving Ecosystem",
+    "description": "With new and innovative dApps popping up every week, Koinos facilitates a bright future for Web3. Check out the <ecosystemLink>ecosystem</ecosystemLink> page to learn about more great projects.",
+    "ecosystemLink": "ecosystem",
+    "benefits": {
+      "item1": "Onboard new users with free accounts and allow them to interact with your dApp without cryptocurrency",
+      "item2": "Tap into the community to bootstrap your ideas and bring them to fruition"
+    },
+    "projects": {
+      "kollection": {
+        "title": "Kollection",
+        "description": "<kollectionLink>Kollection</kollectionLink> is a full featured NFT marketplace that allows creators to launch and sell their products."
+      },
+      "koindx": {
+        "title": "KoinDX",
+        "description": "<koindxLink>KoinDX</koindxLink> is the world's first decentralized exchange built on the Koinos blockchain."
+      },
+      "koiner": {
+        "title": "Koiner",
+        "description": "<koinerLink>Koiner</koinerLink> is the Koinos' community favorite block explorer giving users insights into chain statistics."
+      },
+      "koincity": {
+        "title": "KoinCity",
+        "description": "<koincityLink>KoinCity</koincityLink> is a token launchpad with features including staking and social interaction."
+      }
+    }
+  },
+  "FeatureCommunity": {
+    "sectionId": "Community",
+    "title": "Building the Future of Web3",
+    "description": "Koinos is a decentralized project governed by the community. Exciting new community projects emerge regularly, reflecting the diversity of thought and creativity of the Koinos community.",
+    "builtFor": {
+      "developers": "Built for Developers",
+      "entrepreneurs": "Built for Entrepreneurs",
+      "users": "Built for Users"
+    },
+    "telegramText": "Shape the future of the protocol by joining us on",
+    "discordText": "Collaborate with Web3 engineers and validators on",
+    "twitterText": "Stay up-to-date with the latest developments by following us on",
+    "moreText": "Visit the community page to discover Koinos international and dApp groups"
+  },
+  "TokenAllocation": {
+    "sectionId": "Token Allocation",
+    "title": "Fair Launched",
+    "description": "Koinos' initial supply was created through a one year Proof-of-Work mining contract on the Ethereum blockchain. Coins remain claimable on Koinos' main net for all participants.",
+    "features": {
+      "fairLaunch": "Fair Launch",
+      "noLocked": "No Locked Coins",
+      "publicAllocation": "100% Publicly Allocated"
+    }
+  },
+  "WhereToGetKOIN": {
+    "title": "Where to get KOIN",
+    "subtitle": "Find Koinos on Exchanges Across the Globe"
+  },
+  "MediumBlog": {
+    "sectionId": "Blog",
+    "title": "News & Updates",
+    "subtitle": "Stay Updated with the Latest News on our Medium Blog",
+    "loading": "Loading...",
+    "publishedOn": "Published on"
+  },
+  "KoinosAdvantage": {
+    "title": "The Koinos Advantage",
+    "subtitle": "Koinos is Engineered to Provide a Web2 User Experience on Web3",
+    "items": {
+      "feeless": {
+        "title": "Smart Contracts without Fees",
+        "description": "Just like the internet! The Koinos Mana system allows you to use the blockchain without spending, or even holding, ANY tokens. Mana recharges over time and can be shared with others. Koinos lowers the barrier with feeless smart contracts!"
+      },
+      "web2": {
+        "title": "A Web2 User Experience on Web3",
+        "description": "Our innovative Mana system recharges like a battery, enabling applications to allow feeless transactions for you and the only cost to them is waiting for their \"battery\" to recharge. This unique approach offers a truly frictionless user experience."
+      },
+      "upgradeable": {
+        "title": "Upgradable / Evolving Blockchain",
+        "description": "The entire blockchain is highly modular and is the first chain with consensus and governance built from smart contracts. Anything including the core features of the blockchain can be upgraded with ease. No more \"Eth 2.0-style\" delays."
+      },
+      "fast": {
+        "title": "Lightning Fast",
+        "description": "With a 3 second block times, Koinos offers a near realtime experience for both applications and you, the user. This provides critical responsiveness needed to facilitate a Web2 experience on Web3."
+      },
+      "microservices": {
+        "title": "Microservices Architecture",
+        "description": "Koinos is one of the very few blockchains to leverage a microservice architecture. As a developer you can build custom microservices in all major languages. No more monolithic codebases."
+      },
+      "universal": {
+        "title": "Universal Language Support",
+        "description": "A growing number of smart contract languages are added thanks to the KVM (Koinos Virtual Machine) implementation of WebAssembly (WASM) and Google's protocol buffers (Protobuf). Today you can get started with the popular languages TypeScript and C++."
+      }
+    }
+  },
+  "ChainStatistics": {
+    "title": "Blockchain Statistics",
+    "subtitle": "A Powerful Decentralized Network for a Growing Ecosystem",
+    "accounts": {
+      "title": "Accounts",
+      "description": "Total number of activated accounts"
+    },
+    "blocks": {
+      "title": "Blocks",
+      "description": "Total number of blocks produced"
+    },
+    "transactions": {
+      "title": "Transactions",
+      "description": "Total number of transactions performed"
+    }
+  },
+  "Wallets": {
+    "title": "Wallets",
+    "subtitle": "Koinos Wallets Bring Cutting-Edge Technology to Everyone",
+    "kondor": {
+      "description": "Full featured Koinos wallet for Google Chrome"
+    },
+    "konio": {
+      "description": "Full featured native mobile wallet for Android/iOS"
+    }
+  },
+  "Roadmap": {
+    "title": "Roadmap",
+    "subtitle": "A Look at the Path Ahead",
+    "beyond": "Beyond",
+    "previous": {
+      "2020": {
+        "title": "2020",
+        "items": {
+          "announcement": {
+            "text": "Koinos Announced",
+            "icon": "fa-solid fa-bullhorn",
+            "description": "Prior to the launch of the ERC-20 mining process which created the initial supply of KOIN, Koinos was announced publicly a month in advance on several popular platforms including bitcointalk.org, Medium, X, and SteemIt."
+          },
+          "pow": {
+            "text": "Proof-of-Work Initial Supply Distribution",
+            "icon": "fa-solid fa-parachute-box",
+            "description": "To bootstrap our ecosystem and unique consensus algorithm, the initial supply of KOIN was mined publicly on the Ethereum blockchain."
+          }
+        },
+        "status": "done"
+      },
+      "2021": {
+        "title": "2021",
+        "items": {
+          "testnet": {
+            "text": "Testnet",
+            "icon": "fa-solid fa-landmark",
+            "description": "A simplified test network was launched to both prove out architecture of the Koinos Blockchain Framework and improve system stability during development."
+          },
+          "cli": {
+            "text": "Koinos Command Line Interface (CLI)",
+            "icon": "fa-solid fa-code",
+            "description": "An advanced command-line wallet was developed in order to facilitate blockchain interactions prior to the development of user facing tools."
+          },
+          "pob": {
+            "text": "Proof-of-Burn Development",
+            "icon": "fa-solid fa-fire",
+            "description": "The implementation for Proof-of-Burn began and was later deployed on our test network without the need for a hardfork. This was a major milestone and Proof-of-Concept."
+          },
+          "protobuf": {
+            "text": "Protobuf Integration",
+            "icon": "fa-solid fa-code",
+            "description": "Using industry standard tooling is important for developer adoption. Protocol buffers was chosen due to its support in a wide variety of languages and market dominance."
+          }
+        },
+        "status": "done"
+      },
+      "2022": {
+        "title": "2022",
+        "items": {
+          "governance": {
+            "text": "Decentralized Governance Development",
+            "icon": "fa-solid fa-scale-balanced",
+            "description": "We believe in the benefits of decentralized, at the same time, we understand that the blockchain must evolve with the ecosystem. A decentralized governance solution was developed to faciliate upgrades to the protocol without a centralized authority."
+          },
+          "mana": {
+            "text": "Mana System Development",
+            "icon": "fa-solid fa-wand-magic-sparkles",
+            "description": "In order to deliver a user experience designed for everyday people -- we needed to eliminate transaction fees. The revolutionary mana system handles blockchain resources unlike any other blockchain."
+          },
+          "mainnet": {
+            "text": "Mainnet Go-Live (November 5th)",
+            "icon": "fa-solid fa-landmark",
+            "description": "After all necessary features were developed and tested, the Koinos main network was launched live on YouTube on November 5th."
+          }
+        },
+        "status": "done"
+      },
+      "2023": {
+        "title": "2023",
+        "items": {
+          "microservices": {
+            "text": "Microservice Improvements",
+            "icon": "fa-solid fa-box",
+            "description": "During the first year of the Koinos main network, each microservice was worked on in order to improve stability and performance."
+          },
+          "upgrade": {
+            "text": "First In-band Upgrade",
+            "icon": "fa-solid fa-circle-up",
+            "description": "Bugs happen. A regression was identified in one of the core tokens, VHP. Thankfully, the bug was not exploited and we had the opportunity to utilize our in-band upgrade and governance system to patch the issue without stopping the chain."
+          }
+        },
+        "status": "done"
+      },
+      "2024": {
+        "title": "2024",
+        "items": {
+          "rest": {
+            "text": "REST API",
+            "icon": "fa-solid fa-server",
+            "description": "The 3rd party microservice, REST API, was adopted into the core package of microservices with minor modifications. It offered a much better developer experience than our existing JSON-RPC microservice."
+          },
+          "kcs4": {
+            "text": "KOIN & VHP KCS-4 Upgrade",
+            "icon": "fa-solid fa-circle-up",
+            "description": "Our original vision of smart wallets for everyone did not come to fruition. A baseline of security was demanded by the community. That led to the development of the KCS-4 standard and the upgrade of core tokens."
+          },
+          "mempool": {
+            "text": "Mempool v1.5",
+            "icon": "fa-solid fa-box",
+            "description": "Developers need to increment nonces when sending subsequent transactions. This is an unnecessary burden on the developer. The mempool will be improved to assist developers and move that burden onto the Koinos cluster."
+          }
+        },
+        "status": "todo"
+      }
+    },
+    "current": {
+      "q1": {
+        "title": "Q1",
+        "items": {
+          "snapshots": {
+            "text": "Public Snapshots",
+            "icon": "fa-solid fa-file",
+            "description": "We have had some developers at different times upload Koinos snapshots for general use. However, we have never had a dedicated service for this. It will benefit the entire community if official snapshots are generated and shared."
+          },
+          "restApi": {
+            "text": "REST API v1.1",
+            "icon": "fa-solid fa-server",
+            "description": "The Koinos REST API has been a great addition to our infrastructure. Enhancements need to be made so it has feature parity with JSON-RPC and more to better meet developer needs."
+          }
+        },
+        "status": "todo"
+      },
+      "q2": {
+        "title": "Q2",
+        "items": {
+          "authority": {
+            "text": "Authority System v2",
+            "icon": "fa-solid fa-wallet",
+            "description": "The idea behind letting contracts define their own authorization logic is a fantastic feature of Koinos, but this feature remains underutilized because the design is complicated and difficult to explain to developers. The entire system will be simplified so it easier to use for developers."
+          }
+        },
+        "status": "todo"
+      },
+      "q3": {
+        "title": "Q3",
+        "items": {
+          "libraries": {
+            "text": "Client Libraries",
+            "icon": "fa-solid fa-code",
+            "description": "Some of the most requested library languages, from developers and partners, are Python and Golang. With the updated REST API, we want to create client libraries for these languages and many more to reach developers where they are currently at."
+          },
+          "c_sdk": {
+            "text": "C SDK",
+            "icon": "fa-solid fa-code",
+            "description": "Koinos currently has two SDKs for building smart contracts, C++ and Assembly Script (AS). We will create a C SDK which will not only give developers yet another powerful option for writing smart contracts, it will also lay the foundation for adding even more languages in the future and creating an even better C++ SDK."
+          }
+        },
+        "status": "todo"
+      },
+      "q4": {
+        "title": "Q4",
+        "items": {
+          "vscode": {
+            "text": "VSCode Extension",
+            "icon": "fa-solid fa-code",
+            "description": "An important tool that Koinos is missing is a full integrated development environment (IDE). This extension will provide a first party experience, streamlining and simplifying the development, testing, and deployment of Koinos smart contracts making it even easier to build on Koinos."
+          }
+        },
+        "status": "todo"
+      }
+    },
+    "future": {
+      "items": {
+        "cpp_sdk": {
+          "text": "C++ SDK",
+          "icon": "fa-solid fa-code",
+          "description": "After the C SDK, we want to recreate a new and improved C++ SDK. This is the simplest language to do this with, but will ensure we have designed the C SDK well enough to be used as a core for future SDKs."
+        },
+        "rust_sdk": {
+          "text": "Rust SDK",
+          "icon": "fa-solid fa-code",
+          "description": "Rust also supports calling C functions and is an increasingly popular language, especially within the crypto space. By adding Rust support, we can extend our reach to even more developers and demonstrate the flexibility of the Koinos VM."
+        },
+        "wasm": {
+          "text": "WASM VM Optimizations",
+          "icon": "fa-solid fa-code",
+          "description": "We will analyze the current state of WASM VMs and test different VMs for performance and compatibility with Koinos. As a result of improved performance, we will be able to increase resource budgets, which will decrease mana costs for all transactions."
+        },
+        "data_store": {
+          "text": "Data Store Microservice",
+          "icon": "fa-solid fa-server",
+          "description": "The data store microservice will be a replacement microservice for the block store, transaction store, and account history. Running a Koinos node will require considerably less disk space than it currently does."
+        },
+        "redundant": {
+          "text": "Redundant Microservices",
+          "icon": "fa-solid fa-server",
+          "description": "Improve scaling and redundancy for microservices within the Koinos cluster. By adding support for scaling individual microservices, nodes in enterprise environments become more performant and redundant."
+        },
+        "optimistic": {
+          "text": "Optimistic Execution of Transactions",
+          "icon": "fa-solid fa-code",
+          "description": "Allowing unrelated transactions to execute in parallel will drastically improve throughput of the Koinos blockchain. The work needed to implement this optimization will allow the framework to interact with transactions in more ways that help create building blocks that will enable drastic improvements in the future."
+        },
+        "sharding": {
+          "text": "Dynamic Sharding",
+          "icon": "fa-solid fa-code",
+          "description": "Dynamic sharding allows the blockchain to split into smaller pieces based on usage. Block producers then become responsible for a subset of the whole blockchain while ensuring sufficient overlap to guarantee consistency and decentralization."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "help": {
+      "title": "Help",
+      "faqs": "FAQs",
+      "media": "Media",
+      "contact": "Contact"
+    },
+    "social": {
+      "title": "Social",
+      "telegram": "Telegram",
+      "discord": "Discord",
+      "twitter": "Twitter",
+      "youtube": "YouTube"
+    },
+    "other": {
+      "title": "Other",
+      "claim": "Claim KOIN",
+      "story": "Our Story",
+      "blog": "Blog"
+    },
+    "copyright": "All rights reserved"
+  },
+  "Team": {
+    "title": "We're a group of dreamers and doers, committed to redefining the future"
+  },
+  "Ecosystem": {
+    "pageTitle": "Ecosystem | Koinos",
+    "featured": "Featured",
+    "koindxDescription": "KoinDX is a decentralized exchange platform that facilitates seamless and efficient trading of digital assets within the Koinos ecosystem, offering users a user-friendly UX with a modern design.",
+    "visitKoindx": "Visit KoinDX",
+    "title": "An Ever-Evolving Ecosystem",
+    "description": "The Koinos ecosystem is rapidly evolving into a dynamic and inclusive environment for decentralized applications and blockchain innovation. Leveraging the power of a feeless and infinitely upgradeable blockchain, Koinos offers developers and users unparalleled flexibility and accessibility.",
+    "learnMore": "Learn More",
+    "dapps": {
+      "koindx": {
+        "title": "KoinDX",
+        "description": "KoinDX is a decentralized exchange designed to facilitate seamless token swaps, providing users with a fast, and user-friendly trading experience.",
+        "featuredImage": "/images/pages/ecosystem/koindx-swap.png",
+        "url": "https://koindx.com/",
+        "visitProject": "Visit KoinDX"
+      },
+      "kap": {
+        "title": "KAP",
+        "description": "KAP provides easy access to dApps with a free or premium username, serving as the backbone for free-to-use applications on the Koinos blockchain",
+        "featuredImage": "/images/pages/ecosystem/kap.png",
+        "url": "https://kap.io/",
+        "visitProject": "Visit KAP"
+      },
+      "kollection": {
+        "title": "Kollection",
+        "description": "Kollection is an innovative NFT marketplace where users can buy, sell, and create unique digital assets, fostering a vibrant community of creators and collectors.",
+        "featuredImage": "/images/pages/ecosystem/kollection.png",
+        "url": "https://kollection.io/",
+        "visitProject": "Visit Kollection"
+      },
+      "kanvas": {
+        "title": "Kanvas",
+        "description": "Kanvas is a versatile and dynamic canvas board application that allows users to unleash their creativity and collaborate on various projects in real-time.",
+        "featuredImage": "/images/pages/ecosystem/kanvas.png",
+        "url": "https://kanvas.io/",
+        "visitProject": "Visit Kanvas"
+      },
+      "koiner": {
+        "title": "Koiner",
+        "description": "Koiner is a comprehensive blockchain explorer for the Koinos network, providing detailed insights and real-time data on transactions, blocks, and more.",
+        "featuredImage": "/images/pages/ecosystem/koiner.png",
+        "url": "https://koiner.io/",
+        "visitProject": "Visit Koiner"
+      },
+      "fogata": {
+        "title": "Fogata",
+        "description": "Fogata is a robust mining pool specifically designed for Koinos enthusiasts, where users can run their own pools or join those of the community.",
+        "featuredImage": "/images/pages/ecosystem/fogata.png",
+        "url": "https://fogata.io/",
+        "visitProject": "Visit Fogata"
+      },
+      "koincity": {
+        "title": "Koincity",
+        "description": "Koincity is an innovative launchpad platform that supports the development and launch of new projects on the Koinos blockchain, helping creators bring their ideas to life.",
+        "featuredImage": "/images/pages/ecosystem/koincity.png",
+        "url": "https://koincity.io/",
+        "visitProject": "Visit Koincity"
+      },
+      "burnkoin": {
+        "title": "BurnKoin",
+        "description": "BurnKoin is a dedicated mining pool focused on optimizing mining rewards for its users, providing a reliable and efficient environment for Koinos miners.",
+        "featuredImage": "/images/pages/ecosystem/burnkoin.png",
+        "url": "https://burnkoin.io/",
+        "visitProject": "Visit BurnKoin"
+      },
+      "koinosblocks": {
+        "title": "Koinos Blocks",
+        "description": "Koinos Blocks is a detailed block explorer for the Koinos blockchain, offering comprehensive data and analytics for users to explore.",
+        "featuredImage": "/images/pages/ecosystem/koinosblocks.png",
+        "url": "https://koinosblocks.io/",
+        "visitProject": "Visit Koinos Blocks"
+      },
+      "koinosboxpolls": {
+        "title": "Koinosbox Polls",
+        "description": "Koinosbox Polls is a decentralized application that allows users to create, participate in, and manage polls, making community decision-making more transparent and democratic.",
+        "featuredImage": "/images/pages/ecosystem/koinosboxpolls.png",
+        "url": "https://koinosbox.io/",
+        "visitProject": "Visit Koinosbox Polls"
+      },
+      "atomicswaps": {
+        "title": "Atomic Swaps",
+        "description": "Atomic Swaps is a platform for peer-to-peer cryptocurrency swaps, enabling users to exchange digital assets directly without the need for intermediaries.",
+        "featuredImage": "/images/pages/ecosystem/atomicswaps.png",
+        "url": "https://atomic.swaps/",
+        "visitProject": "Visit Atomic Swaps"
+      },
+      "spacestriker": {
+        "title": "Space Striker",
+        "description": "Space Striker is an engaging and immersive space-themed game that challenges players to navigate and conquer the cosmos in a thrilling adventure.",
+        "featuredImage": "/images/pages/ecosystem/spacestriker.png",
+        "url": "https://spacestriker.io/",
+        "visitProject": "Visit Space Striker"
+      },
+      "cryptobulls": {
+        "title": "Crypto Bulls",
+        "description": "Crypto Bulls is an action-packed first-person shooter game that combines fast-paced combat with strategic gameplay, offering an exciting experience for gamers.",
+        "featuredImage": "/images/pages/ecosystem/cryptobulls.png",
+        "url": "https://cryptobulls.io/",
+        "visitProject": "Visit Crypto Bulls"
+      },
+      "serfdomandsorcery": {
+        "title": "Serfdom & Sorcery",
+        "description": "Serfdom & Sorcery is a captivating game set in a fantastical world, where players can immerse themselves in a rich narrative and magical adventures.",
+        "featuredImage": "/images/pages/ecosystem/serfdomandsorcery.png",
+        "url": "https://serfdomandsorcery.io/",
+        "visitProject": "Visit Serfdom & Sorcery"
+      },
+      "nicknames": {
+        "title": "Nicknames",
+        "description": "Nicknames is a service on the Koinos blockchain that allows users to register and resolve unique usernames, making it easier to identify and interact with others.",
+        "featuredImage": "/images/pages/ecosystem/nicknames.png",
+        "url": "https://nicknames.io/",
+        "visitProject": "Visit Nicknames"
+      },
+      "koincrew": {
+        "title": "Koin Crew",
+        "description": "Koin Crew offers a suite of utilities designed to enhance the Koinos ecosystem, providing users with a range of tools and services to optimize their blockchain experience.",
+        "featuredImage": "/images/pages/ecosystem/koincrew.png",
+        "url": "https://koincrew.io/",
+        "visitProject": "Visit Koin Crew"
+      },
+      "koinosgarden": {
+        "title": "Koinos Garden",
+        "description": "Koinos Garden is an investment DAO that brings together a community of investors to collaborate on and fund promising projects within the Koinos ecosystem.",
+        "featuredImage": "/images/pages/ecosystem/koinosgarden.png",
+        "url": "https://koinosgarden.io/",
+        "visitProject": "Visit Koinos Garden"
+      },
+      "lordsforsaken": {
+        "title": "Lords Forsaken",
+        "description": "Lords Forsaken is an exciting NFT card game that combines strategic gameplay with collectible digital cards, offering players a unique and engaging experience.",
+        "featuredImage": "/images/pages/ecosystem/lordsforsaken.png",
+        "url": "https://lordsforsaken.io/",
+        "visitProject": "Visit Lords Forsaken"
+      }
+    }
+  },
+  "Whitepaper": {
+    "title": "Whitepaper",
+    "abstract": {
+      "title": "Abstract",
+      "p1": "A general purpose blockchain-based decentralized network that allows for free-to-use applications through a \"Mana\" mechanism that dynamically prices network resources in opportunity cost (not tokens) and allows for free-to-use dApps through Mana \"delegation.\"",
+      "p2": "Proof-of-burn is implemented as a consensus algorithm to maximize efficiency, decentralization, and provable egalitarianism while thwarting the exchange attack and mitigating spam. Blocks are produced by hashing a private key and the random number output of a verifiable random function (VRF) then dividing by the amount of tokens burned. Like proof-of-work, the longest chain serves as an immutable record of transactions backed by the largest pool of sacrificed capital.",
+      "p3": "The Koinos blockchain framework is used for fork-less upgrades as a result of its modular upgradeability. This creates a free-to-use and truly decentralized general purpose blockchain with a mainstream user experience that maximizes accessibility to end-users, developers, and node operators."
+    },
+    "previousWork": {
+      "title": "Previous Work",
+      "p1": "Satoshi Nakamoto created the first decentralized peer-to-peer digital currency in Bitcoin by designing a novel database architecture (the blockchain) that leveraged fees to regulate network usage and proof-of-work to regulate state transitions. Ethereum retained these primitives and the blockchain database but created more general utility by allowing users to include Turing complete code in their transactions. That code would then be executed in a virtual machine, thereby allowing for decentralized applications (dApps).",
+      "p2": "Prior to developing Koinos we were the core developers of Steem (the first fee-less and social blockchain) up until a hostile takeover and exchange attack. After leaving that project, our goal was to build a company that would empower developers to build dApps like Steem and Hive, but on a truly decentralized and fee-less blockchain that would resist the exchange attack. Unfortunately, none of the existing blockchains had the properties we needed. The \"fee-less\" blockchains were not truly fee-less, requiring that users pay for RAM and/or accounts nor were they truly decentralized as a result of their launch (ICOs) or their consensus algorithm, and often both.",
+      "p3": "We wanted to take blockchain accessibility to the extreme by enabling, for the first time, free-to-use dApps which would require not only fee-less transactions, but free accounts, free smart contract execution, and network resource delegation. Delivering these capabilities required building an entirely new blockchain from the ground up and executing a provably fair decentralized launch. The end result would be a general purpose blockchain that was not just another Ethereum competitor, but the first genuine alternative to Ethereum."
+    },
+    "koin": {
+      "title": "$KOIN",
+      "p1": "Prior to KOIN, most cryptocurrencies had relatively simple token economic designs; they were the token used to pay the fees necessary to sustain the operations of the decentralized network. Counterintuitively, removing the fees is what allows for the creation of a more dynamic, flexible and performant system which supports a digital currency that finally delivers on the futuristic vision of an egalitarian and decentralized digital currency that began with Bitcoin.",
+      "supply": {
+        "title": "Token Supply & Distribution",
+        "p1": "To maximize decentralization and provable fairness from the very beginning, the KOIN token was launched in the same manner as Bitcoin; through proof-of-work mining (on Ethereum). The max supply of mineable tokens was 100 million KOIN. When Koinos mainnet goes live, token balances will be initialized using a snapshot of the KOIN ERC-20 and the initial target rate of new token creation will be 2%, but this can be altered in-band by governance (see the Fork-Less Upgradeability and Decentralized Governance sections). The burn component of the consensus algorithm could result in a much lower actual inflation rate and even temporary periods of deflation.",
+        "p2": "As a result of the novel \"Mana\" system (see the Mana section) the mainnet tokens can be transferred without paying any fee because the Mana contained within them allows the holder to use the network without spending any KOIN. The Mana system makes Koinos the first truly free-to-use blockchain as users do not have to purchase accounts, pay to execute smart contracts, or even acquire KOIN tokens in order to use the blockchain."
+      },
+      "inflationDeflation": {
+        "title": "Inflationary & Deflationary",
+        "p1": "As the first general purpose blockchain to implement proof-of-burn as a consensus algorithm, the KOIN token supply will expand and contract based on market conditions, thereby delivering the kind of economic \"levers\" featured in the most advanced global currencies, but administered in a fully decentralized and algorithmic manner (see the proof-of-burn section)."
+      },
+      "fastFree": {
+        "title": "Fast & Free",
+        "p1": "Since proof-of-burn eliminates the need for meaningless computational work, Koinos blocks can be produced rapidly allowing the KOIN token to be both fee-less and fast. The incredible upgradeability of Koinos allows block times to be continually lowered over time, thereby decreasing latency, limited only by network stability and state growth considerations. With these features in place, the KOIN token can empower people to exchange unlimited value in seconds without losing anything to a fee, thereby opening up entirely new–and currently unimaginable–business models to entrepreneurs and developers."
+      }
+    },
+    "forkless": {
+      "title": "Fork-Less Upgradeability",
+      "p1": "When developing Steem we saw firsthand how hard forks are holding back blockchain adoption by creating a major bottleneck in the upgrade process. Mainnet solves this problem through its use of the Koinos blockchain framework which allows any behavior to be added to the blockchain as a smart contract. The fundamental assumption of this framework is that any smart contract can be upgraded by an authorized party. In the case of system logic, the system governance contract has the authority to make a \"user smart contract\" into a \"system smart contract\" in-band (no hard fork) that overrides some basic, native implementation. In this way, upgrades to the blockchain's business logic can be pushed to the p2p network much like an operating system patch with minimal network disruption.",
+      "p2": "The Koinos blockchain framework is effectively the world's simplest, fully functional, general purpose blockchain contained within a microservice architecture. The blockchain (i.e. the chain microservice) features natively implemented system calls that contain only the cryptographic functions necessary for constructing a technically true blockchain along with logic for dispatching a node between the native system calls and newer system calls implemented as smart contracts (i.e. WASM implementations) running in the virtual machine. This combination of native implementations and \"system smart contracts\" form a high-performance, vertically scalable, and upgradeable blockchain \"kernel\" (the framework) that allows for any behavior to be added to the blockchain without requiring a hard fork."
+    },
+    "universalLanguage": {
+      "title": "Universal Language Support",
+      "p1": "Ethereum dramatically expanded the creative space available to developers by allowing them to leverage a single, custom-built, Turing complete programming language; Solidity. Koinos dramatically expands that creative space once again by allowing developers to work in all of the most used Turing complete programming languages, starting with C++ and TypeScript (using AssemblyScript), but with more languages to come. Koinos accomplishes this through the combination of three open source technologies built and maintained by the best teams in the world, all of which have ever-increasing language support. They are: (1) WebAssembly, (2) Protocol Buffers, and (3) the Advanced Message Queuing Protocol.",
+      "p2": "WebAssembly is used for smart contracts. Protobuf is used for serialization within the node, and AMQP manages communications between microservices which utilize broadcast messages to implement an event-driven paradigm. These technologies make it far easier to implement an SDK for any programming language that all three support; which is practically all of the most used Turing complete programming languages."
+    },
+    "mana": {
+      "title": "Mana",
+      "p1": "Our goal with Koinos is to support decentralized (\"Web3\") applications that have a Web2 user experience. In short, dApps must have a delightful user experience and people must be able to begin using them without first having to acquire tokens which is a major barrier to entry. The Mana system is how we accomplish those objectives. We call it \"Mana\" because the user experience replicates that of the RPG video games so many people are already familiar with.",
+      "p2": "The basic premise of the Mana system is that every KOIN token is \"born\" with 1 Mana which can be consumed when a user consumes network resources. Mana is a property of the KOIN token, it is not a token itself. It therefore cannot be bought or sold and cannot acquire its own price distinct from the KOIN token. Users can, however, delegate their Mana to other users, thereby allowing non-token holders to begin using the blockchain while still effectively mitigating spam. That Mana is still tethered to the delegator's KOIN to ensure the economic sustainability of the system and maximize liquidity for the delegator who can undelegate at-will."
+    },
+    "implementation": {
+      "title": "Implementation Details",
+      "p1": "Like Ethereum's gas, every VM instruction will have a specific cost in Mana. Since only a limited amount of instructions can be included in a block, Mana is tightly coupled to the network resources available to users. Whereas Ethereum requires the user to purchase gas from miners which then gets consumed by the transaction, the Mana system autonomously consumes the appropriate amount of Mana from a user's balance based on the resources consumed by their transaction.",
+      "payingTime": {
+        "title": "\"Paying\" in Time",
+        "p1": "Once any of the Mana in a given token is consumed, that token is locked for 5 days, so they can develop a weekly \"rhythm\"to their blockchain (and dApp) usage. This creates an opportunity cost in lieu of a real-time monetary cost that serves to disincentivize the submission of value-less transactions. This fixed period of time functions as a \"regen time\" which creates the user experience of Mana \"regenerating over time,\" creating a fun, almost game-like user experience.",
+        "p2": "The regen time is based on how long it takes for one satoshi of Mana to regenerate, with regeneration happening on all of a user's tokens at the same time. Since this mechanism is distributive, the regen time appears dynamic to the user. In other words, a user's Mana will constantly be regenerating so they will not have to wait the full 5 days to resume their blockchain usage."
+      }
+    },
+    "freeToUse": {
+      "title": "Free-to-Use",
+      "p1": "To solve the problem of allowing people to use dApps without first having to acquire any tokens whatsoever, Koinos allows smart contract developers to specify who will \"pay\" the Mana when the smart contract is run (\"Payer/Payee Semantics\"). Each transaction must explicitly specify an address of a payer for the transaction, and optionally a payee. The payer's Mana is spent and the payee's account nonce is updated. If there is no payee set, the payer is used for both. The combination of these features allows a smart contract to specify a payer for its Mana costs.",
+      "p2": "These deceptively simple semantics will not only allow people to begin using the blockchain without having to buy any KOIN, they also give large KOIN holders a powerful tool for supporting valuable dApps without sacrificing any of their tokens."
+    },
+    "multiDimensionality": {
+      "title": "Multi-Dimensionality",
+      "p1": "As <link>Vitalik Buterin</link> has explained, Ethereum's gas calculations are one dimensional, pricing very different resources (e.g. storage and compute) as if they are the same, which is inefficient. With the Mana resource model, the resources are tracked separately to maximize efficiency, but the user is still only charged in Mana. Resources are pooled every block, with a limit to how many of those resources can be consumed per block and an XYK market maker is used to set a price for each of the resources in a given block.",
+      "p2": "This multi-dimensionality allows developers to optimize their contracts to target underutilized network resources. End-users will prefer those dApps which perform such optimizations because they will get more \"bang for their Mana,\" creating a positive feedback loop of decentralized self-regulation. This system would gradually and continuously charge users more Mana as they consume more contentious resources and less Mana for consuming underutilized resources. The end result is a simple, efficient, and dynamic system for determining resource costs based on user behavior that guarantees the lowest possible cost, while ensuring that the network is protected. The Mana charged is simply the linear combination of each resource and cost (e.g. `bandwidth_cost * bandwidth_used + storage_cost * storage_used + compute_cost * compute_used`)."
+    },
+    "proofOfBurn": {
+      "title": "Proof-of-Burn",
+      "p1": "In addition to being fast with zero fees, the KOIN token is intended to deliver on <link1>Satoshi's original vision of a truly peer-to-peer electronic cash</link1> that utilizes spare computational resources and does not require dedicated hardware. In other words, it is provably egalitarian. <link2>Iain Stewart proposed proof-of-burn in 2012</link2>, a year after proof-of-stake was proposed, and we believe this represents the next stage of evolution in consensus algorithms. Proof-of-burn enables us to accomplish provable egalitarianism by delivering the economics of proof-of-work with even higher efficiency than proof-of-stake. The end result of our implementation is a consensus system that should be more decentralized than proof-of-work and more efficient than proof-of-stake."
+    },
+    "exchangeAttack": {
+      "title": "The Exchange Attack",
+      "p1": "Proof-of-burn as a consensus algorithm is remarkably simple and its unique value is easy to understand. Like proof-of-work it requires that the cost of attacking the network be paid \"up front.\" Like proof-of-stake, no actual hardware has to be purchased and run, aside from the hardware required to produce blocks. Like proof-of-work the exchange attack is thwarted because the block producer has already lost their money, they are simply trying to get it back by maintaining a correct ledger. Any exchange seeking to leverage user funds to influence governance as a result of greed, coercion, or deception (see the <link>Steem/Tron incident</link>) would first have to destroy user funds, which they would never do. This also reduces the need for the complicated slashing conditions required for proof-of-stake implementations because block producers are effectively \"pre-slashing\" their capital prior to earning block rewards, as with proof-of-work."
+    },
+    "virtualMining": {
+      "title": "Virtual Mining",
+      "p1": "A user who wants to earn block rewards burns their KOIN, decreasing the total supply of KOIN. The blockchain distributes \"virtual hash power\" fungible tokens (VHP) to the block producer which can be used to mine a block without needing to run expensive hardware. As the block producer mines blocks, their virtual hash power (VHP) diminishes over time, requiring them to burn more to continue producing. In this way, burning tokens is equivalent to buying mining hardware which degrades over time and the electricity required to perform proof-of-work."
+    },
+    "inflation": {
+      "title": "Inflation",
+      "p1": "VHP is always treated on a 1:1 basis with KOIN. For every unit of KOIN burned a specified account will receive that many units of VHP. When an account with VHP receives units of KOIN as a block reward, their VHP balance is reduced by that many units. In this way VHP acts as a proxy for KOIN and the total supply of VHP and KOIN can be summed to establish the \"virtual token supply\" for the purpose of setting a maximum rate of new token creation. To ensure that there is always incentive to produce blocks there must be a net positive rate of new token creation. Initially, the target rate of new token creation on mainnet will be 2%."
+    },
+    "deflation": {
+      "title": "Deflation",
+      "p1": "As a result of the burn component, the total token supply can be either increasing (inflation) or decreasing (deflation) depending on the level of competition for block production. If the demand for block rewards is increasing linearly, then at a certain point the rate at which KOIN is being burned will outpace the rate at which new KOIN is being produced. The result would be a decreasing token supply despite the new token creation (i.e. \"deflation\")."
+    },
+    "randomness": {
+      "title": "Randomness",
+      "p1": "Proof-of-burn keeps the core consensus mechanism of proof-of-work, but exchanges energy for time by using a <link>verifiable random function (VRF)</link>. Every block will contain quanta (sometimes called \"slots\"), milliseconds in length, which block producers will compete to produce on. In order to earn back their burn, the block producer must attempt to produce on every quantum. This attempt will involve the block producer using their private key, a timestamp, and the previous random output of the VRF to generate a hash which is then divided by their VHP (i.e. their burn). If the hash is low enough, then they produce (similar to proof-of-work), otherwise they have to try again on the next quantum."
+    },
+    "efficiency": {
+      "title": "Efficiency & Consistency",
+      "p1": "The block producer's incentive is not to perform as much work as possible, but to perform as little work as is necessary to attempt to produce on every quantum. From here, proof-of-burn behaves the same as proof-of-work except that the block producer only has to hash once per quantum. Because block producers are competing to produce on one of the many quantum inside a block, the end result is continuous block production. Dividing the hash by the size of the producer's burn guarantees that the dominant factor in selecting a block producer is the size of their burn and not the amount of computational work they have performed (which will be practically nothing) thereby delivering on the promise of high efficiency."
+    },
+    "miningPools": {
+      "title": "Mining Pools",
+      "p1": "Unlike on proof-of-work chains, mining pools on Koinos can increase decentralization and participation in governance as they could empower non-technical users to allocate their capital to more technical users who can guarantee more uptime and vote in accordance with the desires of their contributors. Users would participate in a mining pool simply by transferring their VHP to another Koinos account which has already been upgraded with a mining contract that autonomously distributes rewards to its contributors."
+    },
+    "liquidity": {
+      "title": "Increased Liquidity",
+      "p1": "If at any time the block producer or mining pool participant wants to exit block production, they need only withdraw their VHP from the address and sell it like they would any fungible token. This maximizes liquidity and allows users to exit block production at-will with minimal economic downside."
+    },
+    "centralization": {
+      "title": "Centralization Resistant & Provably Egalitarian",
+      "p1": "With proof-of-burn, there are no mining rigs, just accounts holding VHP tokens, so the rate at which block rewards are paid out is entirely algorithmic. This not only makes it infinitely customizable, but also totally resistant to hardware centralization. All of this makes proof-of-burn the first consensus algorithm to deliver the economics of proof-of-work and is provably egalitarian; finally delivering on Satoshi's original vision of a truly peer-to-peer electronic cash that utilizes spare computational resources and does not require dedicated hardware."
+    },
+    "governance": {
+      "title": "Decentralized Governance",
+      "p1": "The high degree of upgradeability enabled by the Koinos blockchain framework makes governance the bottleneck instead of the hard fork process. Like every system behavior, governance is \"just\" another smart contract on Koinos, albeit one with system level privileges and special importance in the upgrade process. The governance contract is modeled off of how the Bitcoin network manages upgrades (e.g. SegWit) and can be thought of as the world's simplest Decentralized Autonomous Organization (DAO). It allows people to: (1) Propose upgrades, (2) Review upgrades during a \"review period,\" (3) Cast votes on upgrades during a \"vote period\" and (4) at the end of the vote period, the proposal must pass or fail. Votes are cast by producing a block so influence over governance is based on how many tokens a user has burned, not how much they hold (stake).",
+      "p2": "Application of the upgrade is delayed 1 week to ensure developers and businesses have time to adapt their systems to the upgrade. To prevent the spamming of proposals, users must burn KOIN whenever they submit a proposal. In order to ensure this fee can be calculated in a decentralized and autonomous manner, the burn fee is equal to the total supply divided by 1,000,000. Since all actions on the blockchain must also pay a fee in Mana, the \"resource credit limit\" for submitting a proposal is 1/10th of the burn fee, or 10 Mana in the previous example."
+    },
+    "upgradingGovernance": {
+      "title": "Upgrading Governance",
+      "p1": "Since the governance system is itself a Koinos smart contract, all of these parameters can be changed without a hard fork. In fact, this is what ultimately distinguishes Koinos as the only blockchain truly capable of evolution; governance can upgrade itself! But as the most important component of the system, it should be much harder to change governance than any other part of the system. For that reason, a 75% supermajority vote is required for governance upgrades, while only a 60% majority is required for non-governance system upgrades (system call overrides and system contract promotions). But again, even these numbers can be modified by governance (with a 75% majority)."
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "p1": "In this document we have outlined the innovative business logic added to the Koinos blockchain framework to make Koinos mainnet the most accessible blockchain in the world. The Mana system allows for more efficient use of network resources while creating the frictionless (even fun) user experiences to which people have become accustomed. Mana delegations allow non-token holders to use dApps without having to acquire tokens, completing the Web2 user experience on a decentralized platform. The KOIN token allows mainnet to launch fully decentralized as a result of its open and fair proof-of-work launch on Ethereum. On mainnet, the KOIN token will regulate free usage of the entire Koinos ecosystem, inflating and deflating appropriately through the proof-of-burn consensus algorithm, while decentralized governance pushes continuous improvements through fork-less upgrades developed using the Universal Language Support."
+    }
+  },
+  "FAQs": {
+    "pageTitle": "Frequently Asked Questions | Koinos",
+    "heading": "FAQs",
+    "haveQuestions": "Have any questions?",
+    "getInTouch": "Get in Touch",
+    "q1": "What is the mission of Koinos?",
+    "a1": "To accelerate the transition to a truly decentralized future by providing Web2 User Experiences on Web3.",
+    "q2": "When will mainnet be released?",
+    "a2": "Main net was released on November the 5th, 2022 and fully decentralized December 5th, 2022.",
+    "q3": "How will mainnet tokens be distributed?",
+    "a3": "The initial token balances on main net were determined entirely by the token balances of the KOIN ERC20 (i.e. the KOIN tokens on Ethereum that were distributed through proof of work mining). That ERC20 was implemented using OpenZeppelin’s tooling including their snapshot mechanism. This mechanism within the smart contract allows for the creation of a decentralized record of all token balances and total supply at the time of use (i.e. a “snapshot”). No date has been announced for the snapshot that will be used for mainnet.",
+    "q4": "How is Koinos feeless?",
+    "a4": "Koinos features a new concept called “mana” that is the most innovative solution to the halting problem since the invention of Ethereum’s “gas.” It is a property of the KOIN token that gets “consumed” as a user performs feeless transactions, but that also regenerates over time. This means that even if all of a user’s mana gets consumed, all they have to do is wait if they want to perform more feeless transactions without having to purchase additional KOIN. Once any mana in a token is consumed, that token becomes locked (non-transferrable) for the duration of the regen period. The regen period is based on how long it takes for one satoshi of mana to regenerate, with regeneration happening on all of a user's tokens at the same time. Since this mechanism is distributive, the regen time appears dynamic to the user. In other words, a user's mana will constantly be regenerating so they will not have to wait the full 5 days to resume their blockchain usage.",
+    "q5": "How decentralized is Koinos?",
+    "a5": "Koinos is highly decentralized as a result of its novel proof-of-burn consensus algorithm. the KOIN token is intended to deliver on Satoshi’s original vision of a truly peer-to-peer electronic cash that utilizes spare computational resources and does not require dedicated hardware. In other words, it is provably egalitarian. Iain Stewart proposed proof-of-burn in 2012, a year after proof-of-stake was proposed, and we believe this represents the next stage of evolution in consensus algorithms. Proof-of-burn enables Koinos to accomplish provable egalitarianism by delivering the economics of proof-of-work with even higher efficiency than proof-of-stake.",
+    "q6": "What is the TPS (transactions per second)?",
+    "a6": "Koinos main net is capable of supporting an average TPS of 150 and a peak TPS of 450 but it is important to bear in mind that Koinos is not optimized for throughput, it is optimized for upgradeability which means that it can rapidly adopt the most advanced and secure scaling solutions (e.g. sharding, parachains, etc.) as soon as they are available. Koinos Group, the inventors of Koinos have already identified new WASM VMs that could improve performance by 10x.",
+    "q7": "Was there an ICO?",
+    "a7": "No. The KOIN token launch was modeled off Bitcoin to maximize accessibility and made innovative use of the Ethereum blockchain to further maximize accessibility. Instead of having to access an entirely new blockchain, people could use an incredibly easy-to-use, free, and open mining program to submit CPU-optimized proofs of work to an Ethereum smart contract which would in turn distribute KOIN tokens based on the size of the proofs.The purpose of this Ethereum-based token is to pre-seed the Koinos ecosystem with a base level of decentralization. This means that the only way to acquire KOIN was through PoW mining or open market purchases so there was no pre-mine, ICO, IEO, or any other IxO (lol).",
+    "q8": "What are the features of mainnet?",
+    "a8": "1. Feeless Mana system <br> 2. Proof-of-Burn consensus algorithm <br> 3. Universal Language Support <br> 4. Infinite Upgradeability",
+    "q9": "Is Koinos “Ethereum-compatible”?",
+    "a9": "Maximum accessibility is the ultimate compatibility. Koinos is designed so that developers can use the programming languages they already know and love to build their applications, not learn new languages like Solidity. Any developer who can write a smart contract in Solidity can easily rewrite that smart contract in C++ or TypeScript, which are the first two languages Koinos will support.",
+    "q10": "How is the team funded?",
+    "a10": "Koinos Group is being modeled off traditional tech growth companies that sacrifice profits in the early years to build a user base and leverage unique knowledge of an ecosystem to find product-market fit for a high-margin software product. Koinos Group was founded by the core development team behind the Steem blockchain to accelerate the transition to a more decentralized future by focusing on accessibility. This team worked together for 4+ years at Steemit on the Steem blockchain, at the time the most accessible blockchain by orders of magnitude, and we have now been working together for nearly 2 years on Koinos. Every member of Koinos Group has been working solely for equity in the company, which means they believe in the product and the business plan, and have a vested interest in seeing both the platform and the company succeed. Koinos Group had to acquire its KOIN like everyone else through either PoW mining or open market purchases, making it impossible to confuse holding KOIN as any kind of investment in Koinos Group. This aligns its incentives with the incentives of the Koinos community.",
+    "q11": "How will Koinos scale?",
+    "a11": "The ultimate scaling solution is the ability to rapidly integrate the most efficient, secure, and well-maintained scaling solutions as they emerge. In other words, upgradeability is the ultimate scaling solution which is why Koinos is designed to be the most upgradeable blockchain in the world. Whether the best solutions leverage inter-chain communication, sharding, or something else entirely, Koinos will be ready to take advantage of any or all of these.",
+    "q12": "How Composable is Koinos?",
+    "a12": "Koinos has the highest degree of composability possible because it is the only blockchain framework to move all of the system logic into smart contracts. When we’re talking about composability in the blockchain context, what we are talking about is the ability for decentralized application developers to repurpose code that is already running on the blockchain within their applications (i.e. to “compose” their applications). Most blockchains that claim “high composability” are just saying that they don’t have sharding, which is an attempt to rebrand a limitation as a value-add. Koinos is optimized for flexibility which means that it could shard, or not shard, based on the smart contracts that are running on it. Because all of the system logic is contained in smart contract modules, application developers will be able to not just repurpose the smart contracts written by other dApp developers, they’ll be able to repurpose the code written by the most experienced blockchain engineers in the world; the engineers building Koinos-based blockchains. But wait there’s more! Because these smart contracts will be written in an ever growing number of the most used programming languages in the world, developers won’t just be able to find the perfect smart contract for their needs, they will be able to find smart contracts written in their preferred programming language! This takes the composability of Koinos, already far greater than any other protocol, to an entirely new level! Follow us on Twitter for updates and the latest AMA location."
+  },
+  "JoinTheCommunity": {
+    "sectionId": "Community",
+    "title": "Join the Community",
+    "description": "If you have any questions, join our community and ask! You will find that the Koinos community is both friendly and helpful, don't be shy. We look forward to meeting you!",
+    "buttons": {
+      "telegram": "Join Telegram",
+      "discord": "Join Discord"
+    }
+  },
+  "Programs": {
+    "common": {
+      "learnMore": "Learn more",
+      "getStarted": "Get Started Now",
+      "sectionId": "Featured Program"
+    },
+    "earnOnKoinos": {
+      "featured": {
+        "title": "Earn on Koinos",
+        "subtitle": "Earn up to 16% APY on Koinos!",
+        "shortDescription": "Chainge Finance and Koinos Group have partnered to offer up to 16.24% yield for simply bridging and holding BTC, ETH, or USDT on Koinos through the Chainge app.",
+        "description": "Chainge makes Koinos interoperable with over 2000 blockchains and their novel DEX aggregation technology delivers some of the lowest cost swaps in all of crypto. High yields and low fees are a powerful flywheel and the Earn on Koinos program kicks it into high gear!",
+        "keyPoints": {
+          "first": "Earn up to 16% on bridged assets",
+          "second": "Earn APY on USDT, ETH, and BTC",
+          "third": "Earn KOIN with your USDT, ETH, and BTC"
+        },
+        "details": {
+          "first": "USDT: 8.12% APY, Matching Total: 16.24% with $KOIN rewards",
+          "second": "ETH: 5.2% APY, Matching Total: 10.4% with $KOIN rewards",
+          "third": "BTC: 4.1% APY, Matching Total: 8.2% with $KOIN rewards"
+        }
+      },
+      "pageTitle": "Earn on Koinos | Koinos",
+      "title": "Earn on Koinos",
+      "getStarted": "Let's Get Started!",
+      "step1": {
+        "title": "Step 1: Setup your Koinos wallet",
+        "steps": {
+          "install": "Go to the Chrome Webstore and install Kondor",
+          "setup": "Follow the setup steps to create your Koinos wallet.",
+          "store": "Safely store your seed phrase!"
+        }
+      },
+      "step2": {
+        "title": "Step 2: Bridging USDT, ETH, or BTC to Koinos",
+        "steps": {
+          "access": "Access the Chainge Bridge and choose the asset you'd like to bridge.",
+          "connect": "Connect your source chain wallet.",
+          "enter": "Enter the amount of USDT, ETH, or BTC to bridge and input your Koinos address.",
+          "bridge": "Click on \"Bridge now\" to start the process."
+        }
+      },
+      "step3": {
+        "title": "Step 3: Claim your APY Daily",
+        "description": "If you are providing liquidity for KoinDX on the KOIN-USDT, KOIN-ETH, KOIN-BTC pools, your APY will be distributed to you automatically and you can safely skip this step. For all other participants, follow the steps below to claim your APY daily.",
+        "steps": {
+          "access": "Access the Chainge Bridge.",
+          "connect": "Connect your Koinos wallet.",
+          "claim": "Claim the available APY on your assets."
+        }
+      }
+    },
+    "koindxFarm": {
+      "pageTitle": "KoinDX Farm | Koinos",
+      "featured": {
+        "title": "KoinDX Farm",
+        "subtitle": "Earn KOINDX by Providing Liquidity",
+        "shortDescription": "Don't miss out on the launch of KoinDX's native token, KOINDX! By providing liquidity on qualifying pools you can earn KoinDX's revenue sharing token, KOINDX.",
+        "description": "KoinDX is launching their native token, KOINDX. The native DEX token allows users to share in the revenue from swap fees as wall as participate in KOINDX governance. To participate in the airdrop, users can simply provide liquidity to qualifying pools on KoinDX.",
+        "keyPoints": {
+          "first": "Earn KOINDX token by providing liquidity",
+          "second": "Earn KOINDX token by swapping assets on the DEX",
+          "third": "Share in revenue from swap fees and participate in governance"
+        },
+        "details": {
+          "first": "Liquidity Provision: Earn KOINDX by providing liquidity to KOIN-ETH, KOIN-BTC, KOIN-USDT, or KOIN-VHP pools",
+          "second": "Trading Activity: By perform trades on KoinDX, users are qualified to receive KOINDX airdrops"
+        }
+      },
+      "relatedMessage": "By providing liquidity with your bridged assets from Earn on Koinos, you can earn both APY on USDT, ETH, and BTC as well as KOIN while earning KOINDX simultaneously!"
+    },
+    "lordsForsakenQuest": {
+      "featured": {
+        "title": "Lord's Forsaken Quest",
+        "subtitle": "Earn rewards for playing!",
+        "shortDescription": "Koinos' premiere Web3 Play-to-Earn card game launch quest. Have fun playing while earning valuable rewards!",
+        "description": "Lord's Forsaken is about to launch on Koinos and to celebrate this event we are offering lucrative rewards for participating. A few simple steps could net you some valuable KOIN and FAITH!",
+        "keyPoints": {
+          "first": "Earn your share of 1500 KOIN for having fun!",
+          "second": "Get your hands on your share of 18000 FAITH",
+          "third": "Play-to-Earn on Lord's Forsaken to earn even more FAITH"
+        },
+        "details": {
+          "first": "Free-to-Play: Thanks to feeless transactions on Koinos you can play Lord's Forsaken and earn FAITH with no cost to you",
+          "second": "Play-to-Earn: Earn the in-game currency, FAITH, giving you access to upgraded card decks",
+          "third": ""
+        }
+      },
+      "pageTitle": "Lord's Forsaken Quest | Koinos",
+      "getStarted": "Let's Get Started!",
+      "questTitle": "Lord's Forsaken Launch Quest",
+      "description": "Earn yourself a piece of the 1500 KOIN and 18000 FAITH prize pool by playing.",
+      "steps": {
+        "followLords": "Follow LordsForsak3n on X",
+        "followKoinos": "Follow KoinosNetwork on X",
+        "joinLordsTg": "Join Lord's Forsaken on Telegram",
+        "joinKoinosTg": "Join Koinos Telegram",
+        "playGame": "Play Lord's Forsaken",
+        "postVictory": "Post on X with a screenshot of your victory -- be sure to include \"Earn $FAITH by playing @lordsforsak3n on @KoinosNetwork \" in the text",
+        "joinTaskon": "Join Koinos on TaskOn"
+      },
+      "joinQuest": "Join the Quest"
+    },
+    "taskonLaunch": {
+      "featured": {
+        "title": "TaskOn Launch",
+        "subtitle": "Earn rewards for participating!",
+        "shortDescription": "Don't miss out on the launch of the Koinos TaskOn Community. A few simple steps that help drive engagement to Koinos makes you eligible for lucrative rewards!",
+        "description": "Every month users can participate in the Koinos ecosystem to earn rewards in USDT, KOIN, and various project tokens.",
+        "keyPoints": {
+          "first": "Earn your share of $1,250 USDT for joining",
+          "second": "Check back daily for additional quests and rewards",
+          "third": "Refer your friends for a prestigious Discord role"
+        },
+        "details": {
+          "first": "TaskOn Community Launch: Participate in the welcome campaign and earn your share of the $1,250 USDT prize pool",
+          "second": "Monthly Quests: Return to the TaskOn Community page for monthly quests and opportunities to continue earning",
+          "third": "Join the TaskOn Community: Visit our TaskOn Community and stay up-to-date with the latest incentives",
+          "fourth": "Referral Rewards: Refer two friends to the quest and earn a prestigious Discord role, learn more"
+        }
+      },
+      "pageTitle": "TaskOn Community Launch | Koinos",
+      "getStarted": "Let's Get Started!",
+      "questTitle": "TaskOn Community Launch Quest",
+      "description": "Earn yourself a piece of the $1,250 USDT prize pool by taking three easy steps.",
+      "steps": {
+        "followKoinos": "Follow KoinosNetwork on X",
+        "joinTelegram": "Join our Telegram",
+        "joinTaskon": "Join our TaskOn Community"
+      },
+      "joinQuest": "Join the Quest",
+      "relatedMessage": "You can take advantage of yet another TaskOn quest to be eligible for your share of the 1500 KOIN and 18000 FAITH prize pool!"
+    }
+  },
+  "Media": {
+    "pageTitle": "Media Kit | Koinos",
+    "mainTitle": "Koinos Media Kit",
+    "welcome": {
+      "title": "Welcome to the Koinos Media Kit Page",
+      "description": "Official visual assets to help promote Koinos in marketing communications, including logos, logo marks, and logotypes."
+    },
+    "navigation": {
+      "logotype": "Logotype",
+      "clearspace": "Clearspace",
+      "colors": "Colors",
+      "assets": "Assets",
+      "pressInquiries": "Press Inquiries"
+    },
+    "logo": {
+      "title": "Koinos Logo",
+      "description": "The Koinos logo is designed with modern and clean lines, reflecting the innovative and forward-thinking nature of the platform. Please use the provided versions without alterations."
+    },
+    "clearspace": {
+      "title": "Clearspace",
+      "description": "Ensure there is sufficient space around the Koinos logomark to prevent clutter. Below are the minimum spacings for both logomark and wordmark."
+    },
+    "colors": {
+      "title": "Colors",
+      "koinosPurple": "Koinos Purple",
+      "accentPurple": "Accent Purple",
+      "koinosBlack": "Koinos Black",
+      "white": "White"
+    },
+    "assets": {
+      "title": "Assets",
+      "downloadAll": "All Assets",
+      "zipSize": "(ZIP, 2 MB)",
+      "description": "Download the Koinos logotype and mark in various formats and colors. Please use the provided versions without alterations.",
+      "downloadVariations": "Download variations",
+      "sections": {
+        "logo": {
+          "title": "Koinos Logo"
+        },
+        "logotype": {
+          "title": "Koinos Logotype"
+        },
+        "mark": {
+          "title": "Koinos Mark"
+        },
+        "icon": {
+          "title": "Koinos Icon"
+        },
+        "iconSquare": {
+          "title": "Koinos Icon Square"
+        }
+      }
+    },
+    "pressInquiries": {
+      "title": "Press Inquiries",
+      "description": "Please direct press inquiries to press@koinos.io"
+    }
+  }
+}
