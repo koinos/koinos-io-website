@@ -5,14 +5,6 @@ export default function Team() {
   const t = useTranslations();
   const team = [
     {
-      name: "Michael Vandeberg",
-      role: "CTO of Koinos Group and Koinos Architect",
-      photo: "/images/sections/team/michael.png",
-      twitter: "https://twitter.com/koinosvandeberg",
-      github: "https://github.com/mvandeberg",
-      linkedin: "https://www.linkedin.com/in/michaelvandeberg/",
-    },
-    {
       name: "Steve Gerbino",
       role: "CEO of Koinos Group and Koinos Architect",
       photo: "/images/sections/team/steve.png",
@@ -21,11 +13,19 @@ export default function Team() {
       github: "https://github.com/sgerbino",
     },
     {
-      name: "Andrew Levine",
-      role: "CCO of Koinos Group",
-      photo: "/images/sections/team/andrew.png",
-      linkedin: "https://www.linkedin.com/in/andrew-levine-koinos/",
-      twitter: "https://twitter.com/andrarchy",
+      name: "Michael Vandeberg",
+      role: "CTO of Koinos Group and Koinos Architect",
+      photo: "/images/sections/team/michael.png",
+      twitter: "https://twitter.com/koinosvandeberg",
+      github: "https://github.com/mvandeberg",
+      linkedin: "https://www.linkedin.com/in/michaelvandeberg/",
+    },
+    {
+      name: "Jon Rice",
+      role: "Media & Comms",
+      photo: "/images/sections/team/jon.jpg",
+      linkedin: "https://www.linkedin.com/in/jonricecrypto/",
+      twitter: "https://twitter.com/jonricecrypto",
     },
     {
       name: "Ron Hamenahem",
@@ -34,15 +34,9 @@ export default function Team() {
       github: "https://github.com/brklyn8900",
     },
     {
-      name: "Nathaniel Caldwell",
-      role: "Creator of Koinos CLI",
-      photo: "/images/sections/team/nathaniel.png",
-      github: "https://github.com/youkaicountry",
-    },
-    {
       name: "Justin W.",
       role: "Developer",
-      photo: "/images/sections/team/justin.jpg",
+      photo: "/images/sections/team/justin.png",
       linkedin: "https://www.linkedin.com/in/justin-welch-5520a9112/",
       twitter: "https://twitter.com/ogjustinw",
       github: "https:/github.com/jredbeard",
