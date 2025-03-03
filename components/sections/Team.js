@@ -93,9 +93,8 @@ export default function Team() {
       name: "Frank Weijers",
       role: "Developer",
       photo: "/images/sections/team/frank.jpg",
-      linkedin: "https://www.linkedin.com/in/weijersf",
-      github: "https://github.com/frank-weijers",
-      twitter: "https://twitter.com/ElImbatido1",
+      github: "https://github.com/frenkzcom",
+      twitter: "https://twitter.com/frenkzcom",
     },
     {
       name: "@mixibo",
