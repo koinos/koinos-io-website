@@ -1,0 +1,855 @@
+{
+    "Menu": {
+      "learn": "Impara",
+      "whitepaper": "Whitepaper",
+      "features": "Funzionalità",
+      "faqs": "Domande frequenti",
+      "documentation": "Documentazione",
+      "ecosystem": "Ecosistema",
+      "roadmap": "Roadmap",
+      "team": "Team"
+    },
+    "Hero": {
+      "title1": "Web3 per Tutti",
+      "title2": "Senza commissioni, Senza attrito, Familiare",
+      "subtitle": "Koinos è progettato per offrire un'esperienza utente adatta alle persone di tutti i giorni.",
+      "buttons": {
+        "telegram": "Unisciti a Telegram",
+        "build": "Crea su Koinos"
+      }
+    },
+    "FeatureEcosystem": {
+      "sectionId": "Punti di forza dell'ecosistema",
+      "title": "Un Ecosistema in Continua Evoluzione",
+      "description": "Con nuove e innovative dApp che emergono ogni settimana, Koinos facilita un futuro luminoso per il Web3. Visita la pagina <ecosystemLink>ecosistema</ecosystemLink> per scoprire altri grandi progetti.",
+      "ecosystemLink": "ecosistema",
+      "benefits": {
+        "item1": "Integra nuovi utenti con account gratuiti e permetti loro di interagire con la tua dApp senza criptovalute",
+        "item2": "Sfrutta la community per dare impulso alle tue idee e trasformarle in realtà"
+      },
+      "projects": {
+        "kollection": {
+          "title": "Kollection",
+          "description": "<kollectionLink>Kollection</kollectionLink> è un marketplace NFT completo che consente ai creatori di lanciare e vendere i propri prodotti."
+        },
+        "koindx": {
+          "title": "KoinDX",
+          "description": "<koindxLink>KoinDX</koindxLink> è il primo exchange decentralizzato al mondo costruito sulla blockchain di Koinos."
+        },
+        "koiner": {
+          "title": "Koiner",
+          "description": "<koinerLink>Koiner</koinerLink> è l'esploratore di blocchi preferito dalla community di Koinos, offrendo agli utenti statistiche e approfondimenti sulla chain."
+        },
+        "koincity": {
+          "title": "KoinCity",
+          "description": "<koincityLink>KoinCity</koincityLink> è una piattaforma di lancio di token con funzionalità come staking e interazioni sociali."
+        }
+      }
+    },
+    "FeatureCommunity": {
+      "sectionId": "Comunità",
+      "title": "Costruire il Futuro del Web3",
+      "description": "Koinos è un progetto decentralizzato governato dalla comunità. Nuovi ed entusiasmanti progetti comunitari emergono regolarmente, riflettendo la diversità di pensiero e la creatività della comunità Koinos.",
+      "builtFor": {
+        "developers": "Creato per gli Sviluppatori",
+        "entrepreneurs": "Creato per gli Imprenditori",
+        "users": "Creato per gli Utenti"
+      },
+      "telegramText": "Plasma il futuro del protocollo unendoti a noi su",
+      "discordText": "Collabora con ingegneri Web3 e validatori su",
+      "twitterText": "Rimani aggiornato sugli ultimi sviluppi seguendoci su",
+      "moreText": "Visita la pagina della comunità per scoprire i gruppi internazionali e di dApp di Koinos"
+    },
+    "TokenAllocation": {
+      "sectionId": "Allocazione dei Token",
+      "title": "Lancio Equo",
+      "description": "L'offerta iniziale di Koinos è stata creata attraverso un processo di mining Proof-of-Work di un anno sulla blockchain di Ethereum. Le monete rimangono reclamabili sulla mainnet di Koinos per tutti i partecipanti.",
+      "features": {
+        "fairLaunch": "Lancio Equo",
+        "noLocked": "Nessuna Moneta Bloccata",
+        "publicAllocation": "100% Allocato Pubblicamente"
+      }
+    },
+    "WhereToGetKOIN": {
+      "title": "Dove ottenere KOIN",
+      "subtitle": "Trova Koinos sugli Exchange di tutto il mondo"
+    },
+    "MediumBlog": {
+      "sectionId": "Blog",
+      "title": "Notizie & Aggiornamenti",
+      "subtitle": "Rimani aggiornato con le ultime novità sul nostro Blog Medium",
+      "loading": "Caricamento in corso...",
+      "publishedOn": "Pubblicato il"
+    },
+    "KoinosAdvantage": {
+      "title": "Il Vantaggio di Koinos",
+      "subtitle": "Koinos è Progettato per Offrire un'Esperienza Web2 su Web3",
+      "items": {
+        "feeless": {
+          "title": "Smart Contract senza Commissioni",
+          "description": "Proprio come Internet! Il sistema Mana di Koinos permette di usare la blockchain senza spendere, o persino detenere, ALCUN token. Il Mana si ricarica nel tempo e può essere condiviso con altri. Koinos abbassa la barriera con smart contract senza commissioni!"
+        },
+        "web2": {
+          "title": "Un'Esperienza Web2 su Web3",
+          "description": "Il nostro innovativo sistema Mana si ricarica come una batteria, consentendo alle applicazioni di gestire transazioni senza commissioni per te, con l'unico costo di attendere la \"ricarica della batteria\". Questo approccio unico offre un'esperienza utente veramente senza attriti."
+        },
+        "upgradeable": {
+          "title": "Blockchain Aggiornabile ed Evolutiva",
+          "description": "L'intera blockchain è altamente modulare ed è la prima chain con consenso e governance costruiti da smart contract. Qualsiasi cosa, incluse le funzionalità di base della blockchain, può essere aggiornata con facilità. Niente più ritardi in stile \"Eth 2.0\"."
+        },
+        "fast": {
+          "title": "Rapida come un Lampo",
+          "description": "Con un tempo di creazione dei blocchi di 3 secondi, Koinos offre un'esperienza quasi in tempo reale sia per le applicazioni che per te, l'utente. Questo garantisce la reattività fondamentale per offrire un'esperienza Web2 su Web3."
+        },
+        "microservices": {
+          "title": "Architettura a Microservizi",
+          "description": "Koinos è una delle pochissime blockchain a sfruttare un'architettura a microservizi. Come sviluppatore puoi creare microservizi personalizzati in tutti i principali linguaggi. Niente più codebase monolitiche."
+        },
+        "universal": {
+          "title": "Supporto Universale per i Linguaggi",
+          "description": "Un numero crescente di linguaggi per smart contract viene supportato grazie all'implementazione KVM (Koinos Virtual Machine) di WebAssembly (WASM) e dei protocol buffer (Protobuf) di Google. Oggi puoi iniziare con i popolari linguaggi TypeScript e C++."
+        }
+      }
+    },
+    "ChainStatistics": {
+      "title": "Statistiche della Blockchain",
+      "subtitle": "Una Rete Decentralizzata Potente per un Ecosistema in Crescita",
+      "accounts": {
+        "title": "Account",
+        "description": "Numero totale di account attivati"
+      },
+      "blocks": {
+        "title": "Blocchi",
+        "description": "Numero totale di blocchi prodotti"
+      },
+      "transactions": {
+        "title": "Transazioni",
+        "description": "Numero totale di transazioni effettuate"
+      }
+    },
+    "Wallets": {
+      "title": "Wallet",
+      "subtitle": "I Wallet di Koinos Portano la Tecnologia d'Avanguardia a Tutti",
+      "kondor": {
+        "description": "Wallet Koinos completo per Google Chrome"
+      },
+      "konio": {
+        "description": "Wallet nativo per dispositivi mobili Android/iOS"
+      }
+    },
+    "Roadmap": {
+      "title": "Roadmap",
+      "subtitle": "Uno Sguardo al Percorso Futuro",
+      "beyond": "Oltre",
+      "previous": {
+        "2020": {
+          "title": "2020",
+          "items": {
+            "announcement": {
+              "text": "Annuncio di Koinos",
+              "icon": "fa-solid fa-bullhorn",
+              "description": "Prima del lancio del processo di mining ERC-20 che ha creato l'offerta iniziale di KOIN, Koinos è stato annunciato pubblicamente un mese prima su diverse piattaforme popolari tra cui bitcointalk.org, Medium, X e SteemIt."
+            },
+            "pow": {
+              "text": "Distribuzione Iniziale dell'Offerta tramite Proof-of-Work",
+              "icon": "fa-solid fa-parachute-box",
+              "description": "Per avviare il nostro ecosistema e il nostro esclusivo algoritmo di consenso, l'offerta iniziale di KOIN è stata minata pubblicamente sulla blockchain di Ethereum."
+            }
+          },
+          "status": "done"
+        },
+        "2021": {
+          "title": "2021",
+          "items": {
+            "testnet": {
+              "text": "Testnet",
+              "icon": "fa-solid fa-landmark",
+              "description": "È stata lanciata una rete di test semplificata per verificare l'architettura del Koinos Blockchain Framework e migliorare la stabilità del sistema durante lo sviluppo."
+            },
+            "cli": {
+              "text": "Koinos Command Line Interface (CLI)",
+              "icon": "fa-solid fa-code",
+              "description": "È stato sviluppato un avanzato wallet a riga di comando per facilitare le interazioni con la blockchain prima dello sviluppo di strumenti per gli utenti finali."
+            },
+            "pob": {
+              "text": "Sviluppo del Proof-of-Burn",
+              "icon": "fa-solid fa-fire",
+              "description": "È iniziata l'implementazione del Proof-of-Burn, successivamente distribuita sulla nostra rete di test senza la necessità di hard fork. Questo è stato un importante traguardo e una prova di concetto."
+            },
+            "protobuf": {
+              "text": "Integrazione di Protobuf",
+              "icon": "fa-solid fa-code",
+              "description": "L'utilizzo di strumenti standard di settore è importante per l'adozione da parte degli sviluppatori. I protocol buffer sono stati scelti per il loro supporto in un'ampia varietà di linguaggi e il loro predominio sul mercato."
+            }
+          },
+          "status": "done"
+        },
+        "2022": {
+          "title": "2022",
+          "items": {
+            "governance": {
+              "text": "Sviluppo della Governance Decentralizzata",
+              "icon": "fa-solid fa-scale-balanced",
+              "description": "Crediamo nei benefici della decentralizzazione e al contempo comprendiamo che la blockchain deve evolvere con l'ecosistema. È stata sviluppata una soluzione di governance decentralizzata per facilitare gli aggiornamenti al protocollo senza un'autorità centralizzata."
+            },
+            "mana": {
+              "text": "Sviluppo del Sistema Mana",
+              "icon": "fa-solid fa-wand-magic-sparkles",
+              "description": "Per offrire un'esperienza utente adatta a tutti, dovevamo eliminare le commissioni sulle transazioni. Il rivoluzionario sistema Mana gestisce le risorse della blockchain in modo unico."
+            },
+            "mainnet": {
+              "text": "Lancio della Mainnet (5 Novembre)",
+              "icon": "fa-solid fa-landmark",
+              "description": "Dopo che tutte le funzionalità necessarie sono state sviluppate e testate, la rete principale di Koinos è stata lanciata in diretta su YouTube il 5 novembre."
+            }
+          },
+          "status": "done"
+        },
+        "2023": {
+          "title": "2023",
+          "items": {
+            "microservices": {
+              "text": "Miglioramenti ai Microservizi",
+              "icon": "fa-solid fa-box",
+              "description": "Durante il primo anno della rete principale di Koinos, si è lavorato su ogni microservizio per migliorare stabilità e prestazioni."
+            },
+            "upgrade": {
+              "text": "Primo Aggiornamento In-band",
+              "icon": "fa-solid fa-circle-up",
+              "description": "I bug capitano. È stata individuata una regressione in uno dei token core, VHP. Fortunatamente il bug non è stato sfruttato e abbiamo avuto l'opportunità di utilizzare il nostro sistema di aggiornamento e governance in-band per correggere il problema senza fermare la chain."
+            }
+          },
+          "status": "done"
+        },
+        "2024": {
+          "title": "2024",
+          "items": {
+            "rest": {
+              "text": "REST API",
+              "icon": "fa-solid fa-server",
+              "description": "Il microservizio REST API di terze parti è stato adottato nel pacchetto core dei microservizi con modifiche minori. Ha offerto un'esperienza per gli sviluppatori notevolmente migliore rispetto al nostro attuale microservizio JSON-RPC."
+            },
+            "kcs4": {
+              "text": "Aggiornamento KOIN & VHP KCS-4",
+              "icon": "fa-solid fa-circle-up",
+              "description": "La nostra visione originale di smart wallet per tutti non si è concretizzata. La community richiedeva un livello base di sicurezza. Ciò ha portato allo sviluppo dello standard KCS-4 e all'aggiornamento dei token core."
+            },
+            "mempool": {
+              "text": "Mempool v1.5",
+              "icon": "fa-solid fa-box",
+              "description": "Gli sviluppatori devono incrementare i nonce nell'invio di transazioni successive. Questo è un onere non necessario. La mempool sarà migliorata per assistere gli sviluppatori e spostare tale onere sul cluster Koinos."
+            }
+          },
+          "status": "todo"
+        }
+      },
+      "current": {
+        "q1": {
+          "title": "Q1",
+          "items": {
+            "snapshots": {
+              "text": "Snapshots Pubblici",
+              "icon": "fa-solid fa-file",
+              "description": "In passato alcuni sviluppatori hanno caricato degli snapshot Koinos per uso generale, ma non abbiamo mai avuto un servizio dedicato. Creare snapshot ufficiali e condividerli apporterà benefici all'intera comunità."
+            },
+            "restApi": {
+              "text": "REST API v1.1",
+              "icon": "fa-solid fa-server",
+              "description": "La Koinos REST API è stata un'ottima aggiunta alla nostra infrastruttura. Servono miglioramenti affinché disponga della parità di funzionalità con il JSON-RPC e ulteriori features per soddisfare le esigenze degli sviluppatori."
+            }
+          },
+          "status": "todo"
+        },
+        "q2": {
+          "title": "Q2",
+          "items": {
+            "authority": {
+              "text": "Authority System v2",
+              "icon": "fa-solid fa-wallet",
+              "description": "L'idea di consentire ai contratti di definire la propria logica di autorizzazione è una funzionalità fantastica di Koinos, ma rimane poco sfruttata a causa della complessità. L'intero sistema verrà semplificato per renderlo più facile da usare per gli sviluppatori."
+            }
+          },
+          "status": "todo"
+        },
+        "q3": {
+          "title": "Q3",
+          "items": {
+            "libraries": {
+              "text": "Librerie Client",
+              "icon": "fa-solid fa-code",
+              "description": "Alcune delle librerie più richieste, dagli sviluppatori e dai partner, sono Python e Golang. Con la REST API aggiornata, vogliamo creare librerie client per questi linguaggi e molti altri, raggiungendo gli sviluppatori dove già si trovano."
+            },
+            "c_sdk": {
+              "text": "C SDK",
+              "icon": "fa-solid fa-code",
+              "description": "Attualmente Koinos ha due SDK per creare smart contract, C++ e AssemblyScript (AS). Creeremo un C SDK che fornirà agli sviluppatori un'opzione potente in più e getterà le basi per aggiungere ancora più linguaggi in futuro e per creare un SDK C++ ancora migliore."
+            }
+          },
+          "status": "todo"
+        },
+        "q4": {
+          "title": "Q4",
+          "items": {
+            "vscode": {
+              "text": "Estensione VSCode",
+              "icon": "fa-solid fa-code",
+              "description": "Uno strumento importante che manca a Koinos è un ambiente di sviluppo integrato (IDE) completo. Questa estensione fornirà un'esperienza di prima parte, semplificando lo sviluppo, il testing e il deployment di smart contract Koinos, rendendo ancora più facile costruire su Koinos."
+            }
+          },
+          "status": "todo"
+        }
+      },
+      "future": {
+        "items": {
+          "cpp_sdk": {
+            "text": "C++ SDK",
+            "icon": "fa-solid fa-code",
+            "description": "Dopo il C SDK, vogliamo ricreare un nuovo e migliorato SDK C++. Questo è il linguaggio più semplice per farlo, ma garantirà che abbiamo progettato il C SDK in modo sufficientemente buono da poter essere utilizzato come base per futuri SDK."
+          },
+          "rust_sdk": {
+            "text": "Rust SDK",
+            "icon": "fa-solid fa-code",
+            "description": "Rust supporta la chiamata di funzioni C ed è un linguaggio sempre più popolare, specialmente nell'ambito crypto. Aggiungendo il supporto per Rust, possiamo estendere la nostra portata a ancora più sviluppatori e dimostrare la flessibilità della Koinos VM."
+          },
+          "wasm": {
+            "text": "Ottimizzazioni WASM VM",
+            "icon": "fa-solid fa-code",
+            "description": "Analizzeremo lo stato attuale delle WASM VM e testeremo diverse VM per prestazioni e compatibilità con Koinos. Grazie a un miglioramento delle prestazioni, potremo aumentare i limiti delle risorse, riducendo così i costi in mana per tutte le transazioni."
+          },
+          "data_store": {
+            "text": "Microservizio Data Store",
+            "icon": "fa-solid fa-server",
+            "description": "Il microservizio data store sostituirà il block store, il transaction store e lo storico degli account. Gestire un nodo Koinos richiederà molto meno spazio su disco rispetto a ora."
+          },
+          "redundant": {
+            "text": "Microservizi Ridondanti",
+            "icon": "fa-solid fa-server",
+            "description": "Migliorare la scalabilità e la ridondanza dei microservizi all'interno del cluster Koinos. Aggiungendo il supporto allo scaling dei singoli microservizi, i nodi in ambienti enterprise diventeranno più performanti e ridondanti."
+          },
+          "optimistic": {
+            "text": "Esecuzione Ottimistica delle Transazioni",
+            "icon": "fa-solid fa-code",
+            "description": "Consentire l'esecuzione in parallelo di transazioni non correlate migliorerà drasticamente il throughput della blockchain Koinos. Il lavoro necessario per implementare questa ottimizzazione permetterà al framework di interagire con le transazioni in nuovi modi, creando i presupposti per miglioramenti futuri."
+          },
+          "sharding": {
+            "text": "Sharding Dinamico",
+            "icon": "fa-solid fa-code",
+            "description": "Lo sharding dinamico consente alla blockchain di dividersi in parti più piccole in base all'utilizzo. I produttori di blocchi diventano responsabili di un sottoinsieme dell'intera blockchain, garantendo nel contempo sufficiente sovrapposizione per assicurare coerenza e decentralizzazione."
+          }
+        }
+      }
+    },
+    "Footer": {
+      "help": {
+        "title": "Aiuto",
+        "faqs": "Domande frequenti",
+        "media": "Media",
+        "contact": "Contatti"
+      },
+      "social": {
+        "title": "Social",
+        "telegram": "Telegram",
+        "discord": "Discord",
+        "twitter": "X",
+        "youtube": "YouTube"
+      },
+      "other": {
+        "title": "Altro",
+        "claim": "Richiedi KOIN",
+        "story": "La Nostra Storia",
+        "blog": "Blog"
+      },
+      "copyright": "Tutti i diritti riservati"
+    },
+    "Team": {
+      "title": "Siamo un gruppo di sognatori e realizzatori, impegnati a ridefinire il futuro"
+    },
+    "Ecosystem": {
+      "pageTitle": "Ecosistema | Koinos",
+      "featured": "In Evidenza",
+      "koindxDescription": "KoinDX è una piattaforma di exchange decentralizzata che facilita lo scambio fluido ed efficiente di asset digitali all'interno dell'ecosistema Koinos, offrendo agli utenti un'esperienza intuitiva con un design moderno.",
+      "visitKoindx": "Visita KoinDX",
+      "title": "Un Ecosistema in Continua Evoluzione",
+      "description": "L'ecosistema di Koinos si sta rapidamente evolvendo in un ambiente dinamico e inclusivo per applicazioni decentralizzate e innovazione blockchain. Sfruttando la potenza di una blockchain senza commissioni e infinitamente aggiornabile, Koinos offre a sviluppatori e utenti flessibilità e accessibilità senza precedenti.",
+      "learnMore": "Scopri di più",
+      "dapps": {
+        "koindx": {
+          "title": "KoinDX",
+          "description": "KoinDX è un exchange decentralizzato progettato per facilitare swap di token senza interruzioni, offrendo un'esperienza di trading veloce e intuitiva.",
+          "featuredImage": "/images/pages/ecosystem/koindx-swap.png",
+          "url": "https://koindx.com/",
+          "visitProject": "Visita KoinDX"
+        },
+        "kap": {
+          "title": "KAP",
+          "description": "KAP fornisce un accesso facile alle dApp con un nome utente gratuito o premium, fungendo da base per applicazioni gratuite sulla blockchain di Koinos.",
+          "featuredImage": "/images/pages/ecosystem/kap.png",
+          "url": "https://kap.io/",
+          "visitProject": "Visita KAP"
+        },
+        "kollection": {
+          "title": "Kollection",
+          "description": "Kollection è un innovativo marketplace NFT dove gli utenti possono acquistare, vendere e creare asset digitali unici, favorendo una vivace comunità di creatori e collezionisti.",
+          "featuredImage": "/images/pages/ecosystem/kollection.png",
+          "url": "https://kollection.io/",
+          "visitProject": "Visita Kollection"
+        },
+        "kanvas": {
+          "title": "Kanvas",
+          "description": "Kanvas è un'applicazione versatile e dinamica che permette agli utenti di liberare la loro creatività e collaborare a vari progetti in tempo reale.",
+          "featuredImage": "/images/pages/ecosystem/kanvas.png",
+          "url": "https://kanvas.io/",
+          "visitProject": "Visita Kanvas"
+        },
+        "koiner": {
+          "title": "Koiner",
+          "description": "Koiner è un esploratore blockchain completo per la rete Koinos, che fornisce dati dettagliati e in tempo reale su transazioni, blocchi e altro.",
+          "featuredImage": "/images/pages/ecosystem/koiner.png",
+          "url": "https://koiner.io/",
+          "visitProject": "Visita Koiner"
+        },
+        "fogata": {
+          "title": "Fogata",
+          "description": "Fogata è un mining pool robusto, progettato specificamente per gli appassionati di Koinos, dove gli utenti possono avviare i propri pool o unirsi a quelli della community.",
+          "featuredImage": "/images/pages/ecosystem/fogata.png",
+          "url": "https://fogata.io/",
+          "visitProject": "Visita Fogata"
+        },
+        "koincity": {
+          "title": "Koincity",
+          "description": "Koincity è una piattaforma di lancio di token innovativa che supporta lo sviluppo e il lancio di nuovi progetti sulla blockchain di Koinos, aiutando i creatori a trasformare le loro idee in realtà.",
+          "featuredImage": "/images/pages/ecosystem/koincity.png",
+          "url": "https://koincity.io/",
+          "visitProject": "Visita Koincity"
+        },
+        "burnkoin": {
+          "title": "BurnKoin",
+          "description": "BurnKoin è un mining pool dedicato all'ottimizzazione delle ricompense per i suoi utenti, offrendo un ambiente affidabile ed efficiente per i minatori di Koinos.",
+          "featuredImage": "/images/pages/ecosystem/burnkoin.png",
+          "url": "https://burnkoin.io/",
+          "visitProject": "Visita BurnKoin"
+        },
+        "koinosblocks": {
+          "title": "Koinos Blocks",
+          "description": "Koinos Blocks è un esploratore di blocchi dettagliato per la blockchain di Koinos, che offre dati e analisi complete per gli utenti.",
+          "featuredImage": "/images/pages/ecosystem/koinosblocks.png",
+          "url": "https://koinosblocks.io/",
+          "visitProject": "Visita Koinos Blocks"
+        },
+        "koinosboxpolls": {
+          "title": "Koinosbox Polls",
+          "description": "Koinosbox Polls è un'applicazione decentralizzata che permette agli utenti di creare, partecipare e gestire sondaggi, rendendo il processo decisionale comunitario più trasparente e democratico.",
+          "featuredImage": "/images/pages/ecosystem/koinosboxpolls.png",
+          "url": "https://koinosbox.io/",
+          "visitProject": "Visita Koinosbox Polls"
+        },
+        "atomicswaps": {
+          "title": "Atomic Swaps",
+          "description": "Atomic Swaps è una piattaforma per scambi peer-to-peer di criptovalute, che consente agli utenti di scambiare asset digitali direttamente senza intermediari.",
+          "featuredImage": "/images/pages/ecosystem/atomicswaps.png",
+          "url": "https://atomic.swaps/",
+          "visitProject": "Visita Atomic Swaps"
+        },
+        "spacestriker": {
+          "title": "Space Striker",
+          "description": "Space Striker è un gioco a tema spaziale coinvolgente, che sfida i giocatori a navigare e conquistare il cosmo in un'emozionante avventura.",
+          "featuredImage": "/images/pages/ecosystem/spacestriker.png",
+          "url": "https://spacestriker.io/",
+          "visitProject": "Visita Space Striker"
+        },
+        "cryptobulls": {
+          "title": "Crypto Bulls",
+          "description": "Crypto Bulls è un gioco sparatutto in prima persona ricco di azione che combina combattimenti frenetici con un gameplay strategico, offrendo un'esperienza emozionante per i giocatori.",
+          "featuredImage": "/images/pages/ecosystem/cryptobulls.png",
+          "url": "https://cryptobulls.io/",
+          "visitProject": "Visita Crypto Bulls"
+        },
+        "serfdomandsorcery": {
+          "title": "Serfdom & Sorcery",
+          "description": "Serfdom & Sorcery è un gioco ambientato in un mondo fantastico, in cui i giocatori possono immergersi in una ricca narrativa e avventure magiche.",
+          "featuredImage": "/images/pages/ecosystem/serfdomandsorcery.png",
+          "url": "https://serfdomandsorcery.io/",
+          "visitProject": "Visita Serfdom & Sorcery"
+        },
+        "nicknames": {
+          "title": "Nicknames",
+          "description": "Nicknames è un servizio sulla blockchain di Koinos che consente agli utenti di registrare e risolvere nomi utente unici, facilitando l'identificazione e l'interazione con gli altri.",
+          "featuredImage": "/images/pages/ecosystem/nicknames.png",
+          "url": "https://nicknames.io/",
+          "visitProject": "Visita Nicknames"
+        },
+        "koincrew": {
+          "title": "Koin Crew",
+          "description": "Koin Crew offre una suite di utilità progettate per migliorare l'ecosistema Koinos, fornendo agli utenti una serie di strumenti e servizi per ottimizzare la loro esperienza blockchain.",
+          "featuredImage": "/images/pages/ecosystem/koincrew.png",
+          "url": "https://koincrew.io/",
+          "visitProject": "Visita Koin Crew"
+        },
+        "koinosgarden": {
+          "title": "Koinos Garden",
+          "description": "Koinos Garden è una DAO di investimento che riunisce una community di investitori per collaborare e finanziare progetti promettenti all'interno dell'ecosistema Koinos.",
+          "featuredImage": "/images/pages/ecosystem/koinosgarden.png",
+          "url": "https://koinosgarden.io/",
+          "visitProject": "Visita Koinos Garden"
+        },
+        "lordsforsaken": {
+          "title": "Lords Forsaken",
+          "description": "Lords Forsaken è un entusiasmante gioco di carte NFT che combina un gameplay strategico con carte digitali collezionabili, offrendo ai giocatori un'esperienza unica e coinvolgente.",
+          "featuredImage": "/images/pages/ecosystem/lordsforsaken.png",
+          "url": "https://lordsforsaken.io/",
+          "visitProject": "Visita Lords Forsaken"
+        }
+      }
+    },
+    "Whitepaper": {
+      "title": "Whitepaper",
+      "abstract": {
+        "title": "Abstract",
+        "p1": "Una rete decentralizzata basata su blockchain a uso generale, che consente applicazioni gratuite tramite un meccanismo \"Mana\" che prezza dinamicamente le risorse di rete in costo-opportunità (non in token) e consente dApp gratuite tramite la \"delegazione\" del Mana.",
+        "p2": "Il Proof-of-Burn è implementato come algoritmo di consenso per massimizzare l'efficienza, la decentralizzazione e l'egualitarismo dimostrabile, contrastando l'attacco degli exchange e mitigando lo spam. I blocchi vengono prodotti eseguendo l'hashing di una chiave privata e del numero casuale di una funzione casuale verificabile (VRF), quindi dividendo per la quantità di token bruciati. Come nel proof-of-work, la catena più lunga funge da registro immutabile delle transazioni, sostenuto dal più ampio pool di capitale sacrificato.",
+        "p3": "Il Koinos blockchain framework consente aggiornamenti senza fork grazie alla sua struttura modulare. Questo crea una blockchain veramente decentralizzata e gratuita, con un'esperienza utente mainstream, che massimizza l'accessibilità per utenti finali, sviluppatori e operatori di nodi."
+      },
+      "previousWork": {
+        "title": "Lavori Precedenti",
+        "p1": "Satoshi Nakamoto ha creato la prima valuta digitale decentralizzata peer-to-peer con Bitcoin, progettando un'architettura di database (la blockchain) che utilizzava commissioni per regolare l'uso della rete e proof-of-work per regolare le transizioni di stato. Ethereum ha mantenuto questi elementi base e il database blockchain, ma ha creato una maggiore utilità consentendo agli utenti di includere codice Turing-completo nelle loro transazioni, rendendo così possibili le applicazioni decentralizzate (dApp).",
+        "p2": "Prima di sviluppare Koinos, eravamo il team di sviluppo principale di Steem (la prima blockchain social e senza commissioni) fino a una scalata ostile e un attacco da parte di un exchange. Dopo aver lasciato quel progetto, il nostro obiettivo era costruire una società che avrebbe permesso agli sviluppatori di creare dApp come Steem e Hive, ma su una blockchain veramente decentralizzata e senza commissioni che resistesse agli attacchi degli exchange. Sfortunatamente, nessuna delle blockchain esistenti aveva le caratteristiche di cui avevamo bisogno. Le blockchain \"senza commissioni\" non erano davvero prive di commissioni, richiedevano agli utenti di pagare per la RAM e/o gli account, né erano veramente decentralizzate a causa del loro lancio (ICO) o del loro algoritmo di consenso, spesso entrambi.",
+        "p3": "Volevamo portare l'accessibilità della blockchain all'estremo, consentendo, per la prima volta, dApp completamente gratuite che avrebbero richiesto non solo transazioni prive di commissioni, ma anche account gratuiti, esecuzione gratuita degli smart contract e delegazione delle risorse di rete. Fornire queste capacità richiedeva la costruzione di una nuova blockchain da zero e l'esecuzione di un lancio decentralizzato e dimostrabilmente equo. Il risultato finale è una blockchain a uso generale che non è solo un altro competitor di Ethereum, ma la prima vera alternativa a Ethereum."
+      },
+      "koin": {
+        "title": "$KOIN",
+        "p1": "Prima di KOIN, la maggior parte delle criptovalute aveva progetti tokenomici relativamente semplici; erano il token utilizzato per pagare le commissioni necessarie a sostenere le operazioni della rete decentralizzata. Controintuitivamente, rimuovere le commissioni è ciò che consente la creazione di un sistema più dinamico, flessibile e performante, che supporta una valuta digitale che finalmente realizza la visione futuristica di una moneta digitale egalitaria e decentralizzata iniziata con Bitcoin.",
+        "supply": {
+          "title": "Offerta di Token & Distribuzione",
+          "p1": "Per massimizzare la decentralizzazione e l'equità dimostrabile sin dall'inizio, il token KOIN è stato lanciato come Bitcoin, attraverso il mining proof-of-work (su Ethereum). La fornitura massima minabile era di 100 milioni di KOIN. Quando la mainnet di Koinos è stata avviata, i saldi dei token sono stati inizializzati usando uno snapshot dell'ERC-20 KOIN e il tasso iniziale target di nuova creazione di token era del 2%, ma può essere modificato in-band dalla governance (vedi le sezioni Upgradeabilità senza Fork e Governance Decentralizzata). La componente di burn dell'algoritmo di consenso può portare a un tasso di inflazione reale molto più basso e persino a periodi temporanei di deflazione.",
+          "p2": "Grazie al nuovo sistema \"Mana\" (vedi la sezione Mana), i token della mainnet possono essere trasferiti senza pagare alcuna commissione, poiché il Mana contenuto in essi permette al titolare di utilizzare la rete senza spendere alcun KOIN. Il sistema Mana rende Koinos la prima blockchain veramente gratuita da usare, poiché gli utenti non devono acquistare account, pagare per eseguire smart contract o persino acquisire token KOIN per utilizzare la blockchain."
+        },
+        "inflationDeflation": {
+          "title": "Inflazionaria & Deflazionaria",
+          "p1": "Essendo la prima blockchain a uso generale ad implementare il proof-of-burn come algoritmo di consenso, l'offerta di KOIN si espanderà e contrarrà in base alle condizioni di mercato, fornendo i tipi di \"leve\" economiche presenti nelle valute globali più avanzate, ma amministrate in modo completamente decentralizzato e algoritmico (vedi la sezione sul proof-of-burn)."
+        },
+        "fastFree": {
+          "title": "Veloce & Gratuita",
+          "p1": "Poiché il proof-of-burn elimina la necessità di lavoro computazionale inutile, i blocchi di Koinos possono essere prodotti rapidamente, rendendo il token KOIN sia privo di commissioni che veloce. L'incredibile upgradeabilità di Koinos consente di ridurre continuamente i tempi di creazione dei blocchi, riducendo la latenza, limitata solo dalla stabilità della rete e dalla crescita dello stato. Con queste caratteristiche, il token KOIN può consentire alle persone di scambiare valore illimitato in pochi secondi senza perdere nulla in commissioni, aprendo la strada a modelli di business completamente nuovi – e attualmente inimmaginabili – per imprenditori e sviluppatori."
+        }
+      },
+      "forkless": {
+        "title": "Upgradeabilità senza Fork",
+        "p1": "Durante lo sviluppo di Steem, abbiamo visto in prima persona come i fork rappresentino un ostacolo per l'adozione della blockchain, creando un notevole collo di bottiglia nel processo di aggiornamento. La mainnet risolve questo problema attraverso l'uso del Koinos blockchain framework, che consente di aggiungere qualsiasi funzionalità alla blockchain come smart contract. Il presupposto fondamentale di questo framework è che qualsiasi smart contract possa essere aggiornato da una parte autorizzata. Nel caso della logica di sistema, il contratto di governance del sistema ha l'autorità di trasformare un \"user smart contract\" in un \"system smart contract\" in-band (senza hard fork) che sovrascrive un'implementazione di base nativa. In questo modo, gli aggiornamenti della logica di business della blockchain possono essere distribuiti alla rete p2p in modo simile a una patch di sistema operativo, con un impatto minimo sulla rete.",
+        "p2": "Il Koinos blockchain framework è in pratica la blockchain a uso generale, completamente funzionale, più semplice al mondo, contenuta all'interno di un'architettura a microservizi. La blockchain (cioè il microservizio chain) presenta system call implementate nativamente che contengono solo le funzioni crittografiche necessarie per costruire una vera blockchain, insieme alla logica per far passare un nodo tra le system call native e quelle implementate come smart contract (WASM) in esecuzione nella macchina virtuale. Questa combinazione di implementazioni native e \"system smart contract\" forma un \"kernel\" (il framework) ad alte prestazioni, verticalmente scalabile e aggiornabile, che consente di aggiungere qualsiasi funzionalità alla blockchain senza richiedere un hard fork."
+      },
+      "universalLanguage": {
+        "title": "Supporto Universale ai Linguaggi",
+        "p1": "Ethereum ha ampliato radicalmente lo spazio creativo a disposizione degli sviluppatori consentendo loro di utilizzare un unico linguaggio Turing-completo appositamente costruito: Solidity. Koinos amplia nuovamente quello spazio creativo permettendo agli sviluppatori di lavorare con tutti i linguaggi Turing-completi più utilizzati, a partire da C++ e TypeScript (usando AssemblyScript), ma con altri linguaggi in arrivo. Koinos raggiunge questo risultato grazie alla combinazione di tre tecnologie open source, costruite e mantenute dai migliori team al mondo, tutte con un supporto linguistico in costante espansione: (1) WebAssembly, (2) Protocol Buffers, e (3) l'Advanced Message Queuing Protocol.",
+        "p2": "WebAssembly è utilizzato per gli smart contract. Protobuf è utilizzato per la serializzazione all'interno del nodo, e AMQP gestisce le comunicazioni tra i microservizi, che utilizzano messaggi broadcast per implementare un paradigma event-driven. Queste tecnologie rendono molto più semplice implementare un SDK per qualsiasi linguaggio di programmazione supportato da tutte e tre, ovvero praticamente tutti i linguaggi Turing-completi più diffusi."
+      },
+      "mana": {
+        "title": "Mana",
+        "p1": "Il nostro obiettivo con Koinos è supportare applicazioni decentralizzate (\"Web3\") che offrano un'esperienza utente da Web2. In breve, le dApp devono offrire un'esperienza utente piacevole e le persone devono poter iniziare a usarle senza prima dover acquistare token, una grande barriera all'ingresso. Il sistema Mana è come lo raggiungiamo. Lo chiamiamo \"Mana\" perché l'esperienza utente replica quella dei giochi di ruolo (RPG) con cui molte persone hanno già familiarità.",
+        "p2": "Il concetto di base del sistema Mana è che ogni token KOIN \"nasce\" con 1 Mana che può essere consumato quando un utente consuma risorse di rete. Il Mana è una proprietà del token KOIN, non è un token a sé. Non può quindi essere comprato o venduto e non può avere un prezzo distinto dal token KOIN. Gli utenti possono, tuttavia, delegare il proprio Mana ad altri utenti, consentendo a chi non possiede token di iniziare a utilizzare la blockchain, continuando però a mitigare efficacemente lo spam. Quel Mana rimane legato ai KOIN del delegante, garantendo la sostenibilità economica del sistema e massimizzando la liquidità per il delegante, che può revocare la delega a volontà."
+      },
+      "implementation": {
+        "title": "Dettagli di Implementazione",
+        "p1": "Come il gas di Ethereum, ogni istruzione della VM avrà un costo specifico in Mana. Poiché solo un numero limitato di istruzioni può essere incluso in un blocco, il Mana è strettamente collegato alle risorse di rete disponibili per gli utenti. Mentre Ethereum richiede all'utente di acquistare gas dai minatori, che poi viene consumato dalla transazione, il sistema Mana consuma autonomamente la quantità appropriata di Mana dal saldo di un utente in base alle risorse consumate dalla sua transazione.",
+        "payingTime": {
+          "title": "\"Pagare\" in Tempo",
+          "p1": "Una volta consumato parte del Mana in un dato token, quel token è bloccato per 5 giorni, permettendo agli utenti di sviluppare un \"ritmo\" settimanale nell'uso della blockchain (e delle dApp). Ciò crea un costo-opportunità in luogo di un costo monetario immediato, disincentivando l'invio di transazioni prive di valore. Questo periodo di tempo fisso funziona come un \"tempo di rigenerazione\" che crea l'esperienza che il Mana \"si rigeneri nel tempo\". È un'esperienza quasi ludica.",
+          "p2": "Il tempo di rigenerazione si basa su quanto tempo serve per rigenerare un satoshi di Mana, con la rigenerazione che avviene su tutti i token di un utente contemporaneamente. Poiché questo meccanismo è distribuito, il tempo di rigenerazione appare dinamico all'utente. In altre parole, il Mana dell'utente si rigenererà costantemente, quindi non dovrà attendere tutti i 5 giorni per riprendere a usare la blockchain."
+        }
+      },
+      "freeToUse": {
+        "title": "Gratuito da Usare",
+        "p1": "Per risolvere il problema di consentire alle persone di utilizzare le dApp senza prima dover acquisire alcun token, Koinos consente agli sviluppatori di smart contract di specificare chi \"paga\" il Mana quando lo smart contract viene eseguito (\"Payer/Payee Semantics\"). Ogni transazione deve specificare esplicitamente l'indirizzo di un pagatore per la transazione e, facoltativamente, un beneficiario. Il Mana del pagatore viene speso e il nonce dell'account del beneficiario viene aggiornato. Se non viene impostato alcun beneficiario, il pagatore funge da entrambe le parti. La combinazione di queste funzionalità consente a uno smart contract di specificare un pagatore per i costi in Mana.",
+        "p2": "Queste semplici ma potenti semantiche non solo permetteranno alle persone di iniziare a usare la blockchain senza dover acquistare alcun KOIN, ma forniranno anche ai grandi detentori di KOIN uno strumento potente per supportare dApp di valore senza sacrificare i loro token."
+      },
+      "multiDimensionality": {
+        "title": "Multidimensionalità",
+        "p1": "Come <link>Vitalik Buterin</link> ha spiegato, i calcoli del gas di Ethereum sono monodimensionali, valutando risorse molto diverse (ad es. storage e calcolo) come fossero uguali, il che è inefficiente. Con il modello di risorse Mana, le risorse vengono tracciate separatamente per massimizzare l'efficienza, ma l'utente paga sempre in Mana. Le risorse vengono raggruppate ogni blocco, con un limite a quante di esse possono essere consumate per blocco, e un market maker XYK viene utilizzato per stabilire un prezzo per ciascuna risorsa in quel blocco.",
+        "p2": "Questa multidimensionalità permette agli sviluppatori di ottimizzare i loro contratti per sfruttare le risorse di rete sotto-utilizzate. Gli utenti finali preferiranno quelle dApp che effettuano tali ottimizzazioni, poiché così otterranno più \"valore per il loro Mana\", creando un circolo virtuoso di autoregolamentazione decentralizzata. Questo sistema aumenta gradualmente e continuamente il costo in Mana man mano che gli utenti consumano risorse più contese e lo riduce per le risorse sotto-utilizzate. Il risultato finale è un sistema semplice, efficiente e dinamico per determinare i costi delle risorse in base al comportamento degli utenti, garantendo il costo più basso possibile e proteggendo la rete. Il Mana addebitato è semplicemente la combinazione lineare di ogni risorsa e costo (ad es. `bandwidth_cost * bandwidth_used + storage_cost * storage_used + compute_cost * compute_used`)."
+      },
+      "proofOfBurn": {
+        "title": "Proof-of-Burn",
+        "p1": "Oltre a essere veloce e senza commissioni, il token KOIN è pensato per realizzare la <link1>visione originale di Satoshi di un vero contante elettronico peer-to-peer</link1> che utilizza risorse computazionali inutilizzate e non richiede hardware dedicato. In altre parole, è provabilmente egalitario. <link2>Iain Stewart propose il proof-of-burn nel 2012</link2>, un anno dopo la proposta del proof-of-stake, e riteniamo che questo rappresenti la prossima fase evolutiva degli algoritmi di consenso. Il Proof-of-burn ci consente di ottenere un egalitarismo dimostrabile offrendo l'economia del proof-of-work con un'efficienza ancora superiore rispetto al proof-of-stake. Il risultato finale è un sistema di consenso che dovrebbe essere più decentralizzato del proof-of-work e più efficiente del proof-of-stake."
+      },
+      "exchangeAttack": {
+        "title": "L'Attacco degli Exchange",
+        "p1": "Il Proof-of-burn come algoritmo di consenso è straordinariamente semplice e il suo valore unico è facile da capire. Come il proof-of-work, richiede che il costo dell'attacco alla rete sia pagato \"in anticipo\". Come il proof-of-stake, non è necessario acquistare né eseguire hardware dedicato, a parte l'hardware per produrre blocchi. Come il proof-of-work, l'attacco degli exchange è sventato perché il produttore di blocchi ha già perso i suoi soldi, e sta cercando solo di recuperarli mantenendo un registro corretto. Qualsiasi exchange che cerchi di sfruttare i fondi degli utenti per influenzare la governance a causa di avidità, coercizione o inganno (vedi l'<link>incidente Steem/Tron</link>) dovrebbe prima distruggere i fondi degli utenti, cosa che non farebbe mai. Ciò riduce anche la necessità di condizioni di slashing complicate richieste nelle implementazioni proof-of-stake, poiché i produttori di blocchi stanno di fatto \"auto-slashando\" il loro capitale prima di guadagnare i reward del blocco, come nel proof-of-work."
+      },
+      "virtualMining": {
+        "title": "Mining Virtuale",
+        "p1": "Un utente che desidera guadagnare block reward brucia i propri KOIN, riducendo l'offerta totale di KOIN. La blockchain distribuisce token fungibili di \"virtual hash power\" (VHP) al produttore di blocchi, che possono essere utilizzati per minare un blocco senza la necessità di eseguire hardware costoso. Man mano che il produttore di blocchi mina blocchi, il suo saldo VHP diminuisce nel tempo, richiedendo di bruciare altri token per continuare la produzione. In questo modo, bruciare i token equivale ad acquistare hardware da mining che si degrada nel tempo e l'elettricità necessaria per eseguire il proof-of-work."
+      },
+      "inflation": {
+        "title": "Inflazione",
+        "p1": "VHP è sempre trattato con un rapporto 1:1 con KOIN. Per ogni unità di KOIN bruciata, un account specificato riceve altrettante unità di VHP. Quando un account con VHP riceve unità di KOIN come ricompensa di blocco, il suo saldo VHP si riduce della stessa quantità. In questo modo, il VHP funge da proxy per KOIN e la somma dell'offerta totale di VHP e KOIN può essere utilizzata per stabilire l'\"offerta virtuale di token\" al fine di impostare un tasso massimo di creazione di nuovi token. Per garantire che vi sia sempre un incentivo a produrre blocchi, ci deve essere un tasso di creazione netta positivo di nuovi token. Inizialmente, il tasso di creazione di nuovi token sulla mainnet sarà del 2%."
+      },
+      "deflation": {
+        "title": "Deflazione",
+        "p1": "A causa della componente di burn, l'offerta totale di token può aumentare (inflazione) o diminuire (deflazione) a seconda del livello di competizione per la produzione di blocchi. Se la domanda di block reward aumenta linearmente, a un certo punto il tasso a cui si brucia KOIN supererà il tasso di nuova creazione di KOIN. Il risultato sarà una diminuzione dell'offerta di token nonostante la creazione di nuovi token (cioè \"deflazione\")."
+      },
+      "randomness": {
+        "title": "Casualità",
+        "p1": "Il Proof-of-burn mantiene il meccanismo di consenso base del proof-of-work, ma sostituisce l'energia con il tempo utilizzando una <link>verifiable random function (VRF)</link>. Ogni blocco conterrà quanta (talvolta chiamate \"slot\"), di durata millisecondi, su cui i produttori di blocchi competono per produrre. Per recuperare la loro bruciatura, il produttore di blocchi deve tentare di produrre a ogni quantum. Questo tentativo implica l'uso, da parte del produttore di blocchi, della sua chiave privata, di un timestamp e dell'uscita casuale precedente della VRF per generare un hash che viene poi diviso per il suo VHP (cioè la sua bruciatura). Se l'hash è sufficientemente basso, allora produce (simile al proof-of-work), altrimenti deve riprovare al quantum successivo."
+      },
+      "efficiency": {
+        "title": "Efficienza & Coerenza",
+        "p1": "L'incentivo del produttore di blocchi non è eseguire quanta più potenza di calcolo possibile, ma eseguire il minor lavoro necessario per tentare di produrre su ogni quantum. Da qui, il proof-of-burn si comporta come il proof-of-work, tranne per il fatto che il produttore di blocchi deve eseguire un hash una sola volta per quantum. Poiché i produttori di blocchi competono per produrre in uno dei tanti quantum all'interno di un blocco, il risultato finale è una produzione di blocchi continua. Dividendo l'hash per la dimensione della bruciatura del produttore si garantisce che il fattore determinante nella scelta del produttore di blocchi sia la dimensione della bruciatura e non il lavoro computazionale eseguito (che sarà praticamente nullo), offrendo così l'efficienza promessa."
+      },
+      "miningPools": {
+        "title": "Mining Pool",
+        "p1": "A differenza delle blockchain proof-of-work, le mining pool su Koinos possono aumentare la decentralizzazione e la partecipazione alla governance, in quanto permetterebbero agli utenti non tecnici di allocare il proprio capitale a utenti più tecnici che possono garantire maggiore uptime e votare in linea con i desideri dei loro contribuenti. Gli utenti parteciperebbero a una mining pool semplicemente trasferendo il proprio VHP a un altro account Koinos, già aggiornato con un contratto di mining che distribuisce autonomamente le ricompense ai suoi contributori."
+      },
+      "liquidity": {
+        "title": "Maggiore Liquidità",
+        "p1": "Se in qualsiasi momento il produttore di blocchi o il partecipante alla mining pool desidera abbandonare la produzione di blocchi, deve semplicemente ritirare il proprio VHP dall'indirizzo e venderlo come farebbe con qualsiasi token fungibile. Questo massimizza la liquidità e consente agli utenti di uscire dalla produzione di blocchi a volontà con un minimo svantaggio economico."
+      },
+      "centralization": {
+        "title": "Resistente alla Centralizzazione & Provabilmente Egalitaria",
+        "p1": "Con il proof-of-burn non ci sono macchinari da mining, solo account che detengono VHP, quindi il tasso al quale vengono pagate le ricompense di blocco è completamente algoritmico. Ciò lo rende non solo infinitamente personalizzabile, ma anche totalmente resistente alla centralizzazione dell'hardware. Tutto ciò fa del proof-of-burn il primo algoritmo di consenso a offrire l'economia del proof-of-work ed essere provabilmente egalitario; finalmente realizzando la visione originale di Satoshi di un vero contante elettronico peer-to-peer che utilizza risorse computazionali inutilizzate e non richiede hardware dedicato."
+      },
+      "governance": {
+        "title": "Governance Decentralizzata",
+        "p1": "L'elevato grado di upgradeabilità abilitato dal Koinos blockchain framework rende la governance il collo di bottiglia invece del processo di hard fork. Come ogni altro comportamento di sistema, la governance è \"solo\" un altro smart contract su Koinos, sebbene con privilegi a livello di sistema e un'importanza speciale nel processo di upgrade. Il contratto di governance è modellato sul modo in cui la rete Bitcoin gestisce gli upgrade (es. SegWit) e può essere considerato come la DAO (Decentralized Autonomous Organization) più semplice al mondo. Permette alle persone di: (1) Proporre aggiornamenti, (2) Rivedere gli aggiornamenti durante un \"periodo di revisione\", (3) Votare sugli aggiornamenti durante un \"periodo di voto\" e (4) alla fine del periodo di voto, la proposta deve passare o fallire. I voti vengono espressi producendo un blocco, quindi l'influenza sulla governance si basa su quanti token un utente ha bruciato, non su quanti ne detiene (stake).",
+        "p2": "L'applicazione dell'aggiornamento è ritardata di 1 settimana per garantire che gli sviluppatori e le imprese abbiano il tempo di adattare i propri sistemi all'aggiornamento. Per impedire lo spam di proposte, gli utenti devono bruciare KOIN ogni volta che presentano una proposta. Per garantire che questa commissione possa essere calcolata in modo decentralizzato e autonomo, la commissione di bruciatura è uguale all'offerta totale divisa per 1.000.000. Poiché tutte le azioni sulla blockchain devono anche pagare una commissione in Mana, il \"limite di risorse\" per presentare una proposta è un decimo della commissione di bruciatura, o 10 Mana nell'esempio precedente."
+      },
+      "upgradingGovernance": {
+        "title": "Aggiornare la Governance",
+        "p1": "Poiché il sistema di governance è esso stesso uno smart contract di Koinos, tutti questi parametri possono essere modificati senza un hard fork. In realtà, è proprio questo a distinguere Koinos come l'unica blockchain veramente in grado di evolversi; la governance può aggiornare sé stessa! Ma poiché è la componente più importante del sistema, dovrebbe essere molto più difficile modificare la governance rispetto a qualsiasi altra parte del sistema. Per questo motivo, è richiesta una supermaggioranza del 75% per gli aggiornamenti della governance, mentre è sufficiente una maggioranza del 60% per gli aggiornamenti di sistema non relativi alla governance (override delle system call e promozione dei system contract). Ma anche questi numeri possono essere modificati dalla governance (con una maggioranza del 75%)."
+      },
+      "conclusion": {
+        "title": "Conclusione",
+        "p1": "In questo documento abbiamo delineato la logica di business innovativa aggiunta al Koinos blockchain framework per rendere la mainnet di Koinos la blockchain più accessibile al mondo. Il sistema Mana consente un uso più efficiente delle risorse di rete, creando al contempo esperienze utente fluide (e persino divertenti) a cui le persone sono già abituate. Le deleghe di Mana consentono a chi non possiede token di utilizzare le dApp senza dover acquisire token, completando l'esperienza Web2 su una piattaforma decentralizzata. Il token KOIN consente alla mainnet di essere lanciata in modo completamente decentralizzato grazie al suo lancio proof-of-work aperto ed equo su Ethereum. Sulla mainnet, il token KOIN regolerà l'uso gratuito di tutto l'ecosistema Koinos, inflazionandosi e deflazionandosi adeguatamente tramite l'algoritmo di consenso proof-of-burn, mentre la governance decentralizzata introdurrà miglioramenti continui tramite upgrade senza fork, sviluppati grazie al supporto universale per i linguaggi."
+      }
+    },
+    "FAQs": {
+      "pageTitle": "Domande Frequenti | Koinos",
+      "heading": "Domande Frequenti",
+      "haveQuestions": "Hai altre domande?",
+      "getInTouch": "Contattaci",
+      "q1": "Qual è la missione di Koinos?",
+      "a1": "Accelerare la transizione verso un futuro veramente decentralizzato, offrendo esperienze utente Web2 su Web3.",
+      "q2": "Quando è stata rilasciata la mainnet?",
+      "a2": "La mainnet è stata rilasciata il 5 novembre 2022 e completamente decentralizzata il 5 dicembre 2022.",
+      "q3": "Come verranno distribuiti i token sulla mainnet?",
+      "a3": "I saldi iniziali dei token su mainnet sono stati determinati interamente dai saldi dei token KOIN ERC20 (cioè i token KOIN su Ethereum distribuiti tramite mining proof-of-work). L'ERC20 è stato implementato utilizzando gli strumenti OpenZeppelin, incluso il loro meccanismo di snapshot. Questo meccanismo all'interno dello smart contract consente di creare un record decentralizzato di tutti i saldi dei token e dell'offerta totale al momento dell'uso (cioè uno \"snapshot\"). Non è stata annunciata alcuna data per lo snapshot utilizzato per la mainnet.",
+      "q4": "Come fa Koinos ad essere senza commissioni?",
+      "a4": "Koinos introduce un nuovo concetto chiamato \"mana\" che è la soluzione più innovativa al problema dell'arresto (halting problem) dai tempi del \"gas\" di Ethereum. Il mana è una proprietà del token KOIN che viene \"consumata\" mentre l'utente esegue transazioni senza commissioni, ma che si rigenera nel tempo. Ciò significa che anche se tutto il mana di un utente viene consumato, gli basta aspettare se vuole effettuare altre transazioni senza commissioni, senza dover acquistare ulteriori KOIN. Una volta consumato del mana in un token, quel token diventa bloccato (non trasferibile) per la durata del periodo di rigenerazione. Il periodo di rigenerazione si basa sul tempo necessario a rigenerare un satoshi di mana, con la rigenerazione che avviene su tutti i token di un utente contemporaneamente. Poiché questo meccanismo è distribuito, il tempo di rigenerazione appare dinamico all'utente. In altre parole, il mana dell'utente si rigenererà costantemente, quindi non dovrà attendere tutti i 5 giorni per riprendere a usare la blockchain.",
+      "q5": "Quanto è decentralizzato Koinos?",
+      "a5": "Koinos è altamente decentralizzato grazie al suo nuovo algoritmo di consenso proof-of-burn. Il token KOIN punta a realizzare la visione originale di Satoshi di un vero contante elettronico peer-to-peer che utilizza risorse computazionali inutilizzate e non richiede hardware dedicato. In altre parole, è provabilmente egalitario. Iain Stewart ha proposto il proof-of-burn nel 2012, un anno dopo la proposta del proof-of-stake, e riteniamo che rappresenti la prossima evoluzione degli algoritmi di consenso. Il proof-of-burn consente a Koinos di raggiungere l'egalitarismo dimostrabile offrendo l'economia del proof-of-work con efficienza ancora superiore al proof-of-stake.",
+      "q6": "Qual è la TPS (transazioni al secondo)?",
+      "a6": "La mainnet di Koinos è in grado di supportare una TPS media di 150 e una TPS di picco di 450, ma è importante considerare che Koinos non è ottimizzato per il throughput, bensì per l'upgradeabilità, il che significa che può adottare rapidamente le soluzioni di scaling più avanzate e sicure (ad es. sharding, parachain, ecc.) non appena disponibili. Koinos Group, i creatori di Koinos, ha già individuato nuove WASM VM che potrebbero migliorare le prestazioni di 10 volte.",
+      "q7": "C'è stata un'ICO?",
+      "a7": "No. Il lancio del token KOIN è stato modellato su quello di Bitcoin per massimizzare l'accessibilità e ha fatto uso innovativo della blockchain di Ethereum per ampliarla ulteriormente. Invece di dover accedere a una nuova blockchain, le persone potevano utilizzare un programma di mining CPU-ottimizzato, facile da usare, gratuito e aperto, per inviare prove di lavoro all'interno di uno smart contract su Ethereum che a sua volta distribuiva KOIN in base alla dimensione delle prove. Lo scopo di questo token basato su Ethereum è stato pre-seedare l'ecosistema Koinos con un livello base di decentralizzazione. Ciò significa che l'unico modo per acquisire KOIN era attraverso il mining PoW o gli acquisti sul mercato aperto, quindi non c'è stato alcun pre-mine, ICO, IEO o altro IxO (lol).",
+      "q8": "Quali sono le funzionalità della mainnet?",
+      "a8": "1. Sistema di Mana senza commissioni <br> 2. Algoritmo di consenso Proof-of-Burn <br> 3. Supporto Universale per i Linguaggi <br> 4. Upgradeabilità Infinita",
+      "q9": "Koinos è \"compatibile con Ethereum\"?",
+      "a9": "La massima accessibilità è la vera compatibilità. Koinos è progettato in modo che gli sviluppatori possano utilizzare i linguaggi di programmazione che già conoscono e amano per costruire le loro applicazioni, senza dover imparare nuovi linguaggi come Solidity. Qualsiasi sviluppatore che può scrivere uno smart contract in Solidity può facilmente riscriverlo in C++ o TypeScript, i primi due linguaggi supportati da Koinos.",
+      "q10": "Come è finanziato il team?",
+      "a10": "Koinos Group è modellato sulle tradizionali società tecnologiche in crescita che sacrificano i profitti negli anni iniziali per costruire una base di utenti e sfruttare la loro conoscenza unica dell'ecosistema per trovare un prodotto con market fit e ottenere margini elevati. Koinos Group è stato fondato dal team di sviluppo principale della blockchain Steem per accelerare la transizione verso un futuro più decentralizzato, concentrandosi sull'accessibilità. Questo team ha lavorato insieme per oltre 4 anni su Steem, all'epoca la blockchain più accessibile di gran lunga, e ora lavora insieme da quasi 2 anni su Koinos. Ogni membro di Koinos Group ha lavorato esclusivamente per ottenere equity nella società, il che significa che crede nel prodotto e nel business plan, ed è interessato a vedere sia la piattaforma che l'azienda avere successo. Koinos Group ha dovuto acquisire i propri KOIN come tutti gli altri, attraverso il mining PoW o acquisti sul mercato aperto, rendendo impossibile confondere il possesso di KOIN con un investimento in Koinos Group. Ciò allinea i suoi incentivi con quelli della comunità di Koinos.",
+      "q11": "Come scalerà Koinos?",
+      "a11": "La soluzione di scaling definitiva è la capacità di integrare rapidamente le soluzioni di scalabilità più efficienti, sicure e ben mantenute man mano che emergono. In altre parole, l'upgradeabilità è la soluzione di scaling definitiva, motivo per cui Koinos è progettata per essere la blockchain più aggiornabile al mondo. Che le migliori soluzioni si basino sulla comunicazione inter-catena, sullo sharding o su qualcos'altro, Koinos sarà pronta a sfruttarle.",
+      "q12": "Quanto è componibile Koinos?",
+      "a12": "Koinos ha il massimo grado di componibilità possibile perché è l'unico framework blockchain a spostare tutta la logica di sistema negli smart contract. Quando si parla di componibilità in ambito blockchain, si parla della capacità degli sviluppatori di dApp di riutilizzare il codice già in esecuzione sulla blockchain nelle proprie applicazioni. La maggior parte delle blockchain che affermano di avere un'alta componibilità intende dire che non utilizzano sharding, cercando di ridefinire un limite come un valore aggiunto. Koinos è ottimizzata per la flessibilità, il che significa che può fare sharding, o non farlo, in base agli smart contract in esecuzione su di essa. Poiché tutta la logica di sistema è contenuta in moduli di smart contract, gli sviluppatori di applicazioni non solo possono riutilizzare gli smart contract scritti da altri sviluppatori di dApp, ma possono riutilizzare il codice scritto dagli ingegneri blockchain più esperti al mondo: quelli che costruiscono blockchain basate su Koinos. E non finisce qui! Poiché questi smart contract saranno scritti in un numero sempre crescente di linguaggi di programmazione tra i più utilizzati al mondo, gli sviluppatori non solo potranno trovare lo smart contract perfetto per le loro esigenze, ma lo troveranno scritto nel loro linguaggio di programmazione preferito! Ciò porta la componibilità di Koinos, già molto maggiore rispetto a qualsiasi altro protocollo, a un livello completamente nuovo! Seguici su X per gli aggiornamenti e le ultime AMA."
+    },
+    "JoinTheCommunity": {
+      "sectionId": "Comunità",
+      "title": "Unisciti alla Comunità",
+      "description": "Se hai domande, unisciti alla nostra comunità e chiedi! Scoprirai che la comunità di Koinos è sia amichevole che disponibile, non essere timido. Non vediamo l'ora di incontrarti!",
+      "buttons": {
+        "telegram": "Unisciti a Telegram",
+        "discord": "Unisciti a Discord"
+      }
+    },
+    "Programs": {
+      "common": {
+        "learnMore": "Scopri di più",
+        "getStarted": "Inizia Subito",
+        "sectionId": "Programma in Evidenza"
+      },
+      "earnOnKoinos": {
+        "featured": {
+          "title": "Guadagna su Koinos",
+          "subtitle": "Guadagna fino al 16% APY su Koinos!",
+          "shortDescription": "Chainge Finance e Koinos Group hanno stretto una partnership per offrire fino al 16,24% di rendimento semplicemente facendo bridging e detenendo BTC, ETH o USDT su Koinos tramite l'app Chainge.",
+          "description": "Chainge rende Koinos interoperabile con oltre 2000 blockchain e la loro innovativa tecnologia di aggregazione DEX offre alcuni dei costi di swap più bassi nell'intero panorama cripto. Alti rendimenti e basse commissioni creano un potente volano e il programma \"Earn on Koinos\" lo mette in moto!",
+          "keyPoints": {
+            "first": "Guadagna fino al 16% sugli asset in bridging",
+            "second": "Guadagna APY su USDT, ETH e BTC",
+            "third": "Guadagna KOIN con i tuoi USDT, ETH e BTC"
+          },
+          "details": {
+            "first": "USDT: 8,12% APY, Totale combinato: 16,24% con ricompense in $KOIN",
+            "second": "ETH: 5,2% APY, Totale combinato: 10,4% con ricompense in $KOIN",
+            "third": "BTC: 4,1% APY, Totale combinato: 8,2% con ricompense in $KOIN"
+          }
+        },
+        "pageTitle": "Guadagna su Koinos | Koinos",
+        "title": "Guadagna su Koinos",
+        "getStarted": "Iniziamo!",
+        "step1": {
+          "title": "Passo 1: Configura il tuo wallet Koinos",
+          "steps": {
+            "install": "Vai al Chrome Web Store e installa Kondor",
+            "setup": "Segui i passaggi per creare il tuo wallet Koinos.",
+            "store": "Conserva in sicurezza la tua seed phrase!"
+          }
+        },
+        "step2": {
+          "title": "Passo 2: Effettua il bridging di USDT, ETH o BTC verso Koinos",
+          "steps": {
+            "access": "Accedi al Chainge Bridge e scegli l'asset che desideri collegare.",
+            "connect": "Collega il tuo wallet della chain di origine.",
+            "enter": "Inserisci la quantità di USDT, ETH o BTC da trasferire e il tuo indirizzo Koinos.",
+            "bridge": "Clicca su \"Bridge now\" per avviare il processo."
+          }
+        },
+        "step3": {
+          "title": "Passo 3: Richiedi il tuo APY ogni giorno",
+          "description": "Se stai fornendo liquidità per KoinDX sulle pool KOIN-USDT, KOIN-ETH, KOIN-BTC, il tuo APY verrà distribuito automaticamente e puoi saltare questo passaggio. Per tutti gli altri partecipanti, segui i passaggi qui sotto per richiedere il tuo APY ogni giorno.",
+          "steps": {
+            "access": "Accedi al Chainge Bridge.",
+            "connect": "Collega il tuo wallet Koinos.",
+            "claim": "Richiedi l'APY disponibile sui tuoi asset."
+          }
+        }
+      },
+      "koindxFarm": {
+        "pageTitle": "KoinDX Farm | Koinos",
+        "featured": {
+          "title": "KoinDX Farm",
+          "subtitle": "Guadagna KOINDX fornendo liquidità",
+          "shortDescription": "Non perderti il lancio del token nativo di KoinDX, KOINDX! Fornendo liquidità nelle pool qualificanti puoi guadagnare il token di revenue sharing di KoinDX, KOINDX.",
+          "description": "KoinDX sta lanciando il suo token nativo, KOINDX. Il token nativo DEX consente agli utenti di condividere i ricavi dalle commissioni di swap e di partecipare alla governance di KOINDX. Per partecipare all'airdrop, gli utenti possono semplicemente fornire liquidità alle pool qualificate su KoinDX.",
+          "keyPoints": {
+            "first": "Guadagna il token KOINDX fornendo liquidità",
+            "second": "Guadagna il token KOINDX scambiando asset sul DEX",
+            "third": "Condividi i ricavi dalle commissioni di swap e partecipa alla governance"
+          },
+          "details": {
+            "first": "Fornitura di Liquidità: Guadagna KOINDX fornendo liquidità a KOIN-ETH, KOIN-BTC, KOIN-USDT, o KOIN-VHP",
+            "second": "Attività di Trading: Eseguendo trade su KoinDX, gli utenti si qualificano per ricevere airdrop di KOINDX"
+          }
+        },
+        "relatedMessage": "Fornendo liquidità con i tuoi asset bridge da Earn on Koinos, puoi guadagnare APY su USDT, ETH e BTC, oltre a KOIN, e allo stesso tempo guadagnare KOINDX!"
+      },
+      "lordsForsakenQuest": {
+        "featured": {
+          "title": "Lord's Forsaken Quest",
+          "subtitle": "Guadagna ricompense giocando!",
+          "shortDescription": "La quest di lancio del primo gioco di carte Web3 Play-to-Earn di Koinos. Divertiti a giocare mentre guadagni ricompense preziose!",
+          "description": "Lord's Forsaken sta per essere lanciato su Koinos e per celebrare l'evento offriamo ricompense redditizie per la partecipazione. Bastano pochi semplici passaggi per ottenere del prezioso KOIN e FAITH!",
+          "keyPoints": {
+            "first": "Guadagna la tua parte di 1500 KOIN divertendoti!",
+            "second": "Ottieni la tua parte di 18000 FAITH",
+            "third": "Gioca per Guadagnare su Lord's Forsaken per ottenere ancora più FAITH"
+          },
+          "details": {
+            "first": "Free-to-Play: Grazie alle transazioni senza commissioni su Koinos puoi giocare a Lord's Forsaken e guadagnare FAITH senza alcun costo",
+            "second": "Play-to-Earn: Guadagna la valuta di gioco, FAITH, che ti dà accesso a mazzi di carte potenziati",
+            "third": ""
+          }
+        },
+        "pageTitle": "Lord's Forsaken Quest | Koinos",
+        "getStarted": "Iniziamo!",
+        "questTitle": "Lord's Forsaken Launch Quest",
+        "description": "Guadagna una parte del montepremi di 1500 KOIN e 18000 FAITH giocando.",
+        "steps": {
+          "followLords": "Segui LordsForsak3n su X",
+          "followKoinos": "Segui KoinosNetwork su X",
+          "joinLordsTg": "Unisciti a Lord's Forsaken su Telegram",
+          "joinKoinosTg": "Unisciti a Koinos su Telegram",
+          "playGame": "Gioca a Lord's Forsaken",
+          "postVictory": "Pubblica su X uno screenshot della tua vittoria — assicurati di includere \"Earn $FAITH by playing @lordsforsak3n on @KoinosNetwork \" nel testo",
+          "joinTaskon": "Unisciti a Koinos su TaskOn"
+        },
+        "joinQuest": "Unisciti alla Quest"
+      },
+      "taskonLaunch": {
+        "featured": {
+          "title": "Lancio su TaskOn",
+          "subtitle": "Guadagna ricompense partecipando!",
+          "shortDescription": "Non perderti il lancio della Koinos TaskOn Community. Con pochi semplici passaggi che contribuiscono al coinvolgimento verso Koinos potrai ottenere ricompense interessanti!",
+          "description": "Ogni mese gli utenti possono partecipare all'ecosistema Koinos per guadagnare ricompense in USDT, KOIN e vari token di progetto.",
+          "keyPoints": {
+            "first": "Guadagna la tua parte di 1.250 USDT semplicemente unendoti",
+            "second": "Torna ogni giorno per trovare nuove quest e ricompense",
+            "third": "Invita i tuoi amici per ottenere un ruolo prestigioso su Discord"
+          },
+          "details": {
+            "first": "TaskOn Community Launch: Partecipa alla campagna di benvenuto e guadagna la tua parte del montepremi di 1.250 USDT",
+            "second": "Quest Mensili: Torna sulla pagina della TaskOn Community ogni mese per nuove quest e opportunità di guadagno",
+            "third": "Unisciti alla TaskOn Community: Visita la nostra TaskOn Community per rimanere aggiornato sulle ultime iniziative",
+            "fourth": "Ricompense per i Referral: Invita due amici alla quest e ottieni un ruolo prestigioso su Discord, scopri di più"
+          }
+        },
+        "pageTitle": "TaskOn Community Launch | Koinos",
+        "getStarted": "Iniziamo!",
+        "questTitle": "TaskOn Community Launch Quest",
+        "description": "Guadagna la tua parte del montepremi di 1.250 USDT seguendo tre semplici passaggi.",
+        "steps": {
+          "followKoinos": "Segui KoinosNetwork su X",
+          "joinTelegram": "Unisciti al nostro Telegram",
+          "joinTaskon": "Unisciti alla nostra TaskOn Community"
+        },
+        "joinQuest": "Unisciti alla Quest",
+        "relatedMessage": "Puoi approfittare di un'altra quest su TaskOn per essere idoneo a ricevere la tua parte dei 1500 KOIN e 18000 FAITH!"
+      }
+    },
+    "Media": {
+      "pageTitle": "Kit Media | Koinos",
+      "mainTitle": "Kit Media Koinos",
+      "welcome": {
+        "title": "Benvenuto alla Pagina del Kit Media di Koinos",
+        "description": "Risorse visive ufficiali per aiutare a promuovere Koinos nelle comunicazioni di marketing, inclusi loghi, marchi e logotipi."
+      },
+      "navigation": {
+        "logotype": "Logotipo",
+        "clearspace": "Spazio vuoto",
+        "colors": "Colori",
+        "assets": "Risorse",
+        "pressInquiries": "Richieste Stampa"
+      },
+      "logo": {
+        "title": "Logo Koinos",
+        "description": "Il logo Koinos è progettato con linee moderne e pulite, riflettendo la natura innovativa e lungimirante della piattaforma. Si prega di utilizzare le versioni fornite senza alterazioni."
+      },
+      "clearspace": {
+        "title": "Spazio vuoto",
+        "description": "Assicurati che ci sia spazio sufficiente intorno al logo Koinos per evitare il disordine. Di seguito sono riportate le spaziature minime sia per il logo che per il testo."
+      },
+      "colors": {
+        "title": "Colori",
+        "koinosPurple": "Viola Koinos",
+        "accentPurple": "Viola Accento",
+        "koinosBlack": "Nero Koinos",
+        "white": "Bianco"
+      },
+      "assets": {
+        "title": "Risorse",
+        "downloadAll": "Tutte le Risorse",
+        "zipSize": "(ZIP, 2 MB)",
+        "description": "Scarica il logotipo e il marchio Koinos in vari formati e colori. Si prega di utilizzare le versioni fornite senza alterazioni.",
+        "downloadVariations": "Scarica variazioni",
+        "sections": {
+          "logo": {
+            "title": "Logo Koinos"
+          },
+          "logotype": {
+            "title": "Logotipo Koinos"
+          },
+          "mark": {
+            "title": "Marchio Koinos"
+          },
+          "icon": {
+            "title": "Icona Koinos"
+          },
+          "iconSquare": {
+            "title": "Icona Quadrata Koinos"
+          }
+        }
+      },
+      "pressInquiries": {
+        "title": "Richieste Stampa",
+        "description": "Si prega di indirizzare le richieste stampa a press@koinos.io"
+      }
+    }
+  }

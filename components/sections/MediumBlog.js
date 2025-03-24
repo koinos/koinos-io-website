@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 export default function MediumBlog() {
+  const t = useTranslations('MediumBlog');
+
   const sectionRef = useRef(null);
   const mediumRssFeedJsonLink =
     "/api/blog-proxy";
@@ -19,7 +22,6 @@ export default function MediumBlog() {
         const items = data.items;
         setItems(items);
       } catch {
-        console.log("error fetching items from medium blog rss feed");
         setError(true);
       }
     }
@@ -75,7 +77,6 @@ export default function MediumBlog() {
   }, [items]); // re-run when items changes
 
   return (
-    <>
       <section id="blog-1" className="py-100 blog-section division">
         <div className="container">
           {/* SECTION TITLE */}
@@ -83,63 +84,59 @@ export default function MediumBlog() {
             <div className="col-md-10 col-lg-9">
               <div className="section-title mb-70">
                 {/* Title */}
-                <h2 className="s-52 w-700">News &amp; Updates</h2>
+                <h2 className="s-52 w-700">{t('title')}</h2>
                 {/* Text */}
-                <p className="s-21 color--grey">Stay Updated with the Latest News on our Medium Blog</p>
+                <p className="s-21 color--grey">{t('subtitle')}</p>
               </div>
             </div>
           </div>
           <div className="row">
             {displayItems &&
               displayItems.map((item, index) => (
-                <>
-                  <div className="col-md-6 col-lg-4" key={index}>
-                    <div className="blog-post wow"  data-aos='fade-up'>
-                      {/* BLOG POST IMAGE */}
-                      <div className="blog-post-img mb-35">
-                        <Link href={item.link}>
-                          <img
-                            className="img-fluid light-theme-img r-16"
-                            src={item.image}
-                            alt="blog-post-image"
-                            style={{ border: "2px solid #000" }}
-                          />
-                          <img
-                            className="img-fluid dark-theme-img r-16"
-                            src={item.image}
-                            alt="blog-post-image"
-                            style={{ border: '1px solid #fff' }}
-                          />
-                        </Link>
+                <div className="col-md-6 col-lg-4" key={item.link || index}>
+                  <div className="blog-post wow" data-aos='fade-up'>
+                    {/* BLOG POST IMAGE */}
+                    <div className="blog-post-img mb-35">
+                      <Link href={item.link}>
+                        <img
+                          className="img-fluid light-theme-img r-16"
+                          src={item.image}
+                          alt="blog-post-image"
+                          style={{ border: "2px solid #000" }}
+                        />
+                        <img
+                          className="img-fluid dark-theme-img r-16"
+                          src={item.image}
+                          alt="blog-post-image"
+                          style={{ border: '1px solid #fff' }}
+                        />
+                      </Link>
+                    </div>
+                    {/* BLOG POST TEXT */}
+                    <div className="blog-post-txt">
+                      {/* Post Link */}
+                      <h6 className="s-20 w-700">
+                        <Link href={item.link}>{item.title}</Link>
+                      </h6>
+                      {/* Text Description */}
+                      <p>{item.description}</p>
+                      {/* Post Meta */}
+                      <div className="blog-post-meta mt-20">
+                        <ul className="post-meta-list ico-10">
+                          <li>
+                            <p className="p-sm">{t('publishedOn')} {item.pubDate}</p>
+                          </li>
+                        </ul>
                       </div>
-                      {/* BLOG POST TEXT */}
-                      <div className="blog-post-txt">
-                        {/* Post Link */}
-                        <h6 className="s-20 w-700">
-                          <Link href={item.link}>{item.title}</Link>
-                        </h6>
-                        {/* Text Description */}
-                        <p>{item.description}</p>
-                        {/* Post Meta */}
-                        <div className="blog-post-meta mt-20">
-                          <ul className="post-meta-list ico-10">
-                            <li>
-                            <p className="p-sm">Published on {item.pubDate}</p>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>{" "}
-                      {/* END BLOG POST TEXT */}
                     </div>
                   </div>
-                </>
+                </div>
               ))}
-            {!displayItems && <div>Loading...</div>}
+            {!displayItems && <div>{t('loading')}</div>}
           </div>{" "}
           {/* End row */}
         </div>{" "}
         {/* End container */}
       </section>
-    </>
   );
 }
