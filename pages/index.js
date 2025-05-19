@@ -3,7 +3,6 @@ import Partners from "@/components/sections/Partners";
 import Roadmap from "@/components/sections/Roadmap";
 import KoinosAdvantage from "@/components/sections/KoinosAdvantage";
 import KoinosHero from "@/components/sections/KoinosHero";
-import ChainStatistics from "@/components/sections/ChainStatistics";
 import Wallets from "@/components/sections/Wallets";
 import MediumBlog from "@/components/sections/MediumBlog";
 import FeatureCommunity from "@/components/sections/FeatureCommunity"
@@ -49,8 +48,6 @@ export default function IndexPage() {
         <MediumBlog />
 
         <KoinosAdvantage />
-
-        <ChainStatistics />
 
         <Wallets />
 
