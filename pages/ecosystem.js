@@ -37,12 +37,6 @@ export default function EcosystemPage() {
       "url": "https://kanvas-app.com/"
     },
     {
-      "name": "Koiner",
-      "description": "Koiner is a comprehensive blockchain explorer for the Koinos network, providing detailed insights and real-time data on transactions, blocks, and more.",
-      "icon": "/images/pages/ecosystem/koiner.png",
-      "url": "https://koiner.app/"
-    },
-    {
       "name": "Fogata",
       "description": "Fogata is a robust mining pool specifically designed for Koinos enthusiasts, where users can run their own pools or join those of the community.",
       "icon": "/images/pages/ecosystem/fogata.png",
