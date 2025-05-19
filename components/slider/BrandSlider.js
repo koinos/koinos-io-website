@@ -1,4 +1,3 @@
-
 import Link from "next/link"
 import { Autoplay } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
@@ -57,12 +56,6 @@ export default function BrandSlider() {
             imageLight: '/images/sections/partners/coinstore.png',
             imageDark: '/images/sections/partners/coinstore-white.png',
             url: 'https://www.coinstore.com/#/spot/KOINUSDT'
-        },
-        {
-            name: 'chainge',
-            imageLight: '/images/sections/partners/chainge.png',
-            imageDark: '/images/sections/partners/chainge-white.png',
-            url: 'https://dapp.chainge.finance/?fromChain=ETH&toChain=KOIN&fromToken=USDT&toToken=KOIN'
         },
         {
             name: 'lcx',

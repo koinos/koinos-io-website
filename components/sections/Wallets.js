@@ -16,15 +16,6 @@ export default function Wallets() {
       android: false,
       ios: false,
       url: "https://chromewebstore.google.com/detail/kondor/ghipkefkpgkladckmlmdnadmcchefhjl"
-    },
-    {
-      name: "Konio",
-      description: "Full featured native mobile wallet for Android/iOS",
-      icon: "/images/sections/wallets/konio.png",
-      chrome: false,
-      android: true,
-      ios: true,
-      url: "https://konio.io"
     }
   ]
 

@@ -49,19 +49,19 @@ export default function EarnOnKoinos() {
                     {/* Step 2 */}
                     <h3 className="s-30 w-700 my-4">Step 2: Bridging USDT, ETH, or BTC to Koinos</h3>
                     <ol>
-                      <li>Access the <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link> and choose the asset you'd like to bridge.</li>
+                      <li>Use any supported bridge to transfer your assets to Koinos.</li>
                       <li>Connect your source chain wallet.</li>
                       <li>Enter the amount of USDT, ETH, or BTC to bridge and input your Koinos address.</li>
-                      <li>Click on "Bridge now" to start the process.</li>
+                      <li>Complete the bridge process following the provider's instructions.</li>
                     </ol>
 
                     {/* Step 3 */}
-                    <h3 className="s-30 w-700 my-4">Step 3: Claim your APY Daily</h3>
-                    <p>If you are providing liquidity for <Link href="https://koindx.com" className="underline">KoinDX</Link> on the <strong>KOIN-USDT</strong>, <strong>KOIN-ETH</strong>, <strong>KOIN-BTC</strong> pools, your APY will be distributed to you automatically and you can safely skip this step. For all other participants, follow the steps below to claim your APY daily.</p>
+                    <h3 className="s-30 w-700 my-4">Step 3: Provide Liquidity</h3>
+                    <p>If you are providing liquidity for <Link href="https://koindx.com" className="underline">KoinDX</Link> on the <strong>KOIN-USDT</strong>, <strong>KOIN-ETH</strong>, <strong>KOIN-BTC</strong> pools, your APY will be distributed to you automatically.</p>
                     <ol>
-                      <li>Access the <Link href="https://dapp.chainge.finance/earn?chain=KOIN" className="underline">Chainge Bridge</Link>.</li>
+                      <li>Visit <Link href="https://koindx.com" className="underline">KoinDX</Link> to provide liquidity.</li>
                       <li>Connect your Koinos wallet.</li>
-                      <li>Claim the available APY on your assets.</li>
+                      <li>Add liquidity to eligible pools to maximize your returns.</li>
                     </ol>
 
                   </div>

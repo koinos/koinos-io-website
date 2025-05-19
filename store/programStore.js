@@ -8,15 +8,11 @@ export const useProgramStore = create(() => ({
       title: "Earn on Koinos",
       subtitle: "Earn up to 16% APY on Koinos!",
       shortDescription:
-        "Chainge Finance and Koinos Group have partnered to offer up to 16.24% yield for simply bridging and holding BTC, ETH, or USDT on Koinos through the Chainge app.",
+        "Earn high yields by bridging and holding BTC, ETH, or USDT on Koinos.",
       description:
-        "Chainge makes Koinos interoperable with over 20 blockchains and their novel DEX aggregation technology delivers some of the lowest cost swaps in all of crypto. High yields and low fees are a powerful flywheel and the Earn on Koinos program kicks it into high gear!",
-      keyPoints: [
-        "Earn up to 16% on bridged assets",
-        "Earn APY on USDT, ETH, and BTC",
-        "Earn KOIN with your USDT, ETH, and BTC",
-      ],
-      website: "http://dapp.chainge.finance/earn?chain=KOIN",
+        "Koinos interoperability with over 20 blockchains and low cost swaps in all of crypto. High yields and low fees are a powerful flywheel and the Earn on Koinos program kicks it into high gear!",
+      keyPoints: [],
+      website: "",
       details: [
         <>
           <strong>USDT</strong>: 8.12% APY, Matching Total: 16.24% with $KOIN
