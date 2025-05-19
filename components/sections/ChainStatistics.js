@@ -36,7 +36,7 @@ export default function ChainStatistics() {
                       {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
-                          {accounts}
+                          <span style={{ marginRight: "5px" }}>{'>'}</span>{accounts}
                         </h2>
                       </div>
                       {/* Text */}
@@ -55,7 +55,7 @@ export default function ChainStatistics() {
                       {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
-                          {blocks}
+                          <span style={{ marginRight: "5px" }}>{'>'}</span>{blocks}
                         </h2>
                       </div>
                       {/* Text */}
@@ -74,7 +74,7 @@ export default function ChainStatistics() {
                       {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
-                          {transactions}
+                          <span style={{ marginRight: "5px" }}>{'>'}</span>{transactions}
                         </h2>
                       </div>
                       {/* Text */}
