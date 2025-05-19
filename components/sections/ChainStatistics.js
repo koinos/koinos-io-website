@@ -1,5 +1,4 @@
-import CounterUp from "../elements/CounterUp";
-import { useEffect, useState, useRef } from "react";
+import React from "react";
 
 export default function ChainStatistics() {
   // Static data instead of fetching from Koiner
