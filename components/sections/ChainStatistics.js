@@ -1,76 +1,13 @@
-import CounterUp from "../elements/CounterUp";
-import { useEffect, useState, useRef } from "react";
-import humanFormat from "human-format";
+import React from "react";
 
 export default function ChainStatistics() {
-  const [transactions, setTransactions] = useState(0);
-  const [accounts, setAccounts] = useState(0);
-  const [blocks, setBlocks] = useState(0);
+  // Static data instead of fetching from Koiner
+  const accounts = "11.48k";
+  const blocks = "22.62M";
+  const transactions = "994.77k";
 
   const title = "Blockchain Statistics";
   const subtle = "A Powerful Decentralized Network for a Growing Ecosystem"
-
-  const getData = () => {
-    const url = "https://api.koiner.app/graphql";
-    const query = `
-            {
-                chain {
-                    stats {
-                        addressCount
-                        operationCount
-                        transactionCount
-                    }
-                    blockProductionStats {
-                        blocksProduced
-                        rewarded
-                    }
-                    tokenStats {
-                        transferCount
-                    }
-                    koinStats {
-                        price
-                    }
-                }
-            }
-        `;
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ query }),
-    };
-    const request = new Request(url, options);
-    fetch(request)
-      .then((response) => {
-        return response.json();
-      })
-      .then((json) => {
-        setBlocks(json?.data?.chain?.blockProductionStats?.blocksProduced);
-        setAccounts(json?.data?.chain?.stats?.addressCount);
-        setTransactions(json?.data?.chain?.stats?.transactionCount);
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-  };
-
-  const getHuman = (value) => {
-    const hf = humanFormat(value, { decimals: 2 });
-    return [
-      Number(hf.split(".")[0]),
-      Number(hf.split(".")[1].split(" ")[0]),
-      hf.split(".")[1].split(" ")[1],
-    ];
-  };
-
-  useEffect(() => {
-    getData();
-  }, []);
-
-  const humanAccounts = getHuman(accounts);
-  const humanBlocks = getHuman(blocks);
-  const humanTransactions = getHuman(transactions);
 
   return (
     <>
@@ -93,14 +30,12 @@ export default function ChainStatistics() {
               <div className="row row-cols-1 row-cols-md-3">
                 {/* STATISTIC BLOCK #1 */}
                 <div className="col">
-                  <div id="sb-5-1" className="wow"  data-aos='fade-up'>
+                  <div id="sb-5-1" className="wow" data-aos='fade-up'>
                     <div className="statistic-block">
                       {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
-                          <CounterUp end={humanAccounts[0]} duration={20} />.
-                          <CounterUp end={humanAccounts[1]} duration={20} />
-                          {humanAccounts[2]}
+                          <span style={{ marginRight: "5px" }}>{'>'}</span>{accounts}
                         </h2>
                       </div>
                       {/* Text */}
@@ -114,14 +49,12 @@ export default function ChainStatistics() {
                 {/* END STATISTIC BLOCK #1 */}
                 {/* STATISTIC BLOCK #2 */}
                 <div className="col">
-                  <div id="sb-5-2" className="wow"  data-aos='fade-up'>
+                  <div id="sb-5-2" className="wow" data-aos='fade-up'>
                     <div className="statistic-block">
                       {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
-                          <CounterUp end={humanBlocks[0]} duration={20} />.
-                          <CounterUp end={humanBlocks[1]} duration={20} />
-                          {humanBlocks[2]}
+                          <span style={{ marginRight: "5px" }}>{'>'}</span>{blocks}
                         </h2>
                       </div>
                       {/* Text */}
@@ -135,15 +68,12 @@ export default function ChainStatistics() {
                 {/* END STATISTIC BLOCK #2 */}
                 {/* STATISTIC BLOCK #3 */}
                 <div className="col">
-                  <div id="sb-5-3" className="wow"  data-aos='fade-up'>
+                  <div id="sb-5-3" className="wow" data-aos='fade-up'>
                     <div className="statistic-block">
                       {/* Digit */}
                       <div className="statistic-digit">
                         <h2 className="s-44 w-700">
-                          <CounterUp end={humanTransactions[0]} duration={20} />
-                          .
-                          <CounterUp end={humanTransactions[1]} duration={20} />
-                          {humanTransactions[2]}
+                          <span style={{ marginRight: "5px" }}>{'>'}</span>{transactions}
                         </h2>
                       </div>
                       {/* Text */}
@@ -165,4 +95,4 @@ export default function ChainStatistics() {
       </div>
     </>
   );
-}
+} 

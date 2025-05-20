@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useProgramStore } from "@/store/programStore";
 import JoinTheCommunity from "@/components/sections/JoinTheCommunity"
 import ProgramHeader from "@/components/sections/ProgramHeader"
-import RelatedProgram from "@/components/sections/RelatedProgram"
 
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -17,7 +16,6 @@ export default function KoinDXFarm() {
   }, []);
 
   const program = useProgramStore((state) => state.programs.koindxFarm);
-  const relatedProgram = useProgramStore((state) => state.programs.earnOnKoinos);
 
   return (
     <>
@@ -31,11 +29,6 @@ export default function KoinDXFarm() {
           <div className="row justify-content-center">
             <div className="col-lg-11 col-xl-10">
               <ProgramHeader program={program} />
-
-              <RelatedProgram
-                program={relatedProgram}
-                message={"By providing liquidity with your bridged assets from Earn on Koinos, you can earn both APY on USDT, ETH, and BTC as well as KOIN while earning KOINDX simultaneously!"}
-              />
               <JoinTheCommunity />
             </div>
           </div>

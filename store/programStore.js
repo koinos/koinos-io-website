@@ -3,40 +3,6 @@ import Link from "next/link"
 
 export const useProgramStore = create(() => ({
   programs: {
-    earnOnKoinos: {
-      url: "/programs/earn-on-koinos",
-      title: "Earn on Koinos",
-      subtitle: "Earn up to 16% APY on Koinos!",
-      shortDescription:
-        "Chainge Finance and Koinos Group have partnered to offer up to 16.24% yield for simply bridging and holding BTC, ETH, or USDT on Koinos through the Chainge app.",
-      description:
-        "Chainge makes Koinos interoperable with over 20 blockchains and their novel DEX aggregation technology delivers some of the lowest cost swaps in all of crypto. High yields and low fees are a powerful flywheel and the Earn on Koinos program kicks it into high gear!",
-      keyPoints: [
-        "Earn up to 16% on bridged assets",
-        "Earn APY on USDT, ETH, and BTC",
-        "Earn KOIN with your USDT, ETH, and BTC",
-      ],
-      website: "http://dapp.chainge.finance/earn?chain=KOIN",
-      details: [
-        <>
-          <strong>USDT</strong>: 8.12% APY, Matching Total: 16.24% with $KOIN
-          rewards
-        </>,
-        <>
-          <strong>ETH</strong>: 5.2% APY, Matching Total: 10.4% with $KOIN
-          rewards
-        </>,
-        <>
-          <strong>BTC</strong>: 4.1% APY, Matching Total: 8.2% with $KOIN
-          rewards
-        </>,
-      ],
-      images: {
-        banner: "/images/programs/earn-on-koinos.png",
-      },
-      featured: true,
-      active: true,
-    },
     koindxFarm: {
       url: "/programs/koindx-farm",
       title: "KoinDX Farm",
@@ -64,8 +30,8 @@ export const useProgramStore = create(() => ({
       images: {
         banner: "/images/programs/koindx-farm.png",
       },
-      featured: false,
-      active: false,
+      featured: true,
+      active: true,
     },
     taskonQuest: {
       url: "/programs/taskon-launch",

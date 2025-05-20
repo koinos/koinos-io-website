@@ -3,12 +3,6 @@ import { create } from "zustand"
 export const useExchangeStore = create(() => ({
   exchanges: [
     {
-      name: "Chainge",
-      icon: "/images/exchanges/chainge-logo.png",
-      url: "https://dapp.chainge.finance/?fromChain=ETH&toChain=ETH&fromToken=USDT&toToken=KOIN",
-      type: "Bridge",
-    },
-    {
       name: "Uniswap",
       icon: "/images/exchanges/uniswap-logo.png",
       url: "https://app.uniswap.org/explore/tokens/ethereum/0xed11c9bcf69fdd2eefd9fe751bfca32f171d53ae",
