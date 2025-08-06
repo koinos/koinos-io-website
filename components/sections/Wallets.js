@@ -16,6 +16,16 @@ export default function Wallets() {
       android: false,
       ios: false,
       url: "https://chromewebstore.google.com/detail/kondor/ghipkefkpgkladckmlmdnadmcchefhjl"
+    },
+    {
+      name: "Sovrano",
+      description: "Web3 for everyone - Access Koinos from any browser",
+      icon: "/images/sections/wallets/sovrano.svg",
+      chrome: false,
+      android: false,
+      ios: false,
+      web: true,
+      url: "https://sovrano.io/"
     }
   ]
 
@@ -41,7 +51,7 @@ export default function Wallets() {
               {
                 wallets.map(wallet =>
                   <div key={wallet.name} className="col">
-                    <div className="fbox-2 fb-1 wow" data-aos='fade-up'>
+                    <div className="fbox-2 fb-1 wow h-100" data-aos='fade-up'>
                       {/* Image */}
                       <div className="fbox-img gr--whitesmoke h-175">
                         <Link href={wallet.url} target="_blank">
@@ -50,7 +60,7 @@ export default function Wallets() {
                         </Link>
                       </div>
                       {/* Text */}
-                      <div className="fbox-txt">
+                      <div className="fbox-txt" style={{ marginTop: wallet.name === 'Sovrano' ? '127px' : '0' }}>
 
                         <h6 className="s-22 w-700">{wallet.name}</h6>
                         <p>{wallet.description}</p>
@@ -67,6 +77,10 @@ export default function Wallets() {
                           {
                             wallet.android &&
                             <li><Link href={wallet.url} target="_blank"><i className="fa-brands fa-android fa-lg"></i></Link></li>
+                          }
+                          {
+                            wallet.web &&
+                            <li><Link href={wallet.url} target="_blank"><i className="fa-solid fa-globe fa-lg"></i></Link></li>
                           }
                         </ul>
 

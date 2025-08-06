@@ -113,6 +113,18 @@ export default function EcosystemPage() {
       "description": "Lords Forsaken is an exciting NFT card game that combines strategic gameplay with collectible digital cards, offering players a unique and engaging experience.",
       "icon": "/images/pages/ecosystem/lords-forsaken.png",
       "url": "https://lordsforsaken.com/"
+    },
+    {
+      "name": "Koinosscan",
+      "description": "Explore Koinos Blockchain - Search for wallet addresses to view token transfers and balances and NFTs.",
+      "icon": "/images/pages/ecosystem/koinosscan.png",
+      "url": "https://koinosscan.com/"
+    },
+    {
+      "name": "Sovrano",
+      "description": "Web3 for everyone - A user-friendly Koinos wallet accessible from any browser, making blockchain interaction simple and secure.",
+      "icon": "/images/pages/ecosystem/sovrano.svg",
+      "url": "https://sovrano.io/"
     }
   ]
 
