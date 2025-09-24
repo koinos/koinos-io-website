@@ -4,7 +4,7 @@ export default function Team() {
   const team = [
     {
       name: "Steve Gerbino",
-      role: "Community Developer",
+      role: "Founding Member & Koinos Architect",
       photo: "/images/sections/team/steve.png",
       twitter: "https://twitter.com/ssgerbino",
       linkedin: "https://www.linkedin.com/in/stevegerbino/",
@@ -12,7 +12,7 @@ export default function Team() {
     },
     {
       name: "Michael Vandeberg",
-      role: "Community Developer",
+      role: "Founding Member & Koinos Architect",
       photo: "/images/sections/team/michael.png",
       twitter: "https://twitter.com/koinosvandeberg",
       github: "https://github.com/mvandeberg",
