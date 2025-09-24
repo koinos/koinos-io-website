@@ -4,7 +4,7 @@ export default function Team() {
   const team = [
     {
       name: "Steve Gerbino",
-      role: "Founding Member & Koinos Architect",
+      role: "Koinos Founder & Blockchain Architect",
       photo: "/images/sections/team/steve.png",
       twitter: "https://twitter.com/ssgerbino",
       linkedin: "https://www.linkedin.com/in/stevegerbino/",
@@ -12,7 +12,7 @@ export default function Team() {
     },
     {
       name: "Michael Vandeberg",
-      role: "Founding Member & Koinos Architect",
+      role: "Koinos Founder & Blockchain Architect",
       photo: "/images/sections/team/michael.png",
       twitter: "https://twitter.com/koinosvandeberg",
       github: "https://github.com/mvandeberg",
@@ -33,7 +33,7 @@ export default function Team() {
     },
     {
       name: "Ron Hamenahem",
-      role: "Project Manager + Developer",
+      role: "Koinos Founder, Project Manager + Developer",
       photo: "/images/sections/team/ron.png",
       github: "https://github.com/brklyn8900",
     },
