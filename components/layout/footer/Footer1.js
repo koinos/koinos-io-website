@@ -92,9 +92,6 @@ export default function Footer1() {
                     <p><Link href="https://claim.koinos.io" target="_blank">Claim Pre-Mainnet KOIN</Link></p>
                   </li>
                   <li>
-                    <p><Link href="https://koinos.group/story" target="_blank">Our Story</Link></p>
-                  </li>
-                  <li>
                     <p><Link href="https://medium.com/koinosnetwork" target="_blank">Blog</Link></p>
                   </li>
                 </ul>
