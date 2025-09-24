@@ -3,8 +3,24 @@ import Link from "next/link";
 export default function Team() {
   const team = [
     {
+      name: "Steve Gerbino",
+      role: "Community Developer",
+      photo: "/images/sections/team/steve.png",
+      twitter: "https://twitter.com/ssgerbino",
+      linkedin: "https://www.linkedin.com/in/stevegerbino/",
+      github: "https://github.com/sgerbino",
+    },
+    {
+      name: "Michael Vandeberg",
+      role: "Community Developer",
+      photo: "/images/sections/team/michael.png",
+      twitter: "https://twitter.com/koinosvandeberg",
+      github: "https://github.com/mvandeberg",
+      linkedin: "https://www.linkedin.com/in/michaelvandeberg/",
+    },
+    {
       name: "Jon Rice",
-      role: "Media & Comms",
+      role: "Community Advocate",
       photo: "/images/sections/team/jon.jpg",
       linkedin: "https://www.linkedin.com/in/jonricecrypto/",
       twitter: "https://twitter.com/jonricecrypto",
@@ -36,6 +52,14 @@ export default function Team() {
       twitter: "https://twitter.com/ederaleng",
     },
     {
+      name: "Luke Willis",
+      role: "Community Developer",
+      photo: "/images/sections/team/luke.jpg",
+      linkedin: "https://linkedin.com/in/lukemwillis",
+      twitter: "https://twitter.com/lukemwillis",
+      github: "https://github.com/lukemwillis",
+    },
+    {
       name: "Kui He",
       role: "Developer",
       photo: "/images/sections/team/kui.jpg",
@@ -64,6 +88,19 @@ export default function Team() {
         "https://www.linkedin.com/in/juli%C3%A1n-gonz%C3%A1lez-50773962/",
       twitter: "https://twitter.com/joticajulian",
       github: "https://github.com/joticajulian",
+    },
+    {
+      name: "@roamin",
+      role: "Community Developer",
+      photo: "/images/sections/team/roamin.jpg",
+      github: "https://github.com/roaminro",
+    },
+    {
+      name: "Frank Weijers",
+      role: "Community Developer",
+      photo: "/images/sections/team/frank.jpg",
+      github: "https://github.com/frenkzcom",
+      twitter: "https://twitter.com/frenkzcom",
     },
     {
       name: "@mixibo",
