@@ -31,12 +31,6 @@ export default function EcosystemPage() {
       "url": "https://kollection.app/"
     },
     {
-      "name": "Kanvas",
-      "description": "Kanvas is a versatile and dynamic canvas board application that allows users to unleash their creativity and collaborate on various projects in real-time.",
-      "icon": "/images/pages/ecosystem/kanvas.png",
-      "url": "https://kanvas-app.com/"
-    },
-    {
       "name": "Fogata",
       "description": "Fogata is a robust mining pool specifically designed for Koinos enthusiasts, where users can run their own pools or join those of the community.",
       "icon": "/images/pages/ecosystem/fogata.png",
@@ -73,12 +67,6 @@ export default function EcosystemPage() {
       "url": "https://swap.fbslo.net/"
     },
     {
-      "name": "Space Striker",
-      "description": "Space Striker is an engaging and immersive space-themed game that challenges players to navigate and conquer the cosmos in a thrilling adventure.",
-      "icon": "/images/pages/ecosystem/space-striker.png",
-      "url": "https://kanvas-app.com/space_striker/"
-    },
-    {
       "name": "Crypto Bulls",
       "description": "Crypto Bulls is an action-packed first-person shooter game that combines fast-paced combat with strategic gameplay, offering an exciting experience for gamers.",
       "icon": "/images/pages/ecosystem/crypto-bulls.png",
@@ -109,12 +97,6 @@ export default function EcosystemPage() {
       "url": "https://dapp.koinosgarden.com/"
     },
     {
-      "name": "Lords Forsaken",
-      "description": "Lords Forsaken is an exciting NFT card game that combines strategic gameplay with collectible digital cards, offering players a unique and engaging experience.",
-      "icon": "/images/pages/ecosystem/lords-forsaken.png",
-      "url": "https://lordsforsaken.com/"
-    },
-    {
       "name": "Koinosscan",
       "description": "Explore Koinos Blockchain - Search for wallet addresses to view token transfers and balances and NFTs.",
       "icon": "/images/pages/ecosystem/koinosscan.png",
@@ -131,6 +113,12 @@ export default function EcosystemPage() {
       "description": "Cross-chain bridge enabling seamless asset transfers between Koinos and other blockchain networks, providing liquidity and interoperability.",
       "icon": "/images/pages/ecosystem/vortexbridge.png",
       "url": "https://vortexbridge.io/bridge"
+    },
+    {
+      "name": "Koinscan",
+      "description": "A comprehensive block explorer for the Koinos blockchain, providing detailed transaction data, block information, and network analytics.",
+      "icon": "/images/pages/ecosystem/koinscan.png",
+      "url": "https://www.koinscan.io/"
     }
   ]
 
