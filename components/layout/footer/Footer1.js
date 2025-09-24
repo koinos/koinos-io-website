@@ -123,6 +123,22 @@ export default function Footer1() {
                         </div>
                         */}
           </div> {/* END FOOTER CONTENT */}
+          
+          {/* SECURITY NOTICE */}
+          <div className="row mt-50 mb-30">
+            <div className="col-12">
+              <div className="security-notice p-4 bg-dark rounded">
+                <h6 className="s-17 w-700 text-danger mb-3">⚠️ Security Notice</h6>
+                <p className="p-sm text-white mb-2">
+                  <strong>Official Koinos domains only:</strong> koinos.io, claim.koinos.io, docs.koinos.io
+                </p>
+                <p className="p-sm text-warning">
+                  <strong>Warning:</strong> Koinos is NOT currently hiring. Any job offers claiming to be from Koinos are scams. Do not provide personal information or send money.
+                </p>
+              </div>
+            </div>
+          </div>
+          
           <hr /> {/* FOOTER DIVIDER LINE */}
           {/* BOTTOM FOOTER */}
           <div className="bottom-footer">

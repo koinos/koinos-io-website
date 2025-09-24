@@ -55,7 +55,7 @@ export default function FeatureEcosystem() {
                   </div>
                   <div className="col-md-6">
                     {/* FEATURE BOX #3 */}
-                    <div id="fb-12-3" className="fbox-12 bg--white-100 block-shadow r-12 mb-30">
+                    <div id="fb-12-3" className="fbox-12 bg--white-100 block-shadow r-12">
                       {/* Icon */}
                       <div className="fbox-ico ico-50">
                         <div className="shape-ico color--theme">

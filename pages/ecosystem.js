@@ -125,6 +125,12 @@ export default function EcosystemPage() {
       "description": "Web3 for everyone - A user-friendly Koinos wallet accessible from any browser, making blockchain interaction simple and secure.",
       "icon": "/images/pages/ecosystem/sovrano.svg",
       "url": "https://sovrano.io/"
+    },
+    {
+      "name": "VortexBridge",
+      "description": "Cross-chain bridge enabling seamless asset transfers between Koinos and other blockchain networks, providing liquidity and interoperability.",
+      "icon": "/images/pages/ecosystem/vortexbridge.png",
+      "url": "https://vortexbridge.io/bridge"
     }
   ]
 
