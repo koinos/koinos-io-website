@@ -21,10 +21,10 @@ export const useExchangeStore = create(() => ({
       type: "CEX",
     },
     {
-      name: "LCX",
-      icon: "/images/exchanges/lcx-logo.png",
-      url: "https://exchange.lcx.com/trade/KOIN-EUR",
-      type: "CEX",
+      name: "Jupiter",
+      icon: "/images/exchanges/jupiter-logo.png",
+      url: "https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=8AUxdPqYU4FBy5rZDhMJxTniPs7gtEfdHjP3UKM71m6G",
+      type: "DEX (Solana)",
     },
     {
       name: "KoinDX",
