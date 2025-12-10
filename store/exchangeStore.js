@@ -15,12 +15,6 @@ export const useExchangeStore = create(() => ({
       type: "CEX",
     },
     {
-      name: "BingX",
-      icon: "/images/exchanges/bingx-logo.png",
-      url: "https://bingx.com/en/spot/KOINUSDT/",
-      type: "CEX",
-    },
-    {
       name: "Jupiter",
       icon: "/images/exchanges/jupiter-logo.png",
       url: "https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=8AUxdPqYU4FBy5rZDhMJxTniPs7gtEfdHjP3UKM71m6G",

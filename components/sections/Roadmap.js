@@ -144,6 +144,50 @@ export default function Roadmap() {
       title: "",
       description: [
         {
+          text: "Testnet Improvements",
+          icon: "fa-solid fa-flask",
+          description: "Enhancing the testnet infrastructure to support launching test networks with the latest protocol changes and smart contracts.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Fogata v2",
+          icon: "fa-solid fa-fire-flame-curved",
+          description: "New version of Fogata with improved stake/unstake experience and integrated KOIN/VHP exchange functionality.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Kondor Wallet v2",
+          icon: "fa-solid fa-wallet",
+          description: "A new version of the Kondor browser wallet with enhanced features and improved user experience.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Koinscan Improvements",
+          icon: "fa-solid fa-magnifying-glass-chart",
+          description: "Ongoing enhancements to the Koinscan block explorer for better blockchain data visualization and analysis.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
           text: "Public Snapshots",
           icon: "fa-solid fa-file",
           description: "We have had some developers at different times upload Koinos snapshots for general use. However, we have never had a dedicated service for this. It will benefit the entire community if official snapshots are generated and shared.",
