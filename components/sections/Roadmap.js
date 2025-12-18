@@ -111,13 +111,93 @@ export default function Roadmap() {
 
   const roadmap = [
     {
-      title: "Q1",
+      title: "Q3",
+      description: [
+        {
+          text: "Vortex Launch",
+          icon: "fa-solid fa-bridge",
+          description: "Launch of the Vortex bridge, enabling seamless cross-chain interoperability and asset transfers between Koinos and other blockchain networks.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "Q4",
+      description: [
+        {
+          text: "Koinos Fund",
+          icon: "fa-solid fa-coins",
+          description: "Establishment of the Koinos Fund to support ecosystem development, providing grants and resources for developers and projects building on Koinos.",
+        },
+        {
+          text: "Transition to Koinos Community Foundation",
+          icon: "fa-solid fa-people-group",
+          description: "Transition governance and ecosystem development to the Koinos Community Foundation, ensuring long-term decentralized growth and community-driven decision making.",
+        },
+      ],
+      status: "todo",
+    },
+  ];
+
+  const beyondRoadmap = [
+    {
+      title: "",
+      description: [
+        {
+          text: "Testnet Improvements",
+          icon: "fa-solid fa-flask",
+          description: "Enhancing the testnet infrastructure to support launching test networks with the latest protocol changes and smart contracts.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Fogata v2",
+          icon: "fa-solid fa-fire-flame-curved",
+          description: "New version of Fogata with improved stake/unstake experience and integrated KOIN/VHP exchange functionality.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Kondor Wallet v2",
+          icon: "fa-solid fa-wallet",
+          description: "A new version of the Kondor browser wallet with enhanced features and improved user experience.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
+        {
+          text: "Koinscan Improvements",
+          icon: "fa-solid fa-magnifying-glass-chart",
+          description: "Ongoing enhancements to the Koinscan block explorer for better blockchain data visualization and analysis.",
+        },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
       description: [
         {
           text: "Public Snapshots",
           icon: "fa-solid fa-file",
           description: "We have had some developers at different times upload Koinos snapshots for general use. However, we have never had a dedicated service for this. It will benefit the entire community if official snapshots are generated and shared.",
         },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
         {
           text: "REST API v1.1",
           icon: "fa-solid fa-server",
@@ -127,7 +207,7 @@ export default function Roadmap() {
       status: "todo",
     },
     {
-      title: "Q2",
+      title: "",
       description: [
         {
           text: "Authority System v2",
@@ -138,13 +218,19 @@ export default function Roadmap() {
       status: "todo",
     },
     {
-      title: "Q3",
+      title: "",
       description: [
         {
           text: "Client Libraries",
           icon: "fa-solid fa-code",
           description: "Some of the most requested library languages, from developers and partners, are Python and Golang. With the updated REST API, we want to create client libraries for these languages and many more to reach developers where they are currently at."
         },
+      ],
+      status: "todo",
+    },
+    {
+      title: "",
+      description: [
         {
           text: "C SDK",
           icon: "fa-solid fa-code",
@@ -154,7 +240,7 @@ export default function Roadmap() {
       status: "todo",
     },
     {
-      title: "Q4",
+      title: "",
       description: [
         {
           text: "VSCode Extension",
@@ -164,9 +250,6 @@ export default function Roadmap() {
       ],
       status: "todo",
     },
-  ];
-
-  const beyondRoadmap = [
     {
       title: "",
       description: [
@@ -317,16 +400,18 @@ export default function Roadmap() {
                   </div>
                 ))}
 
-                <div className="row justify-content-center">
-                  <div className="col-md-8">
-                    <div className="section-title my-5">
-                      {/* Title */}
-                      <h2 className="s-50 w-700">{year}</h2>
+                {roadmap.length > 0 && (
+                  <>
+                    <div className="row justify-content-center">
+                      <div className="col-md-8">
+                        <div className="section-title my-5">
+                          {/* Title */}
+                          <h2 className="s-50 w-700">{year}</h2>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
 
-                {roadmap.map((item, index) => (
+                    {roadmap.map((item, index) => (
                   <div key={index} data-aos='fade-up'>
                     <div className="cbox-2 process-step">
                       <div className="cbox-2-txt me-4">
@@ -374,7 +459,9 @@ export default function Roadmap() {
                       </div>
                     </div>
                   </div>
-                ))}
+                    ))}
+                  </>
+                )}
 
                 <div className="row justify-content-center">
                   <div className="col-md-8">

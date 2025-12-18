@@ -3,10 +3,10 @@ import { create } from "zustand"
 export const useExchangeStore = create(() => ({
   exchanges: [
     {
-      name: "Uniswap",
-      icon: "/images/exchanges/uniswap-logo.png",
-      url: "https://app.uniswap.org/explore/tokens/ethereum/0xed11c9bcf69fdd2eefd9fe751bfca32f171d53ae",
-      type: "DEX",
+      name: "DeFiLlama",
+      icon: "/images/exchanges/defillama.svg",
+      url: "https://swap.defillama.com/?chain=ethereum&from=0x0000000000000000000000000000000000000000&tab=swap&to=0xa50ad3a559A10f384a5bB2e27516f63E0B937b1A",
+      type: "DEX (vKOIN on Ethereum)",
     },
     {
       name: "MEXC",
@@ -15,16 +15,10 @@ export const useExchangeStore = create(() => ({
       type: "CEX",
     },
     {
-      name: "BingX",
-      icon: "/images/exchanges/bingx-logo.png",
-      url: "https://bingx.com/en/spot/KOINUSDT/",
-      type: "CEX",
-    },
-    {
-      name: "LCX",
-      icon: "/images/exchanges/lcx-logo.png",
-      url: "https://exchange.lcx.com/trade/KOIN-EUR",
-      type: "CEX",
+      name: "Jupiter",
+      icon: "/images/exchanges/jupiter-logo.png",
+      url: "https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=8AUxdPqYU4FBy5rZDhMJxTniPs7gtEfdHjP3UKM71m6G",
+      type: "DEX (Solana)",
     },
     {
       name: "KoinDX",

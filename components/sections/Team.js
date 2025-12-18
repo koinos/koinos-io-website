@@ -4,7 +4,7 @@ export default function Team() {
   const team = [
     {
       name: "Steve Gerbino",
-      role: "CEO of Koinos Group and Koinos Architect",
+      role: "Koinos Founder & Blockchain Architect",
       photo: "/images/sections/team/steve.png",
       twitter: "https://twitter.com/ssgerbino",
       linkedin: "https://www.linkedin.com/in/stevegerbino/",
@@ -12,7 +12,7 @@ export default function Team() {
     },
     {
       name: "Michael Vandeberg",
-      role: "CTO of Koinos Group and Koinos Architect",
+      role: "Koinos Founder & Blockchain Architect",
       photo: "/images/sections/team/michael.png",
       twitter: "https://twitter.com/koinosvandeberg",
       github: "https://github.com/mvandeberg",
@@ -20,14 +20,20 @@ export default function Team() {
     },
     {
       name: "Jon Rice",
-      role: "Media & Comms",
+      role: "Community Advocate",
       photo: "/images/sections/team/jon.jpg",
       linkedin: "https://www.linkedin.com/in/jonricecrypto/",
       twitter: "https://twitter.com/jonricecrypto",
     },
     {
+      name: "Pablo Garcia",
+      role: "Project Manager + Developer",
+      photo: "/images/sections/team/pablo.jpg",
+      twitter: "https://x.com/pgarcgo",
+    },
+    {
       name: "Ron Hamenahem",
-      role: "COO of Koinos Group",
+      role: "Koinos Founder, Project Manager + Developer",
       photo: "/images/sections/team/ron.png",
       github: "https://github.com/brklyn8900",
     },
@@ -47,7 +53,7 @@ export default function Team() {
     },
     {
       name: "Luke Willis",
-      role: "Developer",
+      role: "Community Developer",
       photo: "/images/sections/team/luke.jpg",
       linkedin: "https://linkedin.com/in/lukemwillis",
       twitter: "https://twitter.com/lukemwillis",
@@ -85,13 +91,13 @@ export default function Team() {
     },
     {
       name: "@roamin",
-      role: "Developer",
+      role: "Community Developer",
       photo: "/images/sections/team/roamin.jpg",
       github: "https://github.com/roaminro",
     },
     {
       name: "Frank Weijers",
-      role: "Developer",
+      role: "Community Developer",
       photo: "/images/sections/team/frank.jpg",
       github: "https://github.com/frenkzcom",
       twitter: "https://twitter.com/frenkzcom",
@@ -107,6 +113,13 @@ export default function Team() {
       role: "Developer",
       photo: "/images/sections/team/red.jpg",
       github: "https://github.com/EtheredRaven",
+    },
+    {
+      name: "@interfecto",
+      role: "Consultant + Developer",
+      photo: "/images/sections/team/interfecto.jpg",
+      github: "https://github.com/interfecto",
+      twitter: "https://x.com/interf3cto",
     },
   ];
 

@@ -113,26 +113,6 @@ export default function FeatureCommunity() {
                         </p>
                       </div>
                     </div>
-                    {/* FEATURE BOX #4 */}
-                    <div id="fb-12-4" className="fbox-12 bg--white-100 block-shadow r-12">
-                      {/* Icon */}
-                      <div className="fbox-ico ico-50">
-                        <div className="shape-ico color--theme">
-                          {/* Vector Icon */}
-                          <span className="fa-solid fa-angles-right fa-3x" />
-                          {/* Shape */}
-                          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                          </svg>
-                        </div>
-                      </div> {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h5 className="s-19 w-700">More</h5>
-                        <p>Visit the <a href="/community">community page</a> to discover Koinos international and dApp groups.
-                        </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div> {/* End row */}
