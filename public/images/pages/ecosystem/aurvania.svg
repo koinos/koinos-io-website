@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Aurvania">
+  <title>Aurvania</title>
+  <rect width="128" height="128" rx="22" fill="#191324"/>
+  <g transform="translate(64,66) scale(.84) translate(-64,-64)">
+    <path d="M55 14h18l37 100H86l-7-28H49l-7 28H18Zm9 19 10.5 41h-21Z" fill="#f2c94c" fill-rule="evenodd"/>
+    <rect x="29" y="74" width="70" height="12" fill="#f2c94c"/>
+    <polygon points="71.5,56 67.75,61.62 60.25,61.62 56.5,56 60.25,50.38 67.75,50.38" fill="#8a3ffc"/>
+  </g>
+</svg>
