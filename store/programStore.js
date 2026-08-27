@@ -3,6 +3,24 @@ import Link from "next/link"
 
 export const useProgramStore = create(() => ({
   programs: {
+    koinosAI: {
+      url: "https://www.koinosai.com/",
+      title: "Koinos AI",
+      subtitle: "Own your AI. Share the scale.",
+      shortDescription:
+        "Run private AI on your own hardware, use an OpenAI-compatible API, and contribute idle compute to the Koinos AI network.",
+      keyPoints: [
+        "Keep chats, prompts, and files private with local-first AI",
+        "Connect applications through a self-hosted OpenAI-compatible API",
+        "Contribute idle GPU compute and earn testnet KAI during the alpha",
+      ],
+      website: "https://www.koinosai.com/",
+      images: {
+        banner: "/images/programs/koinos-ai.svg",
+      },
+      featured: true,
+      active: true,
+    },
     koindxFarm: {
       url: "/programs/koindx-farm",
       title: "KoinDX Farm",
@@ -30,7 +48,7 @@ export const useProgramStore = create(() => ({
       images: {
         banner: "/images/programs/koindx-farm.png",
       },
-      featured: true,
+      featured: false,
       active: true,
     },
     taskonQuest: {
