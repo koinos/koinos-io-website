@@ -4,82 +4,135 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
+const ecosystemProjects = [
+  {
+    name: "KoinDX",
+    description: "KoinDX is a decentralized exchange designed to facilitate seamless token swaps, providing users with a fast, and user-friendly trading experience.",
+    icon: "/images/pages/ecosystem/koindx.png",
+    url: "https://koindx.com/",
+  },
+  {
+    name: "Trade Koinos",
+    description: "Trade Koinos is a live, non-custodial mainnet DEX built around a fully on-chain order book, with limit and market orders, live depth, trade history, and permissionless pair listings.",
+    icon: "/images/pages/ecosystem/trade-koinos.svg",
+    links: [
+      { label: "Website", url: "https://tradekoinos.com/" },
+      { label: "GitHub", url: "https://github.com/therexdev/Token-Trading" },
+    ],
+  },
+  {
+    name: "Kollection",
+    description: "Kollection is an open-source NFT marketplace for creating, discovering, and trading digital assets on Koinos.",
+    icon: "/images/pages/ecosystem/kollection.png",
+    url: "https://github.com/kollection-nft",
+  },
+  {
+    name: "OURO",
+    description: "OURO is a live Koinos mainnet marketplace for discovering, creating, listing, and trading KCS-2 assets in KOIN, with non-custodial listings, creator royalties, and sponsored mana.",
+    icon: "/images/pages/ecosystem/ouro.svg",
+    links: [
+      { label: "Website", url: "https://ouro.lifestyle/" },
+      { label: "GitHub", url: "https://github.com/therexdev/marketplace" },
+    ],
+  },
+  {
+    name: "Aurvania",
+    description: "Aurvania is a live, free-to-play and play-to-own dungeon crawler on Koinos mainnet where players catch and evolve creatures, explore dungeons, and own in-game relics as NFTs.",
+    icon: "/images/pages/ecosystem/aurvania.svg",
+    links: [
+      { label: "Website", url: "https://aurvania.quest/" },
+      { label: "Documentation", url: "https://aurvania.quest/docs.html" },
+    ],
+  },
+  {
+    name: "Discover Koinos",
+    description: "Discover Koinos is an interactive onboarding preview where newcomers can create a Koinos account, mint an NFT, and launch a token with sponsored mana and no wallet extension required.",
+    icon: "/images/pages/ecosystem/discover-koinos.svg",
+    links: [
+      { label: "Website", url: "https://usekoinos.com/" },
+      { label: "GitHub", url: "https://github.com/therexdev/discover-koinos" },
+    ],
+  },
+  {
+    name: "Koinos AI",
+    description: "Koinos AI is an alpha local-first desktop AI app and experimental compute network for running private models, exposing an OpenAI-compatible API, and contributing idle compute for testnet KAI rewards.",
+    icon: "/images/pages/ecosystem/koinos-ai.svg",
+    links: [
+      { label: "Website", url: "https://koinosai.com/" },
+      { label: "GitHub", url: "https://github.com/therexdev/kaiapp" },
+    ],
+  },
+  {
+    name: "Fogata",
+    description: "Fogata is a robust mining pool specifically designed for Koinos enthusiasts, where users can run their own pools or join those of the community.",
+    icon: "/images/pages/ecosystem/fogata.png",
+    url: "https://fogata.io/",
+  },
+  {
+    name: "BurnKoin",
+    description: "BurnKoin is a dedicated mining pool focused on optimizing mining rewards for its users, providing a reliable and efficient environment for Koinos miners.",
+    icon: "/images/pages/ecosystem/burnkoin.png",
+    url: "https://burnkoin.com/",
+  },
+  {
+    name: "Koinos Blocks",
+    description: "Koinos Blocks is a detailed block explorer for the Koinos blockchain, offering comprehensive data and analytics for users to explore.",
+    icon: "/images/pages/ecosystem/koinosblocks.png",
+    url: "https://koinosblocks.com/",
+  },
+  {
+    name: "Koinos One",
+    description: "Koinos One is a community-driven experimental desktop app for running, restoring, backing up, and producing with a native Koinos node.",
+    icon: "/images/pages/ecosystem/koinos-one.png",
+    url: "https://github.com/koinos/koinos-one",
+  },
+  {
+    name: "KoinosKit",
+    description: "KoinosKit is an experimental open-source desktop app for running and monitoring a Koinos block-producing node, with guided setup, wallet and VHP management, quick sync, and reward tracking.",
+    icon: "/images/pages/ecosystem/koinoskit.svg",
+    links: [
+      { label: "Website", url: "https://koinoskit.site/" },
+      { label: "GitHub", url: "https://github.com/therexdev/Koinos-Node" },
+    ],
+  },
+  {
+    name: "Teleno",
+    description: "Teleno is an experimental monolithic, Koinos-compatible blockchain node developed as a single native binary. The official Koinos reference implementation remains the microservices architecture.",
+    icon: "/images/pages/ecosystem/teleno.png",
+    url: "https://github.com/koinos/teleno",
+  },
+  {
+    name: "Koin Crew",
+    description: "Koin Crew offers a suite of utilities designed to enhance the Koinos ecosystem, providing users with a range of tools and services to optimize their blockchain experience.",
+    icon: "/images/pages/ecosystem/koincrew.png",
+    url: "https://koincrew.com/",
+  },
+  {
+    name: "Koinosscan",
+    description: "Explore Koinos Blockchain - Search for wallet addresses to view token transfers and balances and NFTs.",
+    icon: "/images/pages/ecosystem/koinosscan.png",
+    url: "https://koinosscan.com/",
+  },
+  {
+    name: "VortexBridge",
+    description: "Cross-chain bridge enabling seamless asset transfers between Koinos and other blockchain networks, providing liquidity and interoperability.",
+    icon: "/images/pages/ecosystem/vortexbridge.png",
+    url: "https://vortexbridge.io/bridge",
+  },
+  {
+    name: "Koinscan",
+    description: "A comprehensive block explorer for the Koinos blockchain, providing detailed transaction data, block information, and network analytics.",
+    icon: "/images/pages/ecosystem/koinscan.png",
+    url: "https://www.koinscan.com/",
+  },
+];
+
 export default function EcosystemPage() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
     });
   }, []);
-
-  const dapps = [
-    {
-      "name": "KoinDX",
-      "description": "KoinDX is a decentralized exchange designed to facilitate seamless token swaps, providing users with a fast, and user-friendly trading experience.",
-      "icon": "/images/pages/ecosystem/koindx.png",
-      "url": "https://koindx.com/"
-    },
-    {
-      "name": "Kollection",
-      "description": "Kollection is an open-source NFT marketplace for creating, discovering, and trading digital assets on Koinos.",
-      "icon": "/images/pages/ecosystem/kollection.png",
-      "url": "https://github.com/kollection-nft"
-    },
-    {
-      "name": "Fogata",
-      "description": "Fogata is a robust mining pool specifically designed for Koinos enthusiasts, where users can run their own pools or join those of the community.",
-      "icon": "/images/pages/ecosystem/fogata.png",
-      "url": "https://fogata.io/"
-    },
-    {
-      "name": "BurnKoin",
-      "description": "BurnKoin is a dedicated mining pool focused on optimizing mining rewards for its users, providing a reliable and efficient environment for Koinos miners.",
-      "icon": "/images/pages/ecosystem/burnkoin.png",
-      "url": "https://burnkoin.com/"
-    },
-    {
-      "name": "Koinos Blocks",
-      "description": "Koinos Blocks is a detailed block explorer for the Koinos blockchain, offering comprehensive data and analytics for users to explore.",
-      "icon": "/images/pages/ecosystem/koinosblocks.png",
-      "url": "https://koinosblocks.com/"
-    },
-    {
-      "name": "Koinos One",
-      "description": "Koinos One is a community-driven experimental desktop app for running, restoring, backing up, and producing with a native Koinos node.",
-      "icon": "/images/pages/ecosystem/koinos-one.png",
-      "url": "https://github.com/koinos/koinos-one"
-    },
-    {
-      "name": "Teleno",
-      "description": "Teleno is an experimental monolithic, Koinos-compatible blockchain node developed as a single native binary. The official Koinos reference implementation remains the microservices architecture.",
-      "icon": "/images/pages/ecosystem/teleno.png",
-      "url": "https://github.com/koinos/teleno"
-    },
-    {
-      "name": "Koin Crew",
-      "description": "Koin Crew offers a suite of utilities designed to enhance the Koinos ecosystem, providing users with a range of tools and services to optimize their blockchain experience.",
-      "icon": "/images/pages/ecosystem/koincrew.png",
-      "url": "https://koincrew.com/"
-    },
-    {
-      "name": "Koinosscan",
-      "description": "Explore Koinos Blockchain - Search for wallet addresses to view token transfers and balances and NFTs.",
-      "icon": "/images/pages/ecosystem/koinosscan.png",
-      "url": "https://koinosscan.com/"
-    },
-    {
-      "name": "VortexBridge",
-      "description": "Cross-chain bridge enabling seamless asset transfers between Koinos and other blockchain networks, providing liquidity and interoperability.",
-      "icon": "/images/pages/ecosystem/vortexbridge.png",
-      "url": "https://vortexbridge.io/bridge"
-    },
-    {
-      "name": "Koinscan",
-      "description": "A comprehensive block explorer for the Koinos blockchain, providing detailed transaction data, block information, and network analytics.",
-      "icon": "/images/pages/ecosystem/koinscan.png",
-      "url": "https://www.koinscan.com/"
-    }
-  ]
-
 
   return (
     <>
@@ -108,7 +161,7 @@ export default function EcosystemPage() {
                         KoinDX is a decentralized exchange platform that facilitates seamless and efficient trading of digital assets within the Koinos ecosystem, offering users a user-friendly UX with a modern design.
                       </p>
 
-                      <a href="https://koindx.com/" className="btn btn-success border border-success btn-round-md">Visit KoinDX</a>
+                      <a href="https://koindx.com/" target="_blank" rel="noreferrer" className="btn btn-success border border-success btn-round-md">Visit KoinDX</a>
 
                     </div>
                   </div>	{/* END TEXT BLOCK */}
@@ -144,13 +197,17 @@ export default function EcosystemPage() {
               <div className="fbox-wrapper">
                 <div className="row row-cols-1 row-cols-md-2 rows-3">
                   {/* FEATURE BOX #1 */}
-                  {dapps.map((dapp, index) => (
-                    <div className="col-12 d-flex flex-column flex-md-row align-items-center mb-60 mt-30 gap-4" key={index}>
+                  {ecosystemProjects.map((dapp) => (
+                    <div className="col-12 d-flex flex-column flex-md-row align-items-center mb-60 mt-30 gap-4" key={dapp.name}>
                       <img src={dapp.icon} alt={dapp.name} style={{ width: "150px" }} className="mb-3 mb-md-0" />
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">{dapp.name}</h6>
                         <p>{dapp.description}</p>
-                        <a href={dapp.url} className="btn-link mt-8">Learn more</a>
+                        <div className="d-flex flex-wrap gap-3 mt-8">
+                          {(dapp.links || [{ label: "Learn more", url: dapp.url }]).map((link) => (
+                            <a href={link.url} target="_blank" rel="noreferrer" className="btn-link" key={link.url}>{link.label}</a>
+                          ))}
+                        </div>
                       </div>
                     </div>
                   ))}
