@@ -12,7 +12,7 @@ export const useProgramStore = create(() => ({
       keyPoints: [
         "Keep chats, prompts, and files private with local-first AI",
         "Connect applications through a self-hosted OpenAI-compatible API",
-        "Contribute idle GPU compute and earn testnet KAI during the alpha",
+        "Contribute idle GPU and CPU compute and earn testnet KAI during the alpha",
       ],
       website: "https://www.koinosai.com/",
       images: {
