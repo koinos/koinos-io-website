@@ -46,7 +46,11 @@ export default function FeaturedProgram() {
               </div>
               <div className="col-md-6 order-first order-md-2">
                 <div className="img-block right-column wow" data-aos='fade-right'>
-                  <img className="img-fluid rounded" src={featuredProgram.images.banner} alt="content-image" />
+                  <img
+                    className="img-fluid rounded"
+                    src={featuredProgram.images.banner}
+                    alt={`${featuredProgram.title} featured program`}
+                  />
                 </div>
               </div>
             </div>

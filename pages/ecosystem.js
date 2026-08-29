@@ -155,20 +155,20 @@ export default function EcosystemPage() {
                         Featured
                       </span>
                       {/* Title */}
-                      <h2 className="s-56 w-700">KoinDX</h2>
+                      <h2 className="s-56 w-700">Koinos AI</h2>
                       {/* Text */}
                       <p className="p-lg w-400">
-                        KoinDX is a decentralized exchange platform that facilitates seamless and efficient trading of digital assets within the Koinos ecosystem, offering users a user-friendly UX with a modern design.
+                        Run private AI on your own hardware, connect applications through an OpenAI-compatible API, and contribute idle compute to the Koinos AI network.
                       </p>
 
-                      <a href="https://koindx.com/" target="_blank" rel="noreferrer" className="btn btn-success border border-success btn-round-md">Visit KoinDX</a>
+                      <a href="https://www.koinosai.com/" target="_blank" rel="noreferrer" className="btn btn-success border border-success btn-round-md">Visit Koinos AI</a>
 
                     </div>
                   </div>	{/* END TEXT BLOCK */}
                   {/* IMAGE BLOCK */}
                   <div className="col-md-6">
                     <div className="img-block right-column wow" data-aos='fade-right'>
-                      <img className="img-fluid btn color--theme" src="/images/pages/ecosystem/koindx-swap.png" alt="KoinDX" />
+                      <img className="img-fluid btn color--theme" src="/images/programs/koinos-ai.svg" alt="Koinos AI" />
                     </div>
                   </div>
                 </div>   {/* End row */}

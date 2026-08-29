@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 602 337" role="img" aria-labelledby="title description">
+  <title id="title">Koinos AI</title>
+  <desc id="description">Koinos AI promotion with the KAI mark and the message Own your AI. Share the scale.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090b"/>
+      <stop offset="0.55" stop-color="#0a1214"/>
+      <stop offset="1" stop-color="#17120b"/>
+    </linearGradient>
+    <radialGradient id="teal-glow" cx="0" cy="0" r="1" gradientTransform="translate(500 62) rotate(135) scale(270 210)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#33e6c0" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#33e6c0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gold-glow" cx="0" cy="0" r="1" gradientTransform="translate(510 300) rotate(-145) scale(250 190)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f2b03d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f2b03d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="602" height="337" rx="14" fill="url(#background)"/>
+  <rect width="602" height="337" rx="14" fill="url(#teal-glow)"/>
+  <rect width="602" height="337" rx="14" fill="url(#gold-glow)"/>
+  <rect width="602" height="337" rx="14" fill="url(#grid)"/>
+
+  <g transform="translate(66 61)">
+    <path d="M38 0 72 20v40L38 80 4 60V20Z" fill="#0a0a0c" stroke="#33e6c0" stroke-width="3"/>
+    <path d="M27 22v36m0-18 22-18M27 40l22 18" fill="none" stroke="#f2b03d" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <text x="66" y="181" fill="#33e6c0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">KOINOS AI</text>
+  <text x="66" y="225" fill="#f7f8f8" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Own your AI.</text>
+  <text x="66" y="265" fill="#f7f8f8" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Share the scale.</text>
+  <text x="67" y="300" fill="#9ba7a8" font-family="Inter, Arial, sans-serif" font-size="14" letter-spacing="1.2">LOCAL-FIRST  ·  PRIVATE  ·  OPEN</text>
+
+  <g transform="translate(385 107)" fill="none" stroke-linecap="round">
+    <circle cx="71" cy="61" r="52" stroke="#33e6c0" stroke-opacity="0.42"/>
+    <circle cx="71" cy="61" r="75" stroke="#33e6c0" stroke-opacity="0.14"/>
+    <path d="M0 61h142M71-10v142M21 11l100 100M121 11 21 111" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="71" cy="61" r="9" fill="#f2b03d" stroke="#f2b03d"/>
+    <circle cx="71" cy="-10" r="5" fill="#33e6c0" stroke="#33e6c0"/>
+    <circle cx="142" cy="61" r="5" fill="#33e6c0" stroke="#33e6c0"/>
+    <circle cx="71" cy="132" r="5" fill="#33e6c0" stroke="#33e6c0"/>
+    <circle cx="0" cy="61" r="5" fill="#33e6c0" stroke="#33e6c0"/>
+  </g>
+</svg>
