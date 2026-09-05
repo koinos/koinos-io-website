@@ -15,7 +15,9 @@ export default function Wallets() {
       chrome: true,
       android: false,
       ios: false,
-      url: "https://chromewebstore.google.com/detail/kondor/ghipkefkpgkladckmlmdnadmcchefhjl"
+      // kondorwallet.com is the canonical entry point; it links to the current
+      // Kondor Wallet listing. The old "Kondor" store listing is a previous version.
+      url: "https://kondorwallet.com/"
     }
   ]
 

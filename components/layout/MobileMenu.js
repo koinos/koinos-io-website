@@ -47,6 +47,11 @@ export default function MobileMenu({ handleMobileMenu }) {
             style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}
           >
             <li aria-haspopup="true">
+              <Link href="/get-koin" onClick={handleMobileMenu}>
+                How to buy KOIN
+              </Link>
+            </li>
+            <li aria-haspopup="true">
               <Link href="/whitepaper" onClick={handleMobileMenu}>
                 Whitepaper
               </Link>

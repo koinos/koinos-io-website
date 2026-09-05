@@ -1,0 +1,871 @@
+/* Styles for the /get-koin beginner guide.
+   Palette follows the site theme colour (#9966FF) on the dark page background
+   used by the rest of koinos.io. */
+
+.page {
+  --gk-bg: #0c0c0f;
+  --gk-panel: #15151a;
+  --gk-panel-2: #1c1c23;
+  --gk-ink: #f4f4f6;
+  --gk-muted: #a2a2ad;
+  --gk-line: rgba(255, 255, 255, 0.1);
+  --gk-theme: #9966ff;
+  --gk-theme-soft: rgba(153, 102, 255, 0.13);
+  --gk-warn: #ffb020;
+  --gk-warn-soft: rgba(255, 176, 32, 0.12);
+  --gk-cost: #4db8ff;
+  --gk-cost-soft: rgba(77, 184, 255, 0.12);
+  --gk-ok: #46d38a;
+  --gk-ok-soft: rgba(70, 211, 138, 0.12);
+
+  position: relative;
+  background: var(--gk-bg);
+  color: var(--gk-ink);
+  padding-bottom: 5rem;
+}
+
+.wrap {
+  width: min(860px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+/* ------------------------------------------------------------------ hero */
+
+.hero {
+  position: relative;
+  padding: 6rem 0 2.5rem;
+  background:
+    radial-gradient(circle at 80% 0%, rgba(153, 102, 255, 0.16), transparent 30rem),
+    var(--gk-bg);
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gk-theme);
+}
+
+.h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--gk-ink);
+}
+
+.lead {
+  margin: 0 0 1.75rem;
+  font-size: 1.25rem;
+  line-height: 1.55;
+  color: var(--gk-ink);
+}
+
+.heroText,
+.bodyText {
+  margin: 0 0 1.1rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--gk-muted);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.9rem 1.9rem;
+  border-radius: 100px;
+  background: var(--gk-theme);
+  color: #14091f !important;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.cta:hover {
+  background: #ab80ff;
+  color: #14091f !important;
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------- section */
+
+.section {
+  padding: 2.75rem 0;
+  border-top: 1px solid var(--gk-line);
+  /* #choose and #guide are shared as links, so a jump must clear the header. */
+  scroll-margin-top: 1.5rem;
+}
+
+.h2 {
+  margin: 0 0 0.9rem;
+  font-size: clamp(1.7rem, 3.4vw, 2.2rem);
+  font-weight: 700;
+  color: var(--gk-ink);
+}
+
+.h3 {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gk-ink);
+}
+
+.sectionLead {
+  margin: 0 0 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--gk-muted);
+}
+
+/* ----------------------------------------------- native vs wrapped table */
+
+.compare {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.compareCard {
+  padding: 1.6rem;
+  border: 1px solid var(--gk-line);
+  border-radius: 16px;
+  background: var(--gk-panel);
+}
+
+.compareCard h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gk-theme);
+}
+
+.compareWhere {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--gk-muted);
+}
+
+.compareCard ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.compareCard li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+  color: var(--gk-muted);
+}
+
+.contracts {
+  margin-top: 2.5rem;
+}
+
+.tableScroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.table {
+  width: 100%;
+  min-width: 34rem;
+  margin: 1rem 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.table th {
+  padding: 0.6rem 0.75rem 0.6rem 0;
+  border-bottom: 1px solid var(--gk-line);
+  text-align: left;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gk-muted);
+}
+
+.table td,
+.table tbody th {
+  padding: 0.85rem 0.75rem 0.85rem 0;
+  border-bottom: 1px solid var(--gk-line);
+  color: var(--gk-ink);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table tbody th {
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.95rem;
+}
+
+.address {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85rem;
+  color: var(--gk-theme);
+  word-break: break-all;
+}
+
+.copyButton {
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--gk-line);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--gk-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.copyButton:hover {
+  border-color: var(--gk-theme);
+  color: var(--gk-theme);
+}
+
+.fineprint {
+  margin: 0 0 0.9rem;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--gk-muted);
+}
+
+.fineprint a {
+  color: var(--gk-theme);
+}
+
+/* --------------------------------------------------------------- chooser */
+
+.chooser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.legend {
+  margin-bottom: 0.75rem;
+  padding: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gk-muted);
+}
+
+.options {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid var(--gk-line);
+  border-radius: 12px;
+  background: var(--gk-panel);
+  color: var(--gk-ink);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.option:hover {
+  border-color: rgba(153, 102, 255, 0.5);
+}
+
+.optionActive {
+  border-color: var(--gk-theme);
+  background: var(--gk-theme-soft);
+}
+
+.optionActive .optionName::after {
+  content: " ✓";
+  color: var(--gk-theme);
+}
+
+.optionName {
+  font-weight: 700;
+}
+
+.optionMeta {
+  font-size: 0.85rem;
+  color: var(--gk-muted);
+}
+
+/* ------------------------------------------------------------- your plan */
+
+.plan,
+.mismatch {
+  padding: 1.6rem;
+  border: 1px solid var(--gk-line);
+  border-radius: 16px;
+  background: var(--gk-panel);
+}
+
+.mismatch {
+  border-color: rgba(255, 176, 32, 0.4);
+  background: var(--gk-warn-soft);
+}
+
+.planTitle,
+.mismatchTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--gk-theme);
+}
+
+.mismatchTitle {
+  color: var(--gk-warn);
+}
+
+.mismatch p {
+  margin: 0 0 0.5rem;
+  color: var(--gk-ink);
+}
+
+.planText {
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--gk-ink);
+}
+
+.planFacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.25rem;
+  padding: 1.1rem 0 0;
+  border-top: 1px solid var(--gk-line);
+}
+
+.planFacts dt {
+  margin-bottom: 0.2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gk-muted);
+}
+
+.planFacts dd {
+  margin: 0;
+  font-weight: 600;
+  color: var(--gk-ink);
+}
+
+.planNote {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--gk-muted);
+}
+
+.mismatchAction {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--gk-theme);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--gk-theme);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mismatchAction:hover {
+  background: var(--gk-theme-soft);
+}
+
+/* ----------------------------------------------------------------- steps */
+
+.steps {
+  display: grid;
+  gap: 1.5rem;
+  min-width: 0;
+}
+
+.step {
+  /* Grid items default to min-width:auto, so an unbreakable contract address
+     in the body text would widen the card past a phone's viewport. */
+  min-width: 0;
+  overflow-wrap: anywhere;
+  padding: 1.5rem 1.7rem;
+  border: 1px solid var(--gk-line);
+  border-radius: 18px;
+  background: var(--gk-panel);
+}
+
+.stepHead {
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--gk-line);
+}
+
+.stepCount {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gk-theme);
+}
+
+.stepTitle {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--gk-ink);
+}
+
+.stepContext {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--gk-muted);
+}
+
+.stepBody {
+  padding-top: 1.3rem;
+}
+
+.stepBody p {
+  margin: 0 0 1.05rem;
+  line-height: 1.7;
+  color: var(--gk-muted);
+  overflow-wrap: anywhere;
+}
+
+.stepLink {
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  margin: 0.25rem 0 1.4rem;
+  padding: 0.65rem 1.4rem;
+  border-radius: 100px;
+  background: var(--gk-theme);
+  color: #14091f !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.stepLink:hover {
+  background: #ab80ff;
+  color: #14091f !important;
+}
+
+.micro {
+  margin: 0 0 1.4rem;
+  padding-left: 1.3rem;
+}
+
+.micro li {
+  margin-bottom: 0.45rem;
+  line-height: 1.65;
+  color: var(--gk-ink);
+}
+
+/* ------------------------------------------------------------ screenshot */
+
+.shot {
+  margin: 0 0 1.4rem;
+}
+
+.shot img {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  height: auto;
+  border: 1px solid var(--gk-line);
+  border-radius: 12px;
+  background: #000;
+}
+
+/* Vendor documentation screenshots of extension pop-ups are portrait and
+   often light-themed; give them a neutral mat so they sit on the dark page
+   without looking cropped, and keep them phone-width. */
+.shotNarrow img {
+  width: auto;
+  max-width: min(280px, 100%);
+  margin: 0 auto;
+  padding: 0.75rem;
+  background: var(--gk-panel-2);
+}
+
+.shot figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--gk-muted);
+  text-align: center;
+}
+
+/* -------------------------------------------------------------- callouts */
+
+.callout {
+  display: flex;
+  gap: 0.9rem;
+  margin: 0 0 1rem;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid;
+  border-radius: 0 10px 10px 0;
+}
+
+.callout p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--gk-ink);
+}
+
+.calloutLabel {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 0.2rem;
+}
+
+.callout_tip {
+  border-color: var(--gk-ok);
+  background: var(--gk-ok-soft);
+}
+
+.callout_tip .calloutLabel {
+  color: var(--gk-ok);
+}
+
+.callout_warning {
+  border-color: var(--gk-warn);
+  background: var(--gk-warn-soft);
+}
+
+.callout_warning .calloutLabel {
+  color: var(--gk-warn);
+}
+
+.callout_cost {
+  border-color: var(--gk-cost);
+  background: var(--gk-cost-soft);
+}
+
+.callout_cost .calloutLabel {
+  color: var(--gk-cost);
+}
+
+.check {
+  margin: 1.4rem 0 0;
+  padding: 1rem 1.2rem;
+  border: 1px dashed var(--gk-line);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--gk-ink) !important;
+}
+
+.check span {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gk-muted);
+}
+
+/* --------------------------------------------------------- wallet notes */
+
+.walletNotes {
+  margin-top: 2.5rem;
+  padding: 1.9rem;
+  border: 1px solid var(--gk-line);
+  border-radius: 18px;
+  background: var(--gk-panel-2);
+}
+
+.walletNotes .h3 {
+  margin-top: 0;
+}
+
+.notesList {
+  margin: 0 0 1.4rem;
+  padding-left: 1.2rem;
+}
+
+.notesList li {
+  margin-bottom: 0.65rem;
+  line-height: 1.65;
+  color: var(--gk-muted);
+}
+
+/* ---------------------------------------------------- safety / faq / etc */
+
+.safety {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.safety li {
+  position: relative;
+  margin-bottom: 0.85rem;
+  padding-left: 2rem;
+  line-height: 1.65;
+  color: var(--gk-muted);
+}
+
+.safety li::before {
+  position: absolute;
+  left: 0;
+  content: "✓";
+  color: var(--gk-theme);
+  font-weight: 700;
+}
+
+.faqs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.faq {
+  border-bottom: 1px solid var(--gk-line);
+}
+
+.faqButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 1.15rem 0;
+  border: 0;
+  background: transparent;
+  color: var(--gk-ink);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.faqButton:hover {
+  color: var(--gk-theme);
+}
+
+.faqSign {
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  color: var(--gk-theme);
+}
+
+.faqAnswer {
+  margin: 0;
+  padding: 0 0 1.3rem;
+  line-height: 1.7;
+  color: var(--gk-muted);
+}
+
+.glossary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.4rem;
+  margin: 0;
+}
+
+.glossary dt {
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+  color: var(--gk-theme);
+}
+
+.glossary dd {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--gk-muted);
+}
+
+/* ---------------------------------------------------------------- sticky */
+
+.sticky {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: min(420px, calc(100% - 2.5rem));
+  padding: 0.55rem 0.55rem 0.55rem 1.1rem;
+  border: 1px solid var(--gk-line);
+  border-radius: 100px;
+  background: rgba(21, 21, 26, 0.96);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.stickyText {
+  overflow: hidden;
+  font-size: 0.85rem;
+  color: var(--gk-ink);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.stickyAction {
+  flex-shrink: 0;
+  padding: 0.45rem 1.1rem;
+  border-radius: 100px;
+  background: var(--gk-theme);
+  color: #14091f !important;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.stickyAction:hover {
+  color: #14091f !important;
+}
+
+/* ------------------------------------------------------------ risk note */
+
+.riskNote {
+  padding: 1.7rem 1.9rem;
+  border: 1px solid rgba(255, 176, 32, 0.35);
+  border-radius: 16px;
+  background: var(--gk-warn-soft);
+}
+
+.riskTitle {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gk-warn);
+}
+
+.riskNote ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.riskNote li {
+  margin-bottom: 0.7rem;
+  line-height: 1.65;
+  color: var(--gk-ink);
+}
+
+.riskNote li:last-child {
+  margin-bottom: 0;
+}
+
+/* ----------------------------------------------------------------- focus */
+/* The global stylesheet clears a:focus outlines, so every interactive thing
+   on this page has to restore a visible focus ring of its own. */
+
+.page a:focus-visible,
+.page button:focus-visible,
+.sticky a:focus-visible {
+  outline: 3px solid var(--gk-theme);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.option:focus-visible {
+  outline-offset: 1px;
+}
+
+/* ------------------------------------------------------------- responsive */
+
+/* Below 992px the site header is fixed (public/css/menu.css) and 80px tall
+   (public/css/responsive.css overrides the 54px base in both mobile ranges),
+   so an anchored section has to start below it. Measured at 390px and 768px. */
+@media (max-width: 991px) {
+  .section {
+    scroll-margin-top: 96px;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrap {
+    width: calc(100% - 2rem);
+  }
+
+  .hero {
+    padding-top: 5.5rem;
+  }
+
+  .chooser {
+    grid-template-columns: 1fr;
+  }
+
+  .step,
+  .walletNotes {
+    padding: 1.4rem;
+  }
+
+  /* On a phone the table fits the viewport and the address wraps; hiding the
+     Copy column off-screen behind a horizontal scroll would defeat it. */
+  .table {
+    min-width: 0;
+    font-size: 0.85rem;
+  }
+
+  .table th,
+  .table td,
+  .table tbody th {
+    padding-right: 0.5rem;
+  }
+
+  .address {
+    font-size: 0.72rem;
+  }
+
+  .copyButton {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.72rem;
+  }
+
+  .callout {
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .sticky {
+    right: 1rem;
+    left: 1rem;
+    max-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta,
+  .option {
+    transition: none;
+  }
+}

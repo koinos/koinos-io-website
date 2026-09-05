@@ -12,6 +12,7 @@ export default function Menu() {
         <li aria-haspopup="true">
           <Link href="#" className="h-link">Learn<span className="wsarrow" /></Link>
           <ul className="sub-menu">
+            <li aria-haspopup="true"><Link href="/get-koin">How to buy KOIN</Link></li>
             <li aria-haspopup="true"><Link href="/whitepaper">Whitepaper</Link></li>
             <li aria-haspopup="true"><Link href="/#features">Features</Link></li>
             <li aria-haspopup="true"><Link href="/faqs">FAQs</Link></li>

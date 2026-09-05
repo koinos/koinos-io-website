@@ -13,6 +13,13 @@ export default function WhereToGetKOIN() {
               <div className="section-title mb-70">
                 <h2 className="s-50 w-700">Where to get KOIN</h2>
                 <p className="s-21 color--grey">Find Koinos on Exchanges Across the Globe</p>
+                <p className="s-18 mt-15">
+                  New to this?{" "}
+                  <Link href="/get-koin" className="color--theme">
+                    Read the step-by-step guide to buying KOIN
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>
@@ -48,7 +55,11 @@ export default function WhereToGetKOIN() {
               ))}
               <p className="p-sm color--grey mt-15">
                 vKOIN is a wrapped representation of KOIN. For long-term holding, we recommend
-                bridging to native KOIN on the Koinos blockchain to avoid bridge and wrapped-token risks.
+                bridging to native KOIN on the Koinos blockchain to avoid bridge and wrapped-token risks.{" "}
+                <Link href="/get-koin" className="color--theme">
+                  See how to bridge with Vortex
+                </Link>
+                .
               </p>
             </div>
           </div>
