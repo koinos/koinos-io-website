@@ -244,7 +244,7 @@ volume, fees, liquidity, and price.*
 Use this option if you have vKOIN and SOL on Solana and understand how a CLMM
 range works.
 
-- [Open the vKOIN/WSOL pool on Raydium](https://raydium.io/liquidity-pools/?pool_id=2kbZSkxa3M7VAWMnZDqBNarkFFBYUyskeavXnq1oK3gT)
+- [Open the vKOIN/WSOL position page on Raydium](https://raydium.io/clmm/create-position/?pool_id=2kbZSkxa3M7VAWMnZDqBNarkFFBYUyskeavXnq1oK3gT)
 - Pool ID:
   `2kbZSkxa3M7VAWMnZDqBNarkFFBYUyskeavXnq1oK3gT`
 - Pool type: Raydium CLMM.
@@ -457,9 +457,9 @@ treat it as a worthless image: whoever controls that NFT controls the position.
 Raydium's interface can change. The steps below describe the existing
 vKOIN/WSOL CLMM pool, not the creation of a new pool.
 
-### 1. Open the exact Raydium pool
+### 1. Open the exact Raydium position page
 
-Open the [vKOIN/WSOL pool](https://raydium.io/liquidity-pools/?pool_id=2kbZSkxa3M7VAWMnZDqBNarkFFBYUyskeavXnq1oK3gT)
+Open the [vKOIN/WSOL position page](https://raydium.io/clmm/create-position/?pool_id=2kbZSkxa3M7VAWMnZDqBNarkFFBYUyskeavXnq1oK3gT)
 and check that the browser domain is exactly `raydium.io`. The URL should contain
 the complete pool ID:
 
@@ -748,7 +748,7 @@ on-chain program is audited, safe, endorsed, or guaranteed to remain available.
 - [Raydium API documentation for pools by token mint](https://docs.raydium.io/api-reference/api-v3-endpoints/pools/get-pools-by-token-mint)
 - [Ethereum vKOIN/USDT pool](https://app.uniswap.org/explore/pools/ethereum/0xd833a3afa936ca389966a9ed3a3d9abf7ec45c11b0d575aaaf6ca4d354687da6)
 - [Base vKOIN/USDC pool](https://app.uniswap.org/explore/pools/base/0x67e2b4bf9917e1ab76bff55dbe125d27858c04bfe77da71b8721d526059859c3)
-- [Solana vKOIN/WSOL pool](https://raydium.io/liquidity-pools/?pool_id=2kbZSkxa3M7VAWMnZDqBNarkFFBYUyskeavXnq1oK3gT)
+- [Solana vKOIN/WSOL position page](https://raydium.io/clmm/create-position/?pool_id=2kbZSkxa3M7VAWMnZDqBNarkFFBYUyskeavXnq1oK3gT)
 
 ## Disclaimer
 
