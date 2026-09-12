@@ -15,6 +15,12 @@ recommend how much to deposit or which price range to choose.
 > token, and bridge risks. Start with a small amount you can afford to lose and
 > verify all the details before signing.
 
+> **About the screenshots:** The screenshots in this article were captured from
+> the public Uniswap interface on September 12, 2026, with no wallet connected.
+> Pool balances, volume, fees, prices, and APR figures are time-sensitive
+> examples—not promised or expected returns. Always rely on the current interface
+> and verify the full addresses yourself.
+
 ## What does adding liquidity mean?
 
 A decentralized exchange such as Uniswap does not need to wait for a specific
@@ -85,7 +91,8 @@ markets, and assets on one network do not automatically appear on the other.
 | Base | vKOIN / USDC | 1% | `0x67e2b4bf9917e1ab76bff55dbe125d27858c04bfe77da71b8721d526059859c3` |
 
 In Uniswap v4, these 32-byte values are **pool identifiers**, not separate
-contract addresses.
+contract addresses. The Uniswap interface may shorten them on screen, so compare
+the complete identifier in the page URL with this guide.
 
 ### Option A: Ethereum
 
@@ -102,6 +109,11 @@ Ethereum network costs can be high. Check the estimate for each transaction
 before confirming it, and keep enough ETH to manage or withdraw the position
 later.
 
+![The Uniswap vKOIN and USDT pool page on Ethereum, showing Ethereum, v4, the 1% fee tier, the shortened pool identifier, and the Add liquidity button.](public/images/pages/liquidity-guide/uniswap-ethereum-vkoin-usdt-pool.jpg)
+
+*The Ethereum vKOIN/USDT pool. The identifying details are at the top; the
+statistics shown are only a moment-in-time snapshot.*
+
 ### Option B: Base
 
 Use this option if you have vKOIN and USDC on Base.
@@ -115,6 +127,12 @@ Use this option if you have vKOIN and USDC on Base.
 
 Having ETH on Ethereum does not mean you have ETH on Base. Check the network
 name in your wallet before continuing.
+
+![The Uniswap vKOIN and USDC pool page on Base, showing Base, v4, the 1% fee tier, the shortened pool identifier, and the Add liquidity button.](public/images/pages/liquidity-guide/uniswap-base-vkoin-usdc-pool.jpg)
+
+*The Base vKOIN/USDC pool. Do not compare the displayed APR with the Ethereum
+pool as if it were a guaranteed future return; these figures change with recent
+volume, fees, liquidity, and price.*
 
 ## What you need
 
@@ -159,6 +177,11 @@ Before connecting your wallet, confirm that the page shows:
 Do not continue if you see a different pool, protocol version, fee tier, or a
 token with a different address.
 
+The current pool page displays the network, protocol version, fee tier, and a
+shortened pool identifier together near the pair name. It also links each token
+to its token page. These visual labels are useful checks, but they do not replace
+comparing the complete contract addresses and Pool ID.
+
 ### 3. Connect your wallet
 
 Select **Connect** and choose your wallet. Check both the selected account and
@@ -178,13 +201,19 @@ tier. Verify them again in the form.
 The goal is to add a position to an existing pool. Do not select options that
 indicate you are creating a new pool or setting a market's initial price.
 
+![The Uniswap v4 Set your position screen for the Base vKOIN and USDC pool, with the existing pair, 1% fee tier, Full range and Custom range choices, and the price chart.](public/images/pages/liquidity-guide/uniswap-base-add-liquidity-form.jpg)
+
+*After selecting Add liquidity, confirm that the existing pair and 1% fee tier
+remain visible. The separate “Create Pool” control is not part of this guide.*
+
 ### 5. Choose the price range
 
 Uniswap v4 uses **concentrated liquidity**. Instead of keeping your liquidity
 active at every possible price, you can choose the interval in which you want
 your position to operate.
 
-The interface provides a custom range and may provide a full-range option:
+The interface provides a custom range and a full-range option. It may also show
+range presets or strategies:
 
 - A narrower range concentrates capital near the current price and may earn a
   greater share of fees while it remains active, but it can move out of range
@@ -193,6 +222,17 @@ The interface provides a custom range and may provide a full-range option:
   capital over a larger interval.
 - A full range covers the entire available interval, with less capital
   concentration.
+
+Preset names are interface shortcuts, not recommendations. In particular, the
+fact that one asset is USDT or USDC does not make vKOIN/stablecoin a
+stablecoin-to-stablecoin pair. Do not select a preset labelled “Stable” merely
+because one side is a stablecoin.
+
+Pay attention to the price orientation displayed beside the range. For example,
+`vKOIN per USDC` and `USDC per vKOIN` are reciprocal quotations of the same
+market. Switching orientation changes how the minimum and maximum prices are
+displayed; it does not change the underlying pool. Uniswap may also round custom
+boundaries to the nearest valid tick.
 
 This guide cannot decide the appropriate range for you. It is a financial and
 risk-management decision.
@@ -203,8 +243,11 @@ risk-management decision.
 
 ### 6. Enter the amount
 
-Enter the amount of one asset. Uniswap will calculate the amount of the other
-asset based on the current price and your chosen range.
+Enter the amount you want to supply. If the selected range includes the current
+price, the position will generally require both assets, and Uniswap will
+calculate the corresponding amount based on the price and range. A range wholly
+on one side of the current price can instead create a one-sided position that
+initially requires only one asset.
 
 Do not assume it will always be an exact 50/50 split. In a concentrated
 liquidity position, the proportion depends on the range and where the price sits
@@ -219,6 +262,11 @@ Check:
 
 For a first test, use a small amount instead of automatically selecting your
 maximum balance.
+
+![The lower part of the Uniswap v4 position form, showing range presets, minimum and maximum prices, and the Deposit tokens section.](public/images/pages/liquidity-guide/uniswap-base-price-range-and-deposit.jpg)
+
+*Range presets, price boundaries, and deposit fields. Values in this screenshot
+are examples from the capture time, not a suggested range or deposit.*
 
 ### 7. Review approvals and Permit2
 
@@ -236,6 +284,11 @@ but it may include:
 Read each request separately. When your wallet allows you to limit the
 permission, approve only the required amount instead of granting unlimited
 access.
+
+A Permit2 request is a signature rather than an on-chain transaction, but it is
+still an authorization and must be checked. Confirm that the request comes from
+the Uniswap flow you opened and that its token, amount, spender, network, and
+expiry—when shown—match what you intend.
 
 Disconnecting your wallet from the page does not revoke an existing approval.
 You can later review active permissions with a reputable tool and revoke the
@@ -286,7 +339,9 @@ You should periodically review:
 - whether you still want to maintain that exposure.
 
 Fees shown by the interface are not a guaranteed return. A displayed APR is an
-estimate based on historical data and can change rapidly.
+estimate derived from recent pool activity and can change rapidly. It is a pool
+metric, not a forecast of your personal result; your range, active time, share
+of liquidity, token price changes, and network costs all affect the outcome.
 
 ## Impermanent loss, explained simply
 
@@ -302,6 +357,10 @@ When you withdraw, the value of this new combination may be lower than what you
 would have had by holding both assets outside the pool. This difference is
 commonly called **impermanent loss** or divergence loss. Fees may partially
 offset it, exceed it, or fail to cover it at all.
+
+The word “impermanent” does not mean that the loss is guaranteed to disappear.
+Prices may never return to their earlier relationship, and withdrawing the
+position realizes its value at that time.
 
 With concentrated liquidity, a narrow range can increase both capital
 efficiency and the position's sensitivity to price movements.
@@ -413,6 +472,10 @@ screen or wallet request does not match what you expect.
 This guide was verified on **September 12, 2026**. Interfaces, pools, and
 contracts can change; they must be checked again before publishing or following
 these instructions.
+
+The screenshots verify what the public Uniswap interface displayed on that date.
+They do not establish that a token, pool, bridge, or contract is audited, safe,
+endorsed, or guaranteed to remain available.
 
 - [Official Uniswap guide to creating a v4 position](https://support.uniswap.org/hc/en-us/articles/32233918539533-How-to-add-a-new-liquidity-position-to-Uniswap-v4)
 - [Risks of providing liquidity according to Uniswap](https://support.uniswap.org/hc/en-us/articles/37113550065549-What-are-the-risks-when-providing-liquidity)
