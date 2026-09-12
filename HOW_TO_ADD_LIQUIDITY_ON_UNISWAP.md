@@ -98,19 +98,28 @@ In Uniswap v4, these 32-byte values are **pool identifiers**, not separate
 contract addresses. The Uniswap interface may shorten them on screen, so compare
 the complete identifier in the page URL with this guide.
 
-### What is Base?
+### What are Ethereum and Base?
+
+[Ethereum](https://ethereum.org/developers/docs/intro-to-ethereum/) is an
+independent Layer 1 blockchain. Its nodes agree on the state of the Ethereum
+Virtual Machine (EVM), which executes smart contracts. **ETH** is Ethereum's
+native asset and pays for transaction execution. Fungible tokens such as vKOIN
+and USDT are normally implemented as ERC-20 smart contracts, each identified by
+its own contract address.
 
 [Base](https://docs.base.org/get-started/base) is an Ethereum Layer 2 network
-incubated by Coinbase. It runs Ethereum-compatible applications and is designed
-to process transactions with lower costs than Ethereum mainnet. Base is a
-blockchain network; it is not the same thing as the Coinbase centralized
-exchange.
+built by Coinbase. It is a separate blockchain network, not the Coinbase
+centralized exchange. Base is a standard EVM chain, so Ethereum tools, wallets,
+and smart contracts can work with it. Under the hood, a sequencer orders Base
+transactions into Layer 2 blocks and submits batches for data availability; the
+Base chain is then derived from Ethereum Layer 1 data and those sequencer
+batches.
 
 An Ethereum-compatible wallet such as MetaMask or Rabby can normally use the
-same account address on Ethereum and Base. However, the networks keep separate
-balances and transaction histories. Seeing ETH, USDC, or vKOIN on Ethereum does
-not mean that the asset is also available on Base, even when the wallet address
-looks identical.
+same `0x` account address on Ethereum and Base. However, the networks keep
+separate balances and transaction histories. Seeing ETH, USDC, or vKOIN on
+Ethereum does not mean that the asset is also available on Base, even when the
+wallet address looks identical.
 
 Transactions on Base use **ETH on Base** to pay network costs. ETH held only on
 Ethereum cannot pay for a Base transaction. Assets must arrive on the correct
@@ -119,10 +128,70 @@ an appropriate bridge. Bridging introduces additional smart contract and
 operational risks, so verify the destination network and send a small test
 amount first.
 
-Base Mainnet has chain ID [`8453`](https://docs.base.org/base-chain/api-reference/ethereum-json-rpc-api/eth_chainId).
+Base Mainnet has chain ID [`8453`](https://docs.base.org/get-started/connect-to-base).
 Your wallet should display **Base** before you interact with the Base pool. Also
 remember that vKOIN uses a different contract address on Base than it does on
 Ethereum.
+
+### What are Solana and WSOL?
+
+[Solana](https://solana.com/docs/core) is a separate Layer 1 blockchain. It is
+not an Ethereum Layer 2 and it does not use the EVM. Solana smart contracts are
+called **programs**; programs receive instructions and read or change data held
+in separate accounts. Solana accounts are identified by 32-byte addresses,
+which look different from Ethereum's `0x` addresses.
+
+This architectural difference also changes the user experience:
+
+- Solana requires a Solana-compatible wallet and a Solana address. A wallet such
+  as Phantom or Solflare is commonly used, while MetaMask or Rabby are common
+  choices for Ethereum and Base. These are examples, not endorsements.
+- **SOL** is Solana's native asset, and every Solana transaction requires a fee
+  paid in SOL. ETH cannot pay a Solana transaction fee.
+- Fungible assets on Solana use the SPL Token or Token-2022 programs. A token is
+  identified by its **mint address**, and a wallet uses separate token accounts
+  to hold each token. The Solana vKOIN mint is therefore not an ERC-20 contract.
+- Solana has its own validator network and transaction history. Ethereum and
+  Base balances do not appear there automatically.
+
+Raydium is a decentralized exchange and liquidity protocol on Solana. The pool
+in this guide is a **concentrated liquidity market maker (CLMM)**, which means
+you choose a price range and receive a position NFT. Liquidity earns trading
+fees only while it is active within the selected range.
+
+The on-chain pair uses **WSOL**, or wrapped SOL. WSOL is a tokenized form of SOL
+that Solana programs can use like other tokens. Raydium's interface can wrap SOL
+when necessary, but you should still keep some ordinary SOL outside the position
+to pay for creating, managing, collecting from, and closing it.
+
+### Ethereum, Base, and Solana compared
+
+| Feature | Ethereum | Base | Solana |
+| --- | --- | --- | --- |
+| Network type | Independent Layer 1 | Ethereum Layer 2 | Independent Layer 1 |
+| Execution model | EVM smart contracts | EVM-compatible smart contracts | Solana programs, accounts, and instructions |
+| Typical account format | `0x` EVM address | The same EVM address format; balances remain separate | 32-byte Solana address; not an EVM address |
+| Network fee asset | ETH on Ethereum | ETH on Base | SOL on Solana |
+| Fungible token identity | ERC-20 contract address | ERC-20-compatible contract address on Base | SPL token mint address and token account |
+| DEX used in this guide | Uniswap | Uniswap | Raydium |
+| vKOIN pool in this guide | vKOIN / USDT | vKOIN / USDC | vKOIN / WSOL |
+
+The practical rule is simple: **the token symbol is not enough**. Before moving
+funds or adding liquidity, verify the network and the complete token contract or
+mint. For vKOIN in this guide, the same symbol on Ethereum, Base, and Solana
+refers to three distinct on-chain assets. Moving assets between these networks
+requires an explicit, compatible bridge or withdrawal route; copying an address
+or switching the network selector does not move the funds. Likewise, liquidity
+added to Raydium on Solana does not also appear in the Uniswap pools on Ethereum
+or Base.
+
+Base's Layer 2 blocks are derived from Ethereum Layer 1 data and sequencer
+batches, and finalized Base blocks are derived from finalized Ethereum data.
+Base also adds Layer 2-specific infrastructure and risks, including its
+sequencer and bridge contracts. Solana reaches agreement through its own
+validator network and has separate programs, wallets, and bridge risks. This
+does not make one route automatically safer than another; it means the risks
+and recovery options are different.
 
 Raydium's official API returned several pools containing the Solana vKOIN mint
 at the verification date. This guide uses the vKOIN/WSOL CLMM pool above because
@@ -169,23 +238,6 @@ name in your wallet before continuing.
 *The Base vKOIN/USDC pool. Do not compare the displayed APR with the Ethereum
 pool as if it were a guaranteed future return; these figures change with recent
 volume, fees, liquidity, and price.*
-
-### What are Solana and WSOL?
-
-[Solana](https://solana.com/docs/core) is a separate Layer 1 blockchain, not an
-Ethereum network. It uses Solana addresses, Solana-compatible wallets, and
-**SOL** for transaction fees. An Ethereum or Base wallet address is not a Solana
-address, and assets do not move between these networks automatically.
-
-Raydium is a decentralized exchange and liquidity protocol on Solana. The pool
-in this guide is a **concentrated liquidity market maker (CLMM)**, which means
-you choose a price range and receive a position NFT. Liquidity earns trading
-fees only while it is active within the selected range.
-
-The on-chain pair uses **WSOL**, or wrapped SOL. WSOL is a tokenized form of SOL
-that Solana programs can use like other tokens. Raydium's interface can wrap SOL
-when necessary, but you should still keep some ordinary SOL outside the position
-to pay for creating, managing, collecting from, and closing it.
 
 ### Option C: Solana on Raydium
 
@@ -680,9 +732,15 @@ on-chain program is audited, safe, endorsed, or guaranteed to remain available.
 - [Risks of providing liquidity according to Uniswap](https://support.uniswap.org/hc/en-us/articles/37113550065549-What-are-the-risks-when-providing-liquidity)
 - [Liquidity position ownership through tokens or NFTs](https://support.uniswap.org/hc/en-us/articles/20980786685069-Why-is-liquidity-position-ownership-represented-by-tokens-or-NFTs)
 - [Koinos guide to buying KOIN and verifying vKOIN](https://koinos.io/get-koin)
+- [Ethereum technical introduction](https://ethereum.org/developers/docs/intro-to-ethereum/)
+- [Ethereum ERC-20 token standard](https://ethereum.org/developers/docs/standards/tokens/erc-20/)
 - [Official Base overview](https://docs.base.org/get-started/base)
-- [Official Base Mainnet chain ID reference](https://docs.base.org/base-chain/api-reference/ethereum-json-rpc-api/eth_chainId)
+- [Connecting to Base and Base Mainnet network details](https://docs.base.org/get-started/connect-to-base)
+- [How Base derives its Layer 2 chain from Ethereum data](https://docs.base.org/specifications/base-protocol/consensus/derivation)
 - [Solana core concepts](https://solana.com/docs/core)
+- [Solana accounts](https://solana.com/docs/core/accounts)
+- [Solana transaction fees](https://solana.com/docs/core/fees)
+- [Introduction to Solana tokens](https://solana.com/learn/introduction-to-solana-tokens)
 - [What Raydium is](https://docs.raydium.io/introduction/what-is-raydium)
 - [Official Raydium guide to adding and removing liquidity](https://docs.raydium.io/user-flows/add-remove-liquidity)
 - [Raydium trust and safety guidance](https://docs.raydium.io/getting-started/trust-and-safety)
