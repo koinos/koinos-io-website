@@ -94,6 +94,32 @@ In Uniswap v4, these 32-byte values are **pool identifiers**, not separate
 contract addresses. The Uniswap interface may shorten them on screen, so compare
 the complete identifier in the page URL with this guide.
 
+### What is Base?
+
+[Base](https://docs.base.org/get-started/base) is an Ethereum Layer 2 network
+incubated by Coinbase. It runs Ethereum-compatible applications and is designed
+to process transactions with lower costs than Ethereum mainnet. Base is a
+blockchain network; it is not the same thing as the Coinbase centralized
+exchange.
+
+An Ethereum-compatible wallet such as MetaMask or Rabby can normally use the
+same account address on Ethereum and Base. However, the networks keep separate
+balances and transaction histories. Seeing ETH, USDC, or vKOIN on Ethereum does
+not mean that the asset is also available on Base, even when the wallet address
+looks identical.
+
+Transactions on Base use **ETH on Base** to pay network costs. ETH held only on
+Ethereum cannot pay for a Base transaction. Assets must arrive on the correct
+network through a withdrawal service that explicitly supports Base or through
+an appropriate bridge. Bridging introduces additional smart contract and
+operational risks, so verify the destination network and send a small test
+amount first.
+
+Base Mainnet has chain ID [`8453`](https://docs.base.org/base-chain/api-reference/ethereum-json-rpc-api/eth_chainId).
+Your wallet should display **Base** before you interact with the Base pool. Also
+remember that vKOIN uses a different contract address on Base than it does on
+Ethereum.
+
 ### Option A: Ethereum
 
 Use this option if you have vKOIN and USDT on Ethereum.
@@ -481,6 +507,8 @@ endorsed, or guaranteed to remain available.
 - [Risks of providing liquidity according to Uniswap](https://support.uniswap.org/hc/en-us/articles/37113550065549-What-are-the-risks-when-providing-liquidity)
 - [Liquidity position ownership through tokens or NFTs](https://support.uniswap.org/hc/en-us/articles/20980786685069-Why-is-liquidity-position-ownership-represented-by-tokens-or-NFTs)
 - [Koinos guide to buying KOIN and verifying vKOIN](https://koinos.io/get-koin)
+- [Official Base overview](https://docs.base.org/get-started/base)
+- [Official Base Mainnet chain ID reference](https://docs.base.org/base-chain/api-reference/ethereum-json-rpc-api/eth_chainId)
 - [Ethereum vKOIN/USDT pool](https://app.uniswap.org/explore/pools/ethereum/0xd833a3afa936ca389966a9ed3a3d9abf7ec45c11b0d575aaaf6ca4d354687da6)
 - [Base vKOIN/USDC pool](https://app.uniswap.org/explore/pools/base/0x67e2b4bf9917e1ab76bff55dbe125d27858c04bfe77da71b8721d526059859c3)
 
