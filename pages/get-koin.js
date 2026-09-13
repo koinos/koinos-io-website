@@ -4,37 +4,23 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useCallback, useEffect, useRef, useState } from "react";
 import styles from "@/styles/GetKoin.module.css";
-import {
-  CONTRACTS,
-  DISCLAIMER,
-  FAQS,
-  GLOSSARY,
-  INTRO,
-  LAST_VERIFIED,
-  MANA,
-  NATIVE_VS_WRAPPED,
-  OFFICIAL_LINKS,
-  RISK_NOTE,
-  ROUTES,
-  SAFETY,
-  WALLETS,
-  buildSteps,
-  isSupported,
-  suggestionFor,
-} from "@/data/getKoin";
+import * as englishContent from "@/data/getKoin";
+import * as spanishContent from "@/data/getKoin.es";
 
 const DEFAULT_WALLET = "metamask";
 const DEFAULT_ROUTE = "ethereum";
 
-function normaliseWallet(value) {
-  return WALLETS.some((w) => w.id === value) ? value : DEFAULT_WALLET;
+function normaliseWallet(value, wallets) {
+  return wallets.some((wallet) => wallet.id === value)
+    ? value
+    : DEFAULT_WALLET;
 }
 
-function normaliseRoute(value) {
-  return ROUTES.some((r) => r.id === value) ? value : DEFAULT_ROUTE;
+function normaliseRoute(value, routes) {
+  return routes.some((route) => route.id === value) ? value : DEFAULT_ROUTE;
 }
 
-function CopyButton({ value, label, subject }) {
+function CopyButton({ value, label, subject, ui }) {
   const [state, setState] = useState("idle");
 
   async function handleCopy() {
@@ -59,25 +45,24 @@ function CopyButton({ value, label, subject }) {
         aria-label={state === "idle" ? label : undefined}
       >
         {state === "copied"
-          ? "Copied"
+          ? ui.copied
           : state === "failed"
-          ? "Copy failed"
-          : "Copy"}
+          ? ui.copyFailed
+          : ui.copy}
       </button>
       {/* The button's own label is static, so the outcome is announced here. */}
       <span role="status" className={styles.srOnly}>
         {state === "copied"
-          ? `${subject} copied to the clipboard.`
+          ? ui.copySuccess(subject)
           : state === "failed"
-          ? `Could not copy the ${subject}. Select the address in the table and copy it manually.`
+          ? ui.copyFailure(subject)
           : ""}
       </span>
     </>
   );
 }
 
-function Callout({ type, text }) {
-  const labels = { tip: "Tip", warning: "Warning", cost: "Cost" };
+function Callout({ type, text, labels }) {
   return (
     <div className={`${styles.callout} ${styles[`callout_${type}`]}`}>
       <span className={styles.calloutLabel}>{labels[type]}</span>
@@ -158,12 +143,12 @@ function ChoiceGroup({ legend, options, value, onChange, describe }) {
   );
 }
 
-function StepCard({ step, index, total, onFollowRoute }) {
+function StepCard({ step, index, total, onFollowRoute, ui }) {
   return (
     <article className={styles.step} id={`step-${step.id}`}>
       <div className={styles.stepHead}>
         <span className={styles.stepCount}>
-          Step {index + 1} of {total}
+          {ui.stepCount(index + 1, total)}
         </span>
         <h3 className={styles.stepTitle}>{step.title}</h3>
         <p className={styles.stepContext}>{step.context}</p>
@@ -209,12 +194,17 @@ function StepCard({ step, index, total, onFollowRoute }) {
         ))}
 
         {step.callouts.map((callout, i) => (
-          <Callout key={i} type={callout.type} text={callout.text} />
+          <Callout
+            key={i}
+            type={callout.type}
+            text={callout.text}
+            labels={ui.calloutLabels}
+          />
         ))}
 
         {step.check && (
           <p className={styles.check}>
-            <span>Before you continue</span>
+            <span>{ui.beforeContinue}</span>
             {step.check}
           </p>
         )}
@@ -225,6 +215,27 @@ function StepCard({ step, index, total, onFollowRoute }) {
 
 export default function GetKoinPage() {
   const router = useRouter();
+  const locale = router.locale === "es" ? "es" : "en";
+  const content = locale === "es" ? spanishContent : englishContent;
+  const {
+    CONTRACTS,
+    DISCLAIMER,
+    FAQS,
+    GLOSSARY,
+    INTRO,
+    LAST_VERIFIED,
+    MANA,
+    NATIVE_VS_WRAPPED,
+    OFFICIAL_LINKS,
+    RISK_NOTE,
+    ROUTES,
+    SAFETY,
+    UI,
+    WALLETS,
+    buildSteps,
+    isSupported,
+    suggestionFor,
+  } = content;
   const [openFaq, setOpenFaq] = useState(null);
   const [showSticky, setShowSticky] = useState(false);
   const chooserRef = useRef(null);
@@ -233,8 +244,8 @@ export default function GetKoinPage() {
   // browser's back and forward buttons restore both choices. Going through
   // next/router (rather than history.pushState directly) keeps the router's own
   // history entries intact.
-  const wallet = normaliseWallet(router.query.wallet);
-  const route = normaliseRoute(router.query.route);
+  const wallet = normaliseWallet(router.query.wallet, WALLETS);
+  const route = normaliseRoute(router.query.route, ROUTES);
 
   useEffect(() => {
     if (!router.isReady) return;
@@ -302,12 +313,44 @@ export default function GetKoinPage() {
       headerStyle={1}
       footerStyle={1}
       headerCls="navbar-dark inner-page-header"
-      headTitle="How to buy KOIN | Koinos"
+      headTitle={UI.headTitle}
     >
       <Head>
         <meta
           name="description"
-          content="A beginner's guide to buying KOIN: choose a wallet and a route, buy on a decentralised exchange, and bridge to native KOIN on Koinos with Vortex."
+          content={UI.metaDescription}
+        />
+        <meta property="language" content={locale} key="language" />
+        <meta
+          property="og:locale"
+          content={locale === "es" ? "es_ES" : "en_US"}
+          key="oglocale"
+        />
+        <meta property="og:title" content={UI.headTitle} key="ogtitle" />
+        <meta
+          property="og:description"
+          content={UI.metaDescription}
+          key="ogdesc"
+        />
+        <meta
+          property="og:url"
+          content={`https://koinos.io${locale === "es" ? "/es" : ""}/get-koin`}
+          key="ogurl"
+        />
+        <link
+          rel="canonical"
+          href={`https://koinos.io${locale === "es" ? "/es" : ""}/get-koin`}
+        />
+        <link rel="alternate" hrefLang="en" href="https://koinos.io/get-koin" />
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://koinos.io/es/get-koin"
+        />
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://koinos.io/get-koin"
         />
       </Head>
 
@@ -315,7 +358,7 @@ export default function GetKoinPage() {
         {/* ---------------------------------------------------------- hero */}
         <section className={styles.hero}>
           <div className={styles.wrap}>
-            <p className={styles.eyebrow}>Guide</p>
+            <p className={styles.eyebrow}>{UI.eyebrow}</p>
             <h1 className={styles.h1}>{INTRO.title}</h1>
             <p className={styles.lead}>{INTRO.lead}</p>
             {INTRO.paragraphs.map((paragraph, i) => (
@@ -324,7 +367,7 @@ export default function GetKoinPage() {
               </p>
             ))}
             <a href="#choose" className={styles.cta}>
-              Start the guide
+              {UI.startGuide}
             </a>
           </div>
         </section>
@@ -372,19 +415,17 @@ export default function GetKoinPage() {
             ))}
 
             <div className={styles.contracts}>
-              <h3 className={styles.h3}>The official vKOIN addresses</h3>
-              <p className={styles.bodyText}>
-                The address identifies a token; its name and logo prove nothing.
-              </p>
+              <h3 className={styles.h3}>{UI.contractsTitle}</h3>
+              <p className={styles.bodyText}>{UI.contractsIntro}</p>
               <div className={styles.tableScroll}>
                 <table className={styles.table}>
                   <thead>
                     <tr>
-                      <th scope="col">Network</th>
-                      <th scope="col">Contract address</th>
-                      <th scope="col">Decimals</th>
+                      <th scope="col">{UI.network}</th>
+                      <th scope="col">{UI.contractAddress}</th>
+                      <th scope="col">{UI.decimals}</th>
                       <th scope="col">
-                        <span className={styles.srOnly}>Copy address</span>
+                        <span className={styles.srOnly}>{UI.copyAddress}</span>
                       </th>
                     </tr>
                   </thead>
@@ -406,8 +447,9 @@ export default function GetKoinPage() {
                         <td>
                           <CopyButton
                             value={contract.address}
-                            label={`Copy the ${contract.chain} vKOIN contract address`}
-                            subject={`${contract.chain} vKOIN contract address`}
+                            label={UI.copyLabel(contract.chain)}
+                            subject={UI.copySubject(contract.chain)}
+                            ui={UI}
                           />
                         </td>
                       </tr>
@@ -416,7 +458,7 @@ export default function GetKoinPage() {
                 </table>
               </div>
               <p className={styles.fineprint}>
-                Each address opens the network&apos;s block explorer (symbol vKOIN, name Vortex Koin).
+                {UI.contractsFineprint}
               </p>
             </div>
           </div>
@@ -425,21 +467,19 @@ export default function GetKoinPage() {
         {/* -------------------------------------------------- the chooser */}
         <section className={styles.section} id="choose" ref={chooserRef}>
           <div className={styles.wrap}>
-            <h2 className={styles.h2}>Choose your path</h2>
-            <p className={styles.sectionLead}>
-              Pick the wallet you will use and where you will buy.
-            </p>
+            <h2 className={styles.h2}>{UI.chooseTitle}</h2>
+            <p className={styles.sectionLead}>{UI.chooseLead}</p>
 
             <div className={styles.chooser}>
               <ChoiceGroup
-                legend={{ id: "wallet", text: "Your wallet" }}
+                legend={{ id: "wallet", text: UI.walletLegend }}
                 options={WALLETS}
                 value={wallet}
                 onChange={(id) => select(id, route)}
                 describe={(option) => option.family}
               />
               <ChoiceGroup
-                legend={{ id: "route", text: "Where you buy" }}
+                legend={{ id: "route", text: UI.routeLegend }}
                 options={ROUTES}
                 value={route}
                 onChange={(id) => select(wallet, id)}
@@ -458,9 +498,10 @@ export default function GetKoinPage() {
                     className={styles.mismatchAction}
                     onClick={() => select(wallet, mismatch.suggestedRoute)}
                   >
-                    Show {activeWallet.name} with the{" "}
-                    {ROUTES.find((r) => r.id === mismatch.suggestedRoute).name}{" "}
-                    route
+                    {UI.showCombination(
+                      activeWallet.name,
+                      ROUTES.find((r) => r.id === mismatch.suggestedRoute).name
+                    )}
                   </button>
                 </div>
               ) : (
@@ -471,22 +512,21 @@ export default function GetKoinPage() {
                   <p className={styles.planText}>{activeRoute.plan}</p>
                   <dl className={styles.planFacts}>
                     <div>
-                      <dt>You buy first</dt>
+                      <dt>{UI.buyFirst}</dt>
                       <dd>
-                        {activeRoute.buyAsset ||
-                          "Nothing — you need KOIN already"}
+                        {activeRoute.buyAsset || UI.nothingFirst}
                       </dd>
                     </div>
                     <div>
-                      <dt>Network</dt>
+                      <dt>{UI.network}</dt>
                       <dd>{activeRoute.network}</dd>
                     </div>
                     <div>
-                      <dt>Where you swap</dt>
+                      <dt>{UI.whereSwap}</dt>
                       <dd>{activeRoute.dex}</dd>
                     </div>
                     <div>
-                      <dt>You end with</dt>
+                      <dt>{UI.endWith}</dt>
                       <dd>{activeRoute.outcome}</dd>
                     </div>
                   </dl>
@@ -497,7 +537,7 @@ export default function GetKoinPage() {
                       className={styles.mismatchAction}
                       onClick={() => followRoute("metamask", "ethereum")}
                     >
-                      Show me the route that ends with native KOIN
+                      {UI.nativeRoute}
                     </button>
                   )}
                 </div>
@@ -511,8 +551,8 @@ export default function GetKoinPage() {
           <div className={styles.wrap}>
             <h2 className={styles.h2}>
               {supported
-                ? `${activeRoute.name} with ${activeWallet.name}`
-                : "Choose a supported combination"}
+                ? UI.guideHeading(activeRoute.name, activeWallet.name)
+                : UI.chooseSupported}
             </h2>
 
             {supported ? (
@@ -526,12 +566,15 @@ export default function GetKoinPage() {
                       index={index}
                       total={steps.length}
                       onFollowRoute={followRoute}
+                      ui={UI}
                     />
                   ))}
                 </div>
 
                 <div className={styles.walletNotes}>
-                  <h3 className={styles.h3}>Specific to {activeWallet.name}</h3>
+                  <h3 className={styles.h3}>
+                    {UI.specificTo(activeWallet.name)}
+                  </h3>
                   <ul className={styles.notesList}>
                     {activeWallet.quirks.map((quirk, i) => (
                       <li key={i}>{quirk}</li>
@@ -543,15 +586,15 @@ export default function GetKoinPage() {
                     rel="noopener noreferrer"
                     className={styles.stepLink}
                   >
-                    Install {activeWallet.name} from {activeWallet.installLabel}
+                    {UI.installWallet(
+                      activeWallet.name,
+                      activeWallet.installLabel
+                    )}
                   </Link>
                 </div>
               </>
             ) : (
-              <p className={styles.sectionLead}>
-                Pick a wallet and route that work together above, and the steps
-                will appear here.
-              </p>
+              <p className={styles.sectionLead}>{UI.unsupportedLead}</p>
             )}
           </div>
         </section>
@@ -591,7 +634,7 @@ export default function GetKoinPage() {
         {/* ------------------------------------------------------ the faq */}
         <section className={styles.section}>
           <div className={styles.wrap}>
-            <h2 className={styles.h2}>Questions</h2>
+            <h2 className={styles.h2}>{UI.questions}</h2>
             <ul className={styles.faqs}>
               {FAQS.map((faq, index) => (
                 <li key={index} className={styles.faq}>
@@ -625,7 +668,7 @@ export default function GetKoinPage() {
         {/* ------------------------------------------------- the glossary */}
         <section className={styles.section}>
           <div className={styles.wrap}>
-            <h2 className={styles.h2}>Glossary</h2>
+            <h2 className={styles.h2}>{UI.glossary}</h2>
             <dl className={styles.glossary}>
               {GLOSSARY.map(([term, definition]) => (
                 <div key={term}>
@@ -640,24 +683,22 @@ export default function GetKoinPage() {
         {/* ----------------------------------------------- the small print */}
         <section className={styles.section}>
           <div className={styles.wrap}>
-            <h2 className={styles.h2}>Important information</h2>
+            <h2 className={styles.h2}>{UI.importantInformation}</h2>
             {DISCLAIMER.map((paragraph, i) => (
               <p key={i} className={styles.fineprint}>
                 {paragraph}
               </p>
             ))}
             <p className={styles.fineprint}>
-              Steps last verified {LAST_VERIFIED}. Interfaces change. If a screen
-              differs from a screenshot here, stop, check the network, token
-              address, destination and amount before signing, and ask in the{" "}
+              {UI.verificationPrefix(LAST_VERIFIED)}
               <Link
                 href={OFFICIAL_LINKS.telegram}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Koinos community
-              </Link>{" "}
-              before signing anything you do not understand.
+                {UI.communityLinkText}
+              </Link>
+              {UI.verificationSuffix}
             </p>
           </div>
         </section>
@@ -668,7 +709,7 @@ export default function GetKoinPage() {
               {activeWallet.name} · {activeRoute.name}
             </span>
             <a href="#choose" className={styles.stickyAction}>
-              Change
+              {UI.change}
             </a>
           </div>
         )}

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import { useRouter } from "next/router";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function MediumBlog() {
+  const router = useRouter();
   const sectionRef = useRef(null);
   const mediumRssFeedJsonLink =
     "/api/blog-proxy";
@@ -36,7 +39,7 @@ export default function MediumBlog() {
         returnItem.link = items[i].link;
         // convert date like 2023-10-25 16:42:26 to Oct 25, 2023
         let date = new Date(items[i].pubDate);
-        date = date.toLocaleString("en-US", {
+        date = date.toLocaleString(router.locale === "es" ? "es-ES" : "en-US", {
           month: "short",
           day: "numeric",
           year: "numeric",
@@ -72,10 +75,10 @@ export default function MediumBlog() {
       }
       setDisplayItems(returnItems);
     }
-  }, [items]); // re-run when items changes
+  }, [items, router.locale]); // re-run when items or locale changes
 
   return (
-    <>
+    <TranslatedContent>
       <section id="blog-1" className="py-100 blog-section division">
         <div className="container">
           {/* SECTION TITLE */}
@@ -113,7 +116,7 @@ export default function MediumBlog() {
                         </Link>
                       </div>
                       {/* BLOG POST TEXT */}
-                      <div className="blog-post-txt">
+                      <div className="blog-post-txt" lang="en">
                         {/* Post Link */}
                         <h6 className="s-20 w-700">
                           <Link href={item.link}>{item.title}</Link>
@@ -124,7 +127,7 @@ export default function MediumBlog() {
                         <div className="blog-post-meta mt-20">
                           <ul className="post-meta-list ico-10">
                             <li>
-                            <p className="p-sm">Published on {item.pubDate}</p>
+                            <p className="p-sm"><span lang={router.locale}>Published on</span> {item.pubDate}</p>
                             </li>
                           </ul>
                         </div>
@@ -140,6 +143,6 @@ export default function MediumBlog() {
         </div>{" "}
         {/* End container */}
       </section>
-    </>
+    </TranslatedContent>
   );
 }

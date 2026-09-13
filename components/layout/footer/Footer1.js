@@ -1,6 +1,12 @@
 import Link from "next/link"
+import { useRouter } from "next/router"
+import LocalizedLink from "@/components/i18n/LocalizedLink"
+import { getSiteCopy } from "@/i18n/site"
 
 export default function Footer1() {
+  const router = useRouter();
+  const text = getSiteCopy(router.locale);
+
   return (
     <>
       <footer id="footer-3" className="pt-100 footer ft-3-ntr">
@@ -18,17 +24,17 @@ export default function Footer1() {
             <div className="col-sm-3">
               <div className="footer-links fl-1">
                 {/* Title */}
-                <h6 className="s-17 w-700">Help</h6>
+                <h6 className="s-17 w-700">{text.help}</h6>
                 {/* Links */}
                 <ul className="foo-links clearfix">
                   <li>
-                    <p><Link href="/faqs">FAQs</Link></p>
+                    <p><LocalizedLink href="/faqs">{text.faqs}</LocalizedLink></p>
                   </li>
                   <li>
-                    <p><Link href="/media">Media Kit</Link></p>
+                    <p><LocalizedLink href="/media">{text.mediaKit}</LocalizedLink></p>
                   </li>
                   <li>
-                    <p><Link href="https://telegram.koinos.io">Contact us</Link></p>
+                    <p><Link href="https://telegram.koinos.io">{text.contact}</Link></p>
                   </li>
                 </ul>
               </div>
@@ -62,7 +68,7 @@ export default function Footer1() {
             <div className="col-sm-3">
               <div className="footer-links fl-2">
                 {/* Title */}
-                <h6 className="s-17 w-700">Social</h6>
+                <h6 className="s-17 w-700">{text.social}</h6>
                 {/* Links */}
                 <ul className="foo-links clearfix">
                   <li>
@@ -85,14 +91,14 @@ export default function Footer1() {
             <div className="col-sm-3">
               <div className="footer-links fl-2">
                 {/* Title */}
-                <h6 className="s-17 w-700">Other</h6>
+                <h6 className="s-17 w-700">{text.other}</h6>
                 {/* Links */}
                 <ul className="foo-links clearfix">
                   <li>
-                    <p><Link href="https://claim.koinos.io" target="_blank">Claim Pre-Mainnet KOIN</Link></p>
+                    <p><Link href="https://claim.koinos.io" target="_blank">{text.claim}</Link></p>
                   </li>
                   <li>
-                    <p><Link href="https://medium.com/koinosnetwork" target="_blank">Blog</Link></p>
+                    <p><Link href="https://medium.com/koinosnetwork" target="_blank">{text.blog}</Link></p>
                   </li>
                 </ul>
               </div>
@@ -125,12 +131,12 @@ export default function Footer1() {
           <div className="row mt-50 mb-30">
             <div className="col-12">
               <div className="security-notice p-4 bg-dark rounded">
-                <h6 className="s-17 w-700 text-danger mb-3">⚠️ Security Notice</h6>
+                <h6 className="s-17 w-700 text-danger mb-3">⚠️ {text.securityTitle}</h6>
                 <p className="p-sm text-white mb-2">
-                  <strong>Official Koinos domains only:</strong> koinos.io, claim.koinos.io, docs.koinos.io
+                  <strong>{text.officialDomains}</strong> koinos.io, claim.koinos.io, docs.koinos.io
                 </p>
                 <p className="p-sm text-warning">
-                  <strong>Warning:</strong> Koinos is NOT currently hiring. Any job offers claiming to be from Koinos are scams. Do not provide personal information or send money.
+                  <strong>{text.warning}</strong> {text.hiringWarning}
                 </p>
               </div>
             </div>
@@ -143,7 +149,7 @@ export default function Footer1() {
               {/* FOOTER COPYRIGHT */}
               <div className="col">
                 <div className="footer-copyright">
-                  <p className="p-sm">© 2026 Koinos. <span>All Rights Reserved</span></p>
+                  <p className="p-sm">© 2026 Koinos. <span>{text.rights}</span></p>
                 </div>
               </div>
               {/* FOOTER SOCIALS

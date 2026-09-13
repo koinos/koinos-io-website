@@ -1,6 +1,6 @@
-import Link from "next/link"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import LocalizedLink from "@/components/i18n/LocalizedLink";
 import { useEffect, useState } from 'react';
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, headerCls }) {
@@ -38,11 +38,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
           {/* MOBILE HEADER */}
           <div className="wsmobileheader clearfix">
             <span className="smllogo">
-              <Link href="/">
+              <LocalizedLink href="/">
                 <>
                   <img className="dark-theme-img" src="/images/menu/logo-white.png" alt="mobile-logo" />
                 </>
-              </Link>
+              </LocalizedLink>
             </span>
             <a id="wsnavtoggle" className="wsanimated-arrow" onClick={handleMobileMenu}><span /></a>
           </div>
@@ -51,11 +51,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, header
             <div className="wsmainwp clearfix">
               {/* HEADER BLACK LOGO */}
               <div className="desktoplogo">
-                <Link href="/" className="logo-black">
+                <LocalizedLink href="/" className="logo-black">
                   <>
                     <img className="dark-theme-img" src="/images/menu/logo-white.png" alt="logo" />
                   </>
-                </Link>
+                </LocalizedLink>
               </div>
               {/* HEADER WHITE LOGO */}
               <div className="desktoplogo">

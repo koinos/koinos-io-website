@@ -1,69 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://koinos.io</loc>
-    <lastmod>2024-11-12</lastmod>
+    <loc>https://koinos.io/</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/" />
   </url>
   <url>
-    <loc>https://koinos.io/ecosystem</loc>
-    <lastmod>2024-11-12</lastmod>
+    <loc>https://koinos.io/es</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/" />
   </url>
   <url>
     <loc>https://koinos.io/history</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/history" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/history" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/history" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/history</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/history" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/history" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/history" />
   </url>
   <url>
     <loc>https://koinos.io/get-koin</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/get-koin" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/get-koin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/get-koin" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/get-koin</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/get-koin" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/get-koin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/get-koin" />
   </url>
   <url>
     <loc>https://koinos.io/whitepaper</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/whitepaper" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/whitepaper" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/whitepaper" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/whitepaper</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/whitepaper" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/whitepaper" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/whitepaper" />
   </url>
   <url>
     <loc>https://koinos.io/faqs</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/faqs" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/faqs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/faqs" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/faqs</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/faqs" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/faqs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/faqs" />
+  </url>
+  <url>
+    <loc>https://koinos.io/ecosystem</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/ecosystem" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/ecosystem" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/ecosystem" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/ecosystem</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/ecosystem" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/ecosystem" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/ecosystem" />
   </url>
   <url>
     <loc>https://koinos.io/team</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/team" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/team" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/team" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/team</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/team" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/team" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/team" />
   </url>
   <url>
     <loc>https://koinos.io/media</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/media" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/media" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/media" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/media</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/media" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/media" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/media" />
   </url>
   <url>
     <loc>https://koinos.io/programs/koindx-farm</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/programs/koindx-farm" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/programs/koindx-farm" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/programs/koindx-farm" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/programs/koindx-farm</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/programs/koindx-farm" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/programs/koindx-farm" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/programs/koindx-farm" />
   </url>
   <url>
     <loc>https://koinos.io/programs/lords-forsaken-quest</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/programs/lords-forsaken-quest" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/programs/lords-forsaken-quest" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/programs/lords-forsaken-quest" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/programs/lords-forsaken-quest</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/programs/lords-forsaken-quest" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/programs/lords-forsaken-quest" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/programs/lords-forsaken-quest" />
   </url>
   <url>
     <loc>https://koinos.io/programs/taskon-launch</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/programs/taskon-launch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/programs/taskon-launch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/programs/taskon-launch" />
+  </url>
+  <url>
+    <loc>https://koinos.io/es/programs/taskon-launch</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koinos.io/programs/taskon-launch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://koinos.io/es/programs/taskon-launch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koinos.io/programs/taskon-launch" />
   </url>
 </urlset>

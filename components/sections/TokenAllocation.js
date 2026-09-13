@@ -1,8 +1,9 @@
 import { useRef, useEffect } from "react";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function TokenAllocation() {
   return (
-    <>
+    <TranslatedContent>
       <section className="pt-100 ct-01 content-section division">
         <div className="container">
           {/* SECTION CONTENT (ROW) */}
@@ -56,6 +57,6 @@ export default function TokenAllocation() {
           </div> {/* END SECTION CONTENT (ROW) */}
         </div> {/* End container */}
       </section>
-    </>
+    </TranslatedContent>
   )
 }

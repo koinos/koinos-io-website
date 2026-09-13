@@ -3,6 +3,8 @@ import Layout from "@/components/layout/Layout";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { useRouter } from "next/router";
+import LocalizedHead from "@/components/i18n/LocalizedHead";
 
 const ecosystemProjects = [
   {
@@ -128,6 +130,12 @@ const ecosystemProjects = [
 ];
 
 export default function EcosystemPage() {
+  const router = useRouter();
+  const isSpanish = router.locale === "es";
+  const headTitle = isSpanish ? "Ecosistema | Koinos" : "Ecosystem | Koinos";
+  const description = isSpanish
+    ? "Descubre aplicaciones, herramientas, exploradores, carteras y proyectos de la comunidad que forman el ecosistema de Koinos."
+    : "Discover the applications, tools, explorers, wallets, and community projects that make up the Koinos ecosystem.";
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -140,8 +148,9 @@ export default function EcosystemPage() {
         headerStyle={1}
         footerStyle={1}
         headerCls="navbar-dark inner-page-header"
-        headTitle="Ecosystem | Koinos"
+        headTitle={headTitle}
       >
+        <LocalizedHead pathname="/ecosystem" title={headTitle} description={description} />
         <div>
           <section className="page-hero-section">
             <div className="page-hero-section-overlay bg--01 bg--scroll">

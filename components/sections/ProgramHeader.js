@@ -1,9 +1,10 @@
 import Link from "next/link";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function ProgramHeader({ program }) {
 
   return (
-    <>
+    <TranslatedContent>
       <section id="featured-program-header" className="inner-page-hero single-project">
         <div className="project-description txt-block">
           <div className="project-preview-img mb-50">
@@ -82,6 +83,6 @@ export default function ProgramHeader({ program }) {
           </div>
         </div>
       </section>
-    </>
+    </TranslatedContent>
   );
 }

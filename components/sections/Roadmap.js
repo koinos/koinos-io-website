@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function Roadmap() {
 
@@ -330,7 +331,7 @@ export default function Roadmap() {
   ];
 
   return (
-    <>
+    <TranslatedContent>
       <section id="roadmap" className="pt-100 pb-100 ct-04 content-section division">
         <div className="container">
           {/* SECTION TITLE */}
@@ -529,6 +530,6 @@ export default function Roadmap() {
         </div>{" "}
         {/* End container */}
       </section>
-    </>
+    </TranslatedContent>
   );
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function Team() {
   const team = [
@@ -124,7 +125,7 @@ export default function Team() {
   ];
 
   return (
-    <>
+    <TranslatedContent>
       <section
         id="team"
         className="pb-40 inner-page-hero team-section"
@@ -203,6 +204,6 @@ export default function Team() {
         {/* End container */}
       </section>{" "}
       {/* END TEAM-2 */}
-    </>
+    </TranslatedContent>
   );
 }

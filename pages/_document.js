@@ -1,8 +1,10 @@
 import { Head, Html, Main, NextScript } from "next/document";
 
-export default function Document() {
+export default function Document({ __NEXT_DATA__ }) {
+  const locale = __NEXT_DATA__?.locale || "en";
+
   return (
-    <Html lang="en">
+    <Html lang={locale}>
       <Head>
         <link rel="icon" href="/images/favicon.png" type="image/png" />
         <link
@@ -24,7 +26,7 @@ export default function Document() {
 
         <meta
           property="language"
-          content="en"
+          content={locale}
         />
         <meta
           name="robots"

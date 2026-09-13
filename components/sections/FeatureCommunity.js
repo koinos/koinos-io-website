@@ -1,8 +1,9 @@
 import { useRef, useEffect } from "react";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function FeatureCommunity() {
   return (
-    <>
+    <TranslatedContent>
       <section id="feature-community" className="shape--bg shape--white-500 pt-100 features-section division">
         <div className="container">
           <div className="row d-flex align-items-center">
@@ -120,6 +121,6 @@ export default function FeatureCommunity() {
           </div> {/* End row */}
         </div> {/* End container */}
       </section>
-    </>
+    </TranslatedContent>
   )
 }
