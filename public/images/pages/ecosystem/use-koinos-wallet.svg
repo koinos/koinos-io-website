@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Use Koinos Wallet</title>
+  <rect width="160" height="160" rx="34" fill="#121016"/>
+  <rect x="28" y="48" width="104" height="72" rx="16" fill="#20182d" stroke="#9966ff" stroke-width="6"/>
+  <path d="M38 49V40c0-8 7-14 15-14h60" fill="none" stroke="#c8adff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M98 67h34v34H98c-10 0-18-8-18-17s8-17 18-17Z" fill="#5d00b3" stroke="#c8adff" stroke-width="5"/>
+  <circle cx="102" cy="84" r="5" fill="#fff"/>
+</svg>

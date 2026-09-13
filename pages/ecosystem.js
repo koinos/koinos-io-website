@@ -56,6 +56,33 @@ const ecosystemProjects = [
     ],
   },
   {
+    name: "Use Koinos Wallet",
+    description: "Use Koinos Wallet is a browser-based wallet for creating or importing a Koinos account, viewing balances and mana, and exporting a local backup of its private key.",
+    icon: "/images/pages/ecosystem/use-koinos-wallet.svg",
+    links: [
+      { label: "Website", url: "https://usekoinos.com/wallet" },
+      { label: "GitHub", url: "https://github.com/therexdev/discover-koinos" },
+    ],
+  },
+  {
+    name: "NFT Studio",
+    description: "NFT Studio is a browser-based creative tool for drawing or uploading artwork, minting it as a Koinos NFT through a sponsored flow, and sending it to another account.",
+    icon: "/images/pages/ecosystem/nft-studio.svg",
+    links: [
+      { label: "Website", url: "https://usekoinos.com/nft" },
+      { label: "GitHub", url: "https://github.com/therexdev/discover-koinos" },
+    ],
+  },
+  {
+    name: "Token Lab",
+    description: "Token Lab is a guided browser tool for deploying a Koinos token contract with a chosen name, symbol, supply, logo, and minting policy, then transferring, minting, or burning its tokens.",
+    icon: "/images/pages/ecosystem/token-lab.svg",
+    links: [
+      { label: "Website", url: "https://usekoinos.com/token" },
+      { label: "GitHub", url: "https://github.com/therexdev/discover-koinos" },
+    ],
+  },
+  {
     name: "Koinos AI",
     description: "Koinos AI is an alpha local-first desktop AI app and experimental compute network for running private models, exposing an OpenAI-compatible API, and contributing idle compute for testnet KAI rewards.",
     icon: "/images/pages/ecosystem/koinos-ai.svg",
