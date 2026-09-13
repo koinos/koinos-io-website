@@ -175,7 +175,6 @@ export const SPANISH_CONTENT = {
   "Koinos Founder, Project Manager + Developer": "Fundador de Koinos, director de proyecto y desarrollador",
   "Developer": "Desarrollador",
   "Community Developer": "Desarrollador de la comunidad",
-  "Use Koinos Creator": "Creador de Use Koinos",
   "Consultant + Developer": "Consultor y desarrollador",
 
   "Koinos Media Kit": "Kit de prensa de Koinos",

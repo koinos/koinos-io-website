@@ -34,7 +34,7 @@ export default function Team() {
     },
     {
       name: "Rex",
-      role: "Use Koinos Creator",
+      role: "Community Developer",
       photo: "/images/sections/team/rex.jpg",
       website: "https://usekoinos.com/",
       telegram: "https://t.me/KoinosRex",
