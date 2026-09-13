@@ -42,7 +42,7 @@
   max-width: 780px;
   margin: 0;
   color: var(--liq-ink);
-  font-size: clamp(2.7rem, 7vw, 5.4rem);
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
   font-weight: 760;
   letter-spacing: -0.055em;
   line-height: 0.98;
