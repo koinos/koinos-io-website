@@ -31,6 +31,8 @@ export default function Team() {
       role: "Project Manager + Developer",
       photo: "/images/sections/team/pablo.jpg",
       twitter: "https://x.com/pgarcgo",
+      telegram: "https://t.me/pgarcgo",
+      github: "https://github.com/pgarciagon",
     },
     {
       name: "Rex",
