@@ -18,6 +18,7 @@ export default function Menu() {
           <Link href="#" className="h-link">{text.learn}<span className="wsarrow" /></Link>
           <ul className="sub-menu">
             <li aria-haspopup="true"><LocalizedLink href="/get-koin">{text.getKoin}</LocalizedLink></li>
+            <li aria-haspopup="true"><LocalizedLink href="/add-liquidity">{text.addLiquidity}</LocalizedLink></li>
             <li aria-haspopup="true"><LocalizedLink href="/whitepaper">{text.whitepaper}</LocalizedLink></li>
             <li aria-haspopup="true"><LocalizedLink href="/#features">{text.features}</LocalizedLink></li>
             <li aria-haspopup="true"><LocalizedLink href="/faqs">{text.faqs}</LocalizedLink></li>

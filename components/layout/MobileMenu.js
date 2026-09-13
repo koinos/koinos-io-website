@@ -59,6 +59,11 @@ export default function MobileMenu({ handleMobileMenu }) {
               </LocalizedLink>
             </li>
             <li aria-haspopup="true">
+              <LocalizedLink href="/add-liquidity" onClick={handleMobileMenu}>
+                {text.addLiquidity}
+              </LocalizedLink>
+            </li>
+            <li aria-haspopup="true">
               <LocalizedLink href="/whitepaper" onClick={handleMobileMenu}>
                 {text.whitepaper}
               </LocalizedLink>

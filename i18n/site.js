@@ -4,6 +4,7 @@ const copy = {
   en: {
     learn: "Learn",
     getKoin: "How to buy KOIN",
+    addLiquidity: "How to add liquidity",
     whitepaper: "Whitepaper",
     features: "Features",
     faqs: "FAQs",
@@ -31,6 +32,7 @@ const copy = {
   es: {
     learn: "Aprender",
     getKoin: "Cómo comprar KOIN",
+    addLiquidity: "Cómo añadir liquidez",
     whitepaper: "Libro blanco",
     features: "Características",
     faqs: "Preguntas frecuentes",
