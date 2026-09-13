@@ -154,6 +154,11 @@
   background: var(--liq-panel);
 }
 
+.networkCard {
+  display: flex;
+  flex-direction: column;
+}
+
 .networkVenue {
   margin: 0 0 0.5rem !important;
   color: var(--liq-purple) !important;
@@ -179,6 +184,8 @@
 
 .networkCard span {
   display: inline-block;
+  align-self: flex-start;
+  margin-top: auto;
   padding: 0.3rem 0.65rem;
   border-radius: 999px;
   background: var(--liq-purple-soft);
