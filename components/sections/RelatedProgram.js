@@ -1,7 +1,8 @@
 import Link from "next/link"
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 export default function RelatedProgram({ program, message }) {
   return (
-    <>
+    <TranslatedContent>
       {program.active == 1 ?
         (
           <section id="banner-16" className="banner-section mb-100 mt-100">
@@ -36,6 +37,6 @@ export default function RelatedProgram({ program, message }) {
             </div>     {/* End container */}
           </section>
         ) : ''}
-    </>
+    </TranslatedContent>
   )
 }

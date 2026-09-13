@@ -1,8 +1,10 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
+import { useRouter } from "next/router"
 
 export default function NotFoundPage() {
+  const router = useRouter();
   const canvasRef = useRef(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -80,7 +82,11 @@ export default function NotFoundPage() {
   }, []);
 
   return (
-    <Layout headerStyle={1} footerStyle={3}>
+    <Layout
+      headerStyle={1}
+      footerStyle={3}
+      headTitle={router.locale === "es" ? "Página no encontrada | Koinos" : "Page Not Found | Koinos"}
+    >
       <div>
         <section id="page-404">
           <style jsx>{`

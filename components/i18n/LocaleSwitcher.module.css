@@ -1,0 +1,130 @@
+.switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0.2rem 0.25rem 0.2rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(18, 18, 18, 0.42);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.headerActions {
+  display: flex !important;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 70px;
+}
+
+.githubLink {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 999px;
+  line-height: 1 !important;
+}
+
+.githubLink:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.githubLink:focus-visible {
+  outline: 3px solid #9966ff;
+  outline-offset: 2px;
+}
+
+.icon {
+  display: inline-flex;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8rem;
+}
+
+.options {
+  display: inline-flex;
+  gap: 0.1rem;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.15rem;
+  min-height: 2.15rem;
+  padding: 0.35rem 0.45rem;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.active {
+  background: #9966ff;
+  color: #fff !important;
+}
+
+.link:focus-visible {
+  outline: 3px solid #9966ff;
+  outline-offset: 2px;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.38;
+}
+
+.disabled:hover {
+  color: rgba(255, 255, 255, 0.78);
+  background: transparent;
+}
+
+@media (max-width: 991px) {
+  .mobileLanguageItem {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 64px;
+    padding: 8px 32px 8px 17px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobileLanguageLabel {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .mobileLanguageItem .switcher {
+    margin: 0;
+    padding-left: 0.45rem;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .mobileLanguageItem .link {
+    min-width: 2.25rem;
+    min-height: 2.25rem;
+  }
+
+  .mobileGithubLink {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobileGithubLink img {
+    flex: 0 0 auto;
+  }
+}

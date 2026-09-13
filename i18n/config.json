@@ -1,0 +1,26 @@
+{
+  "defaultLocale": "en",
+  "locales": ["en", "es"],
+  "localeNames": {
+    "en": "English",
+    "es": "Español"
+  },
+  "translatedRoutes": {
+    "en": ["*"],
+    "es": [
+      "/",
+      "/get-koin",
+      "/add-liquidity",
+      "/whitepaper",
+      "/faqs",
+      "/ecosystem",
+      "/team",
+      "/media",
+      "/history",
+      "/programs/koindx-farm",
+      "/programs/lords-forsaken-quest",
+      "/programs/taskon-launch",
+      "/404"
+    ]
+  }
+}

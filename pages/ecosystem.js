@@ -3,6 +3,8 @@ import Layout from "@/components/layout/Layout";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { useRouter } from "next/router";
+import LocalizedHead from "@/components/i18n/LocalizedHead";
 
 const ecosystemProjects = [
   {
@@ -50,6 +52,33 @@ const ecosystemProjects = [
     icon: "/images/pages/ecosystem/discover-koinos.svg",
     links: [
       { label: "Website", url: "https://usekoinos.com/" },
+      { label: "GitHub", url: "https://github.com/therexdev/discover-koinos" },
+    ],
+  },
+  {
+    name: "Use Koinos Wallet",
+    description: "Use Koinos Wallet is a browser-based wallet for creating or importing a Koinos account, viewing balances and mana, and exporting a local backup of its private key.",
+    icon: "/images/pages/ecosystem/use-koinos-wallet.svg",
+    links: [
+      { label: "Website", url: "https://usekoinos.com/wallet" },
+      { label: "GitHub", url: "https://github.com/therexdev/discover-koinos" },
+    ],
+  },
+  {
+    name: "NFT Studio",
+    description: "NFT Studio is a browser-based creative tool for drawing or uploading artwork, minting it as a Koinos NFT through a sponsored flow, and sending it to another account.",
+    icon: "/images/pages/ecosystem/nft-studio.svg",
+    links: [
+      { label: "Website", url: "https://usekoinos.com/nft" },
+      { label: "GitHub", url: "https://github.com/therexdev/discover-koinos" },
+    ],
+  },
+  {
+    name: "Token Lab",
+    description: "Token Lab is a guided browser tool for deploying a Koinos token contract with a chosen name, symbol, supply, logo, and minting policy, then transferring, minting, or burning its tokens.",
+    icon: "/images/pages/ecosystem/token-lab.svg",
+    links: [
+      { label: "Website", url: "https://usekoinos.com/token" },
       { label: "GitHub", url: "https://github.com/therexdev/discover-koinos" },
     ],
   },
@@ -128,6 +157,12 @@ const ecosystemProjects = [
 ];
 
 export default function EcosystemPage() {
+  const router = useRouter();
+  const isSpanish = router.locale === "es";
+  const headTitle = isSpanish ? "Ecosistema | Koinos" : "Ecosystem | Koinos";
+  const description = isSpanish
+    ? "Descubre aplicaciones, herramientas, exploradores, carteras y proyectos de la comunidad que forman el ecosistema de Koinos."
+    : "Discover the applications, tools, explorers, wallets, and community projects that make up the Koinos ecosystem.";
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -140,8 +175,9 @@ export default function EcosystemPage() {
         headerStyle={1}
         footerStyle={1}
         headerCls="navbar-dark inner-page-header"
-        headTitle="Ecosystem | Koinos"
+        headTitle={headTitle}
       >
+        <LocalizedHead pathname="/ecosystem" title={headTitle} description={description} />
         <div>
           <section className="page-hero-section">
             <div className="page-hero-section-overlay bg--01 bg--scroll">

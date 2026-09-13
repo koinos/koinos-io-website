@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import PageHead from "./PageHead";
 import Footer1 from "./footer/Footer1";
 import Header1 from "./header/Header1";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function Layout({
   headerStyle,
@@ -42,7 +43,7 @@ export default function Layout({
         ) : null}
 
         <main className="main">
-          {children}
+          <TranslatedContent>{children}</TranslatedContent>
         </main>
 
         {!footerStyle && <Footer1 />}

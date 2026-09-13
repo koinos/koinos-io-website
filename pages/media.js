@@ -1,8 +1,13 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useEffect, useRef } from "react"
+import { useRouter } from "next/router"
+import LocalizedHead from "@/components/i18n/LocalizedHead"
 
 export default function MediaPage() {
+  const router = useRouter()
+  const isSpanish = router.locale === "es"
+  const headTitle = isSpanish ? "Kit de prensa | Koinos" : "Media Kit | Koinos"
   const sidebarRef = useRef(null)
 
   useEffect(() => {
@@ -59,8 +64,13 @@ export default function MediaPage() {
       headerStyle={1}
       footerStyle={1}
       headerCls="navbar-dark inner-page-header"
-      headTitle="Media Kit | Koinos"
+      headTitle={headTitle}
     >
+      <LocalizedHead
+        pathname="/media"
+        title={headTitle}
+        description={isSpanish ? "Recursos visuales oficiales, colores y archivos descargables de la marca Koinos." : "Official Koinos visual assets, brand colors, and downloadable media files."}
+      />
       <div className="mt-5 text-light py-5 header-section">
         <div className="container mt-5">
           <h1 className="mb-4 display-1 fw-bold">Koinos Media Kit</h1>

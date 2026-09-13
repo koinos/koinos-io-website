@@ -1,8 +1,9 @@
 import Link from "next/link";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function JoinTheCommunity() {
   return (
-    <>
+    <TranslatedContent>
       <section id="join-the-community" className="mb-100 mt-100 ct-01 content-section features-section division">
         <div className="container">
           <div className="row d-flex align-items-center">
@@ -42,6 +43,6 @@ export default function JoinTheCommunity() {
           </div>
         </div>
       </section>
-    </>
+    </TranslatedContent>
   );
 }

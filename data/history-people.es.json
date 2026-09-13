@@ -1,0 +1,5576 @@
+{
+  "generatedFrom": "koinos-community-contributor-summaries-en.md",
+  "threshold": 500,
+  "methodology": {
+    "ordering": "Total de contribuciones verificadas, más alto a más bajo",
+    "note": "Los totales son mínimos verificados derivados del público Telegram tópicos, inventoriados individualmente Discord identidades y límites de atribución cronológica. El volumen de actividad no es una medida de calidad, autoría, liderazgo o importancia histórica."
+  },
+  "people": [
+    {
+      "rank": 1,
+      "name": "Kui He / motoengineer",
+      "total": 62037,
+      "summary": "Entre mayo de 2020 y julio de 2026, amasó 62.037 contribuciones verificadas: 44.234 mensajes de Telegram, 17.758 mensajes de Discord, 15 artículos y 30 videos. Su actividad combina el apoyo diario con el trabajo entregado: lanzó Koinos Forum, revivió AMAs, cofundó y operaba BurnKoin y KAP, cofundó Koinos-Social, mantuvo nodos, y produjo una biblioteca educativa de treinta vídeos antes de unirse a la Koinos Community Foundation. Discutió sobre la minería, maná, gobernanza, seguridad dApp, liquidez y financiación; argumentó que los cambios que son difíciles de revertir deben ser evaluados por su impacto colectivo; y resumió un trabajo menos visible con la frase: “Los constructores están sentando bases, es posible que no siempre lo veas.” También propuso hipótesis explícitas de financiación e interoperabilidad y debatió si la infraestructura debía mantenerse incluso durante una disminución del ecosistema. Su volumen refuerza la continuidad ya demostrada a través de productos, operaciones y educación, pero no lo convierte en el autor del código perteneciente a Luke Willis, Roamin u otros colaboradores.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 3156
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 3097
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 2317
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 2204
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 1961
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "BurnKoin",
+          "count": 184
+        },
+        {
+          "label": "Chainge",
+          "count": 172
+        },
+        {
+          "label": "Kondor",
+          "count": 166
+        },
+        {
+          "label": "MEXC",
+          "count": 165
+        },
+        {
+          "label": "KoinDX",
+          "count": 150
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 34010
+        },
+        {
+          "label": "Koinos Army",
+          "count": 8016
+        },
+        {
+          "label": "KoinDX",
+          "count": 1083
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "G Millie / DeGemsCrew",
+      "total": 36303,
+      "summary": "Entre noviembre de 2021 y junio de 2026, registró 36.303 mensajes, principalmente en el Koinos Army. Fue organizador, administrador, anfitrión de AMA e iniciador del producto NFT comunitario, así como un enlace con DeGems Lounge; no fue el fundador técnico, artista o desarrollador de contratos de Koinos Army Journey. Sus conversaciones se centraron en el mercado, KoinDX, NFTs, liquidez y coordinación comunitaria, y sostuvo que las prioridades a corto plazo y la financiación deben ser sometidas a un voto comunitario. También mantuvo una memoria crítica del período posterior al Koinos Group, describiendo la falta de desarrollo, conciencia, intercambios y dinero como “bleak”. La cifra muestra que mantuvo el espacio social durante años, mientras que las contribuciones de Glen, Eman, Adem y MiXiBo deben permanecer separadamente atribuidas.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 2442
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 1899
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 1610
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 1514
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 785
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 252
+        },
+        {
+          "label": "Koinos Army",
+          "count": 142
+        },
+        {
+          "label": "MEXC",
+          "count": 137
+        },
+        {
+          "label": "Kollection",
+          "count": 93
+        },
+        {
+          "label": "Kondor",
+          "count": 60
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 26573
+        },
+        {
+          "label": "Koinos",
+          "count": 8095
+        },
+        {
+          "label": "KoinDX",
+          "count": 1209
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Koinos The Goat",
+      "total": 24886,
+      "summary": "Entre marzo de 2021 y junio de 2026, acumula 24.886 contribuciones, casi todos ellos mensajes, más su video independiente Las Crónicas de Koinos. Creó el Koinos The Goat persona y su metáfora de comedores, organizada y editada copia comunitaria, explicó maná, inflación, carteras, reclamaciones y dApps, aparecieron en The Koin Press, y más tarde se conecta maná con permisos para agentes de inteligencia artificial. En sus intervenciones, insistió en que “Mana es WORTHLESS. Es por eso que es tan valioso”, propuso hablar de fichas de juego en lugar de reducir todo a meme tokens, y se volvió cada vez más crítico de la incapacidad del proyecto para llegar al mercado. Su papel era narrativa económica, apoyo y cultura comunitaria: él mismo dijo, \"No soy un devoto\", y ningún código, posición de la empresa o autoría del protocolo puede atribuirse a su volumen.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 2832
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 2300
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 2000
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 1335
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 1316
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 180
+        },
+        {
+          "label": "MEXC",
+          "count": 167
+        },
+        {
+          "label": "KoinDX",
+          "count": 129
+        },
+        {
+          "label": "Konio",
+          "count": 55
+        },
+        {
+          "label": "Chainge",
+          "count": 54
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 14409
+        },
+        {
+          "label": "Koinos Army",
+          "count": 10381
+        },
+        {
+          "label": "KoinDX",
+          "count": 52
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Diamond Hands",
+      "total": 21385,
+      "summary": "Entre agosto de 2023 y septiembre de 2025 publicó 21.385 mensajes en los principales grupos del Ejército y del TCB. Su actividad fue principalmente discusión de mercado y carteras de seguimiento, NFTs y dApps, pero en 2025 se convirtió en una voz insistente en debates sobre fondos comunitarios, retención de desarrolladores, y el puente Vortex. Sostuvo que los dos problemas centrales eran la falta de desarrolladores capaces de mantener la cadena y la economía de fichas, y pidió una decisión pública sobre si la donación de KOIN y USDT debían ir al fondo de desarrollo e interoperabilidad. El registro demuestra una participación cuantitativa y deliberativa excepcionalmente alta, no autoría de Vortex, contratos, carteras o decisiones de la Fundación.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 1988
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 1540
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 922
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 768
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 738
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 198
+        },
+        {
+          "label": "Kollection",
+          "count": 160
+        },
+        {
+          "label": "Konio",
+          "count": 123
+        },
+        {
+          "label": "Kondor",
+          "count": 120
+        },
+        {
+          "label": "KoinDX",
+          "count": 114
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 10609
+        },
+        {
+          "label": "Koinos Army",
+          "count": 9727
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 675
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Carlos Welele",
+      "total": 18338,
+      "summary": "Entre marzo de 2021 y junio de 2026, aportó 18.338 mensajes en inglés y español, con una fuerte presencia en el grupo principal, el Koinos Army y Koinos Hispano. Actuó como explicador bilingüe, moderador práctico y operador de flujos de distribución de Koinos Socials: guió a los usuarios a través de reclamaciones, billeteras no privativas, seguridad, puentes, intercambios y dApps, e informó grupos falsos o contactos sospechosos. Sus mensajes discutieron cómo Kondor, Konio y otras interfaces podrían ocultar la fricción, por ejemplo, usando maná de otra cuenta al mover un equilibrio completo, y presentaron el ecosistema español como una secuencia de productos, integraciones y eventos que debían ser traducidos para usuarios no técnicos. Parte de su volumen consiste en anuncios retransmitidos y conversaciones sociales; por lo tanto, reconoce su infraestructura de comunicaciones sin atribuirle los productos que explicó.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 1485
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 1409
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 959
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 717
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 577
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 99
+        },
+        {
+          "label": "Kondor",
+          "count": 97
+        },
+        {
+          "label": "Koiner",
+          "count": 79
+        },
+        {
+          "label": "KoinDX",
+          "count": 66
+        },
+        {
+          "label": "Chainge",
+          "count": 56
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 9092
+        },
+        {
+          "label": "Koinos Army",
+          "count": 4482
+        },
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 4149
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Andrew Levine",
+      "total": 16119,
+      "summary": "Entre noviembre de 2019 y febrero de 2026, acumula 16.119 contribuciones verificadas, incluyendo 4.667 Discord intervenciones, 11 puestos inventoried X y 11 artículos. Como fundador y principal comunicador inicial del proyecto, explicó OpenSeed/OpenOrchard, el lanzamiento justo, arquitectura modular, maná, gobernanza y la misión de una experiencia sin honorarios, al tiempo que coordina campañas y relaciones con los desarrolladores. En 2022, dijo que la gobernanza estaba completa, KoinDX ya estaba trabajando en testnet, y un establo sería una oportunidad valiosa; en 2023, destacó que tres años de trabajo incluían contribuciones de Kondor, KoinDX, Roamin, Kollection, KAP y Koiner, no sólo del equipo fundador. Su actividad combina el diseño narrativo, las decisiones de producto, el apoyo y el reconocimiento de terceros, y debe distinguirse de la aplicación técnica concreta realizada por Steve, Michael, Julián y otros autores.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 1387
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 931
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 898
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 814
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 481
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 24
+        },
+        {
+          "label": "Kondor",
+          "count": 15
+        },
+        {
+          "label": "Koiner",
+          "count": 14
+        },
+        {
+          "label": "KoinCity",
+          "count": 10
+        },
+        {
+          "label": "Chainge",
+          "count": 10
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 10145
+        },
+        {
+          "label": "Koinos Army",
+          "count": 632
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 370
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Saleh Hawi",
+      "total": 12180,
+      "summary": "Entre enero de 2023 y abril de 2026, registró 12,180 mensajes, especialmente en el grupo principal, Ejército y KoinDX. Fue organizador, moderador, operador de apoyo y colaborador de productos y negocios de KoinDX, y coordinó una campaña comunitaria para asegurar nuevos anuncios de intercambio; no fue uno de los cofundadores originales o el autor de los contratos DEX. Explicó cómo participar en las ventas y los mercados, mover KOIN entre los intercambios centralizados, billeteras y puentes, utilizar Fogata y los NFT de apoyo, y entender por qué una primera experiencia Web3 sin gas podría ser más accesible para los recién llegados. También advirtió acerca de los impersonadores, presales inexistentes y mensajes privados, por lo que su volumen refleja el a bordo y la seguridad, así como la promoción del mercado.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 1527
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 1317
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 690
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 608
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 598
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 315
+        },
+        {
+          "label": "MEXC",
+          "count": 135
+        },
+        {
+          "label": "Kondor",
+          "count": 102
+        },
+        {
+          "label": "Konio",
+          "count": 84
+        },
+        {
+          "label": "Chainge",
+          "count": 58
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 6793
+        },
+        {
+          "label": "Koinos Army",
+          "count": 4236
+        },
+        {
+          "label": "KoinDX",
+          "count": 1096
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "VonLooten",
+      "total": 11395,
+      "summary": "Entre junio de 2021 y abril de 2024, acumulaba 11.395 contribuciones verificadas, incluyendo 2.327 sobre Discord y cinco artículos. Como cofundador KoinDX y CEO original, dirigió estrategia, comunicaciones, documentación, KNDX/KOINDX, el DAO propuesto, IDO, lanzamiento, pares oficiales, asociaciones y apoyo, al tiempo que también contribuyó a la labor de productos. Explicó que los pares deben ser añadidos a través de controles de gobernanza y seguridad, que los NFT de apoyo eran donaciones opcionales sin utilidad especial, y que un DEX sin honorarios podría cambiar la experiencia DeFi. También discutió el valor de la ficha nativa y los límites de las dApps sin un propósito económico genuino. El código principal del contrato de la AMM no debe atribuirse automáticamente a él: Ederaleng fue la OC y tiene pruebas de aplicación técnica más sólidas.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 988
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 760
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 751
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 652
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 391
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 280
+        },
+        {
+          "label": "Kondor",
+          "count": 43
+        },
+        {
+          "label": "Kollection",
+          "count": 31
+        },
+        {
+          "label": "Koinos Army",
+          "count": 30
+        },
+        {
+          "label": "Koiner",
+          "count": 28
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 5188
+        },
+        {
+          "label": "Koinos Army",
+          "count": 2157
+        },
+        {
+          "label": "KoinDX",
+          "count": 1376
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Techno🔮",
+      "total": 9968,
+      "summary": "Entre enero 2021 y noviembre 2024, publicó 9.968 mensajes, casi todos en el grupo principal. Fue un mercado muy consistente y voz de apoyo: rastreó la minería y grandes portavoces, explicó cómo comprar o puentear activos, usuarios guiados a través de Kondor, Koiner, KoinDX y MEXC, promovió campañas, y recordó a los recién llegados que los miembros del equipo no iniciaron mensajes privados. Defendió públicamente el trabajo no remunerado de Julián y utilizó el Kondor NFT como ejemplo de apoyo directo a un desarrollador. Su posición en esta lista proviene de la conversación, la asistencia y la amplificación, no de un producto verificado, repositorio o papel formal.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 985
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 825
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 633
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 551
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 363
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 145
+        },
+        {
+          "label": "MEXC",
+          "count": 116
+        },
+        {
+          "label": "Chainge",
+          "count": 91
+        },
+        {
+          "label": "KoinDX",
+          "count": 86
+        },
+        {
+          "label": "Koiner",
+          "count": 82
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 9388
+        },
+        {
+          "label": "KoinDX",
+          "count": 324
+        },
+        {
+          "label": "Koinos Germany",
+          "count": 237
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Steve Gerbino",
+      "total": 9393,
+      "summary": "Entre octubre de 2020 y marzo de 2026, acumula 9.393 contribuciones: 5.873 mensajes de Telegram y 3.520 mensajes de Discord. Como fundador y CTO, explicó desde el período de la feria que la frecuencia de la prueba afectaba los gastos de ETH y la varianza, no el hardware; más tarde cubrió arquitectura, versiones, nodos, Prueba de Burn, KCS, actualizaciones y soporte del operador. En 2025, argumentó que KCS-4 podría permitir el token automático seguro y los listados de NFT y prosiguió a proponer una nueva cadena que preservaría WASM, recursos, Proof of Burn, StateDB, y la abstracción de cuentas al eliminar la gobernanza y los microservicios para priorizar la velocidad. Esa propuesta final es una posición de diseño posterior, no un hito Koinos entregado. Su volumen acompaña un papel técnico fundamental sostenido, aunque la autoría de cada componente debe seguir la historia del repositorio.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 490
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 454
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 374
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 355
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 329
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Chainge",
+          "count": 86
+        },
+        {
+          "label": "KoinDX",
+          "count": 84
+        },
+        {
+          "label": "MEXC",
+          "count": 39
+        },
+        {
+          "label": "Kondor",
+          "count": 28
+        },
+        {
+          "label": "Kollection",
+          "count": 22
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 4489
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1225
+        },
+        {
+          "label": "Koinos Italia",
+          "count": 92
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Julián González / Jga",
+      "total": 9200,
+      "summary": "Entre octubre de 2020 y julio de 2026, acumula 9.200 contribuciones: 5.743 mensajes de Telegram, 3.421 mensajes de Discord, y 36 artículos. Su arco va desde la minería y las piscinas a través de Koilib, Kondor, la reclamación WKOIN, Fogata, Koinos Polls, Apodos, Arkinos, billeteras inteligentes, KFS, estándares y mantenimiento de redes; también proporcionó soporte técnico bilingüe y los productores de bloques operados. Explicó por qué un estándar básico de NFT no debería incluir precios o llamadas KOIN por defecto, presentó Arkinos como una forma de crear un contrato y frontend en minutos, y ayudó a los usuarios a recuperar o mover fondos basados en reglas contractuales verificables. Su volumen corresponde a una producción técnica excepcionalmente amplia, pero varios productos y estándares fueron colaboraciones, y no lo convierte en arquitecto de protocolo fundador.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 1174
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 920
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 747
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 744
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 638
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 353
+        },
+        {
+          "label": "Fogata",
+          "count": 122
+        },
+        {
+          "label": "KoinosBlocks",
+          "count": 100
+        },
+        {
+          "label": "BurnKoin",
+          "count": 56
+        },
+        {
+          "label": "Kollection",
+          "count": 56
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 3299
+        },
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 2279
+        },
+        {
+          "label": "Koinos Army",
+          "count": 64
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "q t",
+      "total": 8875,
+      "summary": "Entre noviembre 2022 y julio 2026, q t grabó 8.875 mensajes en todo el grupo principal, Ejército, KoinCity, KoinDX y Koin Crew. Este contribuyente fue un usuario intensivo y observador crítico de KoinCity, KoinDX, Chainge, Kollection, KAP, Kanvas, exploradores y minería, con debates frecuentes sobre liquidez, marketing y financiación. Alentaron a las personas a utilizar los dApps disponibles y a comprender sus diferencias, pero advirtieron que gastar KOIN inflado en propuestas poco sentido antes de asegurar intercambios, un DEX y Vortex; también cuestionaron campañas cuyo resultado debe medirse mediante volumen y adopción. El registro ayuda a reconstruir la recepción del producto y el escepticismo económico, no la autoría técnica o la autoridad de toma de decisiones.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 1386
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 1200
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 527
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 523
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 501
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinCity",
+          "count": 156
+        },
+        {
+          "label": "KoinDX",
+          "count": 156
+        },
+        {
+          "label": "Chainge",
+          "count": 146
+        },
+        {
+          "label": "MEXC",
+          "count": 84
+        },
+        {
+          "label": "Vortex",
+          "count": 59
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 4231
+        },
+        {
+          "label": "Koinos Army",
+          "count": 2979
+        },
+        {
+          "label": "Koincity",
+          "count": 607
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "edje Ӄ",
+      "total": 8688,
+      "summary": "Entre noviembre de 2020 y enero de 2026, edje publicó 8.688 mensajes en el grupo principal, Ejército, KoinCity, Koin Crew y KoinDX. Este colaborador actuó como usuario exploratorio y catalogador informal: pruebas de carteras y puentes, comparando las utilidades de la colección NFT, preguntando acerca de mana libre, y proponiendo una vista de servicio unificada y un asistente de AI mantuvo la corriente con billeteras, puentes y dApps. Estas intervenciones documentan fallas a bordo, por ejemplo, Chainge afirma que no aparecieron, y la dificultad de explicar la utilidad de cada colección o producto. El valor histórico reside en la observación sostenida de UX y el ecosistema, sin evidencia de autoría de los productos mencionados.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 1262
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 777
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 713
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 671
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 492
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinCity",
+          "count": 122
+        },
+        {
+          "label": "KoinDX",
+          "count": 96
+        },
+        {
+          "label": "Chainge",
+          "count": 83
+        },
+        {
+          "label": "MEXC",
+          "count": 74
+        },
+        {
+          "label": "Kondor",
+          "count": 63
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 4291
+        },
+        {
+          "label": "Koinos Army",
+          "count": 2666
+        },
+        {
+          "label": "Koincity",
+          "count": 685
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Pablo García / pgarcgo",
+      "total": 8367,
+      "summary": "Entre abril de 2020 y julio de 2026, acumula 8.367 contribuciones verificadas, incluyendo 396 sobre Discord. Comenzó como organizador y educador en la comunidad española, creó directorios de Koincast y proyectos, testamentos, reclamos, carteras, piscinas y dApps, y se convirtió en nodos operativos, infraestructura comunitaria testnet/API, Koinos One, el nodo monolítico de Teleno, y estado-database y replay trabajo de reparación. En español, explicó la auto-custodia, frases de semillas y el proceso de reclamación; en 2025 resumió prioridades como las operaciones de red, Vortex, KFS y custodia comunitaria de infraestructura. Su actividad demuestra una transición de las comunicaciones a la infraestructura y la contribución positiva al consenso, pero no le hace retrospectivamente un arquitecto fundador de Koinos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 771
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 644
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 568
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 497
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 442
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 64
+        },
+        {
+          "label": "KoinDX",
+          "count": 43
+        },
+        {
+          "label": "MEXC",
+          "count": 39
+        },
+        {
+          "label": "Koiner",
+          "count": 33
+        },
+        {
+          "label": "Chainge",
+          "count": 27
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 3792
+        },
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 3705
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 181
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Justin Welch / Justin W.",
+      "total": 7196,
+      "summary": "Entre octubre de 2020 y mayo de 2026, registró 7.196 contribuciones, incluyendo 1.806 en Discord. Se trasladó de minero y solución de problemas técnicos al cofundador de Kollection, iniciador del repositorio de Koinos Contract Standards, coautor de KCS-2, y colaborador de Koinos.io, Vortex, Koinos.fun, y la Fundación, trabajando en contratos, frontend, indexación, AWS, y despliegues. Explicó cómo los agregadores como DefiLlama dependen de APIs separadas, defendieron la liquidez nativa y un puente accesible al Étereum, y dijo en 2025 que Vortex necesitaba lanzar pero que no podía conducirla responsablemente debido a tiempo limitado, aunque ayudaría con la ingeniería. Su volumen acompaña los entregables verificables, pero Kollection, KCS-2, Vortex, y Koinos.fun tenían equipos y autoría compartida.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 1006
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 592
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 533
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 464
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 451
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kollection",
+          "count": 230
+        },
+        {
+          "label": "KoinDX",
+          "count": 70
+        },
+        {
+          "label": "Kondor",
+          "count": 63
+        },
+        {
+          "label": "Chainge",
+          "count": 56
+        },
+        {
+          "label": "MEXC",
+          "count": 38
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 3559
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1654
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 80
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Tobi",
+      "total": 6979,
+      "summary": "Entre abril de 2021 y junio de 2026 publicó 6.979 mensajes, más de seis mil de ellos en el Koinos Army. Su conversación combina el seguimiento de precios, consejos sobre BurnKoin/Fogata/VHP, expectativas para KoinDX y dApps, y debates sobre donaciones y financiación comunitaria. Explicó que la quema de KOIN era una estrategia a largo plazo y que el VHP podía recuperar la liquidez a través de las piscinas o el mercado; con el tiempo, se apartó de esperar dApps para impulsar la adopción para expresar la frustración de que el crecimiento seguía siendo casi inexistente después de cinco años. Es una voz útil para medir el sentimiento y la continuidad del soporte, no un autor de productos o infraestructura.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 1106
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 459
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 412
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 259
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 150
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 88
+        },
+        {
+          "label": "KoinDX",
+          "count": 61
+        },
+        {
+          "label": "Kollection",
+          "count": 29
+        },
+        {
+          "label": "Chainge",
+          "count": 29
+        },
+        {
+          "label": "BurnKoin",
+          "count": 16
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 6037
+        },
+        {
+          "label": "Koinos",
+          "count": 676
+        },
+        {
+          "label": "KoinDX",
+          "count": 242
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Nomad100x",
+      "total": 6346,
+      "summary": "Entre febrero de 2021 y julio de 2026, acumula 6.346 mensajes, principalmente en la comunidad española y en el grupo principal. Como participante, patrocinador y crítico, inició Koinos Garden pagando a un desarrollador externo para construir una inversión y voto de la NFT DAO, y luego debatió la Federación, KFS, inflación, puentes, liquidez y prioridades de productos. Sostuvo que dos años de red sin puente o suficiente DeFi era un problema, apoyó la inflación limitada mediante propuestas, y presentó la regla “un NFT, un voto” como base de Garden para la descentralización. Se describió como un no desarrollador: el contrato pertenece a su GitHub autor, y no hay evidencia de que Garden financió proyectos específicos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 866
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 589
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 557
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 390
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 269
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 113
+        },
+        {
+          "label": "Kondor",
+          "count": 67
+        },
+        {
+          "label": "KoinDX",
+          "count": 58
+        },
+        {
+          "label": "Chainge",
+          "count": 52
+        },
+        {
+          "label": "Koinos Garden",
+          "count": 46
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 3304
+        },
+        {
+          "label": "Koinos",
+          "count": 2670
+        },
+        {
+          "label": "Koinos Army",
+          "count": 160
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Ӄirky Ӄirk 🔮",
+      "total": 5987,
+      "summary": "Entre agosto de 2021 y febrero de 2025, este contribuyente registró 5.987 mensajes, principalmente en el grupo principal y el Koinos Army. La actividad se centró en el a bordo y la cultura comunitaria: comparando narrativas, ayudando con el CLI, Kondor y MEXC, sugiriendo un rápido acceso a KoinDX/KoinCity/Kollection, y advirtiendo que ningún miembro del equipo debe iniciar una conversación privada. Argumentaron que los gráficos y las comparaciones podían provocar curiosidad cuando iban acompañados de documentos blancos y fuentes, y pidieron la debida diligencia para que la promoción no se asemejara a otro proyecto fraudulento. No se encontró ningún producto, repositorio o posición formal en relación con este volumen.",
+      "topTopics": [
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 623
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 556
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 301
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 282
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 157
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 27
+        },
+        {
+          "label": "Kondor",
+          "count": 24
+        },
+        {
+          "label": "MEXC",
+          "count": 11
+        },
+        {
+          "label": "KAP",
+          "count": 7
+        },
+        {
+          "label": "Konio",
+          "count": 7
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 3583
+        },
+        {
+          "label": "Koinos Army",
+          "count": 2315
+        },
+        {
+          "label": "KoinDX",
+          "count": 74
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Luke Willis",
+      "total": 5786,
+      "summary": "Entre noviembre de 2021 y junio de 2024, acumula 5.786 contribuciones: 3.225 mensajes de Telegram, 2.560 Discord y un artículo inventorizado, además de 57 episodios de audio excluidos del total solicitado. Creó The Koin Press, propuso el fungible Virtual Hash Power acreditado en el diseño KPoB, escribió los contratos originales BurnKoin y frontend, cofundó KAP, y construyó su interfaz. Discutió la mejora de la seguridad, los incentivos mineros, la inflación y la accesibilidad; argumentó que el objetivo no debe ser simplemente quien compre KOIN, sino quien aprende, construye un dApp, y se convierte en embajador. Su contribución conecta protocolo, producto y educación, con el importante límite que Roamin escribió gran parte del código de contrato sobreviviente de KAP y Kui compartió sus operaciones y comunicaciones.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 705
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 373
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 282
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 278
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 235
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KAP",
+          "count": 66
+        },
+        {
+          "label": "BurnKoin",
+          "count": 48
+        },
+        {
+          "label": "Kondor",
+          "count": 24
+        },
+        {
+          "label": "KoinDX",
+          "count": 17
+        },
+        {
+          "label": "MEXC",
+          "count": 10
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 2458
+        },
+        {
+          "label": "Koinos Army",
+          "count": 660
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 68
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "MiXiBo",
+      "total": 5518,
+      "summary": "Entre marzo de 2021 y mayo de 2026, registró 5.518 contribuciones, incluyendo 630 en Discord y cuatro artículos. Como desarrollador y operador principal de KoinCity, expandió un lanzamiento sin código en presales, cerraduras, mercados, tomas, chats, integración de KoinDX, APIs, NFT minting y su propia infraestructura; también mantuvo apoyo directo en el grupo de productos. Explicó diseños como pedidos procesados por una billetera caliente con mana compartida, evaluó la utilidad real de más de 170 lanzamientos, y reconoció tanto la dificultad de las asociaciones informales como la necesidad de mantener la construcción después de cierres o fracasos. Su volumen se concentra especialmente en KoinCity y acompaña auténtica autoría y operaciones, aunque las colecciones, fichas y proyectos creados por terceros no se convierten en su trabajo.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 1541
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 727
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 716
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 380
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 302
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinCity",
+          "count": 982
+        },
+        {
+          "label": "KoinDX",
+          "count": 122
+        },
+        {
+          "label": "Kollection",
+          "count": 85
+        },
+        {
+          "label": "Kondor",
+          "count": 45
+        },
+        {
+          "label": "Konio",
+          "count": 32
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincity",
+          "count": 2980
+        },
+        {
+          "label": "Koinos",
+          "count": 1159
+        },
+        {
+          "label": "Koinos Army",
+          "count": 415
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Alberto / Transeunte",
+      "total": 4779,
+      "summary": "Entre noviembre de 2021 y junio de 2026, acumula 4.779 contribuciones: 4.743 mensajes, 34 artículos y dos vídeos. Su trabajo incluyó comunicaciones bilingües, archivo de productos, narración visual y promoción para usuarios no técnicos: creó Mundo Koinos/Koinos World, experimentó con videos y NFTs, campañas amplificadas, y presentó un centro de comunicaciones y marketing para la financiación. Sus mensajes se centraron en mercados, carteras, seguridad y productos como MEXC, Kondor, Sovrano y Koiner, siempre preguntando cómo hacer visible y comprensible el ecosistema. No era un desarrollador; sus primeras colecciones de NFT llegaron a pruebas, no a una liberación de producción mantenida.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 429
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 425
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 326
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 199
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 129
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 86
+        },
+        {
+          "label": "Kondor",
+          "count": 46
+        },
+        {
+          "label": "Sovrano",
+          "count": 35
+        },
+        {
+          "label": "Koiner",
+          "count": 30
+        },
+        {
+          "label": "KoinDX",
+          "count": 24
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 2317
+        },
+        {
+          "label": "Koinos",
+          "count": 2287
+        },
+        {
+          "label": "Koinos Army",
+          "count": 101
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Jm - Kantian",
+      "total": 4755,
+      "summary": "Entre 2023-09-20 y 2025-05-31, este contribuyente registró 4.755 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, carteras, exploradores y ecosistemas dApps, y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron KoinCity, KoinDX y MEXC, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 868
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 672
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 425
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 361
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 285
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinCity",
+          "count": 125
+        },
+        {
+          "label": "KoinDX",
+          "count": 121
+        },
+        {
+          "label": "MEXC",
+          "count": 74
+        },
+        {
+          "label": "Chainge",
+          "count": 30
+        },
+        {
+          "label": "Fogata",
+          "count": 23
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 2625
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1651
+        },
+        {
+          "label": "Koincity",
+          "count": 312
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "MoonMan",
+      "total": 4719,
+      "summary": "Entre 2022-03-17 y 2025-03-06, este contribuyente registró 4.719 contribuciones, con la presencia más fuerte en Koinos y KoinDX. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo del mercado, conversación social, saludos, humor y cultura de grupos cotidianos, y coordinación comunitaria, campañas, contenido y alcance. Los productos mencionados más a menudo fueron KoinDX, MEXC y Kondor, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 379
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 360
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 255
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 204
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 178
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 28
+        },
+        {
+          "label": "MEXC",
+          "count": 26
+        },
+        {
+          "label": "Kondor",
+          "count": 14
+        },
+        {
+          "label": "KoinCity",
+          "count": 12
+        },
+        {
+          "label": "KAP",
+          "count": 9
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 2880
+        },
+        {
+          "label": "KoinDX",
+          "count": 1236
+        },
+        {
+          "label": "Koinos Army",
+          "count": 207
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Tonimontana",
+      "total": 4099,
+      "summary": "Entre 2020-11-16 y 2024-03-22, este contribuyente registró 4.099 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercado, minería, VHP, bloques productores, nodos y operaciones de infraestructura, y carteras, exploradores y ecosistemas dApps. Los productos mencionados más a menudo fueron MEXC, KoinDX y Chainge, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 656
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 221
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 218
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 187
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 182
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 45
+        },
+        {
+          "label": "KoinDX",
+          "count": 24
+        },
+        {
+          "label": "Chainge",
+          "count": 19
+        },
+        {
+          "label": "Koiner",
+          "count": 14
+        },
+        {
+          "label": "Kondor",
+          "count": 6
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 2289
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1517
+        },
+        {
+          "label": "KoinDX",
+          "count": 264
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Yo Yo",
+      "total": 3970,
+      "summary": "Entre 2024-10-11 y 2025-09-27, este contribuyente registró 3.970 contribuciones, con la presencia más fuerte en Koinos y Koinos TCB. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, carteras, exploradores y ecosistemas dApps, y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron Chainge, KoinDX y Vortex, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 442
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 426
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 226
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 195
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 157
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Chainge",
+          "count": 64
+        },
+        {
+          "label": "KoinDX",
+          "count": 51
+        },
+        {
+          "label": "Vortex",
+          "count": 50
+        },
+        {
+          "label": "MEXC",
+          "count": 22
+        },
+        {
+          "label": "Kondor",
+          "count": 15
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 3021
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 563
+        },
+        {
+          "label": "Koincity",
+          "count": 273
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Sergio🔮",
+      "total": 3793,
+      "summary": "Entre 2021-12-24 y 2025-12-31, este contribuyente registró 3.793 contribuciones, con la presencia más fuerte en Koincast / Koinos Hispano y Koinos Army. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y alcance, y carteras, exploradores y aplicaciones de ecosistemas. Los productos mencionados más a menudo fueron KoinDX, Kondor y Konio, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 807
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 215
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 109
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 65
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 61
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 26
+        },
+        {
+          "label": "Kondor",
+          "count": 11
+        },
+        {
+          "label": "Konio",
+          "count": 11
+        },
+        {
+          "label": "MEXC",
+          "count": 9
+        },
+        {
+          "label": "Sovrano",
+          "count": 4
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 1587
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1165
+        },
+        {
+          "label": "Koinos",
+          "count": 892
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "J Lo 🔮",
+      "total": 3623,
+      "summary": "Entre 2021-12-21 y 2026-06-14, este contribuyente registró 3.623 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo del mercado, conversación social, saludos, humor y cultura de grupos cotidianos, y carteras, exploradores y ecosistemas dApps. Los productos mencionados más a menudo fueron MEXC, KoinDX y Chainge, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 472
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 408
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 266
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 122
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 116
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 51
+        },
+        {
+          "label": "KoinDX",
+          "count": 50
+        },
+        {
+          "label": "Chainge",
+          "count": 21
+        },
+        {
+          "label": "Kollection",
+          "count": 20
+        },
+        {
+          "label": "Kondor",
+          "count": 19
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 1919
+        },
+        {
+          "label": "Koinos",
+          "count": 1046
+        },
+        {
+          "label": "KoinDX",
+          "count": 434
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "Blank User",
+      "total": 3481,
+      "summary": "Entre 2024-06-16 y 2026-07-13, este contribuyente registró 3.481 contribuciones, con la presencia más fuerte en el Koinos Army y Koincity. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo del mercado, conversación social, saludos, humor y cultura de grupos cotidianos, y carteras, exploradores y ecosistemas dApps. Los productos mencionados más a menudo fueron KoinCity, MEXC y Koiner, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 390
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 271
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 250
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 82
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 80
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinCity",
+          "count": 59
+        },
+        {
+          "label": "MEXC",
+          "count": 25
+        },
+        {
+          "label": "Koiner",
+          "count": 17
+        },
+        {
+          "label": "Konio",
+          "count": 16
+        },
+        {
+          "label": "Kondor",
+          "count": 15
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 2674
+        },
+        {
+          "label": "Koincity",
+          "count": 604
+        },
+        {
+          "label": "Koinos",
+          "count": 181
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Isaac Dozier Ӄ 🔮",
+      "total": 3397,
+      "summary": "Entre 2020-11-21 y 2026-05-19, este contribuyente registró 3.397 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en carteras, exploradores y ecosistemas dApps, coordinación comunitaria, campañas, contenidos y alcances, y precios, liquidez, intercambios y desarrollo del mercado. Los productos mencionados más a menudo fueron KoinDX, KAP y Kondor, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 445
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 435
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 285
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 223
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 188
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 65
+        },
+        {
+          "label": "KAP",
+          "count": 40
+        },
+        {
+          "label": "Kondor",
+          "count": 29
+        },
+        {
+          "label": "KoinCity",
+          "count": 23
+        },
+        {
+          "label": "Fogata",
+          "count": 17
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 2378
+        },
+        {
+          "label": "Koinos Army",
+          "count": 562
+        },
+        {
+          "label": "Koincity",
+          "count": 209
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "H🔮",
+      "total": 3308,
+      "summary": "Entre 2021-01-21 y 2023-11-21, este contribuyente registró 3.308 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y alcance, y carteras, exploradores y aplicaciones de ecosistemas. Los productos mencionados más a menudo fueron Koiner, MEXC y KoinDX, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 523
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 366
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 254
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 225
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 190
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Koiner",
+          "count": 19
+        },
+        {
+          "label": "MEXC",
+          "count": 19
+        },
+        {
+          "label": "KoinDX",
+          "count": 12
+        },
+        {
+          "label": "BurnKoin",
+          "count": 9
+        },
+        {
+          "label": "Kondor",
+          "count": 7
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1705
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1301
+        },
+        {
+          "label": "Koinos Degens",
+          "count": 151
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "Adem / Kenpachi",
+      "total": 3280,
+      "summary": "Entre agosto de 2021 y diciembre de 2024, publicó 3.280 mensajes, principalmente en el Koinos Army y KoinDX. Fue copropietario del Ejército, moderador de KoinDX y contacto de apoyo, y comisario y comercializador para el viaje del Koinos Army; dio la bienvenida a los usuarios, distribuyó eventos y versiones, explicó KNDX/IDO/Mana, y advirtió sobre la impersonación y las ofertas previas al lanzamiento. Su conversación es principalmente evidencia de coordinación y cultura comunitaria, no desarrollo: no hay público GitHub registro o evidencia de que escribió contratos, obras de arte o tokenomics.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 455
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 432
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 131
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 100
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 67
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 72
+        },
+        {
+          "label": "Koinos Army",
+          "count": 36
+        },
+        {
+          "label": "MEXC",
+          "count": 12
+        },
+        {
+          "label": "Kondor",
+          "count": 7
+        },
+        {
+          "label": "KAP",
+          "count": 5
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 1971
+        },
+        {
+          "label": "KoinDX",
+          "count": 744
+        },
+        {
+          "label": "Koinos",
+          "count": 549
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "@interfecto / Atb 3tb",
+      "total": 3126,
+      "summary": "Entre noviembre de 2022 y julio de 2026, acumula 3.126 contribuciones, con una actividad especialmente intensa a partir de 2025 en el grupo principal, Ejército y TCB. Construyó guías de contrato con ayuda de LLM, un testnet y grifo, KoinosScan, paneles, monitoreo, un indexador de Go/SQLite y el prototipo de Koinos EVM Engine, manteniendo también enlaces públicos y datos. Sus mensajes se centran en billeteras, MEXC/Chainge/Vortex, seguridad, nodos y soporte; recomendó pequeñas transacciones, billeteras vacías para pruebas, y precaución con mensajes directos, y distinguidos prototipos funcionales de software auditado. El patrón es la retroalimentación-a-compromiso y las operaciones aplicadas, no la autoría del protocolo base.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 546
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 481
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 263
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 222
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 180
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 114
+        },
+        {
+          "label": "Chainge",
+          "count": 83
+        },
+        {
+          "label": "Vortex",
+          "count": 78
+        },
+        {
+          "label": "Kondor",
+          "count": 73
+        },
+        {
+          "label": "KoinDX",
+          "count": 35
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1765
+        },
+        {
+          "label": "Koinos Army",
+          "count": 681
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 622
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Filipe Menchen Ӄ🔮🇧🇷",
+      "total": 2821,
+      "summary": "Entre 2021-12-22 y 2026-04-13, este contribuyente registró 2.821 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en carteras, exploradores y ecosistemas dApps, precios, liquidez, intercambios y desarrollo del mercado, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron Konio, Kondor y KoinDX, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 354
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 232
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 217
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 168
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 140
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Konio",
+          "count": 46
+        },
+        {
+          "label": "Kondor",
+          "count": 43
+        },
+        {
+          "label": "KoinDX",
+          "count": 30
+        },
+        {
+          "label": "BurnKoin",
+          "count": 28
+        },
+        {
+          "label": "Kollection",
+          "count": 22
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1414
+        },
+        {
+          "label": "Koinos Army",
+          "count": 916
+        },
+        {
+          "label": "KoinDX",
+          "count": 229
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "Henk Cryptotank🔮",
+      "total": 2725,
+      "summary": "Entre 2021-11-16 y 2024-06-24, este contribuyente registró 2.725 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y divulgación, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron MEXC, KoinDX y Kondor, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 217
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 138
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 108
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 64
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 36
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 10
+        },
+        {
+          "label": "KoinDX",
+          "count": 5
+        },
+        {
+          "label": "Kondor",
+          "count": 3
+        },
+        {
+          "label": "Koinos Social",
+          "count": 3
+        },
+        {
+          "label": "Koinos Army",
+          "count": 2
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 1671
+        },
+        {
+          "label": "Koinos",
+          "count": 948
+        },
+        {
+          "label": "KoinDX",
+          "count": 56
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Claudio Cascone",
+      "total": 2567,
+      "summary": "Entre 2022-02-04 y 2025-11-18, este contribuyente registró 2.567 contribuciones, con la presencia más fuerte en Koinos Italia y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en la conversación social, saludos, humor y cultura de grupos cotidianos, billeteras, exploradores, y ecosistemas dApps, y coordinación comunitaria, campañas, contenido y alcance. Los productos mencionados más a menudo fueron Konio, BurnKoin y Kondor, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 182
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 167
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 121
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 109
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 58
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Konio",
+          "count": 23
+        },
+        {
+          "label": "BurnKoin",
+          "count": 21
+        },
+        {
+          "label": "Kondor",
+          "count": 18
+        },
+        {
+          "label": "KoinDX",
+          "count": 15
+        },
+        {
+          "label": "Fogata",
+          "count": 13
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Italia",
+          "count": 1195
+        },
+        {
+          "label": "Koinos Army",
+          "count": 667
+        },
+        {
+          "label": "Koinos",
+          "count": 568
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "Sergi Ӄ",
+      "total": 2441,
+      "summary": "Entre 2021-12-11 y 2026-01-18, este contribuyente registró 2.441 contribuciones, con la presencia más fuerte en Koinos y Koincast / Koinos Hispano. La clasificación de la historia coloca los mensajes principalmente en carteras, exploradores y ecosistemas dAplicas, precios, liquidez, intercambios y desarrollo del mercado, y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron Kondor, KoinDX y MEXC, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 243
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 179
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 174
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 102
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 77
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 42
+        },
+        {
+          "label": "KoinDX",
+          "count": 27
+        },
+        {
+          "label": "MEXC",
+          "count": 25
+        },
+        {
+          "label": "Konio",
+          "count": 25
+        },
+        {
+          "label": "Koiner",
+          "count": 20
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 889
+        },
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 861
+        },
+        {
+          "label": "Koinos Army",
+          "count": 372
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "KOBA 🔮",
+      "total": 2433,
+      "summary": "Entre 2021-02-22 y 2025-01-23, este contribuyente registró 2.433 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y divulgación, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron el Koinos Army, Kondor y KoinDX, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 185
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 134
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 132
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 78
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 64
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Koinos Army",
+          "count": 2
+        },
+        {
+          "label": "Kondor",
+          "count": 1
+        },
+        {
+          "label": "KoinDX",
+          "count": 1
+        },
+        {
+          "label": "Konio",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1406
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1018
+        },
+        {
+          "label": "KoinDX",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Roamin",
+      "total": 2356,
+      "summary": "Entre enero 2022 y julio de 2024, acumula 2.356 contribuciones, 2.340 de ellas Discord y sólo 16 en el público examinado Telegram grupos. Él creó el AssemblyScript toolchain que se convirtió en software de primera mano, Local-Koinos, My Koinos Wallet y su SDK, el primer puente de extremo a extremo Koinos–Ethereum, WalletConnect, el SDK Armana, el servidor REST original, get_contract_metadata, VRF y pruebas de estrés, y Koinos-Social con Kui. On Discord, presentó AssemblyScript como TypeScript-como CDT y, cuando Koinos-Social cerró, explicó que los usuarios retuvieron sus llaves y podían mover sus fondos. Su bajo Telegram volumen muestra por qué el total debe combinar plataformas; incluso así, productos posteriores como Vortex o el servicio REST de producción tenían otros autores y mantenedores.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 4
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 2
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 2
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 1
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 1
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Koinos-Social",
+          "count": 2
+        },
+        {
+          "label": "Kondor",
+          "count": 1
+        },
+        {
+          "label": "Konio",
+          "count": 1
+        },
+        {
+          "label": "Portal",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 14
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Michael Vandeberg",
+      "total": 2096,
+      "summary": "Entre octubre de 2020 y marzo de 2026, registró 2.096 contribuciones, incluyendo 901 en Discord. Como fundador y arquitecto de blockchain, explicó la minería, dificultad, microservicios, contratos de sistemas, StateDB, KCS, mejoras y operaciones; el desarrollo, protocolo, nodos y seguridad predominan en la muestra temática. Desde el lanzamiento justo en adelante, señaló que la frecuencia de pruebas crecientes no aumentaba la tasa de precipitación, y en 2025 publicó y apoyó la propuesta KCS-4, al tiempo que diagnosticaba problemas operacionales como los límites de los archivos-descriptores. Esto es actividad técnica fundamental, pero la atribución de código específico debe seguir los compromisos y exámenes.",
+      "topTopics": [
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 304
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 263
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 256
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 223
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 216
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Chainge",
+          "count": 33
+        },
+        {
+          "label": "KoinDX",
+          "count": 24
+        },
+        {
+          "label": "Kondor",
+          "count": 22
+        },
+        {
+          "label": "Fogata",
+          "count": 17
+        },
+        {
+          "label": "MEXC",
+          "count": 8
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1171
+        },
+        {
+          "label": "KoinDX",
+          "count": 13
+        },
+        {
+          "label": "Koinos Army",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "Adriano Foschi",
+      "total": 2026,
+      "summary": "Entre abril 2023 y junio 2026, publicó 2.026 mensajes, principalmente sobre Konio, Sovrano, Veive, integración de carteras, seguridad y desarrollo. Creó la primera cartera móvil nativa Koinos, el marco modular Veive smart-account, la autenticación y los pagos Sovrano, Sovry y el prototipo Kuku Games, mientras que también coordinan el a bordo y la planificación comunitaria. Sus mensajes demuestran el soporte de dApp y un esfuerzo sostenido para ocultar claves, maná y complejidad detrás de interfaces familiares. Las menciones de otras carteras o servicios describen la integración y comparación, no la autoría de esos productos.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 566
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 280
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 201
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 175
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 93
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Konio",
+          "count": 265
+        },
+        {
+          "label": "Sovrano",
+          "count": 184
+        },
+        {
+          "label": "Veive",
+          "count": 86
+        },
+        {
+          "label": "Kondor",
+          "count": 36
+        },
+        {
+          "label": "Koiner",
+          "count": 27
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1325
+        },
+        {
+          "label": "Koinos Italia",
+          "count": 382
+        },
+        {
+          "label": "Koinos Army",
+          "count": 143
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "name": "carlos🔮",
+      "total": 1911,
+      "summary": "Entre 2022-09-30 y 2025-09-17, este contribuyente registró 1.911 contribuciones, con la presencia más fuerte en Koincast / Koinos Hispano y Koinos. La clasificación de la historia coloca los mensajes principalmente en la coordinación comunitaria, campañas, contenidos y alcances, precios, liquidez, intercambios y desarrollo del mercado, y carteras, exploradores y aplicaciones de los ecosistemas. Los productos mencionados más a menudo fueron Kondor, MEXC y KoinDX, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 198
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 131
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 126
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 60
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 60
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 15
+        },
+        {
+          "label": "MEXC",
+          "count": 15
+        },
+        {
+          "label": "KoinDX",
+          "count": 14
+        },
+        {
+          "label": "Konio",
+          "count": 12
+        },
+        {
+          "label": "KoinCity",
+          "count": 12
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 1168
+        },
+        {
+          "label": "Koinos",
+          "count": 524
+        },
+        {
+          "label": "Koinos Army",
+          "count": 178
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "Sh11fty",
+      "total": 1887,
+      "summary": "Entre 2023-12-16 y 2025-04-13, este contribuyente registró 1.887 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, carteras, exploradores, y ecosistemas dApps, y transacciones, custodia, seguridad y prevención de estafas. Los productos mencionados más a menudo fueron MEXC, KoinDX y Chainge, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 306
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 131
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 73
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 66
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 66
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 16
+        },
+        {
+          "label": "KoinDX",
+          "count": 10
+        },
+        {
+          "label": "Chainge",
+          "count": 8
+        },
+        {
+          "label": "Konio",
+          "count": 7
+        },
+        {
+          "label": "Kondor",
+          "count": 5
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 1343
+        },
+        {
+          "label": "Koinos",
+          "count": 529
+        },
+        {
+          "label": "KoinDX",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "⟁ ⃤Aʟı",
+      "total": 1768,
+      "summary": "Entre 2023-04-06 y 2023-05-30, este contribuyente registró 1.768 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios, y desarrollo del mercado, transacciones, custodia, seguridad y prevención de estafas, y conversación social, saludos, humor y cultura del grupo cotidiano. Los productos mencionados más a menudo fueron MEXC y KoinDX, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 410
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 114
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 46
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 31
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 18
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 2
+        },
+        {
+          "label": "KoinDX",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 1709
+        },
+        {
+          "label": "Koinos",
+          "count": 55
+        },
+        {
+          "label": "KoinDX",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "Dokterkraakbeen",
+      "total": 1713,
+      "summary": "Entre octubre de 2021 y julio de 2026, registró 1.713 mensajes relacionados principalmente con comunicaciones, KoinDX, Kollection, NFTs y soporte. Él lanzó Planet Koinos como un recurso visual y de traducción, rediseñó KoinDX, fue un coautor de KCS-2, se unió al equipo de lanzamiento de Kollection, y coordinó el trabajo visual y patrocinio de KAMP. El corpus demuestra el diseño sostenido, las normas, los productos y las contribuciones operacionales, pero no una historia pública que justificaría atribuir a DEX o contratos de mercado a él.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 371
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 277
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 104
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 97
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 41
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 171
+        },
+        {
+          "label": "Kollection",
+          "count": 51
+        },
+        {
+          "label": "Kanvas",
+          "count": 10
+        },
+        {
+          "label": "Vortex",
+          "count": 6
+        },
+        {
+          "label": "Koinos Army",
+          "count": 3
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1034
+        },
+        {
+          "label": "Koinos Army",
+          "count": 429
+        },
+        {
+          "label": "KoinDX",
+          "count": 116
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "name": "Pepper",
+      "total": 1677,
+      "summary": "Entre 2021-11-14 y 2023-12-06, este contribuyente registró 1.767 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y divulgación, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron MEXC, Kollection y KAP, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 221
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 114
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 93
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 83
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 81
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 30
+        },
+        {
+          "label": "Kollection",
+          "count": 9
+        },
+        {
+          "label": "KAP",
+          "count": 8
+        },
+        {
+          "label": "KoinDX",
+          "count": 6
+        },
+        {
+          "label": "KoinCity",
+          "count": 5
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 827
+        },
+        {
+          "label": "Koinos Army",
+          "count": 804
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "name": "silas",
+      "total": 1677,
+      "summary": "Entre 2022-02-02 y 2024-03-17, este contribuyente registró 1.677 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo del mercado, conversación social, saludos, humor y cultura de grupos cotidianos, y carteras, exploradores y ecosistemas dApps. Los productos mencionados más a menudo fueron MEXC, Koiner y Kondor, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 248
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 125
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 122
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 85
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 70
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 24
+        },
+        {
+          "label": "Koiner",
+          "count": 10
+        },
+        {
+          "label": "Kondor",
+          "count": 7
+        },
+        {
+          "label": "KoinDX",
+          "count": 6
+        },
+        {
+          "label": "Chainge",
+          "count": 4
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 998
+        },
+        {
+          "label": "Koinos",
+          "count": 653
+        },
+        {
+          "label": "Koinos Holders Representative",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "Carlos",
+      "total": 1606,
+      "summary": "Entre 2022-11-01 y 2026-04-27, este contribuyente registró 1.606 contribuciones, con la presencia más fuerte en Koincast / Koinos Hispano y Koinos. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y alcance, y carteras, exploradores y aplicaciones de ecosistemas. Los productos mencionados más a menudo fueron MEXC, Kondor y Konio, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 143
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 84
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 45
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 25
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 22
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 34
+        },
+        {
+          "label": "Kondor",
+          "count": 7
+        },
+        {
+          "label": "Konio",
+          "count": 4
+        },
+        {
+          "label": "KAP",
+          "count": 1
+        },
+        {
+          "label": "KoinDX",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 737
+        },
+        {
+          "label": "Koinos",
+          "count": 669
+        },
+        {
+          "label": "Koinos Army",
+          "count": 198
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "John 🔮",
+      "total": 1505,
+      "summary": "Entre 2022-01-15 y 2024-06-20, este contribuyente registró 1.505 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y divulgación, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron MEXC, KoinDX y Kondor, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 234
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 189
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 116
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 100
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 55
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 25
+        },
+        {
+          "label": "KoinDX",
+          "count": 19
+        },
+        {
+          "label": "Kondor",
+          "count": 10
+        },
+        {
+          "label": "KAP",
+          "count": 5
+        },
+        {
+          "label": "Koiner",
+          "count": 3
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 965
+        },
+        {
+          "label": "Koinos",
+          "count": 478
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 51
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "name": "Lucky Bitcoin",
+      "total": 1472,
+      "summary": "Entre 2022-10-29 y 2026-07-12, este contribuyente registró 1.472 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en carteras, exploradores y ecosistemas dApps, precios, liquidez, intercambios y desarrollo del mercado, y código, contratos, APIs, testnet, mainnet y solución de problemas. Los productos mencionados más a menudo fueron KoinDX, Portal y KoinCity, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 112
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 111
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 87
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 67
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 30
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 18
+        },
+        {
+          "label": "Portal",
+          "count": 16
+        },
+        {
+          "label": "KoinCity",
+          "count": 16
+        },
+        {
+          "label": "Kondor",
+          "count": 11
+        },
+        {
+          "label": "MEXC",
+          "count": 11
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 855
+        },
+        {
+          "label": "Koinos Army",
+          "count": 405
+        },
+        {
+          "label": "Koincity",
+          "count": 136
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "name": "X",
+      "total": 1371,
+      "summary": "Entre 2022-08-28 y 2026-07-01, este contribuyente registró 1.371 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercado, carteras, exploradores, y ecosistemas dApps, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron MEXC, KoinDX y Koiner, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 334
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 86
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 60
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 37
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 21
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 26
+        },
+        {
+          "label": "KoinDX",
+          "count": 8
+        },
+        {
+          "label": "Koiner",
+          "count": 4
+        },
+        {
+          "label": "Koinos Army",
+          "count": 2
+        },
+        {
+          "label": "KoinCity",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 1263
+        },
+        {
+          "label": "Koinos",
+          "count": 96
+        },
+        {
+          "label": "KoinDX",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "name": "Ederaleng",
+      "total": 1361,
+      "summary": "Entre abril de 2020 y febrero de 2026, acumula 1.361 contribuciones verificadas, incluyendo 356 sobre DiscordComo cofundador KoinDX y original CTO, contribuyente de Kollection, líder técnico de la reanudación del puente Vortex, y miembro fundador de la Fundación, trabajó en contratos, SDKs, pruebas, registros, validadores, reléers, implementaciones y liquidez multichain. Sus conversaciones cubren KoinDX, Chainge/Vortex, mercados, integración y apoyo; su importancia técnica es confirmada por artefactos, no inferidos de volumen solo.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 264
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 192
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 94
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 66
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 59
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 84
+        },
+        {
+          "label": "Chainge",
+          "count": 46
+        },
+        {
+          "label": "MEXC",
+          "count": 14
+        },
+        {
+          "label": "Kondor",
+          "count": 11
+        },
+        {
+          "label": "Vortex",
+          "count": 8
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 459
+        },
+        {
+          "label": "Koinos",
+          "count": 275
+        },
+        {
+          "label": "KoinDX",
+          "count": 193
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "name": "Karlos",
+      "total": 1311,
+      "summary": "Entre noviembre 2022 y marzo 2026, publicó 1.311 mensajes sobre carteras, productos, minería, mercados y soporte. Contribuyó el logotipo de My Koinos Wallet, su versión SVG del símbolo VHP utilizado por Koiner y solicitado por Konio, logotipos de monedas y pruebas para Konio v1.4, y soporte para el Kondor NFT. Esto era trabajo visual y de prueba: no hay evidencia para describirlo como una cartera o desarrollador de contratos.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 152
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 93
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 75
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 63
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 57
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 22
+        },
+        {
+          "label": "KoinDX",
+          "count": 15
+        },
+        {
+          "label": "MEXC",
+          "count": 12
+        },
+        {
+          "label": "Fogata",
+          "count": 8
+        },
+        {
+          "label": "KoinosBlocks",
+          "count": 7
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 731
+        },
+        {
+          "label": "Koinos Army",
+          "count": 379
+        },
+        {
+          "label": "KoinDX",
+          "count": 186
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "name": "Heather S",
+      "total": 1305,
+      "summary": "Entre 2023-04-25 y 2025-01-30, este contribuyente registró 1.305 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en la coordinación comunitaria, campañas, contenidos y alcances, precios, liquidez, intercambios y desarrollo del mercado, y carteras, exploradores y aplicaciones de los ecosistemas. Los productos mencionados más a menudo fueron el Koinos Army, Kollection y Vortex, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 177
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 105
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 81
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 78
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 31
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Koinos Army",
+          "count": 6
+        },
+        {
+          "label": "Kollection",
+          "count": 4
+        },
+        {
+          "label": "Vortex",
+          "count": 2
+        },
+        {
+          "label": "MEXC",
+          "count": 2
+        },
+        {
+          "label": "KAP",
+          "count": 2
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 718
+        },
+        {
+          "label": "Koinos Army",
+          "count": 540
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 43
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "name": "JM",
+      "total": 1225,
+      "summary": "Entre 2021-11-02 y 2024-07-17, este contribuyente registró 1.225 contribuciones, con la presencia más fuerte en Koincast / Koinos Hispano y Koinos. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, carteras, exploradores y ecosistemas dApps, y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron MEXC, Chainge y Koiner, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 104
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 44
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 43
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 41
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 34
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 19
+        },
+        {
+          "label": "Chainge",
+          "count": 5
+        },
+        {
+          "label": "Koiner",
+          "count": 4
+        },
+        {
+          "label": "KoinDX",
+          "count": 3
+        },
+        {
+          "label": "Kondor",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 1132
+        },
+        {
+          "label": "Koinos",
+          "count": 86
+        },
+        {
+          "label": "KoinDX",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "name": "Jeremy Clark",
+      "total": 1194,
+      "summary": "Entre 2021-02-16 y 2023-06-10, este contribuyente registró 1.194 contribuciones, con la presencia más fuerte en Koinos y Koincast / Koinos Hispano. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y alcance, y carteras, exploradores y aplicaciones de ecosistemas. Los productos mencionados más a menudo fueron Kondor y MEXC, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 80
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 72
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 49
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 36
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 32
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 2
+        },
+        {
+          "label": "MEXC",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1193
+        },
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "name": "Dani",
+      "total": 1179,
+      "summary": "Entre 2020-11-25 y 2024-12-14, este contribuyente registró 1.179 contribuciones, con la presencia más fuerte en Koinos y Koincast / Koinos Hispano. La clasificación de la historia coloca los mensajes principalmente en NFTs, colecciones, juegos y activos digitales, carteras, exploradores, y dApps ecosistema, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron Kondor, Konio y KoinDX, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 117
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 108
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 95
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 87
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 75
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 17
+        },
+        {
+          "label": "Konio",
+          "count": 8
+        },
+        {
+          "label": "KoinDX",
+          "count": 6
+        },
+        {
+          "label": "Kollection",
+          "count": 4
+        },
+        {
+          "label": "MEXC",
+          "count": 4
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 972
+        },
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 199
+        },
+        {
+          "label": "KoinDX",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "name": "Aliasghar Khodaei",
+      "total": 1165,
+      "summary": "Entre 2024-05-07 y 2025-10-28, este contribuyente registró 1.165 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, carteras, exploradores, y ecosistemas dApps, y transacciones, custodia, seguridad y prevención de estafas. Los productos mencionados más a menudo fueron MEXC, Sovrano y Konio, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 61
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 36
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 31
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 20
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 19
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 17
+        },
+        {
+          "label": "Sovrano",
+          "count": 8
+        },
+        {
+          "label": "Konio",
+          "count": 8
+        },
+        {
+          "label": "Kondor",
+          "count": 5
+        },
+        {
+          "label": "KoinDX",
+          "count": 4
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 1054
+        },
+        {
+          "label": "Koinos Army",
+          "count": 110
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "name": "Lint - Flourishing Lead Force",
+      "total": 1083,
+      "summary": "Entre 2020-12-18 y 2025-11-05, este contribuyente registró 1.083 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, carteras, exploradores y ecosistemas dApps, y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron KoinDX, MEXC y KoinCity, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 144
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 121
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 84
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 74
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 58
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 32
+        },
+        {
+          "label": "MEXC",
+          "count": 14
+        },
+        {
+          "label": "KoinCity",
+          "count": 9
+        },
+        {
+          "label": "Chainge",
+          "count": 9
+        },
+        {
+          "label": "Konio",
+          "count": 8
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 524
+        },
+        {
+          "label": "Koinos Army",
+          "count": 480
+        },
+        {
+          "label": "KoinDX",
+          "count": 75
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "name": "Eman🔮",
+      "total": 1078,
+      "summary": "Entre 2022-10-27 y 2025-01-25, este contribuyente registró 1.078 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en la conversación social, saludos, humor y cultura de grupos cotidianos, billeteras, exploradores, y ecosistemas dApps, y coordinación comunitaria, campañas, contenido y alcance. Los productos mencionados más a menudo fueron Kollection, Koinos Army y Kondor, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 311
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 122
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 97
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 64
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 47
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kollection",
+          "count": 11
+        },
+        {
+          "label": "Koinos Army",
+          "count": 10
+        },
+        {
+          "label": "Kondor",
+          "count": 7
+        },
+        {
+          "label": "MEXC",
+          "count": 5
+        },
+        {
+          "label": "KoinDX",
+          "count": 5
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 729
+        },
+        {
+          "label": "Koinos",
+          "count": 348
+        },
+        {
+          "label": "Koinos Holders Representative",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "name": "Moon Ӄ",
+      "total": 1060,
+      "summary": "Entre 2023-12-22 y 2026-06-09, este contribuyente registró 1.060 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, coordinación comunitaria, campañas, contenidos y divulgación, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron MEXC, Vortex y Chainge, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 289
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 65
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 47
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 40
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 35
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 34
+        },
+        {
+          "label": "Vortex",
+          "count": 6
+        },
+        {
+          "label": "Chainge",
+          "count": 5
+        },
+        {
+          "label": "KoinDX",
+          "count": 2
+        },
+        {
+          "label": "KoinosBlocks",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 753
+        },
+        {
+          "label": "Koinos Army",
+          "count": 280
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "name": "Ali.n",
+      "total": 1033,
+      "summary": "Entre 2021-08-21 y 2025-08-30, este contribuyente registró 1.033 contribuciones, con la presencia más fuerte en Koinos y KoinDX. La clasificación de la historia coloca los mensajes principalmente en carteras, exploradores y ecosistemas dApps, coordinación comunitaria, campañas, contenido y extensión, y transacciones, custodia, seguridad y prevención de estafas. Los productos mencionados más a menudo fueron Konio, KoinDX y Chainge, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 222
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 134
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 117
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 115
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 80
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Konio",
+          "count": 34
+        },
+        {
+          "label": "KoinDX",
+          "count": 33
+        },
+        {
+          "label": "Chainge",
+          "count": 33
+        },
+        {
+          "label": "Sovrano",
+          "count": 31
+        },
+        {
+          "label": "Kondor",
+          "count": 30
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 958
+        },
+        {
+          "label": "KoinDX",
+          "count": 68
+        },
+        {
+          "label": "Koinos Army",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "name": "El Cid Holdeador",
+      "total": 1026,
+      "summary": "Entre 2021-06-01 y 2026-03-02, este contribuyente registró 1.026 contribuciones, con la presencia más fuerte en Koincast / Koinos Hispano y Koinos. La clasificación de la historia sitúa los mensajes principalmente en precios, liquidez, intercambios y desarrollo de mercados, carteras, exploradores y ecosistemas dApps, y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron MEXC, Koiner y KoinDX, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 80
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 31
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 30
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 21
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 19
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 14
+        },
+        {
+          "label": "Koiner",
+          "count": 5
+        },
+        {
+          "label": "KoinDX",
+          "count": 4
+        },
+        {
+          "label": "Kondor",
+          "count": 4
+        },
+        {
+          "label": "Konio",
+          "count": 4
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 978
+        },
+        {
+          "label": "Koinos",
+          "count": 39
+        },
+        {
+          "label": "Koinos Army",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "name": "Vaxis2",
+      "total": 1026,
+      "summary": "Entre 2021-10-10 y 2026-07-02, este contribuyente registró 1.026 contribuciones, con la presencia más fuerte en Koinos y KoinDX. La clasificación de la historia coloca los mensajes principalmente en carteras, exploradores y ecosistemas dApps, coordinación comunitaria, campañas, contenido y divulgación, y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron KoinDX, Kondor y Konio, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 127
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 80
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 55
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 50
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 47
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 22
+        },
+        {
+          "label": "Kondor",
+          "count": 17
+        },
+        {
+          "label": "Konio",
+          "count": 11
+        },
+        {
+          "label": "KAP",
+          "count": 11
+        },
+        {
+          "label": "BurnKoin",
+          "count": 7
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 747
+        },
+        {
+          "label": "KoinDX",
+          "count": 167
+        },
+        {
+          "label": "Koincity",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "name": "Razor Chrom",
+      "total": 1024,
+      "summary": "Entre 2023-11-11 y 2026-07-09, este contribuyente registró 1.024 contribuciones, con la presencia más fuerte en Koinos y KoinDX. La clasificación de la historia coloca los mensajes principalmente en carteras, exploradores y ecosistemas dAplicas, precios, liquidez, intercambios y desarrollo del mercado, y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron KoinDX, Chainge y KoinCity, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 158
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 107
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 58
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 47
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 27
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 46
+        },
+        {
+          "label": "Chainge",
+          "count": 26
+        },
+        {
+          "label": "KoinCity",
+          "count": 15
+        },
+        {
+          "label": "Kollection",
+          "count": 11
+        },
+        {
+          "label": "Kondor",
+          "count": 6
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 535
+        },
+        {
+          "label": "KoinDX",
+          "count": 166
+        },
+        {
+          "label": "Koinos Army",
+          "count": 160
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "name": "A T",
+      "total": 1009,
+      "summary": "Entre 2021-12-28 y 2026-03-12, este contribuyente registró 1.009 contribuciones, con la presencia más fuerte en Koinos y el Koinos Army. La clasificación de la historia coloca los mensajes principalmente en carteras, exploradores y ecosistemas dAplicas, precios, liquidez, intercambios y desarrollo del mercado, y minería, VHP, productores de bloques, nodos y operaciones de infraestructura. Los productos mencionados más a menudo fueron KoinDX, BurnKoin y Chainge, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 135
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 98
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 73
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 72
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 69
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 21
+        },
+        {
+          "label": "BurnKoin",
+          "count": 6
+        },
+        {
+          "label": "Chainge",
+          "count": 5
+        },
+        {
+          "label": "Fogata",
+          "count": 5
+        },
+        {
+          "label": "Kondor",
+          "count": 5
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 737
+        },
+        {
+          "label": "Koinos Army",
+          "count": 245
+        },
+        {
+          "label": "KoinDX",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "name": "Doyle B. Runson",
+      "total": 1002,
+      "summary": "Entre 2022-01-09 y 2025-05-29, este contribuyente registró 1.002 contribuciones, con la presencia más fuerte en el Koinos Army y Koinos. La clasificación de la historia coloca los mensajes principalmente en la conversación social, saludos, humor y cultura de grupos cotidianos, precios, liquidez, intercambios y desarrollo de mercados, y carteras, exploradores y ecosistemas dApps. Los productos mencionados más a menudo fueron Kondor, Chainge y MEXC, ayudando a reconstruir qué partes del ecosistema esta persona siguió, probó o discutió. Este resumen describe la actividad conversacional verificable; las menciones y el volumen por sí solo no demuestran la autoría técnica, el liderazgo formal o un nivel equivalente de impacto.",
+      "topTopics": [
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 91
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 56
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 39
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 28
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 27
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 5
+        },
+        {
+          "label": "Chainge",
+          "count": 2
+        },
+        {
+          "label": "MEXC",
+          "count": 2
+        },
+        {
+          "label": "Koinos Blocks",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 736
+        },
+        {
+          "label": "Koinos",
+          "count": 266
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "name": "DK",
+      "total": 999,
+      "summary": "Entre 2022-10-21 y 2025-11-08, este contribuyente registró 999 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo de mercado y carteras, exploradores y ecosistemas dApps. Los productos mencionados más a menudo fueron MEXC, Kondor y Fogata; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 146
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 63
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 54
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 23
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 16
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 10
+        },
+        {
+          "label": "Kondor",
+          "count": 7
+        },
+        {
+          "label": "Fogata",
+          "count": 3
+        },
+        {
+          "label": "Konio",
+          "count": 3
+        },
+        {
+          "label": "Chainge",
+          "count": 3
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 719
+        },
+        {
+          "label": "Koinos",
+          "count": 259
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "name": "W",
+      "total": 985,
+      "summary": "Entre 2022-11-15 y 2025-05-28, este contribuyente registró 985 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo de mercados y transacciones, custodia, seguridad y prevención de estafas. Los productos mencionados más a menudo fueron MEXC, Konio y KoinDX; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 154
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 44
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 36
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 28
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 20
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 28
+        },
+        {
+          "label": "Konio",
+          "count": 4
+        },
+        {
+          "label": "KoinDX",
+          "count": 2
+        },
+        {
+          "label": "Fogata",
+          "count": 1
+        },
+        {
+          "label": "Koiner",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 714
+        },
+        {
+          "label": "Koinos",
+          "count": 262
+        },
+        {
+          "label": "KoinDX",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "name": "High CheeӃs",
+      "total": 966,
+      "summary": "Entre 2023-01-09 y 2025-05-07, este contribuyente registró 966 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo de mercados y carteras, exploradores y ecosistemas dApps. Los productos mencionados más a menudo fueron MEXC, KoinDX y Kondor; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 268
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 106
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 50
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 41
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 29
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 68
+        },
+        {
+          "label": "KoinDX",
+          "count": 7
+        },
+        {
+          "label": "Kondor",
+          "count": 4
+        },
+        {
+          "label": "Kollection",
+          "count": 3
+        },
+        {
+          "label": "Koiner",
+          "count": 3
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 680
+        },
+        {
+          "label": "Koinos",
+          "count": 207
+        },
+        {
+          "label": "KoinDX",
+          "count": 65
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "name": "Jon Rice",
+      "total": 895,
+      "summary": "Entre septiembre de 2022 y julio de 2026, registró 895 contribuciones: 892 mensajes y tres artículos. Su actividad se refería a las comunicaciones, la coordinación, la adopción y la financiación: fundó la Federación Koinos, articulaba la tesis “libre, sin fricción, familiar”, escribió el caso público para Koinos, y amplificaba Koinos.fun y otros productos. Su papel era la promoción y la estrategia editorial, no la ingeniería de protocolos.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 186
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 138
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 116
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 81
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 45
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Chainge",
+          "count": 8
+        },
+        {
+          "label": "Vortex",
+          "count": 7
+        },
+        {
+          "label": "Sovrano",
+          "count": 3
+        },
+        {
+          "label": "Kollection",
+          "count": 3
+        },
+        {
+          "label": "Koiner",
+          "count": 2
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 645
+        },
+        {
+          "label": "Koinos Army",
+          "count": 204
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "name": "Gamaliel Laryea 🔮",
+      "total": 850,
+      "summary": "Entre 2022-01-21 y 2025-08-04, este contribuyente registró 850 contribuciones, centradas principalmente en la conversación social, saludos, humor y cultura y precios de grupo cotidiano, liquidez, intercambios y desarrollo del mercado. Los productos mencionados más a menudo fueron MEXC, Kondor y KoinDX; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 75
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 73
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 71
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 52
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 46
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 8
+        },
+        {
+          "label": "Kondor",
+          "count": 7
+        },
+        {
+          "label": "KoinDX",
+          "count": 7
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1
+        },
+        {
+          "label": "Koinos Forum",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 417
+        },
+        {
+          "label": "Koinos Army",
+          "count": 397
+        },
+        {
+          "label": "KoinDX",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "name": "QNguyen",
+      "total": 848,
+      "summary": "Entre 2022-03-15 y 2025-03-10, este contribuyente registró 848 contribuciones, centradas principalmente en carteras, exploradores, y los ecosistemas dApps y precios, liquidez, intercambios y desarrollo del mercado. Los productos mencionados más a menudo fueron Kondor, MEXC y Koiner; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 204
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 102
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 93
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 76
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 67
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 59
+        },
+        {
+          "label": "MEXC",
+          "count": 38
+        },
+        {
+          "label": "Koiner",
+          "count": 25
+        },
+        {
+          "label": "Chainge",
+          "count": 16
+        },
+        {
+          "label": "Konio",
+          "count": 16
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 617
+        },
+        {
+          "label": "Koinos Army",
+          "count": 226
+        },
+        {
+          "label": "KoinDX",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "name": "Take Your Future BacӃ",
+      "total": 800,
+      "summary": "Entre 2023-11-10 y 2025-05-04, este contribuyente registró 800 contribuciones, centradas principalmente en los precios, liquidez, intercambios, y desarrollo de mercado y carteras, exploradores, y ecosistemas dApps. Los productos mencionados más a menudo fueron KoinCity, KoinDX y Chainge; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 265
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 224
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 88
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 80
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 78
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinCity",
+          "count": 42
+        },
+        {
+          "label": "KoinDX",
+          "count": 42
+        },
+        {
+          "label": "Chainge",
+          "count": 16
+        },
+        {
+          "label": "MEXC",
+          "count": 12
+        },
+        {
+          "label": "Koiner",
+          "count": 9
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 421
+        },
+        {
+          "label": "Koincity",
+          "count": 111
+        },
+        {
+          "label": "KoinDX",
+          "count": 110
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "name": "Ignis",
+      "total": 796,
+      "summary": "Entre 2023-11-20 y 2024-11-24, este contribuyente registró 796 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo de mercados y carteras, exploradores y aplicaciones de ecosistemas. Los productos mencionados más a menudo fueron KoinCity, MEXC y KoinDX; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 181
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 76
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 68
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 49
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 26
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinCity",
+          "count": 13
+        },
+        {
+          "label": "MEXC",
+          "count": 12
+        },
+        {
+          "label": "KoinDX",
+          "count": 4
+        },
+        {
+          "label": "Koiner",
+          "count": 2
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 605
+        },
+        {
+          "label": "Koinos",
+          "count": 191
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "name": "Mo",
+      "total": 759,
+      "summary": "Entre 2022-04-17 y 2024-03-31, este contribuyente registró 759 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo de mercado y carteras, exploradores, y ecosistemas dApps. Los productos mencionados más a menudo fueron MEXC, Kondor y KoinDX; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 90
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 75
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 33
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 33
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 31
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 18
+        },
+        {
+          "label": "Kondor",
+          "count": 12
+        },
+        {
+          "label": "KoinDX",
+          "count": 5
+        },
+        {
+          "label": "Koiner",
+          "count": 3
+        },
+        {
+          "label": "Konio",
+          "count": 3
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 428
+        },
+        {
+          "label": "Koinos Army",
+          "count": 324
+        },
+        {
+          "label": "KoinDX",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "name": "Pablo G.",
+      "total": 746,
+      "summary": "Entre 2022-10-24 y 2024-11-24, este contribuyente registró 746 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo del mercado y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron MEXC, Koinos Social y KAP; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 105
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 79
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 45
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 44
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 17
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 12
+        },
+        {
+          "label": "Koinos Social",
+          "count": 4
+        },
+        {
+          "label": "KAP",
+          "count": 3
+        },
+        {
+          "label": "Koinos Army",
+          "count": 2
+        },
+        {
+          "label": "Kondor",
+          "count": 2
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 587
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 65
+        },
+        {
+          "label": "Koinos",
+          "count": 54
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "name": "🔮Snape Several",
+      "total": 726,
+      "summary": "Entre 2021-11-15 y 2025-12-05, este contribuyente registró 726 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo del mercado y coordinación comunitaria, campañas, contenidos y divulgación. Los productos mencionados más a menudo fueron MEXC, Kondor y KAP; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 149
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 37
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 23
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 16
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 16
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 10
+        },
+        {
+          "label": "Kondor",
+          "count": 4
+        },
+        {
+          "label": "KAP",
+          "count": 2
+        },
+        {
+          "label": "Konio",
+          "count": 1
+        },
+        {
+          "label": "BurnKoin",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koincast / Koinos Hispano",
+          "count": 455
+        },
+        {
+          "label": "Koinos",
+          "count": 162
+        },
+        {
+          "label": "Koinos Army",
+          "count": 97
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "name": "Eduard Schindler",
+      "total": 710,
+      "summary": "Entre 2021-05-03 y 2025-05-29, este colaborador registró 710 contribuciones, centradas principalmente en código, contratos, API, testnet, mainnet, y solución de problemas y conversación social, saludos, humor y cultura de grupo cotidiano. Los productos mencionados más a menudo fueron KoinDX, MEXC y KAP; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 75
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 68
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 68
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 64
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 64
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 5
+        },
+        {
+          "label": "MEXC",
+          "count": 2
+        },
+        {
+          "label": "KAP",
+          "count": 2
+        },
+        {
+          "label": "Kondor",
+          "count": 1
+        },
+        {
+          "label": "Chainge",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 433
+        },
+        {
+          "label": "Koinos Army",
+          "count": 257
+        },
+        {
+          "label": "KoinDX",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "name": "照顾好自己",
+      "total": 703,
+      "summary": "Entre 2024-04-04 y 2025-09-19, este contribuyente registró 703 contribuciones, centradas principalmente en los precios, liquidez, intercambios, y desarrollo de mercado y carteras, exploradores, y ecosistemas dApps. Los productos mencionados más a menudo eran Vortex, Chainge y MEXC; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 153
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 70
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 69
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 64
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 62
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Vortex",
+          "count": 24
+        },
+        {
+          "label": "Chainge",
+          "count": 21
+        },
+        {
+          "label": "MEXC",
+          "count": 18
+        },
+        {
+          "label": "KoinDX",
+          "count": 10
+        },
+        {
+          "label": "Konio",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 466
+        },
+        {
+          "label": "Koinos Army",
+          "count": 194
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "name": "koinosrex.koin",
+      "total": 691,
+      "summary": "Entre 2023-01-03 y 2025-07-23, este contribuyente registró 691 contribuciones, centradas principalmente en la conversación social, saludos, humor, y cultura de grupo cotidiano y precios, liquidez, intercambios y desarrollo del mercado. Los productos mencionados más a menudo fueron KoinCity, Chainge y KoinDX; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 185
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 96
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 79
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 77
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 38
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinCity",
+          "count": 12
+        },
+        {
+          "label": "Chainge",
+          "count": 9
+        },
+        {
+          "label": "KoinDX",
+          "count": 8
+        },
+        {
+          "label": "MEXC",
+          "count": 8
+        },
+        {
+          "label": "Kollection",
+          "count": 7
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 457
+        },
+        {
+          "label": "Koincity",
+          "count": 128
+        },
+        {
+          "label": "Koinos Army",
+          "count": 87
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "name": "sanamo",
+      "total": 686,
+      "summary": "Entre 2021-11-14 y 2025-12-30, este contribuyente registró 686 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo del mercado y coordinación comunitaria, campañas, contenido y alcance. Los productos mencionados más a menudo fueron MEXC, Kondor y KoinDX; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 89
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 76
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 65
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 63
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 42
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 13
+        },
+        {
+          "label": "Kondor",
+          "count": 8
+        },
+        {
+          "label": "KoinDX",
+          "count": 2
+        },
+        {
+          "label": "Chainge",
+          "count": 1
+        },
+        {
+          "label": "Vortex",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 319
+        },
+        {
+          "label": "Koinos Army",
+          "count": 287
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 37
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "name": "Frank / ElImbatido",
+      "total": 677,
+      "summary": "Entre noviembre de 2021 y abril de 2026, acumula 677 contribuciones, con un enfoque desproporcionado en Koiner, desarrollo, nodos y economía de protocolo. Creó y operó Koiner. App, su indexador, backend y GraphQL API, y explicó su evolución hacia la infraestructura de datos compartida y su cierre debido a los costos, la carga de trabajo y la adopción limitada. Su figura es inferior a la de muchos participantes conversacionales, pero su impacto técnico fue alto.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 149
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 74
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 57
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 54
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 52
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Koiner",
+          "count": 89
+        },
+        {
+          "label": "MEXC",
+          "count": 9
+        },
+        {
+          "label": "KoinosBlocks",
+          "count": 5
+        },
+        {
+          "label": "Kondor",
+          "count": 3
+        },
+        {
+          "label": "Kollection",
+          "count": 3
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 433
+        },
+        {
+          "label": "Koinos Army",
+          "count": 184
+        },
+        {
+          "label": "Koinos TCB",
+          "count": 26
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "name": "Shims Bud",
+      "total": 672,
+      "summary": "Entre 2023-11-15 y 2024-05-26, este colaborador registró 672 contribuciones, centradas principalmente en la conversación social, saludos, humor y cultura y precios de grupos cotidianos, liquidez, intercambios y desarrollo del mercado. Los productos mencionados más a menudo fueron el Koinos Army, Koinos-Social y Koinos Social; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 66
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 51
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 40
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 27
+        },
+        {
+          "label": "NFTs, colecciones, juegos y activos digitales",
+          "count": 12
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Koinos Army",
+          "count": 3
+        },
+        {
+          "label": "Koinos-Social",
+          "count": 2
+        },
+        {
+          "label": "Koinos Social",
+          "count": 2
+        },
+        {
+          "label": "KoinDX",
+          "count": 2
+        },
+        {
+          "label": "MEXC",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 346
+        },
+        {
+          "label": "Koinos Army",
+          "count": 314
+        },
+        {
+          "label": "KoinDX",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "name": "Acoma Ӄ",
+      "total": 662,
+      "summary": "Entre 2021-11-15 y 2025-05-15, este contribuyente registró 662 contribuciones, centradas principalmente en la coordinación comunitaria, campañas, contenidos y divulgación y precios, liquidez, intercambios y desarrollo del mercado. Los productos mencionados más a menudo fueron Vortex y Kollection; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 64
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 40
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 32
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 32
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 21
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Vortex",
+          "count": 2
+        },
+        {
+          "label": "Kollection",
+          "count": 2
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 447
+        },
+        {
+          "label": "Koinos",
+          "count": 204
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "name": "Victor",
+      "total": 616,
+      "summary": "Entre 2021-11-03 y 2021-12-01, este contribuyente registró 616 contribuciones, centradas principalmente en precios, liquidez, intercambios, y desarrollo de mercado y transacciones, custodia, seguridad y prevención de estafa. El producto mencionado más a menudo fue el Koinos Army; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 76
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 43
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 35
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 28
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 23
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Koinos Army",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos Army",
+          "count": 315
+        },
+        {
+          "label": "Koinos",
+          "count": 301
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "name": "mog",
+      "total": 611,
+      "summary": "Entre 2023-04-15 y 2023-05-20, este contribuyente registró 611 contribuciones, centradas principalmente en la coordinación comunitaria, campañas, contenidos, y divulgación y precios, liquidez, intercambios y desarrollo del mercado. Los productos mencionados más a menudo fueron MEXC y KoinDX; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 77
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 66
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 32
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 27
+        },
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 16
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 7
+        },
+        {
+          "label": "KoinDX",
+          "count": 4
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 424
+        },
+        {
+          "label": "Koinos Army",
+          "count": 148
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "name": "Jas",
+      "total": 568,
+      "summary": "Entre 2023-11-20 y 2024-06-08, este contribuyente registró 568 contribuciones, centradas principalmente en la conversación social, saludos, humor y cultura de grupo cotidiano y coordinación comunitaria, campañas, contenidos y divulgación. El producto mencionado más a menudo fue MEXC; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 36
+        },
+        {
+          "label": "coordinación comunitaria, campañas, contenidos y divulgación",
+          "count": 27
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 19
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 11
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 6
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "MEXC",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 483
+        },
+        {
+          "label": "Koinos Army",
+          "count": 68
+        },
+        {
+          "label": "Koinos Social Sharing",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "name": "A.H.D",
+      "total": 559,
+      "summary": "Entre 2022-01-16 y 2026-06-27, este contribuyente registró 559 contribuciones, centradas principalmente en carteras, exploradores, y ecosistemas dAplicas y precios, liquidez, intercambios y desarrollo del mercado. Los productos mencionados más a menudo fueron Kondor, BurnKoin y Fogata; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 43
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 39
+        },
+        {
+          "label": "transacciones, custodia, seguridad y prevención de la estafa",
+          "count": 20
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 13
+        },
+        {
+          "label": "conversación social, saludos, humor y cultura de grupo cotidiano",
+          "count": 13
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "Kondor",
+          "count": 13
+        },
+        {
+          "label": "BurnKoin",
+          "count": 8
+        },
+        {
+          "label": "Fogata",
+          "count": 5
+        },
+        {
+          "label": "MEXC",
+          "count": 5
+        },
+        {
+          "label": "Konio",
+          "count": 4
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 504
+        },
+        {
+          "label": "Koinos Army",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "name": "Marc",
+      "total": 556,
+      "summary": "Entre 2020-11-16 y 2024-03-01, este contribuyente registró 556 contribuciones, centradas principalmente en maná, Prueba de Quema, oferta, inflación, y gobernanza de protocolo y minería, VHP, productores de bloques, nodos, y operaciones de infraestructura. El producto mencionado más a menudo fue KoinDX; la figura demuestra continuidad conversacional, no autoría o responsabilidad formal para esos productos.",
+      "topTopics": [
+        {
+          "label": "mana, prueba de quema, oferta, inflación y gobernanza de protocolo",
+          "count": 56
+        },
+        {
+          "label": "minería, VHP, productores de bloques, nodos y operaciones de infraestructura",
+          "count": 51
+        },
+        {
+          "label": "precios, liquidez, intercambios y desarrollo del mercado",
+          "count": 41
+        },
+        {
+          "label": "carteras, exploradores y ecosistemas dApps",
+          "count": 40
+        },
+        {
+          "label": "código, contratos, API, testnet, mainnet y solución de problemas",
+          "count": 35
+        }
+      ],
+      "topProducts": [
+        {
+          "label": "KoinDX",
+          "count": 1
+        }
+      ],
+      "topGroups": [
+        {
+          "label": "Koinos",
+          "count": 555
+        },
+        {
+          "label": "Koinos Army",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "_translation": {
+    "locale": "es",
+    "sourceFile": "history-people.json",
+    "sourceSha256": "bae88bf607947c90d4a0249d984abe505c68c31edc9e1fedf56437be07cddda6",
+    "engine": "Argos Translate en_es 1.0 with protected Koinos terminology"
+  }
+}

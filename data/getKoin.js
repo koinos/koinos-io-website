@@ -684,3 +684,60 @@ export const GLOSSARY = [
 export const DISCLAIMER = [
   "This guide is educational information only, not financial, legal or tax advice. KOIN and vKOIN can lose all their value. Exchanges, wallets, swap sites and bridges are independent services with their own risks, fees and availability; Koinos does not guarantee any price, amount, completion time or that a service keeps working, and Vortex states that it is unaudited. Blockchain transactions cannot be reversed. Check the site address, network, token address, destination, amount and fees before you sign anything.",
 ];
+
+// Interface labels live with the page content so the React structure can stay
+// shared across locales. Functions cover the few labels that include names.
+export const UI = {
+  headTitle: "How to buy KOIN | Koinos",
+  metaDescription:
+    "A beginner's guide to buying KOIN: choose a wallet and a route, buy on a decentralised exchange, and bridge to native KOIN on Koinos with Vortex.",
+  languageLabel: "Choose language",
+  eyebrow: "Guide",
+  startGuide: "Start the guide",
+  contractsTitle: "The official vKOIN addresses",
+  contractsIntro:
+    "The address identifies a token; its name and logo prove nothing.",
+  network: "Network",
+  contractAddress: "Contract address",
+  decimals: "Decimals",
+  copyAddress: "Copy address",
+  copy: "Copy",
+  copied: "Copied",
+  copyFailed: "Copy failed",
+  copyLabel: (chain) => `Copy the ${chain} vKOIN contract address`,
+  copySubject: (chain) => `${chain} vKOIN contract address`,
+  copySuccess: (subject) => `${subject} copied to the clipboard.`,
+  copyFailure: (subject) =>
+    `Could not copy the ${subject}. Select the address in the table and copy it manually.`,
+  contractsFineprint:
+    "Each address opens the network's block explorer (symbol vKOIN, name Vortex Koin).",
+  chooseTitle: "Choose your path",
+  chooseLead: "Pick the wallet you will use and where you will buy.",
+  walletLegend: "Your wallet",
+  routeLegend: "Where you buy",
+  showCombination: (wallet, route) =>
+    `Show ${wallet} with the ${route} route`,
+  buyFirst: "You buy first",
+  nothingFirst: "Nothing — you need KOIN already",
+  whereSwap: "Where you swap",
+  endWith: "You end with",
+  nativeRoute: "Show me the route that ends with native KOIN",
+  guideHeading: (route, wallet) => `${route} with ${wallet}`,
+  chooseSupported: "Choose a supported combination",
+  stepCount: (current, total) => `Step ${current} of ${total}`,
+  beforeContinue: "Before you continue",
+  specificTo: (wallet) => `Specific to ${wallet}`,
+  installWallet: (wallet, source) => `Install ${wallet} from ${source}`,
+  unsupportedLead:
+    "Pick a wallet and route that work together above, and the steps will appear here.",
+  questions: "Questions",
+  glossary: "Glossary",
+  importantInformation: "Important information",
+  verificationPrefix: (date) =>
+    `Steps last verified ${date}. Interfaces change. If a screen differs from a screenshot here, stop, check the network, token address, destination and amount before signing, and ask in the `,
+  verificationSuffix:
+    " before signing anything you do not understand.",
+  communityLinkText: "Koinos community",
+  change: "Change",
+  calloutLabels: { tip: "Tip", warning: "Warning", cost: "Cost" },
+};

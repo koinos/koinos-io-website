@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/router";
+import LocalizedLink from "@/components/i18n/LocalizedLink";
+import { getSiteCopy } from "@/i18n/site";
+import LocaleSwitcher from "@/components/i18n/LocaleSwitcher";
+import localeStyles from "@/components/i18n/LocaleSwitcher.module.css";
 export default function MobileMenu({ handleMobileMenu }) {
+  const router = useRouter();
+  const text = getSiteCopy(router.locale);
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
@@ -39,7 +46,7 @@ export default function MobileMenu({ handleMobileMenu }) {
             <i className="wsmenu-arrow" />
           </span>
           <Link href="#" className="h-link">
-            Learn
+            {text.learn}
             <span className="wsarrow" />
           </Link>
           <ul
@@ -47,25 +54,30 @@ export default function MobileMenu({ handleMobileMenu }) {
             style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}
           >
             <li aria-haspopup="true">
-              <Link href="/get-koin" onClick={handleMobileMenu}>
-                How to buy KOIN
-              </Link>
+              <LocalizedLink href="/get-koin" onClick={handleMobileMenu}>
+                {text.getKoin}
+              </LocalizedLink>
             </li>
             <li aria-haspopup="true">
-              <Link href="/whitepaper" onClick={handleMobileMenu}>
-                Whitepaper
-              </Link>
+              <LocalizedLink href="/add-liquidity" onClick={handleMobileMenu}>
+                {text.addLiquidity}
+              </LocalizedLink>
             </li>
             <li aria-haspopup="true">
-              <Link href="/#features" onClick={handleMobileMenu}>
-                Features
-              </Link>
+              <LocalizedLink href="/whitepaper" onClick={handleMobileMenu}>
+                {text.whitepaper}
+              </LocalizedLink>
+            </li>
+            <li aria-haspopup="true">
+              <LocalizedLink href="/#features" onClick={handleMobileMenu}>
+                {text.features}
+              </LocalizedLink>
             </li>
             {/*<li aria-haspopup="true"><Link href="/framework">Framework</Link></li>*/}
             <li aria-haspopup="true">
-              <Link href="/faqs" onClick={handleMobileMenu}>
-                FAQs
-              </Link>
+              <LocalizedLink href="/faqs" onClick={handleMobileMenu}>
+                {text.faqs}
+              </LocalizedLink>
             </li>
           </ul>
         </li>
@@ -76,39 +88,44 @@ export default function MobileMenu({ handleMobileMenu }) {
             onClick={handleMobileMenu}
             className="h-link"
           >
-            Documentation
+            {text.documentation}
           </Link>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link
+          <LocalizedLink
             href="/ecosystem"
             onClick={handleMobileMenu}
             className="h-link"
           >
-            Ecosystem
-          </Link>
+            {text.ecosystem}
+          </LocalizedLink>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="/#roadmap" onClick={handleMobileMenu} className="h-link">
-            Roadmap
-          </Link>
+          <LocalizedLink href="/#roadmap" onClick={handleMobileMenu} className="h-link">
+            {text.roadmap}
+          </LocalizedLink>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="/team" onClick={handleMobileMenu} className="h-link">
-            Team
-          </Link>
+          <LocalizedLink href="/team" onClick={handleMobileMenu} className="h-link">
+            {text.team}
+          </LocalizedLink>
         </li>
 
         <li className="nl-simple" aria-haspopup="true">
-          <Link href="/history" onClick={handleMobileMenu} className="h-link">
-            History
-          </Link>
+          <LocalizedLink href="/history" onClick={handleMobileMenu} className="h-link">
+            {text.history}
+          </LocalizedLink>
         </li>
 
-        <li className="nl-simple" aria-haspopup="true">
+        <li className={`${localeStyles.mobileLanguageItem} nl-simple`}>
+          <span className={localeStyles.mobileLanguageLabel}>{text.languageMenu}</span>
+          <LocaleSwitcher label={text.language} onNavigate={handleMobileMenu} />
+        </li>
+
+        <li className="nl-simple">
           <Link
             legacyBehavior
             href="https://github.com/koinos"
@@ -116,16 +133,17 @@ export default function MobileMenu({ handleMobileMenu }) {
             target="_blank"
             passHref
           >
-            <a target="_blank" rel="noopener noreferrer">
+            <a className={`${localeStyles.mobileGithubLink} h-link`} target="_blank" rel="noopener noreferrer">
+              <span>GitHub</span>
               <img
                 src="/images/menu/github-mark.svg"
-                alt="GitHub"
+                alt=""
                 style={{ width: "30px", height: "30px" }}
                 className="light-theme-img"
               />
               <img
                 src="/images/menu/github-mark-white.svg"
-                alt="GitHub"
+                alt=""
                 style={{ width: "30px", height: "30px" }}
                 className="dark-theme-img"
               />

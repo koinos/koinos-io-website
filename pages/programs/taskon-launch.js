@@ -8,8 +8,12 @@ import RelatedProgram from "@/components/sections/RelatedProgram"
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { useRouter } from "next/router";
+import LocalizedHead from "@/components/i18n/LocalizedHead";
 
 export default function TaskOnQuest() {
+  const router = useRouter();
+  const isSpanish = router.locale === "es";
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -27,8 +31,13 @@ export default function TaskOnQuest() {
         headerStyle={1}
         footerStyle={1}
         headerCls="navbar-dark inner-page-header"
-        headTitle="TaskOn Community Launch | Koinos"
+        headTitle={isSpanish ? "Lanzamiento de la comunidad de TaskOn | Koinos" : "TaskOn Community Launch | Koinos"}
       >
+        <LocalizedHead
+          pathname="/programs/taskon-launch"
+          title={isSpanish ? "Lanzamiento de la comunidad de TaskOn | Koinos" : "TaskOn Community Launch | Koinos"}
+          description={isSpanish ? "Guía de la misión de lanzamiento de la comunidad de Koinos en TaskOn." : "Guide to the Koinos TaskOn community launch quest."}
+        />
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-11 col-xl-10">

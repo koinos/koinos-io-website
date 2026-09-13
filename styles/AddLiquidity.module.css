@@ -1,0 +1,604 @@
+.page {
+  --liq-bg: #0c0c0f;
+  --liq-panel: #15151a;
+  --liq-panel-raised: #1b1b22;
+  --liq-ink: #f6f4fa;
+  --liq-muted: #aaa6b4;
+  --liq-line: rgba(255, 255, 255, 0.1);
+  --liq-purple: #9966ff;
+  --liq-purple-soft: rgba(153, 102, 255, 0.14);
+  --liq-warning: #ffba52;
+  --liq-warning-soft: rgba(255, 186, 82, 0.1);
+
+  min-height: 100vh;
+  padding-bottom: 5rem;
+  background: var(--liq-bg);
+  color: var(--liq-ink);
+}
+
+.wrap {
+  width: min(920px, calc(100% - 3rem));
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 7rem 0 3rem;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(153, 102, 255, 0.18), transparent 28rem),
+    linear-gradient(180deg, #111016 0%, var(--liq-bg) 100%);
+}
+
+.eyebrow,
+.sectionLabel {
+  margin: 0 0 0.75rem;
+  color: var(--liq-purple);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  max-width: 780px;
+  margin: 0;
+  color: var(--liq-ink);
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 760;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+.lead {
+  max-width: 750px;
+  margin: 1.6rem 0 0;
+  color: var(--liq-ink);
+  font-size: clamp(1.2rem, 2.5vw, 1.55rem);
+  line-height: 1.45;
+}
+
+.heroText,
+.sectionLead {
+  max-width: 760px;
+  margin: 1rem 0 0;
+  color: var(--liq-muted);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.primaryAction {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  margin-top: 1.75rem;
+  padding: 0.72rem 1.4rem;
+  border: 1px solid var(--liq-purple);
+  border-radius: 999px;
+  background: var(--liq-purple);
+  color: #130b20 !important;
+  font-size: 0.94rem;
+  font-weight: 750;
+  text-decoration: none;
+  transition: transform 150ms ease, background 150ms ease;
+}
+
+.primaryAction:hover {
+  background: #ad84ff;
+  transform: translateY(-1px);
+}
+
+.section {
+  padding: 3.8rem 0;
+  scroll-margin-top: 5.5rem;
+}
+
+.section + .section {
+  border-top: 1px solid var(--liq-line);
+}
+
+.section h2 {
+  max-width: 760px;
+  margin: 0;
+  color: var(--liq-ink);
+  font-size: clamp(1.8rem, 4vw, 2.75rem);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+}
+
+.warning {
+  padding: 1.8rem 2rem;
+  border: 1px solid rgba(255, 186, 82, 0.35);
+  border-radius: 18px;
+  background: var(--liq-warning-soft);
+}
+
+.warning h2 {
+  margin-bottom: 1rem;
+  color: var(--liq-warning);
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
+}
+
+.warning ul,
+.checkList {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.warning li,
+.checkList li {
+  margin-bottom: 0.7rem;
+  color: var(--liq-ink);
+  line-height: 1.65;
+}
+
+.warning li:last-child,
+.checkList li:last-child {
+  margin-bottom: 0;
+}
+
+.networkGrid,
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.networkCard,
+.infoCard {
+  min-width: 0;
+  padding: 1.5rem;
+  border: 1px solid var(--liq-line);
+  border-radius: 16px;
+  background: var(--liq-panel);
+}
+
+.networkCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.networkVenue {
+  margin: 0 0 0.5rem !important;
+  color: var(--liq-purple) !important;
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.networkCard h3,
+.infoCard h3 {
+  margin: 0 0 0.7rem;
+  color: var(--liq-ink);
+  font-size: 1.15rem;
+}
+
+.networkCard p,
+.infoCard p {
+  margin: 0 0 1.1rem;
+  color: var(--liq-muted);
+  line-height: 1.65;
+}
+
+.networkCard span {
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: var(--liq-purple-soft);
+  color: #c9aeff;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.preflight {
+  margin-top: 1rem;
+  padding: 1.5rem 1.7rem;
+  border: 1px solid var(--liq-line);
+  border-radius: 16px;
+  background: var(--liq-panel-raised);
+}
+
+.preflight h3 {
+  margin: 0 0 1rem;
+  color: var(--liq-ink);
+  font-size: 1.15rem;
+}
+
+.routeChooser {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  margin: 2rem 0 1rem;
+}
+
+.routeButton {
+  display: flex;
+  min-width: 0;
+  min-height: 118px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--liq-line);
+  border-radius: 14px;
+  background: var(--liq-panel);
+  color: var(--liq-ink);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 150ms ease, background 150ms ease;
+}
+
+.routeButton:hover {
+  border-color: rgba(153, 102, 255, 0.65);
+}
+
+.routeButtonActive {
+  border-color: var(--liq-purple);
+  background: var(--liq-purple-soft);
+}
+
+.routeChain {
+  font-size: 1.05rem;
+  font-weight: 750;
+}
+
+.routeButtonActive .routeChain::after {
+  content: "  ✓";
+  color: var(--liq-purple);
+}
+
+.routeVenue,
+.routePair {
+  margin-top: 0.2rem;
+  color: var(--liq-muted);
+  font-size: 0.82rem;
+}
+
+.plan {
+  margin-top: 1rem;
+  padding: 1.8rem;
+  border: 1px solid rgba(153, 102, 255, 0.35);
+  border-radius: 18px;
+  background: linear-gradient(145deg, var(--liq-panel-raised), var(--liq-panel));
+}
+
+.planIntro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.planIntro h3 {
+  margin: 0;
+  color: var(--liq-ink);
+  font-size: 1.4rem;
+}
+
+.planIntro .primaryAction {
+  flex: 0 0 auto;
+  margin-top: 0;
+}
+
+.factGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin: 1.6rem 0 0;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--liq-line);
+}
+
+.factGrid dt,
+.identifier dt {
+  margin-bottom: 0.3rem;
+  color: var(--liq-muted);
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.factGrid dd {
+  margin: 0;
+  color: var(--liq-ink);
+  font-weight: 650;
+}
+
+.identifiers {
+  margin: 2rem 0 0;
+  border-top: 1px solid var(--liq-line);
+}
+
+.identifier {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--liq-line);
+}
+
+.identifier dd {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.identifier a,
+.identifier dd > span {
+  color: #c5a7ff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.copyButton {
+  min-height: 38px;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--liq-line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--liq-ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.copyButton:hover {
+  border-color: var(--liq-purple);
+  color: #c5a7ff;
+}
+
+.steps {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1.6rem;
+  border: 1px solid var(--liq-line);
+  border-radius: 18px;
+  background: var(--liq-panel);
+}
+
+.stepNumber {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 1px solid rgba(153, 102, 255, 0.45);
+  border-radius: 50%;
+  background: var(--liq-purple-soft);
+  color: #c5a7ff;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.stepCount {
+  margin: 0 0 0.35rem !important;
+  color: var(--liq-purple) !important;
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.stepContent h3 {
+  margin: 0 0 0.55rem;
+  color: var(--liq-ink);
+  font-size: 1.2rem;
+}
+
+.stepContent > p {
+  margin: 0;
+  color: var(--liq-muted);
+  line-height: 1.7;
+}
+
+.screenshot {
+  margin: 1.4rem 0 0;
+}
+
+.screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--liq-line);
+  border-radius: 12px;
+  background: #050505;
+}
+
+.screenshot figcaption {
+  margin-top: 0.6rem;
+  color: var(--liq-muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.explainer {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 3rem;
+  padding: 2.2rem;
+  border-radius: 20px;
+  background: var(--liq-panel-raised);
+}
+
+.explainer p {
+  margin: 0 0 1rem;
+  color: var(--liq-muted);
+  line-height: 1.75;
+}
+
+.rangeAdvice {
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--liq-purple);
+  background: var(--liq-purple-soft);
+  color: var(--liq-ink) !important;
+}
+
+.cardGrid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.infoCard p {
+  margin-bottom: 0;
+}
+
+.twoColumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.twoColumns h2 {
+  margin-bottom: 1.3rem;
+  font-size: 1.65rem;
+}
+
+.finalChecklist {
+  padding: 1.7rem;
+  border: 1px solid rgba(153, 102, 255, 0.35);
+  border-radius: 18px;
+  background: var(--liq-purple-soft);
+}
+
+.checkList li::marker {
+  color: var(--liq-purple);
+}
+
+.sources {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem 2rem;
+  margin: 2rem 0;
+  padding-left: 1.2rem;
+}
+
+.sources a {
+  color: #c5a7ff;
+  line-height: 1.6;
+}
+
+.disclaimer {
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--liq-line);
+}
+
+.disclaimer p {
+  margin: 0.5rem 0;
+  color: var(--liq-muted);
+  font-size: 0.86rem;
+  line-height: 1.65;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.page a:focus-visible,
+.page button:focus-visible {
+  outline: 3px solid var(--liq-purple);
+  outline-offset: 3px;
+}
+
+@media (max-width: 800px) {
+  .networkGrid,
+  .routeChooser,
+  .factGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .networkGrid {
+    gap: 0.75rem;
+  }
+
+  .routeButton {
+    min-height: 0;
+  }
+
+  .planIntro,
+  .explainer,
+  .twoColumns {
+    grid-template-columns: 1fr;
+  }
+
+  .planIntro {
+    display: grid;
+  }
+
+  .planIntro .primaryAction {
+    justify-self: start;
+  }
+
+  .explainer {
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .wrap {
+    width: calc(100% - 2rem);
+  }
+
+  .hero {
+    padding-top: 5.5rem;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .warning,
+  .plan,
+  .explainer,
+  .finalChecklist {
+    padding: 1.35rem;
+  }
+
+  .cardGrid,
+  .sources {
+    grid-template-columns: 1fr;
+  }
+
+  .step {
+    grid-template-columns: 1fr;
+    padding: 1.3rem;
+  }
+
+  .stepNumber {
+    width: 40px;
+    height: 40px;
+  }
+
+  .identifier dd {
+    grid-template-columns: 1fr;
+  }
+
+  .copyButton {
+    justify-self: start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .primaryAction,
+  .routeButton {
+    transition: none;
+  }
+}
