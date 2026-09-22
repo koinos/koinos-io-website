@@ -1,7 +1,10 @@
+import TranslatedContent from "@/components/i18n/TranslatedContent";
+import LocalizedLink from "@/components/i18n/LocalizedLink";
+
 export default function FeatureEcosystem() {
 
   return (
-    <>
+    <TranslatedContent>
       <section id="feature-ecosystem" className="shape--bg shape--white-500 pt-100 features-section division">
         <div className="container">
           <div className="row d-flex align-items-center">
@@ -101,7 +104,7 @@ export default function FeatureEcosystem() {
                 {/* Title */}
                 <h2 className="s-44 w-700">An Ever-Evolving Ecosystem</h2>
                 {/* Text */}
-                <p>With new and innovative dApps popping up every week, Koinos facilitates a bright future for Web3. Check out the <a href="/ecosystem">ecosystem</a> page to learn about more great projects.
+                <p>With new and innovative dApps popping up every week, Koinos facilitates a bright future for Web3. Check out the <LocalizedLink href="/ecosystem">ecosystem</LocalizedLink> page to learn about more great projects.
                 </p>
                 {/* List */}
                 <ul className="simple-list">
@@ -119,6 +122,6 @@ export default function FeatureEcosystem() {
           </div>    {/* End row */}
         </div>     {/* End container */}
       </section>
-    </>
+    </TranslatedContent>
   )
 }

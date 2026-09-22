@@ -1,6 +1,11 @@
 import Layout from "@/components/layout/Layout"
-import Link from "next/link"
+import { useRouter } from "next/router"
+import LocalizedHead from "@/components/i18n/LocalizedHead"
+import { WHITEPAPER_ES } from "@/data/whitepaper.es"
 export default function WhitepaperPage() {
+  const router = useRouter();
+  const isSpanish = router.locale === "es";
+  const headTitle = isSpanish ? WHITEPAPER_ES.headTitle : "Whitepaper | Koinos";
 
   return (
     <>
@@ -8,18 +13,45 @@ export default function WhitepaperPage() {
         headerStyle={1}
         footerStyle={1}
         headerCls="navbar-dark inner-page-header"
-        headTitle="Whitepaper | Koinos"
+        headTitle={headTitle}
       >
+        <LocalizedHead
+          pathname="/whitepaper"
+          title={headTitle}
+          description={
+            isSpanish
+              ? WHITEPAPER_ES.description
+              : "The Koinos whitepaper: mana, feeless smart contracts, Proof of Burn, decentralized governance and forkless upgrades."
+          }
+        />
         <section id="terms-page" className="pb-80 inner-page-hero division">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-10">
                 {/* INNER PAGE TITLE */}
                 <div className="inner-page-title">
-                  <h2 className="s-52 w-700">Whitepaper</h2>
+                  <h2 className="s-52 w-700">
+                    {isSpanish ? WHITEPAPER_ES.title : "Whitepaper"}
+                  </h2>
                 </div>
                 {/* TEXT BLOCK */}
                 <div className="txt-block legal-info">
+                  {isSpanish ? (
+                    WHITEPAPER_ES.sections.map((section) => (
+                      <section key={section.title}>
+                        <h4 className={`${section.small ? "s-24" : "s-30"} w-700`}>
+                          {section.title}
+                        </h4>
+                        {section.paragraphs.map((paragraph, index) => (
+                          <p
+                            key={index}
+                            dangerouslySetInnerHTML={{ __html: paragraph }}
+                          />
+                        ))}
+                      </section>
+                    ))
+                  ) : (
+                    <>
                   {/* Title */}
                   <h4 className="s-30 w-700"> Abstract </h4>
                   {/* Text */}
@@ -205,6 +237,8 @@ export default function WhitepaperPage() {
                   <p>
                     In this document we have outlined the innovative business logic added to the Koinos blockchain framework to make Koinos mainnet the most accessible blockchain in the world. The Mana system allows for more efficient use of network resources while creating the frictionless (even fun) user experiences to which people have become accustomed. Mana delegations allow non-token holders to use dApps without having to acquire tokens, completing the Web2 user experience on a decentralized platform. The KOIN token allows mainnet to launch fully decentralized as a result of its open and fair proof-of-work launch on Ethereum. On mainnet, the KOIN token will regulate free usage of the entire Koinos ecosystem, inflating and deflating appropriately through the proof-of-burn consensus algorithm, while decentralized governance pushes continuous improvements through fork-less upgrades developed using the Universal Language Support.
                   </p>
+                    </>
+                  )}
 
                 </div>	{/* END TEXT BLOCK */}
               </div>

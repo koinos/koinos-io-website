@@ -1,25 +1,14 @@
 import Layout from "@/components/layout/Layout";
-import historyContent from "@/data/history-content.json";
-import historyPeople from "@/data/history-people.json";
-import Head from "next/head";
-import { useEffect, useRef, useState } from "react";
+import LocalizedHead from "@/components/i18n/LocalizedHead";
+import { normaliseLocale } from "@/i18n";
+import { useRouter } from "next/router";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 import styles from "@/styles/History.module.css";
 
-const EVENTS = historyContent.events;
-const FIRST_MILESTONE = EVENTS.find((event) => event.era === "origins");
-const HISTORY_TITLE_PARTS = historyContent.title.split(/,\s*/);
-const HISTORY_TITLE_LEAD =
-  HISTORY_TITLE_PARTS.length > 1
-    ? `${HISTORY_TITLE_PARTS.shift()},`
-    : HISTORY_TITLE_PARTS.shift();
-const HISTORY_TITLE_TAIL = HISTORY_TITLE_PARTS.join(", ");
 const MARKETING_REPOSITORY =
   "https://github.com/pgarciagon/marketing/blob/main/";
-const PEOPLE_SOURCE_TITLE = "Koinos Group LLC Is Registered";
-const PEOPLE_SOURCE = EVENTS.find(
-  (event) => event.title === PEOPLE_SOURCE_TITLE
-);
+const PEOPLE_SOURCE_ID = "2020-koinos-group-llc-is-registered-5";
 
 function parsePerson(item) {
   const match = item.match(/^\*\*(.+?)\*\*:\s*(.*)$/s);
@@ -55,111 +44,209 @@ function historySlug(value) {
     .replace(/^-+|-+$/g, "");
 }
 
-function buildHistoryItemHref(item, isPeople) {
+function buildHistoryItemHref(item, isPeople, locale) {
   const parameter = isPeople ? "person" : "milestone";
-  return `/history?${parameter}=${encodeURIComponent(item.id)}#chronicle`;
+  const basePath = locale === "es" ? "/es/history" : "/history";
+  return `${basePath}?${parameter}=${encodeURIComponent(item.id)}#chronicle`;
 }
 
-const CHRONOLOGY_HREF = "/history?view=chronology#chronicle";
-const PEOPLE_HREF = "/history?view=people#chronicle";
+const HISTORY_COPY = {
+  en: {
+    description: "Explore the lived history of Koinos—from its Steem roots and fair launch to mainnet and community continuity.",
+    pageTitleSuffix: "An Interactive Chronicle",
+    ogDescription: "A decade of people, software, conflict, experiments, and continuity—made explorable.",
+    eyebrow: "An interactive chronicle · 2016—2026",
+    heroLead: "Code can be copied. Architecture can be reproduced. But a lived blockchain—its people, choices, failures, and continuity—cannot be recreated.",
+    milestones: "Milestones",
+    people: "People",
+    livedHistory: ["LIVED", "HISTORY"],
+    historicalChronology: "Historical chronology",
+    quickHistoryIndex: "Quick history index",
+    quickPeopleIndex: "Quick people index ordered by verified contributions",
+    quickMilestoneIndex: "Quick complete milestone index",
+    previousPerson: "Previous person",
+    previousDate: "Previous date",
+    nextPerson: "Next person",
+    nextDate: "Next date",
+    mainCharacters: "Main characters ordered by verified contributions",
+    completeChronology: "Complete milestone chronology",
+    mainCharacter: "Main character",
+    contributions: "contributions",
+    documentaryProfile: "documentary profile",
+    statistics: "statistics",
+    verifiedMinimum: "Verified minimum",
+    documentedContributions: "documented contributions",
+    topTopics: "Top topics",
+    productsMentioned: "Products mentioned",
+    mostActiveGroups: "Most-active public groups",
+    statsNote: "Activity volume documents continuity; it does not imply authorship, leadership, or ownership.",
+    heroHints: {
+      milestones: {
+        label: "Follow the chronology",
+        text: "Each milestone was extracted from a dated section of the sourced chronicle. Its title, complete text, images, and source links were preserved, then all 154 entries were arranged chronologically. Choose any milestone, then keep scrolling as the full story unfolds.",
+      },
+      people: {
+        label: "Meet the main characters",
+        text: "Characters are ordered from highest to lowest by documented public contributions across Telegram, individually inventoried Discord, X, articles, and videos; profiles without a measured count appear last. Choose a name, then keep scrolling through the human story behind the chain.",
+      },
+    },
+  },
+  es: {
+    description: "Explora la historia vivida de Koinos: desde sus raíces en Steem y su lanzamiento justo hasta mainnet y la continuidad de su comunidad.",
+    pageTitleSuffix: "Una crónica interactiva",
+    ogDescription: "Una década de personas, software, conflictos, experimentos y continuidad, presentada para poder explorarla.",
+    eyebrow: "Una crónica interactiva · 2016—2026",
+    heroLead: "El código se puede copiar. La arquitectura se puede reproducir. Pero una cadena de bloques vivida —sus personas, decisiones, fracasos y continuidad— no se puede recrear.",
+    milestones: "Hitos",
+    people: "Personas",
+    livedHistory: ["HISTORIA", "VIVIDA"],
+    historicalChronology: "Cronología histórica",
+    quickHistoryIndex: "Índice rápido de la historia",
+    quickPeopleIndex: "Índice rápido de personas ordenado por contribuciones verificadas",
+    quickMilestoneIndex: "Índice rápido de todos los hitos",
+    previousPerson: "Persona anterior",
+    previousDate: "Fecha anterior",
+    nextPerson: "Persona siguiente",
+    nextDate: "Fecha siguiente",
+    mainCharacters: "Personajes principales ordenados por contribuciones verificadas",
+    completeChronology: "Cronología completa de hitos",
+    mainCharacter: "Personaje principal",
+    contributions: "contribuciones",
+    documentaryProfile: "perfil documental",
+    statistics: "estadísticas",
+    verifiedMinimum: "Mínimo verificado",
+    documentedContributions: "contribuciones documentadas",
+    topTopics: "Temas principales",
+    productsMentioned: "Productos mencionados",
+    mostActiveGroups: "Grupos públicos con más actividad",
+    statsNote: "El volumen de actividad documenta la continuidad; no implica autoría, liderazgo ni propiedad.",
+    heroHints: {
+      milestones: {
+        label: "Sigue la cronología",
+        text: "Cada hito procede de una sección fechada de la crónica documentada. Se conservaron su título, texto completo, imágenes y enlaces a las fuentes, y los 154 registros se ordenaron cronológicamente. Elige un hito y sigue desplazándote para descubrir toda la historia.",
+      },
+      people: {
+        label: "Conoce a sus protagonistas",
+        text: "Los personajes se ordenan de mayor a menor según sus contribuciones públicas documentadas en Telegram, perfiles de Discord inventariados individualmente, X, artículos y vídeos; los perfiles sin recuento aparecen al final. Elige un nombre y sigue recorriendo la historia humana que hay detrás de la cadena.",
+      },
+    },
+  },
+};
 
-const CONTRIBUTION_NUMBER = new Intl.NumberFormat("en-US");
-const CONTRIBUTION_LIST = new Intl.ListFormat("en-US", {
-  style: "long",
-  type: "conjunction",
-});
-
-const PEOPLE_CONTRIBUTIONS =
-  historyContent.peopleContributionAnalysis?.people || {};
-const HISTORICAL_PEOPLE = PEOPLE_SOURCE.content
-  .filter((block) => block.type === "unordered-list")
-  .flatMap((block) => block.items.map(parsePerson))
-  .map((person, sourceIndex) => ({
-    ...person,
-    contribution: PEOPLE_CONTRIBUTIONS[personIdentityKey(person)] || null,
-    sourceIndex,
-  }));
-const CONTRIBUTOR_IDENTITIES = new Set(
-  historyPeople.people.map((person) =>
-    personIdentityKey({ name: person.name })
-  )
-);
-const PEOPLE = [
-  ...historyPeople.people.map((contributor, sourceIndex) => ({
-    name: contributor.name,
-    description: contributor.summary,
-    contribution: contributor,
-    stats: contributor,
-    sourceIndex,
-  })),
-  ...HISTORICAL_PEOPLE.filter(
-    (person) => !CONTRIBUTOR_IDENTITIES.has(personIdentityKey(person))
-  ).map((person, sourceIndex) => ({
-    ...person,
-    sourceIndex: historyPeople.people.length + sourceIndex,
-  })),
-]
-  .sort((personA, personB) => {
+function createHistoryModel(content, peopleData, locale) {
+  const events = content.events;
+  const firstMilestone = events.find((event) => event.era === "origins");
+  const titleParts = content.title.split(/,\s*/);
+  const titleLead = titleParts.length > 1 ? `${titleParts.shift()},` : titleParts.shift();
+  const titleTail = titleParts.join(", ");
+  const numberFormat = new Intl.NumberFormat(locale === "es" ? "es-ES" : "en-US");
+  const listFormat = new Intl.ListFormat(locale === "es" ? "es-ES" : "en-US", {
+    style: "long",
+    type: "conjunction",
+  });
+  const copy = HISTORY_COPY[locale];
+  const peopleSource = events.find((event) => event.id === PEOPLE_SOURCE_ID);
+  const peopleContributions = content.peopleContributionAnalysis?.people || {};
+  const historicalPeople = peopleSource.content
+    .filter((block) => block.type === "unordered-list")
+    .flatMap((block) => block.items.map(parsePerson))
+    .map((person, sourceIndex) => ({
+      ...person,
+      contribution: peopleContributions[personIdentityKey(person)] || null,
+      sourceIndex,
+    }));
+  const contributorIdentities = new Set(
+    peopleData.people.map((person) => personIdentityKey({ name: person.name }))
+  );
+  const people = [
+    ...peopleData.people.map((contributor, sourceIndex) => ({
+      name: contributor.name,
+      description: contributor.summary,
+      contribution: contributor,
+      stats: contributor,
+      sourceIndex,
+    })),
+    ...historicalPeople
+      .filter((person) => !contributorIdentities.has(personIdentityKey(person)))
+      .map((person, sourceIndex) => ({
+        ...person,
+        sourceIndex: peopleData.people.length + sourceIndex,
+      })),
+  ].sort((personA, personB) => {
     const totalA = personA.contribution?.total ?? -1;
     const totalB = personB.contribution?.total ?? -1;
     return totalB - totalA || personA.sourceIndex - personB.sourceIndex;
   });
-const PEOPLE_COUNT = PEOPLE.length;
-const PEOPLE_SLUG_COUNTS = new Map();
-const PEOPLE_WHEEL_ITEMS = PEOPLE.map((person, index) => {
-  const baseSlug = historySlug(person.name) || `profile-${index + 1}`;
-  const occurrence = (PEOPLE_SLUG_COUNTS.get(baseSlug) || 0) + 1;
-  PEOPLE_SLUG_COUNTS.set(baseSlug, occurrence);
+  const slugCounts = new Map();
+  const peopleWheelItems = people.map((person, index) => {
+    const baseSlug = historySlug(person.name) || `profile-${index + 1}`;
+    const occurrence = (slugCounts.get(baseSlug) || 0) + 1;
+    slugCounts.set(baseSlug, occurrence);
+    return {
+      id: `person-${baseSlug}${occurrence > 1 ? `-${occurrence}` : ""}`,
+      title: plainPersonName(person.name),
+      date: person.contribution
+        ? `#${index + 1} · ${numberFormat.format(person.contribution.total)} ${copy.contributions}`
+        : `#${index + 1} · ${copy.documentaryProfile}`,
+      person,
+    };
+  });
+  const basePath = locale === "es" ? "/es/history" : "/history";
 
   return {
-    id: `person-${baseSlug}${occurrence > 1 ? `-${occurrence}` : ""}`,
-    title: plainPersonName(person.name),
-    date: person.contribution
-      ? `#${index + 1} · ${CONTRIBUTION_NUMBER.format(
-          person.contribution.total
-        )} contributions`
-      : `#${index + 1} · documentary profile`,
-    person,
+    locale,
+    content,
+    events,
+    firstMilestone,
+    titleLead,
+    titleTail,
+    numberFormat,
+    listFormat,
+    peopleWheelItems,
+    peopleSourceId: PEOPLE_SOURCE_ID,
+    chronologyHref: `${basePath}?view=chronology#chronicle`,
+    peopleHref: `${basePath}?view=people#chronicle`,
+    copy,
   };
-});
+}
 
-const HERO_ACTION_HINTS = {
-  milestones: {
-    label: "Follow the chronology",
-    text: "Each milestone was extracted from a dated section of the sourced chronicle. Its title, complete text, images, and source links were preserved, then all 154 entries were arranged chronologically. Choose any milestone, then keep scrolling as the full story unfolds.",
-  },
-  people: {
-    label: "Meet the main characters",
-    text: "Characters are ordered from highest to lowest by documented public contributions across Telegram, individually inventoried Discord, X, articles, and videos; profiles without a measured count appear last. Choose a name, then keep scrolling through the human story behind the chain.",
-  },
-};
-
-function formatStatisticalList(metrics, limit = 3) {
-  return CONTRIBUTION_LIST.format(
+function formatStatisticalList(metrics, numberFormat, listFormat, limit = 3) {
+  return listFormat.format(
     metrics
       .slice(0, limit)
-      .map(
-        (metric) =>
-          `${metric.label} (${CONTRIBUTION_NUMBER.format(metric.count)})`
-      )
+      .map((metric) => `${metric.label} (${numberFormat.format(metric.count)})`)
   );
 }
 
-function buildStatisticalNarrative(stats) {
+function buildStatisticalNarrative(stats, model) {
   if (!stats) return "";
+  const { numberFormat, listFormat } = model;
+
+  if (model.locale === "es") {
+    const sentences = [
+      `De las ${numberFormat.format(stats.total)} contribuciones verificadas, los temas con mayor presencia fueron ${formatStatisticalList(stats.topTopics, numberFormat, listFormat)}.`,
+    ];
+    if (stats.topProducts.length) {
+      sentences.push(`Los productos mencionados con más frecuencia fueron ${formatStatisticalList(stats.topProducts, numberFormat, listFormat)}; estas cifras documentan la atención y la actividad de apoyo, no la propiedad ni la autoría.`);
+    }
+    if (stats.topGroups.length) {
+      sentences.push(`La mayor actividad en grupos públicos se registró en ${formatStatisticalList(stats.topGroups, numberFormat, listFormat)}, lo que muestra dónde se mantuvo más esa participación.`);
+    }
+    return sentences.join(" ");
+  }
 
   const sentences = [
-    `Across ${CONTRIBUTION_NUMBER.format(
+    `Across ${numberFormat.format(
       stats.total
     )} verified contributions, the strongest topical concentrations were ${formatStatisticalList(
-      stats.topTopics
+      stats.topTopics, numberFormat, listFormat
     )}.`,
   ];
 
   if (stats.topProducts.length) {
     sentences.push(
       `The products mentioned most often were ${formatStatisticalList(
-        stats.topProducts
+        stats.topProducts, numberFormat, listFormat
       )}; these figures document attention and support activity rather than ownership or authorship.`
     );
   }
@@ -167,7 +254,7 @@ function buildStatisticalNarrative(stats) {
   if (stats.topGroups.length) {
     sentences.push(
       `The largest public-group footprints were recorded in ${formatStatisticalList(
-        stats.topGroups
+        stats.topGroups, numberFormat, listFormat
       )}, showing where that participation was most sustained.`
     );
   }
@@ -175,22 +262,23 @@ function buildStatisticalNarrative(stats) {
   return sentences.join(" ");
 }
 
-function PersonStats({ person }) {
+function PersonStats({ person, model }) {
   const stats = person.stats;
   if (!stats) return null;
+  const { copy, numberFormat } = model;
 
   const groups = [
-    ["Top topics", stats.topTopics],
-    ["Products mentioned", stats.topProducts],
-    ["Most-active public groups", stats.topGroups],
+    [copy.topTopics, stats.topTopics],
+    [copy.productsMentioned, stats.topProducts],
+    [copy.mostActiveGroups, stats.topGroups],
   ];
 
   return (
-    <aside className={styles.personStats} aria-label={`${person.name} statistics`}>
+    <aside className={styles.personStats} aria-label={`${person.name}: ${copy.statistics}`}>
       <div className={styles.personStatsTotal}>
-        <span>Verified minimum</span>
-        <strong>{CONTRIBUTION_NUMBER.format(stats.total)}</strong>
-        <small>documented contributions</small>
+        <span>{copy.verifiedMinimum}</span>
+        <strong>{numberFormat.format(stats.total)}</strong>
+        <small>{copy.documentedContributions}</small>
       </div>
 
       {groups.map(([label, metrics]) =>
@@ -201,7 +289,7 @@ function PersonStats({ person }) {
               {metrics.map((metric) => (
                 <li key={`${label}-${metric.label}`}>
                   <span>{metric.label}</span>
-                  <strong>{CONTRIBUTION_NUMBER.format(metric.count)}</strong>
+                  <strong>{numberFormat.format(metric.count)}</strong>
                 </li>
               ))}
             </ol>
@@ -210,8 +298,7 @@ function PersonStats({ person }) {
       )}
 
       <p className={styles.personStatsNote}>
-        Activity volume documents continuity; it does not imply authorship,
-        leadership, or ownership.
+        {copy.statsNote}
       </p>
     </aside>
   );
@@ -264,9 +351,9 @@ function renderInline(text, keyPrefix = "inline") {
   return nodes;
 }
 
-function ArticleBody({ event }) {
+function ArticleBody({ event, peopleSourceId }) {
   const visibleContent =
-    event.title === PEOPLE_SOURCE_TITLE
+    event.id === peopleSourceId
       ? event.content.slice(0, 2)
       : event.content;
 
@@ -363,7 +450,26 @@ function ReaderEntry({ itemId, children, priority = false }) {
   );
 }
 
-export default function HistoryPage() {
+export default function HistoryPage({ historyContentData, historyPeopleData }) {
+  const router = useRouter();
+  const locale = normaliseLocale(router.locale);
+  const model = useMemo(
+    () => createHistoryModel(historyContentData, historyPeopleData, locale),
+    [historyContentData, historyPeopleData, locale]
+  );
+  const {
+    content,
+    events: EVENTS,
+    firstMilestone: FIRST_MILESTONE,
+    titleLead: HISTORY_TITLE_LEAD,
+    titleTail: HISTORY_TITLE_TAIL,
+    peopleWheelItems: PEOPLE_WHEEL_ITEMS,
+    peopleSourceId: PEOPLE_SOURCE_ID_LOCALIZED,
+    chronologyHref: CHRONOLOGY_HREF,
+    peopleHref: PEOPLE_HREF,
+    copy,
+  } = model;
+  const HERO_ACTION_HINTS = copy.heroHints;
   const [focusedId, setFocusedId] = useState(FIRST_MILESTONE.id);
   const [openedId, setOpenedId] = useState(null);
   const [visibleReaderCount, setVisibleReaderCount] = useState(1);
@@ -632,7 +738,7 @@ export default function HistoryPage() {
         setFocusedId(activeId);
         const activeItem = readerSequence.find((item) => item.id === activeId);
         if (activeItem) {
-          replaceHistoryLocation(buildHistoryItemHref(activeItem, peopleSelected));
+          replaceHistoryLocation(buildHistoryItemHref(activeItem, peopleSelected, locale));
         }
       }
 
@@ -709,6 +815,7 @@ export default function HistoryPage() {
       return;
     }
     window.history.pushState({}, "", href);
+    window.dispatchEvent(new Event("koinos:locationchange"));
   }
 
   function replaceHistoryLocation(href) {
@@ -716,6 +823,7 @@ export default function HistoryPage() {
       return;
     }
     window.history.replaceState({}, "", href);
+    window.dispatchEvent(new Event("koinos:locationchange"));
   }
 
   function focusWheelItem(id, behavior = "smooth") {
@@ -844,7 +952,7 @@ export default function HistoryPage() {
       (item) => item.id === id
     );
     if (selectedItem) {
-      pushHistoryLocation(buildHistoryItemHref(selectedItem, isPeople));
+      pushHistoryLocation(buildHistoryItemHref(selectedItem, isPeople, locale));
     }
 
     const prefersReducedMotion = window.matchMedia(
@@ -973,7 +1081,7 @@ export default function HistoryPage() {
     event.preventDefault();
     historyInteracted.current = true;
     if (item.id === openedId) {
-      pushHistoryLocation(buildHistoryItemHref(item, peopleSelected));
+      pushHistoryLocation(buildHistoryItemHref(item, peopleSelected, locale));
       scrollReaderTo(item.id);
       return;
     }
@@ -1079,36 +1187,25 @@ export default function HistoryPage() {
       headerStyle={1}
       footerStyle={1}
       headerCls="navbar-dark light-hero-header"
-      headTitle={historyContent.title}
+      headTitle={content.title}
     >
-      <Head>
-        <meta
-          name="description"
-          content="Explore the lived history of Koinos—from its Steem roots and fair launch to mainnet and community continuity."
-        />
-        <meta
-          property="og:title"
-          content={`${historyContent.title} | An Interactive Chronicle`}
-        />
-        <meta
-          property="og:description"
-          content="A decade of people, software, conflict, experiments, and continuity—made explorable."
-        />
-      </Head>
+      <LocalizedHead
+        pathname="/history"
+        title={`${content.title} | ${copy.pageTitleSuffix}`}
+        description={copy.description}
+      />
 
       <div className={styles.page}>
         <section className={styles.hero} aria-labelledby="history-title">
           <div className={styles.heroGrid}>
             <div className={styles.heroCopy}>
-              <p className={styles.eyebrow}>An interactive chronicle · 2016—2026</p>
+              <p className={styles.eyebrow}>{copy.eyebrow}</p>
               <h1 id="history-title" className={styles.heroTitle}>
                 {HISTORY_TITLE_LEAD}
                 {HISTORY_TITLE_TAIL ? <span>{HISTORY_TITLE_TAIL}</span> : null}
               </h1>
               <p className={styles.heroLead}>
-                Code can be copied. Architecture can be reproduced. But a lived
-                blockchain—its people, choices, failures, and continuity—cannot
-                be recreated.
+                {copy.heroLead}
               </p>
               <div className={styles.heroActionArea}>
                 <div className={styles.heroActions}>
@@ -1121,7 +1218,7 @@ export default function HistoryPage() {
                     onFocus={() => setHeroActionHint("milestones")}
                     onBlur={() => setHeroActionHint(null)}
                   >
-                    Milestones
+                    {copy.milestones}
                     <span aria-hidden="true">↓</span>
                   </a>
                   <a
@@ -1133,7 +1230,7 @@ export default function HistoryPage() {
                     onFocus={() => setHeroActionHint("people")}
                     onBlur={() => setHeroActionHint(null)}
                   >
-                    People
+                    {copy.people}
                     <span aria-hidden="true">↓</span>
                   </a>
                 </div>
@@ -1165,7 +1262,7 @@ export default function HistoryPage() {
               <span className={`${styles.orbitYear} ${styles.yearEnd}`}>2026</span>
               <div className={styles.artifactCore}>
                 <img src="/images/logo/svg/koinos-logomark-black.svg" alt="" />
-                <span>LIVED<br />HISTORY</span>
+                <span>{copy.livedHistory[0]}<br />{copy.livedHistory[1]}</span>
               </div>
             </div>
           </div>
@@ -1177,17 +1274,17 @@ export default function HistoryPage() {
           className={`${styles.chronicle} ${
             openedItem ? "" : styles.chronicleCompact
           }`}
-          aria-label="Historical chronology"
+          aria-label={copy.historicalChronology}
         >
           {compactNavigatorVisible && openedItem ? (
             <aside
               className={styles.compactNavigator}
-              aria-label="Quick history index"
+              aria-label={copy.quickHistoryIndex}
             >
               <div className={styles.compactNavigatorInner}>
                 <div className={styles.compactWheelBar}>
                   <div className={styles.compactWheelCounter}>
-                    <span>{peopleSelected ? "People" : "Milestones"}</span>
+                    <span>{peopleSelected ? copy.people : copy.milestones}</span>
                     <strong>
                       {String(focusedIndex + 1).padStart(2, "0")} / {wheelItems.length}
                     </strong>
@@ -1197,8 +1294,8 @@ export default function HistoryPage() {
                     className={styles.compactWheelTrack}
                     aria-label={
                       peopleSelected
-                        ? "Quick people index ordered by verified contributions"
-                        : "Quick complete milestone index"
+                        ? copy.quickPeopleIndex
+                        : copy.quickMilestoneIndex
                     }
                   >
                     {wheelItems.map((item) => {
@@ -1209,7 +1306,7 @@ export default function HistoryPage() {
                             ref={(node) => {
                               compactWheelNodes.current[item.id] = node;
                             }}
-                            href={buildHistoryItemHref(item, peopleSelected)}
+                            href={buildHistoryItemHref(item, peopleSelected, locale)}
                             aria-current={isFocused ? "true" : undefined}
                             className={`${styles.compactWheelButton} ${
                               isFocused ? styles.compactWheelButtonActive : ""
@@ -1242,7 +1339,7 @@ export default function HistoryPage() {
                 <button
                   type="button"
                   onClick={() => stepWheel(-1)}
-                  aria-label={peopleSelected ? "Previous person" : "Previous date"}
+                  aria-label={peopleSelected ? copy.previousPerson : copy.previousDate}
                 >
                   ←
                 </button>
@@ -1252,7 +1349,7 @@ export default function HistoryPage() {
                 <button
                   type="button"
                   onClick={() => stepWheel(1)}
-                  aria-label={peopleSelected ? "Next person" : "Next date"}
+                  aria-label={peopleSelected ? copy.nextPerson : copy.nextDate}
                 >
                   →
                 </button>
@@ -1271,8 +1368,8 @@ export default function HistoryPage() {
                 }`}
                 aria-label={
                   peopleSelected
-                    ? "Main characters ordered by verified contributions"
-                    : "Complete milestone chronology"
+                    ? copy.mainCharacters
+                    : copy.completeChronology
                 }
                 onScroll={handleWheelScroll}
                 onPointerDown={handleWheelPointerDown}
@@ -1289,11 +1386,11 @@ export default function HistoryPage() {
                         ref={(node) => {
                           wheelNodes.current[item.id] = node;
                         }}
-                        href={buildHistoryItemHref(item, peopleSelected)}
+                        href={buildHistoryItemHref(item, peopleSelected, locale)}
                         aria-current={isFocused ? "true" : undefined}
                         aria-label={
                           peopleSelected
-                            ? `Main character: ${item.title}`
+                            ? `${copy.mainCharacter}: ${item.title}`
                             : `${item.date}: ${item.title}`
                         }
                         className={`${styles.wheelDate} ${
@@ -1362,16 +1459,17 @@ export default function HistoryPage() {
                           ) : null}
                           {readerPerson.person.stats ? (
                             <p className={styles.personStatisticalNarrative}>
-                              {buildStatisticalNarrative(
-                                readerPerson.person.stats
-                              )}
+                              {buildStatisticalNarrative(readerPerson.person.stats, model)}
                             </p>
                           ) : null}
                         </div>
-                        <PersonStats person={readerPerson.person} />
+                        <PersonStats person={readerPerson.person} model={model} />
                       </div>
                     ) : (
-                      <ArticleBody event={readerEvent} />
+                      <ArticleBody
+                        event={readerEvent}
+                        peopleSourceId={PEOPLE_SOURCE_ID_LOCALIZED}
+                      />
                     )}
                   </ReaderEntry>
                 );
@@ -1394,4 +1492,22 @@ export default function HistoryPage() {
       </div>
     </Layout>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  if (normaliseLocale(locale) === "es") {
+    const [{ default: historyContentData }, { default: historyPeopleData }] =
+      await Promise.all([
+        import("@/data/history-content.es.json"),
+        import("@/data/history-people.es.json"),
+      ]);
+    return { props: { historyContentData, historyPeopleData } };
+  }
+
+  const [{ default: historyContentData }, { default: historyPeopleData }] =
+    await Promise.all([
+      import("@/data/history-content.json"),
+      import("@/data/history-people.json"),
+    ]);
+  return { props: { historyContentData, historyPeopleData } };
 }

@@ -1,5 +1,6 @@
 import { useProgramStore } from "@/store/programStore";
 import Link from "next/link";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function FeaturedProgram() {
     const programs = useProgramStore((state) => state.programs);
@@ -10,7 +11,7 @@ export default function FeaturedProgram() {
     }
   
     return (
-      <>
+      <TranslatedContent>
         <section id="featured-program" className="pt-100 ct-01 content-section features-section division">
           <div className="container">
             <div className="row d-flex align-items-center">
@@ -56,6 +57,6 @@ export default function FeaturedProgram() {
             </div>
           </div>
         </section>
-      </>
+      </TranslatedContent>
     );
   }

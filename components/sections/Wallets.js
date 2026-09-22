@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import Link from "next/link";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 
 export default function Wallets() {
@@ -22,7 +23,7 @@ export default function Wallets() {
   ]
 
   return (
-    <>
+    <TranslatedContent>
       <section id="wallets" className="py-100 features-section division">
         <div className="container">
           {/* SECTION TITLE */}
@@ -87,6 +88,6 @@ export default function Wallets() {
           </div>	{/* END FEATURES-2 WRAPPER */}
         </div>     {/* End container */}
       </section>
-    </>
+    </TranslatedContent>
   )
 }

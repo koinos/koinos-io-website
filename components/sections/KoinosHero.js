@@ -1,11 +1,12 @@
 import Link from "next/link";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function KoinosHero() {
   const title1 = "Web3 for Everyone";
   const title2 = "Feeless, Frictionless, Familiar";
 
   return (
-    <>
+    <TranslatedContent>
       {/*<section id="hero-27" className="gr--whitesmoke hero-section">*/}
       <section id="hero-27">
         <div className="hero-overlay bg--fixed">
@@ -57,6 +58,6 @@ export default function KoinosHero() {
           <span></span>
         </div>
       </section>
-    </>
+    </TranslatedContent>
   );
 }

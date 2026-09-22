@@ -15,8 +15,16 @@ import FeaturedProgram from "@/components/sections/FeaturedProgram"
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { useRouter } from "next/router";
+import LocalizedHead from "@/components/i18n/LocalizedHead";
 
 export default function IndexPage() {
+  const router = useRouter();
+  const isSpanish = router.locale === "es";
+  const headTitle = isSpanish ? "Web3 para todos | Koinos" : "Web3 for Everyone | Koinos";
+  const description = isSpanish
+    ? "Koinos es una blockchain sin comisiones diseñada para ofrecer una experiencia Web3 accesible a usuarios, desarrolladores y emprendedores."
+    : "Koinos is a feeless blockchain designed to make Web3 accessible to users, developers, and entrepreneurs.";
 
   useEffect(() => {
     AOS.init({
@@ -30,8 +38,9 @@ export default function IndexPage() {
         headerStyle={1}
         footerStyle={1}
         headerCls="navbar-dark light-hero-header"
-        headerTitle="Web3 for Everyone | Koinos"
+        headTitle={headTitle}
       >
+        <LocalizedHead pathname="/" title={headTitle} description={description} />
         <KoinosHero />
 
         <FeaturedProgram />

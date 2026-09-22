@@ -8,8 +8,12 @@ import RelatedProgram from "@/components/sections/RelatedProgram"
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { useRouter } from "next/router";
+import LocalizedHead from "@/components/i18n/LocalizedHead";
 
 export default function LordsForsakenQuest() {
+  const router = useRouter();
+  const isSpanish = router.locale === "es";
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -28,6 +32,11 @@ export default function LordsForsakenQuest() {
         headerCls="navbar-dark inner-page-header"
         headTitle="Lord's Forsaken Quest | Koinos"
       >
+        <LocalizedHead
+          pathname="/programs/lords-forsaken-quest"
+          title="Lord's Forsaken Quest | Koinos"
+          description={isSpanish ? "Guía de la misión de lanzamiento de Lord's Forsaken en Koinos." : "Guide to the Lord's Forsaken launch quest on Koinos."}
+        />
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-11 col-xl-10">

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function Team() {
   const team = [
@@ -30,6 +31,16 @@ export default function Team() {
       role: "Project Manager + Developer",
       photo: "/images/sections/team/pablo.jpg",
       twitter: "https://x.com/pgarcgo",
+      telegram: "https://t.me/pgarcgo",
+      github: "https://github.com/pgarciagon",
+    },
+    {
+      name: "Rex",
+      role: "Community Developer",
+      photo: "/images/sections/team/rex.jpg",
+      website: "https://usekoinos.com/",
+      telegram: "https://t.me/KoinosRex",
+      github: "https://github.com/therexdev",
     },
     {
       name: "Ron Hamenahem",
@@ -124,7 +135,7 @@ export default function Team() {
   ];
 
   return (
-    <>
+    <TranslatedContent>
       <section
         id="team"
         className="pb-40 inner-page-hero team-section"
@@ -153,7 +164,7 @@ export default function Team() {
                         <img
                           className="img-fluid"
                           src={member.photo}
-                          alt="team-member-foto"
+                          alt={`${member.name} profile`}
                         />
                         <div className="item-overlay" />
                       </div>
@@ -168,6 +179,30 @@ export default function Team() {
                         {/* Additional div for layout */}
                         <ul className="tm-social ico-20 clearfix">
                           {/* ...social links */}
+                          {member.website && (
+                            <li>
+                              <Link
+                                href={member.website}
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label={`${member.name} website`}
+                              >
+                                <i className="fa-solid fa-globe fa-lg"></i>
+                              </Link>
+                            </li>
+                          )}
+                          {member.telegram && (
+                            <li>
+                              <Link
+                                href={member.telegram}
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label={`${member.name} on Telegram`}
+                              >
+                                <i className="fa-brands fa-telegram fa-lg"></i>
+                              </Link>
+                            </li>
+                          )}
                           {member.linkedin && (
                             <li>
                               <Link href={member.linkedin} target="_blank">
@@ -203,6 +238,6 @@ export default function Team() {
         {/* End container */}
       </section>{" "}
       {/* END TEAM-2 */}
-    </>
+    </TranslatedContent>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import TranslatedContent from "@/components/i18n/TranslatedContent";
 
 export default function ChainStatistics() {
   // Static data instead of fetching from Koiner
@@ -10,7 +11,7 @@ export default function ChainStatistics() {
   const subtle = "A Powerful Decentralized Network for a Growing Ecosystem"
 
   return (
-    <>
+    <TranslatedContent>
       <div id="statistic-5" className="pt-50 statistic-section division">
         <div className="container">
           {/* STATISTIC-1 WRAPPER */}
@@ -93,6 +94,6 @@ export default function ChainStatistics() {
         </div>{" "}
         {/* End container */}
       </div>
-    </>
+    </TranslatedContent>
   );
 }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Token Lab</title>
+  <rect width="160" height="160" rx="34" fill="#121016"/>
+  <circle cx="80" cy="80" r="50" fill="#20182d" stroke="#9966ff" stroke-width="6"/>
+  <circle cx="80" cy="80" r="33" fill="#5d00b3" stroke="#c8adff" stroke-width="5"/>
+  <path d="M80 55v50M64 65h25c8 0 14 6 14 13s-6 13-14 13H64" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
