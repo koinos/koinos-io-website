@@ -131,6 +131,7 @@ export default function Team() {
       photo: "/images/sections/team/interfecto.jpg",
       github: "https://github.com/interfecto",
       twitter: "https://x.com/interf3cto",
+      telegram: "https://t.me/interfectoewm",
     },
   ];
 
