@@ -14,6 +14,12 @@ const ecosystemProjects = [
     url: "https://koindx.com/",
   },
   {
+    name: "KoinFlow",
+    description: "KoinFlow is a community-built trading interface for exploring Koinos token markets and KoinDX liquidity pools, with charts and Kondor wallet integration. Its source code is not public, so we have not been able to audit it.",
+    icon: "/images/pages/ecosystem/koinflow.svg",
+    url: "https://koinflow.netlify.app/",
+  },
+  {
     name: "Trade Koinos",
     description: "Trade Koinos is a live, non-custodial mainnet DEX built around a fully on-chain order book, with limit and market orders, live depth, trade history, and permissionless pair listings.",
     icon: "/images/pages/ecosystem/trade-koinos.svg",
