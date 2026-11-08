@@ -17,7 +17,8 @@ Reviewed on 2026-11-08.
 ## Implementation
 
 - Add one card beside KoinDX using the existing directory structure and styling.
-- Include the same source-availability and audit limitation in English and Spanish.
+- State that source code is unavailable for public review and that use is at the
+  user's own risk. The Spanish copy also explicitly mentions responsibility.
 - Link to the supplied application URL without implying an endorsement or audit.
 - Version the homepage's inline brand mark as a local SVG, preserving its
   geometry and converting its primary color `oklch(58% .11 192)` to `#008e8b`.

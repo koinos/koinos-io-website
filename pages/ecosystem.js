@@ -15,7 +15,7 @@ const ecosystemProjects = [
   },
   {
     name: "KoinFlow",
-    description: "KoinFlow is a community-built trading interface for exploring Koinos token markets and KoinDX liquidity pools, with charts and Kondor wallet integration. Its source code is not public, so we have not been able to audit it.",
+    description: "KoinFlow is a community-built trading interface for exploring Koinos token markets and KoinDX liquidity pools, with charts and Kondor wallet integration. Source code is not available for public review. Use at your own risk.",
     icon: "/images/pages/ecosystem/koinflow.svg",
     url: "https://koinflow.netlify.app/",
   },
