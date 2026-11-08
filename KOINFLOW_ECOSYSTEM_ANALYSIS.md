@@ -19,6 +19,9 @@ Reviewed on 2026-11-08.
 - Add one card beside KoinDX using the existing directory structure and styling.
 - State that source code is unavailable for public review and that use is at the
   user's own risk. The Spanish copy also explicitly mentions responsibility.
+- Render that notice separately from the description through a shared notice
+  field. The same mechanism covers unavailable, partial, and unverified source
+  across the directory; see `ECOSYSTEM_SOURCE_AVAILABILITY.md` for evidence.
 - Link to the supplied application URL without implying an endorsement or audit.
 - Version the homepage's inline brand mark as a local SVG, preserving its
   geometry and converting its primary color `oklch(58% .11 192)` to `#008e8b`.
