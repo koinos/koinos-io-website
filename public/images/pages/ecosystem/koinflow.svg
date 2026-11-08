@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="title">
+  <title id="title">KoinFlow</title>
+  <rect width="32" height="32" rx="8" fill="#008e8b"/>
+  <path d="M9 22V10M9 16l7-6M9 16l7 6" stroke="#fff" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  <rect x="19" y="9" width="3" height="10" rx="1" fill="#fff"/>
+  <rect x="23.5" y="13" width="3" height="10" rx="1" fill="#fff" opacity=".55"/>
+</svg>

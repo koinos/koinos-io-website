@@ -6,12 +6,26 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import LocalizedHead from "@/components/i18n/LocalizedHead";
 
+const sourceCodeNotices = {
+  unavailable: "Source code is not available for public review. Use at your own risk.",
+  partial: "Public code was found for some components, but the complete application source could not be verified. Use at your own risk.",
+  unverified: "A public source-code repository for this application could not be verified. Use at your own risk.",
+};
+
 const ecosystemProjects = [
   {
     name: "KoinDX",
+    sourceCodeStatus: "partial",
     description: "KoinDX is a decentralized exchange designed to facilitate seamless token swaps, providing users with a fast, and user-friendly trading experience.",
     icon: "/images/pages/ecosystem/koindx.png",
     url: "https://koindx.com/",
+  },
+  {
+    name: "KoinFlow",
+    sourceCodeStatus: "unavailable",
+    description: "KoinFlow is a community-built trading interface for exploring Koinos token markets and KoinDX liquidity pools, with charts and Kondor wallet integration.",
+    icon: "/images/pages/ecosystem/koinflow.svg",
+    url: "https://koinflow.netlify.app/",
   },
   {
     name: "Trade Koinos",
@@ -24,6 +38,7 @@ const ecosystemProjects = [
   },
   {
     name: "Kollection",
+    sourceCodeStatus: "partial",
     description: "Kollection is an open-source NFT marketplace for creating, discovering, and trading digital assets on Koinos.",
     icon: "/images/pages/ecosystem/kollection.png",
     url: "https://github.com/kollection-nft",
@@ -39,6 +54,7 @@ const ecosystemProjects = [
   },
   {
     name: "Aurvania",
+    sourceCodeStatus: "unverified",
     description: "Aurvania is a live, free-to-play and play-to-own dungeon crawler on Koinos mainnet where players catch and evolve creatures, explore dungeons, and own in-game relics as NFTs.",
     icon: "/images/pages/ecosystem/aurvania.svg",
     links: [
@@ -132,12 +148,14 @@ const ecosystemProjects = [
   },
   {
     name: "Koin Crew",
+    sourceCodeStatus: "unverified",
     description: "Koin Crew offers a suite of utilities designed to enhance the Koinos ecosystem, providing users with a range of tools and services to optimize their blockchain experience.",
     icon: "/images/pages/ecosystem/koincrew.png",
     url: "https://koincrew.com/",
   },
   {
     name: "Koinosscan",
+    sourceCodeStatus: "partial",
     description: "Explore Koinos Blockchain - Search for wallet addresses to view token transfers and balances and NFTs.",
     icon: "/images/pages/ecosystem/koinosscan.png",
     url: "https://koinosscan.com/",
@@ -239,6 +257,9 @@ export default function EcosystemPage() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">{dapp.name}</h6>
                         <p>{dapp.description}</p>
+                        {sourceCodeNotices[dapp.sourceCodeStatus] && (
+                          <p>{sourceCodeNotices[dapp.sourceCodeStatus]}</p>
+                        )}
                         <div className="d-flex flex-wrap gap-3 mt-8">
                           {(dapp.links || [{ label: "Learn more", url: dapp.url }]).map((link) => (
                             <a href={link.url} target="_blank" rel="noreferrer" className="btn-link" key={link.url}>{link.label}</a>
