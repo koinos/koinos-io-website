@@ -147,6 +147,16 @@ const ecosystemProjects = [
     url: "https://github.com/koinos/teleno",
   },
   {
+    name: "KoinosProof",
+    sourceCodeStatus: "unverified",
+    description: "KoinosProof is an independent app for creating fingerprints of photos, videos, and documents on your device, anchoring records on Koinos, and generating certificates for later file verification. Its timestamps record certification, not when a file was originally captured.",
+    icon: "/images/pages/ecosystem/koinosproof.svg",
+    links: [
+      { label: "Website", url: "https://koinosproof.com/" },
+      { label: "Documentation", url: "https://koinosproof.com/koinos.html" },
+    ],
+  },
+  {
     name: "Koin Crew",
     sourceCodeStatus: "unverified",
     description: "Koin Crew offers a suite of utilities designed to enhance the Koinos ecosystem, providing users with a range of tools and services to optimize their blockchain experience.",

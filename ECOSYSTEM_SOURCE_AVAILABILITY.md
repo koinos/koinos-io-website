@@ -2,6 +2,8 @@
 
 Checked on 2026-11-08 for the ecosystem risk notices.
 
+KoinosProof was added and its source availability checked on 2026-11-10.
+
 ## Criteria
 
 Checked public project pages, public GitHub/GitLab repository listings, root
@@ -37,6 +39,7 @@ Cards share translated notices selected by the optional `sourceCodeStatus`:
 | Koinos One | Application source located | [Repository](https://github.com/koinos/koinos-one): backend, electron, node |
 | KoinosKit | Application source located | [Repository](https://github.com/therexdev/Koinos-Node): electron, ui |
 | Teleno | Application source located | [Repository](https://github.com/koinos/teleno): src, tests |
+| KoinosProof | Public application-source repository not verified | [Homepage](https://koinosproof.com/), [technical explanation](https://koinosproof.com/koinos.html); the linked [koinos-pq](https://github.com/Justyoureverydaynormalguybob/koinos-pq) account-contract project is not the application source |
 | Koin Crew | Public application-source repository not verified | [Application](https://koincrew.com/), [public GitHub account](https://github.com/koincrew); the located token list is not the application source |
 | Koinosscan | Partial: public data adapter; complete explorer source not verified | [Repository and README](https://github.com/interfecto/koinosscan) list koindx-gt-adapter |
 | VortexBridge | Interface, validator and contract source located | [Public repositories](https://github.com/orgs/VortexBridge/repositories): koinos-bridge-ui, interface-bridge, koinos-bridge-validator and contract repositories |
@@ -49,7 +52,7 @@ appropriate. Token lists, ABIs, and GitHub profiles alone are insufficient to
 establish application-source availability. This inventory does not certify
 complete source publication, deployed-source parity, licensing, or security.
 
-## Implementation validation
+## Initial implementation validation (2026-11-08)
 
 - `npm run build` and `git diff --check` passed on the isolated PR branch.
 - Generated English and Spanish HTML was checked across all 21 directory cards:
