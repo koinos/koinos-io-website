@@ -109,9 +109,15 @@ const ecosystemProjects = [
   },
   {
     name: "Fogata",
-    description: "Fogata is a robust mining pool specifically designed for Koinos enthusiasts, where users can run their own pools or join those of the community.",
-    icon: "/images/pages/ecosystem/fogata.png",
-    url: "https://fogata.io/",
+    sourceCodeStatus: "partial",
+    description: "Fogata 2 brings Koinos mining pools and a KOIN/VHP order book into KoinScan. Explore pools, participate with KOIN or VHP, and manage reward preferences through its beta interface. Depositing KOIN permanently burns it into VHP; selling VHP requires a buyer.",
+    icon: "/images/pages/ecosystem/fogata.svg",
+    links: [
+      { label: "Website", url: "https://www.koinscan.com/fogata" },
+      { label: "Documentation", url: "https://www.koinscan.com/fogata/help" },
+      { label: "Interface source", url: "https://github.com/Armana-group/koinscan" },
+      { label: "Fogata 1", url: "https://fogata.io/" },
+    ],
   },
   {
     name: "BurnKoin",

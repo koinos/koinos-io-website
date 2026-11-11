@@ -31,7 +31,7 @@ Cards share translated notices selected by the optional `sourceCodeStatus`:
 | NFT Studio | Application source located | [Repository](https://github.com/therexdev/discover-koinos): public/nft.html and JavaScript assets |
 | Token Lab | Application source located | [Repository](https://github.com/therexdev/discover-koinos): public/token.html and JavaScript assets |
 | Koinos AI | Application source located | [Repository](https://github.com/therexdev/kaiapp): core, server, electron, ui |
-| Fogata | Contract and interface source located | [Contracts](https://github.com/joticajulian/fogata), [interface](https://github.com/tenonedesign/fogata-ui) |
+| Fogata | Partial for the current v2 listing; interface source public, v2 contract source not verified (2026-11-11) | [Current interface](https://github.com/Armana-group/koinscan), [Fogata 2 guide](https://www.koinscan.com/fogata/help); its Armana-group/fogata2 contract link returned HTTP 404. [Fogata 1 contracts](https://github.com/joticajulian/fogata) and [older interface](https://github.com/tenonedesign/fogata-ui) are separate legacy sources |
 | BurnKoin | Contract and interface source located | [Contracts](https://github.com/lukemwillis/koinos-burn-pool), [interface](https://github.com/lukemwillis/koinos-burn-pool-ui); both linked from burnkoin.com |
 | Koinos Blocks | Explorer source located | [Original GitLab project](https://gitlab.com/engrave/koinos/koinosblocks), [GitHub copy](https://github.com/joticajulian/koinosblocks) with development instructions and original registry link |
 | Koinos One | Application source located | [Repository](https://github.com/koinos/koinos-one): backend, electron, node |
