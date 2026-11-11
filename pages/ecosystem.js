@@ -120,12 +120,6 @@ const ecosystemProjects = [
     ],
   },
   {
-    name: "BurnKoin",
-    description: "BurnKoin is a dedicated mining pool focused on optimizing mining rewards for its users, providing a reliable and efficient environment for Koinos miners.",
-    icon: "/images/pages/ecosystem/burnkoin.png",
-    url: "https://burnkoin.com/",
-  },
-  {
     name: "Koinos Blocks",
     description: "Koinos Blocks is a detailed block explorer for the Koinos blockchain, offering comprehensive data and analytics for users to explore.",
     icon: "/images/pages/ecosystem/koinosblocks.png",

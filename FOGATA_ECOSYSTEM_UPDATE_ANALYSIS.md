@@ -1,4 +1,4 @@
-# Fogata 2 ecosystem update
+# Fogata 2 ecosystem update and BurnKoin removal
 
 Reviewed on 2026-11-11.
 
@@ -31,6 +31,8 @@ Reviewed on 2026-11-11.
   source. Do not link the unavailable v2 contract repository as usable source.
 - Version the current SVG mark locally and reuse the existing card layout.
 - Set `sourceCodeStatus` to `partial`, using the shared translated risk notice.
+- Remove BurnKoin from the directory and its unused Spanish description at the
+  user's request. This editorial removal makes no claim about project status.
 - Do not claim an audit, guaranteed returns, immediate KOIN redemption, or a
   verified deployment/source match. No wallet connection, deposit, trade, or node
   configuration is part of this change.
@@ -41,7 +43,8 @@ Reviewed on 2026-11-11.
   parsing passed. The build reported existing browser-data and History warnings.
 - Generated English and Spanish HTML contains one Fogata card, the v2/beta
   description, burn/market caveats, the partial-source notice, and all four links.
-  The directory still has 21 cards; this change does not add a duplicate.
+  After the requested BurnKoin removal, the directory has 20 cards and no
+  BurnKoin entry; Fogata remains a single card.
 - Native Chrome checks passed at desktop and 390px mobile width in Spanish,
   including the new logo and wrapped link row, without visible clipping.
 - PR #149 for KoinosProof was still open when this work began. This change uses
