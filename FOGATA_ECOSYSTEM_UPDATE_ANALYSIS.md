@@ -1,4 +1,4 @@
-# Fogata 2 ecosystem update and BurnKoin removal
+# Ecosystem GitHub links, Fogata 2 update, and BurnKoin removal
 
 Reviewed on 2026-11-11.
 
@@ -33,6 +33,10 @@ Reviewed on 2026-11-11.
 - Set `sourceCodeStatus` to `partial`, using the shared translated risk notice.
 - Remove BurnKoin from the directory and its unused Spanish description at the
   user's request. This editorial removal makes no claim about project status.
+- Add visible GitHub repository links wherever public source was located. Label
+  component-only repositories explicitly and retain the existing disclaimers for
+  unavailable, unverified, and partial source. Every card must expose a repository
+  link or a source-availability disclaimer.
 - Do not claim an audit, guaranteed returns, immediate KOIN redemption, or a
   verified deployment/source match. No wallet connection, deposit, trade, or node
   configuration is part of this change.
@@ -50,3 +54,7 @@ Reviewed on 2026-11-11.
 - PR #149 for KoinosProof was still open when this work began. This change uses
   an independent branch from current `master` and does not modify that PR or the
   user's unrelated working-tree changes.
+- The source-link follow-up verified all 14 distinct linked repositories as
+  public through GitHub's API. Generated HTML in both languages has 17 cards
+  with visible GitHub links; the remaining three have source-availability
+  disclaimers. Component labels are translated and partial-source notices remain.

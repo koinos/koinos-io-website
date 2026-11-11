@@ -16,6 +16,14 @@ Cards share translated notices selected by the optional `sourceCodeStatus`:
 - `unverified`: no public application-source repository could be verified.
 - Other cards have public application source located below and no such notice.
 
+Visible source-link pass on 2026-11-11: every card now has a labelled GitHub
+repository link or a source-availability notice. Links to contracts, SDKs,
+interfaces, and adapters identify their scope; partial-source notices remain.
+KoinFlow, Aurvania, and Koin Crew retain their notices without invented links.
+The Koinos Blocks GitHub link is a public copy; its original GitLab source is
+recorded below. VortexBridge links to `VortexBridge/interface-bridge`, whose
+README identifies it as the bridge web UI.
+
 ## Directory review
 
 | Application | Finding | Public evidence |
