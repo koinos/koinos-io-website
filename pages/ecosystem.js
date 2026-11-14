@@ -18,7 +18,11 @@ const ecosystemProjects = [
     sourceCodeStatus: "partial",
     description: "KoinDX is a decentralized exchange designed to facilitate seamless token swaps, providing users with a fast, and user-friendly trading experience.",
     icon: "/images/pages/ecosystem/koindx.png",
-    url: "https://koindx.com/",
+    links: [
+      { label: "Website", url: "https://koindx.com/" },
+      { label: "GitHub (contracts)", url: "https://github.com/koindx/v2-core" },
+      { label: "GitHub (SDK)", url: "https://github.com/koindx/v2-sdk" },
+    ],
   },
   {
     name: "KoinFlow",
@@ -41,7 +45,9 @@ const ecosystemProjects = [
     sourceCodeStatus: "partial",
     description: "Kollection is an open-source NFT marketplace for creating, discovering, and trading digital assets on Koinos.",
     icon: "/images/pages/ecosystem/kollection.png",
-    url: "https://github.com/kollection-nft",
+    links: [
+      { label: "GitHub (contracts)", url: "https://github.com/kollection-nft/marketplace" },
+    ],
   },
   {
     name: "OURO",
@@ -109,27 +115,32 @@ const ecosystemProjects = [
   },
   {
     name: "Fogata",
-    description: "Fogata is a robust mining pool specifically designed for Koinos enthusiasts, where users can run their own pools or join those of the community.",
-    icon: "/images/pages/ecosystem/fogata.png",
-    url: "https://fogata.io/",
-  },
-  {
-    name: "BurnKoin",
-    description: "BurnKoin is a dedicated mining pool focused on optimizing mining rewards for its users, providing a reliable and efficient environment for Koinos miners.",
-    icon: "/images/pages/ecosystem/burnkoin.png",
-    url: "https://burnkoin.com/",
+    sourceCodeStatus: "partial",
+    description: "Fogata 2 brings Koinos mining pools and a KOIN/VHP order book into KoinScan. Explore pools, participate with KOIN or VHP, and manage reward preferences through its beta interface. Depositing KOIN permanently burns it into VHP; selling VHP requires a buyer.",
+    icon: "/images/pages/ecosystem/fogata.svg",
+    links: [
+      { label: "Website", url: "https://www.koinscan.com/fogata" },
+      { label: "Documentation", url: "https://www.koinscan.com/fogata/help" },
+      { label: "GitHub (interface)", url: "https://github.com/Armana-group/koinscan" },
+      { label: "Fogata 1", url: "https://fogata.io/" },
+    ],
   },
   {
     name: "Koinos Blocks",
     description: "Koinos Blocks is a detailed block explorer for the Koinos blockchain, offering comprehensive data and analytics for users to explore.",
     icon: "/images/pages/ecosystem/koinosblocks.png",
-    url: "https://koinosblocks.com/",
+    links: [
+      { label: "Website", url: "https://koinosblocks.com/" },
+      { label: "GitHub", url: "https://github.com/joticajulian/koinosblocks" },
+    ],
   },
   {
     name: "Koinos One",
     description: "Koinos One is a community-driven experimental desktop app for running, restoring, backing up, and producing with a native Koinos node.",
     icon: "/images/pages/ecosystem/koinos-one.png",
-    url: "https://github.com/koinos/koinos-one",
+    links: [
+      { label: "GitHub", url: "https://github.com/koinos/koinos-one" },
+    ],
   },
   {
     name: "KoinosKit",
@@ -144,7 +155,9 @@ const ecosystemProjects = [
     name: "Teleno",
     description: "Teleno is an experimental monolithic, Koinos-compatible blockchain node developed as a single native binary. The official Koinos reference implementation remains the microservices architecture.",
     icon: "/images/pages/ecosystem/teleno.png",
-    url: "https://github.com/koinos/teleno",
+    links: [
+      { label: "GitHub", url: "https://github.com/koinos/teleno" },
+    ],
   },
   {
     name: "Koin Crew",
@@ -158,19 +171,28 @@ const ecosystemProjects = [
     sourceCodeStatus: "partial",
     description: "Explore Koinos Blockchain - Search for wallet addresses to view token transfers and balances and NFTs.",
     icon: "/images/pages/ecosystem/koinosscan.png",
-    url: "https://koinosscan.com/",
+    links: [
+      { label: "Website", url: "https://koinosscan.com/" },
+      { label: "GitHub (adapter)", url: "https://github.com/interfecto/koinosscan" },
+    ],
   },
   {
     name: "VortexBridge",
     description: "Cross-chain bridge enabling seamless asset transfers between Koinos and other blockchain networks, providing liquidity and interoperability.",
     icon: "/images/pages/ecosystem/vortexbridge.png",
-    url: "https://vortexbridge.io/bridge",
+    links: [
+      { label: "Website", url: "https://vortexbridge.io/bridge" },
+      { label: "GitHub (interface)", url: "https://github.com/VortexBridge/interface-bridge" },
+    ],
   },
   {
     name: "Koinscan",
     description: "A comprehensive block explorer for the Koinos blockchain, providing detailed transaction data, block information, and network analytics.",
     icon: "/images/pages/ecosystem/koinscan.png",
-    url: "https://www.koinscan.com/",
+    links: [
+      { label: "Website", url: "https://www.koinscan.com/" },
+      { label: "GitHub", url: "https://github.com/Armana-group/koinscan" },
+    ],
   },
 ];
 
